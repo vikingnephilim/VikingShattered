@@ -3,7 +3,7 @@
 owner = ARE
 controller = ARE
 culture = tuscan 
-religion = catholic 
+religion = waldensian 
 hre = yes 
 base_tax = 6
 base_production = 6

@@ -3,7 +3,7 @@
 owner = VRN
 controller = VRN	
 culture = venetian 
-religion = catholic 
+religion = waldensian
 hre = yes 
 base_tax = 5
 base_production = 5  

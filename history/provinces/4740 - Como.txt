@@ -3,7 +3,7 @@
 owner = MLO
 controller = MLO
 culture = lombard
-religion = catholic
+religion = waldensian
 hre = yes
 base_tax = 4
 base_production = 4

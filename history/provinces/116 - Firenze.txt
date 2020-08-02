@@ -3,7 +3,7 @@
 owner = LAN
 controller = LAN
 culture = tuscan
-religion = catholic
+religion = waldensian
 hre = yes
 base_tax = 10
 base_production = 12

@@ -3,7 +3,7 @@
 owner = PAV
 controller = PAV
 culture = lombard
-religion = catholic
+religion = waldensian
 hre = yes
 base_tax = 6
 base_production = 5

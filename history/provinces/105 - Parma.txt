@@ -3,7 +3,7 @@
 owner = PAR
 controller = PAR
 culture = romagnan 
-religion = catholic 
+religion = waldensian 
 hre = yes 
 base_tax = 6 
 base_production = 5 

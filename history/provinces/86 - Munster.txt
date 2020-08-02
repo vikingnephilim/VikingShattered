@@ -3,7 +3,7 @@
 owner = MUN
 controller = MUN
 culture = hannoverian
-religion = catholic
+religion = waldensian
 trade_goods = cloth
 capital = "Münster"
 base_tax = 4

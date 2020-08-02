@@ -3,7 +3,7 @@
 owner = BRG
 controller = BRG
 culture = hessian
-religion = catholic
+religion = waldensian
 trade_goods = grain
 capital = "Jülich"
 base_tax = 3
