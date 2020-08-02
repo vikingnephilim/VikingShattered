@@ -1002,7 +1002,7 @@ christian = {
 		heretic = { TABORITE UTRAQUIST ORPHAN }
 	}
 	protestant = {
-		color = { 95 158 160 }
+		color = { 0 0 255 }
 		icon = 2
 		allowed_conversion = {
 			reformed
