@@ -1,0 +1,22 @@
+# 69 - Dortmund
+culture = hannoverian
+owner = RVA
+controller = RVA
+add_core = RVA
+capital = "Dortmund"
+religion = catholic
+trade_goods = cloth
+base_tax = 6
+base_production = 5
+base_manpower = 1
+is_city = yes
+hre = yes
+center_of_trade = 1
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.25 = { hre = no }

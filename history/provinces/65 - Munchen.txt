@@ -1,0 +1,21 @@
+# 65 - München
+owner = UBV
+controller = UBV
+add_core = UBV
+culture = bavarian
+religion = catholic
+base_tax = 6 
+base_production = 5
+trade_goods = grain
+base_manpower = 4
+capital = "München"
+is_city = yes
+hre = yes
+fort_15th = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+
+1444.11.25 = { hre = no }

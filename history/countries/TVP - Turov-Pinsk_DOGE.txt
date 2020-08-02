@@ -1,0 +1,16 @@
+# Turov-Pinsnk
+government = monarchy
+primary_culture = black_ruthenian
+add_accepted_culture = white_ruthenian
+religion = orthodox
+technology_group = eastern
+capital = 1941 # Turov
+
+1444.1.1 = {
+	monarch = {
+		name = "Standard Drater"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

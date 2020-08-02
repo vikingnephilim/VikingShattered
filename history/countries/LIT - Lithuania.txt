@@ -1,0 +1,24 @@
+government = monarchy
+add_government_reform = grand_duchy_reform
+government_rank = 1
+primary_culture = lithuanian
+religion = baltic_pagan_reformed
+technology_group = eastern
+capital = 272 # Vilnius
+
+
+
+1440.1.1 = {
+	monarch = {
+		name = "Kazimierz"
+		dynasty = Jagiellon
+		birth_date = 1427.11.30
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = incorruptible_personality
+	religion = catholic
+}

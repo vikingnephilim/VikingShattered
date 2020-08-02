@@ -1,0 +1,22 @@
+# 97 - North Holland - Principal cities: Amsterdam, Haarlem
+
+owner = HOL
+controller = HOL
+add_core = HOL
+capital = "Amsterdam"
+is_city = yes
+culture = dutch
+religion = catholic
+hre = yes
+base_tax = 6
+base_production = 6
+trade_goods = cloth
+base_manpower = 4
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 16
+center_of_trade = 2
+
+1444.11.25 = { hre = no }

@@ -1,0 +1,21 @@
+# 84 - Berg
+
+owner = BRG
+controller = BRG
+add_core = BRG
+culture = hessian
+religion = catholic
+trade_goods = cloth
+capital = "Düsseldorf"
+base_tax = 4
+base_production = 4
+base_manpower = 1
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+hre = yes
+
+1444.11.25 = { hre = no }

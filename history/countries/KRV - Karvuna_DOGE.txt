@@ -1,0 +1,17 @@
+# Karvuna
+
+government = monarchy
+government_rank = 1
+technology_group = eastern
+primary_culture = bulgarian
+religion = bogomilist
+capital = 159 #Silistre
+
+1441.11.01 = {
+	monarch = {
+		name = "Standard Drater"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

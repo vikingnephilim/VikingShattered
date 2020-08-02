@@ -1,0 +1,20 @@
+government = monarchy
+#add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = bavarian
+religion = catholic
+capital = 2955	# Ingolstadt
+
+
+
+1438.5.1 = {
+	monarch = {
+		name = "Ludwig "
+		dynasty = "von Elsbachwittel"
+		birth_date = 1420.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

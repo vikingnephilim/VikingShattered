@@ -1,0 +1,22 @@
+#1873 - Chur
+
+owner = TTL
+controller = TTL
+culture = swiss
+religion = catholic
+capital = "Chur"
+trade_goods = livestock
+hre = yes
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+is_city = yes
+fort_15th = yes
+add_core = TTL
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+
+1444.11.25 = { hre = no }

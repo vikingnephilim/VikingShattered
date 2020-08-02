@@ -1,0 +1,24 @@
+#62 - Leipzig
+
+latent_trade_goods = {
+	coal
+}
+
+owner = SAX
+controller = SAX 
+culture = saxon
+religion = catholic
+capital = "Leipzig"
+trade_goods = wool
+hre = yes
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = yes
+add_core = SAX
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.25 = { hre = no }

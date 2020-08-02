@@ -1,0 +1,136 @@
+country_decisions = {
+	form_austria_hungary = {
+		major = yes
+		potential = {
+			tag = HAB
+			NOT = { exists = HUN }
+			NOT = { has_country_flag = formed_austria_hungary }
+			}
+			provinces_to_highlight = {
+				OR = {
+				province_id = 134
+				province_id = 153
+				province_id = 131
+				province_id = 155
+				province_id = 158
+				province_id = 73
+				province_id = 4759
+					}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+				}
+			}	
+	allow = {
+		tag = HAB 
+		has_regency = no
+		is_free_or_tributary_trigger = yes
+		is_nomad = no			
+		is_at_war = no
+		AND = { 
+			owns_core_province = 134
+			owns_core_province = 153
+			owns_core_province = 131
+			owns_core_province = 155
+			owns_core_province = 158
+			owns_core_province = 73
+			owns_core_province = 4759
+		}
+	}
+	effect = {
+		add_prestige =30
+		set_country_flag = formed_austria_hungary
+		austria_proper_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		rascia_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		serbia_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		bosnia_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		croatia_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		carinthia_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		inner_austria_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		transdanubia_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		alfold_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		slovakia_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		transylvania_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		southern_transylvania_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		wallachia_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		east_adriatic_coast_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+			}
+		moldavia_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+			}
+		override_country_name = austria_hungary_country
+		}
+	}
+}

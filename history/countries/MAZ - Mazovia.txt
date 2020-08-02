@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = catholic
+primary_culture = polish
+capital = 257	# Warsaw
+
+
+
+1429.12.8 = {
+	monarch = {
+		name = "Boleslaw IV"
+		dynasty = "Piastov"
+		birth_date = 1421.1.1
+		dip = 2
+		adm = 3
+		mil = 0
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architectural_visionary_personality
+}

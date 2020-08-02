@@ -1,0 +1,19 @@
+#10 Jämtland+Härjedalen
+
+owner = SVJ
+controller = SVJ
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fur
+base_manpower = 1
+capital = "Frösön"
+is_city = yes
+add_core = SVJ
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

@@ -1,0 +1,135 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new dieties, make sure they are uniquely named.
+
+jupiter = {
+	core_creation = -0.10
+	ae_impact = -0.10
+	
+	allow = {
+		religion = hellenic_pagan
+		NOT = { culture_group = byzantine }
+	}
+	sprite = 13
+}
+
+juno = {
+	diplomatic_annexation_cost = -0.10
+	diplomatic_reputation = 1
+	
+	allow = {
+		religion = hellenic_pagan
+		NOT = { culture_group = byzantine }
+	}
+	sprite = 14
+}
+
+mars = {
+	discipline = 0.05
+	infantry_power = 0.10
+	
+	allow = {
+		religion = hellenic_pagan
+		NOT = { culture_group = byzantine }
+	}
+	sprite = 15
+}
+
+minerva = {
+	technology_cost = -0.10
+	production_efficiency = 0.10
+	
+	allow = {
+		religion = hellenic_pagan
+		NOT = { culture_group = byzantine }
+	}
+	sprite = 16
+}
+
+mercury = {
+	trade_efficiency = 0.10
+	global_trade_power = 0.10
+	
+	allow = {
+		religion = hellenic_pagan
+		NOT = { culture_group = byzantine }
+	}
+	sprite = 17
+}
+
+venus = {
+	diplomatic_upkeep = 1
+	improve_relation_modifier = 0.30
+	
+	allow = {
+		religion = hellenic_pagan
+		NOT = { culture_group = byzantine }
+	}
+	sprite = 18
+}
+
+# Greek culture only
+zeus = {
+	core_creation = -0.10
+	ae_impact = -0.10
+	
+	allow = {
+		religion = hellenic_pagan
+		culture_group = byzantine
+	}
+	sprite = 13
+}
+
+hera = {
+	diplomatic_annexation_cost = -0.10
+	diplomatic_reputation = 1
+	
+	allow = {
+		religion = hellenic_pagan
+		culture_group = byzantine
+	}
+	sprite = 14
+}
+
+ares = {
+	discipline = 0.05
+	infantry_power = 0.10
+	
+	allow = {
+		religion = hellenic_pagan
+		culture_group = byzantine
+	}
+	sprite = 15
+}
+
+athena = {
+	technology_cost = -0.10
+	production_efficiency = 0.10
+	
+	allow = {
+		religion = hellenic_pagan
+		culture_group = byzantine
+	}
+	sprite = 16
+}
+
+hermes = {
+	trade_efficiency = 0.10
+	global_trade_power = 0.10
+	
+	allow = {
+		religion = hellenic_pagan
+		culture_group = byzantine
+	}
+	sprite = 17
+}
+
+aphrodite = {
+	diplomatic_upkeep = 1
+	improve_relation_modifier = 0.30
+	
+	allow = {
+		religion = hellenic_pagan
+		culture_group = byzantine
+	}
+	sprite = 18
+}

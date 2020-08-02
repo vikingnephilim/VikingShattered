@@ -1,0 +1,23 @@
+#85 - Köln
+
+owner = KOL
+controller = KOL
+add_core = KOL
+culture = hessian
+religion = catholic
+trade_goods = paper
+capital = "Köln"
+base_tax = 6 
+base_production = 6
+base_manpower = 3
+is_city = yes
+fort_15th = yes #Godesberg
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 16
+center_of_trade = 2
+
+1444.11.25 = { hre = no }

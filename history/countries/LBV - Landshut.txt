@@ -1,0 +1,21 @@
+#For the record, LBV = Lower Bavaria
+
+government = monarchy
+#add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = bavarian
+religion = catholic
+capital = 64	# Landshut
+
+
+1420.1.1 = {
+	monarch = {
+		name = "Ludwig"
+		dynasty = "von Bachswittel"
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+

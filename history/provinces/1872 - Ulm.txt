@@ -1,0 +1,21 @@
+# 1872 - Ulm
+owner = ULM
+controller = ULM
+add_core = ULM
+culture = swabian
+religion = catholic
+base_tax = 5 
+base_production = 6
+trade_goods = cloth	#fustians
+base_manpower = 4
+capital = "Ulm"
+is_city = yes
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 8
+center_of_trade = 1
+
+1444.11.25 = { hre = no }

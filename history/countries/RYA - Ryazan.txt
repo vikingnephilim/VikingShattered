@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+primary_culture = ryazanian
+religion = orthodox
+technology_group = eastern
+capital = 301	# Ryazan
+fixed_capital = 301 # Cannot move capital away from this province & no power cost to move to it
+
+1427.1.1 = {
+	monarch = {
+		name = "Ivan Fyodorovich"
+		dynasty = "Rurikov"
+		birth_date = 1402.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+
+}
+

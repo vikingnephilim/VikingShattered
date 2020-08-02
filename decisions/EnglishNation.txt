@@ -1,0 +1,149 @@
+country_decisions = {
+	english_nation = {
+		major = yes
+		potential = {
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_england_flag }
+			NOT = { exists = GBR }
+			NOT = { exists = ENG }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			NOT = { tag = KOI }
+			OR = { 
+				primary_culture = english
+				primary_culture = anglosaxon
+				primary_culture = mercian
+				primary_culture = northumbrian
+			 }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 236		# London
+				province_id = 237		# Oxfordshire
+				province_id = 234		# Wessex
+				province_id = 235		# Kent
+				province_id = 238		# East Anglia
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = { exists = ENG }
+			owns_core_province = 236		# London
+			owns_core_province = 237		# Oxfordshire
+			owns_core_province = 234		# Wessex
+			owns_core_province = 235		# Kent
+			owns_core_province = 238		# East Anglia
+		}
+		effect = {
+			236 = { #London
+				move_capital_effect = yes
+				change_culture = english
+			}
+			change_tag = ENG
+			change_primary_culture = english
+			set_ruler_culture = english
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = { 
+							culture = anglosaxon 
+							culture = mercian
+							culture = northumbrian
+						}
+					}
+					change_culture = english
+				}
+			if = {
+				limit = {
+					has_heir = yes
+				}
+				set_heir_culture = english
+			}
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			home_counties_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			yorkshire_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			east_midlands_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			west_midlands_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			east_anglia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			wales_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			wessex_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			#Cumbria
+			247 = {
+				if = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = ENG
+				}
+			}
+			#Northumberland
+			246 = {
+				if = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = ENG
+				}
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = formed_england_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+	}
+	
+}

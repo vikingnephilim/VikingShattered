@@ -1,0 +1,29 @@
+# Wessex
+government = monarchy
+#add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = anglosaxon
+religion = catholic
+capital = 234	# Hampshire
+
+1444.11.1 = {
+	monarch = {
+		name = "Ecgberht"
+        dynasty = "Cerdic"
+        birth_date = 1414.1.1
+		adm = 4
+		mil = 2
+		dip = 3
+	}
+}
+1444.11.2 = {
+    heir = {
+        name = "Aethelwulf"
+        dynasty = "Cerdic"
+        birth_date = 1432.1.1
+        adm = 2
+        dip = 4
+        mil = 3
+    }
+}

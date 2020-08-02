@@ -1,0 +1,20 @@
+# 1742 - Upper Guelders
+
+owner = GEL
+controller = GEL
+add_core = GEL
+is_city = yes
+capital = "Roermond"
+culture = flemish
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = cloth
+base_manpower = 4
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.25 = { hre = no }

@@ -1,0 +1,19 @@
+owner = KLE
+controller = KLE
+add_core = KLE
+culture = hessian
+religion = catholic
+trade_goods = cloth
+capital = "Kleves"
+base_tax = 5
+base_production = 5
+base_manpower = 4
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+hre = yes
+
+1444.11.25 = { hre = no }

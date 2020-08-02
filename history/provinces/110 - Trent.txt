@@ -1,0 +1,21 @@
+#110 - Trent
+
+owner = TNT
+controller = TNT
+add_core = TNT
+culture = venetian
+religion = catholic
+hre = yes
+base_tax = 4 
+base_production = 3
+trade_goods = iron 
+base_manpower = 1
+capital = "Trent"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+
+1444.11.25 = { hre = no }

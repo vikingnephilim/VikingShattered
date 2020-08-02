@@ -1,0 +1,23 @@
+# 4748 - Brandenburg
+
+owner = BRA
+controller = BRA
+add_core = BRA
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 3
+trade_goods = iron
+base_manpower = 3
+capital = "Brandenburg an der Havel"
+is_city = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.25 = { hre = no }

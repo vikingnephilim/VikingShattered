@@ -1,0 +1,21 @@
+owner = TRI
+controller = TRI
+culture = hessian
+religion = catholic
+trade_goods = grain
+capital = "Koblenz"
+base_tax = 4 
+base_production = 4
+is_city = yes
+fort_15th = yes #Eltz & Stolzenfels Castles
+add_core = TRI
+base_manpower = 2
+hre = yes
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.25 = { hre = no }

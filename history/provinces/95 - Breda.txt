@@ -1,0 +1,21 @@
+# 95 Breda - Principal cities: Breda
+
+owner = BRB
+controller = BRB
+add_core = BRB
+is_city = yes
+capital = "Breda"
+culture = dutch
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 3
+trade_goods = cloth
+base_manpower = 2
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.25 = { hre = no }

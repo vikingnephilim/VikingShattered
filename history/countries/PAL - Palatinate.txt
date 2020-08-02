@@ -1,0 +1,24 @@
+government = monarchy
+#add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = hessian
+add_accepted_culture = bavarian
+religion = catholic
+elector = yes
+technology_group = western
+capital = 77	# Pfalz
+
+
+1436.12.30 = {
+	monarch = {
+		name = "Ludwig"
+		dynasty = "von Elswittelbach"
+		birth_date = 1424.1.1
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+
+}
+
+1444.11.25 = { elector = no }

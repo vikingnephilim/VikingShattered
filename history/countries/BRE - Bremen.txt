@@ -1,0 +1,22 @@
+government = republic
+add_government_reform = free_city
+government_rank = 1
+mercantilism = 25
+technology_group = western
+religion = catholic
+primary_culture = lower_saxon
+capital = 1874	# Bremen
+historical_friend = HSA #Lübeck
+historical_friend = HAM #Hamburg
+historical_friend = RIG #Riga
+
+1444.11.11 = {
+	monarch = {
+		name = "Stadtrat"
+		adm = 4
+		dip = 4
+		mil = 4
+		regent = yes
+	}
+}
+

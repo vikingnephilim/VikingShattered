@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+primary_culture = persian
+religion = zoroastrian
+technology_group = muslim
+capital = 429 # Isfahan

@@ -1,0 +1,63 @@
+country_decisions = {
+	imperial_veche_republic_gov = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_imperial_veche }
+			AND = {
+				total_development = 1000
+				has_reform = veche_republic 
+				}
+			}
+	allow = {
+		is_free_or_tributary_trigger = yes
+		is_nomad = no			
+		is_at_war = no
+		has_reform = veche_republic
+	}
+	effect = {
+		add_prestige = 30
+		set_country_flag = formed_imperial_veche
+		if = {
+			limit = { has_reform = veche_republic }
+			remove_government_reform = veche_republic
+		}
+			add_government_reform = imperial_veche_republic
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+	}
+}
+
+country_decisions = {
+	peoples_republic_gov = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_peoples_veche }
+			AND = {
+				total_development = 1000
+				has_reform = peasants_republic 
+				}
+			}
+	allow = {
+		is_free_or_tributary_trigger = yes
+		is_nomad = no			
+		is_at_war = no
+		has_reform = peasants_republic
+	}
+	effect = {
+		add_prestige = 30
+		set_country_flag = formed_imperial_veche
+		if = {
+			limit = { has_reform = peasants_republic }
+			remove_government_reform = peasants_republic
+		}
+			add_government_reform = peoples_republic
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+	}
+}

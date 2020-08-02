@@ -1,0 +1,23 @@
+# 4742 - Goslar
+
+owner = GOS
+controller = GOS
+add_core = GOS
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = iron #Rammelsberg
+base_manpower = 1
+capital = "Goslar"
+is_city = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.25 = { hre = no }

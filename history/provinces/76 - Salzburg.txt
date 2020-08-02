@@ -1,0 +1,25 @@
+#76 - Salzburg
+
+owner = SLZ
+controller = SLZ 
+culture = bavarian
+religion = catholic
+capital = "Salzburg"
+trade_goods = salt
+hre = yes
+base_tax = 5 
+base_production = 5
+base_manpower = 4
+is_city = yes
+add_core = SLZ
+center_of_trade = 1
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+
+1444.11.25 = { hre = no }
