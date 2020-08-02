@@ -3,7 +3,7 @@ government = monarchy
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = sardinian
+primary_culture = corsican
 capital = 1247	# Bastia
 
 1444.1.1 = {
