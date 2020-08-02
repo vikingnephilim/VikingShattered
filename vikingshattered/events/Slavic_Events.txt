@@ -1,0 +1,65 @@
+country_event = {
+	id = slavic_events.1
+	title = "slavic_events.1.t"
+	desc = "slavic_events.1.d"
+	picture = FEAST_eventPicture
+	trigger = {
+		AND = {
+			OR = {
+				tag = KJW
+				tag = WOL
+				tag = DNZ
+				tag = STE
+				tag = MAZ
+				tag = NEU
+				tag = VLH
+			}
+		religion = catholic
+		}
+	}
+	mean_time_to_happen = { 
+		days = 10
+	}
+	immediate = {
+	}
+	option = {
+		name = "slavic_events.1.a"
+		change_religion = slavic_pagan_reformed
+		add_stability = -2
+		add_prestige = -50
+	}
+	option = {
+		name = "slavic_events.1.b"
+		add_stability = 1
+		add_years_of_income = 1.5
+	}
+}
+country_event = {
+	id = slavic_events.2
+	title = "slavic_events.2.t"
+	desc = "slavic_events.2.d"
+	picture = FEAST_eventPicture
+	trigger = {
+		AND = {
+			tag = TEU
+			religion = catholic
+		}
+	}
+	mean_time_to_happen = { 
+		days = 10
+	}
+	immediate = {
+	}
+	option = {
+		name = "slavic_events.2.a"
+		change_religion = slavic_pagan_reformed
+		add_stability = -3
+		add_prestige = -75
+		add_years_of_income = -0.3
+	}
+	option = {
+		name = "slavic_events.2.b"
+		add_stability = 2
+		add_years_of_income = 2.5
+	}
+}
