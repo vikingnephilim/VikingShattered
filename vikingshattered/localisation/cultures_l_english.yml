@@ -458,3 +458,5 @@
  slavic_events.2.d: "The Slavic Faith has almost completely been pushed back by catholicism, however a significant amount of our subjects still hold on to their pagan gods. We are now offered the choice to surrender to Perun, Czernobog and Svarog, or we can stay on the side of Catholicism and the Pope."
  slavic_events.2.a: "All Hail Czernobog!"
  slavic_events.2.b: "In the name of the son, the father and the Holy ghost, I condemn thy!"
+ hail_czernobog: "Hail Czernobog"
+ hail_popeman: "Hail God and Jesus Christ"

@@ -16,6 +16,11 @@ country_event = {
 			}
 		religion = catholic
 		}
+		NOT = {
+			AND = { 
+			has_country_flag = hail_czernobog
+			has_country_flag = hail_popeman
+		}
 	}
 	mean_time_to_happen = { 
 		days = 10
@@ -27,11 +32,21 @@ country_event = {
 		change_religion = slavic_pagan_reformed
 		add_stability = -2
 		add_prestige = -50
+		hidden_effect = {
+			add_country_modifier = {
+				name = hail_czernobog
+			}
+		}
 	}
 	option = {
 		name = "slavic_events.1.b"
 		add_stability = 1
 		add_years_of_income = 1.5
+		hidden_effect = {
+			add_country_modifier = {
+				name = hail_popeman
+			}
+		}
 	}
 }
 country_event = {
@@ -43,6 +58,12 @@ country_event = {
 		AND = {
 			tag = TEU
 			religion = catholic
+		}
+		NOT = {
+			AND = { 
+			has_country_flag = hail_czernobog
+			has_country_flag = hail_popeman
+			}
 		}
 	}
 	mean_time_to_happen = { 
@@ -56,10 +77,20 @@ country_event = {
 		add_stability = -3
 		add_prestige = -75
 		add_years_of_income = -0.3
+		hidden_effect = {
+			add_country_modifier = {
+				name = hail_czernobog
+			}
+		}
 	}
 	option = {
 		name = "slavic_events.2.b"
 		add_stability = 2
 		add_years_of_income = 2.5
+		hidden_effect = {
+			add_country_modifier = {
+				name = hail_popeman
+			}
+		}
 	}
 }
