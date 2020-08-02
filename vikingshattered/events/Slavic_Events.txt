@@ -17,7 +17,7 @@ country_event = {
 		religion = catholic
 		}
 		NOT = {
-			AND = { 
+			OR = { 
 			has_country_flag = hail_czernobog
 			has_country_flag = hail_popeman
 		}
@@ -60,7 +60,7 @@ country_event = {
 			religion = catholic
 		}
 		NOT = {
-			AND = { 
+			OR = { 
 			has_country_flag = hail_czernobog
 			has_country_flag = hail_popeman
 			}

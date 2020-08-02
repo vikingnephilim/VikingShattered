@@ -667,7 +667,9 @@ country_decisions = {
 	anti_christian_edict = {
 		potential = {
 			NOT = { has_country_modifier = the_anti_christian_edict }
-			religion_group = eastern
+			OR = { 
+				religion_group = eastern 
+				religion_group = pagan }
 			OR = {
 				any_neighbor_country = { religion_group = christian }
 				738 = { owner = { religion_group = christian } }
@@ -1553,6 +1555,7 @@ country_decisions = {
 		potential = {
 			religion_group = pagan
 			NOT = { religion = tengri_pagan_reformed }
+			NOT = {	has_country_flag = hail_czernobog }
 			any_owned_province = {
 				religion_group = christian
 			}
