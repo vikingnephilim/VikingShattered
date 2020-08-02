@@ -3,7 +3,7 @@
 owner = MON
 controller = MON
 culture = albanian
-religion = orthodox
+religion = bogomilist
 capital = "Zabljak"
 trade_goods = livestock
 hre = no
