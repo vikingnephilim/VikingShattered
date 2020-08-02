@@ -669,14 +669,10 @@ country_decisions = {
 			NOT = { has_country_modifier = the_anti_christian_edict }
 			OR = { 
 				religion_group = eastern 
-				religion_group = pagan }
-			OR = {
-				any_neighbor_country = { religion_group = christian }
-				738 = { owner = { religion_group = christian } }
-				666 = { owner = { religion_group = christian } }
-				668 = { owner = { religion_group = christian } }
+				religion_group = pagan 
 			}
-		}
+			any_neighbor_country = { religion_group = christian }
+			}
 		allow = {
 			is_defender_of_faith = no
 			OR = {
@@ -684,26 +680,7 @@ country_decisions = {
 					religion_group = christian
 					NOT = { has_opinion = { who = ROOT value = 0 } }
 				}
-				666 = {
-					owner = {
-						religion_group = christian
-						NOT = { has_opinion = { who = ROOT value = 0 } }
-					}
-				}
-				668 = {
-					owner = {
-						religion_group = christian
-						NOT = { has_opinion = { who = ROOT value = 0 } }
-					}
-				}
-				738 = {
-					owner = {
-						religion_group = christian
-						NOT = { has_opinion = { who = ROOT value = 0 } }
-					}
-				}
 			}
-
 		}
 		effect = {	
 			add_country_modifier = {
