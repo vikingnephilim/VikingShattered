@@ -1,4 +1,4 @@
-name="Viking_Nephilim MP Mod"
+name="Viking_Nephilim MP Mod new"
 replace_path="history/diplomacy"
 replace_path="common/bookmarks"
 tags={
