@@ -1,11 +1,10 @@
 # 4745 - Rügen
 
-owner = WOL
-controller = WOL
+owner = RUG
+controller = RUG
 add_core = RUG
-add_core = WOL
 culture = pommeranian
-religion = catholic
+religion = slavic_pagan_reformed
 hre = yes
 base_tax = 2
 base_production = 1
