@@ -2,7 +2,7 @@
 
 owner = HTK
 controller = HTK
-culture = togoku
+culture = chubu
 religion = shinto
 capital = "Kanazawa"
 trade_goods = grain

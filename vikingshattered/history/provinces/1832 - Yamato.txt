@@ -2,7 +2,7 @@
 
 owner = TTI
 controller = TTI
-culture = japanese
+culture = kansai
 religion = shinto
 capital = "Nara"
 trade_goods = tea

@@ -2,7 +2,7 @@
 
 owner = SBA
 controller = SBA
-culture = japanese
+culture = kansai
 religion = shinto
 capital = "Takefu"
 trade_goods = paper

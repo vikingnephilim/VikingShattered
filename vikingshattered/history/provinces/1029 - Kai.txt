@@ -2,7 +2,7 @@
 
 owner = TKD
 controller = TKD
-culture = togoku
+culture = chubu
 religion = shinto
 capital = "Kofu"
 trade_goods = livestock

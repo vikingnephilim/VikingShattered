@@ -2,7 +2,7 @@
 
 owner = ISK
 controller = ISK
-culture = japanese
+culture = kansai
 religion = shinto
 capital = "Miyazu"
 trade_goods = fish

@@ -2,7 +2,7 @@
 
 owner = OGS
 controller = OGS
-culture = togoku
+culture = chubu
 religion = shinto
 capital = "Nagano"
 trade_goods = livestock

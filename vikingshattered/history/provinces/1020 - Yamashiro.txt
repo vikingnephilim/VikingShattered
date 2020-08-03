@@ -2,7 +2,7 @@
 
 owner = ASK
 controller = ASK
-culture = japanese
+culture = kansai
 religion = shinto
 capital = "Kyoto"
 trade_goods = silk

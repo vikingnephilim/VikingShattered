@@ -2,7 +2,7 @@
 
 owner = UES
 controller = UES
-culture = togoku
+culture = kanto
 religion = shinto
 capital = "Mayabashi"
 trade_goods = livestock

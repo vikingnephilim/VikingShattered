@@ -2,7 +2,7 @@
 
 owner = TKI
 controller = TKI
-culture = togoku
+culture = chubu
 religion = shinto
 capital = "Inabayama"
 trade_goods = paper

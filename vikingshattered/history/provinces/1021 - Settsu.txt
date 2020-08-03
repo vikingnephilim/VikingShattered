@@ -2,7 +2,7 @@
 
 owner = HSK
 controller = HSK
-culture = japanese
+culture = kansai
 religion = shinto
 capital = "Naniwa"
 trade_goods = chinaware

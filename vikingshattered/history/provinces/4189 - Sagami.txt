@@ -2,7 +2,7 @@
 
 owner = ASK
 controller = ASK
-culture = togoku
+culture = kanto
 religion = shinto
 capital = "Kamakura"
 trade_goods = iron
