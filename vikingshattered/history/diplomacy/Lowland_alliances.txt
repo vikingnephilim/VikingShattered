@@ -1,63 +1,9 @@
-#Dutch states
-union = {
-	first = BUR
-	second = FLA
-	start_date = 1444.1.1
-	end_date = 1493.1.1
-}
-union = {
-	first = BUR
-	second = BRB
-	start_date = 1444.1.1
-	end_date = 1477.1.5
-}
-union = {
-	first = BUR
-	second = HOL
-	start_date = 1444.1.1
-	end_date = 1477.1.5
-}
-#vassal = {
-#	first = HAB
-#	second = NED
-#	start_date = 1477.1.5
-#	end_date = 1519.1.12
-#}
+
 vassal = {
 	first = SPA
 	second = NED
 	start_date = 1549.11.4
 	end_date = 1579.1.23
-}
-
-#union = {
-#	first = BUR
-#	second = HAI
-#	start_date = 1444.1.1
-#	end_date = 1477.1.5
-#}
-
-vassal = {
-	first = BUR
-	second = NEV
-	start_date = 1444.1.1
-	end_date = 1465.1.1
-}
-
-# Hainaut and Holland
-alliance = {
-	first = HAI
-	second = HOL
-	start_date = 1299.1.1
-	end_date = 1436.10.8
-}
-
-# Maria I/Marie I
-union = {
-	first = BUR
-	second = GEL
-	start_date = 1477.6.27
-	end_date = 1477.8.1
 }
 
 # Duke of Kleves/Gelre

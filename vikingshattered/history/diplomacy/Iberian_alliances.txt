@@ -30,14 +30,6 @@ union = {
 	end_date = 1506.9.25
 }
 
-# Aragon and Sicily, Alfons V/Alfonso I
-union = {
-	first = ARA
-	second = NAP
-	start_date = 1442.3.3
-	end_date = 1458.6.27
-}
-
 # Aragon and Austria (League of Venice)
 alliance = {
 	first = ARA
