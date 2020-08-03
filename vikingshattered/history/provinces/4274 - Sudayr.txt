@@ -2,7 +2,7 @@
 
 owner = NAJ
 controller = NAJ
-culture = bedouin_arabic
+culture = najdi_arabic
 religion = sunni
 capital = "al-Hauta"
 trade_goods = grain

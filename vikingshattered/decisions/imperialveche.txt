@@ -6,8 +6,13 @@ country_decisions = {
 			AND = {
 				total_development = 1000
 				has_reform = veche_republic 
+				OR {
+					culture_group = novgorod_group
+					culture_group = east_slavic
+					culture_group = ruthenian_group
 				}
 			}
+		}
 	allow = {
 		is_free_or_tributary_trigger = yes
 		is_nomad = no			
@@ -54,6 +59,44 @@ country_decisions = {
 			remove_government_reform = peasants_republic
 		}
 			add_government_reform = peoples_republic
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+	}
+}
+
+
+country_decisions = {
+	tsardom_gov = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_tsardom }
+			AND = {
+				total_development = 1000
+				has_reform = principality
+				OR {
+					culture_group = novgorod_group
+					culture_group = east_slavic
+					culture_group = ruthenian_group
+				}
+				}
+			}
+	allow = {
+		is_free_or_tributary_trigger = yes
+		is_nomad = no			
+		is_at_war = no
+		has_reform = principality
+	}
+	effect = {
+		add_prestige = 30
+		set_country_flag = formed_tsardom
+		if = {
+			limit = { has_reform = principality }
+			remove_government_reform = principality
+		}
+			add_government_reform = tsardom
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

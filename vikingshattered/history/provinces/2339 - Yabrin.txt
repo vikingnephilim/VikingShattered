@@ -2,7 +2,7 @@
 
 owner = DAW
 controller = DAW
-culture = bedouin_arabic
+culture = najdi_arabic
 religion = sunni
 capital = "Yabrin"
 trade_goods = grain
