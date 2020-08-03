@@ -6,14 +6,16 @@ add_core = RUG
 culture = pommeranian
 religion = slavic_pagan_reformed
 hre = yes
-base_tax = 2
-base_production = 1
+base_tax = 4
+base_production = 3
 trade_goods = fish
-base_manpower = 1
+base_manpower = 3
 capital = "Bergen auf Rügen"
 is_city = yes
-
 #unrest = 8 #pirate independence of thought
+
+add_province_triggered_modifier = jaromarsburg
+
 
 discovered_by = eastern
 discovered_by = western
