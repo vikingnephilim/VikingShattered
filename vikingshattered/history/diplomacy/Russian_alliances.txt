@@ -1,41 +1,9 @@
-# Muscovy and Pskov
-vassal = {
-	first = MOS
-	second = PSK
-	start_date = 1444.1.1
-	end_date = 1503.4.1
-}
-
 # Russia and Pskov
 vassal = {
 	first = RUS
 	second = PSK
 	start_date = 1503.4.2
 	end_date = 1510.1.19
-}
-
-# Muscovy and Yaroslavl
-vassal = {
-	first = MOS
-	second = YAR
-	start_date = 1444.1.1
-	end_date = 1463.1.1
-}
-
-# Muscovy and Beloozero
-vassal = {
-	first = MOS
-	second = BLO
-	start_date = 1444.1.1
-	end_date = 1486.1.1
-}
-
-# Muscovy and Rostov
-vassal = {
-	first = MOS
-	second = RSO
-	start_date = 1444.1.1
-	end_date = 1474.1.1
 }
 
 # Russian vassal - Qasim khanate
@@ -52,14 +20,6 @@ vassal = {
 	second = QAS
 	start_date = 1503.4.2
 	end_date = 1681.1.1
-}
-
-# Muscovite vassal - Great Perm
-vassal = {
-	first = MOS
-	second = PRM
-	start_date = 1444.11.11
-	end_date = 1503.4.1
 }
 
 # Russian vassal - Great Perm

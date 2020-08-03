@@ -151,13 +151,6 @@ vassal = {
 
 #Vijayanagar
 
-alliance = { #Vijayanagara and the Reddys
-	first = VIJ
-	second = YOR
-	start_date = 1443.1.1
-	end_date = 1448.1.1
-}
-
 #Vassal of Vijayanagara
 vassal = {
 	first = VIJ
@@ -181,14 +174,6 @@ vassal = {
 	end_date = 1467.1.1
 }
 
-#Kandy
-vassal = {
-	first = CEY
-	second = KND
-	start_date = 1440.1.1
-	end_date = 1467.1.1
-}
-
 alliance = {
 	first = NED
 	second = KND
@@ -204,14 +189,6 @@ vassal = {
 	start_date = 1565.7.1
 	end_date = 1574.1.1
 }
-
-# Zamorins
-# guarantee = {  #Zamorin rulers are tributary to Vijayanagara kings
-	# first = VIJ
-	# second = MAB
-	# start_date = 1444.1.1
-	# end_date = 1540.1.1
-# }
 
 #Zamorin favours the Portuguese
 vassal = {  
@@ -292,14 +269,6 @@ vassal = {
 }
 
 #Mysore
-
-#Very independent feudatory of Vijayanagar under the Ummatur cheifs, often in rebelion
-# alliance = {
-	# first = VIJ
-	# second = MYS
-	# start_date = 1444.1.1
-	# end_date = 1505.1.1 #Revolt of the Ummatur chiefs followed by final subjugation
-# }
 
 alliance = {
 	first = MUG
@@ -433,14 +402,6 @@ vassal = {
 	end_date = 1707.3.15
 }
 
-#Hadoti (Bundi & Kota)
-vassal = {
-	first = MER
-	second = HAD
-	start_date = 1444.1.1
-	end_date = 1456.1.1
-}
-
 vassal = {
 	first = MER
 	second = HAD
@@ -507,15 +468,6 @@ vassal = {
 	start_date = 1818.1.1
 	end_date = 1858.1.1
 }
-
-#Bahlul Lodi's Punjabi Domain
-vassal = {
-	first = DLH
-	second = SRH
-	start_date = 1443.1.1
-	end_date = 1451.4.20
-}
-
 #Bikaner
 
 vassal = {
@@ -677,20 +629,6 @@ vassal = {
 
 #Bundelkhand
 
-#Bundelkhand overlord
-vassal = {
-	first = MLW
-	second = KLP
-	start_date = 1443.1.1
-	end_date = 1531.1.1
-}
-
-vassal = {
-	first = MLW
-	second = BND
-	start_date = 1443.1.1
-	end_date = 1531.1.1
-}
 
 #Bundelkhand overlord
 vassal = {
@@ -762,13 +700,6 @@ vassal = {
 
 #Gondwana
 
-#Gondwana overlord
-vassal = {
-	first = MLW
-	second = GDW
-	start_date = 1441.1.1
-	end_date = 1531.1.1
-}
 
 #Suri Empire (Bengal)
 
@@ -820,34 +751,6 @@ vassal = {
 }
 
 #Orissa & Garjats
-
-vassal = { #Garjat
-	first = ORI
-	second = GRJ 
-	start_date = 1444.1.1
-	end_date = 1568.1.1
-}
-
-vassal = { #Parlakhimidi
-	first = ORI
-	second = PRD
-	start_date = 1444.1.1
-	end_date = 1568.1.1
-}
-
-vassal = { #Keonhjar
-	first = ORI
-	second = KJH
-	start_date = 1444.1.1
-	end_date = 1568.1.1
-}
-
-vassal = { #Jeypore
-	first = ORI
-	second = JPR
-	start_date = 1444.1.1
-	end_date = 1576.1.1
-}
 
 vassal = {
 	first = BNG
