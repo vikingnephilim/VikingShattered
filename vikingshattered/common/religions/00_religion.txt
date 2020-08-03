@@ -2185,6 +2185,7 @@ pagan = {
 			shock_damage_received = -0.1
 		}
 		heretic = { OLD_ROMUVA }	
+		can_have_secondary_religion = yes
 	}
 	finnish_pagan_reformed = {
 		icon = 54
@@ -2198,6 +2199,7 @@ pagan = {
 			defensiveness = 0.1
 		}
 		heretic = { OLD_SUOMENUSKO }	
+		can_have_secondary_religion = yes
 	}
 	slavic_pagan_reformed = {
 		icon = 55
@@ -2214,7 +2216,8 @@ pagan = {
 			advisor_pool = 1
 		}
 		heretic = { OLD_SLAVIC }	
-	}
+		can_have_secondary_religion = yes
+        }
 	zun_pagan_reformed = {
 		icon = 43
 		color = { 0.9 1.0 0.0 }
@@ -2227,6 +2230,7 @@ pagan = {
 			hostile_attrition = 1
 		}
 		heretic = { DARKNESS }	
+		can_have_secondary_religion = yes
 	}
 	bon = {
 		color = { 8 140 131 }
