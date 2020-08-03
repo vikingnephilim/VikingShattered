@@ -2,7 +2,7 @@
 
 owner = IMG
 controller = IMG
-culture = togoku
+culture = chubu
 religion = shinto
 capital = "Sunpu"
 trade_goods = tea
