@@ -14,3 +14,4 @@ capital = "Akureyri"
 is_city = yes	
 
 discovered_by = western
+add_province_triggered_modifier = bastion_norse

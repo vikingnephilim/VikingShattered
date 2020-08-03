@@ -14,7 +14,7 @@ native_hostileness = 7
 discovered_by = north_american
 extra_cost = 8
 center_of_trade = 1
-
+add_province_triggered_modifier = grave_leif
 1602.1.1 = { discovered_by = ENG } # Bartholomew Gosnold
 1606.1.1 = { discovered_by = FRA } # Samuel de Champlain
 1623.1.1 = {
