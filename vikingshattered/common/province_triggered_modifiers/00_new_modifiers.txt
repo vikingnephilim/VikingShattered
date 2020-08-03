@@ -1,0 +1,164 @@
+jaromarsburg = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	
+	trigger = {
+		owner = {
+			OR = {
+				religion = slavic_pagan_reformed
+				religion = baltic_pagan_reformed
+			}
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	defensiveness = 0.15
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+romuv_riga = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	
+	trigger = {
+		owner = {
+			religion = baltic_pagan_reformed
+		}
+	}
+	
+	global_missionary_strength = 0.02
+	missionaries = 1
+	prestige = 0.5
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+slav_kiev = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	
+	trigger = {
+		owner = {
+			religion = slavic_pagan_reformed
+		}
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+	land_morale = 0.05
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+grave_leif = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	
+	trigger = {
+		owner = {
+			religion = norse_pagan_reformed
+		}
+	}
+	
+	colonists = 1
+	prestige = 0.5
+	global_colonial_growth = 10
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+bastion_norse = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	
+	trigger = {
+		owner = {
+			religion = norse_pagan_reformed
+		}
+	}
+	
+	missionaries = 1
+	prestige = 0.5
+	global_missionary_strength = 0.02
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+teng_crimea = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	
+	trigger = {
+		owner = {
+			religion = tengri_pagan_reformed
+		}
+	}
+	
+	missionaries = 1
+	prestige = 0.5
+	culture_conversion_cost = -0.15
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
