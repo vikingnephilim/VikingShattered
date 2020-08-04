@@ -9837,7 +9837,7 @@ sapmi = {
 	}
 }
 madagascan_g = {
-	madagasque = {
+	sakalavan = {
 		primary = SKA
 		dynasty_names = {
 			Mwenemutapa Rozwi Mutopa Lukeni Loanga
