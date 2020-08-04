@@ -3,7 +3,7 @@
 owner = SMI
 controller = SMI
 add_core = SMI
-culture = sapmi
+culture = lule
 religion = finnish_pagan_reformed
 hre = no
 base_tax = 2

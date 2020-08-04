@@ -2,7 +2,7 @@
 
 owner = SMI
 controller = SMI
-culture = sapmi
+culture = ter
 religion = finnish_pagan_reformed
 hre = no
 base_tax = 1 

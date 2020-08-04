@@ -3,7 +3,7 @@
 owner = SMI
 controller = SMI 
 capital = "Kola"
-culture = sapmi
+culture = ter
 religion = finnish_pagan_reformed
 hre = no
 add_core = SMI

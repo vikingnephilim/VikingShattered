@@ -386,8 +386,8 @@ country_event = {
 			AND = { #Geneva vassals will only get this event if they are a player, otherwise Geneva's overlord or province owner gets this event.
 					is_subject = yes
 					tag = GNV
+                    owns_core_province = 4720
 					was_player = yes
-					# do you need to make sure player GNV owns 4720 here??
 			}
 			OR = { #Geneva is controlled in some way
 					4720 = {
