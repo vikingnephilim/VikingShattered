@@ -1,0 +1,8 @@
+government = theocracy
+government_rank = 1
+technology_group = chinese
+primary_culture = polynesian
+religion = polynesian
+capital = 1240 #Hawaii
+
+

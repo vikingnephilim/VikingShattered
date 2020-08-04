@@ -3,7 +3,7 @@
 owner = SKD
 controller = SKD
 add_core = SKD
-culture = bornean
+culture = south_bornean
 religion = hinduism
 capital = "Barito"
 trade_goods = unknown

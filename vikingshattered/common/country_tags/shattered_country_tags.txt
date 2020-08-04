@@ -235,7 +235,8 @@ SKD = "countries/DOGE_INS_Sukanda.txt"
 
 
 #AUSTRALIA + OCEANIA
-
+HAW = "countries/Hawaii.txt"
+TGA = "countries/Tonga.txt"
 
 #NORTH AMERICA
 VIN = "countries/DOGE_NAM_Vinland.txt"

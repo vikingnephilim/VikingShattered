@@ -1,6 +1,6 @@
 # 2154 - Kelang
 
-culture = polynesian
+culture = taiwanese
 religion = animism
 capital = "Kelang"
 trade_goods = unknown

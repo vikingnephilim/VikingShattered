@@ -1,7 +1,7 @@
 #1993 - Marshal Islands
 
-culture = polynesian
-religion = animism
+culture = samoan
+religion = polynesian
 capital = "Majuro"
 trade_goods = unknown
 hre = no

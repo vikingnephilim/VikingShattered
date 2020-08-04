@@ -6402,165 +6402,6 @@ tibetan_group = {
 	}
 }
 
-
-malay = { 
-	graphical_culture = asiangfx
-	polynesian = {
-		dynasty_names = {
-			Aalona Ahulani Ainalani Akeakamai Alani Aluala Alealani Alohilani Anakalia Anuenue "'Ehukai" "'Ewalani" "Ha'aheo" Heleakala
-			Hanalei Hanohano "Hau'oli" "Hi'iaka" "Ho'okano" Hualani Ikepela "Ka'aukai" Kahananui Kaheleha Kaikea Kainalu Kalauokalani
-			Kaleoikaika Kamehu "Kameha'o" Kamehameha Kawaiola Kehaulani Kelupaina Keonoana Lanakila Lehuanani Lokelani Lono
-			Makaleka Makikonu Mauna Momilani Nohealani Polola Po'okela Sanoe Ualani Uluwehi Wailani Waipuna 
-		}
-		female_names = {
-			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina
-			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
-			Miliani Moana Moanna Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
-		}
-		male_names = {
-			Akamu Aloha Alohilani Analu Aolani Aulani Aulii Feleti Inoke Iolani Ipo Iwalani Kai Kaili Kaipo Kalani Kale Kalei Kapena
-			Kapono Keahi Kealii Keani Keanu Keiki Kelii Keon Keoni Kimo Konala Liko Loe Lulani Makaio Makani Malo Mauli Mele Moke
-			Nalani Oke Palani Pekelo
-		}
-	}
-	cham = {
-		primary = CHA
-		dynasty_names = { 
-			Vijaya Kauthara Panduranga Indrapura
-		}
-		male_names = {
-			"Ko cheng" "Jaya Sinhavarman" "Maija Vijaya" "Moho Kouei-Lai" "Maha Kui Yu" "Maha P'an-lo-yue" "Po Saktirai" "Po Ganvuh" "Po Thuttirai" "Po Rattirai" "Po Tathun" "Po Tithuntirai" "Chei Krei Brei" "Po Tithun" "Po Lathun" "Po Chong Chan" "Che Anan" "Tra Hoa" "Che Bong Nga" "Ko Cheng" "Jaya Indravarman"
-		}
-		female_names = {
-			Hòng Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
-			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
-			Vaite Vaitiare
-		}
-	}
-	malayan = {
-		primary = MLC
-		dynasty_names = { 
-			Melaka Johor Perak Kedah Pattani Pahang Kelantan Selangor Terengganu
-		}
-		male_names = {
-			"Sam Agi" "Paramesvara" "Megat Iskander" "Muhammad Shâh" "Abu Syahid" "Muzaffar Shâh" "Mansûr Shâh" "Riayat Shah" "Mahmûd Shâh" "'Abd al-Jalîl Shâh" "Ma'ayat Shâh" "Ibrâhîm Shâh" "Rahmat Shâh" "Sulaymân Badr Shâh" 
-			"Mu'azzam Shâh" "Mahmûd Ri'âyat Shâh" "'Abd ar-Rahmân Shâh" "Rajah Qasim"
-		}
-		female_names = {
-			Azura Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
-			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
-			Vaite Vaitiare
-		}
-	}
-	sumatran = {
-		primary = ATJ
-		dynasty_names = {
-			Siak Aceh Pasai Pagarruyung Palembang Jambi
-		}
-		male_names = {
-			"Inayat" "'Alî Mugâyat" "Iskandar Tanî" "Husayn 'Alî Ri'âyat" "Menradza" "Tsalenggathu" "Gadzabadi" 
-			"Tsau-Lha" "Mengtsekya"
-		}
-		female_names = {
-			Amritpal Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
-			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
-			Vaite Vaitiare
-		}
-	}
-	javanese = {
-		primary = MAJ
-		dynasty_names = {
-			Banten Demak Surabaya Cirebon Samprangan
-		}
-		male_names = {
-			"Girindrawardhana" "Girishawardhana" "Kertabumi" "Kertawijaya" "Rajasawardhana" "Suraprabhawa" 
-			"Wikramawardhana" "Hayam Wuruk" "Kalagamet" "Raden Wijaya" "Kertawardhana" "Raden Sotor" "Raden Sumirat" 
-			"Singhawardhana"
-		}
-		female_names = {
-			"Suhita" "Sri Gitarja" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui 
-			Poerava Puaiti 
-			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
-			Vaite Vaitiare
-		}
-	}
-	filipino = {
-		primary = SUL
-		dynasty_names = {
-			Sulu Maguindanao Tondo Lanao Butuan Palawan Panay
-		}
-		male_names = {
-			"Sharif ul Hashim" "Kamal ud Din" "Sharif Sayyid Ala ud Din" "Amirul Umara" "Muizz ul Mutawadiin" "Batarah Shah Tengah" "Muwallit Wasit" "Muhammad Alimuddin" "Muhammad al Halim" "Muizz ul Din" "Nasir ud Din" 
-			"Azimuddin" "Salah ud Din Bakhtiyar" "Shihab ud Din" "Mustafa Shafi" "Muhammad Badaruddin" "Muizz ud Din Bantilan"
-			"Muhammad Israil" "Muhammad Sharafuddin" "Aliyuddin" "Shakirullah" 
-		}
-		female_names = {
-			"Anela" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
-			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
-			Vaite Vaitiare
-		}
-	}
-	bornean = {
-		primary = BEI
-		dynasty_names = {
-			Burnei Kutai Sibu Kuching
-		}
-		male_names = {
-			"Muhammad" "Ahmad" "Sulaymân" "Bulkiah" "'Abd al-Qahhar" "Sayf ar-Rijal" "Hasan" "'Abd al-Jalîl" "Muhammad 'Alî" "'Abd al-Mubin" "Muhyî ad-Dîn" "Nasr ad-Dîn" "Kamâl ad-Dîn" "Alâ' ad-Dîn" "Sayf ad-Dîn" "Muhammad Jamâl ad-Dîn" "Muhammad Tâj ad-Dîn"
-		}
-		female_names = {
-			"Rim" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
-			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
-			Vaite Vaitiare
-		}
-	} 
-	madagascan = {
-		dynasty_names = {
-			Palopo Makassar Manado Poso Palu
-		}
-		male_names = {
-			"Tunitangkalopi" "Batara Gowa" "Tuni Djallori" "Tuni Parisi" "Tuni Palonga" "Tuni Butta" "Tunyachoka-ri" 
-			"Karaeng Tunibatta" "Tuni Djallo" "Parabung" "Tuni Pasulu" "Allâh ad-Dîn" "Muhammad Malik" "Muhammad Sa'îd" 
-			"Amir Hamza" "'Abd al-Jalîl" "Shihâb ad-Dîn Ismâ'îl" "Muhammad Bakr Hasan" "Hamaza Tumammalianga" "Muhammad 'Ali" "Fakhr" "Shahab" "Siraj ad-Dîn" "'Abd al-Khayr al-Mansûr" "'Abd al-Qudus" "'Uthmân" "Muhammad Imad" 
-			"Zain" "'Imâd ad-Dîn" "Zaynal-'Abidîn" "Sankilang" "'Abd al-Hâdî" "'Abd al-Khaliq" "Limbangparang"
-		}
-		female_names = {
-			Cinta Wangi Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava 
-			Puaiti Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua 
-			Tautiare Tehani Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere 
-			Vaimiti Vairea Vaite Vaitiare
-		}
-	}
-	sulawesi = {
-		primary = MKS
-		dynasty_names = {
-			Palopo Makassar Manado Poso Palu
-		}
-		male_names = {
-			"Tunitangkalopi" "Batara Gowa" "Tuni Djallori" "Tuni Parisi" "Tuni Palonga" "Tuni Butta" "Tunyachoka-ri" 
-			"Karaeng Tunibatta" "Tuni Djallo" "Parabung" "Tuni Pasulu" "Allâh ad-Dîn" "Muhammad Malik" "Muhammad Sa'îd" 
-			"Amir Hamza" "'Abd al-Jalîl" "Shihâb ad-Dîn Ismâ'îl" "Muhammad Bakr Hasan" "Hamaza Tumammalianga" "Muhammad 'Ali" "Fakhr"
-			"Shahab" "Siraj ad-Dîn" "'Abd al-Khayr al-Mansûr" "'Abd al-Qudus" "'Uthmân" "Muhammad Imad" 
-			"Zain" "'Imâd ad-Dîn" "Zaynal-'Abidîn" "Sankilang" "'Abd al-Hâdî" "'Abd al-Khaliq" "Limbangparang"
-		}
-		female_names = {
-			Cinta Wangi Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava 
-			Puaiti Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua 
-			Tautiare Tehani Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere 
-			Vaimiti Vairea Vaite Vaitiare
-		}
-	}
-	dynasty_names = {
-		"Rajasanagara" "Saktirai" "P'an-Lo" "Cheng" "Gunungjati"
-	}
-}
-
 southeastasian_group = { 
 	graphical_culture = asiangfx
 
@@ -8347,34 +8188,6 @@ great_lakes_group = {
 african = {	#Eastern Bantu Groups
 	graphical_culture = africangfx
 	
-	madagasque = {
-		primary = SKA
-		dynasty_names = {
-			Mwenemutapa Rozwi Mutopa Lukeni Loanga
-		}
-		male_names = {
-			Abidemi Abimbola Abiodun Abioye Aboubacar Abubakar Ade Adebayo Adebola Adebowale Adedayo Adegoke Adetokunbo Adisa 
-			Afolabi Akachi Akpofure Akuchi Alemayehu Alinafe Amadi Amadi Ameqran Anan Andile Awotwi Ayo Ayodele Ayokunle Ayomide 
-			Ayotunde Azubuike Baako Babajide Babatunde Bamidele Berhanu Berko Boipelo Boitumelo Bongani Chi Chibueze Chibuike 
-			Chibuzo Chidi Chidiebere Chidiebube Chidiegwu Chidike Chidubem Chiemeka Chifundo Chifuniro Chijindum Chike Chikelu 
-			Chikere Chikondi Chikumbutso Chima Chimwemwe Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chioma Chisomo 
-			Chiumbo Chiyembekezo Chizoba Chuks Chukwudi Chukwuemeka Chukwuma Dakarai Dalitso Dayo Dejen Desta Dubaku Dumisani 
-			Efemena Ejiro Ejiroghene Ekene Ekenedilichukwu Ekundayo Ekwueme Emeka Emem Eniola Enitan Enu Enyinnaya Eseoghene 
-			Farai Faraji Fatsani Femi Folami Fungai Ganizani Gwandoya Idir Idowu Ikenna Imamu Imani Ime Isingoma Itri Itumeleng 
-			Izem Jelani Jengo Jumaane Katlego Kato Kayin Kayode Kefilwe Kgosi Khamisi Kibwe Kirabo
-		}
-		female_names = {
-			Mavuto Mayamiko Mayeso Mbali Mchumba Meklit Mirembe Mojisola Monifa Mphatso Mtendere Mudiwa Munashe Mwanajuma Nakato 
-			Ndidi Neo Ngozi Nia Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nkosazana Nkruma Nneka Nnenna Nnenne Nomusa Nontle 
-			Nosipho Nosizwe Nsia Nsonowa Nthanda Ntombi Nuru Nwanneka Nyah Nyarai Ogechi Ogechukwukama Oghenekaro Oghenekevwe 
-			Oghenero Olamide Olayinka Olubunmi Oluchi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo Oluwakanyinsola 
-			Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Onyeka Onyekachi Onyekachukwu Opeyemi 
-			Oyibo Pemphero Pilirani Refilwe Rudo Rufaro Rumbidzai Rutendo Sanaa Sauda Seble Sekai Sethunya Sibonakaliso Simisola 
-			Sithembile Ssanyu Subira Tadala Tafadzwa Tajeddigt Takondwa Tamandani Taonga Tapiwa Tariro Tatenda Temitope Tendai 
-			Thandiwe Thema Themba Thoko Thokozani Thulile Tidir Tifawt Tinashe Titilayo Titrit Tiyamike Tsholofelo Tumelo Udo 
-			Uduak Ufuoma Unathi Uzoma Werknesh Worknesh Yaa Yamikani Yejide Yewande Zola Zuri
-		}
-	}
 	#Tagless Bantu Cultures:
 	takama = {
 		
@@ -9809,3 +9622,205 @@ east_turkic_g = {
 		}
 	}
 }
+
+polynesian_g = {
+	graphical_culture = asiangfx
+	hawaiian = {
+		primary = HAW
+	}
+	maori = {
+		primary = NZL
+	}
+	samoan = {
+		primary = TGA
+	}
+	taiwanese = {
+		primary = FRM
+	}
+}
+
+east_malay = {
+	graphical_culture = asiangfx
+	sumatran = {
+		primary = ATJ
+		dynasty_names = {
+			Siak Aceh Pasai Pagarruyung Palembang Jambi
+		}
+		male_names = {
+			"Inayat" "'Alî Mugâyat" "Iskandar Tanî" "Husayn 'Alî Ri'âyat" "Menradza" "Tsalenggathu" "Gadzabadi" 
+			"Tsau-Lha" "Mengtsekya"
+		}
+		female_names = {
+			Amritpal Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+			Vaite Vaitiare
+		}
+	}
+	javanese = {
+		primary = MAJ
+		dynasty_names = {
+			Banten Demak Surabaya Cirebon Samprangan
+		}
+		male_names = {
+			"Girindrawardhana" "Girishawardhana" "Kertabumi" "Kertawijaya" "Rajasawardhana" "Suraprabhawa" 
+			"Wikramawardhana" "Hayam Wuruk" "Kalagamet" "Raden Wijaya" "Kertawardhana" "Raden Sotor" "Raden Sumirat" 
+			"Singhawardhana"
+		}
+		female_names = {
+			"Suhita" "Sri Gitarja" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui 
+			Poerava Puaiti 
+			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+			Vaite Vaitiare
+		}
+	}
+	madagasque = {
+		primary = SKA
+		dynasty_names = {
+			Mwenemutapa Rozwi Mutopa Lukeni Loanga
+		}
+		male_names = {
+			Abidemi Abimbola Abiodun Abioye Aboubacar Abubakar Ade Adebayo Adebola Adebowale Adedayo Adegoke Adetokunbo Adisa 
+			Afolabi Akachi Akpofure Akuchi Alemayehu Alinafe Amadi Amadi Ameqran Anan Andile Awotwi Ayo Ayodele Ayokunle Ayomide 
+			Ayotunde Azubuike Baako Babajide Babatunde Bamidele Berhanu Berko Boipelo Boitumelo Bongani Chi Chibueze Chibuike 
+			Chibuzo Chidi Chidiebere Chidiebube Chidiegwu Chidike Chidubem Chiemeka Chifundo Chifuniro Chijindum Chike Chikelu 
+			Chikere Chikondi Chikumbutso Chima Chimwemwe Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chioma Chisomo 
+			Chiumbo Chiyembekezo Chizoba Chuks Chukwudi Chukwuemeka Chukwuma Dakarai Dalitso Dayo Dejen Desta Dubaku Dumisani 
+			Efemena Ejiro Ejiroghene Ekene Ekenedilichukwu Ekundayo Ekwueme Emeka Emem Eniola Enitan Enu Enyinnaya Eseoghene 
+			Farai Faraji Fatsani Femi Folami Fungai Ganizani Gwandoya Idir Idowu Ikenna Imamu Imani Ime Isingoma Itri Itumeleng 
+			Izem Jelani Jengo Jumaane Katlego Kato Kayin Kayode Kefilwe Kgosi Khamisi Kibwe Kirabo
+		}
+		female_names = {
+			Mavuto Mayamiko Mayeso Mbali Mchumba Meklit Mirembe Mojisola Monifa Mphatso Mtendere Mudiwa Munashe Mwanajuma Nakato 
+			Ndidi Neo Ngozi Nia Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nkosazana Nkruma Nneka Nnenna Nnenne Nomusa Nontle 
+			Nosipho Nosizwe Nsia Nsonowa Nthanda Ntombi Nuru Nwanneka Nyah Nyarai Ogechi Ogechukwukama Oghenekaro Oghenekevwe 
+			Oghenero Olamide Olayinka Olubunmi Oluchi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo Oluwakanyinsola 
+			Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Onyeka Onyekachi Onyekachukwu Opeyemi 
+			Oyibo Pemphero Pilirani Refilwe Rudo Rufaro Rumbidzai Rutendo Sanaa Sauda Seble Sekai Sethunya Sibonakaliso Simisola 
+			Sithembile Ssanyu Subira Tadala Tafadzwa Tajeddigt Takondwa Tamandani Taonga Tapiwa Tariro Tatenda Temitope Tendai 
+			Thandiwe Thema Themba Thoko Thokozani Thulile Tidir Tifawt Tinashe Titilayo Titrit Tiyamike Tsholofelo Tumelo Udo 
+			Uduak Ufuoma Unathi Uzoma Werknesh Worknesh Yaa Yamikani Yejide Yewande Zola Zuri
+		}
+	}
+}
+
+north_malay = {
+	graphical_culture = asiangfx
+	cham = {
+		primary = CHA
+		dynasty_names = { 
+			Vijaya Kauthara Panduranga Indrapura
+		}
+		male_names = {
+			"Ko cheng" "Jaya Sinhavarman" "Maija Vijaya" "Moho Kouei-Lai" "Maha Kui Yu" "Maha P'an-lo-yue" "Po Saktirai" "Po Ganvuh" "Po Thuttirai" "Po Rattirai" "Po Tathun" "Po Tithuntirai" "Chei Krei Brei" "Po Tithun" "Po Lathun" "Po Chong Chan" "Che Anan" "Tra Hoa" "Che Bong Nga" "Ko Cheng" "Jaya Indravarman"
+		}
+		female_names = {
+			Hòng Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+			Vaite Vaitiare
+		}
+	}
+	malayan = {
+		primary = MLC
+		dynasty_names = { 
+			Melaka Johor Perak Kedah Pattani Pahang Kelantan Selangor Terengganu
+		}
+		male_names = {
+			"Sam Agi" "Paramesvara" "Megat Iskander" "Muhammad Shâh" "Abu Syahid" "Muzaffar Shâh" "Mansûr Shâh" "Riayat Shah" "Mahmûd Shâh" "'Abd al-Jalîl Shâh" "Ma'ayat Shâh" "Ibrâhîm Shâh" "Rahmat Shâh" "Sulaymân Badr Shâh" 
+			"Mu'azzam Shâh" "Mahmûd Ri'âyat Shâh" "'Abd ar-Rahmân Shâh" "Rajah Qasim"
+		}
+		female_names = {
+			Azura Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+			Vaite Vaitiare
+		}
+	}
+	filipino = {
+		primary = SUL
+		dynasty_names = {
+			Sulu Maguindanao Tondo Lanao Butuan Palawan Panay
+		}
+		male_names = {
+			"Sharif ul Hashim" "Kamal ud Din" "Sharif Sayyid Ala ud Din" "Amirul Umara" "Muizz ul Mutawadiin" "Batarah Shah Tengah" "Muwallit Wasit" "Muhammad Alimuddin" "Muhammad al Halim" "Muizz ul Din" "Nasir ud Din" 
+			"Azimuddin" "Salah ud Din Bakhtiyar" "Shihab ud Din" "Mustafa Shafi" "Muhammad Badaruddin" "Muizz ud Din Bantilan"
+			"Muhammad Israil" "Muhammad Sharafuddin" "Aliyuddin" "Shakirullah" 
+		}
+		female_names = {
+			"Anela" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+			Vaite Vaitiare
+		}
+	}
+
+}
+
+malay = {
+	graphical_culture = asiangfx
+	bornean = {
+		primary = BEI
+		dynasty_names = {
+			Burnei Kutai Sibu Kuching
+		}
+		male_names = {
+			"Muhammad" "Ahmad" "Sulaymân" "Bulkiah" "'Abd al-Qahhar" "Sayf ar-Rijal" "Hasan" "'Abd al-Jalîl" "Muhammad 'Alî" "'Abd al-Mubin" "Muhyî ad-Dîn" "Nasr ad-Dîn" "Kamâl ad-Dîn" "Alâ' ad-Dîn" "Sayf ad-Dîn" "Muhammad Jamâl ad-Dîn" "Muhammad Tâj ad-Dîn"
+		}
+		female_names = {
+			"Rim" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+			Vaite Vaitiare
+		}
+	}
+	south_bornean = {
+		primary = SKD
+		dynasty_names = {
+			Burnei Kutai Sibu Kuching
+		}
+		male_names = {
+			"Muhammad" "Ahmad" "Sulaymân" "Bulkiah" "'Abd al-Qahhar" "Sayf ar-Rijal" "Hasan" "'Abd al-Jalîl" "Muhammad 'Alî" "'Abd al-Mubin" "Muhyî ad-Dîn" "Nasr ad-Dîn" "Kamâl ad-Dîn" "Alâ' ad-Dîn" "Sayf ad-Dîn" "Muhammad Jamâl ad-Dîn" "Muhammad Tâj ad-Dîn"
+		}
+		female_names = {
+			"Rim" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+			Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+			Vaite Vaitiare
+		}
+	}
+	sulawesi = {
+		primary = MKS
+		dynasty_names = {
+			Palopo Makassar Manado Poso Palu
+		}
+		male_names = {
+			"Tunitangkalopi" "Batara Gowa" "Tuni Djallori" "Tuni Parisi" "Tuni Palonga" "Tuni Butta" "Tunyachoka-ri" 
+			"Karaeng Tunibatta" "Tuni Djallo" "Parabung" "Tuni Pasulu" "Allâh ad-Dîn" "Muhammad Malik" "Muhammad Sa'îd" 
+			"Amir Hamza" "'Abd al-Jalîl" "Shihâb ad-Dîn Ismâ'îl" "Muhammad Bakr Hasan" "Hamaza Tumammalianga" "Muhammad 'Ali" "Fakhr"
+			"Shahab" "Siraj ad-Dîn" "'Abd al-Khayr al-Mansûr" "'Abd al-Qudus" "'Uthmân" "Muhammad Imad" 
+			"Zain" "'Imâd ad-Dîn" "Zaynal-'Abidîn" "Sankilang" "'Abd al-Hâdî" "'Abd al-Khaliq" "Limbangparang"
+		}
+		female_names = {
+			Cinta Wangi Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava 
+			Puaiti Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua 
+			Tautiare Tehani Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere 
+			Vaimiti Vairea Vaite Vaitiare
+		}
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

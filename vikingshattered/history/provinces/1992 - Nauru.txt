@@ -1,7 +1,7 @@
 #1992 - Nauru
 
-culture = polynesian
-religion = animism
+culture = samoan
+religion = polynesian
 capital = "Yaren"
 trade_goods = unknown
 hre = no

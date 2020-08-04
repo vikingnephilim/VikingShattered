@@ -1,7 +1,7 @@
 #1241 - Kiribati
 
-culture = polynesian
-religion = animism
+culture = samoan
+religion = polynesian
 capital = "Kiribati"
 trade_goods = unknown
 hre = no

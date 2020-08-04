@@ -1,7 +1,7 @@
 #1994 - Wake
 
-culture = polynesian
-religion = animism
+culture = hawaiian
+religion = polynesian
 capital = "Wake"
 trade_goods = unknown
 hre = no

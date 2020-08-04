@@ -1,0 +1,126 @@
+POL_explore_pacific = {
+	cost = 100
+	modifier = {
+		global_colonial_growth = 0.2
+	}
+	ai_will_do = {
+		factor = 15
+		modifier = {
+			factor = 1
+			is_at_war = no
+		}
+	}
+}
+
+POL_blessing_wakea = {
+	cost = 100
+	modifier = {
+		global_unrest = -1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.8 }
+		}
+		modifier = {
+			factor = 2
+			unrest = 4
+			NOT = { stability = 0 }
+		}
+	}
+}
+
+POL_enforce_kapu = {
+	cost = 100
+	modifier = { 
+		development_cost = -0.1
+	}
+	ai_will_do = {
+		factor = 12
+	}
+}
+
+POL_guidance_namaka = {
+	cost = 100
+	modifier = { 
+		global_trade_power = 0.15
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+
+POL_westernization = {
+	cost = 100
+	modifier = { 
+		technology_cost = -0.1
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+
+POL_offerings_kane = {
+	cost = 100
+	modifier = { 
+		production_efficiency = 0.1
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { prestige = -40 }
+		}
+	}
+}
+
+POL_coastal_defenses = {
+	cost = 100
+	modifier = {
+		naval_morale= 0.1
+	}
+	ai_will_do = {
+		factor = 6
+	}
+}
+
+POL_volcano_rites = {
+	cost = 100
+	modifier = {
+		shock_damage = 0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+POL_mana_flow = {
+	cost = 100
+	modifier = {
+		diplomatic_reputation = 1
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+POL_maui = {
+	cost = 100
+	modifier = { 
+		range = 0.25
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+	

@@ -2,7 +2,7 @@
 
 owner = BEI
 controller = BEI
-culture = bornean
+culture = south_bornean
 religion = sunni
 capital = "Kuching"
 trade_goods = gems

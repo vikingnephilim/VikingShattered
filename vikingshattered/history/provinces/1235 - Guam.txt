@@ -1,7 +1,7 @@
 #1235 - Guam
 
-culture = papuan
-religion = animism
+culture = hawaiian
+religion = polynesian
 capital = "Guam"
 trade_goods = unknown
 hre = no

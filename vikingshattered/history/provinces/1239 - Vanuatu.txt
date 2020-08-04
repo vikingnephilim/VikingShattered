@@ -1,7 +1,7 @@
 #1239 - Vanuatu
 
-culture = polynesian
-religion = animism
+culture = samoan
+religion = polynesian
 capital = "Vanuatu"
 trade_goods = unknown
 hre = no

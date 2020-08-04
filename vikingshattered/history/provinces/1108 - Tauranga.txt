@@ -1,7 +1,7 @@
 #1108 - Tauranga
 
-culture = polynesian
-religion = animism
+culture = maori
+religion = polynesian
 hre = no
 capital = "Tauranga"
 trade_goods = unknown

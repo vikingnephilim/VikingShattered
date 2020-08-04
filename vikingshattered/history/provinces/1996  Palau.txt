@@ -1,7 +1,7 @@
 #1996 - Palau
 
-culture = polynesian
-religion = animism
+culture = samoan
+religion = polynesian
 capital = "Ngerulmud"
 trade_goods = unknown
 hre = no

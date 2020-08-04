@@ -1,7 +1,7 @@
 #1238 - Solomon Islands
 
-culture = polynesian
-religion = animism
+culture = samoan
+religion = polynesian
 capital = "Solomon"
 trade_goods = unknown
 hre = no

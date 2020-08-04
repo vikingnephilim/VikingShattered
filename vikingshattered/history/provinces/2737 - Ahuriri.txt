@@ -1,7 +1,7 @@
 #2737 - Ahuriri
 
-culture = polynesian
-religion = animism
+culture = maori
+religion = polynesian
 hre = no
 capital = "Ahuriri"
 trade_goods = unknown

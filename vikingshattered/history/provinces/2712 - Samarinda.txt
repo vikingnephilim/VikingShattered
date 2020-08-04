@@ -6,7 +6,7 @@ latent_trade_goods = {
 
 owner = KUT
 controller = KUT
-culture = bornean
+culture = south_bornean
 religion = hinduism
 capital = "Samarinda"
 trade_goods = spices

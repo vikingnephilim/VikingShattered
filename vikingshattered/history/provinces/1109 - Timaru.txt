@@ -1,7 +1,7 @@
 #1109 - Timaru
 
-culture = polynesian
-religion = animism
+culture = maori
+religion = polynesian
 hre = no
 trade_goods = unknown
 base_manpower = 1

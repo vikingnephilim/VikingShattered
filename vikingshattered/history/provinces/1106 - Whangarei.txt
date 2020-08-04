@@ -1,7 +1,7 @@
 #1106 - Whangarei
 
-culture = polynesian
-religion = animism
+culture = maori
+religion = polynesian
 hre = no
 trade_goods = unknown
 base_tax = 4 

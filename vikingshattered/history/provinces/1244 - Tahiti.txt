@@ -1,7 +1,7 @@
 #1244 - Tahiti
 
-culture = polynesian
-religion = animism
+culture = samoan
+religion = polynesian
 capital = "Tahiti"
 trade_goods = unknown
 hre = no

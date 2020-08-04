@@ -1,6 +1,6 @@
 # 2155 - Middag
 
-culture = polynesian
+culture = taiwanese
 religion = animism
 capital = "Middag"
 trade_goods = unknown

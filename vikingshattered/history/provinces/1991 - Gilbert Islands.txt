@@ -1,7 +1,7 @@
 #1991 - Gilbert Islands
 
-culture = polynesian
-religion = animism
+culture = samoan
+religion = polynesian
 capital = "Tarawa"
 trade_goods = unknown
 hre = no
