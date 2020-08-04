@@ -383,23 +383,23 @@ country_event = {
 	trigger = {
 		is_religion_enabled = reformed
 		OR = {
-			OR = { #Geneva vassals will only get this event if they are a player, otherwise Geneva's overlord or province owner gets this event.
-				is_subject = no
-				AND = {
+			AND = { #Geneva vassals will only get this event if they are a player, otherwise Geneva's overlord or province owner gets this event.
+					is_subject = yes
 					tag = GNV
 					was_player = yes
-				}
+					# do you need to make sure player GNV owns 4720 here??
 			}
 			OR = { #Geneva is controlled in some way
-				4720 = {
-					owned_by = ROOT
-				}
-				GNV = {
-					is_subject_of = ROOT
-					owns_core_province = 4720
-				}
+					4720 = {
+							owned_by = ROOT
+					}
+					GNV = {
+							is_subject_of = ROOT
+							owns_core_province = 4720
+							was_player = no   # I think you want the event to prioritize player GNV vassal?
+					}
 			}
-		}
+	}
 		OR = {
 			religion = protestant
 			religion = catholic

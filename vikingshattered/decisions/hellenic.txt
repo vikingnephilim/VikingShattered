@@ -47,8 +47,10 @@ country_decisions = {
 		major = yes
 		potential = {
 			ai = no
-			NOT = { religion_group = hellenic_pagan }
-			NOT = { tag = PAP }
+			AND = {
+				NOT = { religion_group = hellenic_pagan }
+				NOT = { tag = PAP }
+			}
 			is_emperor = no
 			culture_group = byzantine
 		}
