@@ -1,7 +1,7 @@
 #18 Ume, Åsele, Piteå Lappmarks
 
 capital = "Arvidsjaur"
-culture = sapmi
+culture = lule
 religion = finnish_pagan_reformed
 hre = no
 base_tax = 1 

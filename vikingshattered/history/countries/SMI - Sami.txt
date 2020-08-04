@@ -3,7 +3,9 @@ add_government_reform = tribal_kingdom
 government_rank = 1
 technology_group = eastern
 religion = finnish_pagan_reformed
-primary_culture = sapmi
+primary_culture = inari
+add_accepted_culture = lule
+add_accepted_culture = ter
 capital = 18
 
 1444.1.1 = {
