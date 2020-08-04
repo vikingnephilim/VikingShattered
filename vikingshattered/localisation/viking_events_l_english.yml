@@ -36,3 +36,8 @@
  slavic_events.3.d: "The Slavic Beliefs still exist in small pockets of northern Germany, by uniting the Pomeranian people under the same flag, we inherited a also the remnants of the Slavic Faith."
  slavic_events.3.a: "Rekindle the flames of Kresnik!"
  slavic_events.3.b: "We shall not waver in the dedication to our beliefs."
+ slavic_events.rug_flavor.t: "Slavery in the Baltics."
+ slavic_events.rug_flavor.d: "Having stepped into the Footsteps of Störtebeker, and are now raiding the likes of Stockholm and Danzig, we have to make a choice."
+ slavic_events.rug_flavor.1.a: "Enslave the prisoners and turn Rügen into a true pirate haven."
+ slavic_events.rug_flavor.1.b: "Strike a deal for protection money."
+ pirate_haven: "Pirate Haven"

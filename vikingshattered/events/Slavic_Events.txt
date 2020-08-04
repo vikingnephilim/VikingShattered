@@ -80,6 +80,7 @@ country_event = {
 	picture = POPE_PREACHING_eventPicture
 	trigger = {
 		tag = POM
+		NOT = { religion = slavic_pagan_reformed }
 		NOT = {	has_country_flag = hail_czernobog }
 		NOT = { has_country_flag = hail_popeman }
 	}
@@ -107,3 +108,50 @@ country_event = {
 		set_country_flag = hail_popeman
 		}
 	}	
+	
+country_event = {
+	id = slavic_events.rug_flavor
+	title = "slavic_events.rug_flavor.t"
+	desc = "slavic_events.rug_flavor.d"
+	picture = SHIP_SAILING_eventPicture
+	trigger = {
+		tag = RUG
+		NOT = { has_country_flag = rug_flavor_1 }
+		OR = {
+			religion = slavic_pagan_reformed
+			religion = catholic
+		}
+		has_reform = pirate_republic_reform
+	}
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.1
+			is_year = 1447
+		}
+		modifier = {
+			factor = 0.01
+			is_year = 1448
+		}
+		modifier = {
+			factor = 0.001
+			is_year = 1449
+		}
+	}
+	
+	option = {
+		name = "slavic_events.rug_flavor.1.a"
+		4745 = {
+			change_trade_goods = slaves
+			add_base_production = 3
+			add_province_triggered_modifier = pirate_haven
+		}
+		add_prestige = -25
+	}	
+	option = {
+		name = "slavic_events.rug_flavor.1.b"
+		
+		add_years_of_income = 3
+	}
+}	
+		

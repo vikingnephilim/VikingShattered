@@ -251,3 +251,24 @@ delphi = {
 	}
 	
 }
+
+pirate_haven = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	
+	
+	privateer_efficiency = 0.15
+	trade_efficiency = -0.15
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
