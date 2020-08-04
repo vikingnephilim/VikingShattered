@@ -3,7 +3,7 @@
 owner = MIR #Had not yet formed a unified state, would submit to the Imerina in the early 18th century.
 controller = MIR
 add_core = MIR
-culture = madagasque
+culture = sakalavan
 religion = shamanism #Fetishism
 capital = "Betsileo"
 trade_goods = slaves

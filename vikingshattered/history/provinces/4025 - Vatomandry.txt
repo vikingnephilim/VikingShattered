@@ -3,7 +3,7 @@
 owner = BTS
 controller = BTS
 add_core = BTS
-culture = madagasque
+culture = betsimisirakan
 religion = shamanism #Fetishism
 capital = "Vatomandry"
 trade_goods = slaves

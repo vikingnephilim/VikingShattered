@@ -3,7 +3,7 @@
 owner = MIR
 controller = MIR
 add_core = MIR
-culture = madagasque
+culture = sakalavan
 religion = shamanism #Fetishism
 capital = "Alasora"
 trade_goods = grain

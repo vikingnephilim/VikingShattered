@@ -3,7 +3,7 @@
 owner = SKA
 controller = SKA
 add_core = SKA
-culture = madagasque
+culture = bara
 religion = shamanism #Fetishism
 capital = "Fiherana"
 trade_goods = fish

@@ -3,7 +3,7 @@
 owner = SKA
 controller = SKA
 add_core = SKA
-culture = madagasque #Malagasy
+culture = sakalavan #Malagasy
 religion = shamanism #Fetishism
 capital = "Besalampy"
 trade_goods = fish

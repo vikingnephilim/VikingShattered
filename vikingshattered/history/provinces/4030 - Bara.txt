@@ -3,7 +3,7 @@
 owner = MIR #Really divided by various minor entities, eventually rendering vassalage to the Betsileo.
 controller = MIR
 add_core = MIR
-culture = madagasque
+culture = bara
 religion = shamanism #Fetishism
 capital = "Bara"
 trade_goods = grain

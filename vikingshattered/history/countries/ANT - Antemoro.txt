@@ -2,7 +2,7 @@
 government = tribal
 add_government_reform = tribal_kingdom #Aristocratic states, rulers elected from one of four clans for life.
 government_rank = 1
-primary_culture = madagasque
+primary_culture = bara
 religion = sunni
 technology_group = east_african
 unit_type = sub_saharan

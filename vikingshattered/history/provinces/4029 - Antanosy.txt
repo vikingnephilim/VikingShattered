@@ -3,7 +3,7 @@
 owner = ANT
 controller = ANT
 add_core = ANT
-culture = madagasque
+culture = bara
 religion = sunni
 capital = "Antanosy"
 trade_goods = slaves

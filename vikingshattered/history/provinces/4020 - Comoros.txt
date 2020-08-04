@@ -3,7 +3,7 @@
 owner = MZQ
 controller = MZQ
 add_core = MZQ
-culture = madagasque #Malagasy
+culture = sakalavan #Malagasy
 religion = sunni
 capital = "Ndzuwani"
 trade_goods = unknown
