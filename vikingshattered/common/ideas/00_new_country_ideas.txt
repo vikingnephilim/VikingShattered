@@ -749,3 +749,38 @@ anglo_mercian_ideas = {
 		core_creation = -0.25
 	}
 }
+
+Poly_ideas = {
+	start = { 
+		global_colonial_growth = 0.15
+		range = 0.2	
+	}
+	bonus = {
+		naval_forcelimit_modifier = 0.3	
+	}	
+	trigger = {
+		culture_group = polynesian_g
+	}
+	free = yes
+	polynesian_triangle_trade = {
+		trade_range_modifier = 1
+	}
+	polynesian_sturdy_warriors = {
+		discipline = 0.05
+	}
+	polynesian_kapu = {
+		tolerance_own = 1
+	}
+	polynesian_fertile_islands = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	polynesian_china_to_peru = {
+		diplomatic_reputation = 2
+	}
+	polynesian_spread = {
+		global_missionary_strength = 0.02
+	}
+	polynesian_kamehameha_tuitatui = {
+		monarch_military_power = 1
+	}
+}
