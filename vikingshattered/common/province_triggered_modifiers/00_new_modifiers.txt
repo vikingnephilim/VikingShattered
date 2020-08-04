@@ -162,3 +162,92 @@ teng_crimea = {
 	}
 	
 }
+
+
+
+olymp = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	
+	trigger = {
+		owner = {
+			AND = {
+				religion = hellenic_pagan
+				culture_group = byzantine
+			}
+		}
+	}
+	
+	missionaries = 1
+	global_missionary_strength = 0.01
+	prestige = 0.5
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+etna = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	
+	trigger = {
+		owner = {
+			AND = {
+				religion = hellenic_pagan
+				culture_group = latin
+			}
+		}
+	}
+	
+	missionaries = 1
+	global_missionary_strength = 0.01
+	prestige = 0.5
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+delphi = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	
+	trigger = {
+		owner = {
+			religion = hellenic_pagan
+		}
+	}
+	
+	missionaries = 1
+	global_missionary_strength = 0.01
+	prestige = 0.5
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
