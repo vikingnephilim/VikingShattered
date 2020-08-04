@@ -11,7 +11,8 @@ capital = 2978 # Arezzo
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Drater"
+    name = "Abelardo"
+    dynasty = "Carandini"
     adm = 4
     dip = 4
     mil = 4

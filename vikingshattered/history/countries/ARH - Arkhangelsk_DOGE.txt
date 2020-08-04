@@ -9,7 +9,8 @@ capital = 1955	#Kargopol
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Ruler"
+    name = "Vasiliy"
+    dynasty = "Godunov"
     adm = 4
     dip = 4
     mil = 4

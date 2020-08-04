@@ -10,7 +10,8 @@ fixed_capital = 1878 # Cannot move capital away from this province & no power co
 
 1399.1.1 = {
 	monarch = {
-		name = "Stadtrat"
+		name = "Wilhelm"
+		dynasty = "von Taube"
 		adm = 4
 		dip = 4
 		mil = 4

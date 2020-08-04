@@ -7,7 +7,8 @@ government_rank = 1
 
 1444.1.1 = {
     monarch = {
-        name = "Standard Drater"
+        name = "Cyrus"
+        dynasty = "Jalilavand"
         adm = 4
         dip = 4
         mil = 4

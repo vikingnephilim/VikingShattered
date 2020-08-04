@@ -16,14 +16,3 @@ religious_school = shafii_school
 		mil = 3
 	}
 }
-
-1480.1.1 = {
-	monarch = {
-		name = "Abdallah Jamma"
-		dynasty = "Abdallabi"
-		adm = 3
-		dip = 3
-		mil = 4
-	}
-	religion = sunni
-}
