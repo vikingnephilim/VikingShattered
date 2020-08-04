@@ -2,6 +2,7 @@ government = monarchy
 primary_culture = polish
 religion = catholic
 technology_group = eastern
+government_rank = 1
 capital = 258 # Sieradz
 
 1444.1.1 = {

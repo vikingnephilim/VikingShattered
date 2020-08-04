@@ -45,6 +45,7 @@ country_decisions = {
 				province_id = 258	# Sieradz
 				province_id = 259	# Sandomierz
 				province_id = 1939	# Leczyca
+				province_id = 4538	# Chelmno
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -63,6 +64,7 @@ country_decisions = {
 			owns_core_province = 258	# Sieradz
 			owns_core_province = 259	# Sandomierz
 			owns_core_province = 1939	# Leczyca
+			owns_core_province = 4538	# Chelmno
 		}
 		effect = {
 			change_tag = POL

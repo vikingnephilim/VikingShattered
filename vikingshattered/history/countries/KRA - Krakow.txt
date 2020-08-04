@@ -3,6 +3,7 @@ add_government_reform = feudalism_reform
 primary_culture = polish
 religion = catholic
 technology_group = eastern
+government_rank = 1
 capital = 262	# Krakow
 fixed_capital = 262 # Cannot move capital away from this province & no power cost to move to it
 
