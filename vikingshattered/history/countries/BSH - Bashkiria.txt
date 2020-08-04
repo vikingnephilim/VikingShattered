@@ -10,7 +10,8 @@ religious_school = hanafi_school
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Drater"
+    name = "Ravna"
+    dynasty = "Abdul-Karim"
     adm = 4
     dip = 4
     mil = 4

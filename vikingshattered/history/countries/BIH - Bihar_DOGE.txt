@@ -7,7 +7,8 @@ capital = 558 # Patna
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Ruler"
+    name = "Shiv Singh"
+    dynasty = "Sugauna"
     adm = 4
     dip = 4
     mil = 4

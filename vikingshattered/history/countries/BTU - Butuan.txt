@@ -14,13 +14,3 @@ religion = hinduism
 		mil = 3
 	}
 }
-
-1490.1.1 = {
-	monarch = {
-		name = "Si Awi"
-		dynasty = "Butuan"
-		adm = 2
-		dip = 3
-		mil = 4
-	}
-}

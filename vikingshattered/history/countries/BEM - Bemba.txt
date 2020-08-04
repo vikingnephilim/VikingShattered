@@ -13,7 +13,8 @@ unlock_cult = cwezi_cult
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Ruler"
+    name = "Tohwechipi"
+    dynasty = "Mutopa"
     adm = 4
     dip = 4
     mil = 4

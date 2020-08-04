@@ -9,7 +9,8 @@ capital = 1056
 
 1444.1.1 = {
 	monarch = {
-		name = "Standard Drater"
+		name = "Adai"
+		dynasty = "Giray"
 		adm = 4
 		dip = 4
 		mil = 4

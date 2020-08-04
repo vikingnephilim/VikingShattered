@@ -19,15 +19,3 @@ fixed_capital = 4717 # Cannot move capital away from this province & no power co
 		mil = 1
 	}
 }
-
-1533.1.1 = { religion = protestant }
-
-1608.5.14 = {
-	join_league = protestant
-}
-
-1635.5.30 = {
-	leave_league = protestant
-}
-
-# Merged with Prussia 1791.12.2

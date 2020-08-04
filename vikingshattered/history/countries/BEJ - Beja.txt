@@ -19,13 +19,3 @@ religious_school = maliki_school
 		mil = 1
 	}
 }
-
-1490.1.1 = {
-	monarch = {
-		name = "Nazir II" #Fictional
-		dynasty = "Balawat"
-		adm = 1
-		dip = 2
-		mil = 1
-	}
-}
