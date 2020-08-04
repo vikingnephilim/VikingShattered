@@ -4,10 +4,11 @@ primary_culture = polish
 religion = catholic
 technology_group = eastern
 capital = 4528 #Kujawy
-
+government_rank = 1
 1444.1.1 = {
 	monarch = {
-		name = "Standard Drater"
+		name = "Wladyslaw"
+		dynasty = "Ostroriog"
 		adm = 4
 		dip = 4
 		mil = 4
