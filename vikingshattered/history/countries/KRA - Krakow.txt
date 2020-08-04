@@ -7,15 +7,9 @@ government_rank = 1
 capital = 262	# Krakow
 fixed_capital = 262 # Cannot move capital away from this province & no power cost to move to it
 
-1530.1.1 = { set_legacy_government = administrative_monarchy }
-
-1540.1.1 = { set_legacy_government = administrative_republic }
-
-1750.1.1 = { set_legacy_government = constitutional_republic }
-
-1815.5.3 = {
+1444.11.11 = {
 	monarch = {
-		name = "Bolesław"
+		name = "Boleslaw"
 		dynasty = "Januszowic"
 		adm = 5
 		dip = 1
