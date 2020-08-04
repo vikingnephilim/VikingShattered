@@ -1,0 +1,39 @@
+namespace = bendtheknee
+country_event = {
+	id = bendtheknee.1
+	title = "bendtheknee.1.t"
+	desc = "bendtheknee.1.d"
+	picture = POPE_PREACHING_eventPicture
+	trigger = {
+		AND = {
+			OR = {
+				tag = KOL
+				tag = LIE
+				tag = TRI
+				tag = MUN
+			}
+		religion = waldensian
+		}
+		NOT = {	has_country_flag = screw_pope }
+		NOT = { has_country_flag = hail_popeman }
+		}
+	mean_time_to_happen = { 
+		days = 10
+	}
+	immediate = {
+	}
+	option = {
+		name = "bendtheknee.1.a"
+		add_stability = 1
+		add_prestige = 50
+		set_country_flag = screw_pope
+		}
+	option = {
+		name = "bendtheknee.1.b"
+		add_stability = -1
+		add_prestige = -50
+		add_treasury = 100
+		change_religion = catholic
+		set_country_flag = hail_popeman	
+	}
+}

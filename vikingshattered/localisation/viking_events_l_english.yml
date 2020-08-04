@@ -41,3 +41,8 @@
  slavic_events.rug_flavor.1.a: "Enslave the prisoners and turn Rügen into a true pirate haven."
  slavic_events.rug_flavor.1.b: "Strike a deal for protection money."
  pirate_haven: "Pirate Haven"
+ bendtheknee: "Bend the knee"
+ bendtheknee.1.t: "The Waldensian Question"
+ bendtheknee.1.d: "His Holiness the Pope has asked us if we would consider changing our ways and agreeing to look back at Catholicism, and see if we would come back into the fold of the Pope. We can either stick to our Waldensian roots, or we can sway on the side of Catholicism and the Pope."
+ bendtheknee.1.a: "In the name of the son, the father and the Holy ghost, We are Waldensian!"
+ bendtheknee.1.b: "In the name of the son, the father and the Holy ghost, We shall be Catholic!"
