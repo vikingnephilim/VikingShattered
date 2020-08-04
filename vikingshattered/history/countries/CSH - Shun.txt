@@ -5,7 +5,7 @@ religion = confucianism
 primary_culture = xibei
 capital = 689 # Fengyuan
 
-1627.1.1 = {
+1437.1.1 = {
 	monarch = {
 		name = "Zicheng"
 		dynasty = "Li"
@@ -15,5 +15,3 @@ capital = 689 # Fengyuan
 	}
 	capital = 688	# Kaifeng
 }
-
-1644.1.1 = { capital = 689 } # Fengyuan

@@ -10,20 +10,10 @@ capital = 463 # Circassia
 
 1444.1.1 = {
 	monarch = {
-		name = "Petrezok"
+		name = "Thoros"
 		dynasty = "Petrezok"
 		adm = 1
 		dip = 3
 		mil = 2
-	}
-}
-
-1470.1.1 = {
-	monarch = {
-		name = "(Interregnum)"
-		adm = 0
-		mil = 0
-		dip = 0
-		regent = yes
 	}
 }

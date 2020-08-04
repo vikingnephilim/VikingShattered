@@ -10,8 +10,8 @@ capital = 1954 #Torontal
 
 1444.11.01 = {
 	monarch = {
-		name = "Standard Drater"
-		birth_date = 1440.1.1
+		name = "Kobyak"
+		dynasty = "Yeldem"
 		adm = 4
 		dip = 4
 		mil = 4

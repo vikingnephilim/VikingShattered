@@ -4,3 +4,12 @@ technology_group = chinese
 religion = confucianism
 primary_culture = xiang
 capital = 682	#Wuchang
+1439.1.1 = {
+	monarch = {
+		name = "Yu Quan"
+		dynasty = "Chai"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

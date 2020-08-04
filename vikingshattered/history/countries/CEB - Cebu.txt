@@ -14,35 +14,3 @@ religion = hinduism
 		mil = 3
 	}
 }
-
-1480.1.1 = {
-	monarch = {
-		name = "Humabon"
-		dynasty = "Chola"
-		adm = 3
-		dip = 4
-		mil = 2
-	}
-}
-
-#Humabon converts to Christianity in 1521
-
-1540.1.1 = {
-	monarch = {
-		name = "Tupas"
-		dynasty = "Chola"
-		adm = 4
-		dip = 4
-		mil = 3
-	}
-}
-
-1565.3.16 = {
-	monarch = {
-		name = "Sikatuna"
-		dynasty = "Chola"
-		adm = 4
-		dip = 4
-		mil = 3
-	}
-}

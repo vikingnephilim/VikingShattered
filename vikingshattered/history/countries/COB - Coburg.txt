@@ -7,4 +7,12 @@ technology_group = western
 capital = 4716	# Coburg
 fixed_capital = 4716
 
-#releasable
+1399.1.1 = {
+	monarch = {
+		name = "Lothar"
+		dynasty = "von Raumer"
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}

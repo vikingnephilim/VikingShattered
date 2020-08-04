@@ -5,3 +5,12 @@ religion = buddhism
 technology_group = chinese
 capital = 661	# Dali
 
+1444.11.11 = {
+	monarch = {
+		name = "Qiyu"
+		dynasty = "Duan"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}

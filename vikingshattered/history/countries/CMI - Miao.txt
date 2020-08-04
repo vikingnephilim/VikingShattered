@@ -5,3 +5,12 @@ religion = animism
 technology_group = chinese
 capital = 2174	# Umung
 
+1440.1.1 = {
+	monarch = {
+		name = "Qiyu"
+		dynasty = "Cheng"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}

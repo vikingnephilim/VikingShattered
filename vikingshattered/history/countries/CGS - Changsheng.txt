@@ -4,3 +4,12 @@ technology_group = chinese
 religion = confucianism
 primary_culture = zhuang
 capital = 664 # Lingyun
+1439.1.1 = {
+	monarch = {
+		name = "Chonghua"
+		dynasty = "Zhao"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
