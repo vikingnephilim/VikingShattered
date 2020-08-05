@@ -14,33 +14,3 @@ capital = 4655
 		mil = 2
 	}
 }
-
-1480.1.1 = {
-	monarch = {
-		name = "Lomi"
-		dynasty = "Warka"
-		dip = 1
-		adm = 2
-		mil = 3
-	}
-}
-
-1520.1.1 = {
-	monarch = {
-		name = "Hulan"
-		dynasty = "Warka"
-		dip = 1
-		adm = 2
-		mil = 3
-	}
-}
-
-1560.1.1 = {
-	monarch = {
-		name = "Manggai"
-		dynasty = "Warka"
-		dip = 1
-		adm = 2
-		mil = 3
-	}
-}
