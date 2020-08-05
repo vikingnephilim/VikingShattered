@@ -2,8 +2,8 @@
 # If adding new dieties, make sure they are uniquely named.
 
 sun = {
-	shock_damage_received = -0.1
-	reinforce_speed = 0.1
+	diplomatic_reputation = 1
+	core_creation_cost = -0.1
 	allow = {
 		religion = polynesian
 	}
@@ -11,7 +11,8 @@ sun = {
 }
 
 moon = {
-	stability_cost_to_declare_war = -1
+	global_missionary_strength = 0.02
+	global_tax_modifier = 0.1
 	allow = {
 		religion = polynesian
 	}
@@ -19,8 +20,8 @@ moon = {
 }
 
 earth = {
-	production_efficiency = 0.05
-	build_time = -0.25	
+	global_trade_goods_size_modifier = 0.05
+	build_time = -0.2	
 	allow = {
 		religion = polynesian
 	}
@@ -28,16 +29,16 @@ earth = {
 }
 
 wind = {
-	flagship_cost = -0.25
-	own_coast_naval_combat_bonus = 1.0	
+	trade_efficiency = 0.1
+	global_ship_trade_power = 0.2
 	allow = {
 		religion = polynesian
 	}
 	sprite = 22
 }
 fireflame = {
-	harsh_treatment_cost = -0.2
-	warscore_cost_vs_other_religion = -0.1
+	discipline = 0.05
+	siege_ability = 0.05
 	
 	allow = {
 		religion = polynesian
@@ -46,8 +47,8 @@ fireflame = {
 }
 
 water = {
-	colonist_placement_chance = 0.05
-	native_assimilation = 0.25	
+	own_coast_naval_combat_bonus = 1
+	naval_morale = 0.1	
 	allow = {
 		religion = polynesian
 	}
