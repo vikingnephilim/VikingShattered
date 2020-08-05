@@ -6,3 +6,12 @@ religion = polynesian
 capital = 1989 #Tonga
 
 
+1439.1.1 = {
+	monarch = {
+		name = "Chiroma"
+		dynasty = "Tui Tonga"
+		dip = 3
+		adm = 3
+		mil = 3
+	}
+}

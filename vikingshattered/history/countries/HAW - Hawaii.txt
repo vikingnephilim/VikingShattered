@@ -9,8 +9,8 @@ capital = 1240 #Hawaii
 	monarch = {
 		name = "Chiroma"
 		dynasty = "Kamehabe"
-		dip = 2
-		adm = 1
-		mil = 0
+		dip = 3
+		adm = 3
+		mil = 3
 	}
 }
