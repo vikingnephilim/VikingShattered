@@ -2254,7 +2254,7 @@ pagan = {
 		icon = 12
 		country = {
 			may_explore = yes
-			colonists = 1
+			range = 0.5
 		}
 		country_as_secondary = {
 			colonists = 1
