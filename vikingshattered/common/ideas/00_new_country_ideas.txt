@@ -784,3 +784,36 @@ Poly_ideas = {
 		monarch_military_power = 1
 	}
 }
+
+RUG_ideas = {
+	start = { 
+		privateer_efficiency = 0.25
+		leader_naval_manuever = 1
+	}
+	bonus = {
+		naval_forcelimit_modifier = 0.3
+		}
+	RUG_slavic_beliefs = {
+		tolerance_own = 2
+	}
+	RUG_scourge_baltic = {
+		allowed_marine_fraction = 0.1
+	}
+	RUG_no_retreat = {
+		disengagement_chance = -0.05
+		naval_morale = 0.15
+	}
+	RUG_slav_holy_site = {
+		prestige = 1
+	}
+	RUG_pomm_trade = {
+		merchants = 1
+	}
+	RUG_cheap_wood = {
+		light_ship_cost = -0.15
+	}
+	RUG_fanatism = {
+		manpower_recovery_speed = 0.1
+		land_attrition = -0.05
+	}
+}
