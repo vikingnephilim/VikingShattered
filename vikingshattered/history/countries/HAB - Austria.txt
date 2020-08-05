@@ -9,8 +9,8 @@ capital = 134 # Wien
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Ruler"
-    dynasty = "von Habs"
+    name = "Maximillian"
+    dynasty = "von Habsburg"
     adm = 4
     dip = 4
     mil = 4

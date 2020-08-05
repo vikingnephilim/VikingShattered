@@ -5,3 +5,13 @@ religion = yazidi
 technology_group = muslim
 capital = 410	# Bagdad
 religious_school = jafari_school
+
+1439.1.1 = {
+	monarch = {
+		name = "Sa'id"
+		dynasty = "Jalili"
+		adm = 4
+		dip = 3
+		mil = 1
+	}
+}

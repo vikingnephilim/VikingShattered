@@ -15,15 +15,3 @@ capital = 2400
 		MIL = 4
 	}
 }
-
-1465.1.1 = {
-	monarch = {
-		name = "Kya Htun"
-		dynasty = "Hsipaw"
-		ADM = 2
-		DIP = 3
-		MIL = 4
-	}
-}
-
-# 1502 Shan Confederation

@@ -17,23 +17,3 @@ religious_school = shafii_school
 		mil = 2
 	}
 }
-
-1480.1.1 = { #Fictional
-	monarch = {
-		name = "Bamo II"
-		dynasty = "Hadiya"
-		adm = 3
-		dip = 3
-		mil = 2
-	}
-}
-
-1510.1.1 = { #Fictional
-	monarch = {
-		name = "Bamo III"
-		dynasty = "Hadiya"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}

@@ -7,9 +7,10 @@ capital = 370 #Rejkyavik
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Drater"
+    name = "Kjartan"
+    dynasty = "Ellingsen"
     adm = 4
-    dip = 4
-    mil = 4
+    dip = 2
+    mil = 3
     }
 }

@@ -4,3 +4,15 @@ technology_group = chinese
 religion = confucianism
 primary_culture = hakka
 capital = 2158	#Shiukwan
+
+1433.10.31 = {
+	monarch = {
+		name = "Jingming" 
+		dynasty = "Yanxiang"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = greedy_personality
+}
