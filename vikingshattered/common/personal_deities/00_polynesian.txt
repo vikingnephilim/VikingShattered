@@ -1,0 +1,55 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new dieties, make sure they are uniquely named.
+
+sun = {
+	shock_damage_received = -0.1
+	reinforce_speed = 0.1
+	allow = {
+		religion = polynesian
+	}
+	sprite = 19
+}
+
+moon = {
+	stability_cost_to_declare_war = -1
+	allow = {
+		religion = polynesian
+	}
+	sprite = 20
+}
+
+earth = {
+	production_efficiency = 0.05
+	build_time = -0.25	
+	allow = {
+		religion = polynesian
+	}
+	sprite = 21
+}
+
+wind = {
+	flagship_cost = -0.25
+	own_coast_naval_combat_bonus = 1.0	
+	allow = {
+		religion = polynesian
+	}
+	sprite = 22
+}
+fireflame = {
+	harsh_treatment_cost = -0.2
+	warscore_cost_vs_other_religion = -0.1
+	
+	allow = {
+		religion = polynesian
+	}
+	sprite = 23
+}
+
+water = {
+	colonist_placement_chance = 0.05
+	native_assimilation = 0.25	
+	allow = {
+		religion = polynesian
+	}
+	sprite = 24
+}
