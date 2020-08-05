@@ -5,3 +5,13 @@ religion = confucianism
 primary_culture = chimin
 capital = 738 # Sakam
 add_accepted_culture = polynesian
+
+1444.1.1 = {
+	monarch = {
+		name = "Shangbing"
+		dynasty = "Xiaolou"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}

@@ -13,18 +13,10 @@ capital = 25	#Gotland
 	government = monarchy
 	monarch = {
 		name = "Eric VII"
-		dynasty = Gryf
+		dynasty = Flod
 		adm = 2
 		dip = 3
 		mil = 5
 		birth_date = 1382.1.1
-    }
-    heir = {
-        name = "Eric VIII"
-        dynasty = Gryf
-        birth_date = 1422.1.1
-        adm = 4
-        dip = 3
-        mil = 4
     }
 }

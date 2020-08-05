@@ -6,9 +6,9 @@ technology_group = muslim
 capital = 4323 # Fafraheh
 
 1444.1.1 = {
-
     monarch = {
-    name = "Standard Ruler"
+    name = "Abû"
+    dynasty = "al-Qazdughli"
     adm = 4
     dip = 4
     mil = 4

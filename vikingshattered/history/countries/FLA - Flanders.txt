@@ -5,3 +5,14 @@ technology_group = western
 religion = catholic
 primary_culture = flemish
 capital = 90	# Brugge
+
+1444.1.1 = {
+
+    monarch = {
+	name = "Florence"
+	dynasty = "van Limburg"
+    adm = 1
+    dip = 4
+    mil = 4
+    }
+}

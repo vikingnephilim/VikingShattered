@@ -7,3 +7,12 @@ add_accepted_culture = cosmopolitan_french
 religion = cathar
 capital = 174 	# Bordeaux
 
+1444.1.1 = {
+    monarch = {
+    name = "Frédéric"
+    dynasty = "de Ficquelmont"
+    adm = 3
+    dip = 4
+    mil = 3
+    }
+}

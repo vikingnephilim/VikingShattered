@@ -16,16 +16,4 @@ capital = 2218 # Shiraz
 		dip = 3
 		mil = 1
 	}
-	heir = {
-		name = "Abdallah bin Ibrahim"
-		dynasty = "Timurid"
-		birth_date = 1433.1.1
-		death_date = 1451.6.1 #Executed
-		claim = 95
-		culture = uzbehk
-		religion = manichean
-		adm = 4
-		dip = 2
-		mil = 3
-	}
 }
