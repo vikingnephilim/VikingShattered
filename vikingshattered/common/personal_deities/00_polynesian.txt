@@ -3,7 +3,7 @@
 
 sun = {
 	diplomatic_reputation = 1
-	core_creation_cost = -0.1
+	core_creation = -0.1
 	allow = {
 		religion = polynesian
 	}
@@ -21,7 +21,7 @@ moon = {
 
 earth = {
 	global_trade_goods_size_modifier = 0.05
-	build_time = -0.2	
+	development_cost = -0.1	
 	allow = {
 		religion = polynesian
 	}
