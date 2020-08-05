@@ -8,7 +8,8 @@ capital = 206	# Galicia
 
 1444.1.1 = {
     monarch = {
-    name = "Standard Drater"
+    name = "Osorio"
+    dynasty = "de Villena"
     adm = 4
     dip = 4
     mil = 4

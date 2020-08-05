@@ -4,3 +4,13 @@ technology_group = western
 religion = catholic
 primary_culture = franconian
 capital = 67	# Nurnberg
+
+1444.1.1 = {
+    monarch = {
+    name = "Gottlieb"
+    dynasty = "von Hardenberg"
+    adm = 3
+    dip = 4
+    mil = 3
+    }
+}

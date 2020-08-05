@@ -8,7 +8,7 @@ primary_culture = hessian
 capital = 1876	# Frankfurt
 fixed_capital = 1876 # Cannot move capital away from this province & no power cost to move to it
 
-1399.1.1 = {
+1444.1.1 = {
 	monarch = {
 		name = "Stadtrat"
 		adm = 4
