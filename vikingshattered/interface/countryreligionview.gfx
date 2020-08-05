@@ -47,7 +47,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_hindu_deities_strip"
-		texturefile = "gfx//interface//hindu_deities_strip.dds"
+		texturefile = "gfx/interface/hindu_deities_strip.dds"
 		noOfFrames = 24
 	}
 	
@@ -61,8 +61,8 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_orthodox_icons_strip"
-		texturefile = "gfx//interface//hindu_deities_strip.dds"
-		noOfFrames = 12
+		texturefile = "gfx/interface/hindu_deities_strip.dds"
+		noOfFrames = 24
 	}
 	
 	spriteType = {
