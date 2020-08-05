@@ -11,9 +11,10 @@ historical_friend = HSA #Lübeck
 historical_friend = BRE #Bremen
 historical_friend = RIG #Riga
 
-1399.1.1 = {
+1439.1.1 = {
 	monarch = {
-		name = "Stadtrat"
+		name = "Alfred"
+		dynasty = "von Cham"
 		adm = 2
 		dip = 2
 		mil = 4
