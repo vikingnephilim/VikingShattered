@@ -3,13 +3,12 @@ add_government_reform = feudalism_reform
 technology_group = western
 primary_culture = bavarian
 religion = catholic
-capital = 65	# München!
+capital = 65	# Mï¿½nchen!
 
 1443.12.1 = {
 	monarch = {
 		name = "Albrecht IV der Weise"
-		dynasty = "von Wittelsbach"
-		birth_date = 1447.12.15
+		dynasty = "von Wittelsbach"s
 		adm = 5
 		dip = 3
 		mil = 2

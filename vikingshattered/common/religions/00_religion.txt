@@ -2259,8 +2259,7 @@ pagan = {
 		country_as_secondary = {
 			colonists = 1
 		}
-		
-		fervor = yes	
+		personal_deity = yes	
 	}
 }
 dharmic = {

@@ -1,7 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = norwegian
-add_accepted_culture = icelandic
 religion = catholic
 technology_group = western
 capital = 17 #Akershus
