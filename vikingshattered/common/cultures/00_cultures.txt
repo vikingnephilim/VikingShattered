@@ -9641,15 +9641,71 @@ polynesian_g = {
 	graphical_culture = asiangfx
 	hawaiian = {
 		primary = HAW
+		dynasty_names = {
+			"Kalili" "Tupou" "Paki" "Kamehameha" "Kalakaua" "Kalaniana'ole"
+		}
+		male_names = {
+			"Iosefa" "Manaia" "Fetu" "Lagi" "Loto" "Manuia" "Puleleiite" "Rangi" "Tamati" "Ne'igalomeatiga"
+			"Sione" "Afu" "Ainalani" "Akeakamai" "Hawea" "Henare" "Aleki" "Aputi" "Enele" "Laki" "Haych"
+			"Hamuera" "Ahoeitu" "Tane" "Akamu" "Manu" "Laniakea" "Ku" "Kolinaisi" "Vaea" "Mahana"
+		}
+		female_names = {
+			"Teuila" "Samoa" "Tausa'afia" "Sefina" "Samaria" "Taliyah" "Le'ei" "Natia" "Lanuola" "Elei" "Tamah"
+			"Masina" "Tama" "Arihi" "Rongomaiwhenua" "Solosolo" "Lalago" "Emere" "Fetuilelagi" "Asoese" "Penina"
+			"Lulu" "Wiki" "Salamasina" "Moana" "Oliana" "Tamar" "Leinani" "La'akea" "Kalama" "Pania" "Tahiti"
+			"Rarahu" "Palila" "Tiare" "Fetia"
+		}
 	}
 	maori = {
 		primary = NZL
+		dynasty_names = {
+			"Kalili" "Tupou" "Paki" "Kamehameha" "Kalakaua" "Kalaniana'ole"
+		}
+		male_names = {
+			"Iosefa" "Manaia" "Fetu" "Lagi" "Loto" "Manuia" "Puleleiite" "Rangi" "Tamati" "Ne'igalomeatiga"
+			"Sione" "Afu" "Ainalani" "Akeakamai" "Hawea" "Henare" "Aleki" "Aputi" "Enele" "Laki" "Haych"
+			"Hamuera" "Ahoeitu" "Tane" "Akamu" "Manu" "Laniakea" "Ku" "Kolinaisi" "Vaea" "Mahana"
+		}
+		female_names = {
+			"Teuila" "Samoa" "Tausa'afia" "Sefina" "Samaria" "Taliyah" "Le'ei" "Natia" "Lanuola" "Elei" "Tamah"
+			"Masina" "Tama" "Arihi" "Rongomaiwhenua" "Solosolo" "Lalago" "Emere" "Fetuilelagi" "Asoese" "Penina"
+			"Lulu" "Wiki" "Salamasina" "Moana" "Oliana" "Tamar" "Leinani" "La'akea" "Kalama" "Pania" "Tahiti"
+			"Rarahu" "Palila" "Tiare" "Fetia"
+		}
 	}
 	samoan = {
 		primary = TGA
+		dynasty_names = {
+			"Kalili" "Tupou" "Paki" "Kamehameha" "Kalakaua" "Kalaniana'ole"
+		}
+		male_names = {
+			"Iosefa" "Manaia" "Fetu" "Lagi" "Loto" "Manuia" "Puleleiite" "Rangi" "Tamati" "Ne'igalomeatiga"
+			"Sione" "Afu" "Ainalani" "Akeakamai" "Hawea" "Henare" "Aleki" "Aputi" "Enele" "Laki" "Haych"
+			"Hamuera" "Ahoeitu" "Tane" "Akamu" "Manu" "Laniakea" "Ku" "Kolinaisi" "Vaea" "Mahana"
+		}
+		female_names = {
+			"Teuila" "Samoa" "Tausa'afia" "Sefina" "Samaria" "Taliyah" "Le'ei" "Natia" "Lanuola" "Elei" "Tamah"
+			"Masina" "Tama" "Arihi" "Rongomaiwhenua" "Solosolo" "Lalago" "Emere" "Fetuilelagi" "Asoese" "Penina"
+			"Lulu" "Wiki" "Salamasina" "Moana" "Oliana" "Tamar" "Leinani" "La'akea" "Kalama" "Pania" "Tahiti"
+			"Rarahu" "Palila" "Tiare" "Fetia"
+		}
 	}
 	taiwanese = {
 		primary = FRM
+		dynasty_names = {
+			"Kalili" "Tupou" "Paki" "Kamehameha" "Kalakaua" "Kalaniana'ole"
+		}
+		male_names = {
+			"Iosefa" "Manaia" "Fetu" "Lagi" "Loto" "Manuia" "Puleleiite" "Rangi" "Tamati" "Ne'igalomeatiga"
+			"Sione" "Afu" "Ainalani" "Akeakamai" "Hawea" "Henare" "Aleki" "Aputi" "Enele" "Laki" "Haych"
+			"Hamuera" "Ahoeitu" "Tane" "Akamu" "Manu" "Laniakea" "Ku" "Kolinaisi" "Vaea" "Mahana"
+		}
+		female_names = {
+			"Teuila" "Samoa" "Tausa'afia" "Sefina" "Samaria" "Taliyah" "Le'ei" "Natia" "Lanuola" "Elei" "Tamah"
+			"Masina" "Tama" "Arihi" "Rongomaiwhenua" "Solosolo" "Lalago" "Emere" "Fetuilelagi" "Asoese" "Penina"
+			"Lulu" "Wiki" "Salamasina" "Moana" "Oliana" "Tamar" "Leinani" "La'akea" "Kalama" "Pania" "Tahiti"
+			"Rarahu" "Palila" "Tiare" "Fetia"
+		}
 	}
 }
 

@@ -2,7 +2,7 @@
 owner = RIE
 controller = RIE
 add_core = RIE
-culture = venetian
+culture = slovene
 religion = bogomilist
 base_tax = 4
 base_production = 4
