@@ -116,7 +116,7 @@ country_event = {
 	picture = SHIP_SAILING_eventPicture
 	trigger = {
 		tag = RUG
-		NOT = { has_country_flag = rug_flavor_1 }
+		NOT = { has_country_flag = rug_slaves }
 		OR = {
 			religion = slavic_pagan_reformed
 			religion = catholic
@@ -147,11 +147,13 @@ country_event = {
 			add_province_triggered_modifier = pirate_haven
 		}
 		add_prestige = -25
+		set_country_flag = rug_slaves
 	}	
 	option = {
 		name = "slavic_events.rug_flavor.1.b"
 		
 		add_years_of_income = 3
+		set_country_flag = rug_slaves
 	}
 }	
 		

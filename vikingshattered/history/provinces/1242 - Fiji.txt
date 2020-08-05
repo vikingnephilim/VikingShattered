@@ -1,9 +1,11 @@
 #1242 - Fiji
-
+owner = TGA
+controller = TGA
+add_core = TGA
 culture = samoan
 religion = polynesian
 capital = "Fiji"
-trade_goods = unknown
+trade_goods = fish
 hre = no
 base_tax = 1 
 base_production = 1

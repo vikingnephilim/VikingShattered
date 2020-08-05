@@ -1,7 +1,7 @@
-government = theocracy
+government = monarchy
 government_rank = 1
 technology_group = chinese
-primary_culture = polynesian
+primary_culture = hawaiian
 religion = polynesian
 capital = 1240 #Hawaii
 
