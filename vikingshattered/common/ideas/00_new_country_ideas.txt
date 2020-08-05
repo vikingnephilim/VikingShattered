@@ -753,7 +753,7 @@ anglo_mercian_ideas = {
 Poly_ideas = {
 	start = { 
 		global_colonial_growth = 0.15
-		range = 0.2	
+		range = 0.25
 	}
 	bonus = {
 		naval_forcelimit_modifier = 0.3	

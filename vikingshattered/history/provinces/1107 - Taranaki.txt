@@ -1,12 +1,16 @@
 #1107 - Taranaki
 
+
+add_core = NZL
+owner = NZL
+controller = NZL
 culture = maori
 religion = polynesian
 hre = no
-trade_goods = unknown
-base_manpower = 2
-base_tax = 3 
-base_production = 3
+trade_goods = cloth
+base_manpower = 3
+base_tax = 4
+base_production = 4
 capital = "Taranaki"
 native_size = 50
 native_ferocity = 4
