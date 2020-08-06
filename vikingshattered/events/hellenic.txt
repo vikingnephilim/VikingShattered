@@ -23,7 +23,7 @@ country_event = {
 		NOT = { has_ruler_modifier = impious_believer }
 	}
 	
-	mean_time_to_happen = { days = 10 }
+	mean_time_to_happen = { years = 10 }
 	immediate = {
 		add_ruler_modifier = {
 			name = hellenic_festival
@@ -88,7 +88,7 @@ country_event = {
 		has_personal_deity = jupiter
 	}
 	
-	mean_time_to_happen = { months = 8 }
+	mean_time_to_happen = { years = 8 }
 	immediate = {
 		hidden_effect = { remove_country_modifier = improving_ability }
 	}
@@ -123,7 +123,7 @@ country_event = {
 		NOT = { has_ruler_modifier = impious_believer }
 	}
 	
-	mean_time_to_happen = { days = 1 }
+	mean_time_to_happen = { years = 5 }
 	immediate = {
 		add_ruler_modifier = {
 			name = hellenic_festival
@@ -188,7 +188,7 @@ country_event = {
 		has_personal_deity = juno
 	}
 	
-	mean_time_to_happen = { months = 8 }
+	mean_time_to_happen = { years = 8 }
 	immediate = {
 		hidden_effect = { remove_country_modifier = improving_ability }
 	}
@@ -223,7 +223,7 @@ country_event = {
 		NOT = { has_ruler_modifier = impious_believer }
 	}
 	
-	mean_time_to_happen = { days = 16 }
+	mean_time_to_happen = { years = 16 }
 	immediate = {
 		add_ruler_modifier = {
 			name = hellenic_festival
@@ -288,7 +288,7 @@ country_event = {
 		has_personal_deity = mars
 	}
 	
-	mean_time_to_happen = { months = 8 }
+	mean_time_to_happen = { years = 8 }
 	immediate = {
 		hidden_effect = { remove_country_modifier = improving_ability }
 	}
@@ -317,7 +317,7 @@ country_event = {
 		NOT = { has_ruler_modifier = impious_believer }
 	}
 	
-	mean_time_to_happen = { days = 16 }
+	mean_time_to_happen = { years = 16 }
 	immediate = {
 		add_ruler_modifier = {
 			name = hellenic_festival
@@ -382,7 +382,7 @@ country_event = {
 		has_personal_deity = minerva
 	}
 	
-	mean_time_to_happen = { months = 8 }
+	mean_time_to_happen = { years = 8 }
 	immediate = {
 		hidden_effect = { remove_country_modifier = improving_ability }
 	}
@@ -417,7 +417,7 @@ country_event = {
 		NOT = { has_ruler_modifier = impious_believer }
 	}
 	
-	mean_time_to_happen = { days = 12 }
+	mean_time_to_happen = { years = 12 }
 	immediate = {
 		add_ruler_modifier = {
 			name = hellenic_festival
@@ -482,7 +482,7 @@ country_event = {
 		has_personal_deity = mercury
 	}
 	
-	mean_time_to_happen = { months = 8 }
+	mean_time_to_happen = { years = 8 }
 	immediate = {
 		hidden_effect = { remove_country_modifier = improving_ability }
 	}
@@ -511,7 +511,7 @@ country_event = {
 		NOT = { has_ruler_modifier = impious_believer }
 	}
 	
-	mean_time_to_happen = { days = 1 }
+	mean_time_to_happen = { years = 5 }
 	immediate = {
 		add_ruler_modifier = {
 			name = hellenic_festival
@@ -576,7 +576,7 @@ country_event = {
 		has_personal_deity = venus
 	}
 	
-	mean_time_to_happen = { months = 8 }
+	mean_time_to_happen = { years = 8 }
 	immediate = {
 		hidden_effect = { remove_country_modifier = improving_ability }
 	}
@@ -602,7 +602,7 @@ country_event = {
 		NOT = { culture_group = byzantine }
 	}
 	
-	mean_time_to_happen = { days = 47}
+	mean_time_to_happen = { years = 3 }
 	immediate = {
 		add_ruler_modifier = {
 			name = hellenic_crisis
@@ -847,7 +847,7 @@ country_event = {
 		NOT = { has_ruler_modifier = impious_believer }
 	}
 	
-	mean_time_to_happen = { days = 10 }
+	mean_time_to_happen = { years = 10 }
 	immediate = {
 		add_ruler_modifier = {
 			name = hellenic_festival
@@ -912,7 +912,7 @@ country_event = {
 		has_personal_deity = zeus
 	}
 	
-	mean_time_to_happen = { months = 8 }
+	mean_time_to_happen = { years = 8 }
 	immediate = {
 		hidden_effect = { remove_country_modifier = improving_ability }
 	}
@@ -947,7 +947,7 @@ country_event = {
 		NOT = { has_ruler_modifier = impious_believer }
 	}
 	
-	mean_time_to_happen = { days = 1 }
+	mean_time_to_happen = { years = 5 }
 	immediate = {
 		add_ruler_modifier = {
 			name = hellenic_festival
@@ -1012,7 +1012,7 @@ country_event = {
 		has_personal_deity = hera
 	}
 	
-	mean_time_to_happen = { months = 8 }
+	mean_time_to_happen = { years = 8 }
 	immediate = {
 		hidden_effect = { remove_country_modifier = improving_ability }
 	}
@@ -1047,7 +1047,7 @@ country_event = {
 		NOT = { has_ruler_modifier = impious_believer }
 	}
 	
-	mean_time_to_happen = { days = 16 }
+	mean_time_to_happen = { years = 16 }
 	immediate = {
 		add_ruler_modifier = {
 			name = hellenic_festival
@@ -1112,7 +1112,7 @@ country_event = {
 		has_personal_deity = ares
 	}
 	
-	mean_time_to_happen = { months = 8 }
+	mean_time_to_happen = { years = 8 }
 	immediate = {
 		hidden_effect = { remove_country_modifier = improving_ability }
 	}
@@ -1141,7 +1141,7 @@ country_event = {
 		NOT = { has_ruler_modifier = impious_believer }
 	}
 	
-	mean_time_to_happen = { days = 16 }
+	mean_time_to_happen = { years = 16 }
 	immediate = {
 		add_ruler_modifier = {
 			name = hellenic_festival
@@ -1206,7 +1206,7 @@ country_event = {
 		has_personal_deity = athena
 	}
 	
-	mean_time_to_happen = { months = 8 }
+	mean_time_to_happen = { years = 8 }
 	immediate = {
 		hidden_effect = { remove_country_modifier = improving_ability }
 	}
@@ -1241,7 +1241,7 @@ country_event = {
 		NOT = { has_ruler_modifier = impious_believer }
 	}
 	
-	mean_time_to_happen = { days = 12 }
+	mean_time_to_happen = { years = 12 }
 	immediate = {
 		add_ruler_modifier = {
 			name = hellenic_festival
@@ -1306,7 +1306,7 @@ country_event = {
 		has_personal_deity = hermes
 	}
 	
-	mean_time_to_happen = { months = 8 }
+	mean_time_to_happen = { years = 8 }
 	immediate = {
 		hidden_effect = { remove_country_modifier = improving_ability }
 	}
@@ -1335,7 +1335,7 @@ country_event = {
 		NOT = { has_ruler_modifier = impious_believer }
 	}
 	
-	mean_time_to_happen = { days = 1 }
+	mean_time_to_happen = { years = 5 }
 	immediate = {
 		add_ruler_modifier = {
 			name = hellenic_festival
@@ -1400,7 +1400,7 @@ country_event = {
 		has_personal_deity = aphrodite
 	}
 	
-	mean_time_to_happen = { months = 8 }
+	mean_time_to_happen = { years = 8 }
 	immediate = {
 		hidden_effect = { remove_country_modifier = improving_ability }
 	}
@@ -1426,7 +1426,7 @@ country_event = {
 		NOT = { has_ruler_modifier = hellenic_crisis }
 	}
 	
-	mean_time_to_happen = { days = 47}
+	mean_time_to_happen = { years = 3 }
 	immediate = {
 		add_ruler_modifier = {
 			name = hellenic_crisis
