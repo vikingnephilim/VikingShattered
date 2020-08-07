@@ -323,7 +323,7 @@
  polynesian_spread:0 "Spread of Beliefs"
  polynesian_spread_desc:0 "Thanks to our seafaring ways, the Polynesian religion was allowed to spread to every nook and cranny of the Polynesian Triangle."
  polynesian_kamehameha_tuitatui:0 "Legacy Tu'i Tonga"
- polynesian_kamehameha_tuitatui:0 "The Pacific Islands have always been ruled by powerful figures. With this we honour the legacy of the Tu'i Tonga Empire"
+ polynesian_kamehameha_tuitatui_desc:0 "The Pacific Islands have always been ruled by powerful figures. With this we honour the legacy of the Tu'i Tonga Empire"
  RUG_ideas:0 "Rügener Ideas"
  RUG_ideas_start:0 "Rügener Traditions"
  RUG_ideas_bonus:0 "Rügener Ambitions"

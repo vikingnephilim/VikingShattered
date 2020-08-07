@@ -3,3 +3,14 @@ technology_group = chinese
 religion = polynesian
 primary_culture = maori
 capital = 1107 #Taranaki
+
+
+1439.1.1 = {
+	monarch = {
+		name = "Hahona"
+		dynasty = "Taumata"
+		dip = 3
+		adm = 3
+		mil = 3
+	}
+}

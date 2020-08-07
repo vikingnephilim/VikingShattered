@@ -8,7 +8,7 @@ capital = 1989 #Tonga
 
 1439.1.1 = {
 	monarch = {
-		name = "Chiroma"
+		name = "Kaelo"
 		dynasty = "Tui Tonga"
 		dip = 3
 		adm = 3
