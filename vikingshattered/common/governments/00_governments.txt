@@ -34,6 +34,7 @@ monarchy = {
 				cathar_reform
 				norse_reform
 				hungarian_archduchy_reform
+				polynesian_tribe
 			}
 		}
 		hereditary_vs_nobility = {
