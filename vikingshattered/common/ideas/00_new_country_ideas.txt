@@ -958,6 +958,6 @@ GRM_ideas = {
 		merchants = 1
 	}
 	siege_specialists = {
-		leader_land_siege = 1
+		leader_siege = 1
 	}
 }
