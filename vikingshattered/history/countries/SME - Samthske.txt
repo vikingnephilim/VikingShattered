@@ -1,7 +1,7 @@
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = geo_despotate
 primary_culture = georgian
-religion = orthodox
+religion = paulician
 technology_group = eastern
 capital = 2204 # Kars
 government_rank = 1

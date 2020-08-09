@@ -3,7 +3,7 @@
 owner = ARM
 controller = ARM
 culture = armenian
-religion = paulician
+religion = coptic
 capital = "Khankendi"
 trade_goods = livestock
 hre = no

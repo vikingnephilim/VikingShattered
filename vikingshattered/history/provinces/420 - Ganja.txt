@@ -3,7 +3,7 @@
 owner = ARM
 controller = ARM
 culture = shirvani
-religion = paulician
+religion = coptic
 capital = "Ganja"
 trade_goods = cotton
 hre = no

@@ -1,7 +1,7 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = geo_despotate
 primary_culture = georgian
-religion = orthodox
+religion = paulician
 technology_group = eastern
 capital = 422 # Kutaisi
 

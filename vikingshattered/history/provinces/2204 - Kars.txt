@@ -3,7 +3,7 @@
 owner = SME
 controller = SME
 culture = georgian
-religion = orthodox
+religion = paulician
 capital = "Akhaltsikhe"
 trade_goods = wine
 hre = no

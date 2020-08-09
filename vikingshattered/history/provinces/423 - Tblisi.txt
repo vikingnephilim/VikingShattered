@@ -3,7 +3,7 @@
 owner = GEO
 controller = GEO
 culture = georgian
-religion = orthodox
+religion = paulician
 capital = "T'bilisi"
 trade_goods = dyes
 hre = no

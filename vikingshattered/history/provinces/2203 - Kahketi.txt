@@ -3,7 +3,7 @@
 owner = GEO
 controller = GEO
 culture = georgian
-religion = orthodox
+religion = paulician
 capital = "Telavi"
 trade_goods = wine
 hre = no
