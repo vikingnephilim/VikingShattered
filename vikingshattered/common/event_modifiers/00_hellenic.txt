@@ -19,30 +19,6 @@ hellenic_zeal_small = {
 # Hellenic Events
 ##################################################
 
-offer_to_jupiter = {
-	unjustified_demands = -0.10
-	global_missionary_strength = 0.01
-}
-offer_to_juno = {
-	global_unrest = -1
-	global_missionary_strength = 0.01
-}
-offer_to_mars = {
-	land_morale = 0.10
-	global_missionary_strength = 0.01
-}
-offer_to_minerva = {
-	build_cost = -0.10
-	global_missionary_strength = 0.01
-}
-offer_to_mercury = {
-	merchants = 1
-	global_missionary_strength = 0.01
-}
-offer_to_venus = {
-	heir_chance = 0.3
-	global_missionary_strength = 0.01
-}
 improving_ability = {
 	stability_cost_modifier = 0.10
 }
@@ -57,8 +33,6 @@ pontifex_maximus = {
 	global_missionary_strength = 0.02
 	stability_cost_modifier = -0.10
 }
-
-# Greek ones
 offer_to_zeus = {
 	unjustified_demands = -0.10
 	global_missionary_strength = 0.01
