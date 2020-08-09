@@ -64,7 +64,7 @@ byz_rumpstate = {
     queen = yes
     rulers_can_be_generals = yes
     modifiers = {
-		land_leader_fire = 1
+		leader_land_fire = 1
 		yearly_corruption = -0.01
 	}
 }
