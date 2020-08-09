@@ -30,6 +30,11 @@ monarchy = {
 				revolutionary_empire_reform
 				holy_state_reform
 				austrian_archduchy_reform
+				byz_rumpstate
+				irish_clan
+				irish_high_king
+				geo_despotate
+				k_of_arm
 
 				cathar_reform
 				norse_reform
@@ -228,6 +233,7 @@ republic = {
 		protectorate_parliament_legacy
 		prussian_republic
 		united_cantons_legacy
+		grk_demo
 	}
 	reform_levels = {
 		oligarchy_merchant_class_noble_elite = {
