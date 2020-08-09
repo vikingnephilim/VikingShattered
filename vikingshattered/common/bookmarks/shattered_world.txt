@@ -1,0 +1,20 @@
+bookmark =
+{
+	name = "SHATTERED_WORLD"
+	desc = "SHATTERED_WORLD_DESC"
+	date = 1444.11.11
+	
+	center = 112
+	default = yes
+
+	country = HAW
+	country = TKT
+	country = ISF
+	country = ASR
+	country = RUG
+	country = ARM
+	country = MAC
+	country = EAL
+	country = SCN
+	country = KRL
+}

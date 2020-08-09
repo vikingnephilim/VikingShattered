@@ -872,7 +872,9 @@ arabian_ideas = {
 	}
 	
 	trigger = {
+		or = {
 		culture_group = turko_semitic
+		culture_group = egyptian_g }
 		NOT = { primary_culture = turkish }
 	}
 	free = yes
@@ -914,7 +916,9 @@ latin_ideas = {
 	}
 	
 	trigger = {
+		or = {
 		culture_group = latin
+		culture_group = south_latin }
 		capital_scope = { region = italy_region }
 	}
 	free = yes
@@ -2063,7 +2067,11 @@ french_culture_ideas = {
 	}
 	
 	trigger = {
+		or = {
+		culture_group = north_french
 		culture_group = french
+		culture_group = south_french
+		}
 	}
 	free = yes
 	
@@ -2263,7 +2271,7 @@ caspian_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = mazandarani
+		culture_group = iranian
 	}
 	free = yes
 	

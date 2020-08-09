@@ -11,3 +11,4 @@ tags={
 picture="thumbnail.png"
 supported_version="1.30.*.*"
 path="mod/vikingshattered"
+replace_path = "common/bookmarks"
