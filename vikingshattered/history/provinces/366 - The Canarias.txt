@@ -3,7 +3,7 @@
 owner = MCN
 controller = MCN
 add_core = MCN
-culture = moroccan
+culture = portoccan
 religion = sunni
 capital = "Las Palmas"
 trade_goods = unknown

@@ -429,6 +429,35 @@ eastern = {
 		uses_isolationism = yes
 		harmonized_modifier = harmonized_shinto
 	}
+	zen = {
+		color = { 148 84 147 }
+		icon = 23
+		allowed_conversion = {
+			vajrayana
+			buddhism #Theravada
+			mahayana
+		}
+		country = {
+			yearly_corruption = -0.1
+			global_autonomy = -0.05
+		}
+		province = {
+			local_missionary_strength = 0.01
+		}
+		country_as_secondary = {
+			yearly_corruption = -0.1
+		}
+		on_convert = {
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		heretic = { MAHAYANA }
+		uses_karma = yes
+	}
 	crusade_name = CRUSADE
 }
 dharmic = {
