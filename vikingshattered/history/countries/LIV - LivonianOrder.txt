@@ -6,8 +6,6 @@ primary_culture = prussian
 add_accepted_culture = latvian
 add_accepted_culture = estonian
 religion = catholic
-historical_friend = TEU
-historical_friend = RIG
 capital = 37	# Livland
 add_army_professionalism = 0.1
 

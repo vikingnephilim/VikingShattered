@@ -4,8 +4,6 @@ primary_culture = yucatec
 religion = mesoamerican_religion
 technology_group = mesoamerican
 capital = 4590
-historical_rival = COC
-
 1439.1.1 = {
 	monarch = {
 		name = "Ah"

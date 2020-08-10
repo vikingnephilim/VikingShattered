@@ -3,7 +3,6 @@ mercantilism = 0.1
 primary_culture = vinlandic
 religion = norse_pagan_reformed
 technology_group = western
-historical_friend = IRO
 capital = 980 #Beothuk
 
 

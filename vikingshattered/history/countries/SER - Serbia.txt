@@ -4,7 +4,6 @@ primary_culture = serbian
 religion = orthodox
 technology_group = eastern
 capital = 4176	# Krusevac
-historical_friend = BOS
 
 1427.7.20 = {
 	monarch = {

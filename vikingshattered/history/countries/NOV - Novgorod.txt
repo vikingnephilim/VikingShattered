@@ -5,7 +5,6 @@ mercantilism = 25
 primary_culture = ilmenian
 religion = orthodox
 technology_group = eastern
-historical_rival = MOS
 capital = 310	# Novgorod
 fixed_capital = 310 # Cannot move capital away from this province & no power cost to move to it
 

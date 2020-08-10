@@ -6,10 +6,6 @@ technology_group = western
 religion = catholic
 primary_culture = lower_saxon
 capital = 45	# Lübeck
-historical_friend = HAM #Hamburg
-historical_friend = BRE #Bremen
-historical_friend = RIG #Riga
-
 1444.11.11 = {
 	monarch = {
 		name = "Adolf"

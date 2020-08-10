@@ -7,7 +7,6 @@ unlock_cult = yemoja_cult
 unlock_cult = roog_cult
 unlock_cult = nyame_cult
 capital = 2288	# Niani
-historical_rival = KBO
 religious_school = maliki_school
 
 #Hypothetical rulers, from a genealogy of the XXth century sultan.
