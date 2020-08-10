@@ -4,4 +4,13 @@ government_rank = 1
 technology_group = western
 primary_culture = pommeranian
 religion = slavic_pagan_reformed
-capital = 4745	# RÃ¼gen
+capital = 4745	# Rügen
+1426.1.1 = { 
+	monarch = {
+		name = "Markus"
+		dynasty = "von Pommern"
+		ADM = 3
+		DIP = 1
+		MIL = 3
+	}
+}

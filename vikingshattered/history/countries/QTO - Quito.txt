@@ -16,19 +16,3 @@ fixed_capital = 820 # Cannot move capital away from this province & no power cos
 		mil = 2
 	}
 }
-
-1444.1.1 = {
-	heir = {
-		name = "Luyes"
-		monarch_name = "Luyes"
-		dynasty = "Caracara"
-		birth_date = 1435.1.1
-		death_date = 1487.1.1
-		claim = 95
-		adm = 2
-		dip = 3
-		mil = 2
-	}
-}
-
-# 1487 annexed by Incas

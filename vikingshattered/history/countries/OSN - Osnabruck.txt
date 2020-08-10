@@ -6,3 +6,14 @@ religion = catholic
 technology_group = western
 capital = 56	# Osnabruck
 fixed_capital = 56 # Cannot move capital away from this province & no power cost to move to it
+1436.12.30 = {
+	monarch = {
+		name = "Ludwig"
+		dynasty = "von Hannover"
+		birth_date = 1424.1.1
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+
+}

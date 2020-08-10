@@ -4,3 +4,15 @@ technology_group = chinese
 religion = confucianism
 primary_culture = jin
 capital = 693	#Taiyuan
+1427.1.1 = {
+	monarch = {
+		name = "Zhanji"
+		dynasty = "Xiurong"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = silver_tongue_personality
+}

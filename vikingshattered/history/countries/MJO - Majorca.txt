@@ -7,7 +7,8 @@ capital = 333	# Majorca
 
 1444.1.1 = {
     monarch = {
-    name = "Standard Drater"
+    name = "Ricard"
+    dynasty = "de Haro"
     adm = 4
     dip = 4
     mil = 4

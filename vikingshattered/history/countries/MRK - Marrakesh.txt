@@ -18,29 +18,3 @@ religious_school = maliki_school
 		mil = 3
 	}
 }
-
-1444.1.1 = {
-	heir = {
-		name = "Ali"
-		monarch_name = "Ali"
-		dynasty = "Hintata"
-		birth_date = 1440.1.1
-		death_date = 1472.1.1
-		claim = 95
-		adm = 2
-		dip = 2
-		mil = 4
-	}
-}
-
-1466.1.1 = {
-	monarch = {
-		name = "Ali"
-		dynasty = "Hintata"
-		adm = 2
-		dip = 2
-		mil = 4
-	}
-}
-
-# Wattasids take power

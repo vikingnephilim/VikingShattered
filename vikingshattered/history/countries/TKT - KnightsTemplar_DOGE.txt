@@ -1,7 +1,7 @@
-government = monarchy
+government = theocracy
 add_government_reform = monastic_order_reform
 government_rank = 1
-technology_group = eastern
+technology_group = western
 primary_culture = cosmopolitan_french
 add_accepted_culture = al_misr_arabic
 religion = catholic
@@ -11,7 +11,8 @@ capital = 4316 #Mansura
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Ruler"
+    name = "Alain"
+    dynasty = "de Barrau"
     adm = 4
     dip = 4
     mil = 4

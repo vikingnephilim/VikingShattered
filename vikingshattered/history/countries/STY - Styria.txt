@@ -9,7 +9,8 @@ capital = 128	# Karnten
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Ruler"
+    name = "Bruno"
+    dynasty = "Grelle"
     adm = 4
     dip = 4
     mil = 4

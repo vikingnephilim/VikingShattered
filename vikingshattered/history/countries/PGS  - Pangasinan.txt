@@ -15,15 +15,3 @@ government_rank = 2
 		mil = 2
 	}
 }
-
-1574.1.1 = { #Pirate Warlord
-	monarch = {
-		name = "Hong"
-		dynasty = "Lim"
-		adm = 2
-		dip = 5
-		mil = 3
-		culture = hakka
-		religion = confucianism
-	}
-}

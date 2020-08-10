@@ -4,3 +4,12 @@ technology_group = chinese
 religion = confucianism
 primary_culture = shandong_culture
 capital = 690	#Qingzhou
+1444.1.1 = {
+	monarch = {
+		name = "Youwan"
+		dynasty = "Mao"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

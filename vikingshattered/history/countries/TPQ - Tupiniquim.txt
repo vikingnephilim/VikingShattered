@@ -13,12 +13,3 @@ capital = 757
 		regent = yes
 	}
 }
-
-1520.1.1 = {
-	monarch = {
-		name = "Tibiriçá"
-		adm = 2
-		dip = 4
-		mil = 2
-	}
-}

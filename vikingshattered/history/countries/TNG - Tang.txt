@@ -4,3 +4,12 @@ technology_group = chinese
 religion = confucianism
 primary_culture = zhongyuan
 capital = 687	#Nanyang
+1426.1.1 = { 
+	monarch = {
+		name = "Gauxi"
+		dynasty = "Houa"
+		ADM = 3
+		DIP = 1
+		MIL = 3
+	}
+}

@@ -5,3 +5,13 @@ technology_group = eastern
 religion = baltic_pagan_reformed
 primary_culture = latvian
 capital = 1834
+
+1440.1.1 = { #Fictional
+	monarch = {
+		name = "Kaupo"
+		dynasty = "Ridala"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

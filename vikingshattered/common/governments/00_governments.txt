@@ -30,16 +30,17 @@ monarchy = {
 				revolutionary_empire_reform
 				holy_state_reform
 				austrian_archduchy_reform
+				#########VIKING MOD GOV TYPES START HERE#########
+				cathar_reform
+				norse_reform
+				hungarian_archduchy_reform
+				polynesian_tribe
 				byz_rumpstate
 				irish_clan
 				irish_high_king
 				geo_despotate
 				k_of_arm
-
-				cathar_reform
-				norse_reform
-				hungarian_archduchy_reform
-				polynesian_tribe
+				norman_duchy_reform
 			}
 		}
 		hereditary_vs_nobility = {
@@ -233,7 +234,6 @@ republic = {
 		protectorate_parliament_legacy
 		prussian_republic
 		united_cantons_legacy
-		grk_demo
 	}
 	reform_levels = {
 		oligarchy_merchant_class_noble_elite = {
@@ -263,6 +263,7 @@ republic = {
 				united_cantons_reform
 				imperial_veche_republic
 				peoples_republic
+				grk_demo
 			}
 		}
 		republican_virtues = {

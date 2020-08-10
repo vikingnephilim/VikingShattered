@@ -25,11 +25,3 @@ religious_school = ismaili_school
 	clear_scripted_personalities = yes
 	add_ruler_personality = bold_fighter_personality
 }
-
-1451.1.1 = {
-	religion = shiite
-	religious_school = ismaili_school
-}
-1504.1.1 = {
-	religious_school = jafari_school
-}

@@ -15,13 +15,3 @@ capital = 2401
 		MIL = 2
 	}
 }
-
-1465.1.1 = {
-	monarch = {
-		name = "Piu"
-		dynasty = "Mong Pai"
-		ADM = 2
-		DIP = 2
-		MIL = 2
-	}
-}

@@ -4,3 +4,13 @@ technology_group = chinese
 religion = confucianism
 primary_culture = chimin
 capital = 1829	#Quanzhou
+
+1444.11.11 = {
+	monarch = {
+		name = "Changrun"
+		dynasty = "Shen"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

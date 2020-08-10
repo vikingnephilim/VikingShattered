@@ -10,7 +10,8 @@ fixed_capital = 112 # Cannot move capital away from this province & no power cos
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Drater"
+    name = "Lamberto"
+    dynasty = "Arrigoni"
     adm = 4
     dip = 4
     mil = 4

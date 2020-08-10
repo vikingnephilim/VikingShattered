@@ -7,3 +7,12 @@ religion = catholic
 capital = 4731
 fixed_capital = 4731  # Cannot move capital away from this province & no power cost to move to it
 
+1426.1.1 = { 
+	monarch = {
+		name = "Mario"
+		dynasty = "Capponi"
+		ADM = 3
+		DIP = 1
+		MIL = 3
+	}
+}

@@ -5,3 +5,13 @@ primary_culture = persian
 religion = mazdaki
 technology_group = muslim
 capital = 432 # Kerman
+1444.1.1 = {
+
+    monarch = {
+	name = "Erdehan"
+	dynasty = "Meyvand"
+    adm = 4
+    dip = 4
+    mil = 4
+    }
+}

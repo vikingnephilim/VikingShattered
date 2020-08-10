@@ -8,7 +8,8 @@ capital = 183 # Paris
 
 1444.1.1 = {
 	monarch = {
-		name = "Standard Drater"
+		name = "Bohemond"
+		dynasty = "de La Fayette"
 		adm = 4
 		dip = 4
 		mil = 4

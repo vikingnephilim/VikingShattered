@@ -18,6 +18,9 @@ french_minor_missions = {
 			tag = TOU
 			tag = DAU
 			tag = PIC
+			tag = ANJ
+			tag = PRS
+			tag = POI
 		}
 		NOT = { map_setup = map_setup_random }
 	}

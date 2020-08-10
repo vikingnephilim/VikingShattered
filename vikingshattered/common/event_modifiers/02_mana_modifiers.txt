@@ -241,5 +241,5 @@ hawaii_centre_of_trade_modifier = {
 }
 golden_coast_hawaii = {
 	local_development_cost = -0.25
-	inflation_reduction_local = 0.1
+	local_build_time = -0.25
 }

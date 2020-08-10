@@ -6,16 +6,6 @@ capital = 2700 #Panay
 religion = hinduism
 government_rank = 1
 
-1365.1.1 = {
-	monarch = {
-		name = "Kalantiaw"
-		dynasty = "Panay"
-		adm = 3
-		dip = 2
-		mil = 2
-	}
-}
-
 1437.1.1 = {
 	monarch = {
 		name = "Manduyog"
@@ -23,35 +13,5 @@ government_rank = 1
 		adm = 2
 		dip = 4
 		mil = 2
-	}
-}
-
-1490.1.1 = {
-	monarch = {
-		name = "Padojinog"
-		dynasty = "Irong-Irong"
-		adm = 2
-		dip = 2
-		mil = 3
-	}
-}
-
-1520.1.1 = {
-	monarch = {
-		name = "Kabnayag"
-		dynasty = "Kalibo"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1565.1.1 = {
-	monarch = {
-		name = "Lubay"
-		dynasty = "Kalibo"
-		adm = 2
-		dip = 2
-		mil = 1
 	}
 }

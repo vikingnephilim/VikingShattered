@@ -23,17 +23,7 @@ religious_school = hanafi_school
 	add_ruler_personality = scholar_personality
 	add_ruler_personality = righteous_personality
 	add_ruler_personality = naive_personality
-	heir = {
-		name = "'Abd Allâh Mîrzâ"
-		monarch_name = "'Abd Allâh Mîrzâ"
-		dynasty = "Timurid"
-		birth_date = 1409.5.13
-		death_date = 1451.6.23
-		claim = 95
-		adm = 3
-		dip = 4
-		mil = 2
-	}
+	
 	add_piety = -0.5
 }
 

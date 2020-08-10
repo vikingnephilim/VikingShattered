@@ -15,23 +15,3 @@ capital = 4121	# Ulster
 		mil = 2
 	}
 }
-
-1480.1.1 = { #Also Fictional
-	monarch = {
-		name = "Donal"
-		dynasty = "Magginis"
-		adm = 2
-		dip = 2
-		mil = 3
-	}
-}
-
-1500.1.1 = { #Date unknown
-	monarch = {
-		name = "Arthur"
-		dynasty = "Magginis"
-		adm = 2
-		dip = 2
-		mil = 1
-	}
-}

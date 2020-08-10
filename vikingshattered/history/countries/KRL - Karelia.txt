@@ -8,7 +8,8 @@ capital = 4124 #Karelia
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Ruler"
+    name = "Tugan"
+    dynasty = "Soop"
     adm = 4
     dip = 4
     mil = 4

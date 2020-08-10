@@ -7,7 +7,7 @@ technology_group = ottoman
 capital = 319	# Antalya
 religious_school = hanafi_school
 
-1399.1.1 = {
+1439.1.1 = {
 	monarch = {
 		name = "Ilyas I"
 		dynasty = "Mentesoglu"

@@ -16,17 +16,3 @@ religious_school = shafii_school
 	}
 	add_piety = 0.1
 }
-
-1444.1.1 = {
-	heir = {
-		name = "Muhammed"
-		monarch_name = "Muhammed I"
-		dynasty = "Rashid"
-		birth_date = 1444.1.1
-		death_date = 1505.1.1
-		claim = 95
-		adm = 3
-		dip = 2
-		mil = 3
-	}
-}

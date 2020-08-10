@@ -18,15 +18,3 @@ capital = 2396
 		MIL = 2
 	}
 }
-
-1470.1.1 = {
-	monarch = {
-		name = "Yaw"
-		dynasty = "Sui"
-		ADM = 2
-		DIP = 2
-		MIL = 2
-	}
-}
-
-# 1502 Shan Confederation

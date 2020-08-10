@@ -15,15 +15,3 @@ capital = 588
 		MIL = 2
 	}
 }
-
-1465.1.1 = {
-	monarch = {
-		name = "Hkun Kyaw Sam"
-		dynasty = "Mong Nai"
-		ADM = 2
-		DIP = 2
-		MIL = 2
-	}
-}
-
-# 1502 Shan Confederation

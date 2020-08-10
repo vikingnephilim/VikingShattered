@@ -15,13 +15,3 @@ capital = 1234	# Daw
 		mil = 3
 	}
 }
-
-1484.1.1 = {
-	monarch = {
-		name = "Ioel"
-		dynasty = "Dotawo"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}

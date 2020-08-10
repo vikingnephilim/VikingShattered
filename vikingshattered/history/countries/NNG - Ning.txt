@@ -4,3 +4,13 @@ technology_group = chinese
 religion = confucianism
 primary_culture = gan
 capital = 683	#Nanchang
+
+1429.1.1 = {
+	monarch = {
+		name = "Biao"
+		dynasty = "Dai"
+		adm = 3
+		dip = 4
+		mil = 1
+	}
+}

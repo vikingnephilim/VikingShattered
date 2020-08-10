@@ -339,7 +339,9 @@ CAS_ideas = {
 		global_colonial_growth = 25
 	}
 	trigger = {
-		tag = CAS
+		or = { 
+			tag = CAS
+		}
 	}
 	free = yes		#will be added at load.
 	the_reconquista = {

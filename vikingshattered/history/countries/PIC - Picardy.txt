@@ -1,7 +1,7 @@
 government = monarchy
 #add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = wallonian #original cosmo french
+primary_culture = picard #original cosmo french
 religion = catholic
 technology_group = western
 capital = 89 # picardy
@@ -9,7 +9,8 @@ fixed_capital = 89 # Cannot move capital away from this province & no power cost
 
 1444.1.1 = {
 	monarch = {
-		name = "Standard Drater"
+		name = "Charles"
+		dynasty = "de Vaudemont"
 		adm = 4
 		dip = 4
 		mil = 4

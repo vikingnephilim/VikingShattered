@@ -14,7 +14,8 @@ capital = 368 # Madeira
 
 1444.1.1 = {
     monarch = {
-    name = "The First Protector"
+    name = "Muhammad"
+    dynasty = "de Melo"
     adm = 4
     dip = 6
     mil = 3

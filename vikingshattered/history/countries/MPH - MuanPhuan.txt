@@ -5,3 +5,12 @@ primary_culture = lao
 religion = buddhism
 capital = 1844	# Xiangkhouang
 
+1440.1.1 = { #Fictional
+	monarch = {
+		name = "Fa Ngum"
+		dynasty = "Nan"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

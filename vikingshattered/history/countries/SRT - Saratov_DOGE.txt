@@ -12,7 +12,8 @@ add_accepted_culture = astrakhani
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Ruler"
+    name = "Baraq"
+    dynasty = "Bayangge"
     adm = 4
     dip = 4
     mil = 4

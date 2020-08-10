@@ -1,0 +1,418 @@
+### MAKE SURE YOU PUT YOUR GOVERNMENT TYPE ###
+###### IN THE RIGHT SECTIONS AND IN THE ######
+## GOVERNMENTS FILE SO THAT IT WILL SHOW UP ##
+
+##############################################
+################ MONARCHIES ##################
+##############################################
+cathar_reform = {
+    icon = "commander_king_reform"
+    allow_normal_conversion = no
+    legacy_equivalent = feudal_monarchy
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+    modifiers = {
+        tolerance_own = 1
+        tolerance_heretic = 1
+        idea_cost = -0.05
+    }
+    potential = {
+        religion = cathar
+    }
+    trigger = {
+        religion = cathar
+    }
+    ai = {
+        factor = 0.5
+        modifier = {
+            factor = 10
+            religion = cathar
+        }
+    }
+}
+norman_duchy_reform = {
+	icon = "norman_duchy"
+	allow_normal_conversion = yes
+	lock_level_when_selected = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 10
+	potential = { 
+		OR = {
+            primary_culture = normand
+			}
+	}
+	trigger = {
+		primary_culture = normand
+	}
+	modifiers = {
+		harsh_treatment_cost = -0.2
+		infantry_power = 0.025
+		governing_capacity = 100
+		}
+		fixed_rank = 1
+	ai = {
+		factor = 100
+	}
+}
+norse_reform = {
+    icon = "commander_king_reform"
+    allow_normal_conversion = no
+    legacy_equivalent = feudal_monarchy
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+    modifiers = {
+        war_exhaustion_cost = -0.1
+        war_taxes_cost_modifier = -0.5
+        monarch_military_power = 2
+    }
+    potential = {
+        religion = norse_pagan_reformed
+    }
+    trigger = {
+        religion = norse_pagan_reformed
+    }
+    ai = {
+        factor = 0.5
+        modifier = {
+            factor = 10
+            religion = norse_pagan_reformed
+        }
+    }
+}
+hungarian_archduchy_reform = {
+	icon = "austrian_archduchy_reform"
+	allow_normal_conversion = yes
+	legacy_equivalent = feudal_monarchy
+	valid_for_nation_designer = yes
+	potential = {
+		OR = {
+			tag = HUN
+			was_tag = HUN
+			has_reform = hungarian_archduchy_reform
+			have_had_reform = hungarian_archduchy_reform
+		}
+	}
+	nation_designer_cost = 0
+	modifiers = {
+		mercenary_manpower = 0.25
+		special_unit_forcelimit= 0.10
+		nobles_influence_modifier = 0.05
+		maratha_exclusive_influence_modifier = 0.05
+		rajput_exclusive_influence_modifier = 0.05
+	}
+}
+polynesian_tribe = {
+	icon = "assembly_hall"
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = polynesian_g
+    }
+	valid_for_nation_designer = yes
+	nation_designer_cost = -10
+    monarchy = yes
+    allow_force_tributary = yes
+    valid_for_nation_designer = no
+    maintain_dynasty = yes
+    can_form_trade_league = yes
+    royal_marriage = no
+    queen = no
+    rulers_can_be_generals = yes
+    modifiers = {
+		stability_cost_modifier = -0.33
+		range = 1
+	}
+}
+geo_despotate = {
+	icon = "castle"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = GEO
+			tag = IME
+			tag = SME
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = -10
+    monarchy = yes
+    allow_force_tributary = yes
+    valid_for_nation_designer = no
+    maintain_dynasty = yes
+    royal_marriage = yes
+    queen = yes
+    rulers_can_be_generals = yes
+    modifiers = {
+		defensiveness = 0.15
+		culture_conversion_cost = -0.2
+	}
+}
+k_of_arm = {
+	icon = "king"
+	allow_normal_conversion = yes
+	potential = {
+		AND = {
+			tag = ARM
+			religion_group = christian
+		}
+    }
+	valid_for_nation_designer = yes
+	nation_designer_cost = -10
+    monarchy = yes
+    valid_for_nation_designer = no
+    maintain_dynasty = yes
+    royal_marriage = yes
+    queen = yes
+    rulers_can_be_generals = yes
+    modifiers = {
+		missionaries = 1
+		missionary_maintenance_cost = -0.25
+	}
+}
+byz_rumpstate = {
+	icon = "king"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = FEO
+			tag = TRE
+		}
+    }
+	valid_for_nation_designer = yes
+	nation_designer_cost = -10
+    monarchy = yes
+    valid_for_nation_designer = no
+    maintain_dynasty = yes
+    royal_marriage = yes
+    queen = yes
+    rulers_can_be_generals = yes
+    modifiers = {
+		leader_land_fire = 1
+		yearly_corruption = -0.01
+	}
+}
+irish_clan = {
+	icon = "king"
+	allow_normal_conversion = yes
+	potential = {
+		AND = {
+			OR = {
+				tag = MCM
+				tag = LEI
+				tag = DMS
+				tag = ORD
+				tag = ULS
+				tag = TYR
+				tag = TRY
+				tag = SLN
+				tag = CNN
+				tag = KID
+				tag = MNS
+				tag = FLY
+			}
+			NOT = {
+				tag = IRE
+			}
+		}
+    }
+	valid_for_nation_designer = yes
+	nation_designer_cost = -10
+    monarchy = yes
+    valid_for_nation_designer = no
+    maintain_dynasty = yes
+    royal_marriage = yes
+    queen = yes
+    rulers_can_be_generals = yes
+    modifiers = {
+		production_efficiency = 0.1
+		tolerance_own = 1
+	}
+}
+irish_high_king = {
+	icon = "king"
+	allow_normal_conversion = yes
+	potential = {
+		tag = IRE
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = -10
+    monarchy = yes
+    valid_for_nation_designer = no
+    maintain_dynasty = yes
+    royal_marriage = yes
+    queen = yes
+    rulers_can_be_generals = yes
+    modifiers = {
+		production_efficiency = 0.15
+		tolerance_own = 2
+		global_colonial_growth = 15
+	}
+}
+#############################################
+################ REPUBLICS ##################
+#############################################
+imperial_veche_republic = {
+	icon = "merchant"
+	allow_normal_conversion = no
+	potential = {
+		OR = { religion = orthodox
+		religion = paulician 
+		religion = iconoclast
+		religion = monotite
+		religion = bogomilist
+		}
+		AND = {
+			total_development = 1000
+			OR = {
+				culture_group = east_slavic
+				culture_group = novgorod_group
+				culture_group = ruthenian_group
+				is_playing_custom_nation = yes
+				have_had_reform = veche_republic
+			}
+		}
+	}
+	legacy_equivalent = veche_republic_legacy
+	nation_designer_trigger = {
+		OR = {
+			culture_group = east_slavic
+			culture_group = novgorod_group
+			culture_group = ruthenian_group
+		}
+	}
+	modifiers = {
+		merchants = 3
+		global_manpower_modifier = 0.20
+		governing_capacity = 150
+		max_absolutism = -20
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	boost_income = yes
+	fixed_rank = 3
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+			NOT = { has_dlc = "Third Rome" }
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+			NOT = { has_dlc = "Third Rome" }
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Third Rome" }
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Third Rome"
+			NOT = { has_dlc = "Mare Nostrum" }
+			NOT = { has_dlc = "Res Publica" }
+		}
+		government_abilities = {
+			russian_mechanic
+		}
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Third Rome"
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+		}
+		government_abilities = {
+			russian_mechanic
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Third Rome"
+			NOT = { has_dlc = "Mare Nostrum" }
+			has_dlc = "Res Publica"
+		}
+		government_abilities = {
+			russian_mechanic
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Third Rome"
+			has_dlc = "Mare Nostrum"
+			has_dlc = "Res Publica"
+		}
+		government_abilities = {
+			russian_mechanic
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	duration = 8
+}
+peoples_republic = {
+	allow_normal_conversion = no
+	icon = "peasant_republic"
+	potential = {
+		OR = {
+			has_country_flag = great_peasants_war_peasant_republic
+			have_had_reform = peasants_republic
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 20
+	legacy_equivalent = peasants_republic_legacy
+	modifiers = {
+		production_efficiency = 0.2
+		land_morale = 0.1
+		max_absolutism = -20
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	duration = 6
+	fixed_rank = 3
+}
+grk_demo = {
+	icon = "peasants"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = CRT
+			tag = AEG
+			tag = EPI
+			tag = GRE
+			tag = ATH
+		}
+    }
+	republican_name = yes
+	republic = yes
+	duration = 4
+	legacy_equivalent = oligarchic_republic
+	has_term_election = yes
+	rulers_can_be_generals = yes
+    modifiers = {
+		reelection_cost = 0.1 #Yes this is supposed to increase reelection_cost owo
+		candidate_random_bonus = 1
+		diplomatic_reputation = 1
+	}
+}

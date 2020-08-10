@@ -7,7 +7,8 @@ capital = 279 # Volhynia
 
 1444.1.1 = {
 	monarch = {
-		name = "Standard Drater"
+		name = "Andrei"
+		dynasty = "Izbor"
 		adm = 4
 		dip = 4
 		mil = 4

@@ -4,3 +4,12 @@ technology_group = chinese
 religion = confucianism
 primary_culture = sichuanese
 capital = 679	#Chengdu
+1426.1.1 = { 
+	monarch = {
+		name = "Yu Quan"
+		dynasty = "Xiaolou"
+		ADM = 3
+		DIP = 1
+		MIL = 3
+	}
+}

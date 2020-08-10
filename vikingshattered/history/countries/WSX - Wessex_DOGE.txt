@@ -17,13 +17,3 @@ capital = 234	# Hampshire
 		dip = 3
 	}
 }
-1444.11.2 = {
-    heir = {
-        name = "Aethelwulf"
-        dynasty = "Cerdic"
-        birth_date = 1432.1.1
-        adm = 2
-        dip = 4
-        mil = 3
-    }
-}

@@ -100,9 +100,14 @@ hawaii_unify_haw = {
 			}
 		}
 		effect = {
-			random_rival_country = { remove_fow = 3	}			
+			random_province = {
+					limit = {
+						owned_by = ROOT
+					}
+					add_base_tax = 1		
 		}
 	}
+}
 	hawaii_unite_mainland = {
 		icon = mission_unite_home_region
 		position = 4
@@ -397,7 +402,7 @@ hawaii_american_colony_second_row_missions = {
 		position = 2
 		required_missions = { hawaii_mexican_mission }
 		trigger = {
-			ROOT = { owned_by = 2021 }
+			2021 = { owned_by = ROOT }
 			calc_true_if = {
 				all_province = {
 					OR = {

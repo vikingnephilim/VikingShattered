@@ -9,7 +9,8 @@ capital = 1935	# Mitau
 
 1444.1.1 = {
     monarch = {
-        name = "Standard Drater"
+        name = "Davins"
+        dynasty = "Vaiga"
         adm = 4
         dip = 4
         mil = 4

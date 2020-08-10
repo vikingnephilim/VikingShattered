@@ -4,3 +4,14 @@ technology_group = chinese
 religion = confucianism
 primary_culture = zhongyuan
 capital = 688	#Kaifeng
+
+
+1440.1.1 = { #Fictional
+	monarch = {
+		name = "Zhonghu"
+		dynasty = "Wanyan"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

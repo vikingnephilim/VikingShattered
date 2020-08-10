@@ -8,7 +8,8 @@ capital = 180 #Haut-Poitou
 
 1444.1.1 = {
 	monarch = {
-		name = "Standard Drater"
+		name = "Guy"
+		dynasty = "de Barrau"
 		adm = 4
 		dip = 4
 		mil = 4

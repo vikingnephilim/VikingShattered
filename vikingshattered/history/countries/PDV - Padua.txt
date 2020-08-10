@@ -6,3 +6,13 @@ religion = catholic
 technology_group = western
 capital = 4729
 fixed_capital = 4729 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Basso"
+		dynasty = "Crispo"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

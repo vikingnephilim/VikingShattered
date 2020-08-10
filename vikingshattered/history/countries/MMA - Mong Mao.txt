@@ -12,14 +12,6 @@ capital = 2166 # Dehong
 		ADM = 2
 		DIP = 2
 		MIL = 5
-		leader = {	
-			name = "Si Renfa"
-			type = general
-			fire = 2
-			shock = 4
-			manuever = 4
-			siege = 0 
-		}
 	}
 }
 

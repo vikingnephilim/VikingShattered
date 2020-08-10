@@ -9,7 +9,8 @@ capital = 1951	# Alba Iulia
 
 1444.1.1 = {
     monarch = {
-        name = "Standard Drater"
+        name = "Ambrus"
+        dynasty = "Magyary"
         adm = 4
         dip = 4
         mil = 4

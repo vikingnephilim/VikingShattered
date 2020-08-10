@@ -19,23 +19,3 @@ religious_school = shafii_school
 		mil = 3
 	}
 }
-
-1480.1.1 = {
-	monarch = {
-		name = "Shams al-Din Muhammad"
-		dynasty = "Mihrabanid"
-		adm = 1
-		dip = 2
-		mil = 1
-	}
-}
-
-1439.1.1 = {
-	monarch = {
-		name = "Mahmud"
-		dynasty = "Mihrabanid"
-		adm = 3
-		dip = 4
-		mil = 4
-	}
-}

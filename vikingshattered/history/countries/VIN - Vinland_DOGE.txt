@@ -17,14 +17,3 @@ capital = 980 #Beothuk
 		mil = 1
 	}
 }
-
-1423.1.1 = { 
-	leader = { 
-		name = "Thorsting Olafson"
-		type = conquistador
-		fire = 1 
-		shock = 1 
-		manuever = 4 
-		siege = 0 
-	} 
-}

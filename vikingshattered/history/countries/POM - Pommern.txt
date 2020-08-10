@@ -7,7 +7,7 @@ technology_group = western
 capital = 1858	# Stettin
 
 
-1464.11.11 = {
+1444.11.11 = {
 	monarch = {
 		name = "Eryk II"
 		dynasty = "Gryf"
@@ -15,57 +15,5 @@ capital = 1858	# Stettin
 		adm = 1
 		dip = 2
 		mil = 3
-	}
-}
-
-1464.11.11 = {
-	heir = {
-		name = "Boguslaw"
-		monarch_name = "Boguslaw X"
-		dynasty = "Gryf"
-		birth_date = 1454.6.3
-		death_date = 1523.10.5
-		claim = 95
-		adm = 4
-		dip = 3
-		mil = 2
-	}
-}
-
-1474.7.6 = {
-	monarch = {
-		name = "Boguslaw X"
-		dynasty = "Gryf"
-		birth_date = 1454.6.3
-		adm = 4
-		dip = 3
-		mil = 2
-	}
-}
-
-1501.12.2 = {
-	heir = {
-		name = "Barnim"
-		monarch_name = "Barnim XI"
-		dynasty = "Gryf"
-		birth_date = 1501.12.2
-		death_date = 1573.11.2
-		claim = 95
-		adm = 2
-		dip = 3
-		mil = 2
-	}
-}
-
-
-
-1625.11.28 = {
-	monarch = {
-		name = "Boguslaw XIV"
-		dynasty = "Gryf"
-		birth_date = 1580.3.31
-		adm = 3
-		dip = 1
-		mil = 0
 	}
 }

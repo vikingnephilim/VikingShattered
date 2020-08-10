@@ -15,3 +15,5 @@ capital = 1989 #Tonga
 		mil = 3
 	}
 }
+
+1444.1.1  = { leader = {	name = "Manu Sa'aki"     	type = explorer	fire = 3	shock = 3	manuever = 4	siege = 0 } }

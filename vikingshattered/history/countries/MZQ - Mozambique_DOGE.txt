@@ -11,7 +11,8 @@ capital = 1195	# Mozambique
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Ruler"
+    name = "Suleyman"
+    dynasty = "Zanzibari"
     adm = 4
     dip = 4
     mil = 4

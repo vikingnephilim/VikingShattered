@@ -6,3 +6,16 @@ religion = orthodox
 primary_culture = ukranian
 capital = 280	# Kiev
 fixed_capital = 280 # Cannot move capital away from this province & no power cost to move to it
+
+1427.1.1 = {
+	monarch = {
+		name = "Dmitriy"
+		dynasty = "Lyubech"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = silver_tongue_personality
+}

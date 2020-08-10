@@ -888,7 +888,7 @@ MEN_ideas = {
 		development_cost = -0.1
 	}
 	siege_specialists = {
-		leader_land_siege = 1
+		leader_siege = 1
 	}
 }
 
@@ -923,7 +923,7 @@ AYD_ideas = {
 		global_ship_recruit_speed = -0.1
 	}
 	siege_specialists = {
-		leader_land_siege = 1
+		leader_siege = 1
 	}
 }
 

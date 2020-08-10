@@ -12,7 +12,8 @@ add_army_professionalism = 0.05
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Drater"
+    name = "Otto"
+    dynasty = "Tassoni"
     adm = 4
     dip = 4
     mil = 4

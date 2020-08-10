@@ -4,3 +4,12 @@ technology_group = eastern
 religion = catholic
 primary_culture = white_ruthenian
 capital = 279	# Volhynia
+1426.1.1 = { 
+	monarch = {
+		name = "Igor"
+		dynasty = "Khilkov"
+		ADM = 3
+		DIP = 1
+		MIL = 3
+	}
+}

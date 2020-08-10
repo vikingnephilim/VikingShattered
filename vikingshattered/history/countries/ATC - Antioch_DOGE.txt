@@ -1,16 +1,17 @@
 government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = cosmopolitan_french
 add_accepted_culture = al_suryah_arabic 
 religion = monotite
-technology_group = eastern
+technology_group = western
 capital = 2313 # Antioch
 
 
 1444.1.1 = {
 
     monarch = {
-    name = "Ã‰tienne"
+    name = "Ãtienne"
     dynasty = "de Roham"
     adm = 4
     dip = 4

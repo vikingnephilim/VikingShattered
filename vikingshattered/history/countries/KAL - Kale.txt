@@ -16,13 +16,3 @@ capital = 580
 		MIL = 2
 	}
 }
-
-1465.1.1 = {
-	monarch = {
-		name = "Kyetaungnyo"
-		dynasty = "Kale"
-		ADM = 2
-		DIP = 2
-		MIL = 2
-	}
-}

@@ -15,16 +15,3 @@ government_rank = 1
 		mil = 2
 	}
 }
-1444.1.1 = {
-	heir = {
-		name = "Eoin"
-		monarch_name = "Eoin II"
-		dynasty = "MacDonald"
-		birth_date = 1434.1.1
-		death_date = 1503.1.1
-		claim = 95
-		adm = 2
-		dip = 3
-		mil = 1
-	}
-}

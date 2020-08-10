@@ -4,3 +4,12 @@ technology_group = chinese
 religion = confucianism
 primary_culture = wu
 capital = 684	#Hangzhou
+1426.1.1 = { 
+	monarch = {
+		name = "Yuliu"
+		dynasty = "Jiefu"
+		ADM = 3
+		DIP = 1
+		MIL = 3
+	}
+}

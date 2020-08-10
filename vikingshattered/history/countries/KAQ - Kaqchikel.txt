@@ -17,23 +17,3 @@ capital = 2653
 		mil = 3
 	}
 }
-
-1475.1.1 = {
-	monarch = {
-		name = "Oxlanuh-Tz'i'"
-		dynasty = "Kaqchikel"
-		adm = 3
-		dip = 2
-		mil = 4
-	}
-}
-
-1508.1.1 = {
-	monarch = {
-		name = "Hun-lq'"
-		dynasty = "Kaqchikel'"
-		adm = 3
-		dip = 1
-		mil = 2
-	}
-}

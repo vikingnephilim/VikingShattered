@@ -9,7 +9,8 @@ capital = 612 #Khorat
 1444.1.1 = {
 
     monarch = {
-    name = "Standard Ruler"
+    name = "Oudong"
+    dynasty = "Angkor"
     adm = 4
     dip = 4
     mil = 4

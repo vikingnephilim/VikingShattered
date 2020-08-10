@@ -5,3 +5,13 @@ religion = hussite
 government_rank = 1
 capital = 4237 # Olomouc
 technology_group = western
+
+1439.1.1 = {
+	monarch = {
+		name = "Karel"
+		dynasty = "Kutscha"
+		adm = 3
+		dip = 4
+		mil = 1
+	}
+}

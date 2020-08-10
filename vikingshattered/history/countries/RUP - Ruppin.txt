@@ -5,3 +5,12 @@ technology_group = western
 primary_culture = saxon
 religion = catholic
 capital = 51	# Ruppin
+1444.1.1 = {
+	monarch = {
+		name = "Clemens"
+		dynasty = "von Cham"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

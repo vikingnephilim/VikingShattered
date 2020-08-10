@@ -6,3 +6,13 @@ technology_group = muslim
 capital = 4363
 fixed_capital = 4363 # Cannot move capital away from this province & no power cost to move to it
 religious_school = maliki_school
+
+1426.1.1 = { 
+	monarch = {
+		name = "Ibrahim"
+		dynasty = "Wattassid"
+		ADM = 3
+		DIP = 1
+		MIL = 3
+	}
+}
