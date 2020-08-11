@@ -7,8 +7,6 @@ government = monarchy
 add_government_reform = iqta
 government_rank = 3
 capital = 454 # Samarkand
-historical_rival = DLH
-historical_rival = MUL
 religious_school = hanafi_school
 
 change_estate_land_share = {

@@ -5,7 +5,6 @@ add_accepted_culture = croatian
 religion = catholic
 technology_group = eastern
 capital = 3002	# Sarajevo
-historical_friend = SER
 
 
 1443.6.23 = {

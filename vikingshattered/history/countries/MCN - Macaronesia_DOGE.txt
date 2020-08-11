@@ -7,8 +7,6 @@ religion = sunni
 primary_culture = portoccan
 add_accepted_culture = moroccan
 add_accepted_culture = portugese
-historical_friend = POR 
-historical_friend = MOR 
 national_focus = DIP
 capital = 368 # Madeira
 

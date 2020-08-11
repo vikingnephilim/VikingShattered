@@ -3,8 +3,6 @@ add_government_reform = feudalism_reform
 primary_culture = polish
 religion = catholic
 technology_group = eastern
-historical_friend = LIT
-historical_rival = TEU
 capital = 262 # Krakow
 
 national_focus = ADM

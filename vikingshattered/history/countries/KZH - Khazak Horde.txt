@@ -3,7 +3,6 @@ add_government_reform = steppe_horde
 primary_culture = khazak
 religion = sunni
 technology_group = nomad_group
-historical_rival = SHY
 capital = 1969	# Sozak
 religious_school = hanafi_school
 

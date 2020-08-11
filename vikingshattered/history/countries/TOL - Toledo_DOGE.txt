@@ -11,9 +11,6 @@ primary_culture = castillian
 #add_accepted_culture = 
 capital = 219 # Toledo
 #national_focus = MIL   
-#historical_friend = ULM
-#historical_rival = ULM
-
 1444.1.1 = {
     monarch = {
     name = "Tomás"

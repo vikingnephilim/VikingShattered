@@ -3,8 +3,6 @@ primary_culture = guajiro
 religion = animism
 technology_group = south_american
 capital = 743
-historical_rival = CAB
-
 1444.11.11 = {
 	monarch = {
 		name = "Native Council"
