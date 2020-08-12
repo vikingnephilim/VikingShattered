@@ -1,5 +1,6 @@
-# If you add religions, and use those tags, do not change them without changing everywhere they are used.
-# Uses all 'modifiers' possible thats exported as a Modifier.
+###################################
+##############ISLAM################
+###################################
 muslim = {
 	defender_of_faith = yes
 	center_of_religion = 385 # Mecca
@@ -258,6 +259,95 @@ muslim = {
 			shock_damage_received = -0.1
 		}
 	}
+	zikri = {
+		color = { 0 50 4 }
+		icon = 44
+		country = {
+			global_institution_spread = 0.15
+			heir_chance = 1.0
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		country_as_secondary = {
+			global_institution_spread = 0.15
+			heir_chance = 1.0
+		}
+		heretic = { BEKTASHI AHMADI YAZIDI }
+		uses_piety = yes				# Uses piety mechanics
+	}
+	yazidi = {
+		color = { 204 255 187 }
+		icon = 48
+		country = {
+			tolerance_own = 3 # Preoccupation with religious purity
+			tolerance_heretic = -1 # Too much contact with non-Yazidis is considered polluting
+			tolerance_heathen = -1
+			advisor_pool = 1 # Caste system
+			global_missionary_strength = 0.01 
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			advisor_pool = 1
+		}
+		heretic = { BEKTASHI AHMADI ZIKRI }
+		uses_piety = yes
+	}
+	kharijite = {
+		color = { 166 203 69 }
+		icon = 46
+		country = {
+			improve_relation_modifier = 0.2
+			heir_chance = 1.0
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		country_as_secondary = {
+			advisor_cost = -0.1
+			improve_relation_modifier = 0.1
+		}
+		heretic = { HARURI SUFRI NAJADAT AZRAQI }
+		uses_piety = yes				# Uses piety mechanics
+	}
+	druze = {
+		color = { 0.0 0.9 0.4 }
+		icon = 45
+		country = {
+			heir_chance = 1.0
+			dip_tech_cost_modifier = -0.1 # Promoted intellectualism
+			tolerance_heretic = -1 # Renounced 'false' belief
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		country_as_secondary = {
+			diplomats = 1
+			dip_tech_cost_modifier = -0.05
+		}
+		heretic = { HURUFI ZAIDI }
+		uses_piety = yes				# Uses piety mechanics
+	}
+	hurufi = {
+		color = { 0.4 0.9 0.0 }
+		icon = 49
+		country = {
+			heir_chance = 1.0
+			diplomatic_upkeep = 2
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		country_as_secondary = {
+			diplomatic_upkeep = 1
+			stability_cost_modifier = -0.1
+		}
+		heretic = { DRUZE ZAIDI }
+		uses_piety = yes				# Uses piety mechanics
+	}
 	sunni = {
 		color = { 0 153 0 }
 		icon = 5
@@ -312,6 +402,9 @@ muslim = {
 	harmonized_modifier = harmonized_muslim
 	crusade_name = JIHAD
 }
+###################################
+#############EASTERN###############
+###################################
 eastern = {
         defender_of_faith = yes
 	flags_with_emblem_percentage = 33
@@ -431,6 +524,9 @@ eastern = {
 	}
 	crusade_name = CRUSADE
 }
+###################################
+#############DHARMIC###############
+###################################
 dharmic = {
         defender_of_faith = yes
 	flags_with_emblem_percentage = 33
@@ -461,8 +557,42 @@ dharmic = {
 		}
 		heretic = { BHAKTI }
 	}
+	jain = {
+		icon = 59
+		color = { 1.2 0.3 0.6 }
+		country = {
+			tolerance_heathen = 2
+			tolerance_heretic = 2
+			religious_unity = 0.5
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			religious_unity = 0.75
+		}
+		uses_karma = yes
+		heretic = { TERAPANTHA }
+	}
+	bon = {
+		color = { 21 52 80 }
+		icon = 60
+		country = {
+			tolerance_heretic = 1
+			shock_damage_received = -0.1
+		}
+		country_as_secondary = {
+			horde_unity = 1
+			shock_damage_received = -0.1
+		}
+		province = {
+			local_defensiveness = 0.1
+		}
+		heretic = { ZEN }
+		uses_karma = yes
+	}
 	sikhism = {
-		color = { 0 153 153 }
+		color = { 0 102 255 }
 		icon = 15
 		allowed_conversion = {
 			hinduism
@@ -494,6 +624,9 @@ dharmic = {
 	harmonized_modifier = harmonized_dharmic
 	crusade_name = CRUSADE
 }
+###################################
+##############PAGAN################
+###################################
 pagan = {
         defender_of_faith = yes
 	flags_with_emblem_percentage = 10
@@ -636,6 +769,9 @@ pagan = {
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_pagan
 }
+###################################
+############CHRISTIAN##############
+###################################
 christian = {
 	defender_of_faith = yes
 	can_form_personal_unions = yes
@@ -1909,97 +2045,9 @@ christian = {
 		}
 	}
 }
-muslim = {
-	zikri = {
-		color = { 0.2 0.6 0.2 }
-		icon = 44
-		country = {
-			global_institution_spread = 0.15
-			heir_chance = 1.0
-		}
-		province = {
-			local_missionary_strength = -0.02
-		}
-		country_as_secondary = {
-			global_institution_spread = 0.15
-			heir_chance = 1.0
-		}
-		heretic = { BEKTASHI AHMADI YAZIDI }
-		uses_piety = yes				# Uses piety mechanics
-	}
-	yazidi = {
-		color = { 0.2 0.2 0.7 }
-		icon = 48
-		country = {
-			tolerance_own = 3 # Preoccupation with religious purity
-			tolerance_heretic = -1 # Too much contact with non-Yazidis is considered polluting
-			tolerance_heathen = -1
-			advisor_pool = 1 # Caste system
-			global_missionary_strength = 0.01 
-		}
-		province = {
-			local_missionary_strength = -0.01
-		}
-		country_as_secondary = {
-			tolerance_own = 2
-			advisor_pool = 1
-		}
-		heretic = { BEKTASHI AHMADI ZIKRI }
-		uses_piety = yes
-	}
-	kharijite = {
-		color = { 0.4 0.8 0.6 }
-		icon = 46
-		country = {
-			improve_relation_modifier = 0.2
-			heir_chance = 1.0
-		}
-		province = {
-			local_missionary_strength = -0.02
-		}
-		country_as_secondary = {
-			advisor_cost = -0.1
-			improve_relation_modifier = 0.1
-		}
-		heretic = { HARURI SUFRI NAJADAT AZRAQI }
-		uses_piety = yes				# Uses piety mechanics
-	}
-	druze = {
-		color = { 0.0 0.9 0.4 }
-		icon = 45
-		country = {
-			heir_chance = 1.0
-			dip_tech_cost_modifier = -0.1 # Promoted intellectualism
-			tolerance_heretic = -1 # Renounced 'false' belief
-		}
-		province = {
-			local_missionary_strength = -0.02
-		}
-		country_as_secondary = {
-			diplomats = 1
-			dip_tech_cost_modifier = -0.05
-		}
-		heretic = { HURUFI ZAIDI }
-		uses_piety = yes				# Uses piety mechanics
-	}
-	hurufi = {
-		color = { 0.4 0.9 0.0 }
-		icon = 49
-		country = {
-			heir_chance = 1.0
-			diplomatic_upkeep = 2
-		}
-		province = {
-			local_missionary_strength = -0.01
-		}
-		country_as_secondary = {
-			diplomatic_upkeep = 1
-			stability_cost_modifier = -0.1
-		}
-		heretic = { DRUZE ZAIDI }
-		uses_piety = yes				# Uses piety mechanics
-	}
-}
+###################################
+###########ZOROASTRIAN#############
+###################################
 zoroastrian_group = {
 	defender_of_faith = yes
  	flag_emblem_index_range = { 110 110 }
@@ -2018,14 +2066,15 @@ zoroastrian_group = {
 			tolerance_own = 1
 		}
 			heretic = { MAZDAKI MANICHEAN }	
-			holy_sites = { 4332 4327 4326 450 4294 }
 		#433
-		blessings = {
+		uses_anglican_power = yes				# Uses church power/aspect mechanics
+		aspects_name = ZOROASTRIAN_ASPECTS
+		aspects = {
 			zoro_immortals
 			zoro_legit
 			zoro_core
 			zoro_fort
-			zoro_range
+			zoro_range			
 		}
 	}
 	harmonized_modifier = harmonized_zoroastrian_group
@@ -2042,14 +2091,15 @@ zoroastrian_group = {
 			tolerance_heretic = 1
 		}
 			heretic = { MANICHEAN }
-			holy_sites = { 4332 4327 4326 450 4294 }
 		#433
-		blessings = {
+		uses_anglican_power = yes				# Uses church power/aspect mechanics
+		aspects_name = ZOROASTRIAN_ASPECTS
+		aspects = {
 			zoro_immortals
 			zoro_legit
 			zoro_core
 			zoro_fort
-			zoro_range
+			zoro_range			
 		}
 	}
 	manichean = {
@@ -2064,14 +2114,15 @@ zoroastrian_group = {
 			global_missionary_strength = 0.01
 		}
 		heretic = { MAZDAKI }
-		holy_sites = { 4332 4327 4326 450 4294 }
 		#433
-		blessings = {
+		uses_anglican_power = yes				# Uses church power/aspect mechanics
+		aspects_name = ZOROASTRIAN_ASPECTS
+		aspects = {
 			zoro_immortals
 			zoro_legit
 			zoro_core
 			zoro_fort
-			zoro_range
+			zoro_range			
 		}
 	}
 	khurmazta = {
@@ -2086,17 +2137,21 @@ zoroastrian_group = {
 			global_tax_modifier = 0.1
 		}
 		heretic = { MAZDAKI }
-		holy_sites = { 4332 4327 4326 450 4294 }
 		#433
-		blessings = {
+		uses_anglican_power = yes				# Uses church power/aspect mechanics
+		aspects_name = ZOROASTRIAN_ASPECTS
+		aspects = {
 			zoro_immortals
 			zoro_legit
 			zoro_core
 			zoro_fort
-			zoro_range
+			zoro_range			
 		}
 	}
 }
+##################################
+#############JEWISH###############
+##################################
 jewish_group = {
 	defender_of_faith = yes
 	flags_with_emblem_percentage = 33
@@ -2167,6 +2222,9 @@ jewish_group = {
 		heretic = { SAMARITAN JEWISH }
 	}
 }
+###################################
+##############PAGAN################
+###################################
 pagan = {
         defender_of_faith = yes
 	baltic_pagan_reformed = {
@@ -2232,23 +2290,19 @@ pagan = {
 		heretic = { DARKNESS }	
 		can_have_secondary_religion = yes
 	}
-	bon = {
-		color = { 8 140 131 }
-		icon = 60
+	hellenic_pagan = {
+		icon = 58
+		color = { 102 51 153 }
 		country = {
+			tolerance_own = 1
 			tolerance_heretic = 1
-			shock_damage_received = -0.1
 		}
 		country_as_secondary = {
-			horde_unity = 1
-			shock_damage_received = -0.1
+			tolerance_heathen = 2
+			advisor_pool = 1
 		}
-		province = {
-			local_defensiveness = 0.1
-		}
-		heretic = { ZEN }
-		uses_karma = yes
-    }
+		personal_deity = yes	
+	}
 	polynesian = {
 		color = { 237 181 121 }
 		icon = 12
@@ -2260,53 +2314,5 @@ pagan = {
 			colonists = 1
 		}
 		personal_deity = yes	
-	}
-}
-dharmic = {
-        defender_of_faith = yes
-	jain = {
-		icon = 59
-		color = { 1.2 0.3 0.6 }
-		country = {
-			tolerance_heathen = 2
-			tolerance_heretic = 2
-			religious_unity = 0.5
-		}
-		province = {
-			local_missionary_strength = 0.02
-		}
-		country_as_secondary = {
-			religious_unity = 0.75
-		}
-		uses_karma = yes
-		heretic = { TERAPANTHA }
-	}
-}
-hellenic = {
-	hellenic_pagan = {
-		icon = 58
-		color = { 1.0 1.0 0.7 }
-		country = {
-			tolerance_own = 1
-			tolerance_heretic = 1
-		}
-		country_as_secondary = {
-			tolerance_heathen = 2
-			advisor_pool = 1
-		}
-		personal_deity = yes
-		heretic = { SOLAR_MONISM }	
-	}
-	solar_monism = {
-		icon = 18
-		color = { 1.0 0.4 0.0 }
-		country = {
-			legitimacy = 0.1
-			tolerance_heathen = 1
-		}
-		authority = yes
-		religious_reforms = yes
-		reform_tooltip = SOLI_REFORM_TOOLTIP
-		heretic = { HELLENIC_PAGAN }
 	}
 }

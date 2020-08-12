@@ -163,8 +163,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_protestant_aspects_icon_slot"
 		texturefile = "gfx/interface/protestant_aspects_icon_slot.dds"
-	}		
-	
+	}
+	spriteType = {
+		name = "GFX_zoro_immortals"
+		texturefile = "gfx/interface/GFX_zoro_immortals.dds"
+	}	
+	spriteType = {
+		name = "GFX_zoro_fort"
+		texturefile = "gfx/interface/GFX_zoro_fort.dds"
+	}	
+	spriteType = {
+		name = "GFX_zoro_legit"
+		texturefile = "gfx/interface/GFX_zoro_legit.dds"
+	}	
+	spriteType = {
+		name = "GFX_zoro_core"
+		texturefile = "gfx/interface/GFX_zoro_core.dds"
+	}	
+	spriteType = {
+		name = "GFX_zoro_range"
+		texturefile = "gfx/interface/GFX_zoro_range.dds"
+	}	
+	spriteType = {
+		name = "GFX_zoroastrian_aspects_icon"
+		texturefile = "gfx/interface/aspects_icon_zoro.dds"
+	}	
 		spriteType = {
 		name = "GFX_anglican_aspects_icon"
 		texturefile = "gfx/interface/anglican_aspects_icon.dds"
