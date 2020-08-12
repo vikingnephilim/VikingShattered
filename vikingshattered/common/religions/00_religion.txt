@@ -809,6 +809,8 @@ christian = {
 		allowed_conversion = {
 			reformed
 			protestant
+			lollard
+			waldensian
 		}
 		country = {
 			tolerance_own = 1
@@ -1143,6 +1145,8 @@ christian = {
 		allowed_conversion = {
 			reformed
 			catholic
+			lollard
+			waldensian
 		}
 		allowed_center_conversion = {
 			catholic
@@ -1268,8 +1272,10 @@ christian = {
 		color = { 76 76 229 }
 		icon = 3
 		allowed_conversion = {
-			protestant
 			catholic
+			protestant
+			lollard
+			waldensian
 		}
 		allowed_center_conversion = {
 			catholic
@@ -1374,6 +1380,7 @@ christian = {
 		heretic = { METHODIST BAPTIST QUAKER }
 		date = 1536.5.1
 		fervor = yes
+		hre_heretic_religion = yes
 	}
 	orthodox = {
 		color = { 178 0 127 }
@@ -1596,7 +1603,7 @@ christian = {
 			horde_unity = 1
 			tolerance_own = 1
 		}
-		hre_religion = yes
+		hre_heretic_religion = yes
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
 			bread_and_wine_aspect
