@@ -168,3 +168,7 @@
  paulician_rebels_name: "$RELIGION$ Zealots"
  paulician_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  paulician_rebels_army: "$RELIGION$ Army"
+ lollard_center_of_reformation: "Center of Reformation"
+ waldensian_center_of_reformation: "Center of Reformation"
+ cathar_center_of_reformation: "Center of Reformation"
+ fraticelli_center_of_reformation: "Center of Reformation"

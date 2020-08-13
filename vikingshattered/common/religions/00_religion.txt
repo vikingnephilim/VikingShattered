@@ -560,10 +560,34 @@ dharmic = {
         defender_of_faith = yes
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
+	bon = {
+		color = { 21 52 80 }
+		icon = 60
+		allowed_conversion = {
+			hinduism
+			jain
+			sikhism
+		}
+		country = {
+			tolerance_heretic = 1
+			shock_damage_received = -0.1
+		}
+		country_as_secondary = {
+			horde_unity = 1
+			shock_damage_received = -0.1
+		}
+		province = {
+			local_defensiveness = 0.1
+		}
+		heretic = { ZEN }
+		uses_karma = yes
+	}
 	hinduism = {
 		color = { 0 204 204 }
 		icon = 8
 		allowed_conversion = {
+			bon
+			jain
 			sikhism
 		}
 		country = {
@@ -588,6 +612,11 @@ dharmic = {
 	}
 	jain = {
 		icon = 59
+		allowed_conversion = {
+			bon
+			hinduism
+			sikhism
+		}
 		color = { 1.2 0.3 0.6 }
 		country = {
 			tolerance_heathen = 2
@@ -603,28 +632,13 @@ dharmic = {
 		uses_karma = yes
 		heretic = { TERAPANTHA }
 	}
-	bon = {
-		color = { 21 52 80 }
-		icon = 60
-		country = {
-			tolerance_heretic = 1
-			shock_damage_received = -0.1
-		}
-		country_as_secondary = {
-			horde_unity = 1
-			shock_damage_received = -0.1
-		}
-		province = {
-			local_defensiveness = 0.1
-		}
-		heretic = { ZEN }
-		uses_karma = yes
-	}
 	sikhism = {
 		color = { 0 102 255 }
 		icon = 15
 		allowed_conversion = {
+			bon
 			hinduism
+			jain
 			sunni
 			shiite
 		}
@@ -770,7 +784,7 @@ pagan = {
 	}
 	norse_pagan_reformed = {
 		icon = 21
-		color = { 191 191 191 }
+		color = { 107 138 134 }
 		country = {
 			may_perform_slave_raid = yes
 			loot_amount = 0.25
@@ -807,38 +821,232 @@ christian = {
 	center_of_religion = 118 # Rome
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
-	nestorian = {
-		color = { 0.8 0.3 0.5 }
-		icon = 31
-		country = {
-			tolerance_own = 2
-			adm_tech_cost_modifier = -0.1
+	anglican = {
+		color = { 135 77 255 }
+		icon = 28
+		allowed_conversion = {
+			cathar
+			catholic
+			fraticelli
+			hussite
+			lollard
+			protestant
+			reformed
+			waldensian
 		}
-		province = {
-			local_missionary_strength = -0.01
+		allowed_center_conversion = {
+			cathar
+			catholic
+			fraticelli
+			hussite
+			lollard
+			protestant
+			reformed
+			waldensian
+		}
+		country = {
+			development_cost = -0.1
+			innovativeness_gain = 0.5
 		}
 		country_as_secondary = {
-			adm_tech_cost_modifier = -0.1
-			tolerance_own = 1
+			idea_cost = -0.1
 		}
-		heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS }
-		misguided_heretic = yes		# Other christians hate them less
-		holy_sites = { 358 1227 2313 1234 419 }
-		blessings = {
-			legitimize_government
-			encourage_warriors_of_the_faith
-			send_monks_to_establish_monasteries
-			promote_territorial_rights
-			will_of_the_martyrs
+		uses_anglican_power = yes				# Uses church power/aspect mechanics
+		aspects = {
+			divorce_consort_aspect
+			gain_consort_aspect
+			dissolve_monasteries_aspect
+			monopoly_aspect
+			stability_aspect
 		}
-	}	
+		aspects_name = ANGLICAN_ASPECTS
+		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
+		date = 1534.11.3 # act of supremacy
+		will_get_center = { #Refered to even for initial CoR Spawn
+			any_owned_province = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = anglican
+				}
+			}
+		}
+		on_convert = {
+			change_religion = anglican
+			add_prestige = -100
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = revocation_of_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act
+			if = {
+				limit = {
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = anglican
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
+				}
+				hidden_effect = {
+					random_owned_province = {
+						limit = {
+							can_have_center_of_reformation_trigger = {
+								RELIGION = anglican
+							}
+						}
+						change_religion = anglican
+						add_reform_center = anglican
+					}
+				}
+				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+			}
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+			set_country_flag = reformation_money
+			every_known_country = {
+				limit = {
+					reverse_has_opinion_modifier = {
+						who = ROOT
+						modifier = opinion_demote_pope
+					}
+				}
+				reverse_remove_opinion = {
+					who = ROOT
+					modifier = opinion_demote_pope
+				}
+			}
+		}
+	}
+	cathar = {
+		color = { 0 0 205 }
+		icon = 34
+		allowed_conversion = {
+			anglican
+			catholic
+			fraticelli
+			hussite
+			lollard
+			protestant
+			reformed
+			waldensian
+		}
+		allowed_center_conversion = {
+			anglican
+			catholic
+			fraticelli
+			hussite
+			lollard
+			protestant
+			reformed
+			waldensian
+		}
+		country = {
+			tolerance_own = 2
+			stability_cost_modifier = -0.1
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.2
+		}
+		country_as_secondary = {
+			yearly_corruption = -0.1
+			advisor_pool = 1
+		}
+		hre_heretic_religion = yes
+		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
+		uses_church_power = yes				# Uses church power/aspect mechanics
+		aspects = {
+			organised_through_bishops_aspect
+			adult_baptism_aspect
+			saints_accept_prayers_aspect
+			legalised_divorces_aspect
+			parish_registers_aspect
+			allow_usury_aspect
+			clerical_poverty_aspect
+			sola_scriptura_aspect
+			pacifism_aspect
+			regular_defenestrations_aspect
+			orphan_hetmans_aspect
+		}
+		will_get_center = { #Refered to even for initial CoR Spawn
+			any_owned_province = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = cathar
+				}
+			}
+		}
+		on_convert = {
+			change_religion = cathar
+			add_prestige = -100
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = revocation_of_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act
+			if = {
+				limit = {
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = cathar
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
+				}
+				hidden_effect = {
+					random_owned_province = {
+						limit = {
+							can_have_center_of_reformation_trigger = {
+								RELIGION = cathar
+							}
+						}
+						change_religion = cathar
+						add_reform_center = cathar
+					}
+				}
+				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+			}
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+			set_country_flag = reformation_money
+			every_known_country = {
+				limit = {
+					reverse_has_opinion_modifier = {
+						who = ROOT
+						modifier = opinion_demote_pope
+					}
+				}
+				reverse_remove_opinion = {
+					who = ROOT
+					modifier = opinion_demote_pope
+				}
+			}
+		}
+	
+}	
 	catholic = {
 		color = { 204 204 153 }
 		icon = 1
 		allowed_conversion = {
-			reformed
-			protestant
+			anglican
+			cathar
+			fraticelli
+			hussite
 			lollard
+			protestant
+			reformed
 			waldensian
 		}
 		country = {
@@ -1114,36 +1322,249 @@ christian = {
 			}
 		}
 	}
-	anglican = {
-		color = { 135 77 255 }
-		icon = 28
-		allowed_center_conversion = {
+	fraticelli = {
+		color = { 65 105 225 }
+		icon = 35
+		allowed_conversion = {
+			anglican
+			cathar
 			catholic
+			hussite
+			lollard
+			protestant
+			reformed
+			waldensian
+		}
+		allowed_center_conversion = {
+			anglican
+			cathar
+			catholic
+			hussite
+			lollard
+			protestant
+			reformed
+			waldensian
 		}
 		country = {
-			development_cost = -0.1
-			innovativeness_gain = 0.5
+			legitimacy = 1
+			tolerance_own = 2
+		}
+		province = {
+			local_tax_modifier = -0.1
 		}
 		country_as_secondary = {
-			idea_cost = -0.1
+			horde_unity = 1
+			tolerance_own = 1
 		}
-		uses_anglican_power = yes				# Uses church power/aspect mechanics
+		hre_heretic_religion = yes
+		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
-			divorce_consort_aspect
-			gain_consort_aspect
-			dissolve_monasteries_aspect
-			monopoly_aspect
-			stability_aspect
+			bread_and_wine_aspect
+			adamite_services_aspect
+			punishment_of_sins_aspect
+			taborite_resurgence_aspect
+			freedom_to_preach_aspect
+			priests_may_marry_aspect
+			holy_sacraments_aspect
+			icons_images_aspect
+			heretics_deported_aspect
+			individual_creeds_aspect
 		}
-		aspects_name = ANGLICAN_ASPECTS
-		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
-		date = 1534.11.3 # act of supremacy
+		will_get_center = { #Refered to even for initial CoR Spawn
+		any_owned_province = {
+			can_have_center_of_reformation_trigger = {
+				RELIGION = fraticelli
+			}
+		}
+	}
+	on_convert = {
+		change_religion = fraticelli
+		add_prestige = -100
+		remove_country_modifier = counter_reformation
+		remove_country_modifier = the_statue_in_restraint_of_appeals
+		remove_country_modifier = revocation_of_restraint_of_appeals
+		remove_country_modifier = bavarian_jesuits
+		remove_country_modifier = the_societas_jesu
+		remove_country_modifier = the_declaration_of_indulgence
+		remove_country_modifier = de_heretico_comburendo
+		remove_country_modifier = the_conventicle_act
+		if = {
+			limit = {
+				NOT = {
+					calc_true_if = {
+						all_province = {
+							religion = fraticelli
+							is_reformation_center = yes
+						}
+						amount = 3
+					}
+				}
+			}
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						can_have_center_of_reformation_trigger = {
+							RELIGION = fraticelli
+						}
+					}
+					change_religion = fraticelli
+					add_reform_center = fraticelli
+				}
+			}
+			custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+		}
+		add_country_modifier = {
+			name = "conversion_zeal"
+			duration = 3650
+		}
+		set_country_flag = reformation_money
+		every_known_country = {
+			limit = {
+				reverse_has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_demote_pope
+				}
+			}
+			reverse_remove_opinion = {
+				who = ROOT
+				modifier = opinion_demote_pope
+			}
+		}
+	}
+		heretic = { BOGOMILIST WALDENSIAN HUSSITE LOLLARD SOCINIAN }
+	}
+	lollard = {
+		color = { 0 191 255 }
+		icon = 37
+		allowed_conversion = {
+			anglican
+			cathar
+			catholic
+			fraticelli
+			hussite
+			protestant
+			reformed
+			waldensian
+		}
+		allowed_center_conversion = {
+			anglican
+			cathar
+			catholic
+			fraticelli
+			hussite
+			protestant
+			reformed
+			waldensian
+		}
+		country = {
+			tolerance_own = 2
+			stability_cost_modifier = -0.2
+		}
+		province = {
+			local_tax_modifier = -0.1
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.2
+		}
+		hre_heretic_religion = yes
+		uses_church_power = yes				# Uses church power/aspect mechanics
+		aspects = {
+			holy_sacraments_aspect
+			saints_accept_prayers_aspect
+			parish_registers_aspect
+			allow_usury_aspect
+			translated_bibles_aspect
+			clerical_poverty_aspect
+			bread_and_wine_aspect
+			sola_scriptura_aspect
+			punishment_of_sins_aspect
+			freedom_to_preach_aspect
+		}
+		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE SOCINIAN }
+		will_get_center = { #Refered to even for initial CoR Spawn
+			any_owned_province = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = lollard
+				}
+			}
+		}
+		on_convert = {
+			change_religion = lollard
+			add_prestige = -100
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = revocation_of_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act
+			if = {
+				limit = {
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = lollard
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
+				}
+				hidden_effect = {
+					random_owned_province = {
+						limit = {
+							can_have_center_of_reformation_trigger = {
+								RELIGION = lollard
+							}
+						}
+						change_religion = lollard
+						add_reform_center = lollard
+					}
+				}
+				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+			}
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+			set_country_flag = reformation_money
+			every_known_country = {
+				limit = {
+					reverse_has_opinion_modifier = {
+						who = ROOT
+						modifier = opinion_demote_pope
+					}
+				}
+				reverse_remove_opinion = {
+					who = ROOT
+					modifier = opinion_demote_pope
+				}
+			}
+		}
 	}
 	hussite = {
 		color = { 75 0 130 }
 		icon = 22
-		allowed_center_conversion = {
+		allowed_conversion = {
+			anglican
+			cathar
 			catholic
+			fraticelli
+			lollard
+			protestant
+			reformed
+			waldensian
+		}
+		allowed_center_conversion = {
+			anglican
+			cathar
+			catholic
+			fraticelli
+			lollard
+			protestant
+			reformed
+			waldensian
 		}
 		country = {
 			shock_damage_received = -0.05
@@ -1167,18 +1588,77 @@ christian = {
 		}
 		aspects_name = PROTESTANT_ASPECTS
 		heretic = { TABORITE UTRAQUIST ORPHAN }
+		will_get_center = { #Refered to even for initial CoR Spawn
+			any_owned_province = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = hussite
+				}
+			}
+		}
+		on_convert = {
+			change_religion = hussite
+			add_prestige = -100
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = revocation_of_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act
+			if = {
+				limit = {
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = hussite
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
+				}
+				hidden_effect = {
+					random_owned_province = {
+						limit = {
+							can_have_center_of_reformation_trigger = {
+								RELIGION = hussite
+							}
+						}
+						change_religion = hussite
+						add_reform_center = hussite
+					}
+				}
+				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+			}
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
 	}
 	protestant = {
 		color = { 0 102 102 }
 		icon = 2
 		allowed_conversion = {
-			reformed
+			anglican
+			cathar
 			catholic
+			fraticelli
+			hussite
 			lollard
+			reformed
 			waldensian
 		}
 		allowed_center_conversion = {
+			anglican
+			cathar
 			catholic
+			fraticelli
+			hussite
+			lollard
+			reformed
+			waldensian
 		}
 		country = {
 			global_tax_modifier = 0.1
@@ -1301,13 +1781,24 @@ christian = {
 		color = { 76 76 229 }
 		icon = 3
 		allowed_conversion = {
+			anglican
+			cathar
 			catholic
-			protestant
+			fraticelli
+			hussite
 			lollard
+			protestant
 			waldensian
 		}
 		allowed_center_conversion = {
+			anglican
+			cathar
 			catholic
+			fraticelli
+			hussite
+			lollard
+			protestant
+			waldensian
 		}
 		country = {
 			tolerance_heretic = 2
@@ -1411,6 +1902,102 @@ christian = {
 		fervor = yes
 		hre_heretic_religion = yes
 	}
+	waldensian = {
+		color = { 70 130 180 }
+		icon = 36
+		allowed_conversion = {
+			anglican
+			cathar
+			catholic
+			fraticelli
+			hussite
+			lollard
+			protestant
+			reformed
+		}
+		allowed_center_conversion = {
+			anglican
+			cathar
+			catholic
+			fraticelli
+			hussite
+			lollard
+			protestant
+			reformed
+		}
+		country = {
+			tolerance_heretic = 2
+			technology_cost = -0.1
+		}
+		country_as_secondary = {
+			global_unrest = -1
+			technology_cost = -0.1
+		}
+		hre_heretic_religion = yes
+		fervor = yes
+		heretic = { BOGOMILIST FRATICELLI HUSSITE LOLLARD SOCINIAN }
+		will_get_center = { #Refered to even for initial CoR Spawn
+		any_owned_province = {
+			can_have_center_of_reformation_trigger = {
+				RELIGION = waldensian
+			}
+		}
+	}
+	on_convert = {
+		change_religion = waldensian
+		add_prestige = -100
+		remove_country_modifier = counter_reformation
+		remove_country_modifier = the_statue_in_restraint_of_appeals
+		remove_country_modifier = revocation_of_restraint_of_appeals
+		remove_country_modifier = bavarian_jesuits
+		remove_country_modifier = the_societas_jesu
+		remove_country_modifier = the_declaration_of_indulgence
+		remove_country_modifier = de_heretico_comburendo
+		remove_country_modifier = the_conventicle_act
+		if = {
+			limit = {
+				NOT = {
+					calc_true_if = {
+						all_province = {
+							religion = waldensian
+							is_reformation_center = yes
+						}
+						amount = 3
+					}
+				}
+			}
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						can_have_center_of_reformation_trigger = {
+							RELIGION = waldensian
+						}
+					}
+					change_religion = waldensian
+					add_reform_center = waldensian
+				}
+			}
+			custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+		}
+		add_country_modifier = {
+			name = "conversion_zeal"
+			duration = 3650
+		}			
+		set_country_flag = reformation_money
+		every_known_country = {
+			limit = {
+				reverse_has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_demote_pope
+				}
+			}
+			reverse_remove_opinion = {
+				who = ROOT
+				modifier = opinion_demote_pope
+			}
+		}
+	}
+}
 	orthodox = {
 		color = { 178 0 127 }
 		icon = 4
@@ -1567,98 +2154,8 @@ christian = {
 	}
 	harmonized_modifier = harmonized_christian
 	crusade_name = CRUSADE
-	cathar = {
-		color = { 0 0 205 }
-		icon = 34
-		allowed_conversion = {
-			reformed
-			protestant
-			fraticelli
-		}
-		country = {
-			tolerance_own = 2
-			stability_cost_modifier = -0.1
-			may_recruit_female_generals = yes
-			female_advisor_chance = 0.2
-		}
-		country_as_secondary = {
-			yearly_corruption = -0.1
-			advisor_pool = 1
-		}
-		hre_heretic_religion = yes
-		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
-		uses_church_power = yes				# Uses church power/aspect mechanics
-		aspects = {
-			organised_through_bishops_aspect
-			adult_baptism_aspect
-			saints_accept_prayers_aspect
-			legalised_divorces_aspect
-			parish_registers_aspect
-			allow_usury_aspect
-			clerical_poverty_aspect
-			sola_scriptura_aspect
-			pacifism_aspect
-			regular_defenestrations_aspect
-			orphan_hetmans_aspect
-		}			
-		on_convert = {
-			change_religion = cathar
-			add_prestige = -100
-			remove_country_modifier = the_test_act
-			remove_country_modifier = superintendent_office
-			remove_country_modifier = the_popery_act
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}			
-		}
-	}
-	fraticelli = {
-		color = { 65 105 225 }
-		icon = 35
-		allowed_conversion = {
-			reformed
-			protestant
-			cathar
-		}
-		country = {
-			legitimacy = 1
-			tolerance_own = 2
-		}
-		province = {
-			local_tax_modifier = -0.1
-		}
-		country_as_secondary = {
-			horde_unity = 1
-			tolerance_own = 1
-		}
-		hre_heretic_religion = yes
-		uses_church_power = yes				# Uses church power/aspect mechanics
-		aspects = {
-			bread_and_wine_aspect
-			adamite_services_aspect
-			punishment_of_sins_aspect
-			taborite_resurgence_aspect
-			freedom_to_preach_aspect
-			priests_may_marry_aspect
-			holy_sacraments_aspect
-			icons_images_aspect
-			heretics_deported_aspect
-			individual_creeds_aspect
-		}		
-		on_convert = {
-			change_religion = fraticelli
-			add_prestige = -100
-			remove_country_modifier = the_test_act
-			remove_country_modifier = superintendent_office
-			remove_country_modifier = the_popery_act
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}			
-		}
-		heretic = { BOGOMILIST WALDENSIAN HUSSITE LOLLARD SOCINIAN }
-	}
+	
+	
 	messalian = {
 		color = { 0.6 0.1 0.4 }
 		icon = 33
@@ -1679,80 +2176,33 @@ christian = {
 		fervor = yes
 		misguided_heretic = yes		# Other christians hate them less
 	}
-	waldensian = {
-		color = { 70 130 180 }
-		icon = 36
-		allowed_conversion = {
-			reformed
-			protestant
-		}
-		country = {
-			tolerance_heretic = 2
-			technology_cost = -0.1
-		}
-		country_as_secondary = {
-			global_unrest = -1
-			technology_cost = -0.1
-		}
-		hre_heretic_religion = yes
-		fervor = yes
-		heretic = { BOGOMILIST FRATICELLI HUSSITE LOLLARD SOCINIAN }
-		on_convert = {
-			change_religion = waldensian
-			add_prestige = -100
-			remove_country_modifier = the_test_act
-			remove_country_modifier = superintendent_office
-			remove_country_modifier = the_popery_act
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}			
-		}
-	}
-	lollard = {
-		color = { 0 191 255 }
-		icon = 37
-		allowed_conversion = {
-			reformed
-			protestant
-		}
+	nestorian = {
+		color = { 0.8 0.3 0.5 }
+		icon = 31
 		country = {
 			tolerance_own = 2
-			stability_cost_modifier = -0.2
+			adm_tech_cost_modifier = -0.1
 		}
 		province = {
-			local_tax_modifier = -0.1
+			local_missionary_strength = -0.01
 		}
 		country_as_secondary = {
-			stability_cost_modifier = -0.2
+			adm_tech_cost_modifier = -0.1
+			tolerance_own = 1
 		}
-		hre_heretic_religion = yes
-		uses_church_power = yes				# Uses church power/aspect mechanics
-		aspects = {
-			holy_sacraments_aspect
-			saints_accept_prayers_aspect
-			parish_registers_aspect
-			allow_usury_aspect
-			translated_bibles_aspect
-			clerical_poverty_aspect
-			bread_and_wine_aspect
-			sola_scriptura_aspect
-			punishment_of_sins_aspect
-			freedom_to_preach_aspect
-		}
-		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE SOCINIAN }
-		on_convert = {
-			change_religion = lollard
-			add_prestige = -100
-			remove_country_modifier = the_test_act
-			remove_country_modifier = superintendent_office
-			remove_country_modifier = the_popery_act
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}			
+		heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS }
+		misguided_heretic = yes		# Other christians hate them less
+		holy_sites = { 358 1227 2313 1234 419 }
+		blessings = {
+			legitimize_government
+			encourage_warriors_of_the_faith
+			send_monks_to_establish_monasteries
+			promote_territorial_rights
+			will_of_the_martyrs
 		}
 	}
+	
+	
 	monophysite = {
 		color = { 0.8 0.4 0.1 }
 		icon = 38
