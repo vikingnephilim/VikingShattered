@@ -94,6 +94,8 @@ theocratic_autocracy = {
 			has_reform = theocratic_autocracy
 			tag = BYZ
 			tag = ROM
+			tag = ERM
+			tag = WRM
 		}
 	}
 	trigger = {
@@ -101,6 +103,8 @@ theocratic_autocracy = {
 			has_reform = theocratic_autocracy
 			tag = BYZ
 			tag = ROM
+			tag = ERM
+			tag = WRM
 		}
 	}
 	valid_for_nation_designer = yes
@@ -337,6 +341,7 @@ kingdom_of_portugal_and_azures = {
 	potential = {
 		OR = {
 			tag = POR
+			culture_group = celtic_iberian
 			has_reform = kingdom_of_portugal_and_azures
 		}
 	}
@@ -361,6 +366,7 @@ portuguese_empire_reform = {
 	potential = {
 		OR = {
 			tag = POR
+			culture_group = celtic_iberian
 			has_reform = portuguese_empire_reform
 		}
 	}
@@ -454,10 +460,6 @@ crown_of_saint_wenceslaus_2 = {
 	modifiers = {
 		legitimacy = 0.5
 	}
-	factions = {
-		GE_ultraquists
-		GE_catholics
-	}
 }
 
 office_of_lord_regent_reform = {
@@ -468,12 +470,16 @@ office_of_lord_regent_reform = {
 	potential = {
 		OR = {
 			primary_culture = swedish
+			primary_culture = geats
+			primary_culture = scanian
 			has_reform = office_of_lord_regent_reform
 		}
 	}
 	trigger = {
 		OR = {
 			primary_culture = swedish
+			primary_culture = geats
+			primary_culture = scanian
 			has_reform = office_of_lord_regent_reform
 		}
 	}
@@ -770,6 +776,8 @@ achaemenid_empire_reform = {
 			AND = {
 				religion_group = zoroastrian
 				culture_group = iranian
+				culture_group = east_iranian
+				culture_group = persian
 			}
 		}
 	}
@@ -1046,11 +1054,6 @@ despotate_of_caucasia_reform = {
 	}
 	custom_attributes = {
 		enables_royal_council = yes
-	}
-	factions = {
-		GE_orthodox
-		GE_coptic
-		GE_sunni
 	}
 	ai = {
 		factor = 100
@@ -2121,13 +2124,17 @@ house_of_knights_reform = {
 	}
 	potential = {
 		OR = {
-			primary_culture = swedish 
+			primary_culture = swedish
+			primary_culture = geats
+			primary_culture = scanian 
 			has_reform = house_of_knights_reform
 		}
 	}
 	trigger = {
 		OR = {
-			primary_culture = swedish 
+			primary_culture = swedish
+			primary_culture = geats
+			primary_culture = scanian 
 			has_reform = house_of_knights_reform
 		}
 	}
@@ -2571,7 +2578,9 @@ words_of_cyrus_reform = {
 		OR = {
 			AND = {
 				religion_group = zoroastrian
-				culture_group = iranian	
+				culture_group = iranian
+				culture_group = east_iranian
+				culture_group = persian	
 			}
 		}
 	}
@@ -4066,6 +4075,8 @@ the_red_book_reform = {
 	potential = {
 		OR = {
 			primary_culture = swedish
+			primary_culture = geats
+			primary_culture = scanian
 			has_reform = the_red_book_reform 
 		}
 	}
@@ -4476,7 +4487,9 @@ persian_satrapies_reform = {
 		OR = {
 			AND = {
 				religion_group = zoroastrian
-				culture_group = iranian	
+				culture_group = iranian
+				culture_group = east_iranian
+				culture_group = persian	
 			}
 		}
 	}
@@ -5525,13 +5538,17 @@ the_judicature_ordinance_reform = {
 	}
 	potential = {
 		OR = {
-			primary_culture = swedish 
+			primary_culture = swedish
+			primary_culture = geats
+			primary_culture = scanian 
 			has_reform = the_judicature_ordinance_reform
 		}
 	}
 	trigger = {
 		OR = {
-			primary_culture = swedish 
+			primary_culture = swedish
+			primary_culture = geats
+			primary_culture = scanian 
 			has_reform = the_judicature_ordinance_reform
 		}
 	}
@@ -5809,7 +5826,9 @@ justice_and_truth_reform = {
 		OR = {
 			AND = {
 				religion_group = zoroastrian
-				culture_group = iranian	
+				culture_group = iranian
+				culture_group = east_iranian
+				culture_group = persian	
 			}
 		}
 	}
@@ -6104,11 +6123,6 @@ roman_senate_reform = {
 	}
 	modifiers = {
 		stability_cost_modifier = -0.10
-	}
-	factions = {
-		GE_Senate
-		GE_Pentarchy
-		GE_Army
 	}
 	ai = {
 		factor = 100
@@ -6522,12 +6536,16 @@ parliamentary_order_reform = {
 	potential = {
 		OR = {
 			primary_culture = swedish
+			primary_culture = geats
+			primary_culture = scanian
 			has_reform = parliamentary_order_reform
 		}
 	}
 	trigger = {
 		OR = {
 			primary_culture = swedish
+			primary_culture = geats
+			primary_culture = scanian
 			has_reform = parliamentary_order_reform
 		}
 	}
@@ -6796,7 +6814,9 @@ preeminent_padishah_reform = {
 		OR = {
 			AND = {
 				religion_group = zoroastrian
-				culture_group = iranian	
+				culture_group = iranian
+				culture_group = east_iranian
+				culture_group = persian	
 			}
 		}
 	}
@@ -8204,6 +8224,8 @@ gustavan_artillery_reform = {
 	potential = {
 		OR = {
 			primary_culture = swedish
+			primary_culture = geats
+			primary_culture = scanian
 			accepted_culture = swedish
 			has_reform = gustavan_artillery_reform 
 		}
@@ -8211,6 +8233,8 @@ gustavan_artillery_reform = {
 	trigger = {
 		OR = {
 			primary_culture = swedish
+			primary_culture = geats
+			primary_culture = scanian
 			accepted_culture = swedish
 			has_reform = gustavan_artillery_reform 
 		}
@@ -8720,7 +8744,9 @@ expand_the_immortals_reform = {
 		OR = {
 			AND = {
 				religion_group = zoroastrian
-				culture_group = iranian	
+				culture_group = iranian
+				culture_group = east_iranian
+				culture_group = persian	
 			}
 		}
 	}

@@ -379,7 +379,9 @@ hanseatic_ties_reform = {
 	potential = {
 		OR = {	
 			has_reform = hanseatic_ties_reform
-			culture_group = east_slavic 
+			culture_group = east_slavic
+			culture_group = novgorod_group
+			culture_group = ruthenian_group 
 		}
 		NOT = { has_reform = pirate_republic_reform }
 	}
@@ -503,6 +505,7 @@ moedernegotie_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			primary_culture = frisian
 			has_reform = moedernegotie_reform
 		}
 	}
@@ -602,6 +605,8 @@ princes_of_novogorod_reform = {
 		OR = {
 			has_reform = princes_of_novogorod_reform
 			culture_group = east_slavic
+			culture_group = novgorod_group
+			culture_group = ruthenian_group
 		}
 	}
 	effect = {
@@ -699,6 +704,7 @@ vroedschappen_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			primary_culture = frisian
 			has_reform = vroedschappen_reform
 		}
 	}
@@ -731,6 +737,7 @@ reforms_of_william_3_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			primary_culture = frisian
 			has_reform = reforms_of_william_3_reform
 		}
 	}
@@ -825,6 +832,8 @@ russian_republic_army_reform = {
 		OR = {
 			has_reform = russian_republic_army_reform
 			culture_group = east_slavic
+			culture_group = novgorod_group
+			culture_group = ruthenian_group
 		}
 	}
 	effect = {
@@ -934,7 +943,8 @@ national_guard_reform_republic = {
 		}
 	}
 	potential = { 
-		NOT = { culture_group = latin }
+		NOT = { culture_group = latin 
+		culture_group = south_latin }
 	}
 	modifiers = {
 		land_morale = 0.05
@@ -966,12 +976,14 @@ milizia_nationale_reform_republic = {
 	potential = {
 		OR = {
 			culture_group = latin
+			culture_group = south_latin
 			has_reform = milizia_nationale_reform
 		}
 	}
     trigger = {
 		OR = {
 			culture_group = latin
+			culture_group = south_latin
 			has_reform = milizia_nationale_reform
 		}
     }
@@ -1003,7 +1015,8 @@ mercenary_corps_reform_republic = {
 		}
 	}
 	potential = {
-		NOT = { culture_group = latin }
+		NOT = { culture_group = latin 
+		culture_group = south_latin }
 	}
 	modifiers = {
 		mercenary_manpower = 0.25
@@ -1036,12 +1049,14 @@ italian_mercenaries_reform_republic = {
 	potential = {
 		OR = {
 			culture_group = latin
+			culture_group = south_latin
 			has_reform = italian_mercenaries_reform
 		}
 	}
 	trigger = {
 		OR = {
 			culture_group = latin
+			culture_group = south_latin
 			has_reform = italian_mercenaries_reform
 		}
 	}
@@ -1137,6 +1152,8 @@ volost_colonies_reform = {
 		OR = {
 			has_reform = volost_colonies_reform
 			culture_group = east_slavic
+			culture_group = novgorod_group
+			culture_group = ruthenian_group
 		}
 	}
 	modifiers = {
@@ -1155,6 +1172,7 @@ united_indian_companies_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			primary_culture = frisian
 			has_reform = united_indian_companies_reform
 		}
 	}
@@ -1326,12 +1344,14 @@ council_of_petitions_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		culture_group = latin
+		culture_group = south_latin
 		NOT = {
 			has_reform = pirate_republic_reform
 		}
 	}
 	trigger = {
 		culture_group = latin
+		culture_group = south_latin
 	}
 	effect = {
 		change_variable = {
@@ -1359,8 +1379,9 @@ ware_vrijheid_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
-			primary_culture  = dutch
-			primary_culture  = flemish
+			primary_culture = dutch
+			primary_culture = flemish
+			primary_culture = frisian
 			has_reform = ware_vrijheid_reform
 		}
 		NOT = {
@@ -1429,6 +1450,8 @@ council_of_lords_reform = {
 		OR = {
 			has_reform = council_of_lords_reform
 			culture_group = east_slavic
+			culture_group = novgorod_group
+			culture_group = ruthenian_group
 		}
 		NOT = {
 			has_reform = pirate_republic_reform
@@ -1500,8 +1523,9 @@ confederation_of_states_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
-			primary_culture  = dutch
-			primary_culture  = flemish
+			primary_culture = dutch
+			primary_culture = flemish
+			primary_culture = frisian
 			has_reform = confederation_of_states_reform
 		}
 	}
@@ -1627,8 +1651,9 @@ tolerant_principle_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
-			primary_culture  = dutch
-			primary_culture  = flemish
+			primary_culture = dutch
+			primary_culture = flemish
+			primary_culture = frisian
 			has_reform = tolerant_principle_reform
 		}
 	}
@@ -1755,6 +1780,7 @@ regents_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			primary_culture = frisian
 			has_reform = regents_reform
 		}
 	}
@@ -1796,6 +1822,7 @@ raadspensionaris_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			primary_culture = frisian
 			has_reform = raadspensionaris_reform
 		}
 	}
