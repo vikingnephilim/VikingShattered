@@ -1,13 +1,14 @@
 #tenerife
-add_core = MCN
-owner = MCN
-controller = MCN
+
 capital = "Tenerife"
 trade_goods = unknown
 hre = no
 base_tax = 2 
 base_production = 2
 base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 0
 religion = sunni
 culture = portoccan
 discovered_by = POR

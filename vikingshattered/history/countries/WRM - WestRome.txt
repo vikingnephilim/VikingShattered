@@ -1,0 +1,5 @@
+government = absolute_monarchy
+technology_group = western
+religion = catholic
+primary_culture = umbrian
+capital = 118 #Rome

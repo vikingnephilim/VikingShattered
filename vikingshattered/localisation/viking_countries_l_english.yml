@@ -26,3 +26,7 @@
  HAW_ADJ: "Hawaiian"
  TGA: "Tonga"
  TGA_ADJ: "Tongan"
+ WRM:0 "West Roman Empire"
+ WRM_ADJ:0 "Western Roman"
+ ERM:0 "East Roman Empire"
+ ERM_ADJ:0 "Eastern Roman"
