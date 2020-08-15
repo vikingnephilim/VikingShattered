@@ -804,7 +804,7 @@ pagan = {
 		icon = 12
 		country = {
 			may_explore = yes
-			global_colonial_growth = 50
+			global_colonial_growth = 20
 		}
 		country_as_secondary = {
 			colonists = 1

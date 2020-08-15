@@ -1188,6 +1188,7 @@ WRM_ideas = {
 	}
 	imperium_sine_fine = {
 		core_creation = -0.1
+		culture_conversion_cost = -0.2
 	}
 }
 ERM_ideas = {
@@ -1226,5 +1227,6 @@ ERM_ideas = {
 	}
 	imperium_sine_fine = {
 		core_creation = -0.1
+		culture_conversion_cost = -0.2
 	}
 }

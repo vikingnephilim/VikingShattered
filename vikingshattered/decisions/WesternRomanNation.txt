@@ -135,12 +135,6 @@ country_decisions = {
 					}
 					add_permanent_claim = WRM
 			}
-			britain_region = {
-					limit = {
-					NOT = { owned_by = ROOT }
-					}
-					add_permanent_claim = WRM
-			}
 			maghreb_region = {
 					limit = {
 					NOT = { owned_by = ROOT }
@@ -171,25 +165,7 @@ country_decisions = {
 					}
 					add_permanent_claim = WRM
 			}
-			east_adriatic_area = {
-					limit = {
-					NOT = { owned_by = ROOT }
-					}
-					add_permanent_claim = WRM
-			}
 			lower_rhineland_area = {
-					limit = {
-					NOT = { owned_by = ROOT }
-					}
-					add_permanent_claim = WRM
-			}
-			east_adriatic_area = {
-					limit = {
-					NOT = { owned_by = ROOT }
-					}
-					add_permanent_claim = WRM
-			}
-			carniola_area = {
 					limit = {
 					NOT = { owned_by = ROOT }
 					}
