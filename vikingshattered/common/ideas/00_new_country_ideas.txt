@@ -857,107 +857,297 @@ CEY_ideas = {
 	}
 }
 
-MEN_ideas = {
+CUB_ideas = {
 	start = { 
-		infantry_power = 0.1
-		land_forcelimit_modifier = 0.15
+		global_trade_goods_size_modifier = 0.1
+		land_forcelimit_modifier = 0.2
 	}
 	bonus = {
-		discipline = 0.05
+		heavy_ship_power = 0.1
 	}
 	trigger = {
-		tag = MEN
+		tag = CUB
 	}
 	free = yes
-	MEN_sons_halicarnassus = {
-		build_time = -0.25
+	CUB_island_fortress = {
+		war_exhaustion = -0.1
 	}
-	anat_turks = {
-		global_manpower_modifier = 0.15
+	CUB_carib_claims = {
+		colonists = 1
 	}
-	highlands = {
-		defensiveness = 0.2
+	CUB_seize_means_prod = {
+		global_unrest = 1
+		production_efficiency = 0.2
 	}
-	greek_influence = {
-		trade_efficiency = 0.1
+	CUB_center_nw = {
+		global_trade_power = 0.15
 	}
-	heirs_of_rum = {
-		core_creation = -0.2
+	CUB_conc_power = {
+		republican_tradition = 0.4
 	}
-	MEN_fertile_coast = {
+	CUB_satellite_islands = {
+		diplomatic_upkeep = 1
+	}
+	CUB_guerrilla = {
+		hostile_attrition = 1
+	}
+}
+
+HAT_ideas = {
+	start = { 
+		global_unrest = -3
 		development_cost = -0.1
 	}
-	siege_specialists = {
-		leader_siege = 1
+	bonus = {
+		diplomats = 2
+	}
+	trigger = {
+		tag = HAT
+	}
+	free = yes
+	HAT_free_brethren = {
+		global_manpower_modifier = 0.2
+	}
+	HAT_support_rev = {
+		rebel_support_efficiency = 0.5
+		spy_offence = 0.1
+	}
+	HAT_carrot_and_stick = {
+		harsh_treatment_cost = -0.2
+		idea_cost = -0.1
+	}
+	HAT_freedom = {
+		election_cycle = -1
+	}
+	HAT_elite_guard = {
+		discipline = 0.5
+	}
+	HAT_sugar_trade = {
+		production_efficiency = 0.1
+	}
+	HAT_coast_guard = {
+		own_coast_naval_combat_bonus = 1
 	}
 }
 
-AYD_ideas = {
+LAP_ideas = {
 	start = { 
-		galley_power = 0.25
-		land_forcelimit_modifier = 0.15
-	}
-	bonus = {
-		discipline = 0.05
-	}
-	trigger = {
-		tag = AYD
-	}
-	free = yes
-	AYD_byzantine_remnants = {
-		tolerance_heathen = 2
-	}
-	anat_turks = {
-		global_manpower_modifier = 0.15
-	}
-	highlands = {
-		defensiveness = 0.2
-	}
-	greek_influence = {
-		trade_efficiency = 0.1
-	}
-	heirs_of_rum = {
-		core_creation = -0.2
-	}
-	AYD_coastal_cities = {
-		global_ship_recruit_speed = -0.1
-	}
-	siege_specialists = {
-		leader_siege = 1
-	}
-}
-
-GRM_ideas = {
-	start = { 
-		cavalry_power = 0.2
-		land_forcelimit_modifier = 0.15
-	}
-	bonus = {
-		discipline = 0.05
-	}
-	trigger = {
-		tag = GRM
-	}
-	free = yes
-	GRM_lake_forts = {
-		fort_maintenance_modifier = -0.15
-	}
-	anat_turks = {
-		global_manpower_modifier = 0.15
-	}
-	highlands = {
-		defensiveness = 0.2
-	}
-	greek_influence = {
-		trade_efficiency = 0.1
-	}
-	heirs_of_rum = {
-		core_creation = -0.2
-	}
-	GRM_silk_road = {
+		colonists = 1
 		merchants = 1
 	}
-	siege_specialists = {
-		leader_siege = 1
+	bonus = {
+		land_forcelimit_modifier = 0.25
+	}
+	trigger = {
+		tag = LAP
+	}
+	free = yes
+	LAP_rio_lapata = {
+		global_trade_power = 0.15
+	}
+	LAP_fert_lands = {
+		development_cost = -0.15
+	}
+	LAP_tierra_del_fuego = {
+		fire_damage = 0.1
+	}
+	LAP_missions = {
+		global_missionary_strength = 0.025
+		
+	}
+	LAP_andes = {
+		defensiveness = 0.25
+	}
+	LAP_jose_de_san_martin = {
+		leader_land_manuever = 1
+		leader_naval_fire = 1
+	}
+	LAP_congress_tucuman = {
+		diplomatic_upkeep = 1
+	}
+}
+
+PEU_ideas = {
+	start = { 
+		hostile_attrition = 1
+		development_cost = -0.1
+	}
+	bonus = {
+		global_autonomy = -0.025
+	}
+	trigger = {
+		tag = PEU
+	}
+	free = yes
+	PEU_ande_stronghold = {
+		defensiveness = 0.3
+	}
+	PEU_universidad_san_marco = {
+		prestige = 0.5
+		technology_cost = -0.1
+	}
+	PEU_inca_highways = {
+		movement_speed = -0.1
+		envoy_travel_time = -0.1
+	}
+	PEU_gold_mines = {
+		inflation_reduction = -0.05
+	}
+	PEU_ring_fire = {
+		leader_naval_fire = 1
+		artillery_power = 0.15
+		
+	}
+	PEU_lake_titicaca = {
+		production_efficiency = 0.1
+	}
+	PEU_andean_infra = {
+		core_creation = -0.1
+	}
+}
+
+PRG_ideas = {
+	start = { 
+		general_cost = -0.1
+		advisor_cost = -0.1
+	}
+	bonus = {
+		discipline = 0.1
+	}
+	trigger = {
+		tag = PRG
+	}
+	free = yes
+	PRG_grasslands = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	PRG_surr_by_giants = {
+		land_forcelimit_modifier = 0.15
+	}
+	PRG_center_sa = {
+		envoy_travel_time = -0.1
+	}
+	PRG_divided_by_river = {
+		development_cost = -0.1
+	}
+	PRG_excel_gener = {
+		land_morale = 0.1
+	}
+	PRG_mother_of_cities = {
+		build_cost = -0.1
+		build_time = -0.1
+	}
+	PRG_guarani = {
+		culture_conversion_cost = -0.1
+	}
+}
+
+#CEP_ideas = {
+#	start = {
+#		may_perform_slave_raid_on_same_religion = yes
+#		allowed_marine_fraction = 0.25
+#	}
+#	bonus = {
+#		navy_tradition = 1
+#	}
+#	trigger = {
+#		tag = CEP
+#	}
+#	free = yes
+#	
+#	cep_frankokratia = {
+#		shock_damage_received = -0.1
+#	}
+#	cep_angelokastroi = {
+#		own_coast_naval_combat_bonus = 1
+#	}
+#	cep_settling_the_islands = {
+#		development_cost = 0.1
+#	}
+#	cep_gate_to_the_adriatic = {
+#		naval_morale = 0.2
+#	}
+#	cep_govian_arsenal = {
+#		naval_forcelimit_modifier = 0.5
+#	}
+#	cep_entrepot_of_eastern_med = {
+#		prestige_from_naval = 0.15
+#	}
+#	cep_ionian_academy = {
+#		culture_conversion_cost = -0.15
+#	}
+#}
+
+CAM_ideas = {
+	start = { 
+		trade_efficiency = 0.15
+		naval_morale = 0.15
+	}
+	bonus = {
+		inflation_reduction = -0.05
+	}
+	trigger = {
+		tag = CAM
+	}
+	free = yes
+	CAM_five_rowed_volcanoes = {
+		defensiveness = 0.2
+	}
+	CAM_defend_ag_mex = {
+		fire_damage = 0.1
+	}
+	CAM_federal_state = {
+		global_autonomy = -0.025
+	}
+	CAM_between_two_seas = {
+		global_ship_recruit_speed = -0.2
+	}
+	CAM_promote_stability = {
+		global_unrest = -2
+		
+	}
+	CAM_carib_ambition = {
+		colonists = 1
+		global_colonial_growth = 10
+	}
+	CAM_expand_influence = {
+		diplomatic_upkeep = 2
+	}
+}
+
+COL_ideas = {
+	start = { 
+		core_creation = -0.1
+		land_attrition = -0.1
+	}
+	bonus = {
+		cavalry_flanking = 0.5
+	}
+	trigger = {
+		tag = COL
+	}
+	free = yes
+	COL_bolivar = {
+		leader_land_shock = 1
+	}
+	COL_rondon_troops = {
+		cavalry_power = 0.25
+	}
+	COL_socorro = {
+		harsh_treatment_cost = -0.15
+	}
+	COL_control_isthmus = {
+		merchants = 1
+	}
+	COL_mil_cmpaigns = {
+		manpower_recovery_speed = 0.1
+		
+	}
+	COL_numerous_rivals = {
+		envoy_travel_time = -0.2
+		
+	}
+	COL_subjugate_neigh = {
+		discipline = 0.05
 	}
 }

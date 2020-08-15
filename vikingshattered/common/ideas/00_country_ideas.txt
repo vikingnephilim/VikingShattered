@@ -6801,47 +6801,6 @@ WBG_ideas = {
 	}
 }
  
-CEY_ideas = {
-	start = {
-		defensiveness = 0.1
-		trade_efficiency = 0.1		
-	}
-
-	bonus = {
-		global_own_trade_power = 0.1
-	}
-	
-	trigger = {
-		OR = {
-			tag = CEY
-			tag = KND
-		}
-	}
-	free = yes		#will be added at load.
-	
-	gabadagam = {
-		global_tax_modifier = 0.10
-	}
-	sinhalese_sandesas = {
-		prestige = 1
-	}
-	pearl_of_the_indian_ocean = {
-		merchants = 1
-	}
-	cey_centre_of_learning = {
-		diplomatic_reputation = 1
-	}
-	cey_cinnamon = {
-		global_trade_goods_size_modifier = 0.1
-	}
-	cey_growth_of_new_castes = {
-		production_efficiency = 0.1
-	}
-	sinhalese_guerilla_warfare = {
-		hostile_attrition = 1.0
-	}
-}
- 
 CND_ideas = {
 	start = {
 		naval_morale = 0.1
@@ -9064,41 +9023,6 @@ KAF_ideas = {
 	}
 }
 
-CEP_ideas = {
-	start = {
-		galley_cost = -0.2
-		galley_power = 0.2
-	}
-	bonus = {
-		merchants = 1
-	}
-	trigger = {
-		tag = CEP
-	}
-	free = yes
-	
-	cep_frankokratia = {
-		land_morale = 0.1
-	}
-	cep_angelokastroi = {
-		defensiveness = 0.2
-	}
-	cep_settling_the_islands = {
-		global_tax_modifier = 0.1
-	}
-	cep_gate_to_the_adriatic = {
-		trade_efficiency = 0.1
-	}
-	cep_govian_arsenal = {
-		naval_forcelimit_modifier = 0.25
-	}
-	cep_entrepot_of_eastern_med = {
-		global_foreign_trade_power = 0.1
-	}
-	cep_ionian_academy = {
-		culture_conversion_cost = -0.15
-	}
-}
 
 LOR_ideas = {
 	start = {

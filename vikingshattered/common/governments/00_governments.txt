@@ -264,6 +264,15 @@ republic = {
 				imperial_veche_republic
 				peoples_republic
 				grk_demo
+				cub_peasent_rep
+				hat_slave_state
+				arg_rep
+				para_dict
+				peu_rep
+				cam_rep
+				rep_gran_colo
+				rep_colo
+				
 			}
 		}
 		republican_virtues = {
