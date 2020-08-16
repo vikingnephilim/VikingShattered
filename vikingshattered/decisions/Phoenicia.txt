@@ -76,3 +76,415 @@ country_decisions = {
 		}
 	}
 }
+
+country_decisions = {
+	grk_colony = {
+		major = no
+		trigger = {
+			NOT = { has_country_flag = crete }
+			NOT = { exists = PCR }
+			tag = P01
+			AND = {
+				owns_core_province = 163
+				owns_core_province = 164
+				owns_core_province = 320
+				owns_core_province = 4701
+				owns_core_province = 1773
+				owns_core_province = 145
+			}
+		}
+	
+	
+		provinces_to_highlight = {
+			OR = {
+				province_id = 163
+				province_id = 164
+				province_id = 145
+				province_id = 4701
+				province_id = 320
+				province_id = 1773
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			owns_core_province = 145
+			owns_core_province = 163
+			163 = {
+				development = 30
+			}
+			owns_core_province = 164
+			owns_core_province = 320
+			owns_core_province = 1773
+			owns_core_province = 4701
+			NOT = { exists = BYZ }
+				
+		}
+		
+		effect = {
+			set_country_flag = crete
+			163 = {
+				add_core = PCR
+				cede_province = PCR
+				change_culture = naini
+				
+			}
+			164 = {
+				add_core = PCR
+				cede_province = PCR
+			}
+			145 = {
+				add_core = PCR
+				cede_province = PCR
+			}
+			320 = {
+				add_core = PCR
+				cede_province = PCR
+			}
+			1773 = {
+				add_core = PCR
+				cede_province = PCR
+			}
+			4701 = {
+				add_core = PCR
+				cede_province = PCR
+			}
+			create_subject = {
+				subject = PCR
+				subject_type = phon_city
+			}
+		}
+	}
+}
+
+country_decisions = {
+	cyr_colony = {
+		major = no
+		trigger = {
+			NOT = { has_country_flag = cyren }
+			NOT = { exists = PLM }
+			tag = P01
+		}
+	
+	
+		provinces_to_highlight = {
+			OR = {
+				province_id = 354
+				province_id = 355
+				province_id = 356
+				province_id = 357
+				province_id = 2326
+				province_id = 2451
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			owns_core_province = 357
+			owns_core_province = 356
+			356 = {
+				development = 30
+			}
+			owns_core_province = 355
+			owns_core_province = 354
+			owns_core_province = 2326
+			owns_core_province = 2451
+			NOT = { exists = MAM }
+				
+		}
+		
+		effect = {
+			set_country_flag = cyren
+			354 = {
+				add_core = PLM
+				cede_province = PLM
+			}
+			355 = {
+				add_core = PLM
+				cede_province = PLM
+			}
+			356 = {
+				add_core = PLM
+				cede_province = PLM
+			}
+			357 = {
+				add_core = PLM
+				cede_province = PLM
+			}
+			2326 = {
+				add_core = PLM
+				cede_province = PLM
+			}
+			2451 = {
+				add_core = PLM
+				cede_province = PLM
+			}
+			create_subject = {
+				subject = PLM
+				subject_type = phon_city
+			}
+		}
+	}
+}
+
+country_decisions = {
+	sic_colony = {
+		major = no
+		
+		trigger = {
+			NOT = { has_country_flag = sicil }
+			NOT = { exists = PPL }
+			tag = P01
+		}
+	
+	
+		provinces_to_highlight = {
+			OR = {
+				province_id = 354
+				province_id = 355
+				province_id = 356
+				province_id = 357
+				province_id = 2326
+				province_id = 2451
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			owns_core_province = 124
+			owns_core_province = 125
+			owns_core_province = 126
+			owns_core_province = 4737
+			owns_core_province = 4736
+			owns_core_province = 2982
+			125 = {
+				development = 30
+			}
+			AND = {
+				NOT = { exists = CAP }
+				NOT = { exists = NAP }
+				NOT = { exists = SIC }
+			}
+				
+		}
+		
+		effect = {
+			set_country_flag = sicil
+			124 = {
+				add_core = PPL
+				cede_province = PPL
+			}
+			125 = {
+				add_core = PPL
+				cede_province = PPL
+			}
+			126 = {
+				add_core = PPL
+				cede_province = PPL
+			}
+			4737 = {
+				add_core = PPL
+				cede_province = PPL
+			}
+			4736 = {
+				add_core = PPL
+				cede_province = PPL
+			}
+			2982 = {
+				add_core = PPL
+				cede_province = PPL
+			}
+			create_subject = {
+				subject = PPL
+				subject_type = phon_city
+			}
+		}
+	}
+}
+
+country_decisions = {
+	bal_colony = {
+		major = no
+		trigger = {
+			NOT = { has_country_flag = balear }
+			NOT = { exists = PBZ }
+			tag = P01
+		}
+	
+	
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4559
+				province_id = 4560
+				province_id = 333
+				province_id = 1750
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			owns_core_province = 4559
+			owns_core_province = 4560
+			owns_core_province = 333
+			owns_core_province = 1750
+			4560 = {
+				development = 30
+			}
+			AND = {
+				NOT = { exists = MJO }
+				NOT = { exists = CAT }
+			}
+				
+		}
+		
+		effect = {
+			set_country_flag = balear
+			333 = {
+				add_core = PBZ
+				cede_province = PBZ
+			}
+			4559 = {
+				add_core = PBZ
+				cede_province = PBZ
+			}
+			4560 = {
+				add_core = PBZ
+				cede_province = PBZ
+			}
+			1750 = {
+				add_core = PBZ
+				cede_province = PBZ
+			}
+			
+			create_subject = {
+				subject = PBZ
+				subject_type = phon_city
+			}
+		}
+	}
+}
+
+country_decisions = {
+	carth_colony = {
+		major = yes
+		trigger = {
+			NOT = { has_country_flag = carthage }
+			NOT = { exists = PCT }
+			tag = P01
+		}
+	
+	
+		provinces_to_highlight = {
+			OR = {
+				province_id = 353
+				province_id = 2954
+				province_id = 2453
+				province_id = 2473
+				province_id = 341
+				province_id = 2455
+				province_id = 1882
+				province_id = 4566
+				province_id = 2986
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			owns_core_province = 353
+			owns_core_province = 2954
+			owns_core_province = 2453
+			owns_core_province = 2473
+			owns_core_province = 341
+			owns_core_province = 2455
+			owns_core_province = 1882
+			owns_core_province = 4566
+			owns_core_province = 2986
+			341 = {
+				development = 40
+			}
+			AND = {
+				NOT = { exists = PAP }
+				NOT = { exists = TUN }
+				NOT = { exists = BYZ }
+			}
+				
+		}
+		
+		effect = {
+			set_country_flag = carthage
+			353 = {
+				add_core = PCT
+				cede_province = PCT
+			}
+			2954 = {
+				add_core = PCT
+				cede_province = PCT
+			}
+			2453 = {
+				add_core = PCT
+				cede_province = PCT
+			}
+			2473 = {
+				add_core = PCT
+				cede_province = PCT
+			}
+			341 = {
+				add_core = PCT
+				cede_province = PCT
+				change_trade_goods = dyes
+				change_culture = punic
+			}
+			2455 = {
+				add_core = PCT
+				cede_province = PCT
+				change_culture = punic
+			}
+			1882 = {
+				add_core = PCT
+				cede_province = PCT
+			}
+			4566 = {
+				add_core = PCT
+				cede_province = PCT
+			}
+			2986 = {
+				add_core = PCT
+				cede_province = PCT
+			}
+			create_subject = {
+				subject = PCT
+				subject_type = phon_city
+			}
+		}
+	}
+}

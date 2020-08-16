@@ -1230,3 +1230,52 @@ ERM_ideas = {
 		culture_conversion_cost = -0.2
 	}
 }
+
+phonician_ideas = {
+	start = {
+		trade_range_modifier = 1
+		merchants = 2
+	}
+	
+	bonus = {
+		diplomats = 2
+	}
+	
+	trigger = {
+		AND = {
+			culture_group = phoenician_g
+			NOT = { tag = PCT }
+		}
+	}
+	free = yes
+	
+	phon_merc_army = {
+		merc_maintenance_modifier = -0.1
+		mercenary_manpower = 0.1
+	}
+	
+	phon_tyrian_purple = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	
+	phon_merchant_mentality = {
+		trade_efficiency = 0.1
+	}
+	
+	phon_colonization = {
+		development_cost = -0.1
+	}
+	
+	phon_naval_prowess = {
+		global_ship_trade_power = 0.25
+		naval_forcelimit_modifier = 0.15
+	}
+	
+	phon_federation = {
+		global_tax_modifier = 0.15
+	}
+	
+	phon_siege_tactics = {
+		siege_ability = 0.15
+	}
+}

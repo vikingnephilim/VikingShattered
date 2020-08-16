@@ -1,7 +1,7 @@
 government = republic
 government_rank = 2
-primary_culture = hebrew
+primary_culture = punic
 religion = druze
 technology_group = eastern
-capital = 382
-fixed_capital = 382
+capital = 1749
+fixed_capital = 1749

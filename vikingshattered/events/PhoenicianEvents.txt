@@ -118,6 +118,7 @@ country_event = {
 			cede_province = P04
 			remove_core = P01
 			change_culture = phoenician
+			change_trade_goods = dyes
 		}
 		
 		P04 = {
@@ -158,6 +159,7 @@ country_event = {
 			cede_province = P05
 			remove_core = P01
 			change_culture = hebrew
+			center_of_trade = 1
 		}
 		
 		380 = {
@@ -249,6 +251,8 @@ country_event = {
 			cede_province = P07
 			remove_core = P01
 			change_culture = naini
+			center_of_trade = 321
+			change_trade_goods = dyes
 		}
 		
 		P04 = {

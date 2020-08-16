@@ -159,6 +159,13 @@ P04 = "countries/Antiochus.txt"
 P05 = "countries/Hierusalem.txt"
 P06 = "countries/Aleppo.txt"
 P07 = "countries/Cyprus_pho.txt"
+#PHOENICIAN CITY STATE COLONIES FOR MISSIONS
+PCR = "countries/Herakleion.txt"
+PCT = "countries/Carthage.txt"
+PPL = "countries/Panormus.txt"
+PGD = "countries/Gades.txt"
+PBZ = "countries/Ebisu.txt"
+PLM = "countries/LeptisMagna.txt"
 
 #ARABIA
 TBU = "countries/DOGE_ARA_Tabruk.txt"
