@@ -181,6 +181,7 @@ french_minor_missions = {
 				}
 			}
 			change_tag = FRA
+			add_government_reform = french_feudalism
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {

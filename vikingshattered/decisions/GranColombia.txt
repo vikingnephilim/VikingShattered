@@ -17,7 +17,6 @@ country_decisions = {
 					num_of_cities = 20
 				}
 			}
-		}
 		provinces_to_highlight = {
 			OR = {
 				province_id = 838   #Mosquito

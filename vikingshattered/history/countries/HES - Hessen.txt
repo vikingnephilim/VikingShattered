@@ -1,16 +1,15 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = hessian_militarized_monarchy_reform
 government_rank = 1
 primary_culture = hessian
 religion = catholic
 technology_group = western
 capital = 1762	# Kassel
 
-1448.1.18 = {
+1438.1.18 = {
 	monarch = {
 		name = "Ludwig II"
 		dynasty = "von Hessen"
-		birth_date = 1438.9.7
 		adm = 3
 		dip = 3
 		mil = 0
