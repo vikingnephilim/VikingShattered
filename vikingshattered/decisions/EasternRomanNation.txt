@@ -1,0 +1,192 @@
+country_decisions = {
+		easternroman_nation = {
+			major = yes
+			potential = {
+				owns = 151
+				ERM = { exists = no }
+				BYZ = { exists = no }
+				NOT = { tag = HLR }
+				NOT = { tag = ROM }
+				NOT = { tag = PAP }
+				NOT = { tag = WRM }
+				OR = {
+						religion = bogomilist
+						religion = coptic
+						religion = iconoclast
+						religion = monotite
+						religion = messalian
+						religion = monophysite
+						religion = nestorian
+						religion = orthodox
+						religion = paulician
+						religion = hellenic_pagan
+				}
+			}
+			provinces_to_highlight = {
+					OR = {
+							province_id = 151 # Constantinople
+							province_id = 145 # Morea
+							province_id = 141 # Smederevo
+							province_id = 4175 # Lezhe
+							province_id = 326 # Ankara
+							province_id = 319 # Mentese
+							province_id = 330 # Trebizond
+							province_id = 327 # Adana
+							province_id = 159 # Silistria
+					}
+					NOT = { owned_by = ROOT }
+			}
+			allow = {
+					owns = 151
+					owns = 145
+					owns = 141
+					owns = 4175
+					owns = 326
+					owns = 319
+					owns = 330
+					owns = 327
+					owns = 159
+					is_at_war = no
+					is_nomad = no
+					is_subject = no
+					is_core = 151
+					is_core = 145
+					is_core = 141
+					is_core = 4175
+					is_core = 326
+					is_core = 319
+					is_core = 330
+					is_core = 327
+					is_core = 159
+			}
+			effect = {
+			151 = {
+				move_capital_effect = yes
+			}
+				change_tag = ERM
+				custom_tooltip = roman_culture_provinces_tooltip
+				hidden_effect = {
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+				}
+				set_government_rank = 3
+				add_prestige = 50
+				add_core = 151 # Constantinople
+			#if = {
+			#	limit = {
+			#		is_part_of_hre = yes
+			#		is_elector = no
+			#	}
+			#	every_owned_province = {
+			#		limit = {
+			#			is_part_of_hre = yes
+			#		}
+			#		set_in_empire = no
+			#	}
+			#}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			anatolia_region = {
+						limit = {
+								NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ERM
+			}
+			egypt_region = {
+						limit = {
+								NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ERM
+			}
+			egypt_region = {
+						limit = {
+								NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ERM
+			}
+			mashriq_region = {
+						limit = {
+								NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ERM
+			}
+			thrace_area = {
+						limit = {
+								NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ERM
+			}
+			macedonia_area = {
+						limit = {
+								NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ERM
+			}
+			northern_greece_area = {
+						limit = {
+								NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ERM
+			}
+			albania_area = {
+						limit = {
+								NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ERM
+			}
+			morea_area = {
+						limit = {
+								NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ERM
+			}
+			bulgaria_area = {
+						limit = {
+								NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ERM
+			}
+			serbia_area = {
+						limit = {
+								NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ERM
+			}
+			rascia_area = {
+						limit = {
+								NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ERM
+			}
+			thrace_area = {
+						limit = {
+								NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ERM
+			}
+			crimea_area = {
+						limit = {
+								NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ERM
+			}
+			}	
+			ai_will_do = {
+					factor = 1
+					}
+			}
+		}
+					
+		
+							
+				

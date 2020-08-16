@@ -247,3 +247,7 @@ TGA = "countries/Tonga.txt"
 
 #NORTH AMERICA
 VIN = "countries/DOGE_NAM_Vinland.txt"
+
+#New Formables
+WRM = "countries/WestRome.txt"
+ERM = "countries/EastRome.txt"

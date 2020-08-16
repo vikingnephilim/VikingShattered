@@ -1,0 +1,213 @@
+country_decisions = {
+		westernroman_nation = {
+			major = yes
+			potential = {
+				owns = 118
+				WRM = { exists = no }
+				NOT = { tag = HLR }
+				NOT = { tag = ROM }
+				NOT = { tag = PAP }
+				NOT = { tag = ERM }
+				OR = {
+						religion = anglican
+						religion = cathar
+						religion = catholic
+						religion = coptic
+						religion = fraticelli
+						religion = hussite
+						religion = lollard
+						religion = messalian
+						religion = monophysite
+						religion = nestorian
+						religion = protestant
+						religion = reformed
+						religion = waldensian
+						religion = hellenic_pagan
+				}
+			}
+			provinces_to_highlight = {
+					OR = {
+							province_id = 227 # Lisbon
+							province_id = 219 # Toledo
+							province_id = 183 # Paris
+							province_id = 118 # Rome
+							province_id = 104 # Milan
+							province_id = 112 # Venice
+							province_id = 124 # Messina
+							province_id = 195 # Limousin
+							province_id = 223 # Malaga
+							province_id = 134 # Wien
+							province_id = 220 # Valencia
+							province_id = 102 # Nice
+							province_id = 87 # Calais
+							province_id = 192 # Bourgogne
+							province_id = 121 # Napoli
+					}
+					NOT = { owned_by = ROOT }
+			}
+			allow = {
+					owns = 227
+					owns = 219
+					owns = 183
+					owns = 118
+					owns = 104
+					owns = 112
+					owns = 124
+					owns = 195
+					owns = 223
+					owns = 134
+					owns = 220
+					owns = 102
+					owns = 87
+					owns = 192
+					owns = 121
+					is_at_war = no
+					is_nomad = no
+					is_subject = no
+					is_core = 227
+					is_core = 219
+					is_core = 183
+					is_core = 118
+					is_core = 104
+					is_core = 112
+					is_core = 124
+					is_core = 195
+					is_core = 223
+					is_core = 134
+					is_core = 220
+					is_core = 102
+					is_core = 87
+					is_core = 192
+					is_core = 121
+			}
+			effect = {
+			118 = {
+				move_capital_effect = yes
+			}
+				change_tag = WRM
+				custom_tooltip = roman_culture_provinces_tooltip
+				hidden_effect = {
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 3
+			add_prestige = 50
+			add_core = 118 # Rome
+			#if = {
+			#	limit = {
+			#		is_part_of_hre = yes
+			#		is_elector = no
+			#	}
+			#	every_owned_province = {
+			#		limit = {
+			#			is_part_of_hre = yes
+			#		}
+			#		set_in_empire = no
+			#	}
+			#}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			france_region = {
+					limit = {
+					NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = WRM
+			}
+			iberia_region = {
+					limit = {
+					NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = WRM
+			}
+			italy_region = {
+					limit = {
+					NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = WRM
+			}
+			maghreb_region = {
+					limit = {
+					NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = WRM
+			}
+			wallonia_area = {
+					limit = {
+					NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = WRM
+			}
+			flanders_area = {
+					limit = {
+					NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = WRM
+			}
+			croatia_area = {
+					limit = {
+					NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = WRM
+			}
+			bosnia_area = {
+					limit = {
+					NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = WRM
+			}
+			lower_rhineland_area = {
+					limit = {
+					NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = WRM
+			}
+			inner_austria_area = {
+					limit = {
+					NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = WRM
+			}
+			austria_proper_area = {
+					limit = {
+					NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = WRM
+			}
+			tirol_area = {
+					limit = {
+					NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = WRM
+			}
+			switzerland_area = {
+					limit = {
+					NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = WRM
+			}
+			romandie_area = {
+					limit = {
+					NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = WRM
+			}
+			}	
+			ai_will_do = {
+					factor = 1
+					}
+			}
+		}
+					
+		
+							
+				
