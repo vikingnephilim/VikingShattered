@@ -1,0 +1,7 @@
+government = republic
+government_rank = 2
+primary_culture = neo_phoenician
+religion = druze
+technology_group = eastern
+capital = 379
+fixed_capital = 379

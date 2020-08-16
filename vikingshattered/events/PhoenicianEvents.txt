@@ -1,0 +1,263 @@
+namespace = phon
+country_event = {
+	id = phon.1
+	title = "p01name"
+	desc = "p01desc"
+	picture = "SHIP_SAILING"
+	
+	trigger = {
+		NOT = { exists = P02 }
+		tag = P01
+		AND = {
+			owns_core_province = 382
+			owns_core_province = 381
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = "phon.1.a"
+		
+		381 = {
+			add_core = P02
+			cede_province = P02
+			remove_core = P01
+			change_culture = hebrew
+		}
+		
+		382 = {
+			add_core = P02
+			cede_province = P02
+			remove_core = P01
+			change_culture = phoenician
+		}
+		P02 = {
+			change_religion = druze
+			change_primary_culture = hebrew
+			add_accepted_culture = phoenician
+		}
+		create_subject = {
+			subject = P02
+			subject_type = phon_city
+		}
+	}
+}
+
+country_event = {
+	id = phon.2
+	title = "p02name"
+	desc = "p02desc"
+	picture = "SHIP_SAILING"
+	
+	trigger = {
+		NOT = { exists = P03 }
+		tag = P01
+		AND = {
+			owns_core_province = 4297
+			owns_core_province = 1849
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = "phon.2.a"
+		
+		1849 = {
+			add_core = P03
+			cede_province = P03
+			remove_core = P01
+			change_culture = phoenician
+		}
+		
+		4297 = {
+			add_core = P03
+			cede_province = P03
+			remove_core = P01
+			change_culture = phoenician
+		}
+		P03 = {
+			change_religion = druze
+			change_primary_culture = phoenician
+		}
+		create_subject = {
+			subject = P03
+			subject_type = phon_city
+		}
+	}
+}
+
+country_event = {
+	id = phon.3
+	title = "p03name"
+	desc = "p03desc"
+	picture = "SHIP_SAILING"
+	
+	trigger = {
+		NOT = { exists = P04 }
+		tag = P01
+		AND = {
+			owns_core_province = 2313
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = "phon.3.a"
+		
+		2313 = {
+			add_core = P04
+			cede_province = P04
+			remove_core = P01
+			change_culture = phoenician
+		}
+		
+		P04 = {
+			change_religion = druze
+			change_primary_culture = phoenician
+		}
+		create_subject = {
+			subject = P04
+			subject_type = phon_city
+		}
+	}
+}
+
+country_event = {
+	id = phon.4
+	title = "p04name"
+	desc = "p04desc"
+	picture = "SHIP_SAILING"
+	
+	trigger = {
+		NOT = { exists = P05 }
+		tag = P01
+		AND = {
+			owns_core_province = 379
+			owns_core_province = 380
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = "phon.4.a"
+		
+		379 = {
+			add_core = P05
+			cede_province = P05
+			remove_core = P01
+			change_culture = hebrew
+		}
+		
+		380 = {
+			add_core = P05
+			cede_province = P05
+			remove_core = P01
+			change_culture = hebrew
+		}
+		P03 = {
+			change_religion = druze
+			change_primary_culture = hebrew
+		}
+		create_subject = {
+			subject = P05
+			subject_type = phon_city
+		}
+	}
+}
+
+country_event = {
+	id = phon.5
+	title = "p05name"
+	desc = "p05desc"
+	picture = "SHIP_SAILING"
+	
+	trigger = {
+		NOT = { exists = P06 }
+		tag = P01
+		AND = {
+			owns_core_province = 377
+			owns_core_province = 4298
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = "phon.5.a"
+		
+		377 = {
+			add_core = P06
+			cede_province = P06
+			remove_core = P01
+			change_culture = phoenician
+		}
+		
+		4298 = {
+			add_core = P06
+			cede_province = P06
+			remove_core = P01
+			change_culture = phoenician
+		}
+		P06 = {
+			change_religion = druze
+			change_primary_culture = phoenician
+		}
+		create_subject = {
+			subject = P06
+			subject_type = phon_city
+		}
+	}
+}
+
+country_event = {
+	id = phon.6
+	title = "p06name"
+	desc = "p06desc"
+	picture = "SHIP_SAILING"
+	
+	trigger = {
+		NOT = { exists = P07 }
+		tag = P01
+		AND = {
+			owns_core_province = 321
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = "phon.6.a"
+		
+		321 = {
+			add_core = P07
+			cede_province = P07
+			remove_core = P01
+			change_culture = naini
+		}
+		
+		P04 = {
+			change_religion = druze
+			change_primary_culture = naini
+		}
+		create_subject = {
+			subject = P07
+			subject_type = phon_city
+		}
+	}
+}
