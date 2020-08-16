@@ -152,6 +152,13 @@ LAR = "countries/DOGE_PER_Larestan.txt"
 ATC = "countries/DOGE_MSQ_Antioch.txt"
 JOR = "countries/DOGE_MSQ_Jordan.txt"
 ASR = "countries/DOGE_MSQ_Assyria.txt"
+P01 = "countries/Tyre.txt"
+P02 = "countries/Damascus.txt"
+P03 = "countries/Palmyra.txt"
+P04 = "countries/Antiochus.txt"
+P05 = "countries/Hierusalem.txt"
+P06 = "countries/Aleppo.txt"
+P07 = "countries/Cyprus_pho.txt"
 
 #ARABIA
 TBU = "countries/DOGE_ARA_Tabruk.txt"
@@ -240,7 +247,3 @@ TGA = "countries/Tonga.txt"
 
 #NORTH AMERICA
 VIN = "countries/DOGE_NAM_Vinland.txt"
-
-#New Formables
-WRM = "countries/WestRome.txt"
-ERM = "countries/EastRome.txt"

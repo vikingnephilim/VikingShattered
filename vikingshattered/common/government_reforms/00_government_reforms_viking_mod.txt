@@ -247,7 +247,6 @@ irish_high_king = {
 		global_colonial_growth = 15
 	}
 }
-
 #############################################
 ################ REPUBLICS ##################
 #############################################
@@ -428,7 +427,7 @@ cub_peasant_rep = {
 	}
 	modifiers = {
 		infantry_power = 0.1
-		may_recruit_female_generals = yes
+		may_recruit_female_generals
 		max_absolutism = -60
 	}
 	valid_for_nation_designer = no
@@ -565,6 +564,7 @@ rep_gran_colo = {
 	modifiers = {
 		leader_land_fire = 1
 		leader_land_shock = 1
+		monthly_militarize_society = 0.05
 	}
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }

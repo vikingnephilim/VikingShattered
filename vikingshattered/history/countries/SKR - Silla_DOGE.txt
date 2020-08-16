@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = hermit_kingdom_reform
 primary_culture = silla
-religion = confucianism
+religion = confucian
 government_rank = 1
 technology_group = chinese
 capital = 2745 # Gyeongju

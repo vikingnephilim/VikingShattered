@@ -1,0 +1,78 @@
+country_decisions = {
+	phon_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_pho }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = P01 }
+			NOT = { tag = PER }
+			NOT = { tag = EGY }
+			NOT = { tag = MAM }
+			NOT = { tag = TUN }
+			AND = {
+				is_colonial_nation = no
+				is_former_colonial_nation = no
+			}
+		}	
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1855
+				province_id = 378
+				province_id = 1854
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+			
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			NOT = { num_of_cities = 10 }
+			owns_core_province = 1854
+			owns_core_province = 1855
+			owns_core_province = 378
+			
+				
+		}
+			
+		effect = {
+			change_government = republic
+			change_tag = P01
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3300
+			}
+			set_country_flag = formed_pho
+			378 = {
+				change_trade_goods = dyes
+				change_culture = phoenician
+				
+			}
+			1854 = {
+				change_trade_goods = dyes
+				change_culture = phoenician
+			}
+			1855 = {
+				change_trade_goods = dyes
+				move_capital_effect = yes
+				add_base_production = 3
+				change_culture = phoenician
+			}
+		}
+	}
+}

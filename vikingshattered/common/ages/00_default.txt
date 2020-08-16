@@ -6,6 +6,7 @@ age_of_discovery = {
 	}
 	
 	religious_conflicts = yes
+	papacy = 1.0
 	
 
 	objectives = {
@@ -126,7 +127,8 @@ age_of_discovery = {
 		}
 		
 
-		ab_transfer_vassal_wargoal = {
+		ab_transfer_vassal_wargoal = 
+		{
 			rule = {
 				can_transfer_vassal_wargoal = yes
 				can_chain_claim = yes
@@ -177,33 +179,39 @@ age_of_discovery = {
 		}
 		
 		ab_ottoman_siege_ability = {
-			
+			allow = {
+				tag = TUR
+			}
 			modifier = {
 				siege_ability = 0.33
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
 		
 		ab_portugal_colonial_growth = {
 		
-			
+			allow = {
+				tag = POR
+			}
 			modifier = {
-				global_colonial_growth = 25
+				global_colonial_growth = 50
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
 		ab_denmark_reduced_lib_desire = {
 		
-			
+			allow = {
+				tag = DAN
+			}
 			modifier = {
-				reduced_liberty_desire = 15
+				reduced_liberty_desire = 30
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 				modifier = {
 					factor = 0
 					NOT = {
@@ -216,12 +224,14 @@ age_of_discovery = {
 		}
 		ab_venice_ship_trade = {
 		
-			
+			allow = {
+				tag = VEN
+			}
 			modifier = {
-				global_ship_trade_power = 0.25
+				global_ship_trade_power = 0.5
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
 	}
@@ -236,6 +246,7 @@ age_of_reformation = {
 	
 	
 	religious_conflicts = yes
+	papacy = 1.25
 	
 	objectives = {
 		obj_christian_convert = {
@@ -243,6 +254,7 @@ age_of_reformation = {
 				religion = protestant
 				religion = reformed
 				religion = anglican
+				religion = hussite
 			}
 		}
 		
@@ -375,41 +387,52 @@ age_of_reformation = {
 
 	
 		ab_spain_tercio = {
-			
+			allow = {
+				tag = SPA
+			}
 			modifier = {
-				shock_damage_received = -0.15
+				shock_damage_received = -0.3
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
 		ab_mughal_artillery = {
-			
+			allow = {
+				tag = MUG
+			}
 			modifier = {
-				artillery_cost = -0.25
+				artillery_cost = -0.5
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
 		
 		ab_polish_legitimacy = {
-			
+			allow = {
+				OR = {
+					tag = PLC
+					tag = POL
+				}
+			}
 			modifier = {
-				global_trade_goods_size_modifier = 0.16
+				global_trade_goods_size_modifier = 0.33
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
 		
 		ab_persia_reinforce = {
-			
+			allow = {
+				tag = PER
+			}
 			modifier = {
-				reinforce_cost_modifier = -0.15
+				reinforce_cost_modifier = -0.3
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
 	
@@ -431,6 +454,7 @@ age_of_absolutism = {
 		is_institution_enabled = global_trade
 	}
 	
+	papacy = 1.5
 	
 	absolutism = {
 		harsh_treatment = 1
@@ -556,38 +580,51 @@ age_of_absolutism = {
 	
 	
 		ab_france_fire_damage = {
-			
+			allow = {
+				tag = FRA
+			}
 			modifier = {
-				fire_damage = 0.1
+				fire_damage = 0.2
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
 		ab_dutch_anti_corruption = {
-			
-			modifier = {
-				yearly_corruption = -0.1
+			allow = {
+				tag = NED
 			}
-			
-		}	
-		ab_sweden_manpower = {
-			
 			modifier = {
-				manpower_recovery_speed = 0.17
+				yearly_corruption = -0.2
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
+			}
+		}	
+		ab_sweden_manpower = {
+			allow = {
+				tag = SWE
+			}
+			modifier = {
+				manpower_recovery_speed = 0.35
+			}
+			ai_will_do = {
+				factor = 100
 			}
 		}
 
 		ab_manchu_banner = {
-			
+			allow = {
+				OR = {
+					tag = MCH
+					tag = QNG
+				}
+			}
 			modifier = {
-				amount_of_banners = 0.25
+				amount_of_banners = 0.5
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
 	}
@@ -600,6 +637,7 @@ age_of_revolutions = {
 		is_institution_enabled = enlightenment
 	}
 	
+	papacy = 2.0
 	absolutism = {
 		harsh_treatment = 1
 		stability = 1
@@ -733,39 +771,47 @@ age_of_revolutions = {
 			}
 		}
 		ab_pru_military = {
-			
+			allow = {
+				tag = PRU
+			}
 			modifier = {
-				fire_damage_received = -0.1
+				fire_damage_received = -0.2
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
 		ab_gbr_fleet = {
-			
+			allow = {
+				tag = GBR
+			}
 			modifier = {
-				naval_maintenance_modifier = -0.16
+				naval_maintenance_modifier = -0.33
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
 		ab_russia_boost = {
-			
+			allow = {
+				tag = RUS
+			}
 			modifier = {
-				governing_capacity = 250
+				governing_capacity_modifier = 0.33
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
 		ab_austria_rep = {
-			
+			allow = {
+				tag = HAB
+			}
 			modifier = {
-				diplomatic_reputation = 2.5
+				diplomatic_reputation = 5
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
 	}
