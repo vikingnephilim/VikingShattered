@@ -15,9 +15,19 @@ country_decisions = {
 			NOT = { tag = PAP }
 			NOT = { exists = ROM }
 			OR = {
-				religion_group = christian
-				religion_group = pagan
-			}
+                AND = {
+                        tag = ERM    
+                        NOT = { exists = WRM }
+                        }
+                AND = { 
+                        tag = WRM    
+                        NOT = { exists = ERM }
+                        }
+            }
+            OR = {
+                    religion_group = christian
+                    religion = hellenic_pagan
+            }
 		}
 		provinces_to_highlight = {
 			OR = {
