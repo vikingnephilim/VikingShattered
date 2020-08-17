@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = baluchi
 religion = sunni
 technology_group = muslim
-capital = 577	# Quetta
+capital = 434	# Quhistan
 religious_school = shafii_school
 
 #Mirwaris, ancestors of later Kambarani dynasty:

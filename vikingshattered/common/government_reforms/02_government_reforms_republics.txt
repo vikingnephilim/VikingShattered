@@ -190,11 +190,6 @@ merchants_reform = {
 	}
 	boost_income = yes
 	duration = 4
-	factions = {
-		mr_aristocrats
-		mr_traders
-		mr_guilds
-	}
 	conditional = {
 		allow = {
 			has_dlc = "Res Publica"
@@ -273,11 +268,6 @@ venice_merchants_reform = {
 		}
 	}
 	boost_income = yes
-	factions = {
-		mr_aristocrats
-		mr_traders
-		mr_guilds
-	}
 	conditional = {
 		allow = {
 			has_dlc = "Res Publica"
@@ -592,11 +582,6 @@ junior_revolutionary_republic_reform = {
 		allow = {
 			has_dlc = "Rights of Man"
 		}
-		factions = {
-			rr_jacobins
-			rr_royalists
-			rr_girondists
-		}
 	}
 }
 
@@ -684,11 +669,6 @@ trading_city = {
 	boost_income = yes
 	lock_level_when_selected = yes
 	is_trading_city = yes
-	factions = {
-		mr_aristocrats
-		mr_traders
-		mr_guilds
-	}
 	modifiers = {
 		max_absolutism = -20
 		global_trade_power = 0.1
@@ -779,11 +759,6 @@ veche_republic = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
 
-	factions = {
-		mr_aristocrats
-		mr_traders
-		mr_guilds
-	}
 	boost_income = yes
 	fixed_rank = 1
 

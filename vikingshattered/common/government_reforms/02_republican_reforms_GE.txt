@@ -24,10 +24,6 @@ american_government = {
 		}
 		has_parliament = yes
 	}
-	factions = {
-		GE_federalists
-		GE_republicans
-	}
 	duration = 4
 }
 
@@ -181,11 +177,6 @@ genoan_republic_reform = {
 	}
 	boost_income = yes
 	duration = 4
-	factions = {
-		mr_aristocrats
-		mr_traders
-		mr_guilds
-	}
 	conditional = {
 		allow = {
 			has_dlc = "Res Publica"
@@ -265,11 +256,6 @@ caucasian_republic = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 		enables_caucasus_candidates = yes
-	}
-	factions = {
-		GE_orthodox
-		GE_coptic
-		GE_sunni
 	}
 	duration = 7
 }

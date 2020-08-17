@@ -772,119 +772,39 @@ achaemenid_empire_reform = {
 	nation_designer_cost = 0
 	maintain_dynasty = yes
 	potential = {
-		OR = {
-			AND = {
-				religion_group = zoroastrian
-				culture_group = iranian
-				culture_group = east_iranian
-				culture_group = persian
-			}
+		AND = {
+			  OR = {
+					  religion_group = zoroastrian
+					  religion = zun_pagan_reformed
+					  has_reform = achaemenid_empire_reform
+			  }   
+			  OR = {
+					  culture_group = iranian
+					  culture_group = east_iranian
+					  culture_group = persian
+			  }
+		   }
 		}
-	}
 	trigger = {
 		AND = {
-			religion_group = zoroastrian
-			culture_group = iranian	
+			OR = {
+					religion_group = zoroastrian
+					religion = zun_pagan_reformed
+					has_reform = achaemenid_empire_reform
+			}   
+			OR = {
+					culture_group = iranian
+					culture_group = east_iranian
+					culture_group = persian
+				}
+			}
 		}
-	}
 	modifiers = {
 		prestige = 1
+		governing_capacity = 250
 	}
 	custom_attributes = {
 		enables_religious_supremacy = yes
-	}
-	assimilation_cultures = {
-		altaic = {
-		}
-		baltic = {
-		}
-		british = {
-		}
-		burman = {
-		}
-		byzantine = {
-		}
-		carpathian = {
-		}
-		caucasian = {
-		}
-		gaelic = {
-		}
-		central_indic = {
-		}
-		east_asian = {
-		}
-		kongo_group = {
-		}
-		cushitic = {
-		}
-		dravidian = {
-		}
-		african = {
-		}
-		east_slavic = {
-		}
-		eastern_aryan = {
-		}
-		evenks = {
-		}
-		french = {
-		}
-		germanic = {
-		}
-		great_lakes_group = {
-		}
-		hindusthani = {
-		}
-		iberian = {
-		}
-		iranian = {
-		}
-		japanese_g = {
-		}
-		korean_g = {
-		}
-		latin = {
-		}
-		lost_cultures_group = {
-		}
-		turko_semitic = {
-		}
-		maghrebi = {
-		}
-		malay = {
-		}
-		mande = {
-		}
-#		mon_khmer = {
-#			build_cost = -0.05
-#		}
-		pacific = {
-		}
-		sahelian = {
-		}
-		scandinavian = {
-		}
-		south_slavic = {
-		}
-		southern_african = {
-		}
-		sudanese = {
-		}
-		tartar = {
-		}
-		southeastasian_group = {
-		}
-		tibetan_group = {
-		}
-		finno_ugric = {
-		}
-		west_african = {
-		}
-		west_slavic = {
-		}
-		western_aryan = {
-		}
 	}
 	ai = {
 		factor = 100
