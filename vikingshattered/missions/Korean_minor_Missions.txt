@@ -1,0 +1,1967 @@
+######################################################
+#line 1
+######################################################
+
+
+korean_missions_mng_conquest = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+		tag = BKJ
+		tag = NKR
+		tag = SKR
+		}
+	}
+	has_country_shield = yes
+
+	new_kor_navy = {
+		icon = mission_galleys_in_port
+		required_missions = { }
+		position = 1
+		trigger = {
+			num_of_galley = 20
+		}
+		
+		effect = {
+			add_dip_power = 20
+			add_navy_tradition = 5
+			create_admiral = { tradition = 30 }
+			2112 = {
+				add_permanent_claim = ROOT
+			}
+			2113 = {
+				add_permanent_claim = ROOT
+			}
+			726 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	
+	kor_liaoning_conquest = {
+		icon = mission_great_wall
+		required_missions = { 
+		new_kor_navy
+        new_kor_army		
+		}
+		position = 2
+		
+		provinces_to_highlight = {
+			OR = {
+			    province_id = 2112
+				province_id = 2113
+				province_id = 726
+		    }
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			2112 = {
+				owned_by = ROOT
+			}
+			2113 = {
+				owned_by = ROOT
+			}
+			726 = {
+				owned_by = ROOT
+			}
+		}
+		
+        effect = {
+			add_prestige = 5
+			add_adm_power = 30
+        }
+	}
+	
+		
+	kor_prepare_for_task = {
+	    icon = mission_high_income
+		required_missions = { kor_liaoning_conquest }
+		position = 3
+		
+		trigger = { manpower = 20 }
+		effect = {
+		    add_country_modifier = {
+			    name = "cor_inspiring_recruit"
+				duration = 3650
+            }
+			4194 = {
+				add_permanent_claim = ROOT
+			}
+			1816 = {
+				add_permanent_claim = ROOT
+			}
+			704 = {
+			    add_permanent_claim = ROOT
+			}
+        }			
+    }
+	
+	kor_beijing_conquest = {
+		icon = mission_conquer_50_development
+		required_missions = { kor_prepare_for_task }
+		position = 5
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4194
+				province_id = 1816
+				province_id = 704
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			4194 = {
+				owned_by = ROOT
+			}
+			1816 = {
+				owned_by = ROOT
+			}
+			704 = {
+			    owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			country_event = { 
+				id = cor_events.4
+			}
+			add_prestige = 15
+			add_adm_power = 100
+			add_treasury = 50
+		}
+	}
+	
+	kor_make_vassals = {
+	    icon = mission_alliances
+		required_missions = { kor_beijing_conquest }
+		position = 6
+		
+		trigger = { num_of_non_tributary_subjects = 2 }
+		effect = {
+		    add_country_modifier = {
+                name = "obedient_subjects"
+			}
+            add_prestige = 5
+            695 = {
+			    add_permanent_claim = ROOT
+			}
+            696 = {
+			    add_permanent_claim = ROOT
+			}
+            4195 = {
+			    add_permanent_claim = ROOT
+			}
+            2137 = {
+			    add_permanent_claim = ROOT
+			}
+            2138 = {
+			    add_permanent_claim = ROOT
+			}
+            691 = {
+			    add_permanent_claim = ROOT
+			}
+	        2140 = {
+			    add_permanent_claim = ROOT
+			}		
+            690 = {
+			    add_permanent_claim = ROOT
+			}		
+            2139 = {
+			    add_permanent_claim = ROOT
+			}		
+		}
+    }
+
+    kor_shandong_conquest = {
+       icon = mission_cannons_firing
+	   required_missions = { kor_make_vassals }
+	   position = 7
+	   
+	   provinces_to_highlight = {
+	        OR = {
+			    area = south_hebei_area
+				area = shandong_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+	    }
+	   trigger = {
+	        owns_or_non_sovereign_subject_of = 695
+		    owns_or_non_sovereign_subject_of = 696
+            owns_or_non_sovereign_subject_of = 4195
+			owns_or_non_sovereign_subject_of = 2137
+			owns_or_non_sovereign_subject_of = 2138
+			owns_or_non_sovereign_subject_of = 691
+			owns_or_non_sovereign_subject_of = 2140
+			owns_or_non_sovereign_subject_of = 690
+			owns_or_non_sovereign_subject_of = 2139
+		}
+		
+		effect = {
+		add_prestige = 10
+		add_adm_power = 60
+		}
+	}
+
+	kor_nanjing_conquest = {
+	    icon = mission_conquer_50_development
+		required_missions = { kor_shandong_conquest }
+		position = 8
+		
+		provinces_to_highlight = {
+		    OR = {
+			    province_id = 4196
+				province_id = 2141
+				province_id = 2142
+				area = south_jiangsu_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+		    owns_or_non_sovereign_subject_of = 2141
+			owns_or_non_sovereign_subject_of = 4196
+			owns_or_non_sovereign_subject_of = 2142
+			owns_or_non_sovereign_subject_of = 685
+			owns_or_non_sovereign_subject_of = 1822
+			owns_or_non_sovereign_subject_of = 2145
+			owns_or_non_sovereign_subject_of = 1821
+		}
+		
+		effect = {
+			add_prestige = 15
+			add_adm_power = 100
+			country_event = { 
+				id = cor_events.5
+			}
+		}
+	}
+	
+	kor_destiny = {
+	    icon = mission_buddhist_monk_praying
+		required_missions = { kor_nanjing_conquest }
+		position = 12
+		
+		trigger = { 
+		    government_rank = 3
+			stability = 1
+		}
+		
+		effect = {
+		    country_event = {
+			    id = cor_events.6
+			}
+		}
+	}
+	
+	kor_build_temple_of_jiangsu = {
+	    icon = mission_early_game_buildings
+		required_missions = { kor_destiny }
+		position = 14
+		
+		provinces_to_highlight = {
+		    province_id = 1821
+		}
+		
+        trigger = {
+		    1821 = { 
+		        owned_by = ROOT
+			    has_building = cathedral
+			}
+		}
+		
+		effect = {
+			add_prestige = 5
+			add_country_modifier = {
+				name = cor_build_temple_jiangsu
+				duration = 7300
+			}
+		}
+	}
+		
+	kor_repair_the_great_wall_of_china = {
+	    icon = mission_great_wall
+		required_missions = { kor_build_temple_of_jiangsu }
+		position = 15
+		
+		provinces_to_highlight = {
+		    province_id = 1816
+		}
+		
+		trigger = {
+		    1816 = {
+			    owned_by = ROOT
+				has_building = fort_18th
+			}
+		}
+		
+		effect = {
+		    add_mil_power = 30
+			add_country_modifier = {
+			    name = cor_repair_great_wall_of_china
+				duration = 10950
+			}
+		}
+	}
+	
+	kor_build_customs_china = {
+	    icon = mission_have_manufactories
+		required_missions = { kor_repair_the_great_wall_of_china }
+		position = 16
+		
+		provinces_to_highlight = {
+		    OR = {
+			    province_id = 726
+				province_id = 690
+				province_id = 1822
+			}
+		}
+		
+		trigger = {
+		    726 = {
+			    owned_by = ROOT
+				has_building = counting_house
+			}
+			690 = {
+			    owned_by = ROOT
+				has_building = counting_house
+			}
+			1822 = {
+			    owned_by = ROOT
+				has_building = counting_house
+			}
+		}
+		
+		effect = {
+		    add_dip_power = 30
+			add_country_modifier = {
+			    name = cor_build_customs_at_china
+				duration = 10950
+			}
+		}
+	}
+	
+	kor_build_furnace = {
+	    icon = mission_rb_prospect_for_coal
+		required_missions = { kor_build_customs_china }
+		position = 18
+		
+		provinces_to_highlight = {
+		    OR = {
+			    province_id = 4194
+				province_id = 1818
+			}
+		}
+		
+		trigger = {
+		    4194 = {
+			    owned_by = ROOT
+				has_building = furnace
+			}
+			1818 = {
+			    owned_by = ROOT
+				has_building = furnace
+			}
+		}
+		
+		effect = {
+		    4194 = {
+			    add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower =3
+			}
+			1818 = {
+			    add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
+			}
+		}
+	}
+}
+	
+######################################################
+#line 2
+######################################################
+
+korean_missions_mch_conquest = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+		tag = BKJ
+		tag = NKR
+		tag = SKR
+		}
+	}
+	has_country_shield = yes
+
+	new_kor_army = {
+		icon = mission_chinese_general_riding
+		required_missions = { }
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+		}
+		
+		effect = {
+			add_mil_power = 20
+			create_general = { tradition = 30 }
+			2108 = {
+				add_permanent_claim = ROOT
+			}
+			2111 = {
+				add_permanent_claim = ROOT
+			}
+			4201 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	kor_jianzhou_conquest = {
+	    icon = mission_non-western_cavalry_raid
+		required_missions = { new_kor_army }
+		position = 2
+			
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2111
+				province_id = 2108
+				province_id = 4201
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			2111 = {
+		        owned_by = ROOT
+			}
+			2108 = {
+				owned_by = ROOT
+			}
+		    4201 = {
+			    owned_by = ROOT
+			}
+		}
+			
+		effect = {
+			add_prestige = 5
+			add_army_tradition = 5
+			2110 = {
+				add_permanent_claim = ROOT
+			} 
+			2188 = {
+				add_permanent_claim = ROOT
+			}
+			730 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+		
+	kor_haixi_conquest = {
+	        icon = mission_build_up_to_force_limit
+			required_missions = { kor_jianzhou_conquest }
+			position = 3
+			
+			provinces_to_highlight = {
+			    OR = {
+				    province_id = 730
+				    province_id = 2110
+				    province_id = 2188
+			    }
+			    NOT = { owned_by = ROOT }
+		    }
+			trigger = {
+			    730 = {
+		            owned_by = ROOT
+			    }
+			    2110 = {
+				    owned_by = ROOT
+			    }
+			    2188 = {
+			        owned_by = ROOT
+			    }
+		    }
+			
+			effect = {
+			    add_prestige = 5
+				add_army_tradition = 5
+			    2107 = {
+				    add_permanent_claim = ROOT
+			    }
+			    2106 = {
+				    add_permanent_claim = ROOT
+			    }
+			    1850 = {
+				    add_permanent_claim = ROOT
+			    }
+				2186 = {
+				    add_permanent_claim = ROOT
+				}
+				731 = {
+				    add_permanent_claim = ROOT
+				}
+				4217 = {
+				    add_permanent_claim = ROOT
+				}
+				729 = {
+				    add_permanent_claim = ROOT
+				}
+			}
+		}
+		
+	kor_united_three_korea = {
+	        icon = mission_have_two_subjects
+			required_missions = { kor_haixi_conquest }
+			position = 4
+			
+			trigger = {
+			    treasury = 300
+				prestige = 0
+			}
+			
+			effect = {
+			    add_treasury = -300
+				add_stability = 1
+				add_legitimacy = 20
+				add_adm_power = 50
+				add_dip_power = 50
+				add_mil_power = 50
+				add_accepted_culture = manchu
+				korea_region = {
+				    limit = {
+					    owned_by = ROOT
+				    }
+				    add_province_modifier = {
+					    name = "three_koreas_mod"
+					    duration = 18250
+				    }
+			    }
+			}
+		}
+	
+	kor_restore_balhae = {
+	    icon = mission_chinese_general_riding
+		required_missions = { kor_united_three_korea }
+		position = 6
+		
+		provinces_to_highlight = {
+		    OR = {
+			    province_id = 2107
+				province_id = 2106
+				province_id = 1850
+				province_id = 2186
+				province_id = 731
+				province_id = 4217
+				province_id = 729
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+	        2107 = {
+				owned_by = ROOT
+			}
+			2106 = {
+		        owned_by = ROOT
+		    }
+		    1850 = {
+			    owned_by = ROOT
+		    }
+			2186 = {
+			    owned_by = ROOT
+			}
+			731 = {
+			    owned_by = ROOT
+			}
+			4217 = {
+			    owned_by = ROOT
+			}
+			729 = {
+			    owned_by = ROOT
+			}
+		}
+		
+		effect = {
+		    add_army_tradition = 5
+			add_prestige = 10
+		}
+	}
+	
+	kor_artillery = {
+	    icon = mission_cannons_firing
+		required_missions = { 
+		    kor_restore_balhae 
+			kor_kyushu_conquest
+		}
+		position = 8
+		
+		trigger = {
+		    num_of_artillery = 20
+			mil_tech = 13
+			years_of_income = 0.5
+		}
+		
+		effect = {
+		    add_mil_power = 50
+			add_years_of_income = -0.5
+			add_country_modifier = {
+			    name = build_up_gungisi
+				duration = 10950
+			}
+			    central_heilongjiang_area = {
+				    limit = {
+					    NOT = { is_core = ROOT }
+					    NOT = { owned_by = ROOT }
+				    }
+				    add_claim = ROOT
+				}
+                2187 = {
+				    add_claim = ROOT
+				}
+				2109 = {
+				    add_claim = ROOT
+				}
+				4202 = {
+				    add_claim = ROOT
+				}
+				722 = {
+				    add_claim = ROOT
+				}
+				4203 = {
+				    add_claim = ROOT
+				}
+        }				
+	}
+	
+	kor_northern_conquest = {
+	    icon = mission_non-western_cavalry_raid
+		required_missions = { kor_artillery }
+		position = 9
+		provinces_to_highlight = {
+		    OR = {
+			    area = central_heilongjiang_area
+				province_id = 2187
+				province_id = 2109
+				province_id = 4202
+				province_id = 722
+				province_id = 4203
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+		    central_heilongjiang_area = {
+			    type = all
+				owned_by = ROOT
+			}
+			2187 = {
+			    owned_by = ROOT
+			}
+			2109 = {
+			    owned_by = ROOT
+			}
+			4202 = {
+			    owned_by = ROOT
+			}
+			722 = {
+			    owned_by = ROOT
+			}
+			4203 = {
+			    owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			add_prestige = 5
+			add_army_tradition = 10
+		}
+	}
+	
+	kor_army_pro = {
+	    icon = mission_build_up_to_force_limit 
+		required_missions = {
+		    kor_northern_conquest
+			kor_kyoto_conquest
+		}
+		position = 11
+		
+		trigger = { 
+		    army_size_percentage = 1
+			army_professionalism = 0.5
+		}
+		
+		effect = {
+		    add_mil_power = 30
+			create_general = { tradition = 70 }
+			add_army_professionalism = 0.10
+			add_country_modifier = {
+				name = cor_inspiring_training
+				duration = 3650
+			}
+		}
+	}
+	
+	kor_northern_conquest_again = {
+	    icon = mission_assemble_an_army
+		required_missions = { kor_army_pro }
+		position = 13
+		
+		provinces_to_highlight = {
+		    OR = {
+			    province_id = 725
+				province_id = 4218
+				province_id = 724
+				province_id = 1053
+				province_id = 4216
+				province_id = 1050
+				province_id = 1033
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+            725 = {
+			    owned_by = ROOT
+			}
+			4218 = {
+			    owned_by = ROOT
+			}
+			724 = {
+			    owned_by = ROOT
+			}
+			1053 = {
+			    owned_by = ROOT
+			}
+			4216 = {
+			    owned_by = ROOT
+			}
+			1050 = {
+			    owned_by = ROOT
+			}
+			1033 = {
+			    owned_by = ROOT
+			}
+		}
+		
+		effect = {
+		    add_stability = 1
+		}
+	}
+	
+	kor_build_fortress = {
+	    icon = mission_conquer_50_development
+		required_missions = {
+		    kor_northern_conquest_again
+			kor_navy_pro
+		}
+		position = 16
+		
+		provinces_to_highlight = {
+		    OR = {
+			    province_id = 729
+				province_id = 1053
+				province_id = 722
+			}
+		}
+		
+		trigger = {
+		    729 = {
+			    owned_by = ROOT
+				has_building = fort_18th
+			}
+			1053 = {
+			    owned_by = ROOT
+				has_building = fort_18th
+			}
+			722 = {
+			    owned_by = ROOT
+				has_building = fort_18th
+			}
+		}
+		
+		effect = {
+		    add_mil_power = 30
+		}
+	}
+}
+
+######################################################
+#line 3
+######################################################
+
+korean_missions_jap_conquest = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+		tag = BKJ
+		tag = NKR
+		tag = SKR
+		}
+	}
+	has_country_shield = yes
+	
+	kor_build_great_army = {
+	        icon = mission_assemble_an_army
+			required_missions = { new_kor_army }
+			position = 2
+			
+			trigger = {
+			    army_size = 40
+			}
+			effect = {
+			    add_mil_power = 30
+				add_army_tradition = 5
+				create_general = { tradition = 50 }
+			}
+		}
+			
+	kor_build_great_navy = {
+	        icon = mission_sea_battles
+			required_missions = { 
+			    kor_united_three_korea 
+				kor_build_great_army
+			}
+			position = 5
+			
+			trigger = {
+			    num_of_heavy_ship = 5
+				num_of_galley = 30
+			}
+			effect = {
+			    add_dip_power = 30
+				add_navy_tradition = 10
+				1017 = {
+				    add_permanent_claim = ROOT
+				}
+				1818 = {
+				    add_permanent_claim = ROOT
+				}
+				add_country_modifier = {
+				    name = cor_navy_combination_successfuly
+					duration = 7300
+				}
+				country_event = {
+					id = flavor_kor.6
+				}
+			}
+		}
+		
+	kor_ouchi_conquest = {
+	        icon = mission_unite_home_region
+			required_missions = { kor_build_great_navy }
+			position = 6
+			
+			provinces_to_highlight = {
+			    OR = {
+				    province_id = 1017
+					province_id = 1818
+			    }
+				NOT = { owned_by = ROOT }
+	        }
+			
+			trigger = {
+			    1017 = {
+				    owned_by = ROOT
+				}
+				1818 = {
+				    owned_by = ROOT
+				}
+			}
+			
+			effect = {
+			    4182 = {
+				    add_permanent_claim = ROOT
+				}
+				4181 = {
+				    add_permanent_claim = ROOT
+				}
+				1012 = {
+				    add_permanent_claim = ROOT
+				}
+				1014 = {
+				    add_permanent_claim = ROOT
+				}
+				4180 = {
+				    add_permanent_claim = ROOT
+				}
+				add_dip_power = 20
+			}
+		}
+	kor_kyushu_conquest = {
+	        icon = mission_japanese_fort
+			required_missions = { kor_ouchi_conquest }
+			position = 7
+			
+			provinces_to_highlight = {
+			    OR = {
+				    province_id = 4182
+					province_id = 4181
+					province_id = 1014
+					province_id = 1012
+					province_id = 4180
+				}
+				NOT = { owned_by = ROOT }
+			}
+			
+			trigger = {
+			    4182 = {
+					owned_by = ROOT
+				}
+				1014 = {
+				    owned_by = ROOT
+				}
+                4181 = {
+				    owned_by = ROOT
+				}
+				4180 = {
+				    owned_by = ROOT
+				}
+				1012 = {
+				    owned_by = ROOT
+				}
+			}
+            effect = {
+			    shikoku_area = {
+				    limit = {
+					    NOT = { is_core = ROOT }
+					    NOT = { owned_by = ROOT }
+				    }
+				    add_claim = ROOT
+				}
+				1825 = {
+				    add_claim = ROOT
+				}
+				4184 = {
+				    add_claim = ROOT
+				}
+				1019 = {
+				    add_claim = ROOT
+				}
+				4183 = {
+				    add_claim = ROOT
+				}
+				1018 = {
+				    add_claim = ROOT
+				}
+				1830 = {
+				    add_claim = ROOT
+				}
+				4185 = {
+				    add_claim = ROOT
+				}
+				add_prestige = 10
+			}
+		}
+	
+	
+    kor_west_jap_conquest = {
+        icon = mission_rb_conquer_brittany
+		required_missions = { kor_kyushu_conquest }
+		position = 8
+		provinces_to_highlight = {
+		    OR = {
+			    province_id = 4183
+		        province_id = 1018
+				province_id = 1830
+				province_id = 4185
+				province_id = 1825
+				province_id = 4184
+				province_id = 1019
+				province_id = 4186
+				province_id = 1819
+				province_id = 1820
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+		    shikoku_area = {
+			    type = all
+				owned_by = ROOT 
+			}
+			sanindo_area = {
+			    type = all
+				owned_by = ROOT 
+			}
+			1825 = {
+			    owned_by = ROOT
+			}
+			4184 = {
+			    owned_by = ROOT
+			}
+			1019 = {
+			    owned_by = ROOT
+			}
+		}
+		effect = {
+			    kinai_area = {
+				    limit = {
+					    NOT = { is_core = ROOT }
+					    NOT = { owned_by = ROOT }
+				    }
+				    add_claim = ROOT
+				}
+				add_army_tradition = 7
+				add_navy_tradition = 7
+        }
+	}
+	
+	kor_kyoto_conquest = {
+	    icon = mission_japanese_fort
+	    required_missions = { kor_west_jap_conquest }
+	    position = 10
+	    provinces_to_highlight = {
+	        area = kinai_area
+		    NOT = { owned_by = ROOT }
+	    }
+	    trigger = { 
+	        kinai_area = {
+		        type = all
+			    owned_by = ROOT
+		    }
+     	}
+	    effect = {
+	        country_event = {
+			    id = cor_events.8
+		    }
+  	    }
+    }
+	
+	kor_japan_control = {
+	    icon = mission_alliances
+		required_missions = { kor_kyoto_conquest }
+		position = 11
+		trigger = { stability = 0 }
+		
+		effect = {
+		    add_dip_power = 30
+			country_event = {
+			    id = cor_events.9
+			}
+		}
+	}
+	
+	kor_harmonize_shinto = {
+	    icon = mission_rb_monopolize_the_channel
+		required_missions = { kor_japan_control }
+		position = 13
+		trigger = { has_harmonized_with = shinto }
+		
+		effect = {
+			add_country_modifier = {
+				name = cor_harmonize_shinto
+				duration = 18250
+			}
+	    }
+    }
+	
+	kor_navy_pro = {
+	    icon = mission_sea_battles
+		required_missions = {
+		    kor_harmonize_shinto
+			kor_hawaiian_expansion
+		}
+		position = 15
+		
+		trigger = { 
+		    num_of_heavy_ship = 50
+			num_of_galley = 40
+			num_of_light_ship = 120
+			navy_tradition = 50
+		}
+		
+		effect = {
+		    add_navy_tradition = 10
+			add_dip_power = 50
+			create_admiral = { tradition = 80 }
+			add_country_modifier = {
+			    name = rule_josenia
+				duration = 18250
+			}
+		}
+	}
+	
+	kor_increase_absolutism = {
+	    icon = mission_monarch_in_throne_room
+		required_missions = {
+		    kor_build_fortress
+			kor_navy_pro
+			kor_indonesia_dominance
+		}
+		position = 17
+		
+		trigger = {
+		    absolutism = 100
+			years_of_income = 5
+			stability = 2
+		}
+		
+		effect = {
+		    add_adm_power = 150
+			add_dip_power = 150
+			add_mil_power = 150
+			add_country_modifier = {
+				name = cor_the_heir_maker
+			}
+		    735 = {
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
+			}
+		    1845 = {
+				add_base_tax = 2
+				add_base_manpower = 2
+			}
+		    737 = {
+				add_base_tax = 1
+				add_base_production = 3
+				add_base_manpower = 1
+			}
+		    2745 = {
+				add_base_tax = 2
+				add_base_production = 2
+			}
+		    726 = {
+				add_base_production = 3
+				add_base_manpower = 1
+			}
+		    1816 = {
+				add_base_manpower = 3
+			}
+		    1821 = {
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		    685 = {
+				add_base_manpower = 3
+			}
+		    730 = {
+				add_base_tax = 2
+				add_base_production = 1
+			}
+		    1017 = {
+				add_base_tax = 1
+				add_base_production = 3
+			}
+		    1020 = {
+				add_base_tax = 2
+				add_base_production = 2
+			}
+		}
+	}
+}
+    
+######################################################
+#line 4
+######################################################
+
+korean_missions_dip = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+		tag = BKJ
+		tag = NKR
+		tag = SKR
+		}
+	}
+	has_country_shield = yes
+	
+	kor_alliances = {
+		icon = mission_alliances
+		required_missions = {  }
+		position = 1
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = building_alliances.tooltip
+				num_of_allies = 2
+				calc_true_if = {
+					all_ally = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+					}
+					amount = 2
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "influential_diplomacy"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	
+	kor_trade_privilege = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { kor_alliances }
+		position = 3
+		trigger = {
+			home_trade_node = {
+				trade_share = {
+					country = ROOT
+					share = 60
+				}
+			}
+		}
+		effect = {
+            add_dip_power = 50
+			add_years_of_income = 0.2
+			capital_scope = {
+			    add_base_tax = 1
+				add_base_production = 2
+				area = {
+				    limit = { owned_by = ROOT }
+					add_province_modifier = {
+						name = "growth_of_capital"
+						duration = 18250
+					}
+				}
+			}
+		}
+	}
+	
+	privilege_for_kor_burghers = { 
+		icon = mission_trade_company_region_abroad
+		required_missions = { kor_build_temples }
+		position = 4
+		trigger = {
+		    marketplace = 5
+		}
+		effect = {
+			add_stability = -1
+			add_estate_loyalty = {
+			    estate = estate_burghers
+				loyalty = 20
+			}
+			add_estate_loyalty = {
+			    estate = estate_nobles
+				loyalty = -10
+			}
+			add_estate_loyalty = {
+			    estate = estate_church
+				loyalty = -15
+			}
+		}
+	}
+	
+	kor_trade_ship = {
+	        icon = mission_establish_high_seas_navy
+			required_missions = { privilege_for_kor_burghers }
+			position = 5
+			
+			trigger = {
+			    num_of_light_ship = 30
+			}
+            effect = {
+			    add_estate_loyalty = {
+			        estate = estate_burghers
+				    loyalty = 10
+			    }
+			    add_estate_loyalty = {
+			        estate = estate_nobles
+				    loyalty = -5
+			    }
+			    add_estate_loyalty = {
+			        estate = estate_church
+				    loyalty = -5
+		       	}    
+                add_yearly_sailors = 2
+                1015 = {
+				    add_permanent_claim = ROOT
+				}
+			}
+    }
+
+    kor_ryukyu_conquest = {
+        icon = mission_rb_take_gibraltar	
+		required_missions = {
+		    kor_trade_ship
+			kor_build_great_navy
+		}
+		position = 6
+		
+		provinces_to_highlight = {
+		    province_id = 1015
+		}
+		
+		trigger = {
+		    1015 = {
+			    owned_by = ROOT
+			}
+		}
+		effect = {
+		    add_treasury = 30
+			1015 = {
+				add_base_tax = 2
+				add_base_production = 3
+				add_base_manpower = 1
+				add_province_modifier = {
+					name = jewel_of_east_asia_trade_ryukyu
+				}
+			}
+	        add_country_modifier = {
+			    name = cor_inspired_international_trade
+				duration = 10950
+			}
+		}
+	}
+}
+	
+korean_missions_expansion = {
+	slot = 4
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+		tag = BKJ
+		tag = NKR
+		tag = SKR
+		}
+	}
+	has_country_shield = yes	
+	
+	kor_taiwan_expansion = {
+	    icon = mission_rb_scottish_north_sea_trade
+		required_missions = { kor_ryukyu_conquest }
+		position = 8
+		provinces_to_highlight = {
+		    area = taiwan_area
+			NOT = { owned_by = ROOT }
+			has_discovered = ROOT
+		}
+		trigger = {
+		    custom_trigger_tooltip = {
+			    tooltip = kor_colonize_taiwan
+				taiwan_area = {
+				    owned_by = ROOT
+					is_city = yes 
+				}
+			}
+		}
+	    
+		effect = {
+		    738 = {
+			    add_base_tax = 2
+				add_base_production = 2
+			}
+			add_dip_power = 20
+			add_yearly_manpower = 0.5
+		}
+	}
+	
+	kor_philip_expansion = {
+	    icon = mission_invade_island
+		required_missions = { kor_taiwan_expansion }
+		position = 9
+		provinces_to_highlight = {
+		    trade_company_region = trade_company_philippines
+		    is_sea = no
+	     	NOT = { owned_by = ROOT }
+	    	has_discovered = ROOT
+		}
+		
+		trigger = {
+		    custom_trigger_tooltip = {
+			    tooltip = kor_colonize_philip
+                trade_company_philippines = {
+				    owned_by = ROOT
+					is_city = yes
+				}
+			}
+		}
+		
+		effect = {
+		    add_dip_power = 40
+			country_event = {
+				id = cor_events.10
+			}
+		}
+	}
+	
+	kor_california_expansion = {
+	    icon = mission_rb_increase_our_reach
+		required_missions = {
+		    kor_kyoto_conquest
+			kor_philip_expansion
+		}
+		position = 11
+		provinces_to_highlight = {
+		    colonial_region = colonial_california
+	     	NOT = { country_or_non_sovereign_subject_holds = ROOT }
+	    	has_discovered = ROOT
+		}
+		
+		trigger = {
+		    custom_trigger_tooltip = {
+			    tooltip = kor_colonize_california
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				    value = 10
+					colonial_region = colonial_california
+					is_city = yes
+				}
+			}
+		}
+		
+		effect = {
+		    add_dip_power = 50
+		
+		}
+	}
+	
+	kor_mexico_expansion = {
+	    icon = mission_rb_scottish_north_sea_trade
+		required_missions = { kor_california_expansion }
+		position = 13
+		provinces_to_highlight = {
+		    colonial_region = colonial_mexico
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		
+		trigger = {
+		    custom_trigger_tooltip = {
+			    tooltip = kor_colonize_mexico
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				    value = 10
+					colonial_region = colonial_mexico
+					is_city = yes
+				}
+			}
+		}
+		
+		effect = {
+		    add_dip_power = 30
+			country_event = {
+				id = cor_events.11
+			}
+			add_country_modifier = {
+			    name = cor_expansion_fever
+				duration = 10950
+			}
+		}
+	}
+	
+	kor_hawaiian_expansion = {
+	    icon = mission_rb_take_gibraltar
+		required_missions = { kor_mexico_expansion }
+		position = 14
+		provinces_to_highlight = {
+		    province_id = 1240
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		
+		trigger = {
+		    custom_trigger_tooltip = {
+			    tooltip = kor_colonize_hawaii
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				    value = 1
+					province_id = 1240
+					is_city = yes
+				}
+			}
+		}
+	     
+		effect = {
+		    add_dip_power = 10
+			add_province_modifier = {
+				name = middle_of_cor_trade_hawaii
+			}
+		}
+	}
+	
+	kor_malaya_expansion = {
+	    icon = mission_rb_colonise_spice_islands
+		required_missions = {
+		    kor_hawaiian_expansion
+			develop_of_three_northern_area
+		}
+		position = 15
+		provinces_to_highlight = {
+		    trade_company_region = trade_company_indonesia
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+		    custom_trigger_tooltip = {
+			    tooltip = kor_colonize_malaya
+                trade_company_indonesia = {
+				    owned_by = ROOT
+					is_city = yes
+				}
+			}
+		}
+		
+		effect = {
+		    add_dip_power = 30
+			add_country_modifier = {
+				name = cor_trend_perfume
+				duration = 10950
+			}
+		}
+	}
+	
+	kor_indonesia_dominance = {
+	    icon = mission_war_chest
+		required_missions = { kor_malaya_expansion }
+		position = 16
+		
+		provinces_to_highlight = {
+			province_id = 1361
+			has_discovered = ROOT
+		}
+		
+		trigger = { 
+			1361 = {		
+				is_strongest_trade_power = KOR
+			}
+		}
+	
+		effect = {
+			add_country_modifier = {
+				name = por_johor_dominance
+				duration = 10950
+			}
+		}
+	}
+}
+
+######################################################
+#line 5
+######################################################
+
+korean_missions_economy = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+		tag = BKJ
+		tag = NKR
+		tag = SKR
+		}
+	}
+	has_country_shield = yes
+
+    develop_hanseong = {
+        icon = mission_rice_field
+		required_missions = { }
+		position = 1
+		trigger = {
+		    735 = {
+			    development = 20
+			}
+		}
+		effect = {
+		    add_years_of_income = 0.2
+			add_institution_embracement = {
+			    which = renaissance
+				value = 10
+			}
+		}
+	}
+	
+	kor_income_mission = {
+		icon = mission_high_income
+		required_missions = {  
+		    kor_alliances
+		    develop_hanseong
+		}
+		position = 2
+		trigger = { share_of_starting_income = 1.7 }
+		effect = {
+			add_country_modifier = {
+				name = cor_hojeok_research
+				duration = 7300
+			}
+		}
+	}
+	
+	kor_build_temples = {
+		icon = mission_early_game_buildings
+		required_missions = { kor_income_mission }
+		position = 3
+		trigger = {
+			temple = 5
+		}
+		effect = {
+			add_adm_power = 30
+			add_harmony = 10
+			add_country_modifier = {
+				name = "building_spree"
+				duration = 9125
+			}
+		}
+	}	
+	
+	get_heir_for_kor = {
+	    icon = mission_asian_trader
+		required_missions = { kor_build_temples }
+		position = 5 
+		trigger = {
+		    heir_adm = 4
+			heir_age = 15
+		}
+		effect = {
+		    add_legitimacy = 20
+		}
+	}
+	
+	kor_increase_harmony = {
+	    icon = mission_rb_conquer_wales
+		required_missions = { get_heir_for_kor }
+		position = 7
+		trigger = {
+		    harmony = 100
+			courthouse = 3
+		}
+		effect = {
+			change_adm = 1
+			change_heir_adm = 1
+		}
+	}
+	
+	bigger_korea = {
+	    icon = mission_war_chest
+		required_missions = { kor_increase_harmony }
+		position = 9
+		trigger = {
+		    total_development = 500
+		}
+		effect = {
+		    add_prestige = 20
+			add_country_modifier = {
+			    name = "imperial_ambition"
+				duration = 10950
+			}
+		}
+	}
+
+	kor_increase_stability = {
+	    icon = mission_rb_monopolize_the_channel
+		required_missions = { bigger_korea }
+		position = 10
+		trigger = {
+		    stability = 2
+			prestige = 10
+			legitimacy = 80
+			treasury = 1000
+			manpower_percentage = 0.8
+		}
+		effect = {
+		    add_adm_power = 30
+			add_dip_power = 30
+			add_mil_power = 30
+			add_country_modifier = {
+			    name = cor_high_stability_country
+				duration = 10950
+			}
+		}
+	}
+	
+	kor_increase_seonggyungwan_capacity = {
+	    icon = mission_asian_trader
+		required_missions = { kor_increase_stability }
+		position = 11
+		
+		provinces_to_highlight = { province_id = 735 }
+		
+		trigger = {
+		    735 = {
+			    owned_by = ROOT
+				has_building = university
+			}
+		}
+		
+		effect = {
+			add_prestige = 10
+			add_country_modifier = {
+				name = cor_new_university
+				duration = 10950
+			}
+		}
+	}
+		    
+	
+    develop_of_three_southern_area = {
+        icon = mission_rice_field
+        required_missions = { kor_increase_seonggyungwan_capacity }
+        position = 13
+        
+		provinces_to_highlight = {
+		    OR = {
+			    province_id = 1013
+				province_id = 4229
+				province_id = 737
+				province_id = 4228
+				province_id = 736
+				province_id = 4227
+				province_id = 2745
+			}
+		}
+		
+		trigger = { 
+            1013 = {
+                development = 11
+            }
+            4229 = {
+                development = 9
+            }
+            737 = {
+                development = 13
+            }
+            4228 = {
+                development = 11
+            }
+			736 = {
+			    development = 12
+			}
+			4227 = {
+			    development = 13
+			}
+			2745 = {
+			    development = 15
+			}
+		}
+		
+		effect = {
+		    1013 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		    4229 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}			
+ 		    737 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}           			
+		    4228 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		    736 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}	
+		    4227 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}	
+		    2745 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		    4230 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		    2741 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}			
+        }
+    }	
+
+    develop_of_three_northern_area = {
+	    icon = mission_early_game_buildings
+		required_missions = { develop_of_three_southern_area }
+		position = 14
+		
+		provinces_to_highlight = {
+		    OR = { 
+			    province_id = 4231
+			    province_id = 733
+	            province_id = 1845
+				province_id = 2744
+				province_id = 4232
+				province_id = 732
+				province_id = 2743
+				province_id = 2742
+			}
+		}
+		
+		trigger = {
+            4231 = {
+                development = 8
+            }
+            733 = {
+                development = 9
+            }
+            1845 = {
+                development = 12
+            }
+            2744 = {
+                development = 9
+            }
+            4232 = {
+                development = 8
+            }
+            732 = {
+                development = 7
+            }
+            2743 = {
+                development = 6
+            }
+            2742 = {
+                development = 6
+            }		
+        }
+          
+        effect = {
+		    4231 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		    733 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		    1845 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		    2744 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		    4232 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		    732 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		    2743 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		    2742 = {
+			    add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+        }
+    }
+	
+	kor_build_manufactories = {
+		icon = mission_have_manufactories
+		required_missions = { develop_of_three_northern_area }
+		position = 15
+		trigger = {
+			calc_true_if = {
+				all_owned_province = {
+					OR = {
+						has_building = mills
+						has_building = farm_estate
+						has_building = tradecompany
+						has_building = plantations
+						has_building = textile
+						has_building = weapons
+						has_building = wharf
+						has_building = furnace
+					}
+				}
+				amount = 20
+			}
+		}
+        effect = {
+            add_country_modifier = {
+                name = "proto_industrialization"
+                duration = 10950
+            }
+            add_years_of_income = 1.5
+        }
+    }	 
+	
+	kor_new_university = {
+	    icon = mission_japanese_fort
+		required_missions = { kor_build_manufactories }
+		position = 16
+		
+		trigger = {
+		    university = 10
+			years_of_income = 0.5
+		}
+		
+		effect = {
+		    add_years_of_income = -0.5
+			add_adm_power = -30
+			add_dip_power = -30
+			add_mil_power = -30
+			add_prestige = 20
+			add_country_modifier = {
+			    name = cor_new_university
+			}
+		}
+	}
+	
+	kor_new_scientists = {
+	    icon = mission_empire
+		required_missions = { kor_new_university }
+		position = 17
+		
+		trigger = {
+		    natural_scientist = 5
+			diplomat = 5
+			commandant = 5
+		}
+		
+		effect = {
+		    add_prestige = 10
+		}
+	}
+	
+	kor_more_income = {
+	    icon = mission_war_chest
+		required_missions = { kor_new_scientists }
+		position = 17
+		
+		trigger = {
+		    monthly_income = 300
+		}
+		
+		effect = {
+	        add_adm_power = 200
+			735 = {
+			    add_base_tax = 4
+				add_base_production = 4
+				add_base_manpower = 4
+			}
+			4230 = {
+			    add_base_tax = 4
+				add_base_production = 4
+				add_base_manpower = 4
+			}
+			add_country_modifier = {
+				name = cor_better_cor
+			}
+		}
+	}
+}

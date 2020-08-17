@@ -1,0 +1,153 @@
+###########################################################
+# mission modifiers
+###########################################################
+
+cor_inspiring_recruit = {
+	manpower_recovery_speed = 0.2
+	land_morale = 0.05
+}
+
+cor_build_temple_jiangsu = {
+	yearly_harmony = 0.3
+}
+
+cor_repair_great_wall_of_china = {
+	fort_maintenance_modifier = -0.2
+}
+
+cor_build_customs_at_china = {
+		global_tax_modifier = 0.1
+}
+
+cor_successful_surprise_attack = {
+	land_morale = 0.1
+	cavalry_power = 0.1
+}
+
+build_up_gungisi = {
+	artillery_power = 0.1
+	siege_ability = 0.1
+}
+
+cor_inspiring_training = {
+	drill_gain_modifier = 0.2
+	discipline = 0.05
+}
+
+cor_harmonize_pagan = {
+	global_unrest = -3
+}
+
+cor_navy_combination_successfuly = {
+	navy_tradition = 1
+	naval_morale = 0.1
+	sailors_recovery_speed = 0.1
+}
+
+cor_harmonize_shinto = {
+		global_unrest = -3
+}
+
+rule_josenia = {
+	global_ship_cost = -0.2
+	navy_tradition = 0.5
+	sailors_recovery_speed = 0.1
+}
+
+cor_the_heir_maker = {
+	monarch_admin_power = 1
+}
+
+jewel_of_east_asia_trade_ryukyu = {
+	province_trade_power_modifier = 0.5
+	trade_goods_size = 0.5
+}
+
+cor_inspired_international_trade = {
+	caravan_power = 0.2
+	global_trade_power = 0.1
+}
+
+cor_expansion_fever = {
+	global_colonial_growth = 20
+}
+
+middle_of_cor_trade_hawaii = {
+	province_trade_power_modifier = 0.5
+	trade_goods_size = 0.5
+}
+
+cor_trend_perfume = {
+	global_unrest = -2
+}
+
+cor_hojeok_research = {
+	manpower_recovery_speed = 0.1
+	global_tax_modifier = 0.1
+}
+
+cor_high_stability_country = {
+	global_unrest = -2
+	stability_cost_modifier = -0.2
+	advisor_cost = -0.1
+}
+
+cor_new_university = {
+	advisor_cost = -0.2
+	advisor_pool = 1
+}
+
+cor_better_cor = {
+	development_cost = -0.1
+}
+
+direct_control_china = {
+	local_unrest = -2
+	local_autonomy = -0.1
+}
+
+establish_war_regency_by_uijeongbu = {
+	war_exhaustion = -0.03
+	global_unrest = -1
+	war_taxes_cost_modifier = -0.2
+}
+
+establish_new_bureaucracy_by_yukjo = {
+	free_leader_pool = 1
+	administrative_efficiency = 0.05
+}
+	
+byeongjo_recruit_well = {
+	manpower_recovery_speed = 0.1
+	land_forcelimit = 1
+}
+
+declare_direct_control_of_manchu = {
+	prestige = 1
+	monthly_splendor = 2
+}
+
+jwauijeong_control_kyushu = {
+	local_unrest = -5
+}
+
+cor_advertise_for_admiral = {
+	free_leader_pool = 1
+}
+
+kor_best_advisor = {
+	all_power_cost = -0.03
+}
+
+upright_uijeongbu = {
+	yearly_corruption = -0.1
+}
+
+cor_carefully_expansion = {
+	native_uprising_chance = -0.5
+}
+
+hojo_help_colonization_business = {
+	global_colonial_growth = 10
+}
+	

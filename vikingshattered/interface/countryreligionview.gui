@@ -2286,6 +2286,13 @@ guiTypes = {
 				position = { x= -27 y = -72 }
 			}
 			
+			iconType =
+			{
+				name ="lollard_aspects_bg"
+				spriteType = "GFX_anglican_overlay_bg"
+				position = { x= -27 y = -72 }
+			}
+			
 			listboxType = 
 			{
 				name ="aspect_listbox"
@@ -2783,9 +2790,9 @@ guiTypes = {
 		}
 	}
 	################################################################################################
-	################# Church aspect item (for selection) For Anglican
+	################# Church aspect item (for selection) For Lollard
 	windowType = {
-		name = "countryreligionview_aspectitem_anglican"
+		name = "countryreligionview_aspectitem_lollard"
 		backGround =""
 		position = { x=10 y=-30 }	
 		size = { x=50 y=55 }
