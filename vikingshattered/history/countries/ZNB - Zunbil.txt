@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = achaemenid_empire_reform
+technology_group = muslim
+religion = zun_pagan_reformed
+primary_culture = pashtun
+capital = 577	# Quetta
+
+1434.1.1 = {
+	monarch = {
+		name = "Batur"
+		dynasty = "Chorosid"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
