@@ -3,12 +3,11 @@ sco_free_missions = {
 	generic = no
 	ai = yes
 	potential = {
+		OR = {
 		tag = SCO
-		NOT = { has_dlc = "Rule Britannia" }
-		NOT = {
-			has_country_flag = auld_alliance_mission_flag
+		tag = HSC
+		tag = LOI
 		}
-		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
@@ -81,12 +80,11 @@ sco_free_missions_2 = {
 	generic = no
 	ai = yes
 	potential = {
+		OR = {
 		tag = SCO
-		NOT = { has_dlc = "Rule Britannia" }
-		NOT = {
-			has_country_flag = sco_advance_frontier_flag
+		tag = HSC
+		tag = LOI
 		}
-		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	sco_advance_frontier_free = {
@@ -144,12 +142,11 @@ sco_free_missions_3 = {
 	generic = no
 	ai = yes
 	potential = {
+		OR = {
 		tag = SCO
-		NOT = { has_dlc = "Rule Britannia" }
-		NOT = {
-			has_country_flag = rb_orkney_mission
+		tag = HSC
+		tag = LOI
 		}
-		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	conquer_orkney_free = {
