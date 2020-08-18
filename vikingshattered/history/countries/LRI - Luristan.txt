@@ -1,5 +1,5 @@
 government = monarchy
-#add_government_reform = tribal_kingdom
+add_government_reform = iqta
 government_rank = 1
 primary_culture = luri
 religion = shiite

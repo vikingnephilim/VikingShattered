@@ -1,8 +1,8 @@
 government = theocracy
-#add_government_reform = leading_clergy_reform
+add_government_reform = leading_clergy_reform
 primary_culture = hessian
 add_accepted_culture = hannoverian
-religion = waldensian
+religion = catholic
 elector = yes
 technology_group = western
 capital = 85	# Köln

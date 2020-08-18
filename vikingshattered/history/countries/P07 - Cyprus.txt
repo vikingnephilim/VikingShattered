@@ -1,6 +1,6 @@
 government = republic
 government_rank = 2
-primary_culture = naini
+primary_culture = phoenician
 religion = druze
 technology_group = eastern
 capital = 321

@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = kingdom_of_castille_and_leon
+add_government_reform = crown_of_castille
 primary_culture = castillian
 religion = catholic
 technology_group = western

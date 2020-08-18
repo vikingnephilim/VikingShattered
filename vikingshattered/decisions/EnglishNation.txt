@@ -23,6 +23,7 @@ country_decisions = {
 				province_id = 234		# Wessex
 				province_id = 235		# Kent
 				province_id = 238		# East Anglia
+				province_id = 245		# York
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -39,6 +40,7 @@ country_decisions = {
 			owns_core_province = 234		# Wessex
 			owns_core_province = 235		# Kent
 			owns_core_province = 238		# East Anglia
+			owns_core_province = 245		# York
 		}
 		effect = {
 			236 = { #London
@@ -72,6 +74,13 @@ country_decisions = {
 					NOT = { government_rank = 2 }
 				}
 				set_government_rank = 2
+			}
+			
+			scottish_marches_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ENG
 			}
 			home_counties_area = {
 				limit = {
@@ -143,6 +152,7 @@ country_decisions = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
+
 		}
 	}
 	

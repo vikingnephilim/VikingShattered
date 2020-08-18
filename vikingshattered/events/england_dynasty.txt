@@ -1,0 +1,69 @@
+namespace = england_dynasty
+country_event = {
+	id = england_dynasty.1
+	title = england_dynasty.1.t
+	desc = england_dynasty.1.desc
+	picture = ANGLICAN_SERMON_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_country_flag = formed_england_flag
+		NOT = { has_country_flag = picked_ruler }
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = england_dynasty.1.a
+		define_ruler = {
+			name = "Henry"
+			dynasty = "Tudor"
+			adm = 6
+			max_random_dip = 3
+			max_random_mil = 3
+			age = 31
+			claim = 95
+		}
+		set_country_flag = picked_ruler
+	}
+	option = {
+		name = england_dynasty.1.b
+		define_ruler = {
+			name = "Edward"
+			dynasty = "York"
+			max_random_adm = 3
+			dip = 6
+			max_random_mil = 3
+			age = 31
+			claim = 95
+		}
+		set_country_flag = picked_ruler
+	}
+	option = {
+		name = england_dynasty.1.c
+		define_ruler = {
+			name = "Richard"
+			dynasty = "Plantagenet"
+			max_random_adm = 3
+			max_random_dip = 3
+			mil = 6
+			age = 31
+			claim = 95
+		}
+		set_country_flag = picked_ruler
+	}
+	option = {
+		name = england_dynasty.1.d
+		add_prestige = 50
+		hidden_effect = {
+			remove_heir = yes
+			ENG = {
+				country_event = { id = war_of_the_roses.1 }
+			}
+		}
+		set_country_flag = picked_ruler
+	}
+}

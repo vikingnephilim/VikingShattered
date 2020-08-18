@@ -1,6 +1,6 @@
 # Algeciras
 government = monarchy
-#add_government_reform = ?
+add_government_reform = granadan_iqta_reform
 government_rank = 1
 technology_group = muslim
 religion = sunni

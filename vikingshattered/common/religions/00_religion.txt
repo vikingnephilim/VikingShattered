@@ -742,6 +742,18 @@ pagan = {
 		reform_tooltip = INTI_REFORM_TOOLTIP
 		heretic = { INTI_HERETIC }	
 	}
+	polynesian = {
+		color = { 237 181 121 }
+		icon = 12
+		country = {
+			may_explore = yes
+			global_colonial_growth = 20
+		}
+		country_as_secondary = {
+			colonists = 1
+		}
+		personal_deity = yes	
+	}
 	mesoamerican_religion = {
 		#color = { 76 25 178 }
 		color = { 127 25 178 }
@@ -798,18 +810,6 @@ pagan = {
 		}
 		personal_deity = yes
 		heretic = { OLD_NORSE }	
-	}
-	polynesian = {
-		color = { 237 181 121 }
-		icon = 12
-		country = {
-			may_explore = yes
-			global_colonial_growth = 20
-		}
-		country_as_secondary = {
-			colonists = 1
-		}
-		personal_deity = yes	
 	}
 	slavic_pagan_reformed = {
 		icon = 55
@@ -1019,7 +1019,6 @@ christian = {
 			yearly_corruption = -0.1
 			advisor_pool = 1
 		}
-		hre_heretic_religion = yes
 		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
@@ -1420,7 +1419,6 @@ christian = {
 			horde_unity = 1
 			tolerance_own = 1
 		}
-		hre_heretic_religion = yes
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
 			bread_and_wine_aspect
@@ -1530,7 +1528,6 @@ christian = {
 		country_as_secondary = {
 			stability_cost_modifier = -0.2
 		}
-		hre_heretic_religion = yes
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
 			holy_sacraments_aspect
@@ -1997,7 +1994,6 @@ christian = {
 			global_unrest = -1
 			technology_cost = -0.1
 		}
-		hre_heretic_religion = yes
 		fervor = yes
 		heretic = { BOGOMILIST FRATICELLI HUSSITE LOLLARD SOCINIAN }
 		will_get_center = { #Refered to even for initial CoR Spawn

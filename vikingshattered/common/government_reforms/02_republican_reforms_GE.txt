@@ -166,6 +166,7 @@ genoan_republic_reform = {
 		global_trade_goods_size_modifier = 0.10
 		merchants = 1
 	}
+	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 50
 	legacy_equivalent = merchant_republic
