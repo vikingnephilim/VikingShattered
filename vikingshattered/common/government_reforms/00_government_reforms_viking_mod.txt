@@ -587,3 +587,51 @@ rep_colo = {
 		max_absolutism = -20
 	}
 }
+
+phon_city_state = {
+	icon = "free_city"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		AND = {
+			culture_group = phoenician_g
+			NOT = { num_of_cities = 2 }
+		}
+	modifiers = {
+		development_cost = -0.1
+		tolerance_heretic = 1
+		tolerance_heathen = 1
+	}
+	fixed_rank = 1
+
+	custom_attributes = {
+		locked_government_type = yes
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	duration = 4
+}
+
+phon_fed = {
+	allow_normal_conversion = no
+	icon = "states_generals"
+	potential = {
+		tag = P01
+	}
+	valid_for_nation_designer = no
+	modifiers = {
+		global_ship_trade_power = 0.2
+		light_ship_power = 0.1
+		galley_power = 0.1
+		max_absolutism = -90
+	}
+	states_general_mechanic = {
+			artisans = {
+				production_efficiency = 0.2
+				build_cost = -0.1
+			}
+
+			merchant_guild = {
+				
+			}
+	}

@@ -51,6 +51,12 @@ country_decisions = {
 			
 		effect = {
 			change_government = republic
+			change_primary_culture = phoenician
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_government_reform = phon_fed
 			change_tag = P01
 			if = {
 				limit = {
@@ -78,6 +84,7 @@ country_decisions = {
 				move_capital_effect = yes
 				add_base_production = 3
 				change_culture = phoenician
+				center_of_trade = 3
 			}
 		}
 	}
