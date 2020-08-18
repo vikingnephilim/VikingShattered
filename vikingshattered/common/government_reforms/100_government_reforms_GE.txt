@@ -674,7 +674,7 @@ granadan_iqta_reform = {
 		OR = {
 			AND = {
 				religion_group = muslim
-				culture_group = iberian	
+				primary_culture = andalusian
 			}
 			has_reform = granadan_iqta_reform
 		}
@@ -683,7 +683,7 @@ granadan_iqta_reform = {
 		OR = {
 			AND = {
 				religion_group = muslim
-				culture_group = iberian	
+				primary_culture = andalusian
 			}
 			has_reform = granadan_iqta_reform
 		}
@@ -8017,28 +8017,14 @@ abolish_manrent_reform = {
 	potential = {
 		OR = {
 			primary_culture = scottish
+			primary_culture = highland_scottish
 			has_reform = abolish_manrent_reform
-			AND = {
-				accepted_culture = scottish
-				num_of_owned_provinces_with = {
-					value = 1
-					culture = scottish
-				}
-			}
-		}
 	}
 	trigger = {
 		OR = {
 			primary_culture = scottish
+			primary_culture = highland_scottish
 			has_reform = abolish_manrent_reform
-			AND = {
-				accepted_culture = scottish
-				num_of_owned_provinces_with = {
-					value = 5
-					culture = scottish
-				}
-			}
-		}
 	}
 	modifiers = {
 		land_morale = 0.10

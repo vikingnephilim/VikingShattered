@@ -9,6 +9,12 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			AND = {
+				OR = {
+					primary_culture = al_suryah_arabic
+					primary_culture = gulf_arabic
+					}
+				}
 			NOT = { exists = P01 }
 			NOT = { tag = PER }
 			NOT = { tag = EGY }

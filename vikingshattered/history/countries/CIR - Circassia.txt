@@ -1,5 +1,5 @@
-government = monarchy
-#add_government_reform = tribal_kingdom
+government = tribal
+add_government_reform = tribal_despotism
 government_rank = 1
 primary_culture = circassian
 religion = orthodox

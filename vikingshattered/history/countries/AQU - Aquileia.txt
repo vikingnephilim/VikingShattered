@@ -1,5 +1,5 @@
 government = theocracy
-#add_government_reform = leading_clergy_reform
+add_government_reform = leading_clergy_reform
 primary_culture = venetian
 religion = catholic
 technology_group = western

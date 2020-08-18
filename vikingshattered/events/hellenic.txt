@@ -1,7 +1,5 @@
 ########################################
 # Hellenic Deity Events
-#
-# written by Jan
 ########################################
 
 namespace = hellenic_events
@@ -15,10 +13,13 @@ country_event = {
 	picture = FEAST_eventPicture
 	
 	trigger = {
-		has_personal_deity = zeus
-		has_regency = no
-		years_of_income = 0.25
-		is_month = 8
+		AND = {
+			religion = hellenic_pagan
+			has_personal_deity = zeus
+			has_regency = no
+			years_of_income = 0.25
+			is_month = 8
+		}
 		NOT = { is_month = 9 }
 		NOT = { has_ruler_modifier = hellenic_festival }
 		NOT = { has_ruler_modifier = impious_believer }
@@ -85,8 +86,11 @@ country_event = {
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	trigger = {
+		AND = {
+		religion = hellenic_pagan
 		has_ruler_modifier = improving_ability
 		has_personal_deity = zeus
+		}
 	}
 	
 	mean_time_to_happen = { years = 8 }
@@ -115,10 +119,13 @@ country_event = {
 	picture = FEAST_eventPicture
 	
 	trigger = {
-		has_personal_deity = hera
-		has_regency = no
-		years_of_income = 0.25
-		is_month = 2
+		AND = {
+			religion = hellenic_pagan
+			has_personal_deity = hera
+			has_regency = no
+			years_of_income = 0.25
+			is_month = 2
+		}
 		NOT = { is_month = 3 }
 		NOT = { has_ruler_modifier = hellenic_festival }
 		NOT = { has_ruler_modifier = impious_believer }
@@ -185,8 +192,11 @@ country_event = {
 	picture = DIPLOMACY_eventPicture
 	
 	trigger = {
-		has_ruler_modifier = improving_ability
-		has_personal_deity = hera
+		AND = {
+			religion = hellenic_pagan
+			has_ruler_modifier = improving_ability
+			has_personal_deity = hera
+		}
 	}
 	
 	mean_time_to_happen = { years = 8 }
@@ -215,10 +225,13 @@ country_event = {
 	picture = LAND_MILITARY_eventPicture
 	
 	trigger = {
-		has_personal_deity = ares
-		has_regency = no
-		years_of_income = 0.25
-		is_month = 9
+		AND = {
+			religion = hellenic_pagan
+			has_personal_deity = ares
+			has_regency = no
+			years_of_income = 0.25
+			is_month = 9
+		}
 		NOT = { is_month = 10 }
 		NOT = { has_ruler_modifier = hellenic_festival }
 		NOT = { has_ruler_modifier = impious_believer }
@@ -285,6 +298,7 @@ country_event = {
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	trigger = {
+		religion = hellenic_pagan
 		has_ruler_modifier = improving_ability
 		has_personal_deity = ares
 	}
@@ -309,10 +323,13 @@ country_event = {
 	picture = CULTURE_eventPicture
 	
 	trigger = {
-		has_personal_deity = athena
-		has_regency = no
-		years_of_income = 0.25
-		is_month = 2
+		AND = {
+			religion = hellenic_pagan
+			has_personal_deity = athena
+			has_regency = no
+			years_of_income = 0.25
+			is_month = 2
+		}
 		NOT = { is_month = 3 }
 		NOT = { has_ruler_modifier = hellenic_festival }
 		NOT = { has_ruler_modifier = impious_believer }
@@ -379,8 +396,11 @@ country_event = {
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	trigger = {
+		AND = {
+		religion = hellenic_pagan
 		has_ruler_modifier = improving_ability
 		has_personal_deity = athena
+		}
 	}
 	
 	mean_time_to_happen = { years = 8 }
@@ -409,10 +429,13 @@ country_event = {
 	picture = FEAST_eventPicture
 	
 	trigger = {
-		has_personal_deity = hermes
-		has_regency = no
-		years_of_income = 0.25
-		is_month = 4
+		AND = { 
+			religion = hellenic_pagan
+			has_personal_deity = hermes
+			has_regency = no
+			years_of_income = 0.25
+			is_month = 4
+			}
 		NOT = { is_month = 5 }
 		NOT = { has_ruler_modifier = hellenic_festival }
 		NOT = { has_ruler_modifier = impious_believer }
@@ -479,8 +502,11 @@ country_event = {
 	picture = DEBATE_REPUBLICAN_eventPicture
 	
 	trigger = {
-		has_ruler_modifier = improving_ability
-		has_personal_deity = hermes
+		AND = {
+			religion = hellenic_pagan
+			has_ruler_modifier = improving_ability
+			has_personal_deity = hermes
+		}
 	}
 	
 	mean_time_to_happen = { years = 8 }
@@ -503,10 +529,13 @@ country_event = {
 	picture = FEAST_eventPicture
 	
 	trigger = {
-		has_personal_deity = aphrodite
-		has_regency = no
-		years_of_income = 0.25
-		is_month = 3
+		AND = {
+			religion = hellenic_pagan
+			has_personal_deity = aphrodite
+			has_regency = no
+			years_of_income = 0.25
+			is_month = 3
+			}
 		NOT = { is_month = 4 }
 		NOT = { has_ruler_modifier = hellenic_festival }
 		NOT = { has_ruler_modifier = impious_believer }
@@ -573,8 +602,11 @@ country_event = {
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	trigger = {
+		AND = {
+		religion = hellenic_pagan
 		has_ruler_modifier = improving_ability
 		has_personal_deity = aphrodite
+		}
 	}
 	
 	mean_time_to_happen = { years = 8 }
@@ -597,8 +629,11 @@ country_event = {
 	picture = PRAYING_eventPicture
 	
 	trigger = {
-		culture_group = byzantine
-		has_ruler_modifier = impious_believer
+		AND = { 
+			religion = hellenic_pagan
+			culture_group = byzantine
+			has_ruler_modifier = impious_believer
+		}
 		NOT = { has_ruler_modifier = changed_deity_recently }
 		NOT = { has_ruler_modifier = hellenic_crisis }
 	}

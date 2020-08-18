@@ -13,7 +13,7 @@ capital = 3003 #Negroponte
 		name = "Adrianos"
 		dynasty = "Eugenianos"
 		adm = 4
-		dip = 4
-		mil = 4
+		dip = 2
+		mil = 2
 	}
 }

@@ -1,5 +1,5 @@
 government = monarchy
-#add_government_reform = feudalism_reform
+add_government_reform = feudalism_reform
 religion = catholic
 primary_culture = catalan
 technology_group = western
@@ -7,7 +7,7 @@ capital = 213	# Barcelona
 
 1444.1.1 = {
     monarch = {
-    name = "Aaró"
+    name = "Aaro"
     dynasty = "de Villena"
     adm = 4
     dip = 4
