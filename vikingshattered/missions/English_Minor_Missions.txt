@@ -1,0 +1,165 @@
+eng_british_conquest = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		OR = {
+			tag = WSX
+			tag = LOD
+			tag = EAL
+			tag = NOL
+			tag = MRC
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	VN_eng_mighty_army = {
+		icon = mission_assemble_an_army
+		required_missions = { }
+		position = 1		
+		trigger = {
+			army_size_percentage = 0.5
+			manpower_percentage = 0.5
+		}
+		effect = {
+			if = {
+				limit = {
+					tag = WSX
+					OR = {
+						exists = LOD
+						exists = EAL
+						exists = NOL
+						exists = MRC
+					}
+				}
+				add_casus_belli = {
+					target = LOD
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = EAL
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = NOL
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = MRC
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					tag = LOD
+					OR = {
+						exists = WSX
+						exists = EAL
+						exists = NOL
+						exists = MRC
+					}
+				}
+				add_casus_belli = {
+					target = WSX
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = EAL
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = NOL
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = MRC
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					tag = EAL
+					OR = {
+						exists = LOD
+						exists = WSX
+						exists = NOL
+						exists = MRC
+					}
+				}
+				add_casus_belli = {
+					target = LOD
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = WSX
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = NOL
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = MRC
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					tag = NOL
+					OR = {
+						exists = LOD
+						exists = EAL
+						exists = WSX
+						exists = MRC
+					}
+				}
+				add_casus_belli = {
+					target = LOD
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = EAL
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = WSX
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = MRC
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					tag = MRC
+					OR = {
+						exists = LOD
+						exists = EAL
+						exists = NOL
+						exists = WSX
+					}
+				}
+				add_casus_belli = {
+					target = LOD
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = EAL
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = NOL
+					type = cb_vassalize_mission
+				}
+				add_casus_belli = {
+					target = WSX
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+}

@@ -515,7 +515,10 @@ tib_slot_4 = {
 		trigger = {
 			tibet_region = {
 				type = all
-				religion = vajrayana
+				OR = {
+					religion = vajrayana
+					religion = bon
+				}
 				owned_by = ROOT
 			}
 			num_of_owned_provinces_with = {
