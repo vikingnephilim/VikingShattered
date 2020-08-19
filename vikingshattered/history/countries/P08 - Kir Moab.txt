@@ -1,0 +1,7 @@
+government = republic
+government_rank = 2
+primary_culture = hebrew
+religion = druze
+technology_group = eastern
+capital = 380
+fixed_capital = 380

@@ -8,10 +8,7 @@ country_event = {
 	trigger = {
 		NOT = { exists = P02 }
 		tag = P01
-		AND = {
-			owns_core_province = 382
-			owns_core_province = 381
-		}
+		owns_core_province = 382
 	}
 	
 	mean_time_to_happen = {
@@ -21,25 +18,18 @@ country_event = {
 	option = {
 		name = "phon.1.a"
 		
-		381 = {
+		382 = {
 			add_core = P02
 			cede_province = P02
 			remove_core = P01
 			change_culture = hebrew
 		}
-		
-		382 = {
-			add_core = P02
-			cede_province = P02
-			remove_core = P01
-			change_culture = phoenician
-		}
 		P02 = {
-			change_religion = druze
+			change_religion = ROOT
 			change_primary_culture = hebrew
-			add_accepted_culture = phoenician
 		}
 		create_subject = {
+		add_government_reform = phon_city_state
 			subject = P02
 			subject_type = phon_city
 		}
@@ -55,10 +45,7 @@ country_event = {
 	trigger = {
 		NOT = { exists = P03 }
 		tag = P01
-		AND = {
-			owns_core_province = 4297
-			owns_core_province = 1849
-		}
+		owns_core_province = 4297
 	}
 	
 	mean_time_to_happen = {
@@ -68,13 +55,6 @@ country_event = {
 	option = {
 		name = "phon.2.a"
 		
-		1849 = {
-			add_core = P03
-			cede_province = P03
-			remove_core = P01
-			change_culture = phoenician
-		}
-		
 		4297 = {
 			add_core = P03
 			cede_province = P03
@@ -82,7 +62,8 @@ country_event = {
 			change_culture = phoenician
 		}
 		P03 = {
-			change_religion = druze
+			change_religion = ROOT
+			add_government_reform = phon_city_state
 			change_primary_culture = phoenician
 		}
 		create_subject = {
@@ -122,7 +103,8 @@ country_event = {
 		}
 		
 		P04 = {
-			change_religion = druze
+			change_religion = ROOT
+			add_government_reform = phon_city_state
 			change_primary_culture = phoenician
 		}
 		create_subject = {
@@ -143,7 +125,6 @@ country_event = {
 		tag = P01
 		AND = {
 			owns_core_province = 379
-			owns_core_province = 380
 		}
 	}
 	
@@ -161,15 +142,9 @@ country_event = {
 			change_culture = hebrew
 			center_of_trade = 1
 		}
-		
-		380 = {
-			add_core = P05
-			cede_province = P05
-			remove_core = P01
-			change_culture = hebrew
-		}
 		P03 = {
-			change_religion = druze
+			change_religion = ROOT
+			add_government_reform = phon_city_state
 			change_primary_culture = hebrew
 		}
 		create_subject = {
@@ -190,7 +165,6 @@ country_event = {
 		tag = P01
 		AND = {
 			owns_core_province = 377
-			owns_core_province = 4298
 		}
 	}
 	
@@ -207,15 +181,9 @@ country_event = {
 			remove_core = P01
 			change_culture = phoenician
 		}
-		
-		4298 = {
-			add_core = P06
-			cede_province = P06
-			remove_core = P01
-			change_culture = phoenician
-		}
 		P06 = {
-			change_religion = druze
+			change_religion = ROOT
+			add_government_reform = phon_city_state
 			change_primary_culture = phoenician
 		}
 		create_subject = {
@@ -251,17 +219,429 @@ country_event = {
 			cede_province = P07
 			remove_core = P01
 			change_culture = naini
-			center_of_trade = 321
+			center_of_trade = 1
 			change_trade_goods = dyes
 		}
 		
 		P04 = {
-			change_religion = druze
+			change_religion = ROOT
+			add_government_reform = phon_city_state
 			change_primary_culture = naini
 		}
 		create_subject = {
 			subject = P07
 			subject_type = phon_city
 		}
+	}
+}
+
+country_event = {
+	id = phon.7
+	title = "p07name"
+	desc = "p07desc"
+	picture = "SHIP_SAILING"
+	
+	trigger = {
+		NOT = { exists = P09 }
+		tag = P01
+		owns_core_province = 381
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = "phon.7.a"
+		
+		381 = {
+			add_core = P09
+			cede_province = P09
+			remove_core = P01
+			change_culture = hebrew
+		}
+		P08 = {
+			change_religion = ROOT
+			add_government_reform = phon_city_state
+			change_primary_culture = hebrew
+		}
+		create_subject = {
+			subject = P09
+			subject_type = phon_city
+		}
+	}
+}
+
+country_event = {
+	id = phon.8
+	title = "p08name"
+	desc = "p08desc"
+	picture = "SHIP_SAILING"
+	
+	trigger = {
+		NOT = { exists = P10 }
+		tag = P01
+		owns_core_province = 1849
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = "phon.8.a"
+		
+		1849 = {
+			add_core = P10
+			cede_province = P10
+			remove_core = P01
+			change_culture = phoenician
+		}
+		P10 = {
+			change_religion = ROOT
+			add_government_reform = phon_city_state
+			change_primary_culture = phoenician
+		}
+		create_subject = {
+			subject = P10
+			subject_type = phon_city
+		}
+	}
+}
+
+country_event = {
+	id = phon.9
+	title = "p09name"
+	desc = "p09desc"
+	picture = "SHIP_SAILING"
+	
+	trigger = {
+		NOT = { exists = P08 }
+		tag = P01
+		AND = {
+			owns_core_province = 380
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = "phon.9.a"
+		
+		380 = {
+			add_core = P08
+			cede_province = P08
+			remove_core = P01
+			change_culture = hebrew
+		}
+		P08 = {
+			change_religion = ROOT
+			add_government_reform = phon_city_state
+			change_primary_culture = hebrew
+		}
+		create_subject = {
+			subject = P08
+			subject_type = phon_city
+		}
+	}
+}
+
+country_event = {
+	id = phon.10
+	title = "p10name"
+	desc = "p10desc"
+	picture = "SHIP_SAILING"
+	
+	trigger = {
+		NOT = { exists = P11 }
+		tag = P01
+		AND = {
+			owns_core_province = 4298
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = "phon.10.a"
+		
+		4298 = {
+			add_core = P11
+			cede_province = P11
+			remove_core = P01
+			change_culture = phoenician
+		}
+		P11 = {
+			change_religion = ROOT
+			add_government_reform = phon_city_state
+			change_primary_culture = phoenician
+		}
+		create_subject = {
+			subject = P11
+			subject_type = phon_city
+		}
+	}
+}
+
+country_event = {
+	id = phon.jew.1
+	title = "phon.jew.1t"
+	desc = "phon.jew.1d"
+	picture = "POPE_PREACHING_eventpicture"
+	goto = 379
+	
+	fire_only_once = yes
+	
+	trigger = {
+		379 = {
+			culture = hebrew
+			owner = P05
+		}
+		tag = P05
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = "phon.jew.1.a"
+		
+		379 = {
+			change_religion = karaite_faith
+			change_trade_goods = paper
+		}
+		P05 = {
+			change_religion = karaite_faith
+		}
+	}
+}
+	
+country_event = {
+	id = phon.jew.2
+	title = "phon.jew.2t"
+	desc = "phon.jew.2d"
+	picture = "POPE_PREACHING_eventpicture"
+	goto = 380
+	
+	fire_only_once = yes
+	
+	trigger = {
+		379 = {
+			religion = karaite_faith
+		}
+		380 = {
+			culture = hebrew
+			owner = P08
+		}
+		tag = P08
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "phon.jew.2.a"
+		
+		
+		380 = {
+			change_religion = karaite_faith
+		}
+		P08 = {
+			change_religion = karaite_faith
+		}
+	}
+}
+
+country_event = {
+	id = phon.jew.3
+	title = "phon.jew.3t"
+	desc = "phon.jew.3d"
+	picture = "POPE_PREACHING_eventpicture"
+	goto = 381
+	
+	fire_only_once = yes
+	
+	trigger = {
+		380 = {
+			religion = karaite_faith
+		}
+		381 = {
+			culture = hebrew
+			owner = P09
+		}
+		tag = P09
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "phon.jew.3.a"
+		
+		
+		381 = {
+			change_religion = karaite_faith
+		}
+		P09 = {
+			change_religion = karaite_faith
+		}
+	}
+}
+
+country_event = {
+	id = phon.jew.4
+	title = "phon.jew.4t"
+	desc = "phon.jew.4d"
+	picture = "POPE_PREACHING_eventpicture"
+	goto = 1854
+	
+	fire_only_once = yes
+	
+	trigger = {
+		
+		380 = {
+			religion = karaite_faith
+		}
+		1854 = {
+			culture = hebrew
+			owner = P01
+		}
+		tag = P01
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "phon.jew.4.a"
+		
+		
+		1854 = {
+			change_religion = karaite_faith
+		}
+	}
+}
+
+country_event = {
+	id = phon.jew.5
+	title = "phon.jew.5t"
+	desc = "phon.jew.5d"
+	picture = "POPE_PREACHING_eventpicture"
+	goto = 1854
+	
+	fire_only_once = yes
+	
+	trigger = {
+		
+		381 = {
+			religion = karaite_faith
+		}
+		382 = {
+			culture = hebrew
+			owner = P02
+		}
+		tag = P02
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "phon.jew.5.a"
+		
+		
+		382 = {
+			change_religion = karaite_faith
+		}
+	}
+}
+
+country_event = {
+	id = phon.jew.5
+	title = "phon.jew.5t"
+	desc = "phon.desc.5d"
+	picture = "POPE_PREACHING_eventpicture"
+	goto = 1855
+	
+	fire_only_once = yes
+	
+	trigger = {
+		P09 = {
+			religion = karaite_faith
+		}
+		P08 = {
+			religion = karaite_faith
+		}
+		P05 = {
+			religion = karaite_faith
+		}
+		P02 = {
+			religion = karaite_faith
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+		
+	option = {
+		name = "phon.jew.5.a"
+		
+		change_religion = karaite_faith
+		add_stability = -1
+		1855 = {
+			change_religion = karaite_faith
+			add_province_triggered_modifier = jew_phon
+		}
+		378 = {
+			change_religion = karaite_faith
+		}
+		P03 = { 
+			add_liberty_desire = 40
+			change_religion = karaite_faith
+		}
+		P04 = { 
+			add_liberty_desire = 40
+			change_religion = karaite_faith
+		}
+		P06 = { 
+			add_liberty_desire = 40
+			change_religion = karaite_faith
+		}
+		P07 = { 
+			add_liberty_desire = 40
+			change_religion = karaite_faith
+		}
+		P10 = { 
+			add_liberty_desire = 40
+			change_religion = karaite_faith
+		}
+		P11 = { 
+			add_liberty_desire = 40
+			change_religion = karaite_faith
+		}
+	}
+	
+	option = {
+		name = "phon.jew.5.b"
+		
+		add_stability = 1
+		1855 = {
+			add_base_tax = 2
+			add_base_production = 2
+		}
+		P02 = { add_liberty_desire = 50 }
+		P05 = { add_liberty_desire = 50 }
+		P08 = { add_liberty_desire = 50 }
+		P09 = { add_liberty_desire = 50 }
 	}
 }

@@ -272,3 +272,32 @@ pirate_haven = {
 	}
 	
 }
+
+jew_phon = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	
+	
+	trigger = {
+		owner = {
+			AND = {
+				religion = karaite_faith
+				culture_group = phoenician_g
+			}
+		}
+	}
+	
+	missionaries = 1
+	global_missionary_strength = 0.025
+	prestige = 0.5
+	
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}

@@ -526,6 +526,12 @@ phon_city = {
 		modifier = vassal_nation
 	}
 	modifier_overlord = {
+		modifier = phon_navy
+		trigger = {
+			num_of_cities = 1
+		}
+	}
+	modifier_overlord = {
 		modifier = vassal_subject
 	}
 

@@ -1,0 +1,4 @@
+phon_navy = {
+	naval_forcelimit = 4
+	republican_tradition = 0.02
+}

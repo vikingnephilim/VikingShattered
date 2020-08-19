@@ -590,6 +590,8 @@ rep_colo = {
 
 phon_city_state = {
 	icon = "free_city"
+	has_term_election = yes
+	duration = 4
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
 	potential = {
@@ -597,6 +599,7 @@ phon_city_state = {
 			culture_group = phoenician_g
 			NOT = { num_of_cities = 2 }
 		}
+	}
 	modifiers = {
 		development_cost = -0.1
 		tolerance_heretic = 1
@@ -615,6 +618,8 @@ phon_city_state = {
 phon_fed = {
 	allow_normal_conversion = no
 	icon = "states_generals"
+	has_term_election = yes
+	duration = 4
 	potential = {
 		tag = P01
 	}
@@ -623,15 +628,7 @@ phon_fed = {
 		global_ship_trade_power = 0.2
 		light_ship_power = 0.1
 		galley_power = 0.1
+		land_morale = 0.1
 		max_absolutism = -90
 	}
-	states_general_mechanic = {
-			artisans = {
-				production_efficiency = 0.2
-				build_cost = -0.1
-			}
-
-			merchant_guild = {
-				
-			}
-	}
+}

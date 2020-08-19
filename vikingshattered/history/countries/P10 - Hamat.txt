@@ -1,0 +1,7 @@
+government = republic
+government_rank = 2
+primary_culture = phoenician
+religion = druze
+technology_group = eastern
+capital = 1849
+fixed_capital = 1849
