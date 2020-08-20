@@ -392,25 +392,19 @@ country_event = {
 	title = "phon_jew.1t"
 	desc = "phon_jew.1d"
 	picture = "POPE_PREACHING_eventpicture"
-	goto = 379
-	
 	fire_only_once = yes
-	
 	trigger = {
+		tag = P05
 		379 = {
 			culture = hebrew
 			owner = P05
 		}
-		tag = P05
 	}
-	
 	mean_time_to_happen = {
 		months = 60
 	}
-	
 	option = {
 		name = "phon_jew.1.a"
-		
 		379 = {
 			change_religion = karaite_faith
 			change_trade_goods = paper
@@ -426,11 +420,9 @@ country_event = {
 	title = "phon_jew.2t"
 	desc = "phon_jew.2d"
 	picture = "POPE_PREACHING_eventpicture"
-	goto = 380
-	
 	fire_only_once = yes
-	
 	trigger = {
+		tag = P08
 		379 = {
 			religion = karaite_faith
 		}
@@ -438,17 +430,12 @@ country_event = {
 			culture = hebrew
 			owner = P08
 		}
-		tag = P08
 	}
-	
 	mean_time_to_happen = {
 		months = 6
 	}
-	
 	option = {
 		name = "phon_jew.2.a"
-		
-		
 		380 = {
 			change_religion = karaite_faith
 		}
@@ -463,11 +450,9 @@ country_event = {
 	title = "phon_jew.3t"
 	desc = "phon_jew.3d"
 	picture = "POPE_PREACHING_eventpicture"
-	goto = 381
-	
 	fire_only_once = yes
-	
 	trigger = {
+		tag = P09
 		380 = {
 			religion = karaite_faith
 		}
@@ -475,17 +460,12 @@ country_event = {
 			culture = hebrew
 			owner = P09
 		}
-		tag = P09
 	}
-	
 	mean_time_to_happen = {
 		months = 6
 	}
-	
 	option = {
 		name = "phon_jew.3.a"
-		
-		
 		381 = {
 			change_religion = karaite_faith
 		}
@@ -500,12 +480,9 @@ country_event = {
 	title = "phon_jew.4t"
 	desc = "phon_jew.4d"
 	picture = "POPE_PREACHING_eventpicture"
-	goto = 1854
-	
 	fire_only_once = yes
-	
 	trigger = {
-		
+		tag = P01
 		380 = {
 			religion = karaite_faith
 		}
@@ -513,17 +490,12 @@ country_event = {
 			culture = hebrew
 			owner = P01
 		}
-		tag = P01
 	}
-	
 	mean_time_to_happen = {
 		months = 6
 	}
-	
 	option = {
 		name = "phon_jew.4.a"
-		
-		
 		1854 = {
 			change_religion = karaite_faith
 		}
@@ -535,12 +507,9 @@ country_event = {
 	title = "phon_jew.5t"
 	desc = "phon_jew.5d"
 	picture = "POPE_PREACHING_eventpicture"
-	goto = 1854
-	
 	fire_only_once = yes
-	
 	trigger = {
-		
+		tag = P02
 		381 = {
 			religion = karaite_faith
 		}
@@ -548,17 +517,13 @@ country_event = {
 			culture = hebrew
 			owner = P02
 		}
-		tag = P02
 	}
 	
 	mean_time_to_happen = {
 		months = 6
 	}
-	
 	option = {
 		name = "phon_jew.5.a"
-		
-		
 		382 = {
 			change_religion = karaite_faith
 		}
@@ -570,10 +535,7 @@ country_event = {
 	title = "phon_jew.6t"
 	desc = "phon_desc.6d"
 	picture = "POPE_PREACHING_eventpicture"
-	goto = 1855
-	
 	fire_only_once = yes
-	
 	trigger = {
 		P09 = {
 			religion = karaite_faith
@@ -588,14 +550,11 @@ country_event = {
 			religion = karaite_faith
 		}
 	}
-	
 	mean_time_to_happen = {
 		months = 4
 	}
-		
 	option = {
 		name = "phon_jew.6.a"
-		
 		change_religion = karaite_faith
 		add_stability = -1
 		1855 = {
@@ -630,10 +589,8 @@ country_event = {
 			change_religion = karaite_faith
 		}
 	}
-	
 	option = {
 		name = "phon_jew.6.b"
-		
 		add_stability = 1
 		1855 = {
 			add_base_tax = 2
