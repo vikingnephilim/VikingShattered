@@ -388,9 +388,9 @@ country_event = {
 }
 
 country_event = {
-	id = phon.jew.1
-	title = "phon.jew.1t"
-	desc = "phon.jew.1d"
+	id = phon_jew.1
+	title = "phon_jew.1t"
+	desc = "phon_jew.1d"
 	picture = "POPE_PREACHING_eventpicture"
 	goto = 379
 	
@@ -409,7 +409,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "phon.jew.1.a"
+		name = "phon_jew.1.a"
 		
 		379 = {
 			change_religion = karaite_faith
@@ -422,9 +422,9 @@ country_event = {
 }
 	
 country_event = {
-	id = phon.jew.2
-	title = "phon.jew.2t"
-	desc = "phon.jew.2d"
+	id = phon_jew.2
+	title = "phon_jew.2t"
+	desc = "phon_jew.2d"
 	picture = "POPE_PREACHING_eventpicture"
 	goto = 380
 	
@@ -446,7 +446,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "phon.jew.2.a"
+		name = "phon_jew.2.a"
 		
 		
 		380 = {
@@ -459,9 +459,9 @@ country_event = {
 }
 
 country_event = {
-	id = phon.jew.3
-	title = "phon.jew.3t"
-	desc = "phon.jew.3d"
+	id = phon_jew.3
+	title = "phon_jew.3t"
+	desc = "phon_jew.3d"
 	picture = "POPE_PREACHING_eventpicture"
 	goto = 381
 	
@@ -483,7 +483,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "phon.jew.3.a"
+		name = "phon_jew.3.a"
 		
 		
 		381 = {
@@ -496,9 +496,9 @@ country_event = {
 }
 
 country_event = {
-	id = phon.jew.4
-	title = "phon.jew.4t"
-	desc = "phon.jew.4d"
+	id = phon_jew.4
+	title = "phon_jew.4t"
+	desc = "phon_jew.4d"
 	picture = "POPE_PREACHING_eventpicture"
 	goto = 1854
 	
@@ -521,7 +521,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "phon.jew.4.a"
+		name = "phon_jew.4.a"
 		
 		
 		1854 = {
@@ -531,9 +531,9 @@ country_event = {
 }
 
 country_event = {
-	id = phon.jew.5
-	title = "phon.jew.5t"
-	desc = "phon.jew.5d"
+	id = phon_jew.5
+	title = "phon_jew.5t"
+	desc = "phon_jew.5d"
 	picture = "POPE_PREACHING_eventpicture"
 	goto = 1854
 	
@@ -556,7 +556,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "phon.jew.5.a"
+		name = "phon_jew.5.a"
 		
 		
 		382 = {
@@ -566,9 +566,9 @@ country_event = {
 }
 
 country_event = {
-	id = phon.jew.5
-	title = "phon.jew.5t"
-	desc = "phon.desc.5d"
+	id = phon_jew.6
+	title = "phon_jew.6t"
+	desc = "phon_desc.6d"
 	picture = "POPE_PREACHING_eventpicture"
 	goto = 1855
 	
@@ -594,7 +594,7 @@ country_event = {
 	}
 		
 	option = {
-		name = "phon.jew.5.a"
+		name = "phon_jew.6.a"
 		
 		change_religion = karaite_faith
 		add_stability = -1
@@ -632,7 +632,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "phon.jew.5.b"
+		name = "phon_jew.6.b"
 		
 		add_stability = 1
 		1855 = {

@@ -1,0 +1,26 @@
+merc_phoenician_company = {
+	regiments_per_development = 0.025
+	home_province = 1854
+	sprites = { easterngfx_sprite_pack }
+	trigger = {
+		OR = {
+			tag = PER
+			tag = P01
+		}
+	}
+	modifier = {
+		infantry_power = 0.1
+		discipline = 0.05
+	}
+}
+
+merc_samoan_warriors = {
+	regiments_per_development = 0.02
+	home_province = 1243
+	sprites = { chinesegfx_sprite_pack }
+	trigger = {
+		culture_group = polynesian_g
+	}
+	modifier = {
+		infantry_power = 1
+	}
