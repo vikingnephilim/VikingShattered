@@ -8015,16 +8015,22 @@ abolish_manrent_reform = {
 		}
 	}
 	potential = {
-		OR = {
+		AND = {
+			OR = {
 			primary_culture = scottish
 			primary_culture = highland_scottish
+			}
 			has_reform = abolish_manrent_reform
+		}
 	}
 	trigger = {
-		OR = {
+		AND = {
+			OR = {
 			primary_culture = scottish
 			primary_culture = highland_scottish
+			}
 			has_reform = abolish_manrent_reform
+		}
 	}
 	modifiers = {
 		land_morale = 0.10

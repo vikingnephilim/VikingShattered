@@ -4,9 +4,7 @@ country_event = {
 	title = england_dynasty.1.t
 	desc = england_dynasty.1.desc
 	picture = ANGLICAN_SERMON_eventPicture
-	
-	is_triggered_only = yes
-	
+		
 	trigger = {
 		has_country_flag = formed_england_flag
 		NOT = { has_country_flag = picked_ruler }
@@ -57,12 +55,11 @@ country_event = {
 	}
 	option = {
 		name = england_dynasty.1.d
-		add_prestige = 50
+		add_prestige = -50
+		add_stability = -1
 		hidden_effect = {
-			remove_heir = yes
-			ENG = {
-				country_event = { id = war_of_the_roses.1 }
-			}
+			kill_heir = yes
+			kill_ruler = yes
 		}
 		set_country_flag = picked_ruler
 	}
