@@ -121,6 +121,7 @@ WPK = "countries/DOGE_POL_Wielkopolska.txt"
 #BALTICS
 MML = "countries/DOGE_BAL_Memel.txt"
 SMG = "countries/DOGE_BAL_Samogitia.txt"
+BLT = "countries/Baltii.txt"
 
 #RUTHENIA
 TVP = "countries/DOGE_RTH_Turov-Pinsk.txt"

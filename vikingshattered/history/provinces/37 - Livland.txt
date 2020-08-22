@@ -2,7 +2,7 @@
 
 owner = LVA
 controller = LVA
-culture = latvian
+culture = latgalian
 religion = baltic_pagan_reformed
 capital = "Fellin"
 trade_goods = livestock

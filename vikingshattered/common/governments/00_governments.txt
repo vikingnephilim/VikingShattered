@@ -40,6 +40,7 @@ monarchy = {
 				irish_high_king
 				geo_despotate
 				k_of_arm
+				balt_trib_fed
 				norman_duchy_reform
 				french_feudalism
 				#french_reformed_feudalism

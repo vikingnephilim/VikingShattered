@@ -1,0 +1,108 @@
+country_decisions = {
+	baltii_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_baltii_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { tag = POM }
+			NOT = { tag = PRU }			
+			NOT = { exists = BLT }
+			OR = {
+				culture_group = baltic
+				primary_culture = prussian
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 38
+				province_id = 273
+				province_id = 272
+				province_id = 271
+				province_id = 41
+				province_id = 2958
+				province_id = 36
+				province_id = 25
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			adm_tech = 10
+			NOT = { exists = PRU }
+			OR = {
+				religion = baltic_pagan_reformed
+				religion = slavic_pagan_reformed
+			}
+			owns_core_province = 38
+			owns_core_province = 41
+			owns_core_province = 271
+			owns_core_province = 272
+			owns_core_province = 273
+			owns_core_province = 2958
+			OR = {
+				owns_core_province = 25
+				owns_core_province = 36
+			}
+		}
+		
+		effect = {
+			remove_non_electors_emperors_from_empire_effect = yes
+			change_tag = BLT
+			change_government = monarchy
+			add_government_reform = balt_trib_fed
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			baltic_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BLT
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = formed_baltii_flag
+			
+			41 = {
+				change_culture = prusiskai
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+	}
+}
+				

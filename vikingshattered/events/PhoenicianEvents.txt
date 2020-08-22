@@ -27,9 +27,9 @@ country_event = {
 		P02 = {
 			change_religion = ROOT
 			change_primary_culture = hebrew
+			add_government_reform = phon_city_state
 		}
 		create_subject = {
-		add_government_reform = phon_city_state
 			subject = P02
 			subject_type = phon_city
 		}
@@ -387,6 +387,8 @@ country_event = {
 	}
 }
 
+namespace = phon_jew
+
 country_event = {
 	id = phon_jew.1
 	title = "phon_jew.1t"
@@ -394,10 +396,13 @@ country_event = {
 	picture = "POPE_PREACHING_eventpicture"
 	fire_only_once = yes
 	trigger = {
-		tag = P05
-		379 = {
-			culture = hebrew
-			owner = P05
+		AND = {
+			NOT = { has_country_flag = jew_jeru }
+			tag = P05
+			owns_core_province = 379
+			379 = {
+				culture = hebrew
+			}
 		}
 	}
 	mean_time_to_happen = {
@@ -405,6 +410,7 @@ country_event = {
 	}
 	option = {
 		name = "phon_jew.1.a"
+		set_country_flag = jew_jeru
 		379 = {
 			change_religion = karaite_faith
 			change_trade_goods = paper
@@ -422,19 +428,23 @@ country_event = {
 	picture = "POPE_PREACHING_eventpicture"
 	fire_only_once = yes
 	trigger = {
-		tag = P08
-		379 = {
-			religion = karaite_faith
-		}
-		380 = {
-			culture = hebrew
-			owner = P08
+		AND = {
+			NOT = { has_country_flag = jew_kir }
+			tag = P08
+			owns_core_province = 380
+			379 = {
+				religion = karaite_faith
+			}
+			380 = {
+				culture = hebrew
+			}
 		}
 	}
 	mean_time_to_happen = {
 		months = 6
 	}
 	option = {
+		set_country_flag = jew_kir
 		name = "phon_jew.2.a"
 		380 = {
 			change_religion = karaite_faith
@@ -452,19 +462,23 @@ country_event = {
 	picture = "POPE_PREACHING_eventpicture"
 	fire_only_once = yes
 	trigger = {
-		tag = P09
-		380 = {
-			religion = karaite_faith
-		}
-		381 = {
-			culture = hebrew
-			owner = P09
+		AND = {
+			NOT = { has_country_flag = jew_jeri }
+			tag = P09
+			owns_core_province = 381
+			380 = {
+				religion = karaite_faith
+			}
+			381 = {
+				culture = hebrew
+			}
 		}
 	}
 	mean_time_to_happen = {
 		months = 6
 	}
 	option = {
+		set_country_flag = jew_jeri
 		name = "phon_jew.3.a"
 		381 = {
 			change_religion = karaite_faith
@@ -482,19 +496,23 @@ country_event = {
 	picture = "POPE_PREACHING_eventpicture"
 	fire_only_once = yes
 	trigger = {
-		tag = P01
-		380 = {
-			religion = karaite_faith
-		}
-		1854 = {
-			culture = hebrew
-			owner = P01
+		AND = {
+			NOT = { has_country_flag = jew_damas }
+			tag = P01
+			owns_core_province = 1854
+			380 = {
+				religion = karaite_faith
+			}	
+			1854 = {
+				culture = hebrew
+			}
 		}
 	}
 	mean_time_to_happen = {
 		months = 6
 	}
 	option = {
+		set_country_flag = jew_damas
 		name = "phon_jew.4.a"
 		1854 = {
 			change_religion = karaite_faith
@@ -509,13 +527,16 @@ country_event = {
 	picture = "POPE_PREACHING_eventpicture"
 	fire_only_once = yes
 	trigger = {
-		tag = P02
-		381 = {
-			religion = karaite_faith
-		}
-		382 = {
-			culture = hebrew
-			owner = P02
+		AND = {
+			NOT = { has_country_flag = jew_jaffa }
+			tag = P02
+			owns_core_province = 382
+			381 = {
+				religion = karaite_faith
+			}
+			382 = {
+				culture = hebrew
+			}
 		}
 	}
 	
@@ -523,6 +544,7 @@ country_event = {
 		months = 6
 	}
 	option = {
+		set_country_flag = jew_jaffa
 		name = "phon_jew.5.a"
 		382 = {
 			change_religion = karaite_faith
@@ -537,6 +559,8 @@ country_event = {
 	picture = "POPE_PREACHING_eventpicture"
 	fire_only_once = yes
 	trigger = {
+		NOT = { has_country_flag = jew_rel_cris }
+		tag = P01
 		P09 = {
 			religion = karaite_faith
 		}
@@ -555,6 +579,7 @@ country_event = {
 	}
 	option = {
 		name = "phon_jew.6.a"
+		set_country_flag = jew_rel_cris
 		change_religion = karaite_faith
 		add_stability = -1
 		1855 = {
@@ -591,6 +616,7 @@ country_event = {
 	}
 	option = {
 		name = "phon_jew.6.b"
+		set_country_flag = jew_rel_cris
 		add_stability = 1
 		1855 = {
 			add_base_tax = 2

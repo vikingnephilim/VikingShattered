@@ -3248,7 +3248,7 @@ Finnic = {
 }
 baltic	= {
 	graphical_culture = easterngfx
-	pruthenian = {
+	yotvingian = {
 		primary = PRU
 		male_names = {
 			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
@@ -3262,7 +3262,7 @@ baltic	= {
 			Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
 		}
 	}
-	byelorussian = {
+	aukstaitian = {
 		primary = PLT
 		male_names = {
 			Andrei Lubko Olgierd Bryachislav Vasiliy Svyatoslav Vladimir Izyaslav Vseslav Boris Aleksandr Adrian 
@@ -3274,7 +3274,7 @@ baltic	= {
 			Gavriila Larisa Aleksandra Alla Bronislava Svetlana Yuliya Yaroslava Vladislava Lyudmila Nadejda Rostislava
 		}
 	}
-	lithuanian = {
+	samogetian = {
 		primary = LIT
 		male_names = {
 			Zygimantas Kazimieras Aleksandras Jonas Albertas Zygimantas Augustas Vytautas Jogaila Vladislovas 
@@ -3297,7 +3297,21 @@ baltic	= {
 			"Giedraitis" "Mantigirdaitis" "Chodkevicius" "Sudimantaitis" "Korybut" "Jogailaitis" "Gediminaitis"
 		}
 	}
-	latvian = {
+	prusiskai = {
+		primary = PRU
+		male_names = {
+			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
+			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
+			Horst Joachim Kaspar Kurt Leo Ludwig Lukas Manfred Michael Nikolaus Oskar Otto Philipp Reiner Rudolf 
+			Rupprecht Siegfried Siegmund Thomas Urs Viktor Werner Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis 
+			Ekkelis Galindas Galindo Gauronas Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis Milzas Nomedas 
+			Prusas Sergonis Ulinniks Ulitis
+		}
+		female_names = {
+			Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
+		}
+	}
+	latgalian = {
 		primary = LVA
 		male_names = {
 			Aishno Ako Ankad Baise Balodis Bikshe Borut Bulei Butovit Cirulis Dangeruthe Darbeslave 

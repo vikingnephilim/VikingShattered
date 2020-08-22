@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 religion = baltic_pagan_reformed
-primary_culture = latvian
+primary_culture = latgalian
 capital = 1834
 
 1440.1.1 = { #Fictional

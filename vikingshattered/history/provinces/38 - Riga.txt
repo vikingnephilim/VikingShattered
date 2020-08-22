@@ -3,7 +3,7 @@
 owner = RIG
 controller = RIG
 add_core = RIG
-culture = pruthenian
+culture = prussian
 religion = catholic
 hre = no
 base_tax = 5 

@@ -2,7 +2,7 @@
 
 owner = SMG
 controller = SMG
-culture = lithuanian
+culture = samogetian
 religion = baltic_pagan_reformed
 capital = "Upyte"
 trade_goods = livestock

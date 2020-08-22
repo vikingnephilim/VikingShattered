@@ -2,7 +2,7 @@
 
 owner = MML
 controller = MML
-culture = lithuanian
+culture = yotvingian
 religion = baltic_pagan_reformed
 capital = "Memel"
 trade_goods = livestock

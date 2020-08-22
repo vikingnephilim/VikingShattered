@@ -1330,3 +1330,47 @@ tyrian_ideas = {
 		siege_ability = 0.15
 	}
 }
+
+BLT_ideas = {
+	start = {
+		global_missionary_strength = 0.02
+		ae_impact = -0.1
+	}
+	
+	bonus = {
+		army_tradition = 0.5
+	}
+	
+	trigger = {
+		tag = BLT
+	}
+	free = yes
+	
+	BLT_granary_north = {
+		production_efficiency = 0.1
+	}
+	
+	BLT_defender_pagans = {
+		diplomatic_reputation = 2
+	}
+	
+	BLT_land_of_cav = {
+		cavalry_power = 0.4
+	}
+	
+	BLT_organize_army = {
+		discipline = 0.05
+	}
+	
+	BLT_horse_breeders = {
+		cavalry_cost = -0.15
+	}
+	
+	BLT_strong_leaders = {
+		free_leader_pool = 1
+		leader_land_shock = 1
+	}
+	BLT_religious_combat = {
+		land_morale = 0.2
+	}
+}

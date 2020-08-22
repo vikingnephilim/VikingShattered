@@ -248,6 +248,38 @@ irish_high_king = {
 	}
 }
 
+balt_trib_fed = {
+	icon = "king"
+	lock_level_when_selected = yes
+	allow_normal_conversion = no
+	valid_for_nation_designer = no
+	monarchy = yes
+	royal_marriage = yes
+	queen = yes
+	rulers_can_be_generals = yes
+	maintain_dynasty = yes
+	
+	potential = {
+		AND = {
+			OR = {
+				religion = slavic_pagan_reformed
+				religion = baltic_pagan_reformed
+			}
+			tag = BTL
+		}
+	}
+	modifiers = {
+		monarch_military_power = 2
+		governing_capacity_modifier = -0.5
+		cavalry_flanking = 0.5
+		manpower_in_true_faith_provinces = 0.2
+	}
+	conditional = {
+		allow = { has_dlc = "Rights of Man" }
+		militarised_society = yes
+	}
+}
+
 #############################################
 ################ REPUBLICS ##################
 #############################################
@@ -550,6 +582,24 @@ cam_rep = {
 			}
 	}
 	duration = 4
+}
+
+balt_trib_fed = {
+	lock_level_when_selected = yes
+	allow_normal_conversion = no
+	valid_for_nation_designer = no
+	icon = "assembly_hall"
+	duration = 5
+	potential = {
+		tag = BTL
+	}
+	modifiers = {
+		
+	}
+	conditional = {
+		allow = { has_dlc = "Rights of Man" }
+		militarised_society = yes
+	}
 }
 
 rep_gran_colo = {

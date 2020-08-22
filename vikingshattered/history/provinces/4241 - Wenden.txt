@@ -3,7 +3,7 @@
 owner = LVA
 controller = LVA
 add_core = LVA
-culture = latvian
+culture = latgalian
 religion = baltic_pagan_reformed
 capital = "Wenden"
 trade_goods = livestock

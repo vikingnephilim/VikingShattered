@@ -3,7 +3,7 @@
 owner = SMG
 controller = SMG
 religion = baltic_pagan_reformed
-culture = lithuanian
+culture = samogetian
 capital = "Trakai"
 trade_goods = livestock
 hre = no

@@ -3,7 +3,7 @@
 owner = TEU
 controller = TEU
 capital = "Ortelsburg"
-culture = pruthenian
+culture = yotvingian
 religion = catholic
 trade_goods = naval_supplies
 hre = no

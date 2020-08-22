@@ -2,7 +2,7 @@
 
 owner = SMG
 controller = SMG
-culture = lithuanian
+culture = yotvingian
 religion = baltic_pagan_reformed
 capital = "Kovno"
 trade_goods = livestock
