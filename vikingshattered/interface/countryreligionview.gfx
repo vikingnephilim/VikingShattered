@@ -184,11 +184,28 @@ spriteTypes = {
 		name = "GFX_zoro_range"
 		texturefile = "gfx/interface/GFX_zoro_range.dds"
 	}	
-	spriteType = {
+	
+			spriteType = {
 		name = "GFX_zoroastrian_aspects_icon"
-		texturefile = "gfx/interface/aspects_icon_zoro.dds"
+		texturefile = "gfx/interface/zoro_aspect_icon.dds"
 	}	
-		spriteType = {
+	
+			spriteType = {
+		name = "GFX_khurmazta_aspects_icon"
+		texturefile = "gfx/interface/zoro_aspect_icon.dds"
+	}	
+	
+			spriteType = {
+		name = "GFX_mazdaki_aspects_icon"
+		texturefile = "gfx/interface/zoro_aspect_icon.dds"
+	}	
+	
+			spriteType = {
+		name = "GFX_manichean_aspects_icon"
+		texturefile = "gfx/interface/zoro_aspect_icon.dds"
+	}	
+	
+			spriteType = {
 		name = "GFX_anglican_aspects_icon"
 		texturefile = "gfx/interface/anglican_aspects_icon.dds"
 	}	
