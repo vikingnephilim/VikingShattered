@@ -1374,3 +1374,48 @@ BLT_ideas = {
 		land_morale = 0.2
 	}
 }
+
+BHR_ideas = {
+	start = {
+		culture_conversion_cost = -0.2
+		land_morale = 0.15
+	}
+	
+	bonus = {
+		global_colonial_growth = 20
+	}
+	
+	trigger = {
+		tag = BHR
+	}
+	free = yes
+	
+	BHR_gaelic_farmers = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	BHR_celtic_league = {
+		diplomatic_upkeep = 1
+	}
+	
+	BHR_highland_scourge = {
+		shock_damage = 0.15
+	}
+	
+	BHR_highland_fortresses = {
+		defensiveness = 0.2
+	}
+	
+	BHR_open_seas = {
+		range = 0.25
+		colonists = 1
+	}
+	
+	BHR_legacy_boudica_wallace = {
+		leader_land_shock = 1
+		leader_land_manuever = 1
+	}
+	BHR_protect_the_coast = {
+		land_forcelimit_modifier = 0.25
+	}
+}
