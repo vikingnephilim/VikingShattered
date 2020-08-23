@@ -260,7 +260,7 @@ muslim = {
 		}
 	}
 	druze = {
-		color = { 0.0 0.9 0.4 }
+		color = { 78 242 76 }
 		icon = 45
 		country = {
 			heir_chance = 1.0
@@ -274,11 +274,11 @@ muslim = {
 			diplomats = 1
 			dip_tech_cost_modifier = -0.05
 		}
-		heretic = { HURUFI ZAIDI }
+		heretic = { HURUFI IBADI KHARIJITE SUNNI SHIITE YAZIDI ZIKRI }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	hurufi = {
-		color = { 0.4 0.9 0.0 }
+		color = { 0 220 131 }
 		icon = 49
 		country = {
 			heir_chance = 1.0
@@ -291,7 +291,7 @@ muslim = {
 			diplomatic_upkeep = 1
 			stability_cost_modifier = -0.1
 		}
-		heretic = { DRUZE ZAIDI }
+		heretic = { DRUZE IBADI KHARIJITE SUNNI SHIITE YAZIDI ZIKRI }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	ibadi = {
@@ -308,7 +308,7 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		heretic = { HARURI SUFRI NAJADAT AZRAQI }
+		heretic = { DRUZE HURUFI KHARIJITE SUNNI SHIITE YAZIDI ZIKRI }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	kharijite = {
@@ -325,7 +325,7 @@ muslim = {
 			advisor_cost = -0.1
 			improve_relation_modifier = 0.1
 		}
-		heretic = { HARURI SUFRI NAJADAT AZRAQI }
+		heretic = { DRUZE HURUFI IBADI SUNNI SHIITE YAZIDI ZIKRI }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	shiite = {
@@ -342,7 +342,7 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		heretic = { DRUZE HURUFI ZAIDI }
+		heretic = { DRUZE HURUFI IBADI KHARIJITE SUNNI YAZIDI ZIKRI }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	sunni = {
@@ -359,11 +359,11 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		heretic = { BEKTASHI AHMADI ZIKRI YAZIDI }
+		heretic = { DRUZE HURUFI IBADI KHARIJITE SHIITE YAZIDI ZIKRI }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	yazidi = {
-		color = { 204 255 187 }
+		color = { 41 179 90 }
 		icon = 48
 		country = {
 			tolerance_own = 3 # Preoccupation with religious purity
@@ -379,11 +379,11 @@ muslim = {
 			tolerance_own = 2
 			advisor_pool = 1
 		}
-		heretic = { BEKTASHI AHMADI ZIKRI }
+		heretic = { DRUZE HURUFI IBADI KHARIJITE SUNNI SHIITE ZIKRI }
 		uses_piety = yes
 	}
 	zikri = {
-		color = { 0 50 4 }
+		color = { 53 147 53 }
 		icon = 44
 		country = {
 			global_institution_spread = 0.15
@@ -396,7 +396,7 @@ muslim = {
 			global_institution_spread = 0.15
 			heir_chance = 1.0
 		}
-		heretic = { BEKTASHI AHMADI YAZIDI }
+		heretic = { DRUZE HURUFI IBADI KHARIJITE SUNNI SHIITE YAZIDI }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	harmonized_modifier = harmonized_muslim
@@ -410,7 +410,7 @@ eastern = {
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 58 80 }
 	buddhism = { #Theravada
-		color = { 204 76 0 }
+		color = { 200 71 0 }
 		icon = 24
 		allowed_conversion = {
 			vajrayana
@@ -432,12 +432,12 @@ eastern = {
 				duration = 3650
 			}
 		}
-		heretic = { ZEN }
+		heretic = { CONFUCIANISM MAHAYANA SHINTO VAJRAYANA }
 		harmonized_modifier = harmonized_buddhism
 		uses_karma = yes
 	}
 	vajrayana = {
-		color = { 204 76 76 }
+		color = { 255 5 154 }
 		icon = 25
 		allowed_conversion = {
 			mahayana
@@ -459,12 +459,12 @@ eastern = {
 				duration = 3650
 			}
 		}
-		heretic = { ZEN }
+		heretic = { CONFUCIANISM MAHAYANA SHINTO THERAVADA }
 		uses_karma = yes
 		harmonized_modifier = harmonized_vajrayana
 	}
 	mahayana = {
-		color = { 204 76 127 }
+		color = { 224 146 76 }
 		icon = 23
 		allowed_conversion = {
 			vajrayana
@@ -487,11 +487,11 @@ eastern = {
 			}
 		}
 		harmonized_modifier = harmonized_mahayana
-		heretic = { ZEN }
+		heretic = { CONFUCIANISM SHINTO THERAVADA VAJRAYANA }
 		uses_karma = yes
 	}
 	confucianism = {
-		color = { 214 229 140 }
+		color = { 233 219 147 }
 		icon = 9
 		country = {
 			tolerance_heretic = 2
@@ -501,12 +501,12 @@ eastern = {
 			adm_tech_cost_modifier = -0.1
 			stability_cost_modifier = -0.1
 		}
-		heretic = { TAOIST }
+		heretic = { MAHAYANA SHINTO THERAVADA VAJRAYANA }
 		uses_harmony = yes
 		harmonized_modifier = harmonized_confucianism
 	}
 	shinto = {
-		color = { 204 0 0 }
+		color = { 200 48 0 }
 		icon = 10
 		country = {
 			land_morale = 0.1
@@ -518,7 +518,7 @@ eastern = {
 			discipline = 0.05
 			global_unrest = -1
 		}
-		heretic = { SHUGENDO }
+		heretic = { CONFUCIANISM MAHAYANA THERAVADA VAJRAYANA }
 		uses_isolationism = yes
 		harmonized_modifier = harmonized_shinto
 	}
@@ -532,7 +532,7 @@ dharmic = {
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
 	bon = {
-		color = { 21 52 80 }
+		color = { 22 152 178 }
 		icon = 60
 		allowed_conversion = {
 			hinduism
@@ -550,11 +550,11 @@ dharmic = {
 		province = {
 			local_defensiveness = 0.1
 		}
-		heretic = { ZEN }
+		heretic = { HINDUISM JAIN SIKHISM }
 		uses_karma = yes
 	}
 	hinduism = {
-		color = { 0 204 204 }
+		color = { 0 190 200 }
 		icon = 8
 		allowed_conversion = {
 			bon
@@ -579,7 +579,7 @@ dharmic = {
 				duration = 3650
 			}
 		}
-		heretic = { BHAKTI }
+		heretic = { BON JAIN SIKHISM }
 	}
 	jain = {
 		icon = 59
@@ -588,7 +588,7 @@ dharmic = {
 			hinduism
 			sikhism
 		}
-		color = { 1.2 0.3 0.6 }
+		color = { 137 203 200 }
 		country = {
 			tolerance_heathen = 2
 			tolerance_heretic = 2
@@ -601,10 +601,10 @@ dharmic = {
 			religious_unity = 0.75
 		}
 		uses_karma = yes
-		heretic = { TERAPANTHA }
+		heretic = { BON HINDUISM SIKHISM }
 	}
 	sikhism = {
-		color = { 0 102 255 }
+		color = { 0 150 143 }
 		icon = 15
 		allowed_conversion = {
 			bon
@@ -612,6 +612,7 @@ dharmic = {
 			jain
 			sunni
 			shiite
+			zikri
 		}
 		country = {
 			mil_tech_cost_modifier = -0.1
@@ -632,7 +633,7 @@ dharmic = {
 				duration = 3650
 			}
 		}
-		heretic = { MASANDIS }
+		heretic = { BON HINDUISM JAIN }
 		date = 1499.01.01
 	}
 	harmonized_modifier = harmonized_dharmic
@@ -663,7 +664,7 @@ pagan = {
 	}
 	baltic_pagan_reformed = {
 	icon = 53
-	color = { 0.75 0.5 0.35 }
+	color = { 179 135 121 }
 	country = {
 		fort_maintenance_modifier = -0.1
 		tolerance_own = 1
@@ -698,7 +699,7 @@ pagan = {
 	}	
 	finnish_pagan_reformed = {
 		icon = 54
-		color = { 0.65 0.65 0.1 }
+		color = { 176 199 224 }
 		country = {
 			defensiveness = 0.1
 			num_accepted_cultures = 1
@@ -712,7 +713,7 @@ pagan = {
 	}
 	hellenic_pagan = {
 		icon = 58
-		color = { 102 51 153 }
+		color = { 156 194 188 }
 		country = {
 			tolerance_own = 1
 			tolerance_heretic = 1
@@ -796,7 +797,7 @@ pagan = {
 	}
 	norse_pagan_reformed = {
 		icon = 21
-		color = { 107 138 134 }
+		color = { 159 159 201 }
 		country = {
 			may_perform_slave_raid = yes
 			loot_amount = 0.25
@@ -813,7 +814,7 @@ pagan = {
 	}
 	slavic_pagan_reformed = {
 		icon = 55
-		color = { 153 101 21 }
+		color = { 179 169 121 }
 		country = {
 			culture_conversion_cost = -0.15
 			global_missionary_strength = 0.03
@@ -830,7 +831,7 @@ pagan = {
         }
 	tengri_pagan_reformed = {
 		icon = 27
-		color = { 25 76 217 }
+		color = { 119 148 201 }
 		country = {
 			cav_to_inf_ratio = 0.25
 			global_regiment_cost = -0.2
@@ -856,7 +857,7 @@ pagan = {
 	}
 	zun_pagan_reformed = {
 		icon = 43
-		color = { 0.9 1.0 0.0 }
+		color = { 195 180 105 }
 		country = {
 			tolerance_own = 3
 			hostile_attrition = 1
@@ -883,7 +884,7 @@ christian = {
 
 ############################################CATHOLIC BASED FAITHS###################################################
 	anglican = {
-		color = { 135 77 255 }
+		color = { 181 119 119 }
 		icon = 28
 		allowed_conversion = {
 			cathar
@@ -987,7 +988,7 @@ christian = {
 		}
 	}
 	cathar = {
-		color = { 0 0 205 }
+		color = { 255 135 0 }
 		icon = 34
 		allowed_conversion = {
 			anglican
@@ -1098,7 +1099,7 @@ christian = {
 	
 }	
 	catholic = {
-		color = { 204 204 153 }
+		color = { 181 178 119 }
 		icon = 1
 		allowed_conversion = {
 			anglican
@@ -1386,7 +1387,7 @@ christian = {
 		}
 	}
 	fraticelli = {
-		color = { 65 105 225 }
+		color = { 245 161 115 }
 		icon = 35
 		allowed_conversion = {
 			anglican
@@ -1699,7 +1700,7 @@ christian = {
 		}
 	}
 	protestant = {
-		color = { 0 102 102 }
+		color = { 114 72 248 }
 		icon = 2
 		allowed_conversion = {
 			anglican
@@ -1839,7 +1840,7 @@ christian = {
 		date = 1517.10.31
 	}
 	reformed = {
-		color = { 76 76 229 }
+		color = { 127 127 223 }
 		icon = 3
 		allowed_conversion = {
 			anglican
@@ -1964,7 +1965,7 @@ christian = {
 		hre_heretic_religion = yes
 	}
 	waldensian = {
-		color = { 70 130 180 }
+		color = { 124 164 236 }
 		icon = 36
 		allowed_conversion = {
 			anglican
@@ -2061,7 +2062,7 @@ christian = {
 
 ############################################ORTHODOX BASED FAITHS###################################################
 bogomilist = {
-	color = { 217 85 33 }
+	color = { 130 180 110 }
 	icon = 39
 	allowed_conversion = {
 		orthodox
@@ -2189,7 +2190,7 @@ bogomilist = {
 	misguided_heretic = yes		# Other christians hate them less
 }
 	iconoclast = {
-	color = { 205 92 92 }
+	color = { 128 175 165 }
 	icon = 41
 	allowed_conversion = {
 		orthodox
@@ -2213,7 +2214,7 @@ bogomilist = {
 	misguided_heretic = yes		# Other christians hate them less
 }
 	orthodox = {
-		color = { 178 0 127 }
+		color = { 239 167 61 }
 		icon = 4
 		allowed_conversion = {
 			bogomilist
@@ -2342,7 +2343,7 @@ bogomilist = {
 		}
 	}
 	monotite = {
-		color = { 185 54 54 }
+		color = { 195 116 45 }
 		icon = 40
 		allowed_conversion = {
 			orthodox
@@ -2419,7 +2420,7 @@ bogomilist = {
 	}
 	
 	paulician = {
-		color = { 219 112 147 }
+		color = { 192 184 28 }
 		icon = 42
 		allowed_conversion = {
 			orthodox
@@ -2497,7 +2498,7 @@ bogomilist = {
 	coptic = {
 		flags_with_emblem_percentage = 20
 		flag_emblem_index_range = { 1 4 }
-		color = { 178 178 25 }
+		color = { 121 98 39 }
 		icon = 14
 		allowed_conversion = {
 			catholic
@@ -2532,7 +2533,7 @@ bogomilist = {
 	crusade_name = CRUSADE
 	
 	messalian = {
-		color = { 0.6 0.1 0.4 }
+		color = { 176 144 64 }
 		icon = 33
 		allowed_conversion = {
 			coptic
@@ -2558,7 +2559,7 @@ bogomilist = {
 	}
 
 	monophysite = {
-		color = { 0.8 0.4 0.1 }
+		color = { 103 108 92 }
 		icon = 38
 		allowed_conversion = {
 			coptic
@@ -2587,7 +2588,7 @@ bogomilist = {
 		}
 	}
 	nestorian = {
-		color = { 0.8 0.3 0.5 }
+		color = { 171 129 144 }
 		icon = 31
 		allowed_conversion = {
 			coptic
@@ -2730,7 +2731,7 @@ jewish_group = {
 	flag_emblem_index_range = { 106 107 }
 	jewish = {
 		icon = 20
-		color = { 0 128 128 }
+		color = { 0 48 200 }
 		country = {
 			tolerance_own = 2
 			advisor_pool = 1
@@ -2750,7 +2751,7 @@ jewish_group = {
 	}
 	karaite_faith = {
 		icon = 51
-		color = { 32 178 170 }
+		color = { 0 95 200 }
 		country = {
 			technology_cost = -0.1
 			idea_cost = -0.1
@@ -2772,7 +2773,7 @@ jewish_group = {
 	}
 	samaritan_faith = {
 		icon = 50
-		color = { 64 224 208 }
+		color = { 148 160 252 }
 		country = {
 			advisor_cost = -0.15
 			adm_tech_cost_modifier = -0.05
