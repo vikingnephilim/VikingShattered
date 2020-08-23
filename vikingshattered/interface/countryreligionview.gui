@@ -1577,194 +1577,7 @@ guiTypes = {
 				Orientation = "LEFT"
 			}
 		}
-		windowType = { # Used when religion can't unlock aspects, only one-time fire them
-			name = "zoroastrian_specific_window"
-			backGround =""
-			position = { x=32 y=300 }	
-			size = { x=280 y=50 }
-			moveable = 0
-			dontRender = ""
-			horizontalBorder = ""
-			Orientation = "UPPER_LEFT"
-			
-			instantTextBoxType = {
-				name = "church_name"
-				position = { x = 72 y = -40 }
-				font = "vic_18"
-				borderSize = {x = 0 y = 0}
-				text = ""
-				maxWidth = 200
-				maxHeight = 25
-				Orientation = "UPPER_LEFT"
-				format = left
-			}
-			
-		#	iconType =
-		#	{
-		#		name ="protestant_aspects_frame_bg"
-		#		spriteType = "GFX_country_religion_view_protestant_bg"
-		#		position = { x= 3 y = -44 }
-		#	}
-			
-			instantTextBoxType = {
-				name = "church_power_label"
-				position = { x = 72 y = -19 }
-				font = "vic_18"
-				borderSize = {x = 0 y = 0}
-				maxWidth = 150
-				maxHeight = 25
-				Orientation = "UPPER_LEFT"
-				format = left
-			}
-			
-			guiButtonType = {
-				name = "view_aspects"
-				position = { x=10 y = -43}
-				quadTextureSprite ="GFX_zoroastrian_aspects_icon"
-				Orientation = "LEFT"
-			}
-		}
-		windowType = { # Used when religion can't unlock aspects, only one-time fire them
-			name = "manichean_specific_window"
-			backGround =""
-			position = { x=32 y=300 }	
-			size = { x=280 y=50 }
-			moveable = 0
-			dontRender = ""
-			horizontalBorder = ""
-			Orientation = "UPPER_LEFT"
-			
-			instantTextBoxType = {
-				name = "church_name"
-				position = { x = 72 y = -40 }
-				font = "vic_18"
-				borderSize = {x = 0 y = 0}
-				text = ""
-				maxWidth = 200
-				maxHeight = 25
-				Orientation = "UPPER_LEFT"
-				format = left
-			}
-			
-		#	iconType =
-		#	{
-		#		name ="protestant_aspects_frame_bg"
-		#		spriteType = "GFX_country_religion_view_protestant_bg"
-		#		position = { x= 3 y = -44 }
-		#	}
-			
-			instantTextBoxType = {
-				name = "church_power_label"
-				position = { x = 72 y = -19 }
-				font = "vic_18"
-				borderSize = {x = 0 y = 0}
-				maxWidth = 150
-				maxHeight = 25
-				Orientation = "UPPER_LEFT"
-				format = left
-			}
-			
-			guiButtonType = {
-				name = "view_aspects"
-				position = { x=10 y = -43}
-				quadTextureSprite ="GFX_manichean_aspects_icon"
-				Orientation = "LEFT"
-			}
-		}
-		windowType = { # Used when religion can't unlock aspects, only one-time fire them
-			name = "mazdaki_specific_window"
-			backGround =""
-			position = { x=32 y=300 }	
-			size = { x=280 y=50 }
-			moveable = 0
-			dontRender = ""
-			horizontalBorder = ""
-			Orientation = "UPPER_LEFT"
-			
-			instantTextBoxType = {
-				name = "church_name"
-				position = { x = 72 y = -40 }
-				font = "vic_18"
-				borderSize = {x = 0 y = 0}
-				text = ""
-				maxWidth = 200
-				maxHeight = 25
-				Orientation = "UPPER_LEFT"
-				format = left
-			}
-			
-		#	iconType =
-		#	{
-		#		name ="protestant_aspects_frame_bg"
-		#		spriteType = "GFX_country_religion_view_protestant_bg"
-		#		position = { x= 3 y = -44 }
-		#	}
-			
-			instantTextBoxType = {
-				name = "church_power_label"
-				position = { x = 72 y = -19 }
-				font = "vic_18"
-				borderSize = {x = 0 y = 0}
-				maxWidth = 150
-				maxHeight = 25
-				Orientation = "UPPER_LEFT"
-				format = left
-			}
-			
-			guiButtonType = {
-				name = "view_aspects"
-				position = { x=10 y = -43}
-				quadTextureSprite ="GFX_mazdaki_aspects_icon"
-				Orientation = "LEFT"
-			}
-		}
-		windowType = { # Used when religion can't unlock aspects, only one-time fire them
-			name = "khurmazta_specific_window"
-			backGround =""
-			position = { x=32 y=300 }	
-			size = { x=280 y=50 }
-			moveable = 0
-			dontRender = ""
-			horizontalBorder = ""
-			Orientation = "UPPER_LEFT"
-			
-			instantTextBoxType = {
-				name = "church_name"
-				position = { x = 72 y = -40 }
-				font = "vic_18"
-				borderSize = {x = 0 y = 0}
-				text = ""
-				maxWidth = 200
-				maxHeight = 25
-				Orientation = "UPPER_LEFT"
-				format = left
-			}
-			
-		#	iconType =
-		#	{
-		#		name ="protestant_aspects_frame_bg"
-		#		spriteType = "GFX_country_religion_view_protestant_bg"
-		#		position = { x= 3 y = -44 }
-		#	}
-			
-			instantTextBoxType = {
-				name = "church_power_label"
-				position = { x = 72 y = -19 }
-				font = "vic_18"
-				borderSize = {x = 0 y = 0}
-				maxWidth = 150
-				maxHeight = 25
-				Orientation = "UPPER_LEFT"
-				format = left
-			}
-			
-			guiButtonType = {
-				name = "view_aspects"
-				position = { x=10 y = -43}
-				quadTextureSprite ="GFX_khurmazta_aspects_icon"
-				Orientation = "LEFT"
-			}
-		}
+		
 		
 		windowType = { # Used when religion can't unlock aspects, only one-time fire them
 			name = "anglican_specific_window"
@@ -3044,7 +2857,7 @@ guiTypes = {
 		iconType =
 		{
 			name ="aspect_icon"
-			spriteType = "GFX_hindu_deities_strip"
+			spriteType = "GFX_zoro_aspects_icon"
 			position = { x= -51 y = -10 }
 		}
 		
@@ -3096,7 +2909,7 @@ guiTypes = {
 		iconType =
 		{
 			name ="aspect_icon"
-			spriteType = "GFX_hindu_deities_strip"
+			spriteType = "GFX_zoro_aspect_icon"
 			position = { x= -51 y = -10 }
 		}
 		
@@ -3148,7 +2961,7 @@ guiTypes = {
 		iconType =
 		{
 			name ="aspect_icon"
-			spriteType = "GFX_hindu_deities_strip"
+			spriteType = "GFX_zoro_aspect_icon"
 			position = { x= -51 y = -10 }
 		}
 		
@@ -3200,7 +3013,7 @@ guiTypes = {
 		iconType =
 		{
 			name ="aspect_icon"
-			spriteType = "GFX_hindu_deities_strip"
+			spriteType = "GFX_zoro_aspect_icon"
 			position = { x= -51 y = -10 }
 		}
 		
