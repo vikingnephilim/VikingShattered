@@ -711,6 +711,19 @@ pagan = {
 		heretic = { OLD_SUOMENUSKO }	
 		can_have_secondary_religion = yes
 	}
+	druidic_pagan = {
+		icon = 11
+		color = { 7 54 7 }
+		country = {
+			discipline = 0.05
+			female_advisor_chance = 0.5
+		}
+		country_as_secondary = {
+			discipline = 0.05
+			female_advisor_chance = 0.5
+		}
+		fetishist_cult = yes
+	}
 	hellenic_pagan = {
 		icon = 58
 		color = { 156 194 188 }

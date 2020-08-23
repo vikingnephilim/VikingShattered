@@ -1,0 +1,63 @@
+country_decisions = {
+	druidic_revival = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = dru_revived }
+			NOT = {
+				234 = {
+					religion = druidic_pagan
+				}
+			}
+			government = theocracy
+			culture_group = gaelic 
+			NOT = { tag = PAP }
+			NOT = { tag = ENG }
+			NOT = { tag = GBR }
+			NOT = { tag = FRA }
+			NOT = { tag = NRM }
+			ai = no
+		}
+		
+		allow = {
+			owns_core_province = 234
+			234 = {
+				development = 30
+			}
+		}
+		
+		effect = {
+			set_country_flag = dru_revived
+			define_ruler = {
+				name = "Iolo"
+				dynasty = "Morganwg"
+				adm = 1
+				dip = 1
+				mil = 4
+				age = 19
+				claim = 20
+			}
+			234 = {
+				change_religion = druidic_pagan
+				if = {
+				limit = {
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = druidic_pagan
+								is_reformation_center = yes
+							}
+						amount = 1
+						}
+					}
+				}
+				add_reform_center = druidic_pagan
+				}
+				add_permanent_province_modifier = {
+					name = "religious_zeal_at_conv"
+					duration = 18000
+				}
+			}
+		}
+	}
+}
+			
