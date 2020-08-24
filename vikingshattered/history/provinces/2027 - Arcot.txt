@@ -3,7 +3,7 @@
 owner = GNG
 controller = GNG
 culture = tamil
-religion = hinduism
+religion = vishnuism
 capital = "Arcot"
 trade_goods = iron
 hre = no

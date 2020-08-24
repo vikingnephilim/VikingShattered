@@ -3,7 +3,7 @@
 owner = IDR
 controller = IDR
 culture = gujarati
-religion = hinduism
+religion = shakti
 capital = "Champaner"
 trade_goods = wool
 hre = no

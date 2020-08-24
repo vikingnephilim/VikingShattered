@@ -254,6 +254,7 @@ balt_trib_fed = {
 	allow_normal_conversion = no
 	valid_for_nation_designer = no
 	monarchy = yes
+	allow_convert = no
 	royal_marriage = yes
 	queen = yes
 	rulers_can_be_generals = yes
@@ -265,7 +266,7 @@ balt_trib_fed = {
 				religion = slavic_pagan_reformed
 				religion = baltic_pagan_reformed
 			}
-			tag = BTL
+			tag = BLT
 		}
 	}
 	modifiers = {

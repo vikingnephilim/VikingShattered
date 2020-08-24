@@ -3,7 +3,7 @@
 owner = MLW
 controller = MLW
 culture = malvi
-religion = hinduism
+religion = shakti
 capital = "Mandsaur"
 trade_goods = spices	#Opium
 hre = no

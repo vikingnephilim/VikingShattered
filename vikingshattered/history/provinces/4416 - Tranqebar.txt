@@ -3,7 +3,7 @@
 owner = TNJ
 controller = TNJ
 culture = tamil
-religion = hinduism
+religion = vishnuism
 capital = "Tranqebar"
 trade_goods = cloth
 hre = no

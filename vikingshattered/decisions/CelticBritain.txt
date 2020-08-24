@@ -1,0 +1,123 @@
+country_decisions = {
+	bhredain_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_celbri_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { tag = ENG }
+			NOT = { tag = DAN }			
+			NOT = { exists = BHR }
+			culture_group = gaelic
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 248
+				province_id = 242
+				province_id = 251
+				province_id = 233
+				province_id = 373
+				province_id = 4118
+				province_id = 4119
+				province_id = 4365
+				province_id = 236
+				province_id = 245
+				province_id = 172
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			adm_tech = 10
+			NOT = { exists = GBR }
+			NOT = { exists = ENG }
+			
+			owns_core_province = 248
+			owns_core_province = 242
+			owns_core_province = 251
+			owns_core_province = 233
+			owns_core_province = 373
+			owns_core_province = 4118
+			owns_core_province = 4119
+			owns_core_province = 4365
+			OR = {
+				AND = {
+					owns_core_province = 236
+					owns_core_province = 245
+				}
+				owns_core_province = 172
+			}
+		}
+		effect = {
+			remove_non_electors_emperors_from_empire_effect = yes
+			change_tag = BHR
+			change_government = monarchy
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			british_isles_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BHR
+			}
+			
+			brittany_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BHR
+			}
+			asturias_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BHR
+			}
+			galicia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BHR
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = formed_celbri_flag
+			
+			
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}

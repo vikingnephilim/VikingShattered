@@ -3,7 +3,7 @@
 owner = SHM
 controller = SHM
 culture = bedouin_arabic
-religion = sunni
+religion = nestorian
 capital = "Karah"
 trade_goods = livestock
 hre = no

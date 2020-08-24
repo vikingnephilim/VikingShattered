@@ -2,10 +2,9 @@ government = monarchy
 add_government_reform = iqta
 government_rank = 1 #Emirate
 technology_group = muslim
-religion = sunni
+religion = qarmatian
 primary_culture = gulf_arabic
 capital = 394	# Al Hasa
-religious_school = maliki_school
 
 #Rulers of Qatif
 1444.1.1 = {

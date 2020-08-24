@@ -3,7 +3,7 @@
 owner = MLW
 controller = MLW
 culture = malvi
-religion = hinduism
+religion = shakti
 capital = "Handia"
 trade_goods = cotton
 hre = no

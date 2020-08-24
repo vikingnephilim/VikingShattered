@@ -3,7 +3,7 @@
 owner = ALG
 controller = ALG
 culture = algerian
-religion = sunni
+religion = sufri
 capital = "Oran"
 trade_goods = cloth
 hre = no

@@ -1,0 +1,7 @@
+government = monarchy
+technology_group = western
+primary_culture = welsh
+add_accepted_culture = scottish
+add_accepted_culture = irish
+religion = protestant
+capital = 248	# Lothian
