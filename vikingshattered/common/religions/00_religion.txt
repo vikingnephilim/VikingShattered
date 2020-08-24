@@ -364,6 +364,13 @@ muslim = {
 	sunni = {
 		color = { 0 153 0 }
 		icon = 5
+		allowed_conversion = {
+			qarmatian
+			sufri
+			ibadi
+			shiite
+			
+		}
 		country = {
 			cav_to_inf_ratio = 0.10
 			heir_chance = 1.0
