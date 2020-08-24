@@ -460,8 +460,8 @@ eastern = {
 			}
 		}
 		heretic = { CONFUCIANISM MAHAYANA SHINTO THERAVADA }
-		uses_karma = yes
 		harmonized_modifier = harmonized_vajrayana
+		uses_karma = yes
 	}
 	mahayana = {
 		color = { 224 146 76 }
@@ -486,8 +486,8 @@ eastern = {
 				duration = 3650
 			}
 		}
-		harmonized_modifier = harmonized_mahayana
 		heretic = { CONFUCIANISM SHINTO THERAVADA VAJRAYANA }
+		harmonized_modifier = harmonized_mahayana
 		uses_karma = yes
 	}
 	confucianism = {
@@ -502,8 +502,8 @@ eastern = {
 			stability_cost_modifier = -0.1
 		}
 		heretic = { MAHAYANA SHINTO THERAVADA VAJRAYANA }
-		uses_harmony = yes
 		harmonized_modifier = harmonized_confucianism
+		uses_harmony = yes
 	}
 	shinto = {
 		color = { 200 48 0 }
@@ -519,10 +519,10 @@ eastern = {
 			global_unrest = -1
 		}
 		heretic = { CONFUCIANISM MAHAYANA THERAVADA VAJRAYANA }
-		uses_isolationism = yes
 		harmonized_modifier = harmonized_shinto
+		uses_isolationism = yes
 	}
-	crusade_name = CRUSADE
+	crusade_name = HOLY_WAR
 }
 ###################################
 #############DHARMIC###############
@@ -637,7 +637,7 @@ dharmic = {
 		date = 1499.01.01
 	}
 	harmonized_modifier = harmonized_dharmic
-	crusade_name = CRUSADE
+	crusade_name = HOLY_WAR
 }
 ###################################
 ##############PAGAN################
@@ -660,7 +660,7 @@ pagan = {
 		province = {
 			local_missionary_strength = 0.02
 		}
-		heretic = { SNAKE_CLAN }
+		heretic = { BALTIC_PAGAN_REFORMED SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }
 	}
 	baltic_pagan_reformed = {
 	icon = 53
@@ -677,7 +677,7 @@ pagan = {
 		fort_maintenance_modifier = -0.1
 		shock_damage_received = -0.1
 	}
-	heretic = { OLD_ROMUVA }	
+	heretic = { ANIMISM SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }	
 	can_have_secondary_religion = yes
 	}
 	shamanism = { #Fetishism, tag kept to avoid breaking saves.
@@ -695,7 +695,7 @@ pagan = {
 			loot_amount = 0.25
 		}
 		fetishist_cult = yes
-		heretic = { GOAT_SKULL }
+		heretic = { ANIMISM BALTIC_PAGAN_REFORMED FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }
 	}	
 	finnish_pagan_reformed = {
 		icon = 54
@@ -708,7 +708,7 @@ pagan = {
 			num_accepted_cultures = 1
 			defensiveness = 0.1
 		}
-		heretic = { OLD_SUOMENUSKO }	
+		heretic = { ANIMISM BALTIC_PAGAN_REFORMED SHAMANISM HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }	
 		can_have_secondary_religion = yes
 	}
 	hellenic_pagan = {
@@ -722,6 +722,7 @@ pagan = {
 			tolerance_heathen = 2
 			advisor_pool = 1
 		}
+		heretic = { ANIMISM BALTIC_PAGAN_REFORMED SHAMANISM FINNISH_PAGAN_REFORMED INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }
 		personal_deity = yes	
 	}
 	inti = {
@@ -741,11 +742,11 @@ pagan = {
 		authority = yes
 		religious_reforms = yes
 		reform_tooltip = INTI_REFORM_TOOLTIP
-		heretic = { INTI_HERETIC }	
+		heretic = { ANIMISM BALTIC_PAGAN_REFORMED SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }	
 	}
 	polynesian = {
 		color = { 237 181 121 }
-		icon = 12
+		icon = 29
 		country = {
 			may_explore = yes
 			global_colonial_growth = 20
@@ -753,6 +754,7 @@ pagan = {
 		country_as_secondary = {
 			colonists = 1
 		}
+		heretic = { ANIMISM BALTIC_PAGAN_REFORMED SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }
 		personal_deity = yes	
 	}
 	mesoamerican_religion = {
@@ -772,7 +774,7 @@ pagan = {
 		}
 		religious_reforms = yes
 		reform_tooltip = MESOAMERICAN_REFORM_TOOLTIP
-		heretic = { MESOAMERICAN_HERETIC }	
+		heretic = { ANIMISM BALTIC_PAGAN_REFORMED SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }	
 	}
 	nahuatl = {
 		color = { 64 115 64 }
@@ -793,7 +795,7 @@ pagan = {
 		declare_war_in_regency = yes
 		religious_reforms = yes
 		reform_tooltip = NAHUATL_REFORM_TOOLTIP
-		heretic = { NAHUATL_HERETIC }	
+		heretic = { ANIMISM BALTIC_PAGAN_REFORMED SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }	
 	}
 	norse_pagan_reformed = {
 		icon = 21
@@ -810,7 +812,7 @@ pagan = {
 			local_missionary_strength = 0.02
 		}
 		personal_deity = yes
-		heretic = { OLD_NORSE }	
+		heretic = { ANIMISM BALTIC_PAGAN_REFORMED SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }	
 	}
 	slavic_pagan_reformed = {
 		icon = 55
@@ -826,7 +828,7 @@ pagan = {
 			manpower_recovery_speed = 0.1
 			advisor_pool = 1
 		}
-		heretic = { OLD_SLAVIC }	
+		heretic = { ANIMISM BALTIC_PAGAN_REFORMED SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }	
 		can_have_secondary_religion = yes
         }
 	tengri_pagan_reformed = {
@@ -837,7 +839,7 @@ pagan = {
 			global_regiment_cost = -0.2
 		}
 			can_have_secondary_religion = yes
-			heretic = { OLD_TENGRI }
+			heretic = { ANIMISM BALTIC_PAGAN_REFORMED SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }
 		}
 	totemism = {
 		color = { 127 115 115 }
@@ -853,7 +855,7 @@ pagan = {
 		province = {
 			local_missionary_strength = 0.02
 		}
-		heretic = { BEAR_SPIRIT }	
+		heretic = { ANIMISM BALTIC_PAGAN_REFORMED SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED ZUN_PAGAN_REFORMED }	
 	}
 	zun_pagan_reformed = {
 		icon = 43
@@ -866,10 +868,10 @@ pagan = {
 			tolerance_own = 3
 			hostile_attrition = 1
 		}
-		heretic = { DARKNESS }	
+		heretic = { ANIMISM BALTIC_PAGAN_REFORMED SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM }	
 		can_have_secondary_religion = yes
 	}
-	crusade_name = CRUSADE
+	crusade_name = HOLY_WAR
 	harmonized_modifier = harmonized_pagan
 }
 ###################################
@@ -881,7 +883,6 @@ christian = {
 	center_of_religion = 118 # Rome
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
-
 ############################################CATHOLIC BASED FAITHS###################################################
 	anglican = {
 		color = { 181 119 119 }
@@ -923,7 +924,7 @@ christian = {
 			stability_aspect
 		}
 		aspects_name = ANGLICAN_ASPECTS
-		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
+		heretic = { CATHAR CATHOLIC FRATICELLI HUSSITE LOLLARD PROTESTANT REFORMED WALDENSIAN }
 		date = 1534.11.3 # act of supremacy
 		will_get_center = { #Refered to even for initial CoR Spawn
 			any_owned_province = {
@@ -1020,7 +1021,7 @@ christian = {
 			yearly_corruption = -0.1
 			advisor_pool = 1
 		}
-		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
+		heretic = { ANGLICAN CATHOLIC FRATICELLI HUSSITE LOLLARD PROTESTANT REFORMED WALDENSIAN }
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
 			organised_through_bishops_aspect
@@ -1096,7 +1097,6 @@ christian = {
 				}
 			}
 		}
-	
 }	
 	catholic = {
 		color = { 181 178 119 }
@@ -1113,6 +1113,11 @@ christian = {
 			reformed
 			waldensian
 		}
+		allowed_center_conversion = {
+			catholic
+			coptic
+			orthodox
+		}
 		country = {
 			tolerance_own = 1
 			tolerance_heretic = -1
@@ -1122,6 +1127,13 @@ christian = {
 			advisor_pool = 1
 		}
 		hre_religion = yes
+		will_get_center = { #Refered to even for initial CoR Spawn
+		any_owned_province = {
+			can_have_center_of_reformation_trigger = {
+				RELIGION = catholic
+			}
+		}
+	}
 		on_convert = {
 			change_religion = catholic
 			add_prestige = -100
@@ -1133,7 +1145,7 @@ christian = {
 				duration = 3650
 			}			
 		}
-			heretic = { BOGOMILIST WALDENSIAN FRATICELLI LOLLARD SOCINIAN }
+			heretic = { ANGLICAN CATHAR COPTIC FRATICELLI HUSSITE LOLLARD ORTHODOX PROTESTANT REFORMED WALDENSIAN }
 			papacy = {
 			papal_tag = PAP
 			election_cost = 5
@@ -1494,7 +1506,7 @@ christian = {
 			}
 		}
 	}
-		heretic = { BOGOMILIST WALDENSIAN HUSSITE LOLLARD SOCINIAN }
+		heretic = { ANGLICAN CATHAR CATHOLIC HUSSITE LOLLARD PROTESTANT REFORMED WALDENSIAN }
 	}
 	lollard = {
 		color = { 0 191 255 }
@@ -1542,7 +1554,7 @@ christian = {
 			punishment_of_sins_aspect
 			freedom_to_preach_aspect
 		}
-		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE SOCINIAN }
+		heretic = { ANGLICAN CATHAR CATHOLIC FRATICELLI HUSSITE PROTESTANT REFORMED WALDENSIAN }
 		will_get_center = { #Refered to even for initial CoR Spawn
 			any_owned_province = {
 				can_have_center_of_reformation_trigger = {
@@ -1649,7 +1661,7 @@ christian = {
 			freedom_to_preach_aspect
 		}
 		aspects_name = PROTESTANT_ASPECTS
-		heretic = { TABORITE UTRAQUIST ORPHAN }
+		heretic = { ANGLICAN CATHAR CATHOLIC FRATICELLI LOLLARD PROTESTANT REFORMED WALDENSIAN }
 		will_get_center = { #Refered to even for initial CoR Spawn
 			any_owned_province = {
 				can_have_center_of_reformation_trigger = {
@@ -1836,7 +1848,7 @@ christian = {
 				}
 			}
 		}
-		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
+		heretic = { ANGLICAN CATHAR CATHOLIC FRATICELLI HUSSITE LOLLARD REFORMED WALDENSIAN }
 		date = 1517.10.31
 	}
 	reformed = {
@@ -1959,7 +1971,7 @@ christian = {
 				}
 			}
 		}
-		heretic = { METHODIST BAPTIST QUAKER }
+		heretic = { ANGLICAN CATHAR CATHOLIC FRATICELLI HUSSITE LOLLARD PROTESTANT WALDENSIAN }
 		date = 1536.5.1
 		fervor = yes
 		hre_heretic_religion = yes
@@ -1996,7 +2008,7 @@ christian = {
 			technology_cost = -0.1
 		}
 		fervor = yes
-		heretic = { BOGOMILIST FRATICELLI HUSSITE LOLLARD SOCINIAN }
+		heretic = { ANGLICAN CATHAR CATHOLIC FRATICELLI HUSSITE LOLLARD PROTESTANT REFORMED }
 		will_get_center = { #Refered to even for initial CoR Spawn
 		any_owned_province = {
 			can_have_center_of_reformation_trigger = {
@@ -2059,7 +2071,6 @@ christian = {
 		}
 	}
 }
-
 ############################################ORTHODOX BASED FAITHS###################################################
 bogomilist = {
 	color = { 130 180 110 }
@@ -2082,7 +2093,7 @@ bogomilist = {
 		stability_cost_modifier = -0.10
 		tolerance_own = 1
 	}
-	heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
+	heretic = { ICONOCLAST MONOTITE ORTHODOX PAULICIAN }
 	has_patriarchs = yes
 	orthodox_icons = {
 		# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
@@ -2209,7 +2220,7 @@ bogomilist = {
 		raze_power_gain = 0.2
 		global_missionary_strength = 0.01
 	}
-	heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY }
+	heretic = { BOGOMILIST MONOTITE ORTHODOX PAULICIAN }
 	fervor = yes
 	misguided_heretic = yes		# Other christians hate them less
 }
@@ -2235,9 +2246,8 @@ bogomilist = {
 		province = {
 			local_missionary_strength = -0.01
 		}
-		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
+		heretic = { BOGOMILIST CATHOLIC COPTIC ICONOCLAST MONOTITE PAULICIAN }
 		has_patriarchs = yes		# Uses patriarch authority
-		misguided_heretic = yes		# Other christians hate them less
 		orthodox_icons = {
 			# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
 			icon_michael = {
@@ -2362,9 +2372,8 @@ bogomilist = {
 			tolerance_own = 1
 			global_autonomy = -0.05
 		}
-		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
+		heretic = { BOGOMILIST ICONOCLAST ORTHODOX PAULICIAN }
 		has_patriarchs = yes	# Uses patriarch authority
-		misguided_heretic = yes		# Other christians hate them less
 		orthodox_icons = {
 			icon_michael = {
 				war_taxes_cost_modifier = -0.1
@@ -2418,7 +2427,6 @@ bogomilist = {
 			}
 		}
 	}
-	
 	paulician = {
 		color = { 192 184 28 }
 		icon = 42
@@ -2439,9 +2447,8 @@ bogomilist = {
 			merc_maintenance_modifier = -0.1
 			global_regiment_cost = -0.1
 		}
-		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
+		heretic = { BOGOMILIST ICONOCLAST MONOTITE ORTHODOX }
 		has_patriarchs = yes		# Uses patriarch authority
-		misguided_heretic = yes		# Other christians hate them less
 		orthodox_icons = {
 			icon_michael = {
 				land_attrition = -0.1
@@ -2518,8 +2525,7 @@ bogomilist = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		heretic = { messalian monophysite nestorian }
-		misguided_heretic = yes
+		heretic = { CATHOLIC MESSALIAN MONOPHYSITE ORTHODOX NESTORIAN }
 		holy_sites = { 358 1227 2313 1234 419 }
 		blessings = {
 			legitimize_government
@@ -2529,9 +2535,6 @@ bogomilist = {
 			will_of_the_martyrs
 		}
 	}
-	harmonized_modifier = harmonized_christian
-	crusade_name = CRUSADE
-	
 	messalian = {
 		color = { 176 144 64 }
 		icon = 33
@@ -2553,11 +2556,9 @@ bogomilist = {
 			global_missionary_strength = 0.01
 			advisor_cost = -0.1
 		}
-		heretic = { coptic monophysite nestorian }
+		heretic = { COPTIC MONOPHYSITE NESTORIAN }
 		fervor = yes
-		misguided_heretic = yes		# Other christians hate them less
 	}
-
 	monophysite = {
 		color = { 103 108 92 }
 		icon = 38
@@ -2576,8 +2577,7 @@ bogomilist = {
 		country_as_secondary = {
 			global_tax_modifier = 0.25
 		}
-		heretic = { coptic messalian nestorian }
-		misguided_heretic = yes		# Other christians hate them less
+		heretic = { COPTIC MESSALIAN NESTORIAN }
 		holy_sites = { 358 1227 2313 1234 419 }
 		blessings = {
 			legitimize_government
@@ -2606,8 +2606,7 @@ bogomilist = {
 			adm_tech_cost_modifier = -0.1
 			tolerance_own = 1
 		}
-		heretic = { coptic messalian monophysite }
-		misguided_heretic = yes		# Other christians hate them less
+		heretic = { COPTIC MESSALIAN MONOPHYSITE }
 		holy_sites = { 358 1227 2313 1234 419 }
 		blessings = {
 			legitimize_government
@@ -2617,6 +2616,8 @@ bogomilist = {
 			will_of_the_martyrs
 		}
 	}
+	harmonized_modifier = harmonized_christian
+	crusade_name = CRUSADE
 }
 ###################################
 ###########ZOROASTRIAN#############
@@ -2635,17 +2636,8 @@ zoroastrian_group = {
 			stability_cost_modifier = -0.1
 			global_tax_modifier = 0.1
 		}
-		heretic = { MAZDAKI }
+		heretic = { MANICHEAN MAZDAKI ZOROASTRIAN }
 		#433
-		uses_anglican_power = yes				# Uses church power/aspect mechanics
-		aspects_name = ZOROASTRIAN_ASPECTS
-		aspects = {
-			zoro_immortals
-			zoro_legit
-			zoro_core
-			zoro_fort
-			zoro_range			
-		}
 	}
 	manichean = {
 		icon = 32
@@ -2658,17 +2650,8 @@ zoroastrian_group = {
 			tolerance_heathen = 2
 			global_missionary_strength = 0.01
 		}
-		heretic = { MAZDAKI }
+		heretic = { KHURMAZTA MAZDAKI ZOROASTRIAN }
 		#433
-		uses_anglican_power = yes				# Uses church power/aspect mechanics
-		aspects_name = ZOROASTRIAN_ASPECTS
-		aspects = {
-			zoro_immortals
-			zoro_legit
-			zoro_core
-			zoro_fort
-			zoro_range			
-		}
 	}
 	mazdaki = {
 		icon = 47
@@ -2681,17 +2664,8 @@ zoroastrian_group = {
 			global_unrest = -1
 			tolerance_heretic = 1
 		}
-			heretic = { MANICHEAN }
+			heretic = { KHURMAZTA MANICHEAN ZOROASTRIAN }
 		#433
-		uses_anglican_power = yes				# Uses church power/aspect mechanics
-		aspects_name = ZOROASTRIAN_ASPECTS
-		aspects = {
-			zoro_immortals
-			zoro_legit
-			zoro_core
-			zoro_fort
-			zoro_range			
-		}
 	}
 	zoroastrian = {
 		icon = 26
@@ -2707,17 +2681,8 @@ zoroastrian_group = {
 			merchants = 1
 			tolerance_own = 1
 		}
-			heretic = { MAZDAKI MANICHEAN }	
+			heretic = { KHURMAZTA MANICHEAN MAZDAKI }	
 		#433
-		uses_anglican_power = yes				# Uses church power/aspect mechanics
-		aspects_name = ZOROASTRIAN_ASPECTS
-		aspects = {
-			zoro_immortals
-			zoro_legit
-			zoro_core
-			zoro_fort
-			zoro_range			
-		}
 	}
 	harmonized_modifier = harmonized_zoroastrian_group
 	crusade_name = HOLY_WAR

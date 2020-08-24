@@ -122,3 +122,7 @@
  england_dynasty.1.b: "Allow Edward York to take the throne"
  england_dynasty.1.c: "Allow Richard Plantagenet to take the throne"
  england_dynasty.1.d: "Let them squabble among themselves. We shall abdicate without choosing a successor"
+ papalcor_title: "Fight against the heretics"
+ papalcor_desc: "We must fight back against the heretics of Christendom. We must bring the sheep back to our flock. Perhaps if we become a beacon of conversion again, they will listen. If we make sure we have a 10 development heretic province, we might just get a Center of Reformation!"
+ catholic_center_of_reformation: "Center of Reformation"
+ catholic_cor: "Beacon of Conversion"
