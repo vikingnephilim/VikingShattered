@@ -279,7 +279,7 @@ muslim = {
 	}
 	qarmatian = {
 		color = { 114 148 109 }
-		icon = 16
+		icon = 64
 		country = {
 			global_ship_cost = -0.1
 			heavy_ship_power = 0.1
@@ -387,7 +387,7 @@ muslim = {
 	}
 	sufri = {
 		color = { 77 107 88 }
-		icon = 5
+		icon = 65
 		country = {
 			defensiveness = 0.1
 			hostile_attrition = 1
@@ -589,7 +589,7 @@ dharmic = {
 		province = {
 			local_defensiveness = 0.1
 		}
-		heretic = { HINDUISM JAIN SIKHISM }
+		heretic = { HINDUISM JAIN SHAKTI SIKHISM VISHNUISM }
 		uses_karma = yes
 	}
 	hinduism = {
@@ -618,11 +618,11 @@ dharmic = {
 				duration = 3650
 			}
 		}
-		heretic = { BON JAIN SIKHISM }
+		heretic = { BON JAIN SHAKTI SIKHISM VISHNUISM }
 	}
 	shakti = {
 		color = { 20 36 107 }
-		icon = 8
+		icon = 66
 		allowed_conversion = {
 			bon
 			jain
@@ -646,15 +646,12 @@ dharmic = {
 				duration = 3650
 			}
 		}
-		heretic = { BON JAIN SIKHISM }
+		heretic = { BON JAIN HINDUISM SIKHISM VISHNUISM }
 	}
 	vishnuism = {
 		color = { 17 209 142 }
-		icon = 8
+		icon = 67
 		allowed_conversion = {
-			bon
-			jain
-			sikhism
 			hinduism
 		}
 		country = {
@@ -674,7 +671,7 @@ dharmic = {
 				duration = 3650
 			}
 		}
-		heretic = { BON JAIN SIKHISM }
+		heretic = { BON JAIN HINDUISM SHAKTI SIKHISM }
 	}
 	jain = {
 		icon = 59
@@ -696,7 +693,7 @@ dharmic = {
 			religious_unity = 0.75
 		}
 		uses_karma = yes
-		heretic = { BON HINDUISM SIKHISM }
+		heretic = { BON HINDUISM SHAKTI SIKHISM VISHNUISM }
 	}
 	sikhism = {
 		color = { 0 150 143 }
@@ -728,7 +725,7 @@ dharmic = {
 				duration = 3650
 			}
 		}
-		heretic = { BON HINDUISM JAIN }
+		heretic = { BON HINDUISM JAIN SHAKTI VISHNUISM }
 		date = 1499.01.01
 	}
 	harmonized_modifier = harmonized_dharmic
@@ -775,6 +772,20 @@ pagan = {
 	heretic = { ANIMISM SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }	
 	can_have_secondary_religion = yes
 	}
+	druidic_pagan = {
+        icon = 68
+        color = { 7 134 7 }
+        country = {
+            discipline = 0.05
+            female_advisor_chance = 0.5
+        }
+        country_as_secondary = {
+            discipline = 0.05
+            female_advisor_chance = 0.5
+        }
+		fetishist_cult = yes
+		heretic = { ANIMISM SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }
+    }
 	shamanism = { #Fetishism, tag kept to avoid breaking saves.
 		color = { 127 76 76 }
 		icon = 12
@@ -911,7 +922,7 @@ pagan = {
 	}
 	slavic_pagan_reformed = {
 		icon = 55
-		color = { 179 169 121 }
+		color = { 179 169 12 }
 		country = {
 			culture_conversion_cost = -0.15
 			global_missionary_strength = 0.03
@@ -2634,7 +2645,7 @@ bogomilist = {
 		flags_with_emblem_percentage = 20
 		flag_emblem_index_range = { 1 4 }
 		color = { 231 151 231 }
-		icon = 33
+		icon = 63
 		allowed_conversion = {
 			catholic
 			coptic
@@ -2859,7 +2870,7 @@ jewish_group = {
 		heretic = { SAMARITAN JEWISH }
 	}
 	haymanot_faith = {
-		icon = 50
+		icon = 62
 		color = { 148 160 252 }
 		country = {
 			defensiveness = 0.15
@@ -2882,7 +2893,7 @@ jewish_group = {
 			heretic = { KARAITE JEWISH SAMARITAN }
 	}
 	hasidic_faith = {
-		icon = 50
+		icon = 61
 		color = { 3 252 141 }
 		country = {
 			land_morale = 0.1

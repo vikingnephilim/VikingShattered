@@ -350,7 +350,7 @@ wickerman_cult = {
 	allow = {
 		religion = druidic_pagan
 	}
-	global_missionary_strenght = 0.03
+	global_missionary_strength = 0.03
 	ai_will_do = {
 		factor = 10
 	}
