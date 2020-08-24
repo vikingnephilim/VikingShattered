@@ -3,7 +3,7 @@
 owner = FAD
 controller = FAD
 culture = bedouin_arabic
-religion = sunni
+religion = nestorian
 capital = "Al Azraq"
 trade_goods = livestock
 hre = no

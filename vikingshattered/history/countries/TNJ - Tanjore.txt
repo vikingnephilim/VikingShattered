@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 technology_group = indian
-religion = hinduism
+religion = vishnuism
 primary_culture = tamil
 capital = 2026 #Tanjore
 fixed_capital = 2026 # Cannot move capital away from this province & no power cost to move to it

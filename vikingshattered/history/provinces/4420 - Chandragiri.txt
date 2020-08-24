@@ -3,7 +3,7 @@
 owner = KRK
 controller = KRK
 culture = telegu
-religion = hinduism
+religion = vishnuism
 capital = "Chandragiri"
 trade_goods = cotton
 hre = no

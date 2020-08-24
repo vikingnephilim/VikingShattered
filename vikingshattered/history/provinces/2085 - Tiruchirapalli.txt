@@ -3,7 +3,7 @@
 owner = TNJ
 controller = TNJ
 culture = tamil
-religion = hinduism
+religion = vishnuism
 capital = "Tiruchirapalli"
 trade_goods = cotton #Calicoes
 hre = no

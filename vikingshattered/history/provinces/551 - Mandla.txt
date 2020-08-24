@@ -3,7 +3,7 @@
 owner = GDW
 controller = GDW # Mandla
 culture = gondi
-religion = hinduism
+religion = shakti
 capital = "Mandla"
 trade_goods = tropical_wood
 hre = no
