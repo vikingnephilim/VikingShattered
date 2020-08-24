@@ -277,6 +277,22 @@ muslim = {
 		heretic = { HURUFI IBADI KHARIJITE SUNNI SHIITE YAZIDI ZIKRI }
 		uses_piety = yes				# Uses piety mechanics
 	}
+	qarmatian = {
+		color = { 114 148 109 }
+		icon = 16
+		country = {
+			global_ship_cost = -0.1
+			heavy_ship_power = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		country_as_secondary = {
+			naval_morale = 0.1
+		}
+		heretic = { HURUFI IBADI KHARIJITE SUNNI SHIITE YAZIDI ZIKRI }
+		uses_piety = yes				# Uses piety mechanics
+	}
 	hurufi = {
 		color = { 0 220 131 }
 		icon = 49
@@ -355,6 +371,22 @@ muslim = {
 		country_as_secondary = {
 			trade_efficiency = 0.1
 			heir_chance = 1.0
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		heretic = { DRUZE HURUFI IBADI KHARIJITE SHIITE YAZIDI ZIKRI }
+		uses_piety = yes				# Uses piety mechanics
+	}
+	sufri = {
+		color = { 77 107 88 }
+		icon = 5
+		country = {
+			defensiveness = 0.1
+			hostile_attrition = 1
+		}
+		country_as_secondary = {
+			hostile_attrition = 1
 		}
 		province = {
 			local_missionary_strength = -0.02
@@ -569,6 +601,62 @@ dharmic = {
 		country_as_secondary = {
 			tolerance_heretic = 1
 			tolerance_heathen = 2
+		}
+		personal_deity = yes
+		on_convert = {
+			change_religion = hinduism
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		heretic = { BON JAIN SIKHISM }
+	}
+	shakti = {
+		color = { 20 36 107 }
+		icon = 8
+		allowed_conversion = {
+			bon
+			jain
+			sikhism
+			hinduism
+		}
+		country = {
+			global_missionary_strength = 0.02
+			build_cost = -0.1
+			brahmins_hindu_influence_modifier = 0.2
+		}
+		country_as_secondary = {
+			build_cost = -0.15
+		}
+		personal_deity = yes
+		on_convert = {
+			change_religion = hinduism
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		heretic = { BON JAIN SIKHISM }
+	}
+	vishnuism = {
+		color = { 17 209 142 }
+		icon = 8
+		allowed_conversion = {
+			bon
+			jain
+			sikhism
+			hinduism
+		}
+		country = {
+			merchants = 1
+			global_trade_goods_size_modifier = 0.1
+			brahmins_hindu_influence_modifier = 0.2
+		}
+		country_as_secondary = {
+			build_cost = -0.15
 		}
 		personal_deity = yes
 		on_convert = {
@@ -2535,6 +2623,33 @@ bogomilist = {
 			will_of_the_martyrs
 		}
 	}
+	malankara = {
+		flags_with_emblem_percentage = 20
+		flag_emblem_index_range = { 1 4 }
+		color = { 231 151 231 }
+		icon = 33
+		allowed_conversion = {
+			catholic
+			coptic
+			messalian
+			monophysite
+			nestorian
+			orthodox
+		}
+		country = {
+			ae_impact = -0.1
+			global_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			ae_impact = -0.15
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		heretic = { messalian monophysite nestorian }
+		fervor = yes
+		misguided_heretic = yes
+	}
 	messalian = {
 		color = { 176 144 64 }
 		icon = 33
@@ -2735,6 +2850,52 @@ jewish_group = {
 			samaritan_faith
 		}
 		heretic = { SAMARITAN JEWISH }
+	}
+	haymanot_faith = {
+		icon = 50
+		color = { 148 160 252 }
+		country = {
+			defensiveness = 0.15
+			adm_tech_cost_modifier = -0.05
+			tolerance_heathen = -2
+		}
+		province = {
+			local_missionary_strength = -0.01
+			local_tax_modifier = 0.02
+		}
+		country_as_secondary = {
+			advisor_cost = -0.3
+		}
+		allowed_conversion = {
+			jewish
+			hasidic_faith
+			karaite_faith
+			samaritan_faith
+		}
+			heretic = { KARAITE JEWISH SAMARITAN }
+	}
+	hasidic_faith = {
+		icon = 50
+		color = { 3 252 141 }
+		country = {
+			land_morale = 0.1
+			adm_tech_cost_modifier = -0.05
+			tolerance_heathen = -2
+		}
+		province = {
+			local_missionary_strength = -0.01
+			local_tax_modifier = 0.02
+		}
+		country_as_secondary = {
+			advisor_cost = -0.3
+		}
+		allowed_conversion = {
+			jewish
+			haymanot_faith
+			karaite_faith
+			samaritan_faith
+		}
+			heretic = { KARAITE JEWISH SAMARITAN }
 	}
 	samaritan_faith = {
 		icon = 50
