@@ -356,8 +356,8 @@ wickerman_cult = {
 	}
 }
 
-druidic_emissaries = {
-	sprite = 8
+druidic_emissaries_cult = {
+	sprite = 3
 	allow = {
 		religion = druidic_pagan
 	}
@@ -368,7 +368,7 @@ druidic_emissaries = {
 }
 
 forest_mists_cult = {
-	sprite = 3
+	sprite = 8
 	allow = {
 		religion = druidic_pagan
 	}
@@ -413,7 +413,7 @@ christian_influences_cult = {
 }
 
 norse_influences_cult = {
-	sprite = 11
+	sprite = 15
 	allow = {
 		religion = druidic_pagan
 	}

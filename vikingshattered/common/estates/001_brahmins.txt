@@ -10,7 +10,7 @@ estate_brahmins = {
 				technology_group = indian
 				religion_group = muslim
 			}
-			religion = hinduism
+			religion_group = dharmic
 		}
 		NOT = { has_reform = pirate_republic_reform }
 		NOT = { has_reform = siberian_tribe }
@@ -60,7 +60,7 @@ estate_brahmins = {
 		}
 		modifier = {
 			factor = 2
-			religion = hinduism
+			religion_group = dharmic
 		}
 		modifier = {
 			factor = 2
@@ -81,25 +81,69 @@ estate_brahmins = {
 	influence_modifier = {
 		desc = EST_VAL_HINDU_MAJORITY
 		trigger = {
-			NOT = { religion = hinduism }
-			dominant_religion = hinduism
+			NOT = { religion_group = dharmic }
+			OR = { 
+				dominant_religion = hinduism 
+				dominant_religion = shakti 
+				dominant_religion = vishnuism
+				dominant_religion = bon 
+				dominant_religion = jain 
+			}
 		}	
 		influence = 10
 	}
 	influence_modifier = {
 		desc = EST_VAL_HINDU_PROVINCES
 		trigger = {
-			any_owned_province = { religion = hinduism }
-			NOT = { dominant_religion = hinduism }
-			NOT = { religion = hinduism }
+			any_owned_province = { 
+				OR = { 
+					religion = hinduism 
+					religion = shakti
+					religion = vishnuism 
+					religion = bon 
+					religion = jain 
+				}
+			}
+			NOT = { 
+				OR = { 
+				dominant_religion = hinduism 
+				dominant_religion = shakti 
+				dominant_religion = vishnuism
+				dominant_religion = bon 
+				dominant_religion = jain 
+			} 
+		}
+			NOT = { 
+				OR = { 
+				religion = hinduism 
+				religion = shakti
+				religion = vishnuism 
+				religion = bon 
+				religion = jain 
+				} 
+			}
 		}
 		influence = 5
 	}
 	influence_modifier = {
 		desc = EST_VAL_STATE_RELIGIOUS_MINORITY
 		trigger = {
-			religion = hinduism
-			NOT = { dominant_religion = hinduism }
+			OR = { 
+				religion = hinduism 
+				religion = shakti
+				religion = vishnuism 
+				religion = bon 
+				religion = jain 
+				} 
+			NOT = { 
+				OR = { 
+				dominant_religion = hinduism 
+				dominant_religion = shakti 
+				dominant_religion = vishnuism
+				dominant_religion = bon 
+				dominant_religion = jain 
+				} 
+			}
 		}	
 		influence = -15
 	}

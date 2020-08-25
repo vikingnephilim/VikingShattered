@@ -163,13 +163,15 @@ fighting_for_israel_reform = {
 	icon = landscape
 	allow_normal_conversion = yes
 	potential = {
-		religion = jewish
+		religion_group = jewish_group
 	}
 	trigger = {
-		religion = jewish
+		religion_group = jewish_group
 	}
 	modifiers = {
-		land_morale = 0.15
+		land_morale = 0.05
+		discipline = 0.05
+		mercenary_discipline = 0.1
 	}
 	ai = {
 		factor = 100

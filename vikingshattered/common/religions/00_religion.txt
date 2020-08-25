@@ -596,9 +596,9 @@ dharmic = {
 		color = { 0 190 200 }
 		icon = 8
 		allowed_conversion = {
-			bon
-			jain
 			sikhism
+			shakti
+			vishnuism
 		}
 		country = {
 			tolerance_heathen = 1
@@ -624,9 +624,7 @@ dharmic = {
 		color = { 20 36 107 }
 		icon = 66
 		allowed_conversion = {
-			bon
-			jain
-			sikhism
+			vishnuism
 			hinduism
 		}
 		country = {
@@ -635,11 +633,11 @@ dharmic = {
 			brahmins_hindu_influence_modifier = 0.2
 		}
 		country_as_secondary = {
-			build_cost = -0.15
+			stability_cost_modifier = -0.1
 		}
 		personal_deity = yes
 		on_convert = {
-			change_religion = hinduism
+			change_religion = shakti
 			add_prestige = -100
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -652,6 +650,7 @@ dharmic = {
 		color = { 17 209 142 }
 		icon = 67
 		allowed_conversion = {
+			shakti
 			hinduism
 		}
 		country = {
@@ -664,7 +663,7 @@ dharmic = {
 		}
 		personal_deity = yes
 		on_convert = {
-			change_religion = hinduism
+			change_religion = vishnuism
 			add_prestige = -100
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -2842,10 +2841,12 @@ jewish_group = {
 			local_missionary_strength = -0.02
 		}
 		allowed_conversion = {
-			samaritan_faith
+			hasidic_faith
+			haymanot_faith
 			karaite_faith
+			samaritan_faith
 		}
-		heretic = { SAMARITAN KARAITE }
+		heretic = { SAMARITAN_FAITH KARAITE_FAITH HASIDIC_FAITH HAYMANOT_FAITH }
 	}
 	karaite_faith = {
 		icon = 51
@@ -2865,9 +2866,11 @@ jewish_group = {
 		}
 		allowed_conversion = {
 			jewish
+			hasidic_faith
+			haymanot_faith
 			samaritan_faith
 		}
-		heretic = { SAMARITAN JEWISH }
+		heretic = { SAMARITAN_FAITH HASIDIC_FAITH HAYMANOT_FAITH JEWISH }
 	}
 	haymanot_faith = {
 		icon = 62
@@ -2890,7 +2893,7 @@ jewish_group = {
 			karaite_faith
 			samaritan_faith
 		}
-			heretic = { KARAITE JEWISH SAMARITAN }
+			heretic = { SAMARITAN_FAITH KARAITE_FAITH HASIDIC_FAITH JEWISH }
 	}
 	hasidic_faith = {
 		icon = 61
@@ -2913,7 +2916,7 @@ jewish_group = {
 			karaite_faith
 			samaritan_faith
 		}
-			heretic = { KARAITE JEWISH SAMARITAN }
+			heretic = { SAMARITAN_FAITH KARAITE_FAITH HAYMANOT_FAITH JEWISH }
 	}
 	samaritan_faith = {
 		icon = 50
@@ -2932,9 +2935,11 @@ jewish_group = {
 		}
 		allowed_conversion = {
 			jewish
+			hasidic_faith
+			haymanot_faith
 			karaite_faith
 		}
-			heretic = { KARAITE JEWISH }
+			heretic = { KARAITE_FAITH HASIDIC_FAITH HAYMANOT_FAITH JEWISH }
 	}
 	harmonized_modifier = harmonized_jewish_group
 	crusade_name = HOLY_WAR
