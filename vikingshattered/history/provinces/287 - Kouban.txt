@@ -3,7 +3,7 @@
 owner = AZV
 controller = AZV
 culture = crimean
-religion = orthodox
+religion = hasidic_faith
 hre = no
 base_tax = 3
 base_production = 3

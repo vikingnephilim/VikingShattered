@@ -346,6 +346,7 @@ country_decisions = {
     }
 
     reforms_GE_solar_kingdom_reform = {
+		major = yes
 		potential = {
 			government = monarchy
 			OR = {

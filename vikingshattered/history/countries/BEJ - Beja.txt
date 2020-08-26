@@ -8,7 +8,6 @@ religion = sunni
 primary_culture = beja
 capital = 1226
 government_rank = 1
-religious_school = maliki_school
 
 1444.1.1 = {
 	monarch = {

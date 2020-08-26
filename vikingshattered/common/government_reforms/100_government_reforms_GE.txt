@@ -625,9 +625,7 @@ austrian_empire_reform = {
 		harsh_treatment_cost = -0.15
 		monarch_diplomatic_power = 1
 		governing_capacity = 250
-	}
-	custom_attributes = {
-		enables_germanization = yes
+		num_accepted_cultures = 3
 	}
 	ai = {
 		factor = 102
@@ -674,8 +672,9 @@ granadan_iqta_reform = {
 		OR = {
 			AND = {
 				religion_group = muslim
-				primary_culture = andalusian
+				primary_culture = andalucian	
 			}
+			has_reform = iqta
 			has_reform = granadan_iqta_reform
 		}
 	}
@@ -683,17 +682,16 @@ granadan_iqta_reform = {
 		OR = {
 			AND = {
 				religion_group = muslim
-				primary_culture = andalusian
+				primary_culture = andalucian	
 			}
+			has_reform = iqta
 			has_reform = granadan_iqta_reform
 		}
 	}
 	modifiers = {
 		trade_efficiency = 0.10
 		global_trade_goods_size_modifier = 0.05
-	}
-	custom_attributes = {
-		enables_religious_supremacy = yes
+		global_heretic_missionary_strength = 0.02
 	}
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
@@ -744,11 +742,11 @@ hessian_modern_militarized_monarchy_reform = {
 	potential = {
 		OR = {
 			tag = HES
-			has_reform = hessian_modern_militarized_monarchy_reform
+			has_reform = hessian_militarized_monarchy_reform
 		}
 	}
 	trigger = {
-		has_reform = hessian_modern_militarized_monarchy_reform
+		has_reform = hessian_militarized_monarchy_reform
 		absolutism = 50
 	}
 	modifiers = {
@@ -802,9 +800,7 @@ achaemenid_empire_reform = {
 	modifiers = {
 		prestige = 1
 		governing_capacity = 250
-	}
-	custom_attributes = {
-		enables_religious_supremacy = yes
+		global_missionary_strength = 0.02
 	}
 	ai = {
 		factor = 100
@@ -1348,6 +1344,7 @@ papal_embassy_reform = {
 		religion = catholic
 	}
 	modifiers = {
+		tolerance_own = 0.5
 		papal_influence = 1.5
 		church_loyalty_modifier = 0.05
 		church_influence_modifier = 0.05
@@ -1363,9 +1360,6 @@ papal_embassy_reform = {
 			which = Clergy_Influence
 			value = -1
 		}
-	}
-	custom_attributes = {
-		enables_papal_delegation = yes #25 opinion with the pope
 	}
 	ai = {
 		factor = 1
@@ -1537,9 +1531,7 @@ diplomatic_positions_reform = {
 	}
 	modifiers = {
 		diplomatic_reputation = 1
-	}
-	custom_attributes = {
-		enables_noble_diplomats = yes #privileges for 25 opinion//10% improve relation
+		diplomatic_upkeep = 2
 	}
 
 	ai = {
@@ -1749,10 +1741,8 @@ portuguese_cortes_reform = {
 	}
 	modifiers = {
 		legitimacy = 0.5
+		monthly_splendor = 1
 	}
-	custom_attributes = {
-		enables_cortes = yes #pseudoparliament
-	}#fixdis every option is the same
 	ai = {
 		factor = 100
 	}
@@ -2243,9 +2233,7 @@ imperial_knights_reform = {
 	modifiers = {
 		min_autonomy = 15
 		leader_land_shock = 1
-	}
-	custom_attributes = {
-		enables_imperial_knights = yes #Unlocks Imperial Knights Mercenary Company
+		merc_maintenance_modifier = -0.1
 	}
 	ai = {
 		factor = 10
@@ -2453,8 +2441,9 @@ taha_divisions_reform = {
 		OR = {
 			AND = {
 				religion_group = muslim
-				culture_group = iberian	
+				primary_culture = andalucian	
 			}
+			has_reform = granadan_iqta_reform
 			has_reform = taha_divisions_reform 
 		}
 	}
@@ -2462,8 +2451,9 @@ taha_divisions_reform = {
 		OR = {
 			AND = {
 				religion_group = muslim
-				culture_group = iberian	
+				primary_culture = andalucian
 			}
+			has_reform = granadan_iqta_reform
 			has_reform = taha_divisions_reform 
 		}
 	}
@@ -2790,15 +2780,13 @@ turkic_qasilbash_heirs_reform = {
 	modifiers = {
 		missionary_maintenance_cost = -0.25
 		cav_to_inf_ratio = 0.15
+		merc_maintenance_modifier = -0.1
 	}
 	removed_effect = {
 		change_variable = {
 			which = Noble_Influence
 			value = -1
 		}
-	}
-	custom_attributes = {
-		enables_qizilbash_company = yes #unlocks qizilbash mercenaries
 	}
 	ai = {
 		factor = 100
@@ -2898,10 +2886,8 @@ timariot_domains_reform = {
 	}
 	modifiers = {
 		cavalry_cost = -0.10
+		cavalry_flanking = 0.15
 		nobles_loyalty_modifier = 0.05
-	}
-	 custom_attributes = {
-		enables_timariots = yes #Unlocks the 'Timariot Governance' Noble Estate Privilege.
 	}
 	ai = {
 		factor = 100
@@ -3558,9 +3544,6 @@ guidance_of_the_dalai_llama_reform = {
 		church_loyalty_modifier = 0.05
 		church_influence_modifier = 0.10
 	}
-	custom_attributes = {
-		enables_holy_lhasa = yes #Provide a malus that if Lhasa province is not Vajrayana, gain +2 unrest 
-	}
 	ai = {
 		factor = 1
 	}
@@ -4169,9 +4152,8 @@ re_enforce_magdeburg_rights_reform = {
 	}
 	modifiers = {
 		trade_efficiency = 0.10
-	}
-	custom_attributes = {
-		enables_town_rights = yes #Unlock Burgher Privilege 'Town Rights', +10% Goods Produced and -20% development cost depending on lands.
+		global_trade_goods_size_modifier = 0.1
+		development_cost = -0.05
 	}
 	ai = {
 		factor = 100
@@ -5082,9 +5064,6 @@ szlachta_recruits_reform = {
 		army_tradition_decay = -0.005
 		nobles_influence_modifier = 0.05
 	}
-	custom_attributes = {
-		enables_veteran_general = yes
-	}
 	ai = {
 		factor = 10
 	}
@@ -5125,9 +5104,6 @@ voivode_captains_reform = {
 		prestige = 0.5
 		nobles_influence_modifier = 0.05
 	}
-	custom_attributes = { 
-		enables_veteran_general = yes
-	}
 	ai = {
 		factor = 10
 	}
@@ -5164,9 +5140,6 @@ boyar_scions_reform = {
 		stability_cost_modifier = -0.15
 		nobles_influence_modifier = 0.05
 	}
-	custom_attributes = { 
-		enables_veteran_general = yes
-	}
 	ai = {
 		factor = 10
 	}
@@ -5202,9 +5175,8 @@ imperial_circles_administration_reform = {
 	modifiers = {
 		global_unrest = -1
 		accept_vassalization_reasons = 10
-	}
-	custom_attributes = {
-		enables_town_rights = yes #Unlock Burgher Privilege 'Town Rights', +10% Goods Produced and -20% development cost depending on lands.
+		development_cost = -0.1
+		global_trade_goods_size_modifier = 0.1
 	}
 	ai = {
 		factor = 10
@@ -5649,7 +5621,7 @@ cultural_investment_reform = {
 		OR = {
 			AND = {
 				religion_group = muslim
-				culture_group = iberian	
+				culture_group = maghrebi	
 			}
 			has_reform = cultural_investment_reform 
 		}
@@ -5658,7 +5630,7 @@ cultural_investment_reform = {
 		OR = {
 			AND = {
 				religion_group = muslim
-				culture_group = iberian	
+				culture_group = maghrebi	
 			}
 			has_reform = cultural_investment_reform 
 		}
@@ -5717,10 +5689,6 @@ empowered_of_noble_bearing_reform = {
 		leader_cost = -0.1
 		nobles_influence_modifier = 0.10
 		nobles_loyalty_modifier = 0.05
-	}
-	custom_attributes = {
-		enables_general_connections = yes # 0.1 Army Tradition per General, 0.1 Naval Tradition per Admiral
-		enables_veteran_general = yes #60 AT General instead of 40 AT General
 	}
 	ai = {
 		factor = 10
@@ -5895,9 +5863,6 @@ eunich_administration_reform = {
 		num_accepted_cultures = 1
 		legitimacy = 0.5
 	}
-	custom_attributes = {
-		enables_eastern_courts = yes
-	}
 	ai = {
 		factor = 100
 	}
@@ -5923,10 +5888,9 @@ civil_servant_reform = {
 		}
 	}
 	modifiers = {
-		governing_capacity = 250
-	}
-	custom_attributes = {
-		enables_eastern_courts = yes
+		free_adm_policy = 1
+		num_accepted_cultures = 1
+		legitimacy = 0.5
 	}
 	ai = {
 		factor = 100
@@ -6005,9 +5969,8 @@ kiwi_support_reform = {
 	}
 	modifiers = {
 		global_trade_power = 0.10
-	}
-	custom_attributes = {
-		enables_kiwi_support = yes #5% ship trade power per merchant.
+		naval_tradition_from_trade = 0.15
+		center_of_trade_upgrade_cost = -0.1
 	}
 	ai = {
 		factor = 100
@@ -6805,9 +6768,7 @@ noble_electors_reform = {
 	modifiers = {
 		monarch_military_power = 1
 		max_absolutism = -5
-	}
-	custom_attributes = {
-		enables_noble_electors = yes
+		monthly_support_heir_gain = 0.1
 	}
 	ai = {
 		factor = 1
@@ -6822,9 +6783,7 @@ royal_electors_reform = {
 	}
 	modifiers = {
 		max_absolutism = 10
-	}
-	custom_attributes = {
-		enables_royal_electors = yes
+		monthly_support_heir_gain = 0.1
 	}
 	ai = {
 		factor = 1
@@ -6840,9 +6799,7 @@ parliamental_electors_reform = {
 	}
 	modifiers = {
 		legitimacy = 0.5
-	}
-	custom_attributes = {
-		enables_bureacratic_apparatus = yes
+		monthly_support_heir_gain = 0.1
 	}
 	ai = {
 		factor = 1
@@ -6858,9 +6815,7 @@ papal_electors_reform = {
 	}
 	modifiers = {
 		tolerance_own = 1
-	}
-	custom_attributes = {
-		enables_papal_favor = yes
+		monthly_support_heir_gain = 0.1
 	}
 	ai = {
 		factor = 1
@@ -7599,9 +7554,6 @@ mercenary_corps_reform = {
 		reinforce_speed = 0.25
 		merc_maintenance_modifier = -0.25
 	}
-	custom_attributes = {
-		enables_foreign_worship = yes #10% Religious Unity if you employ mercenaries
-	}
 	ai = {
 		factor = 1
 	}
@@ -8317,9 +8269,7 @@ arabian_horses_reform = {
 	modifiers = {
 		cavalry_flanking = 0.5
 		shock_damage = 0.05
-	}
-	custom_attributes = {
-		enables_arabian_horses = yes # 3% Cavalry Combat Ability per Arab vassal
+		movement_speed = 0.1
 	}
 	ai = {
 		factor = 100
@@ -8508,7 +8458,7 @@ berber_cavalry_reform = {
 		OR = {
 			AND = {
 				religion_group = muslim
-				culture_group = iberian	
+				culture_group = maghrebi	
 			}
 			has_reform = berber_cavalry_reform 
 		}
@@ -8517,7 +8467,7 @@ berber_cavalry_reform = {
 		OR = {
 			AND = {
 				religion_group = muslim
-				culture_group = iberian	
+				culture_group = maghrebi	
 			}
 			has_reform = berber_cavalry_reform 
 		}
@@ -8526,9 +8476,7 @@ berber_cavalry_reform = {
 		cavalry_power = 0.10
 		land_morale = 0.05
 		monthly_piety = -0.001
-	}
-	custom_attributes = {
-		enables_grazing_herds = yes #-5% Development Cost and Culture Conversion Cost in Iberian Hills and Drylands
+		cavalry_cost = -0.1
 	}
 	ai = {
 		factor = 100
@@ -9382,14 +9330,14 @@ hermit_kingdom_reform = {
 	nation_designer_cost = 30
 	potential = {
 		OR = {
-			primary_culture = korean 
+			culture_group = korean_g 
 			has_reform = hermit_kingdom_reform
 		}
 	}
 	trigger = {
 		OR = {
 			has_reform = hermit_kingdom_reform
-			primary_culture = korean
+			culture_group = korean_g
 		}
 	}
 	modifiers = {
@@ -9404,14 +9352,14 @@ nobi_jongbubub_reform= {
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
-			primary_culture = korean
+			culture_group = korean_g
 			has_reform = nobi_jongbubub_reform
 		}
 	}
 	trigger = {
 		OR = {
+			culture_group = korean_g
 			has_reform = nobi_jongbubub_reform
-			primary_culture = korean
 		}
 	}
 	effect = {
@@ -9439,14 +9387,14 @@ nobi_jongmobub_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
-			primary_culture = korean
+			culture_group = korean_g
 			has_reform = nobi_jongmobub_reform
 		}
 	}
 	trigger = {
 		OR = {
 			has_reform = nobi_jongmobub_reform
-			primary_culture = korean
+			culture_group = korean_g
 		}
 	}
 	effect = {
@@ -9508,14 +9456,14 @@ bangyesurok_reform = {
 	}
 	potential = {
 		OR = {
-			primary_culture = korean
+			culture_group = korean_g
 			has_reform = bangyesurok_reform 
 		}
 	}
 	trigger = {
 		OR = {
 			has_reform = bangyesurok_reform
-			primary_culture = korean
+			culture_group = korean_g
 		}
 	}
 	modifiers = {
@@ -9539,13 +9487,13 @@ euijung_bu_seosajae_reform= {
 	potential = {
 		OR = {
 			has_reform = euijung_bu_seosajae_reform
-			primary_culture = korean
+			culture_group = korean_g
 		}
 	}
 	trigger = {
 		OR = {
 			has_reform = euijung_bu_seosajae_reform
-			primary_culture = korean
+			culture_group = korean_g
 		}
 	}
 }
@@ -9559,13 +9507,13 @@ jaeseungbangryak_reform = {
 	potential = {
 		OR = {
 			has_reform = jaeseungbangryak_reform
-			primary_culture = korean
+			culture_group = korean_g
 		}
 	}
 	trigger = {
 		OR = {
 			has_reform = jaeseungbangryak_reform
-			primary_culture = korean
+			culture_group = korean_g
 		}
 	}
 	custom_attributes = {
@@ -9591,13 +9539,13 @@ five_military_force_reform = {
 	potential = {
 		OR = {
 			has_reform = five_military_force_reform
-			primary_culture = korean
+			culture_group = korean_g
 		}
 	}
 	trigger = {
 		OR = {
 			has_reform = five_military_force_reform
-			primary_culture = korean
+			culture_group = korean_g
 		}
 	}
 }
@@ -9613,13 +9561,13 @@ bureaucratic_economy_reform = {
 	potential = {
 		OR = {
 			has_reform = bureaucratic_economy_reform
-			primary_culture = korean
+			culture_group = korean_g
 		}
 	}
 	trigger = {
 		OR = {
 			has_reform = bureaucratic_economy_reform
-			primary_culture = korean
+			culture_group = korean_g
 		}
 	}
 	custom_attributes = {
@@ -9635,13 +9583,13 @@ korean_bureaucracy_reform = {
 	potential = {
 		OR = {
 			has_reform = korean_bureaucracy_reform
-			primary_culture = korean
+			culture_group = korean_g
 		}
 	}
 	trigger = {
 		OR = {
 			has_reform = korean_bureaucracy_reform
-			primary_culture = korean
+			culture_group = korean_g
 		}
 	}
 	custom_attributes = {

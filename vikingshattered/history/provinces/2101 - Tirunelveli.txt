@@ -3,7 +3,7 @@
 owner = MAD
 controller = MAD
 culture = tamil
-religion = hinduism
+religion = vishnuism
 capital = "Tirunelveli"
 trade_goods = gems #Pearls
 hre = no

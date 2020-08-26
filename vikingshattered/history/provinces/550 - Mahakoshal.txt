@@ -3,7 +3,7 @@
 owner = GDW
 controller = GDW
 culture = gondi
-religion = hinduism
+religion = shakti
 capital = "Garha"
 trade_goods = grain
 hre = no

@@ -7,7 +7,6 @@ religion = sunni
 government = monarchy
 add_government_reform = iqta
 capital = 454 # Samarkand
-religious_school = hanafi_school
 
 1409.5.13 = {
 	monarch = {

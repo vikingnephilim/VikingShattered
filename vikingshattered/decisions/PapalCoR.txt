@@ -5,12 +5,6 @@ country_decisions = {
 		tag = PAP
 		religion = catholic
 		is_religion_enabled = protestant
-		random_owned_province = {
-			limit = {
-					development = 10
-					NOT = { religion = catholic }
-					}
-		}
 		NOT = { has_country_flag = catholic_cor }
 	}
 	allow = {
@@ -18,12 +12,6 @@ country_decisions = {
 		religion = catholic
 		is_religion_enabled = protestant
 		NOT = { has_country_flag = catholic_cor }
-		random_owned_province = {
-			limit = {
-					development = 10
-					NOT = { religion = catholic }
-					}
-		}
 	}
 	effect = {
 		set_country_flag = catholic_cor

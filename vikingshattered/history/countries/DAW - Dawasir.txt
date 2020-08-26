@@ -4,9 +4,6 @@ technology_group = muslim
 primary_culture = najdi_arabic
 religion = sunni
 capital = 2335 # Wadi al Dawasir
-religious_school = hanbali_school
-
-#Dawasir Tribe
 
 1440.1.1 = { #Fictional
 	monarch = {

@@ -3,7 +3,7 @@
 owner = GNG
 controller = GNG
 culture = tamil
-religion = hinduism
+religion = vishnuism
 capital = "Kuddaluru"
 trade_goods = cloth
 hre = no

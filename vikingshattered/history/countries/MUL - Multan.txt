@@ -5,9 +5,6 @@ religion = zikri
 technology_group = indian
 capital = 506	# Multan
 fixed_capital = 506 # Cannot move capital away from this province & no power cost to move to it
-religious_school = hanafi_school
-
-#Langas
 
 1437.1.1 = {
 	monarch = {

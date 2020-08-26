@@ -5,7 +5,6 @@ religion = sunni
 technology_group = chinese
 capital = 596	# Malacca
 fixed_capital = 596 # Cannot move capital away from this province & no power cost to move to it
-religious_school = shafii_school
 
 1444.1.1 = {
 	monarch = {

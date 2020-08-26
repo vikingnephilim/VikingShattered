@@ -73,7 +73,15 @@ estate_rajput = {
 		}
 		modifier = {
 			factor = 0.5
-			NOT = { religion = hinduism }
+			NOT = { 
+				OR = { 
+				religion = hinduism 
+				religion = shakti
+				religion = vishnuism 
+				religion = bon 
+				religion = jain 
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -116,7 +124,15 @@ estate_rajput = {
 	influence_modifier = {
 		desc = EST_VAL_RULED_BY_NON_HINDU
 		trigger = {
-			NOT = { religion = hinduism }
+			NOT = { 
+				OR = { 
+					religion = hinduism 
+					religion = shakti
+					religion = vishnuism 
+					religion = bon 
+					religion = jain 
+				}
+			 }
 			any_owned_province = {
 				NOT = { religion_group = dharmic }
 			}

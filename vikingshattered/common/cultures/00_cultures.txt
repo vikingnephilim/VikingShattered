@@ -3342,6 +3342,35 @@ baltic	= {
 		}
 	}
 	
+	lithuanian = {
+		male_names = {
+			Aishno Ako Ankad Baise Balodis Bikshe Borut Bulei Butovit Cirulis Dangeruthe Darbeslave 
+			Davins Demas Dobre Dovyat Dzintis Dausprungas Imanta
+			Elmede Erasts Erdzivil Galeine Gastile Gedere Gerden Gibedats Giemund Golovke Gotene Gunvald 
+			Janis John Jaunule Jedetus Juvage Kage Likiik
+			Kaire Karijotas Karnak Kaupo Kerstigens Kiten Klavess Kodere Kuliens Kurlemuse Lammekinus 
+			Litto Lonkogveni Manvydas Meinekinus Shutr
+			Mendune Nameisis Narvait Pliksov Pukiik Pukuveras Ringaudas Rushky Rusins Sabe Sargun Scurdo 
+			Shvarnas Skornand Sprudeik Stegut Viesturs
+			Steikint Sviendorog Talivaldis Tautvila Traidenis Treniota Vaishvilkas Valikaila Vetseke 
+			Visheiv Vishikut Vishly Vykantas Yudki 
+		}
+		female_names = {
+			Agita Ausala Balba Bitens Brita Daira Darate Dardedze Dose Dzeguze Galene Greze Gunda Gundega 
+			Imela Kordula Liga Maija Marite Naula Rasa Ruta Savna Viba Zigne Ieva
+		}
+		dynasty_names = {
+			Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski
+			Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
+			# CKII
+			"von Finckenstein" "Wilks" "Klakis" "Luks" "Kuilis" "Kalabijjan" "von Preussen" "von Königsberg" 
+			"Jankowskie" "von Danzig" "von Seidlitz" "von Marienburg" "Konopacki"
+			"von Memel" "von Kurs" "von Rohrbach" "Penikis" "Tontegode" "Vidins" "Draguns" "Sirkants"
+			# Ugric Baltic
+			"Karasi" "Ingrija" "Saaremaa" "Revala" "Virumaa" "Läänemaa" "Vaiga" "Ingeri" "Ingeri" "Livo" "Harjumaa" "Virumaa" 
+			"Ridala" "Saaremaa" "Vaiga" "Turaida"
+		}
+	}
 	male_names = {
 		Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas 
 		Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas

@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = amhara
-religion = jewish
+religion = haymanot_faith
 technology_group = muslim
 unit_type = sub_saharan
 capital = 2771		# Semien

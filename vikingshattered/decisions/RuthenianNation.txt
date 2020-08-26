@@ -13,10 +13,7 @@ country_decisions = {
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }			
 			NOT = { exists = UKR }
-			OR = {
-				primary_culture = byelorussian
-				primary_culture = ruthenian
-			}
+			culture_group = ruthenian_group
 			OR = {
 				ai = no
 				AND = {

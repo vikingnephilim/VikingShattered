@@ -6,7 +6,6 @@ technology_group = east_african
 unit_type = sub_saharan
 capital = 1203	# Malindi
 fixed_capital = 1203 # Cannot move capital away from this province & no power cost to move to it
-religious_school = shafii_school
 
 #Malindi 
 #Al-Malindi dynasty / Bauri Sheiks

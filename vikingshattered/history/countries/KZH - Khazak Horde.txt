@@ -4,7 +4,6 @@ primary_culture = khazak
 religion = sunni
 technology_group = nomad_group
 capital = 1969	# Sozak
-religious_school = hanafi_school
 
 1443.1.1 = {
 	monarch = {

@@ -6,7 +6,6 @@ unit_type = sub_saharan
 religion = sunni
 primary_culture = somali
 capital = 2789 #Las Khorey
-religious_school = shafii_school
 
 1430.1.1 = {
 	monarch = {

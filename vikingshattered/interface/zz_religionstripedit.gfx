@@ -1,0 +1,77 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_icon_religion"
+		texturefile = "gfx/interface/icon_religion.tga"
+		noOfFrames = 68
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_religion_small"
+		texturefile = "gfx/interface/icon_religion_small.tga"
+		noOfFrames = 68
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_religion_icon_strip"
+		texturefile = "gfx/interface/icon_religion_small.dds"
+		transparencecheck = yes
+		noOfFrames = 68
+	}
+	
+	spriteType = {
+		name = "GFX_province_view_religion"
+		texturefile = "gfx/interface/province_view_religion.tga"
+		noOfFrames = 68
+		loadType = "INGAME"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_country_icon_religion"
+		texturefile = "gfx//interface//country_icon_religion.dds"
+		noOfFrames = 68		
+	}
+
+	spriteType = {
+		name = "GFX_hindu_deities_strip"
+		texturefile = "gfx//interface//hindu_deities_strip.dds"
+		noOfFrames = 24
+	}
+	
+	spriteType = {
+		name = "GFX_temple_hellenic_pagan"
+		texturefile = "gfx//interface//buildings//latin_temple.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_cathedral_hellenic_pagan"
+		texturefile = "gfx//interface//buildings//latin_cathedral.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_icon_muslim_school_barelvi"
+		texturefile = "gfx/interface/icon_muslim_school_barelvi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_muslim_school_akbari"
+		texturefile = "gfx/interface/icon_muslim_school_akbari.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_muslim_school_usuli"
+		texturefile = "gfx/interface/icon_muslim_school_usuli.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_muslim_school_quranism"
+		texturefile = "gfx/interface/icon_muslim_school_quranism.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_muslim_school_nizari"
+		texturefile = "gfx/interface/icon_muslim_school_nizari.dds"
+	}
+}

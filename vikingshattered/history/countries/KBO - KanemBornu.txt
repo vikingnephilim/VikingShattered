@@ -7,7 +7,6 @@ unlock_cult = nyame_cult
 religion = sunni
 primary_culture = kanuri
 capital = 1157	# Gatiga, Gazargamu
-religious_school = maliki_school
 
 1422.1.1 = {
 	monarch = {

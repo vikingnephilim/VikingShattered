@@ -2,7 +2,7 @@ government = monarchy
 government_rank = 1
 technology_group = muslim
 primary_culture = bedouin_arabic
-religion = nestorian
+religion = samaritan_faith
 capital = 380 #Al Karak 
 
 

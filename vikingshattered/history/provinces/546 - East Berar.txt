@@ -3,7 +3,7 @@
 owner = BRR
 controller = BRR
 culture = gondi
-religion = hinduism
+religion = shakti
 capital = "Wairagarh"
 trade_goods = cotton
 hre = no

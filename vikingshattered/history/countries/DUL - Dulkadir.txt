@@ -5,7 +5,6 @@ primary_culture = turkish
 religion = hurufi
 technology_group = ottoman
 capital = 332	# Dulkadir
-religious_school = hanafi_school
 
 1442.1.1 = {
 	monarch = {

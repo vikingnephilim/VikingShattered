@@ -3,7 +3,7 @@
 owner = MLW
 controller = MLW
 culture = malvi
-religion = hinduism
+religion = shakti
 capital = "Ujjain"
 trade_goods = spices
 hre = no

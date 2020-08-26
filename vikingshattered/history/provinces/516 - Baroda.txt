@@ -3,7 +3,7 @@
 owner = IDR
 controller = IDR
 culture = gujarati
-religion = hinduism
+religion = shakti
 capital = "Baroda"
 trade_goods = dyes
 hre = no

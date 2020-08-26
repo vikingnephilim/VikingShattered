@@ -4,7 +4,6 @@ primary_culture = kazani
 religion = sunni
 technology_group = nomad_group
 capital = 1082	# Kazan
-religious_school = hanafi_school
 
 1438.1.1 = {
 	monarch = {

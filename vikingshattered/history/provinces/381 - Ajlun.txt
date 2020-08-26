@@ -3,7 +3,7 @@
 owner = JOR
 controller = JOR
 culture = al_suryah_arabic
-religion = nestorian
+religion = samaritan_faith
 capital = "Ajlun"
 trade_goods = grain
 hre = no

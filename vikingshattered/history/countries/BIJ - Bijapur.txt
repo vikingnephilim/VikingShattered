@@ -6,7 +6,6 @@ primary_culture = kannada
 add_accepted_culture = marathi
 capital = 569	# Bijapur
 fixed_capital = 569 # Cannot move capital away from this province & no power cost to move to it
-religious_school = jafari_school
 
 1440.1.1 = {
 	monarch = {

@@ -4,7 +4,6 @@ primary_culture = al_suryah_arabic
 religion = druze
 technology_group = muslim
 capital = 382	# Damascus
-religious_school = shafii_school
 
 1426.1.1 = { 
 	monarch = {

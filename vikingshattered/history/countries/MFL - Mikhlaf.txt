@@ -5,9 +5,6 @@ primary_culture = hejazi_culture
 religion = shiite
 capital = 2346 #Asir
 government_rank = 1
-religious_school = ismaili_school
-
-#Sharifs of Abu Arish since 13th century, independent due to waning Rasulid influence
 
 1430.1.1 = {
 	monarch = {

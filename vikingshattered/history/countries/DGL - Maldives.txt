@@ -4,7 +4,6 @@ technology_group = indian
 religion = sunni
 primary_culture = malayalam
 capital = 1248	# Malé
-religious_school = shafii_school
 
 1443.1.1 = {
 	monarch = {

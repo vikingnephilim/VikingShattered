@@ -3,7 +3,7 @@
 owner = FEO
 controller = FEO 
 culture = cimmerian
-religion = orthodox
+religion = hasidic_faith
 hre = no
 base_tax = 4
 base_production = 4

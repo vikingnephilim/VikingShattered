@@ -6,6 +6,7 @@ estate_jains = {
 	trigger = {	
 		has_dlc = "Dharma"
 		technology_group = indian
+		NOT = { religion = jain }
 		NOT = { is_revolutionary_republic_trigger = yes }
 		NOT = { government = native }
 		NOT = { has_reform = siberian_tribe }

@@ -3,7 +3,6 @@ add_government_reform = monastic_order_reform
 government_rank = 1
 technology_group = western
 primary_culture = prussian
-add_accepted_culture = latvian
 add_accepted_culture = estonian
 religion = catholic
 capital = 37	# Livland

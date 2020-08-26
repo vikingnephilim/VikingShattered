@@ -4,7 +4,6 @@ primary_culture = astrakhani
 religion = sunni
 technology_group = nomad_group
 capital = 464	# Astrakhan
-religious_school = hanafi_school
 
 1444.1.1 = {
 

@@ -4,7 +4,7 @@ primary_culture = sumatran
 religion = sunni
 technology_group = chinese
 capital = 617	# Banda Aceh
-religious_school = shafii_school
+
 1443.1.1 = {
 	monarch = {
 		name = "'Alî Mugâyat Shâh"

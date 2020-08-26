@@ -3,7 +3,7 @@
 owner = BRR
 controller = BRR
 culture = marathi
-religion = hinduism
+religion = shakti
 capital = "Illichpur"
 trade_goods = copper
 hre = no

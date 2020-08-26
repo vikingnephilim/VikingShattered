@@ -4,7 +4,6 @@ primary_culture = javanese
 religion = sunni
 technology_group = chinese
 capital = 626	# Karta
-religious_school = shafii_school
 
 1441.1.1 = {
 	monarch = {

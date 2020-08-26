@@ -5,7 +5,6 @@ religion = sunni
 primary_culture = berber
 capital = 336 # Tlemcen
 fixed_capital = 336 # Cannot move capital away from this province & no power cost to move to it
-religious_school = maliki_school
 
 change_estate_land_share = {
 	estate = estate_nobles

@@ -5,9 +5,6 @@ primary_culture = baluchi
 religion = sunni
 technology_group = muslim
 capital = 434	# Quhistan
-religious_school = shafii_school
-
-#Mirwaris, ancestors of later Kambarani dynasty:
 
 1444.1.1 = {
 	monarch = {

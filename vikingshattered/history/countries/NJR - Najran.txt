@@ -5,9 +5,6 @@ religion = shiite
 technology_group = muslim
 capital = 391	# Najran
 government_rank = 1
-religious_school = ismaili_school
-
-#Banu Yam
 
 1430.1.1 = {
 	monarch = {

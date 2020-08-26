@@ -3,7 +3,7 @@
 owner = HAD
 controller = HAD
 culture = rajput
-religion = hinduism
+religion = shakti
 capital = "Bundi"
 trade_goods = cotton
 hre = no

@@ -3,7 +3,7 @@
 owner = KRK #In custody of Rajamahendri Reddys after the Reddys of Kondavidu were overthrown by Vijayanagar in 1428.
 controller = KRK
 culture = telegu
-religion = hinduism
+religion = vishnuism
 capital = "Adanki"
 trade_goods = cotton
 hre = no

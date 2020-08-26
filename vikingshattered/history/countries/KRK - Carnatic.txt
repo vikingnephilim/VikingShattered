@@ -16,6 +16,4 @@ capital = 4420
 		DIP = 4
 		MIL = 5
 	}
-	religion = sunni
-	religious_school = hanafi_school
 }

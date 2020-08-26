@@ -6,7 +6,6 @@ religion = sunni
 technology_group = muslim
 capital = 2448	# Murzuk
 fixed_capital = 2448 # Cannot move capital away from this province & no power cost to move to it
-religious_school = maliki_school
 
 1440.1.1 = {
 	monarch = {
