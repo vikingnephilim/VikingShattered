@@ -7,6 +7,7 @@ french_feudalism = {
 			culture_group = north_french
 			culture_group = south_french
 			has_reform = french_absolutism
+			has_reform = ancien_regime_reform
 		}
 	}
 	trigger = {
@@ -15,6 +16,7 @@ french_feudalism = {
 			culture_group = north_french
 			culture_group = south_french
 			has_reform = french_absolutism
+			has_reform = ancien_regime_reform
 		}
 	}
 	lock_level_when_selected = no
@@ -40,12 +42,18 @@ ancien_regime_reform = {
 		}
 	}
 	trigger = {
-		has_reform = ancien_regime_reform
+		OR = {
+			culture_group = french
+			culture_group = north_french
+			culture_group = south_french
+			has_reform = french_absolutism
+		}
 	}
 	
 	modifiers = {
 		global_autonomy = -0.025
 		governing_capacity = 150
+		max_absolutism = 15
 	}
 	ai = {
 		factor = 100
@@ -63,11 +71,16 @@ french_absolutism = {
 			culture_group = french
 			culture_group = north_french
 			culture_group = south_french
-			has_reform = french_absolutism
+			has_reform = ancien_regime_reform
 		}
 	}
 	trigger = {
-		has_reform = french_absolutism
+		OR = {
+			culture_group = french
+			culture_group = north_french
+			culture_group = south_french
+			has_reform = ancien_regime_reform
+		}
 	}
 	custom_attributes = {
 		enables_royal_council = yes 
@@ -361,9 +374,6 @@ abolish_the_patronage_system_reform = {
 		cavalry_power = 0.15
 		cavalry_cost = -0.10
 	}
-	custom_attributes = {
-		enables_foreign_worship = yes #10% Religious Unity if you employ mercenaries
-	}
 	ai = {
 		factor = 100
 	}
@@ -397,9 +407,6 @@ royal_training_reform = {
 		reinforce_cost_modifier = -0.1
 		reinforce_speed = 0.25
 		nobles_influence_modifier = -0.10
-	}
-	custom_attributes = {
-		enables_swiss_guard = yes #5% ICA if you got a swiss ally or subject
 	}
 	ai = {
 		factor = 100
@@ -470,10 +477,8 @@ corps_diplomatique_reform = {
 	}
 	modifiers = {
 		diplomatic_reputation = 1
+		diplomatic_upkeep = 1
 		improve_relation_modifier = 0.2
-	}
-	custom_attributes = {
-		enables_lingua_franca = yes #20 Opinion with allies/guarentees/royal marriages
 	}
 	ai = {
 		factor = 100
