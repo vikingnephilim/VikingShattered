@@ -6,9 +6,6 @@ primary_culture = avadhi
 add_accepted_culture = bihari
 capital = 555	# Jaunpur
 fixed_capital = 555 # Cannot move capital away from this province & no power cost to move to it
-religious_school = hanafi_school
-
-
 
 1436.1.1 = {
 	monarch = {

@@ -6,7 +6,6 @@ religion = sunni
 technology_group = muslim
 capital = 4295 #Hisn Kayfa
 add_accepted_culture = al_suryah_arabic
-religious_school = shafii_school
 
 1433.1.1 = {
 	monarch = {

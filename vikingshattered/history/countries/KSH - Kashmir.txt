@@ -4,7 +4,6 @@ primary_culture = kashmiri
 religion = zikri
 technology_group = indian
 capital = 508	# Srinagar
-religious_school = ismaili_school
 
 1420.6.1 = {
 	monarch = {

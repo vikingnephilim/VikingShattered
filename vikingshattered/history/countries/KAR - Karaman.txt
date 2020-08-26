@@ -5,7 +5,6 @@ primary_culture = turkish
 religion = sunni
 technology_group = ottoman
 capital = 324	# Karaman
-religious_school = hanafi_school
 
 1424.1.1 = {
 	monarch = {

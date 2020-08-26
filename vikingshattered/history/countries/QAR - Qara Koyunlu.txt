@@ -6,8 +6,6 @@ add_accepted_culture = kurdish
 religion = shiite
 technology_group = muslim
 capital = 416 # Tabriz
-religious_school = ismaili_school
-
 
 1438.4.22 = {
 	monarch = {

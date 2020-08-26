@@ -4,8 +4,6 @@ primary_culture = nogaybak
 religion = sunni
 technology_group = nomad_group
 capital = 465	# Saraycik
-religious_school = hanafi_school
-
 
 1427.1.1 = {
 	monarch = {

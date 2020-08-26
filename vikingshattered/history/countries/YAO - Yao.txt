@@ -7,9 +7,6 @@ unlock_cult = yemoja_cult
 unlock_cult = roog_cult
 unlock_cult = nyame_cult
 capital = 2288	# Niani
-religious_school = maliki_school
-
-#Hypothetical rulers, from a genealogy of the XXth century sultan.
 
 1444.1.1 = {
 	monarch = {

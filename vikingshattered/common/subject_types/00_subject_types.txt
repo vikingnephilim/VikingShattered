@@ -479,8 +479,8 @@ phon_city = {
 	diplomacy_subject_sprite = GFX_diplomacy_amvassal
 	
 	# Properties:
-	takes_diplo_slot = no
-	can_fight_independence_war = no
+	takes_diplo_slot = yes
+	can_fight_independence_war = yes
 	transfer_trade_power = yes
 	can_be_annexed = no
 	overlord_protects_external = yes
@@ -552,6 +552,8 @@ tributary_state = {
 			is_subject_of_type = tributary_state
 		}
 		OR = {
+			has_reform = geo_despotate
+			has_reform = polynesian_tribe
 			has_reform = celestial_empire
 			is_nomad = yes
 			religion_group = eastern
@@ -570,7 +572,6 @@ tributary_state = {
 	joins_colonial_wars = no
 	is_voluntary = yes
 	overlord_can_attack = yes
-	takes_diplo_slot = no
 	base_liberty_desire = -5
 	relative_power_class = 1
 	can_send_tribute = yes
@@ -584,7 +585,7 @@ tributary_state = {
 	can_set_mil_focus = no
 	can_send_missionary_to_subject = no
 	overlord_can_fabricate_for = no
-	
+	takes_diplo_slot = no
 	liberty_desire_development_ratio = 0.175
 	trust_on_start = 0
 	

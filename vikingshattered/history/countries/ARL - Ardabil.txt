@@ -6,7 +6,6 @@ technology_group = muslim
 capital = 424 #Ardabil
 government_rank = 1
 add_army_professionalism = 0.05
-religious_school = jafari_school
 
 1443.1.1 = {
 	monarch = {

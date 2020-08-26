@@ -5,7 +5,6 @@ unit_type = sub_saharan
 religion = sunni
 primary_culture = afar
 capital = 2764	#Aussa
-religious_school = shafii_school
 
 1444.11.11 = {
 	monarch = {

@@ -4,7 +4,6 @@ primary_culture = al_iraqiya_arabic
 religion = yazidi
 technology_group = muslim
 capital = 410	# Bagdad
-religious_school = jafari_school
 
 1439.1.1 = {
 	monarch = {

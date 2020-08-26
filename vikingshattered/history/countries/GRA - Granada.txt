@@ -6,7 +6,6 @@ add_accepted_culture = berber
 technology_group = muslim
 capital = 223	# Granada
 government_rank = 1
-religious_school = maliki_school
 
 change_estate_land_share = {
 	estate = estate_nobles
@@ -20,7 +19,6 @@ change_estate_land_share = {
 	estate = estate_burghers
 	share = 7
 }
-
 
 1419.1.1 = {
 	monarch = {

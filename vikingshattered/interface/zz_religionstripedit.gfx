@@ -52,4 +52,26 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//latin_cathedral.tga"
 		loadType = "INGAME"
 	}
+
+	spriteType = {
+		name = "GFX_icon_muslim_school_barelvi"
+		texturefile = "gfx/interface/icon_muslim_school_barelvi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_muslim_school_akbari"
+		texturefile = "gfx/interface/icon_muslim_school_akbari.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_muslim_school_usuli"
+		texturefile = "gfx/interface/icon_muslim_school_usuli.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_muslim_school_quranism"
+		texturefile = "gfx/interface/icon_muslim_school_quranism.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_muslim_school_nizari"
+		texturefile = "gfx/interface/icon_muslim_school_nizari.dds"
+	}
 }

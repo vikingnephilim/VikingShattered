@@ -5,7 +5,6 @@ primary_culture = turkish
 religion = sunni
 technology_group = ottoman
 capital = 4309	# Aydin
-religious_school = hanafi_school
 
 1442.1.1 = {
 	monarch = {

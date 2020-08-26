@@ -5,9 +5,6 @@ religion = ibadi
 technology_group = muslim
 capital = 403	# Muscat
 government_rank = 1
-religious_school = hanbali_school
-
-#Nabhan dynasty
 
 1435.1.1 = {
 	monarch = {

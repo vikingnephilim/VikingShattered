@@ -182,10 +182,10 @@ restore_the_davidic_line_reform = {
 	icon = crown
 	allow_normal_conversion = yes
 	potential = {
-		religion = jewish
+		religion_group = jewish_group
 	}
 	trigger = {
-		religion = jewish
+		religion_group = jewish_group
 	}
 	modifiers = {
 		max_absolutism = 25
@@ -269,9 +269,8 @@ holy_war_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		manpower_recovery_speed = 0.10
-	}
-	custom_attributes = {
-		enables_holy_war = yes
+		war_exhaustion_cost = -0.1
+		possible_condottieri = 0.5
 	}
 	ai = {
 		factor = 1
@@ -363,9 +362,7 @@ unrestricted_diplomacy_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		diplomatic_reputation = 1
-	}
-	custom_attributes = {
-		enables_unrestricted_diplomats = yes
+		diplomatic_upkeep = 2
 	}
 	ai = {
 		factor = 1

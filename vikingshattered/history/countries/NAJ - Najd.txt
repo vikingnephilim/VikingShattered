@@ -4,7 +4,6 @@ technology_group = muslim
 primary_culture = najdi_arabic
 religion = sunni
 capital = 392 # Deraiyah
-religious_school = hanbali_school
 
 1444.1.1 = {
 	monarch = {

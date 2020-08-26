@@ -4,7 +4,6 @@ primary_culture = bornean
 religion = sunni
 technology_group = chinese
 capital = 639	# Banjar
-religious_school = shafii_school
 
 1443.9.24 = {
 	monarch = {

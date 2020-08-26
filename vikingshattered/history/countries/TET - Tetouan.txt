@@ -5,7 +5,7 @@ religion = sufri
 technology_group = muslim
 capital = 4561
 fixed_capital = 4561 # Cannot move capital away from this province & no power cost to move to it
-religious_school = maliki_school
+
 1426.1.1 = { 
 	monarch = {
 		name = "Idrisid"

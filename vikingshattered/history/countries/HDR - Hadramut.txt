@@ -4,7 +4,6 @@ primary_culture = yemeni_culture
 religion = kharijite
 technology_group = muslim
 capital = 4283	# Shihr
-religious_school = shafii_school
 
 #Sultans of Al-Kathiri
 1435.1.1 = {

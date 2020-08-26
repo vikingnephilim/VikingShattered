@@ -5,7 +5,6 @@ primary_culture = turkish
 religion = sunni
 technology_group = ottoman
 capital = 322 # Kütahya
-religious_school = hanafi_school
 
 1402.8.1 = {
 	monarch = {

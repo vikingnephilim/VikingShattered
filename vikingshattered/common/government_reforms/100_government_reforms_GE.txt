@@ -625,9 +625,7 @@ austrian_empire_reform = {
 		harsh_treatment_cost = -0.15
 		monarch_diplomatic_power = 1
 		governing_capacity = 250
-	}
-	custom_attributes = {
-		enables_germanization = yes
+		num_accepted_cultures = 3
 	}
 	ai = {
 		factor = 102
@@ -691,9 +689,7 @@ granadan_iqta_reform = {
 	modifiers = {
 		trade_efficiency = 0.10
 		global_trade_goods_size_modifier = 0.05
-	}
-	custom_attributes = {
-		enables_religious_supremacy = yes
+		global_heretic_missionary_strength = 0.02
 	}
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
@@ -744,11 +740,11 @@ hessian_modern_militarized_monarchy_reform = {
 	potential = {
 		OR = {
 			tag = HES
-			has_reform = hessian_modern_militarized_monarchy_reform
+			has_reform = hessian_militarized_monarchy_reform
 		}
 	}
 	trigger = {
-		has_reform = hessian_modern_militarized_monarchy_reform
+		has_reform = hessian_militarized_monarchy_reform
 		absolutism = 50
 	}
 	modifiers = {
@@ -802,9 +798,7 @@ achaemenid_empire_reform = {
 	modifiers = {
 		prestige = 1
 		governing_capacity = 250
-	}
-	custom_attributes = {
-		enables_religious_supremacy = yes
+		global_missionary_strength = 0.02
 	}
 	ai = {
 		factor = 100
@@ -1348,6 +1342,7 @@ papal_embassy_reform = {
 		religion = catholic
 	}
 	modifiers = {
+		tolerance_own = 0.5
 		papal_influence = 1.5
 		church_loyalty_modifier = 0.05
 		church_influence_modifier = 0.05
@@ -1363,9 +1358,6 @@ papal_embassy_reform = {
 			which = Clergy_Influence
 			value = -1
 		}
-	}
-	custom_attributes = {
-		enables_papal_delegation = yes #25 opinion with the pope
 	}
 	ai = {
 		factor = 1
@@ -1537,9 +1529,7 @@ diplomatic_positions_reform = {
 	}
 	modifiers = {
 		diplomatic_reputation = 1
-	}
-	custom_attributes = {
-		enables_noble_diplomats = yes #privileges for 25 opinion//10% improve relation
+		diplomatic_upkeep = 2
 	}
 
 	ai = {
@@ -1749,10 +1739,8 @@ portuguese_cortes_reform = {
 	}
 	modifiers = {
 		legitimacy = 0.5
+		monthly_splendor = 1
 	}
-	custom_attributes = {
-		enables_cortes = yes #pseudoparliament
-	}#fixdis every option is the same
 	ai = {
 		factor = 100
 	}
@@ -5717,10 +5705,6 @@ empowered_of_noble_bearing_reform = {
 		leader_cost = -0.1
 		nobles_influence_modifier = 0.10
 		nobles_loyalty_modifier = 0.05
-	}
-	custom_attributes = {
-		enables_general_connections = yes # 0.1 Army Tradition per General, 0.1 Naval Tradition per Admiral
-		enables_veteran_general = yes #60 AT General instead of 40 AT General
 	}
 	ai = {
 		factor = 10

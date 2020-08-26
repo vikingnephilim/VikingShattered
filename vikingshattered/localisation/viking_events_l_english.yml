@@ -1040,3 +1040,8 @@
  GE_reform_cycle_republic.402.a: "Raise taxes for a temporary boost in income."
  GE_reform_cycle_republic.402.b: "Allow the people their elation."
  GE_reform_cycle_republic.402.c: "Find the perfect tax rate to equalize production and taxation."
+ muslim_school_events.20.i: "We must follow the way of the Barelvi." #Barelvi
+ muslim_school_events.20.j: "We should follow the Akbari teachings." #Akbari
+ muslim_school_events.20.k: "Our duty is to follow the Usuli way." #Usuli
+ muslim_school_events.20.l: "The Quran is the only way." #Quranism
+ muslim_school_events.20.m: "The true path is that of the Nizari." #Quranism

@@ -4,8 +4,6 @@ primary_culture = yemeni_culture
 religion = kharijite
 technology_group = muslim
 capital = 4280	# Taiz
-religious_school = shafii_school
-
 
 1439.1.1 = {
 	monarch = {
