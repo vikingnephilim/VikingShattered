@@ -93,7 +93,7 @@ country_event = {
 		
 		234 = {
 			remove_reform_center = druidic_pagan
-			change_religion = faithful_catholics
+			change_religion = ROOT
 		}
 		add_years_of_income = 4
 	}
