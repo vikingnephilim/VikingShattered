@@ -966,6 +966,7 @@ theocracy = {
 				holy_state_reform
 				united_cantons_reform
 				####VIKING MOD REFORMS####
+				druid_soc
 				ajuraan_theocracy_reform
 				dynastic_theocracy_reform
 			}

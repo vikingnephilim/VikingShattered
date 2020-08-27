@@ -683,3 +683,40 @@ phon_fed = {
 		max_absolutism = -90
 	}
 }
+
+##############################################
+################ THEOCRACIES #################
+##############################################
+
+druid_soc = {
+	potential = {
+		OR = {
+			culture_group = gaelic
+			culture_group = celtic_iberian
+		}
+		NOT = { tag = ENG }
+		NOT = { tag = GBR }
+		religion = druidic_pagan
+		has_country_flag = druid_embraced
+	}
+	modifiers = {
+		missionary_maintenance_cost = -0.4
+		global_trade_goods_size_modifier = 0.1
+		missionaries = 2
+		manpower_in_true_faith_provinces = 0.25
+		advisor_pool = 1
+	}
+	custom_attributes = {
+		lottery_election = yes
+		election_on_death = yes
+	}
+	heir = no
+	rulers_can_be_generals = yes
+	icon = "monks"
+	allow_normal_conversion = no
+	papacy = yes
+	
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
