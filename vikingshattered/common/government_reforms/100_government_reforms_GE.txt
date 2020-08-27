@@ -627,6 +627,9 @@ austrian_empire_reform = {
 		governing_capacity = 250
 		num_accepted_cultures = 3
 	}
+	custom_attributes = {
+		enables_religious_supremacy = yes
+	}
 	ai = {
 		factor = 102
 	}
@@ -692,6 +695,9 @@ granadan_iqta_reform = {
 		trade_efficiency = 0.10
 		global_trade_goods_size_modifier = 0.05
 		global_heretic_missionary_strength = 0.02
+	}
+	custom_attributes = {
+		enables_religious_supremacy = yes
 	}
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
