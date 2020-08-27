@@ -308,11 +308,7 @@ mon_sinai = {
 	}
 	
 	trigger = {
-		OR = {
-			religion = karaite_faith
-			religion = samaritan_faith
-			religion = jewish
-		}
+		religion_group = jewish_group
 	}
 	
 	missionaries = 1
@@ -328,4 +324,24 @@ mon_sinai = {
 	}
 }
 	
+stonehenge = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
 	
+	trigger = {
+		religion = druidic_pagan
+	}
+	
+	missionaries = 1
+	global_missionary_strength = 0.02
+	prestige = 0.5
+	
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}

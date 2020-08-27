@@ -8,6 +8,7 @@ country_event = {
 	
 	trigger = {
 		any_owned_province = { religion = druidic_pagan }
+		has_global_flag = druidism_restored
 		NOT = { has_country_flag = druid_embraced }
 		NOT = { has_country_flag = druid_rejected }
 		NOT = { religion = druidic_pagan }
@@ -49,10 +50,11 @@ country_event = {
 	option = {
 		name = "druidic.1.b" 
 		ai_chance = { factor = 60 }
-		
-		add_opinion = {
-			who = PAP
-			modifier = 100
+		PAP = {
+			add_opinion = {
+				who = ROOT
+				modifier = opinion_sent_help
+			}
 		}
 		add_stability = 3
 		add_years_of_income = 10
@@ -77,7 +79,7 @@ country_event = {
 	trigger = {
 		owns_core_province = 234
 		has_country_flag = druid_rejected
-		has_global_flag = druidism_restored
+		NOT = { has_country_flag = prot_druid }
 	}
 	
 	mean_time_to_happen = {
@@ -91,7 +93,7 @@ country_event = {
 		
 		234 = {
 			remove_reform_center = druidic_pagan
-			change_religion = ROOT
+			change_religion = faithful_catholics
 		}
 		add_years_of_income = 4
 	}
@@ -100,10 +102,11 @@ country_event = {
 		name = "druidic.2.b"
 		
 		stability = -2
-		
-		add_opinion = {
-			who = PAP
-			modifier = -100
+		PAP = {
+			add_opinion = {
+				who = ROOT
+				modifier = opinion_refused_send_help
+			}
 		}
 	}
 }

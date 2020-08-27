@@ -1,0 +1,5 @@
+
+druidic_restored = {
+	global_missionary_strength = 0.05
+	land_morale = 0.05
+}

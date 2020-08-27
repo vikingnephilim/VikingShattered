@@ -23,6 +23,7 @@ country_decisions = {
 		
 		effect = {
 			set_global_flag = druidism_restored
+			set_country_flag = prot_druid
 			add_adm_power = -300
 			add_dip_power = -250
 			add_mil_power = -200
