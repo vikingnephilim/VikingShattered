@@ -1,0 +1,39 @@
+country_decisions = {
+	
+	restore_drui = {
+		major = yes
+		potential = {
+			culture_group = gaelic
+			NOT = { tag = ENG }
+			NOT = { has_global_flag = druidism_restored }
+		}
+		
+		allow = {
+			owns_core_province = 234
+			
+			234 = {
+				development = 30
+			}
+			
+			years_of_income = 2
+			adm_power = 300
+			dip_power = 250
+			mil_power = 200
+		}
+		
+		effect = {
+			set_global_flag = druidism_restored
+			add_adm_power = -300
+			add_dip_power = -250
+			add_mil_power = -200
+			
+			
+			add_years_of_income = -2
+			
+			234 = {
+				change_religion = druidic_pagan
+				add_reform_center = druidic_pagan
+			}
+		}
+	}
+}

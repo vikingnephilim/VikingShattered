@@ -4,11 +4,11 @@
 shiva =
 {
 	# (Diplomatic - War)
-	ae_impact = -0.05
-	core_creation = -0.10
+	fire_damage = 0.1
+	war_exhaustion = -0.05
 	
 	allow = {
-		religion = hinduism
+		religion = vishnuism
 	}
 	sprite = 1
 	
@@ -28,11 +28,11 @@ shiva =
 ganesha = 
 {
 	#(Diplomatic - Peace)
-	diplomatic_reputation = 1
-	improve_relation_modifier = 0.20
+	improve_relation_modifier = 0.1
+	global_missionary_strength = 0.02
 	
 	allow = {
-		religion = hinduism
+		religion = vishnuism
 	}
 	sprite = 2
 	
@@ -49,14 +49,13 @@ ganesha =
 	}	
 }
 
-surya =
-{
+surya = {
 	#(Economic - Income)
-	global_tax_modifier = 0.10
-	trade_efficiency = 0.10
+	production_efficiency = 0.1
+	global_tax_modifier = 0.1
 	
 	allow = {
-		religion = hinduism
+		religion = vishnuism
 	}
 	sprite = 3
 	
@@ -76,11 +75,11 @@ surya =
 ganga = 
 {
 	#(Economic - Savings)
-	interest = -0.25
+	build_time = -0.15
 	build_cost = -0.10
 	
 	allow = {
-		religion = hinduism
+		religion = vishnuism
 	}
 	sprite = 4
 	
@@ -100,11 +99,12 @@ ganga =
 shakti = 
 { 
 	#(Military - Offensive) 
-	siege_ability = 0.05
-	discipline = 0.05
+	movement_speed = 0.15
+	siege_ability = 0.15
+	
 	
 	allow = {
-		religion = hinduism
+		religion = vishnuism
 	}
 	sprite = 5
 	
@@ -124,11 +124,11 @@ shakti =
 vishnu =
 {
 	# (Military - Defensive)
-	defensiveness = 0.2
-	global_missionary_strength = 0.02
+	core_creation = -0.1
+	discipline = 0.05
 	
 	allow = {
-		religion = hinduism
+		religion = shakti
 	}
 	sprite = 6
 	
