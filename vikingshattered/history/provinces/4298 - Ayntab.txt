@@ -3,7 +3,7 @@
 owner = ATC
 controller = ATC
 culture = cillician
-religion = monotite
+religion = monothelite
 capital = "Ayntab"
 trade_goods = wool
 hre = no

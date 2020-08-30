@@ -21,6 +21,97 @@ religious_turmoil = {
 			has_owner_religion = no
 			religion_group = christian
 		}
+		custom_trigger_tooltip = {
+			tooltip = religious_turmoil_provincecount_tt
+			OR = {
+				AND = {
+					num_of_owned_provinces_with = {
+						value = 1
+						has_owner_religion = no
+						religion_group = christian
+					}
+					NOT = { num_of_cities = 5 }
+				}
+				AND = {
+					num_of_owned_provinces_with = {
+						value = 2
+						has_owner_religion = no
+						religion_group = christian
+					}
+					NOT = { num_of_cities = 10 }
+				}
+				AND = {
+					num_of_owned_provinces_with = {
+						value = 3
+						has_owner_religion = no
+						religion_group = christian
+					}
+					NOT = { num_of_cities = 15 }
+				}
+				AND = {
+					num_of_owned_provinces_with = {
+						value = 4
+						has_owner_religion = no
+						religion_group = christian
+					}
+					NOT = { num_of_cities = 20 }
+				}
+				AND = {
+					num_of_owned_provinces_with = {
+						value = 5
+						has_owner_religion = no
+						religion_group = christian
+					}
+					NOT = { num_of_cities = 25 }
+				}
+				AND = {
+					num_of_owned_provinces_with = {
+						value = 6
+						has_owner_religion = no
+						religion_group = christian
+					}
+					NOT = { num_of_cities = 30 }
+				}
+				AND = {
+					num_of_owned_provinces_with = {
+						value = 7
+						has_owner_religion = no
+						religion_group = christian
+					}
+					NOT = { num_of_cities = 35 }
+				}
+				AND = {
+					num_of_owned_provinces_with = {
+						value = 8
+						has_owner_religion = no
+						religion_group = christian
+					}
+					NOT = { num_of_cities = 40 }
+				}
+				AND = {
+					num_of_owned_provinces_with = {
+						value = 9
+						has_owner_religion = no
+						religion_group = christian
+					}
+					NOT = { num_of_cities = 45 }
+				}
+				AND = {
+					num_of_owned_provinces_with = {
+						value = 10
+						has_owner_religion = no
+						religion_group = christian
+					}
+					NOT = { num_of_cities = 50 }
+				}
+				num_of_owned_provinces_with = {
+					value = 11
+					has_owner_religion = no
+					religion_group = christian
+				}
+			}
+		}
+		
 	}
 	
 	

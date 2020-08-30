@@ -5,9 +5,12 @@
 # Content creators for the mod are:
 # Viking Nephilim - Principle Owner of the Mod
 # ComradDoge - It was his mod which allowed this mod to be created.
+# Jay DoubleU - It is his governments expanded mod which has helped build up this mod immensely
 # Findeath - Advisor for Celtic content
 # Athel - Advisor for Italian content
 # CaptainTsech - Advisor for Greek content
+# Dondie - Bug tester, content advisor
+# Feuerhai - Advisor for variety of regions and corrections of history
 # Penguboy - Advisor for Benelux and Polynesia based gameplay, and content creator
 # PanglossPuffin - Advisor for Scandinavian and Nordic content
 # Bane - Advisor for English/AngloMercian content
