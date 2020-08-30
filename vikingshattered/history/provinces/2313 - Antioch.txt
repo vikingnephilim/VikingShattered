@@ -3,7 +3,7 @@
 owner = ATC
 controller = ATC
 culture = al_suryah_arabic
-religion = monotite
+religion = monothelite
 capital = "Antakya"
 trade_goods = cloth
 hre = no

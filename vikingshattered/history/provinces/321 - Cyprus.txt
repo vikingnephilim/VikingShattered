@@ -3,7 +3,7 @@
 owner = CYP
 controller = CYP
 culture = island_greek
-religion = monotite
+religion = monothelite
 capital = "Nicosia"
 trade_goods = wine
 hre = no

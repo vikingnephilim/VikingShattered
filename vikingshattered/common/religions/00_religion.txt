@@ -2399,7 +2399,7 @@ bogomilist = {
 		orthodox
 		paulician
 		iconoclast
-		monotite
+		monothelite
 	}
 	country = {
 		stability_cost_modifier = -0.1
@@ -2413,7 +2413,7 @@ bogomilist = {
 		stability_cost_modifier = -0.10
 		tolerance_own = 1
 	}
-	heretic = { ICONOCLAST MONOTITE ORTHODOX PAULICIAN }
+	heretic = { ICONOCLAST MONOTHELITE ORTHODOX PAULICIAN }
 	has_patriarchs = yes
 	orthodox_icons = {
 		# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
@@ -2518,7 +2518,7 @@ bogomilist = {
 			}
 		}
 	}		
-	misguided_heretic = yes		# Other christians hate them less
+			# Other christians hate them less
 }
 	iconoclast = {
 	color = { 128 175 165 }
@@ -2527,7 +2527,7 @@ bogomilist = {
 		orthodox
 		paulician
 		bogomilist
-		monotite
+		monothelite
 	}
 	country = {
 		infantry_power = 0.05
@@ -2540,9 +2540,9 @@ bogomilist = {
 		raze_power_gain = 0.2
 		global_missionary_strength = 0.01
 	}
-	heretic = { BOGOMILIST MONOTITE ORTHODOX PAULICIAN }
+	heretic = { BOGOMILIST MONOTHELITE ORTHODOX PAULICIAN }
 	fervor = yes
-	misguided_heretic = yes		# Other christians hate them less
+			# Other christians hate them less
 }
 	orthodox = {
 		color = { 239 167 61 }
@@ -2552,7 +2552,7 @@ bogomilist = {
 			catholic
 			coptic
 			iconoclast
-			monotite
+			monothelite
 			paulician
 		}
 		country = {
@@ -2566,7 +2566,7 @@ bogomilist = {
 		province = {
 			local_missionary_strength = -0.01
 		}
-		heretic = { BOGOMILIST CATHOLIC COPTIC ICONOCLAST MONOTITE PAULICIAN }
+		heretic = { BOGOMILIST CATHOLIC COPTIC ICONOCLAST MONOTHELITE PAULICIAN }
 		has_patriarchs = yes		# Uses patriarch authority
 		orthodox_icons = {
 			# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
@@ -2672,7 +2672,7 @@ bogomilist = {
 			}
 		}
 	}
-	monotite = {
+	monothelite = {
 		color = { 195 116 45 }
 		icon = 40
 		allowed_conversion = {
@@ -2754,7 +2754,7 @@ bogomilist = {
 			orthodox
 			iconoclast
 			bogomilist
-			monotite
+			monothelite
 		}
 		country = {
 			stability_cost_modifier = -0.2
@@ -2767,7 +2767,7 @@ bogomilist = {
 			merc_maintenance_modifier = -0.1
 			global_regiment_cost = -0.1
 		}
-		heretic = { BOGOMILIST ICONOCLAST MONOTITE ORTHODOX }
+		heretic = { BOGOMILIST ICONOCLAST MONOTHELITE ORTHODOX }
 		has_patriarchs = yes		# Uses patriarch authority
 		orthodox_icons = {
 			icon_michael = {
@@ -2880,7 +2880,7 @@ bogomilist = {
 		}
 		heretic = { messalian monophysite nestorian }
 		fervor = yes
-		misguided_heretic = yes
+		
 	}
 	messalian = {
 		color = { 176 144 64 }

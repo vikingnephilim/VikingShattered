@@ -44,7 +44,7 @@ country_event = {
 			age = 17
 		}
 		
-		set_country_flag = { druid_embraced }
+		set_country_flag = druid_embraced 
 	}
 	
 	option = {
@@ -101,7 +101,7 @@ country_event = {
 	option = {
 		name = "druidic.2.b"
 		
-		stability = -2
+		add_stability = -2
 		PAP = {
 			add_opinion = {
 				who = ROOT
