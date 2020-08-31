@@ -1,7 +1,7 @@
 #1151 - Bonny
 
 culture = sawabantu
-religion = shamanism #Fetishism
+religion = orisanism
 capital = "Bonny"
 trade_goods = slaves
 hre = no

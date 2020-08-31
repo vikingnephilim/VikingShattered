@@ -15,12 +15,27 @@ merc_phoenician_company = {
 }
 
 merc_samoan_warriors = {
-	regiments_per_development = 0.02
+	regiments_per_development = 0.025
 	home_province = 1243
 	sprites = { chinesegfx_sprite_pack }
 	trigger = {
 		culture_group = polynesian_g
 	}
 	modifier = {
-		infantry_power = 1
+		infantry_fire = 1
 	}
+}
+
+merc_druid_guard = {
+	regiments_per_development = 0.025
+	home_province = 234
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		religion = druidic_pagan
+	}
+	cost_modifier = 0.66
+	modifier = {
+		discipline = 0.05
+		infantry_power = 0.1
+	}
+}
