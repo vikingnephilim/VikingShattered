@@ -61,6 +61,7 @@ country_decisions = {
 			change_tag = PLC
 			inherit = LIT
 			swap_non_generic_missions = yes
+			country_event = { id = ideagroups.1 } #Swap Ideas
 			if = {
 				limit = { NOT = { accepted_culture = lithuanian } }
 				add_accepted_culture = lithuanian
@@ -190,6 +191,7 @@ country_decisions = {
 			change_tag = PLC
 			inherit = POL
 			swap_non_generic_missions = yes
+			country_event = { id = ideagroups.1 } #Swap Ideas
 			if = {
 				limit = { NOT = { accepted_culture = polish } }
 				add_accepted_culture = polish
@@ -325,6 +327,7 @@ country_decisions = {
 		effect = {
 			change_tag = PLC
 			swap_non_generic_missions = yes
+			country_event = { id = ideagroups.1 } #Swap Ideas
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 2 } }

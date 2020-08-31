@@ -176,6 +176,10 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 3650
 			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
 			set_country_flag = formed_malaya_flag
 			add_prestige = 25
 		}
