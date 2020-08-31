@@ -1,7 +1,7 @@
 #1176 - Roggeveld
 
 culture = khoisan
-religion = shamanism #Fetishism
+religion = sanism
 capital = "Roggeveld"
 trade_goods = unknown
 hre = no

@@ -1,0 +1,10 @@
+#Tag representing the various and hard to map muslim tribal states from Al-Abwab to the southern border of Daw.
+government_rank = 2
+government = monarchy
+primary_culture = nubian
+religion = coptic
+technology_group = east_african
+unit_type = sub_saharan
+capital = 1228	# Dongola
+
+

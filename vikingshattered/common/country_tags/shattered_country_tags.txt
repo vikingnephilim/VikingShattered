@@ -189,10 +189,11 @@ BNS = "countries/DOGE_EGY_BeniSuef.txt"
 
 
 #WEST AFRICA - SAHEL+NIGER+GUINEA
-
+GHA = "countries/Ghana.txt"
 
 #HORN OF AFRICA
-
+AKS = "countries/Aksum.txt"
+NBA = "countries/Nubia.txt"
 
 #CENTRAL AFRICA - KONGO + CENTRAL+EAST+SOUTH AFRICA
 MZQ = "countries/DOGE_CAF_Mozambique.txt"

@@ -1,7 +1,7 @@
 #1165 - Gabon
 
 culture = kongolese
-religion = shamanism #Fetishism
+religion = orisanism
 capital = "Gabon"
 trade_goods = unknown
 hre = no

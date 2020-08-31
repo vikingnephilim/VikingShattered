@@ -1,7 +1,7 @@
 #1163 - Calabar
 
 culture = sawabantu
-religion = shamanism #Fetishism
+religion = orisanism
 capital = "Calabar"
 trade_goods = slaves
 hre = no
