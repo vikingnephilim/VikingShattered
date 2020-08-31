@@ -128,6 +128,7 @@ country_decisions = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
+			swap_non_generic_missions = yes
 			set_country_flag = formed_nagpur_flag
 		}
 		ai_will_do = {

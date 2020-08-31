@@ -1535,7 +1535,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "rival_relations_button"
 				position = { x = 190 y = 20 }
-				quadTextureSprite ="GFX_ledger_invisible_button60x17"
+				quadTextureSprite ="GFX_ledger_invisible_button"
 				buttonFont = "vic_18"
 				clicksound = click
 			}
@@ -1554,7 +1554,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "rival_army_button"
 				position = { x = 245 y = 20 }
-				quadTextureSprite ="GFX_ledger_invisible_button60x17"
+				quadTextureSprite ="GFX_ledger_invisible_button"
 				buttonFont = "vic_18"
 				clicksound = click
 			}
@@ -1573,7 +1573,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "rival_navy_button"
 				position = { x = 328 y = 20 }
-				quadTextureSprite ="GFX_ledger_invisible_button60x17"
+				quadTextureSprite ="GFX_ledger_invisible_button"
 				buttonFont = "vic_18"
 				clicksound = click
 			}
@@ -1592,7 +1592,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "rival_rivals_button"
 				position = { x = 410 y = 20 }
-				quadTextureSprite ="GFX_ledger_invisible_button60x17"
+				quadTextureSprite ="GFX_ledger_invisible_button"
 				buttonFont = "vic_18"
 				clicksound = click
 			}
