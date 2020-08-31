@@ -4,8 +4,9 @@
 # If you come across any errors, please log them on github for now. When I believe the mod to be in a releaseable state, I will upload it to steam.
 # Content creators for the mod are:
 # Viking Nephilim - Principle Owner of the Mod
-# ComradDoge - It was his mod which allowed this mod to be created.
-# Jay DoubleU - It is his governments expanded mod which has helped build up this mod immensely
+# ComradDoge - It was his Shattered World mod which allowed this mod to be created.
+# Jay DoubleU - It is his Governments Expanded mod which has helped build up this mod immensely
+# Great Pharoah Intef - It is his National Ideas expanded mod which has helped flesh out NIs across the board
 # Findeath - Advisor for Celtic content
 # Athel - Advisor for Italian content
 # CaptainTsech - Advisor for Greek content
