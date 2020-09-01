@@ -53,7 +53,7 @@
  RV_NO_DEITY_DESC:0 "Your religion allows you to select which god to follow as your main deity. Each deity will come with its own effects and last until your monarch changes."
  RV_PICK_DEITY_THIS:0 "Follow $NAME|Y$"
  RV_PICK_DEITY:0 "Select Deity"
- norse_pagan_reformed:0 "Norse"
+ norse_pagan_reformed:0 "Asatrú"
  jewish_group:0 "Jewish"
  jewish:0 "Jewish"
  karaite:0 "Karaite"

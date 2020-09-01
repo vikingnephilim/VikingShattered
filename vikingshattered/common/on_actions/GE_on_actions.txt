@@ -91,12 +91,6 @@ on_monarch_death = {
 		flavor_tus.22 # Medici Pope
 		flavor_tus.24 # death of the Medici Pope		
 	}
-	if = {	
-		TUR = {
-			country_event = { id = ME_Crimea_Events.1 }
-		}
-	}
 		set_country_flag = ME_FFS_STAP
-		country_event = { id = ME_Zapadoslavia_Events.9 }
 	}
 }

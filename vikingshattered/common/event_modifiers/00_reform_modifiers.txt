@@ -1178,22 +1178,6 @@ GE_Peasant_Estate_Stabilized = {
 	stability_cost_modifier = -0.20
 	republican_tradition = 0.1
 }
-GE_Ghulams_Estate_Brought_Justice = {
-	local_unrest = -2
-	local_tax_modifier = 0.25
-}
-GE_Ghulams_Estate_Ghulam_Advisors = {
-	advisor_cost = -0.05
-	yearly_corruption = -0.10
-}
-GE_Ghulams_Estate_New_Cannons = {
-	artillery_power = 0.05
-	siege_ability = 0.10
-}
-GE_Ghulams_Estate_Order_Restored = {
-	legitimacy = 1
-	prestige = 0.5
-}
 
 Adm_Stabcost = {
 	stability_cost_modifier = -0.15
@@ -1362,18 +1346,7 @@ Long_Reign = {
 	stability_cost_modifier = -0.25
 	global_unrest = -1
 }
-Expanded_Ghulam_Corps_1 = {
-	fire_damage = 0.025
-}
-Expanded_Ghulam_Corps_2 = {
-	fire_damage = 0.05
-}
-Expanded_Ghulam_Corps_3 = {
-	fire_damage = 0.10
-}
-Expanded_Ghulam_Corps_4 = {
-	fire_damage = 0.15
-}
+
 Replaced_Governors = {
 	global_autonomy = -0.05
 }
