@@ -1445,7 +1445,7 @@ MEN_ideas = {
 		land_morale = 0.10
 	}
 	fight_for_the_islands = {
-		global_naval_barrage_cost = -0.50
+		own_coast_naval_combat_bonus = 1.0
 	}
 	take_on_anatolian_trade = {
 		trade_steering = 0.20
