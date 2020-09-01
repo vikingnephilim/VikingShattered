@@ -38,9 +38,9 @@ country_event = {
 			dynasty = "Morganwg"
 			culture = welsh
 			religion = druidic_pagan
-			max_random_adm = 1
-			max_random_dip = 1
-			max_random_mil = 1
+			max_random_adm = 3
+			max_random_dip = 3
+			max_random_mil = 3
 			age = 17
 		}
 		
@@ -59,13 +59,7 @@ country_event = {
 		add_stability = 3
 		add_years_of_income = 10
 		#crush the CoR
-		234 = { 
-			limit = {
-				NOT = { owned_by = ROOT }
-			}
-			add_permanent_claim = ROOT
-		}
-		
+				
 		set_country_flag = druid_rejected
 	}
 	
@@ -76,6 +70,7 @@ country_event = {
 	title = druidic.2.t
 	desc = druidic.2.d
 	
+	picture = PROTESTANT_PRINTED_eventPicture
 	trigger = {
 		owns_core_province = 234
 		has_country_flag = druid_rejected
@@ -89,7 +84,7 @@ country_event = {
 	option = {
 		name = "druidic.2.a"
 		
-		remove_global_flag = druidism_restored
+		clr_global_flag = druidism_restored
 		
 		234 = {
 			remove_reform_center = druidic_pagan
