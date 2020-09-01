@@ -41,7 +41,7 @@
  bornoism_rebels_title: "Religious"
  bornoism_rebels_name: "$RELIGION$ Zealots"
  bornoism_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
- bornoism_rebels_army.": "$RELIGION$ Army"
+ bornoism_rebels_army": "$RELIGION$ Army"
  sanism: "Sani"
  sanism_desc: "Sani is the mysterious religion of the people in Southern Africa."
  sanism_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
