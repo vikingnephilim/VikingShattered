@@ -764,6 +764,7 @@ eastern = {
 		icon = 10
 		country = {
 			land_morale = 0.1
+			discipline = 0.025
 		}
 		province = {
 			local_missionary_strength = -0.02
