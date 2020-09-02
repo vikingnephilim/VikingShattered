@@ -1019,7 +1019,7 @@ pagan = {
 	}
 	bidaism = {
 		color = { 227 140 100 }
-		icon = 12
+		icon = 52
 		country = {
 			tolerance_heathen = 2
 			inflation_reduction = 0.15
@@ -1036,7 +1036,7 @@ pagan = {
 	}
 	siguism = {
 		color = { 237 148 31 }
-		icon = 12
+		icon = 70
 		country = {
 			global_missionary_strength = 0.02
 			land_attrition = -0.15
@@ -1053,7 +1053,7 @@ pagan = {
 	}
 	akoism = {
 		color = { 153 134 9 }
-		icon = 12
+		icon = 57
 		country = {
 			global_trade_goods_size_modifier = 0.1
 			trade_efficiency = 0.15
@@ -1070,7 +1070,7 @@ pagan = {
 	}
 	orisanism = {
 		color = { 212 161 177 }
-		icon = 12
+		icon = 71
 		country = {
 			discipline = 0.05
 			global_missionary_strength = 0.02
@@ -1087,7 +1087,7 @@ pagan = {
 	}
 	rooganism = {
 		color = { 149 181 54 }
-		icon = 12
+		icon = 56
 		country = {
 			merchants = 1
 			diplomats = 1
@@ -1104,7 +1104,7 @@ pagan = {
 	}
 	bornoism = {
 		color = { 199 71 16 }
-		icon = 12
+		icon = 72
 		country = {
 			global_trade_power = 0.15
 			tolerance_heathen = 2
@@ -1121,7 +1121,7 @@ pagan = {
 	}
 	kalenjinism = {
 		color = { 122 10 25 }
-		icon = 12
+		icon = 73
 		country = {
 			defensiveness = 0.15
 			tolerance_heathen = 2
@@ -1138,7 +1138,7 @@ pagan = {
 	}
 	sanism = {
 		color = { 128 114 99 }
-		icon = 12
+		icon = 74
 		country = {
 			global_colonial_growth = 15
 			diplomatic_reputation = 1
@@ -3136,7 +3136,7 @@ zoroastrian_group = {
 		#433
 	}
 	mazdaki = {
-		icon = 47
+		icon = 69
 		color = { 210 105 30 }
 		country = {
 			global_unrest = -3 # Proto-socialism

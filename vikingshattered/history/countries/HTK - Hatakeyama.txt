@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = daimyo
+add_government_reform = indep_daimyo
 government_rank = 1
 primary_culture = kansai
 add_accepted_culture = chubu

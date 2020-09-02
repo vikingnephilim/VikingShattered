@@ -14,7 +14,7 @@
  siguism_rebels_name: "$RELIGION$ Zealots"
  siguism_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  siguism_rebels_army: "$RELIGION$ Army"
- akomism: "Akom"
+ akoism: "Akom"
  akoism_desc: "Akom is the religion of the Gold Coast Tribes."
  akoism_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
  akoism_rebels_title: "Religious"
