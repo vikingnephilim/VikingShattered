@@ -1,10 +1,15 @@
 government = tribal
 add_government_reform = tribal_despotism
 primary_culture = nubian
-religion = shamanism
+religion = bornoism
 technology_group = east_african
 unit_type = sub_saharan
 capital = 1216	# Tegali
+unlock_cult = mwari_cult
+unlock_cult = central_african_ancestor_cult
+unlock_cult = cwezi_cult
+unlock_cult = christianity_cult
+unlock_cult = islam_cult
 
 #Sultans of Senar
 
