@@ -21,4 +21,3 @@ discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
 
-1444.11.25 = { hre = no }

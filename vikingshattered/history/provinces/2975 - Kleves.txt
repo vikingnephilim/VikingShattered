@@ -16,4 +16,3 @@ discovered_by = ottoman
 
 hre = yes
 
-1444.11.25 = { hre = no }

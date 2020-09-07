@@ -16,10 +16,3 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
-
-1453.1.1 = { add_core = FRA }
-1532.8.4 = { owner = FRA controller = FRA } # Union Treaty
-1588.12.1 = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-1594.1.1 = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
-1650.1.1 = { capital = "Lorient" }

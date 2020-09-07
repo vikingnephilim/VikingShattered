@@ -20,4 +20,3 @@ discovered_by = ottoman
 extra_cost = 24
 center_of_trade = 3
 
-1444.11.25 = { hre = no }

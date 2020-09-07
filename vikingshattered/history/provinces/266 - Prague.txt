@@ -27,4 +27,3 @@ center_of_trade = 2
 
 add_province_triggered_modifier = religious_center
 
-1444.11.25 = { hre = no }

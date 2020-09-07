@@ -24,4 +24,3 @@ discovered_by = muslim
 discovered_by = ottoman
 latent_trade_goods =  { coal }
 
-1444.11.25 = { hre = no }

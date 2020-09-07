@@ -21,4 +21,3 @@ discovered_by = muslim
 discovered_by = ottoman
 
 
-1444.11.25 = { hre = no }
