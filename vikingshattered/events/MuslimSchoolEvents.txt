@@ -3138,6 +3138,36 @@ country_event = {
 		}
 	}
 	option = {
+		name = muslim_school_events.20.n #Alawite
+		ai_chance = {
+			factor = 1
+		}
+		set_religious_school = {
+			group = muslim
+			school = alawite_school
+		}
+	}
+	option = {
+		name = muslim_school_events.20.o #Ashari
+		ai_chance = {
+			factor = 1
+		}
+		set_religious_school = {
+			group = muslim
+			school = ashari_school
+		}
+	}
+	option = {
+		name = muslim_school_events.20.p #Azariqa
+		ai_chance = {
+			factor = 1
+		}
+		set_religious_school = {
+			group = muslim
+			school = azariqa_school
+		}
+	}
+	option = {
 		name = muslim_school_events.20.i #Barelvi
 		ai_chance = {
 			factor = 1
@@ -3145,6 +3175,16 @@ country_event = {
 		set_religious_school = {
 			group = muslim
 			school = barelvi_school
+		}
+	}
+	option = {
+		name = muslim_school_events.20.q #Ghulat
+		ai_chance = {
+			factor = 1
+		}
+		set_religious_school = {
+			group = muslim
+			school = ghulat_school
 		}
 	}
 	option = {
@@ -3165,6 +3205,16 @@ country_event = {
 		set_religious_school = {
 			group = muslim
 			school = hanbali_school
+		}
+	}
+	option = {
+		name = muslim_school_events.20.r #Imami
+		ai_chance = {
+			factor = 1
+		}
+		set_religious_school = {
+			group = muslim
+			school = imami_school
 		}
 	}
 	option = {
@@ -3195,6 +3245,56 @@ country_event = {
 		set_religious_school = {
 			group = muslim
 			school = maliki_school
+		}
+	}
+	option = {
+		name = muslim_school_events.20.s #Masmudi
+		ai_chance = {
+			factor = 1
+		}
+		set_religious_school = {
+			group = muslim
+			school = masmudi_school
+		}
+	}
+	option = {
+		name = muslim_school_events.20.tt #Maturidi
+		ai_chance = {
+			factor = 1
+		}
+		set_religious_school = {
+			group = muslim
+			school = maturidi_school
+		}
+	}
+	option = {
+		name = muslim_school_events.20.u #Muhakkima
+		ai_chance = {
+			factor = 1
+		}
+		set_religious_school = {
+			group = muslim
+			school = muhakkima_school
+		}
+	}
+	option = {
+		name = muslim_school_events.20.v #Mutazilla
+		ai_chance = {
+			factor = 1
+		}
+		set_religious_school = {
+			group = muslim
+			school = mutazilla_school
+		}
+	}
+	option = {
+		name = muslim_school_events.20.w #Nadjat
+		ai_chance = {
+			factor = 1
+		}
+		set_religious_school = {
+			group = muslim
+			school = nadjat_school
 		}
 	}
 	option = {

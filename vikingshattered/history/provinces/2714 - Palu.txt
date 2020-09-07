@@ -40,14 +40,3 @@ discovered_by = ottoman
 discovered_by = chinese
 extra_cost = 8
 center_of_trade = 1
-
-1511.1.1 = { discovered_by = POR }
-
-1608.1.1 = { religion = sunni }
-1667.1.1 = {
-	owner = NED
-	controller = NED
-	add_core = NED
-	is_city = yes
-	trade_goods = spices
-} # Dutch control

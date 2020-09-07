@@ -46,8 +46,3 @@ discovered_by = CHV
 discovered_by = KMC
 discovered_by = MYR
 
-
-
-
-1647.1.1 = { discovered_by = RUS }
-

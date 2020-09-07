@@ -55,9 +55,3 @@ discovered_by = TKI
 discovered_by = UTN
 discovered_by = TTI
 discovered_by = ASK
-
-1514.1.1 = { capital = "Matsumae" }
-1590.8.10 = { remove_core = AKT add_core = ODA owner = ODA controller = ODA }
-1603.3.24 = { remove_core = ODA add_core = TKG owner = TKG controller = TKG }
-1640.1.1 = { discovered_by = RUS } # Ivan Moskvitin
-1787.1.1 = { discovered_by = FRA }

@@ -36,6 +36,93 @@ muslim = {
 			invite_scholar_modifier_display = akbari_scholar_modifier
 			picture = "GFX_icon_muslim_school_akbari"
 			fire_damage = 0.1
+		}			
+		alawite_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				adm_power_cost = 50
+					NOT = { piety = -0.5 }
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = alawite_scholar_modifier }
+			}
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = alawite_scholar_modifier duration = 7300 }
+			}
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = alawite_scholar_modifier
+			picture = "GFX_icon_muslim_school_alawite"
+			reform_progress_growth = 0.1
+		}	
+		ashari_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				adm_power_cost = 50
+					NOT = { piety = -0.5 }
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = ashari_scholar_modifier }
+			}
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = ashari_scholar_modifier duration = 7300 }
+			}
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = ashari_scholar_modifier
+			picture = "GFX_icon_muslim_school_ashari"
+			monthly_splendor = 1
+		}		
+		azariqa_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				adm_power_cost = 50
+					NOT = { piety = -0.5 }
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = azariqa_scholar_modifier }
+			}
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = azariqa_scholar_modifier duration = 7300 }
+			}
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = azariqa_scholar_modifier
+			picture = "GFX_icon_muslim_school_azariqa"
+			expand_administration_cost = -0.1
 		}
 		barelvi_school = {
 			potential_invite_scholar = {
@@ -65,6 +152,35 @@ muslim = {
 			invite_scholar_modifier_display = barelvi_scholar_modifier
 			picture = "GFX_icon_muslim_school_barelvi"
 			fire_damage_received = -0.1
+		}
+		ghulat_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				adm_power_cost = 50
+					NOT = { piety = -0.5 }
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = ghulat_scholar_modifier }
+			}
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = ghulat_scholar_modifier duration = 7300 }
+			}
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = ghulat_scholar_modifier
+			picture = "GFX_icon_muslim_school_ghulat"
+			stability_cost_modifier = -0.1
 		}
 		hanafi_school = {
 			potential_invite_scholar = {
@@ -124,6 +240,35 @@ muslim = {
 			invite_scholar_modifier_display = hanbali_scholar_modifier
 			picture = "GFX_icon_muslim_school_hanbali"
 			ae_impact = -0.1
+		}
+		imami_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				adm_power_cost = 50
+					NOT = { piety = -0.5 }
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = imami_scholar_modifier }
+			}
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = imami_scholar_modifier duration = 7300 }
+			}
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = imami_scholar_modifier
+			picture = "GFX_icon_muslim_school_imami"
+			global_spy_defence = 0.1
 		}
 		ismaili_school = {
 			potential_invite_scholar = {
@@ -214,6 +359,151 @@ muslim = {
 			invite_scholar_modifier_display = maliki_scholar_modifier
 			picture = "GFX_icon_muslim_school_maliki"
 			development_cost = -0.1
+		}
+		masmudi_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				adm_power_cost = 50
+					NOT = { piety = -0.5 }
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = masmudi_scholar_modifier }
+			}
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = masmudi_scholar_modifier duration = 7300 }
+			}
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = masmudi_scholar_modifier
+			picture = "GFX_icon_muslim_school_masmudi"
+			army_tradition_from_battle = 0.25
+		}
+		maturidi_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				adm_power_cost = 50
+					NOT = { piety = -0.5 }
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = maturidi_scholar_modifier }
+			}
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = maturidi_scholar_modifier duration = 7300 }
+			}
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = maturidi_scholar_modifier
+			picture = "GFX_icon_muslim_school_maturidi"
+			infantry_power = 0.1
+		}
+		muhakkima_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				adm_power_cost = 50
+					NOT = { piety = -0.5 }
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = muhakkima_scholar_modifier }
+			}
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = muhakkima_scholar_modifier duration = 7300 }
+			}
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = muhakkima_scholar_modifier
+			picture = "GFX_icon_muslim_school_muhakkima"
+			artillery_bonus_vs_fort = 1
+		}
+		mutazilla_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				adm_power_cost = 50
+					NOT = { piety = -0.5 }
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = mutazilla_scholar_modifier }
+			}
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = mutazilla_scholar_modifier duration = 7300 }
+			}
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = mutazilla_scholar_modifier
+			picture = "GFX_icon_muslim_school_mutazilla"
+			naval_tradition_from_battle = 0.25
+		}
+		nadjat_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				adm_power_cost = 50
+					NOT = { piety = -0.5 }
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = nadjat_scholar_modifier }
+			}
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = nadjat_scholar_modifier duration = 7300 }
+			}
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = nadjat_scholar_modifier
+			picture = "GFX_icon_muslim_school_nadjat"
+			global_naval_barrage_cost = -0.2
 		}
 		nizari_school = {
 			potential_invite_scholar = {
@@ -364,7 +654,7 @@ muslim = {
 	}
 	druze = {
 		color = { 78 242 76 }
-		icon = 45
+		icon = 55
 		allowed_conversion = {
 			hurufi
 			ibadi
@@ -393,7 +683,7 @@ muslim = {
 	}
 	hurufi = {
 		color = { 0 220 131 }
-		icon = 49
+		icon = 61
 		allowed_conversion = {
 			druze
 			ibadi
@@ -451,7 +741,7 @@ muslim = {
 	}
 	kharijite = {
 		color = { 166 203 69 }
-		icon = 46
+		icon = 60
 		allowed_conversion = {
 			druze
 			hurufi
@@ -480,7 +770,7 @@ muslim = {
 	}
 	qarmatian = {
 		color = { 114 148 109 }
-		icon = 64
+		icon = 59
 		allowed_conversion = {
 			druze
 			hurufi
@@ -566,7 +856,7 @@ muslim = {
 	}
 	sufri = {
 		color = { 77 107 88 }
-		icon = 65
+		icon = 58
 		allowed_conversion = {
 			druze
 			hurufi
@@ -594,7 +884,7 @@ muslim = {
 	}
 	yazidi = {
 		color = { 41 179 90 }
-		icon = 48
+		icon = 56
 		allowed_conversion = {
 			druze
 			hurufi
@@ -626,7 +916,7 @@ muslim = {
 	}
 	zikri = {
 		color = { 53 147 53 }
-		icon = 44
+		icon = 57
 		allowed_conversion = {
 			druze
 			hurufi
@@ -788,7 +1078,7 @@ dharmic = {
 	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
 	bon = {
 		color = { 22 152 178 }
-		icon = 60
+		icon = 62
 		allowed_conversion = {
 			hinduism
 			jain
@@ -838,7 +1128,7 @@ dharmic = {
 	}
 	shakti = {
 		color = { 20 36 107 }
-		icon = 66
+		icon = 64
 		allowed_conversion = {
 			vishnuism
 			hinduism
@@ -864,7 +1154,7 @@ dharmic = {
 	}
 	vishnuism = {
 		color = { 17 209 142 }
-		icon = 67
+		icon = 65
 		allowed_conversion = {
 			shakti
 			hinduism
@@ -889,7 +1179,7 @@ dharmic = {
 		heretic = { BON JAIN HINDUISM SHAKTI SIKHISM }
 	}
 	jain = {
-		icon = 59
+		icon = 63
 		allowed_conversion = {
 			bon
 			hinduism
@@ -970,7 +1260,7 @@ pagan = {
 		heretic = { BALTIC_PAGAN_REFORMED SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }
 	}
 	baltic_pagan_reformed = {
-	icon = 53
+	icon = 44
 	color = { 179 135 121 }
 	country = {
 		fort_maintenance_modifier = -0.1
@@ -988,7 +1278,7 @@ pagan = {
 	can_have_secondary_religion = yes
 	}
 	druidic_pagan = {
-        icon = 68
+        icon = 66
         color = { 7 134 7 }
         country = {
             discipline = 0.05
@@ -1020,7 +1310,7 @@ pagan = {
 	}
 	bidaism = {
 		color = { 227 140 100 }
-		icon = 52
+		icon = 67
 		country = {
 			tolerance_heathen = 2
 			inflation_reduction = 0.15
@@ -1037,7 +1327,7 @@ pagan = {
 	}
 	siguism = {
 		color = { 237 148 31 }
-		icon = 70
+		icon = 68
 		country = {
 			global_missionary_strength = 0.02
 			land_attrition = -0.15
@@ -1054,7 +1344,7 @@ pagan = {
 	}
 	akoism = {
 		color = { 153 134 9 }
-		icon = 57
+		icon = 69
 		country = {
 			global_trade_goods_size_modifier = 0.1
 			trade_efficiency = 0.15
@@ -1071,7 +1361,7 @@ pagan = {
 	}
 	orisanism = {
 		color = { 212 161 177 }
-		icon = 71
+		icon = 70
 		country = {
 			discipline = 0.05
 			global_missionary_strength = 0.02
@@ -1088,7 +1378,7 @@ pagan = {
 	}
 	rooganism = {
 		color = { 149 181 54 }
-		icon = 56
+		icon = 71
 		country = {
 			merchants = 1
 			diplomats = 1
@@ -1154,7 +1444,7 @@ pagan = {
 		heretic = { ANIMISM BALTIC_PAGAN_REFORMED FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }
 	}
 	finnish_pagan_reformed = {
-		icon = 54
+		icon = 45
 		color = { 176 199 224 }
 		country = {
 			defensiveness = 0.1
@@ -1168,7 +1458,7 @@ pagan = {
 		can_have_secondary_religion = yes
 	}
 	hellenic_pagan = {
-		icon = 58
+		icon = 47
 		color = { 156 194 188 }
 		country = {
 			tolerance_own = 1
@@ -1271,7 +1561,7 @@ pagan = {
 		heretic = { ANIMISM BALTIC_PAGAN_REFORMED SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }	
 	}
 	slavic_pagan_reformed = {
-		icon = 55
+		icon = 46
 		color = { 179 169 12 }
 		country = {
 			culture_conversion_cost = -0.15
@@ -1446,7 +1736,7 @@ christian = {
 	}
 	cathar = {
 		color = { 255 135 0 }
-		icon = 34
+		icon = 33
 		allowed_conversion = {
 			anglican
 			catholic
@@ -1856,7 +2146,7 @@ christian = {
 	}
 	fraticelli = {
 		color = { 245 161 115 }
-		icon = 35
+		icon = 34
 		allowed_conversion = {
 			anglican
 			cathar
@@ -1966,7 +2256,7 @@ christian = {
 	}
 	lollard = {
 		color = { 0 191 255 }
-		icon = 37
+		icon = 36
 		allowed_conversion = {
 			anglican
 			cathar
@@ -2434,7 +2724,7 @@ christian = {
 	}
 	waldensian = {
 		color = { 124 164 236 }
-		icon = 36
+		icon = 35
 		allowed_conversion = {
 			anglican
 			cathar
@@ -2530,7 +2820,7 @@ christian = {
 ############################################ORTHODOX BASED FAITHS###################################################
 bogomilist = {
 	color = { 130 180 110 }
-	icon = 39
+	icon = 38
 	allowed_conversion = {
 		orthodox
 		paulician
@@ -2658,7 +2948,7 @@ bogomilist = {
 }
 	iconoclast = {
 	color = { 128 175 165 }
-	icon = 41
+	icon = 40
 	allowed_conversion = {
 		orthodox
 		paulician
@@ -2810,7 +3100,7 @@ bogomilist = {
 	}
 	monothelite = {
 		color = { 195 116 45 }
-		icon = 40
+		icon = 39
 		allowed_conversion = {
 			orthodox
 			paulician
@@ -2885,7 +3175,7 @@ bogomilist = {
 	}
 	paulician = {
 		color = { 192 184 28 }
-		icon = 42
+		icon = 41
 		allowed_conversion = {
 			orthodox
 			iconoclast
@@ -2995,7 +3285,7 @@ bogomilist = {
 		flags_with_emblem_percentage = 20
 		flag_emblem_index_range = { 1 4 }
 		color = { 231 151 231 }
-		icon = 63
+		icon = 42
 		allowed_conversion = {
 			catholic
 			coptic
@@ -3020,7 +3310,7 @@ bogomilist = {
 	}
 	messalian = {
 		color = { 176 144 64 }
-		icon = 33
+		icon = 32
 		allowed_conversion = {
 			coptic
 			monophysite
@@ -3044,7 +3334,7 @@ bogomilist = {
 	}
 	monophysite = {
 		color = { 103 108 92 }
-		icon = 38
+		icon = 37
 		allowed_conversion = {
 			coptic
 			messalian
@@ -3109,7 +3399,7 @@ zoroastrian_group = {
 	defender_of_faith = yes
  	flag_emblem_index_range = { 110 110 }
 	khurmazta = {
-		icon = 47
+		icon = 49
 		color = { 218 165 32 }
 		country = {
 			stability_cost_modifier = -0.1
@@ -3123,7 +3413,7 @@ zoroastrian_group = {
 		#433
 	}
 	manichean = {
-		icon = 32
+		icon = 48
 		color = { 255 140 0 }
 		country = {
 			tolerance_heathen = 2
@@ -3137,7 +3427,7 @@ zoroastrian_group = {
 		#433
 	}
 	mazdaki = {
-		icon = 69
+		icon = 50
 		color = { 210 105 30 }
 		country = {
 			global_unrest = -3 # Proto-socialism
@@ -3224,7 +3514,7 @@ jewish_group = {
 		heretic = { SAMARITAN_FAITH HASIDIC_FAITH HAYMANOT_FAITH JEWISH }
 	}
 	haymanot_faith = {
-		icon = 62
+		icon = 52
 		color = { 148 160 252 }
 		country = {
 			defensiveness = 0.15
@@ -3247,7 +3537,7 @@ jewish_group = {
 			heretic = { SAMARITAN_FAITH KARAITE_FAITH HASIDIC_FAITH JEWISH }
 	}
 	hasidic_faith = {
-		icon = 61
+		icon = 53
 		color = { 3 252 141 }
 		country = {
 			land_morale = 0.1
@@ -3270,7 +3560,7 @@ jewish_group = {
 			heretic = { SAMARITAN_FAITH KARAITE_FAITH HAYMANOT_FAITH JEWISH }
 	}
 	samaritan_faith = {
-		icon = 50
+		icon = 54
 		color = { 148 160 252 }
 		country = {
 			advisor_cost = -0.15
