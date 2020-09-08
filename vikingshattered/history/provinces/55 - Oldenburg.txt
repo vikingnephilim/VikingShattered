@@ -1,5 +1,3 @@
-#55 - Oldenburg
-
 owner = OLD
 controller = OLD
 culture = hannoverian

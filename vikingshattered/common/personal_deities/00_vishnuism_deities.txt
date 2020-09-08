@@ -128,7 +128,7 @@ vishnu =
 	discipline = 0.05
 	
 	allow = {
-		religion = shakti
+		religion = vishnuism
 	}
 	sprite = 6
 	

@@ -1,5 +1,3 @@
-#Karelen, incl. Sordavala and Keksholm.
-
 owner = KRL
 controller = KRL
 add_core = KRL

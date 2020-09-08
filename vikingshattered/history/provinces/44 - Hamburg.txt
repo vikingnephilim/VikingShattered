@@ -1,5 +1,3 @@
-#44 - Hamburg
-
 owner = HAM
 controller = HAM
 add_core = HAM

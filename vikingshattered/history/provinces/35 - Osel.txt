@@ -1,5 +1,3 @@
-#�sel and Dag�, incl. Sonnenburg and Arensburg.
-
 owner = EST
 controller = EST
 add_core = EST
@@ -15,4 +13,3 @@ is_city = yes
 
 discovered_by = western
 discovered_by = eastern
-

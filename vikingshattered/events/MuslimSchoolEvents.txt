@@ -3281,6 +3281,10 @@ country_event = {
 		name = muslim_school_events.20.v #Mutazilla
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { num_of_ports = 1 }
+			}
 		}
 		set_religious_school = {
 			group = muslim
@@ -3291,6 +3295,10 @@ country_event = {
 		name = muslim_school_events.20.w #Nadjat
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { num_of_ports = 1 }
+			}
 		}
 		set_religious_school = {
 			group = muslim

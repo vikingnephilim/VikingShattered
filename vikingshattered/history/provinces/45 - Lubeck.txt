@@ -1,5 +1,3 @@
-#45 - Lübeck
-
 owner = HSA
 controller = HSA
 add_core = HSA

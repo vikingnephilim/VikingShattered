@@ -1,5 +1,3 @@
-#60 - Lausitz
-
 owner = SOR
 controller = SOR
 add_core = SOR

@@ -15,4 +15,3 @@ is_city = yes
 #fort_15th = yes
 discovered_by = eastern
 discovered_by = western
-

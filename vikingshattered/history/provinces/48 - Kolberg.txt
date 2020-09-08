@@ -1,5 +1,3 @@
-#48 - Kolberg
-
 owner = WOL
 controller = WOL
 add_core = WOL

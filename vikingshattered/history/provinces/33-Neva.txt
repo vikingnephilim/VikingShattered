@@ -1,5 +1,3 @@
-#N�set + the land around the river Neva, incl. N�teborg, Nyen and St.Petersburg.
-
 owner = KRL
 controller = KRL
 add_core = KRL

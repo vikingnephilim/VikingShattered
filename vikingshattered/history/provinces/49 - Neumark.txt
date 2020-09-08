@@ -1,5 +1,3 @@
-#49 - Neumark
-
 owner = NEU
 controller = NEU
 add_core = NEU

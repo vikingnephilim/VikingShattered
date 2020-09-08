@@ -1,5 +1,3 @@
-#52 - Altmark
-
 owner = MAG
 controller = MAG
 add_core = MAG

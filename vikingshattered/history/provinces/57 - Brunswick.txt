@@ -1,5 +1,3 @@
-#57 - Brunswick
-
 owner = BRU
 controller = BRU
 culture = lower_saxon

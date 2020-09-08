@@ -1,5 +1,3 @@
-#53 - Lüneburg
-
 owner = LUN
 controller = LUN
 add_core = LUN

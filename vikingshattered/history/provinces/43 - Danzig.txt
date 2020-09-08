@@ -1,5 +1,3 @@
-#43 - Danzig
-
 owner = DNZ
 controller = DNZ
 add_core = DNZ
