@@ -1,4 +1,4 @@
-#827 - Antioquía
+#827 - Antioquï¿½a
 
 culture = muisca
 
@@ -8,7 +8,7 @@ discovered_by = south_american
 discovered_by = MCA
 
 religion = animism
-capital = "Antioquía"
+capital = "Antioquï¿½a"
 trade_goods = unknown
 hre = no
 base_tax = 2 
@@ -21,8 +21,8 @@ native_hostileness = 1
 
 
 
-1502.1.1 = { discovered_by = CAS } # Christopher Columbus
-1516.1.23 = { discovered_by = SPA }
+ 
+ 
 
 1616.1.1 = {
 	owner = SPA
@@ -39,4 +39,4 @@ native_hostileness = 1
 	controller = COL
 	add_core = COL
 } # Colombia declares independence
-1819.8.7 = { remove_core = SPA } # Colombia's independence is recongnized
+ 

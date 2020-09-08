@@ -3,7 +3,7 @@
 
 
 discovered_by = south_american
-1500.1.26 = { discovered_by = CAS } # Vicente Yáñez Pinzõn
-1500.4.23 = { discovered_by = POR }
-1516.1.23 = { discovered_by = SPA }
+1500.1.26 = { discovered_by = CAS } # Vicente Yï¿½ï¿½ez Pinzï¿½n
+ 
+ 
 

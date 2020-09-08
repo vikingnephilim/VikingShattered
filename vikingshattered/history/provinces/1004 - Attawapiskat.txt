@@ -16,7 +16,7 @@ native_hostileness = 1
 
 discovered_by = north_american
 
-1611.1.1 = { discovered_by = ENG } # Henry Hudson
+ 
 
 1689.1.1 = {
 	owner = ENG
@@ -27,7 +27,7 @@ discovered_by = north_american
 	religion = protestant
 	trade_goods = fur
 } # Construction of Fort Severn
-1699.1.1 = { discovered_by = FRA } # Pierre le Moyne
+ 
 1707.5.12 = {
 	discovered_by = GBR
 	owner = GBR

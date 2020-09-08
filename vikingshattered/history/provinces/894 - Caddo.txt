@@ -20,5 +20,5 @@ native_hostileness = 9
 
 discovered_by = north_american
 
-1542.1.1 = { discovered_by = SPA } # Hernando de Soto
+ 
 

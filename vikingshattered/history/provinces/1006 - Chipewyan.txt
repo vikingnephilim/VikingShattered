@@ -16,8 +16,8 @@ native_hostileness = 3
 
 discovered_by = north_american
 
-1612.1.1 = { discovered_by = ENG } # Thomas Button
-1707.5.12 = { discovered_by = GBR }
+ 
+ 
 
 1717.1.1 = {
 	owner = GBR

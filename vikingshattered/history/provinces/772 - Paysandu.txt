@@ -13,7 +13,7 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 5	
 
-1516.1.23 = { discovered_by = SPA }
+ 
 1680.1.1 = {
 	owner = POR
 	controller = POR
@@ -30,5 +30,5 @@ native_hostileness = 5
 	culture = castillian
 	remove_core = POR
 } # The portugese are chased out
-1749.1.1 = { add_core = SPA }
-1772.1.1 = { capital = "Paysandú" }
+ 
+1772.1.1 = { capital = "Paysandï¿½" }

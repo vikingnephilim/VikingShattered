@@ -23,7 +23,7 @@ discovered_by = ZAP
 discovered_by = AZT
 discovered_by = mesoamerican
 
-1522.5.31 = { discovered_by = SPA } # Andres Nino 
+ 
 
 1525.1.1 = {
 	owner = SPA
@@ -33,4 +33,4 @@ discovered_by = mesoamerican
 	culture = castillian
 	religion = catholic
 } 
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence
+ 

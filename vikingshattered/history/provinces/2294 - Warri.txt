@@ -20,4 +20,4 @@ base_manpower = 1
  
 discovered_by = sub_saharan
 
-1472.1.1 = { discovered_by = POR } 
+ 

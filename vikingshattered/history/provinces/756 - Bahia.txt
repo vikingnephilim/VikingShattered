@@ -15,9 +15,9 @@ native_hostileness = 3
 extra_cost = 8
 center_of_trade = 1
 
-1500.4.23 = { discovered_by = POR } # Pedro Álvares Cabral
+ 
 1549.3.29 = {
-	capital = "São Salvador"
+	capital = "Sï¿½o Salvador"
 	owner = POR
 	controller = POR
 	add_core = POR
@@ -40,5 +40,5 @@ center_of_trade = 1
 	culture = portugese
 	religion = catholic
 }# Forced to capitulate
-1694.1.1 = { unrest = 4 } # Resistance from Maroon dwellers
-1695.1.1 = { unrest = 0 } # Zumbi, their leader is captured
+ 
+ 

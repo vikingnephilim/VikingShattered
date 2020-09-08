@@ -29,7 +29,7 @@ discovered_by = ottoman
 
 
 
-1405.1.1 = { discovered_by = MNG }
-1509.1.1 = { discovered_by = POR }
-1613.1.1 = { discovered_by = NED }
+ 
+ 
+ 
 

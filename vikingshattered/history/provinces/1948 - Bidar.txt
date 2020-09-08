@@ -21,18 +21,18 @@ discovered_by = chinese
 extra_cost = 16
 center_of_trade = 2
 
-1498.1.1 = { discovered_by = POR }
-1511.8.1 = { controller = VIJ }
-1512.1.1 = { controller = BAH }
-1618.1.1 = { controller = BIJ } # captured by Bijapur
-1619.1.1 = { owner = BIJ } # captured by Bijapur
-1685.1.1 = { controller = MUG }
+ 
+ 
+ 
+ 
+ 
+ 
 1686.1.1 = {
 	owner = MUG
 	add_core = MUG
 	remove_core = BAH
 }
-1712.1.1 = { add_core = DEC }	#Viceroyalty of the Deccan
+ 
 1724.1.1 = {
 	owner = DEC
 	controller = DEC

@@ -26,7 +26,7 @@ fort_15th = yes
 	controller = INC
 	add_core = INC
 }
-1528.1.1 = { discovered_by = SPA } # Francisco Pizarro
+ 
 1532.1.1 = {
 	owner = SPA
 	controller = SPA
@@ -34,11 +34,11 @@ fort_15th = yes
 	culture = castillian
 	religion = catholic
 } # Battle of Cajamarca
-1537.1.1 = { unrest = 8 } # Fighting breaks out when Almagro seizes Cuzco
-1538.1.1 = { unrest = 5 } # Almagro is defeated & executed
+ 
+ 
 1810.7.20 = {
 	owner = COL
 	controller = COL
 	add_core = COL
 } # Colombia declares independence
-1819.8.7 = { remove_core = SPA } # Colombia's independence is recongnized
+ 

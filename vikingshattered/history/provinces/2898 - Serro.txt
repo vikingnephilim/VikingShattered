@@ -16,7 +16,7 @@ native_hostileness = 7
 
 
 
-1520.1.1 = { discovered_by = POR }
+ 
 
 1670.1.1 = {
 	owner = POR
@@ -26,4 +26,4 @@ native_hostileness = 7
 	religion = catholic
 	culture = portugese
 }
-1701.1.1 = { trade_goods = gold }
+ 

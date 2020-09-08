@@ -17,7 +17,7 @@ extra_cost = 8
 center_of_trade = 1
 
 
-1471.1.1 = { discovered_by = POR } # Frenão do Pó
+ 
 
 1482.1.19 = {
 	owner = POR
@@ -29,7 +29,7 @@ center_of_trade = 1
 	trade_goods = gold
 	is_city = yes
 } #Portuguese trading post
-1600.1.1 = { trade_goods = slaves } #Trade good change
+ 
 1637.8.29 = {
 	owner = NED
 	controller = NED

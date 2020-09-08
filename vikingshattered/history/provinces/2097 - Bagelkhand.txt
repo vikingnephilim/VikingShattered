@@ -19,17 +19,17 @@ discovered_by = ottoman
 discovered_by = chinese
 
 
-1494.1.1 = { controller = DLH } # Delhi
-1495.1.1 = { controller = BGL } # Delhi
-1562.1.1 = { controller = MUG }
-1563.1.1 = { controller = BGL }
-1595.1.1 = { controller = MUG }
+ 
+ 
+ 
+ 
+ 
 1597.1.1 = {
 	controller = BGL
 	capital = "Rewa"
 }
-1690.1.1 = { discovered_by = ENG }
-1707.5.12 = { discovered_by = GBR }
+ 
+ 
 1751.1.1 = {
 	owner = NAG
 	controller = NAG

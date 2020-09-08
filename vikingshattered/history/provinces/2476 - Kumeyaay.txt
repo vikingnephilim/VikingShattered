@@ -16,7 +16,7 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1533.1.1 = { discovered_by = SPA }
+ 
 
 1769.1.1 = {
 	owner = SPA
@@ -26,9 +26,9 @@ discovered_by = north_american
 	religion = catholic	
 	trade_goods = grain
 } # Colonists began to arrive
-1775.1.1 = { unrest = 4 } # The natives rebelled
-1776.1.1 = { unrest = 0 }
-1794.1.1 = { add_core = SPA }
+ 
+ 
+ 
 1810.9.16 = {
 	owner = MEX
 	add_core = MEX

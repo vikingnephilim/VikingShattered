@@ -20,7 +20,7 @@ native_hostileness = 3
 	culture = castillian
 	religion = catholic
 	trade_goods = cotton
-} # Juan Ponce de León
+} # Juan Ponce de Leï¿½n
 1516.1.23 = {
 	discovered_by = SPA
 	owner = SPA
@@ -28,8 +28,8 @@ native_hostileness = 3
 	add_core = SPA
 	remove_core = CAS
 }
-1530.1.1 = { is_city = yes }
-1681.1.1 = { capital = "Cockburn Town" }
+ 
+ 
 1700.1.1 = {
 	owner = ENG
 	controller = ENG
@@ -38,6 +38,6 @@ native_hostileness = 3
 	culture = english
 	religion = protestant
 } # Settlers from Bermuda
-1707.5.12 = { owner = GBR controller = GBR add_core = GBR remove_core = ENG discovered_by = GBR }
-1753.1.1 = { unrest = 6 } # France claimed the island
-1754.1.1 = { unrest = 0 } # ...but were repelled just a year later
+ 
+ 
+ 

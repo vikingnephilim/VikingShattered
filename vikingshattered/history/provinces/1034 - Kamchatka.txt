@@ -23,7 +23,7 @@ discovered_by = CHU
 discovered_by = CHV
 discovered_by = KMC
 
-1647.1.1 = { discovered_by = RUS } # V. Atlasov
+ 
 
 1732.1.1 = {
 	owner = RUS
@@ -31,5 +31,5 @@ discovered_by = KMC
 	culture = russian
 	religion = orthodox
 } # Conquered by Russia
-1740.1.1 = { capital = "Petropavlovsk" }
-1757.1.1 = { add_core = RUS }
+ 
+ 

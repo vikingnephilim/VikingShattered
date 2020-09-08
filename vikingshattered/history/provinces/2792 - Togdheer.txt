@@ -20,8 +20,8 @@ discovered_by = indian
 
 
 
-1499.1.1 = { discovered_by = POR }
-1526.1.1 = { owner = ADA controller = ADA } #Ahmad Gran secures control over Marehan
-1550.1.1 = { discovered_by = TUR }
+ 
+ 
+ 
 
-1555.1.1 = { owner = WAR controller = WAR } #Northern part of province no longer conrolled by ADA
+ 

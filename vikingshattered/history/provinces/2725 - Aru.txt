@@ -18,5 +18,5 @@ discovered_by = MKS
 discovered_by = TER
 discovered_by = TID
 
-1525.1.1 = { discovered_by = POR } # Don Jorge de Mneses
+ 
 

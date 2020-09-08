@@ -8,6 +8,6 @@ discovered_by = muslim
 
 
 
-1413.1.1 = { discovered_by = MNG }
-1498.1.1 = { discovered_by = POR }
+ 
+ 
 

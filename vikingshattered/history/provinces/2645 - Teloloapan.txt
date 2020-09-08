@@ -29,4 +29,4 @@ discovered_by = mesoamerican
 	religion = catholic
 	culture = castillian
 } # Fall of the Aztec empire
-1810.9.16 = { owner = MEX add_core = MEX controller = MEX } # Mexican War of Independence
+ 

@@ -33,4 +33,4 @@ discovered_by = mesoamerican
 	culture = castillian
 	religion = catholic 
 }
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence
+ 

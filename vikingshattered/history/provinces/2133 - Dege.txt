@@ -18,7 +18,7 @@ discovered_by = indian
 extra_cost = 8
 center_of_trade = 1
 
-1709.1.1 = { discovered_by = SPA }
+ 
 
 1776.1.1 = {
 	owner = QNG

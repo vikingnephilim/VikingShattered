@@ -42,6 +42,6 @@ discovered_by = chinese
 extra_cost = 16
 center_of_trade = 2
 
-1511.1.1 = { discovered_by = POR }
+ 
 
-1605.9.1 = { religion = sunni }
+ 

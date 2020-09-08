@@ -19,8 +19,8 @@ discovered_by = nomad_group
 discovered_by = east_african
 
 
-1480.1.1 = { discovered_by = TUR }
-1488.1.1 = { discovered_by = POR } # Pêro da Covilhã
+ 
+1488.1.1 = { discovered_by = POR } # Pï¿½ro da Covilhï¿½
 1654.1.1 = {
 	owner = RAS
 	controller = RAS

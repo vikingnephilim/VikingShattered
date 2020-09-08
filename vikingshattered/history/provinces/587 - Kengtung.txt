@@ -25,7 +25,7 @@ discovered_by = indian
 	add_core = SST
 	remove_core = HSE
 }
-1554.1.1 = { add_core = TAU }
+ 
 1563.4.1 = {
 	controller = TAU
 	owner = TAU
@@ -38,17 +38,17 @@ discovered_by = indian
 	owner = TAU
 	controller = TAU
 }
-1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis
+ 
 1732.1.1 = {
 	owner = QNG
 	controller = QNG
 	add_core = QNG
 }
-1739.1.1 = { unrest = 5 } # Rebellion
-1740.1.1 = { unrest = 0 }
+ 
+ 
 1769.12.13 = {
 	owner = TAU
 	controller = TAU
 	remove_core = QNG
 }
-1803.1.1 = { add_core = AYU }
+ 

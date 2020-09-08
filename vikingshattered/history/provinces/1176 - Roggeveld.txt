@@ -15,5 +15,5 @@ native_hostileness = 1
 
 
 
-1750.1.1 = { discovered_by = NED }
+ 
 

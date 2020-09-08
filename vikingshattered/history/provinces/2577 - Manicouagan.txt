@@ -22,10 +22,10 @@ discovered_by = north_american
 	controller = FRA
 	add_core = FRA
 	is_city = yes
-	capital = "Sept-Îles"
+	capital = "Sept-ï¿½les"
 	culture = cosmopolitan_french
 	trade_goods = fish
 	religion = catholic
 }
-1707.5.12 = { discovered_by = GBR }
-1763.2.10 = { owner = GBR controller = GBR add_core = GBR remove_core = FRA }
+ 
+ 

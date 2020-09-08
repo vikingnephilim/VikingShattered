@@ -16,7 +16,7 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1526.1.1 = { discovered_by = SPA } # Lucas Vásquez de Ayllón
+ 
 
 1715.1.1 = {
 	owner = GBR
@@ -37,4 +37,4 @@ discovered_by = north_american
 	add_core = USA
 	culture = american
 } # Declaration of independence
-1782.11.1 = { remove_core = GBR unrest = 0 } # Preliminary articles of peace, the British recognized American independence
+ 

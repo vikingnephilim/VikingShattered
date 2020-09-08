@@ -16,8 +16,8 @@ native_hostileness = 3
 
 discovered_by = north_american
 
-1540.5.9 = { discovered_by = SPA } # Hernando de Alarcon
-1578.1.1 = { discovered_by = ENG } # Drake 
+ 
+ 
 
 1750.1.1 = {
 	owner = SPA

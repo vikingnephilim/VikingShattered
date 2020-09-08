@@ -34,4 +34,4 @@ center_of_trade = 1
 	controller = COL
 	add_core = COL
 } # Colombia declares independence
-1819.8.7 = { remove_core = SPA } # Colombia's independence is recongnized
+ 

@@ -22,16 +22,16 @@ extra_cost = 16
 center_of_trade = 2
 
 
-1421.1.1 = { discovered_by = MNG }
-1453.1.1 = { discovered_by = western }
-1488.1.1 = { discovered_by = POR }
+ 
+ 
+ 
 1770.1.1 = {
 	owner = MAM
 	controller = MAM
 	add_core = MAM
 	remove_core = TUR
 } # Ali Bey gained control of the Hijaz, reconstituting the Mamluk state
-1772.1.1 = { owner = HED controller = HED }
+ 
 1802.1.1 = {
 	owner = NAJ
 	controller = NAJ

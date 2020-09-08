@@ -26,9 +26,9 @@ discovered_by = north_american
 	trade_goods = fur
 	culture = cosmopolitan_french
 	religion = catholic 
-} #Fort Métabéchouane
-1707.5.12 = { discovered_by = GBR }
-1760.1.1 = { controller = GBR } # The government of New France capitulate at Montreal
+} #Fort Mï¿½tabï¿½chouane
+ 
+ 
 1763.2.10 = {
 	owner = GBR
 	add_core = GBR

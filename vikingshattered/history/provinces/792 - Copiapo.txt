@@ -33,7 +33,7 @@ native_hostileness = 2
 	culture = castillian
 	religion = catholic
 } # Diego de Almagro
-1562.1.1 = { add_core = SPA }
+ 
 1810.9.18 = {
 	owner = CHL
 	controller = CHL

@@ -19,7 +19,7 @@ center_of_trade = 1
 
 
 
-1455.1.1 = { religion = orthodox }
+ 
 1505.4.1 = {
 	owner = RUS
 	controller = RUS

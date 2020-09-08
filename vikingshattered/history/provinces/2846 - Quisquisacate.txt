@@ -15,7 +15,7 @@ native_hostileness = 9
 extra_cost = 8
 center_of_trade = 1
 
-1516.1.23 = { discovered_by = SPA } # Juan Díaz de Solís
+1516.1.23 = { discovered_by = SPA } # Juan Dï¿½az de Solï¿½s
 1573.7.6 = {
 	add_core = SPA
 	owner = SPA
@@ -24,7 +24,7 @@ center_of_trade = 1
 	religion = catholic
 	trade_goods = grain
 } 
-1600.1.1 = { is_city = yes }
+ 
 1816.7.9 = {	owner = LAP
 	controller = LAP
 	add_core = LAP

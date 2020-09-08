@@ -31,7 +31,7 @@ discovered_by = nomad_group
 	owner = KSD
 	add_core = KSD 
 }
-1682.1.1 = { discovered_by = SPA } #Ferdinand Verbiest
+ 
 1717.1.1 = {
 	owner = ZUN
 	controller = ZUN
@@ -46,5 +46,5 @@ discovered_by = nomad_group
 	controller = QNG
 	add_core = QNG
 } # Qinghai conquered by Qing
-1755.10.4 = { revolt_risk = 7 } # Rebellion aginst the Chinese
-1757.10.4 = { revolt_risk = 0 }
+ 
+ 

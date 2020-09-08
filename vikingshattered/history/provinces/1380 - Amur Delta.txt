@@ -8,5 +8,5 @@ discovered_by = MYR
 
 
 
-1643.1.1 = { discovered_by = RUS }
+ 
 

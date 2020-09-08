@@ -16,7 +16,7 @@ native_hostileness = 7
 
 
 
-1580.1.1 = { discovered_by = POR }
+ 
 
 1710.1.1 = {
 	owner = POR
@@ -26,4 +26,4 @@ native_hostileness = 7
 	culture = portugese
 	religion = catholic
 	trade_goods = cocoa
-} # Ranchers from São Paulo occupied the region in search of more productive land
+} # Ranchers from Sï¿½o Paulo occupied the region in search of more productive land

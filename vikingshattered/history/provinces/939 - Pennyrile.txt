@@ -23,8 +23,8 @@ discovered_by = north_american
 	add_core = CHI
 	is_city = yes 
 } #Natives disruptiosn of the Beaver wars
-1682.1.1 = { discovered_by = FRA } # Estimated
-1750.1.1 = { discovered_by = GBR } # Thomas Walker
+ 
+ 
 1786.1.10 = {
  owner = USA
 	controller = USA

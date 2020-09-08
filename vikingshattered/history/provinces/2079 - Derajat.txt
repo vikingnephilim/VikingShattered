@@ -27,7 +27,7 @@ discovered_by = chinese
 	owner = MUL
 	controller = MUL
 } # Captured by Langas and separated from Sultanate
-1498.1.1 = { discovered_by = POR }
+ 
 1526.1.1 = {
 	owner = SND
 	controller = SND

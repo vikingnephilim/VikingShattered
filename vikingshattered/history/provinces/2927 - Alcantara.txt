@@ -16,9 +16,9 @@ native_hostileness = 3
 
 
 
-1500.1.1 = { discovered_by = POR }
-1500.1.26 = { discovered_by = CAS }
-1516.1.23 = { discovered_by = SPA }
+ 
+ 
+ 
 
 1648.1.1 = {
 	owner = POR
@@ -29,5 +29,5 @@ native_hostileness = 3
 	trade_goods = sugar
 	is_city = yes
 }
-1718.1.1 = { unrest = 6 }
-1725.1.1 = { unrest = 0 }
+ 
+ 

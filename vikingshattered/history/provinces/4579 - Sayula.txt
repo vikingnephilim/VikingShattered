@@ -20,8 +20,8 @@ native_hostileness = 2
 
 discovered_by = mesoamerican
 
-1465.1.1 = { owner = TAR controller = TAR }
-1490.1.1 = { add_core = TAR }
+ 
+ 
 1510.1.1 = {
  	owner = CLM
 	controller = CLM 
@@ -34,5 +34,5 @@ discovered_by = mesoamerican
 	religion = catholic
 	unrest = 5
 } #Forced to surrender by Alvarado, Colimotl murdered
-1541.1.1 = { culture = castillian } # growing aculturation
-1810.9.16 = { owner = MEX add_core = MEX controller = MEX } # Mexican War of Independence
+ 
+ 

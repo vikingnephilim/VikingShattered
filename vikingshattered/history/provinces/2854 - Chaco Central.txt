@@ -21,7 +21,7 @@ native_hostileness = 1
 
 
 
-1552.1.1 = { discovered_by = SPA }
+ 
 
 1786.1.1 = {
 	discovered_by = SPA
@@ -33,7 +33,7 @@ native_hostileness = 1
 	culture = castillian
 	religion = catholic
 }
-1790.1.1 = { unrest = 6 } # The desire for independence grew
+ 
 1816.7.9 = {
 	owner = LAP
 	controller = LAP

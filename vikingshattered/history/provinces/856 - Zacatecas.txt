@@ -27,4 +27,4 @@ discovered_by = mesoamerican
 	religion = catholic
 	trade_goods = gold
 } # First discoveries of silver 
-1810.9.16 = { owner = MEX add_core = MEX controller = MEX } # Mexican War of Independence
+ 

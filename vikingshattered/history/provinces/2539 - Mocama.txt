@@ -16,8 +16,8 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1524.1.1 = { discovered_by = POR } # Diego Gomez
-1526.1.1 = { discovered_by = SPA } # Lucas Vásquez de Ayllón
+ 
+ 
 
 1587.1.1 = {
 	owner = SPA

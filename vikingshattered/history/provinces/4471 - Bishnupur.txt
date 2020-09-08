@@ -24,7 +24,7 @@ discovered_by = chinese
 	controller = MUG
 	add_core = MUG
 }
-1627.1.1 = { discovered_by = POR }
+ 
 1707.3.15 = {
 	owner = BNG
 	controller = BNG

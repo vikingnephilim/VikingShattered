@@ -22,8 +22,8 @@ native_hostileness = 8
 	religion = catholic
 	trade_goods = grain
 }
-1580.1.1 = { is_city = yes }
-1790.1.1 = { unrest = 6 } # Desire for independence
+ 
+ 
 1816.7.9 = {
 	owner = LAP
 	controller = LAP

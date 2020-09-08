@@ -15,5 +15,5 @@ native_hostileness = 2
 
 
 
-1606.1.1 = { discovered_by = SPA }
+ 
 

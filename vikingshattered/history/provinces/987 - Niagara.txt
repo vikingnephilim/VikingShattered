@@ -20,8 +20,8 @@ native_hostileness = 1
 
 discovered_by = north_american
 
-1615.1.1 = { discovered_by = FRA } # Étienne Brûlé
-1629.1.1 = { discovered_by = ENG }
+1615.1.1 = { discovered_by = FRA } # ï¿½tienne Brï¿½lï¿½
+ 
 
 1651.1.1 = {
 	owner = IRO

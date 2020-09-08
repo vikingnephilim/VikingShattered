@@ -19,5 +19,5 @@ discovered_by = indian
 discovered_by = nomad_group
 discovered_by = chinese
 
-1760.1.1 = { discovered_by = GBR }
+ 
 

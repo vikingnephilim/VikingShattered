@@ -20,7 +20,7 @@ discovered_by = MAY
 discovered_by = ZAP
 discovered_by = mesoamerican
 
-1519.1.1 = { discovered_by = SPA } 
+ 
 
 1521.8.13 = {
 	owner = SPA 
@@ -29,5 +29,5 @@ discovered_by = mesoamerican
 	religion = catholic
 	culture = castillian
 } # The last Aztec emperor surrendered, end of the Aztec Empire
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence
-1812.8.10 = { controller = MEX } # Conquered by José María Morelos
+ 
+ 

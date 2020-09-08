@@ -25,7 +25,7 @@ discovered_by = north_american
 	trade_goods = fur
 	culture = cheyenne
 } #Horses cause waves of migration on the Great Plains
-1738.1.1 = { discovered_by = FRA }# Pierre Gaultier de Varennes, no real settlements until the 1800's
+ 
 1760.1.1 = {
 	owner = SIO
 	controller = SIO

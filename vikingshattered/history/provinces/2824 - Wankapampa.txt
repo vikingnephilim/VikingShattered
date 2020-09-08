@@ -25,7 +25,7 @@ discovered_by = CHM
 	controller = INC
 	add_core = INC
 }
-1524.1.1 = { discovered_by = SPA }
+ 
 1532.11.16 = {
 	owner = SPA
 	controller = SPA
@@ -33,7 +33,7 @@ discovered_by = CHM
 	culture = castillian
 	religion = catholic
 } # Battle of Cajamarca
-1537.1.1 = { unrest = 8 } # Fighting breaks out when Almagro seizes Cuzco
-1538.1.1 = { unrest = 5 } # Almagro is defeated & executed
-1541.1.1 = { unrest = 6 } # Pizzaro is assassinated by supporters of Almagro, his brother assumes control
-1548.1.1 = { unrest = 0 } # Gonzalo Pizzaro is also executed & Spain regains control
+ 
+ 
+ 
+ 

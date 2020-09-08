@@ -19,12 +19,12 @@ discovered_by = nomad_group
 discovered_by = chinese
 
 
-1455.1.1 = { controller = MLW } # Conquest by Malwa
+ 
 1456.1.1 = {
 	owner = MLW
 	add_core = MLW
 } # Conquest by Malwa
-1498.1.1 = { discovered_by = POR }
+ 
 1519.1.1 = {
 	owner = HAD
 	controller = HAD
@@ -41,8 +41,8 @@ discovered_by = chinese
 	controller = HAD
 	remove_core = BNG
 } # Independent
-1690.1.1 = { discovered_by = ENG }
-1707.5.12 = { discovered_by = GBR }
+ 
+ 
 1737.1.1 = {
 	owner = GWA
 	controller = GWA

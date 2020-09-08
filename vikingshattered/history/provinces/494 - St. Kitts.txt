@@ -16,8 +16,8 @@ discovered_by = ARW
 
 
 
-1493.1.1 = { discovered_by = CAS } # Christopher Columbus
-1516.1.23 = { discovered_by = SPA }
+ 
+ 
 
 1623.1.1 = {
 	owner = FRA
@@ -28,7 +28,7 @@ discovered_by = ARW
 	is_city = yes
 	trade_goods = sugar 
 } # Eventually inhabited by both French and English
-1627.1.1 = { capital = "Basseterre" } # The territory went back & forth between the two, Basseterre was founded by the French
+ 
 1713.4.11 = {
 	owner = GBR
 	controller = GBR

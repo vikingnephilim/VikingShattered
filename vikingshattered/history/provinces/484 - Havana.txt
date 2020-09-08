@@ -16,7 +16,7 @@ discovered_by = ARW
 extra_cost = 8
 center_of_trade = 1
 
-1492.10.24 = { discovered_by = CAS } # Christopher Columbus's arrival
+ 
 1515.1.1 = {
 	owner = CAS 
 	controller = CAS
@@ -25,7 +25,7 @@ center_of_trade = 1
 	religion = catholic
 	is_city = yes
 	trade_goods = tobacco
-} # Founded by Diego Velázquez de Cuéllar
+} # Founded by Diego Velï¿½zquez de Cuï¿½llar
 1516.1.23 = {
 	discovered_by = SPA
 	owner = SPA
@@ -33,8 +33,8 @@ center_of_trade = 1
 	add_core = SPA
 	remove_core = CAS
 }
-1522.1.1 = { unrest = 2 } # Guama lead a relatively small attack against the conquistadors 
-1532.1.1 = { unrest = 0 } # Guama is killed
-1762.8.12 = { controller = GBR } 
-1763.2.10 = { controller = SPA } # Exchanged for Florida, made it the most heavily fortified city in the Americas 
+ 
+ 
+ 
+ 
 

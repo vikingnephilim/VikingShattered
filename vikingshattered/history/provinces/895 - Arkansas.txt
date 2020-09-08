@@ -16,8 +16,8 @@ native_hostileness = 8
 
 discovered_by = north_american
 
-1541.1.1 = { discovered_by = SPA } # Hernando de Soto
-1673.1.1 = { discovered_by = FRA } # Jacques Marquette & Louis Jolliet
+ 
+ 
 
 1722.1.1 = {
 	owner = FRA

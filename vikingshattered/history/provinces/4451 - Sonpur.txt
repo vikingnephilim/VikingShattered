@@ -23,7 +23,7 @@ discovered_by = chinese
 	controller = SBP
 	add_core = SBP
 }
-1498.1.1 = { discovered_by = POR }
+ 
 1752.1.1 = {
 	owner = NAG
 	controller = NAG

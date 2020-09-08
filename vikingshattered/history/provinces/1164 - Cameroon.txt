@@ -19,5 +19,5 @@ discovered_by = NDO
 discovered_by = LOA
 discovered_by = sub_saharan
 
-1472.1.1 = { discovered_by = POR } # Frenão do Pó
-1804.1.1 = { discovered_by = SOK }
+1472.1.1 = { discovered_by = POR } # Frenï¿½o do Pï¿½
+ 

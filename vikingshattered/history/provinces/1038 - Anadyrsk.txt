@@ -20,7 +20,7 @@ discovered_by = CHU
 discovered_by = CHV
 discovered_by = KMC
 
-1648.1.1 = { discovered_by = RUS } # Semyon Dezhnev
+ 
 
 1768.1.1 = {
 	owner = RUS

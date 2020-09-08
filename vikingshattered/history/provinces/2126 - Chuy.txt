@@ -22,7 +22,7 @@ discovered_by = ottoman
 	controller = KAS
 	add_core = KAS
 }
-1622.1.1 = { discovered_by = RUS }
+ 
 1682.1.1 = {
 	owner = ZUN
 	controller = ZUN

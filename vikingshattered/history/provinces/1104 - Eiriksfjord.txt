@@ -14,8 +14,8 @@ native_hostileness = 9
 
 
 
-1444.1.1 = { discovered_by = VIN }
-1720.1.1 = { discovered_by = DAN }
+ 
+ 
 
 1721.1.1 = {
 	owner = DAN

@@ -16,7 +16,7 @@ native_hostileness = 7
 
 
 
-1520.1.1 = { discovered_by = POR }
+ 
 
 1652.1.1 = {
 	discovered_by = POR
@@ -28,7 +28,7 @@ native_hostileness = 7
 	culture = portugese
 	trade_goods = gold
 }
-1708.1.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # War between the Portugese & the Paulista bandeirantes
-1710.1.1 = { revolt = {} controller = POR } # The Paulistas were defeated
-1789.1.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # War of Emboabas
-1792.4.21 = { revolt = {} controller = POR } # Joaquim José da Silva Xavier is captured
+ 
+ 
+ 
+ 

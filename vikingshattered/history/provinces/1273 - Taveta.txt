@@ -13,5 +13,5 @@ native_hostileness = 9
 discovered_by = central_african
 discovered_by = east_african
 
-1593.1.1 = { discovered_by = POR }
-1710.1.1 = { discovered_by = OMA }
+ 
+ 

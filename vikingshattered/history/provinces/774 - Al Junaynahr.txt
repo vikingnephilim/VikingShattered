@@ -21,4 +21,4 @@ base_manpower = 1
 	discovered_by = ETH
 	trade_goods = slaves
 }
-1682.1.1 = { religion = sunni }
+ 

@@ -38,7 +38,7 @@ discovered_by = MGD
 discovered_by = TER
 discovered_by = TID
 
-1512.1.1 = { discovered_by = POR }
+ 
 
 1556.1.1 = {
 	owner = POR

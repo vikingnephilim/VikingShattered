@@ -17,7 +17,7 @@ native_hostileness = 2
 discovered_by = north_american
 discovered_by = mesoamerican
 
-1533.1.1 = { discovered_by = SPA }
+ 
 
 1691.1.1 = {
 	owner = SPA
@@ -28,8 +28,8 @@ discovered_by = mesoamerican
 	religion = catholic	
 	trade_goods = grain
 } # Missionaries arrived
-1775.1.1 = { unrest = 4 } # The natives rebelled
-1776.1.1 = { unrest = 0 }
+ 
+ 
 1810.9.16 = {
 	owner = MEX
 	add_core = MEX

@@ -26,4 +26,4 @@ discovered_by = BRT
 	culture = russian
 	is_city = yes
 }
-1634.1.1 = { add_core = RUS }
+ 

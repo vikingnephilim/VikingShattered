@@ -20,9 +20,9 @@ discovered_by = east_african
 extra_cost = 8
 center_of_trade = 1
 
-1515.1.1 = { discovered_by = POR }
-1534.1.1 = { add_core = TUR } # The Ottomans tried but eventually failed to extend their control into the interior of Arabia
-1536.1.1 = { remove_core = TUR }
+ 
+ 
+ 
 1779.1.1 = {
 	owner = NAJ
 	controller = NAJ

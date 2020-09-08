@@ -19,8 +19,8 @@ discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = chinese
 
-1534.1.1 = { controller = GUJ } # War with Gujarat
-1536.1.1 = { controller = MER } # War with Gujarat ends
+ 
+ 
 1544.1.1 = {
 	owner = BNG
 	controller = BNG
@@ -31,8 +31,8 @@ discovered_by = chinese
 	controller = MER
 	remove_core = BNG
 } # Independence regained after death of Sher Shah
-1680.1.1 = { controller = MUG }
-1681.1.1 = { controller = MER }
-1690.1.1 = { discovered_by = ENG }
-1707.5.12 = { discovered_by = GBR }
+ 
+ 
+ 
+ 
 

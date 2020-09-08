@@ -20,9 +20,9 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1540.1.1 = { discovered_by = SPA } # Hernando de Soto
+ 
 
-1682.1.1 = { unrest = 3 } # Frictions between the French & the indians
+ 
 1786.1.10= { owner = USA
 	controller = USA
 	add_core = USA

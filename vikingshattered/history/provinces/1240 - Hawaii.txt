@@ -15,7 +15,7 @@ owner = HAW
 add_core = HAW
 controller = HAW
 
-1555.1.1 = { discovered_by = SPA }
-1795.1.1 = { capital = "Wakiki" }
-1803.1.1 = { capital = "Honolulu" }
-1812.1.1 = { capital = "Kailua-Kona" }
+ 
+ 
+ 
+ 

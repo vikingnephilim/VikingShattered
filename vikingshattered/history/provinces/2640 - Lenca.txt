@@ -28,5 +28,5 @@ discovered_by = mesoamerican
 	capital = "Choluteca"
 	trade_goods = fish
 } # First settlers
-1578.1.1 = { capital = "Tegucigalpa" }
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence
+ 
+ 

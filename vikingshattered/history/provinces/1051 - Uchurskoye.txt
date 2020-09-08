@@ -15,7 +15,7 @@ native_hostileness = 3
 
 
 
-1632.1.1 = { discovered_by = RUS }
+ 
 
 1643.1.1 = {
 	owner = RUS
@@ -25,8 +25,8 @@ native_hostileness = 3
 	is_city = yes
 	trade_goods = fur
 }
-1655.1.1 = { unrest = 7 } # Yakutsk rebellion
-1660.1.1 = { unrest = 0 }
-1668.1.1 = { add_core = RUS }
-1684.1.1 = { unrest = 4 } # Yakut rebellion
-1686.1.1 = { unrest = 0 }
+ 
+ 
+ 
+ 
+ 

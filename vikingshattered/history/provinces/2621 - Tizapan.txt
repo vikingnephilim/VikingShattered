@@ -34,6 +34,6 @@ discovered_by = mesoamerican
 	religion = catholic
 	unrest = 5
 }
-1541.1.1 = { culture = castillian }
-1810.9.16 = { owner = MEX add_core = MEX controller = MEX }
+ 
+ 
 

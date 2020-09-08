@@ -20,4 +20,4 @@ native_hostileness = 0
 	culture = portugese
 	religion = catholic
 }
-1500.1.1 = { trade_goods = fish }
+ 

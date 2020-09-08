@@ -16,8 +16,8 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1609.1.1 = { discovered_by = FRA } # Samuel de Champlain
-1611.1.1 = { discovered_by = ENG } # Henry Hudson
+ 
+ 
 
 1650.1.1 = {
 	owner = OJI
@@ -27,4 +27,4 @@ discovered_by = north_american
 	trade_goods = fur
 	culture = anishinabe
 } #Iroquois focus on Lake Ontario, Ojibwe moves in
-1707.5.12 = { discovered_by = GBR }
+ 

@@ -24,8 +24,8 @@ discovered_by = chinese
 	controller = BND
 	capital = "Orchha"
 }
-1576.1.1 = { controller = MUG }
-1577.1.1 = { controller = BND }
-1690.1.1 = { discovered_by = ENG }
-1707.5.12 = { discovered_by = GBR }
+ 
+ 
+ 
+ 
 

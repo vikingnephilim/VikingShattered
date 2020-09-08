@@ -16,8 +16,8 @@ discovered_by = ARW
 
 
 
-1493.1.1 = { discovered_by = CAS } # Christopher Columbus
-1516.1.23 = { discovered_by = SPA }
+ 
+ 
 
 1632.1.1 = {
 	owner = ENG
@@ -36,5 +36,5 @@ discovered_by = ARW
 	add_core = GBR
 	remove_core = ENG
 }
-1736.1.1 = { unrest = 3 } # Slave uprising
-1737.1.1 = { unrest = 0 } # The plot was discovered and put down
+ 
+ 

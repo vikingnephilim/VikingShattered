@@ -39,6 +39,6 @@ discovered_by = chinese
 
 
 
-1690.1.1 = { discovered_by = ENG }
-1707.5.12 = { discovered_by = GBR }
+ 
+ 
 

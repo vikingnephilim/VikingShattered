@@ -16,8 +16,8 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1513.4.2 = { discovered_by = CAS } # Juan Ponce de Leon
-1516.1.23 = { discovered_by = SPA }
+ 
+ 
 
 1623.1.1 = {
 	owner = SPA
@@ -32,4 +32,4 @@ discovered_by = north_american
 	controller = USA
 	add_core = USA
 	remove_core = SPA
-} # The Adams-Onís Treaty
+} # The Adams-Onï¿½s Treaty

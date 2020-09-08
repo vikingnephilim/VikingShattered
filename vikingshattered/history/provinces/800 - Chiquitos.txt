@@ -27,4 +27,4 @@ native_hostileness = 1
 	culture = castillian
 	trade_goods = grain
 }
-1809.7.16 = { revolt = { type = nationalist_rebels size = 3 } controller = REB } # Bolivian War of Independence
+ 

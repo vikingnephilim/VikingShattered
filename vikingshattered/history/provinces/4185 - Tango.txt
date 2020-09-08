@@ -18,7 +18,7 @@ discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 
-1569.1.1 = { add_core = ODA }
-1582.9.24 = { add_core = HSK owner = HSK controller = HSK remove_core = ISK }
-1600.10.21 = { add_core = TKG owner = TKG controller = TKG remove_core = HSK }
+ 
+ 
+ 
 # Battle of Sekigahara

@@ -17,8 +17,8 @@ native_hostileness = 5
 discovered_by = north_american
 
 
-1428.1.1 = { discovered_by = AZT }
-1519.1.1 = { discovered_by = SPA } # Alvarez de Piñeda explored the Gulf Coast
+ 
+1519.1.1 = { discovered_by = SPA } # Alvarez de Piï¿½eda explored the Gulf Coast
 
 1722.1.1 = {
 	owner = SPA

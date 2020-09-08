@@ -27,8 +27,8 @@ discovered_by = ottoman
 	add_core = DMK
 	remove_core = MAJ
 } # Demak Sultanate was established
-1500.1.1 = { religion = sunni }
-1509.1.1 = { discovered_by = POR }
+ 
+ 
 1587.1.1 = {
 	owner = MTR
 	controller = MTR

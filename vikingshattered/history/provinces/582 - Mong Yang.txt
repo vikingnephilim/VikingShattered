@@ -26,8 +26,8 @@ discovered_by = indian
 	add_core = SST
 	remove_core = MYA
 }
-1557.3.6 = { controller = TAU }
-1563.4.1 = { owner = TAU }
+ 
+ 
 1599.1.1 = {
 	owner = SST
 	controller = SST
@@ -37,7 +37,7 @@ discovered_by = indian
 	controller = TAU
 	add_core = TAU
 }
-1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis
+ 
 1752.1.1 = {
 	owner = SST
 	controller = SST

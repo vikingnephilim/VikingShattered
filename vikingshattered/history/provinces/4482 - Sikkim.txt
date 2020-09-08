@@ -24,8 +24,8 @@ discovered_by = NPL
 	owner = SKK
 	controller = SKK
 }
-1670.1.1 = { capital = "Rabdentse" }
+ 
 #1789 #Gorkha
-1690.1.1 = { discovered_by = ENG }
-1707.5.12 = { discovered_by = GBR }
+ 
+ 
 

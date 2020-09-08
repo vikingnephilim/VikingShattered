@@ -16,9 +16,9 @@ native_hostileness = 6
 
 discovered_by = north_american
 
-1741.1.1 = { discovered_by = RUS } # Vitus Bering
-1778.1.1 = { discovered_by = GBR } # James Cook
-1786.1.1 = { discovered_by = FRA } # Jean Francois la Perouse
+ 
+ 
+ 
 
 1800.1.1 = {
 	owner = SAL

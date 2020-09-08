@@ -16,7 +16,7 @@ native_hostileness = 7
 
 discovered_by = north_american
 
-1519.1.1 = { discovered_by = SPA } # Alonzo Alvarez de Pineda
+ 
 
 1702.1.20 = {
 	owner = FRA
@@ -27,7 +27,7 @@ discovered_by = north_american
 	religion = catholic
 	trade_goods = cotton
 } # Founding of Mobile
-1756.5.16 = { controller = GBR } # Occupied by the British
+ 
 1763.2.10 = {
 	owner = GBR
 	add_core = GBR
@@ -35,7 +35,7 @@ discovered_by = north_american
 	culture = english
 	religion = protestant
 } # Treaty of Paris - ceded to Britain, France gave up its claim
-1783.9.3 = { owner = SPA controller = SPA add_core = SPA remove_core = GBR } # Spanish occupation
+ 
 1813.4.1 = {
 	owner = USA
 	controller = USA

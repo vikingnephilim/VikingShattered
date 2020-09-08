@@ -25,10 +25,10 @@ discovered_by = indian
 	add_core = SST
 	remove_core = MPA
 }
-1535.1.1 = { discovered_by = POR }
-1554.1.1 = { add_core = TAU }
-1557.11.1 = { controller = TAU } # The Shan dynasty is overthrown
-1563.4.1 = {	owner = TAU }
+ 
+ 
+ 
+ 
 1599.1.1 = {
 	owner = SST
 	controller = SST

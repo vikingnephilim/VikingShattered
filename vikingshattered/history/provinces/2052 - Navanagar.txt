@@ -25,8 +25,8 @@ discovered_by = east_african
 	owner = GUJ
 	controller = GUJ
 }
-1498.1.1 = { discovered_by = POR }
-1519.1.1 = { capital = "Navanagar" }
+ 
+ 
 1540.1.1 = {
 	owner = NVR
 	controller = NVR

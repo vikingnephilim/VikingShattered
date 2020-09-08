@@ -15,5 +15,5 @@ is_city = yes
 add_local_autonomy = 40 #Ruled by independent chiefs
 discovered_by = east_african
 
-1500.9.1 = { discovered_by = POR } # Diego Dias
-1818.1.1 = { owner = MIR controller = MIR add_core = MIR } #Repeated Merina incursions culminating in eventual surrender.
+ 
+ 

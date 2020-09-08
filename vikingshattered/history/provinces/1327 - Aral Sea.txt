@@ -7,4 +7,4 @@ discovered_by = KAS
 
 
 
-1717.1.1 = { discovered_by = RUS }
+ 

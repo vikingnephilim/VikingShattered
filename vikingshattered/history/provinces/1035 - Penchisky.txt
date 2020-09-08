@@ -20,7 +20,7 @@ discovered_by = CHU
 discovered_by = CHV
 discovered_by = KMC
 
-1647.1.1 = { discovered_by = RUS } # V. Atlasov
+ 
 
 1732.1.1 = {
 	owner = RUS
@@ -30,4 +30,4 @@ discovered_by = KMC
 	religion = orthodox
 	trade_goods = fish
 } # Conquered by Russia
-1757.1.1 = { add_core = RUS }
+ 

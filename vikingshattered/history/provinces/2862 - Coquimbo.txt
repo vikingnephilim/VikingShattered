@@ -26,13 +26,13 @@ native_hostileness = 9
 	religion = inti
 	trade_goods = grain
 }
-1520.1.1 = { discovered_by = SPA } # Ferdinand Magellan
+ 
 1541.2.12 = {	owner = SPA
 	controller = SPA
 	culture = castillian
 	religion = catholic
 }
-1566.2.12 = { add_core = SPA }
+ 
 1810.9.18 = {
 	owner = CHL
 	controller = CHL

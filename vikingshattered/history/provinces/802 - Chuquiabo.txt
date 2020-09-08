@@ -30,5 +30,5 @@ center_of_trade = 2
 	culture = castillian
 	religion = catholic
 }# The death of Atahualpa
-1548.1.1 = { capital = "La Paz" } # Founded by Alonso de Mendoza
-1809.7.16 = { revolt = { type = nationalist_rebels size = 3 } controller = REB } # Bolivian War of Independence
+ 
+ 

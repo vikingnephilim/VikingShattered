@@ -28,8 +28,8 @@ discovered_by = chinese
 	owner = MKP
 	controller = MKP
 }
-1690.1.1 = { discovered_by = ENG }
-1707.5.12 = { discovered_by = GBR }
+ 
+ 
 1787.1.1 = {
 	owner = NPL
 	controller = NPL

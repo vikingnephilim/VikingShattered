@@ -19,6 +19,6 @@ discovered_by = ottoman
 extra_cost = 16
 center_of_trade = 2
 
-1521.1.1 = { discovered_by = SPA }
-1672.1.1 = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # Civil war over succession
-1673.1.1 = { revolt = {} controller = BEI }
+ 
+ 
+ 

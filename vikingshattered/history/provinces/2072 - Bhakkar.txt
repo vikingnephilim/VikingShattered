@@ -18,7 +18,7 @@ discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = chinese
 
-1498.1.1 = { discovered_by = POR }
+ 
 
 1544.1.1 = {
 	owner = BNG
@@ -27,19 +27,19 @@ discovered_by = chinese
 1545.1.1 = {	owner = SND
 	controller = SND
 } # Sher Shah dies
-1550.1.1 = { capital = "Sukkur" }
+ 
 1574.1.1 = {
 	owner = MUG
 	controller = MUG
 	add_core = MUG
 } # Integrated into Mughal Empire
-1600.1.1 = { discovered_by = TUR }
+ 
 1739.1.1 = {
 	owner = SND 
 	controller = SND
 	capital = "Shikarpur"
 	remove_core = MUG
 }
-1783.1.1 = { capital = "Burahan" }
-1786.1.1 = { capital = "Khairpur" }
-1795.1.1 = { fort_17th = yes }
+ 
+ 
+ 

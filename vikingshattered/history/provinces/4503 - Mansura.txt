@@ -21,7 +21,7 @@ discovered_by = chinese
 extra_cost = 8
 center_of_trade = 1
 
-1498.1.1 = { discovered_by = POR }
+ 
 1544.1.1 = {
 	owner = BNG
 	controller = BNG
@@ -40,4 +40,4 @@ center_of_trade = 1
 	controller = SND
 	remove_core = MUG
 }
-1768.1.1 = { capital = "Hyderabad" }
+ 

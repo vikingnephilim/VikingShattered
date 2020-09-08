@@ -15,5 +15,5 @@ base_manpower = 1
 is_city = yes
 discovered_by = east_african
 
-1500.8.20 = { discovered_by = POR } #Diego Dias
-1640.1.1 = { owner = MFY controller = MFY add_core = MFY }
+ 
+ 

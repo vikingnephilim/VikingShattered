@@ -16,8 +16,8 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1524.1.1 = { discovered_by = POR } # Diego Gomez
-1707.5.12 = { discovered_by = GBR }
+ 
+ 
 
 1716.1.1 = {
 	owner = GBR
@@ -38,4 +38,4 @@ discovered_by = north_american
 	add_core = USA
 	culture = american
 } # Declaration of independence
-1782.11.1 = { remove_core = GBR unrest = 0 } # Preliminary articles of peace, the British recognized American independence
+ 

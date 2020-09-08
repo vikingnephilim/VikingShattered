@@ -19,6 +19,6 @@ discovered_by = KON
 discovered_by = NDO
 discovered_by = LOA
 
-1472.1.1 = { discovered_by = POR } # Frenão do Pó
-1804.1.1 = { discovered_by = SOK }
+1472.1.1 = { discovered_by = POR } # Frenï¿½o do Pï¿½
+ 
 

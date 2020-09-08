@@ -33,9 +33,9 @@ native_hostileness = 5
 	controller = VNZ
 	add_core = VNZ
 } # Venezuela declared its independence
-1812.7.25 = { controller = SPA } # The revolutionary army is defeated
-1813.8.7 = { controller = VNZ } # The Second Republic of Venezuela is established
-1814.1.1 = { controller = SPA } # The end of the second republic
+ 
+ 
+ 
 1819.12.17 = {
 	owner = COL
 	controller = COL

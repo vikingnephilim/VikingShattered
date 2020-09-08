@@ -20,8 +20,8 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1659.1.1 = { discovered_by = FRA } # Médard Chouart Des Groseilliers
-1671.1.1 = { discovered_by = ENG } # Abraham Wood
+ 
+ 
 
 1680.1.1 = {
  	owner = IRO
@@ -34,7 +34,7 @@ discovered_by = north_american
 	is_city = no
 	culture = shawnee 
 } #Vast areas left deserted after the Beaver Wars and the Iroquois withdrawal
-1707.5.12 = { discovered_by = GBR }
+ 
 1750.1.1 = {
 	owner = SHA
 	controller = SHA

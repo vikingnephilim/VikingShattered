@@ -12,4 +12,4 @@ base_manpower = 3
 is_city = yes
 discovered_by = central_african
 
-1700.1.1 = { owner = LND controller = LND add_core = LND }
+ 

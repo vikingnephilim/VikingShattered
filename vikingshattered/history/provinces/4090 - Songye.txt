@@ -12,4 +12,4 @@ base_manpower = 1
 is_city = yes
 discovered_by = central_african
 
-1600.1.1 = { owner = LUB controller = LUB add_core = LUB }
+ 

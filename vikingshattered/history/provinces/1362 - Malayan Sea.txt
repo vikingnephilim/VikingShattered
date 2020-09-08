@@ -6,5 +6,5 @@ discovered_by = ottoman
 
 
 
-1516.1.1 = { discovered_by = POR }
+ 
 

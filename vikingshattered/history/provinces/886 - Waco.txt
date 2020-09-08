@@ -20,5 +20,5 @@ native_hostileness = 8
 
 discovered_by = north_american
 
-1541.1.1 = { discovered_by = SPA }
+ 
 

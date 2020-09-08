@@ -19,9 +19,9 @@ discovered_by = chinese
 discovered_by = indian
 
 
-1483.1.1 = { add_core = DAI } # Vietnamese Invasion
-1535.1.1 = { discovered_by = POR }
-1694.1.1 = { add_core = TOK } # Vietnamese Intervention
+ 
+ 
+ 
 1707.1.1 = {
 	owner = VIE
 	controller = VIE
@@ -30,5 +30,5 @@ discovered_by = indian
 	remove_core = TOK
 	remove_core = DAI
 } # Lan Xang declared itself independent, partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
-1758.1.1 = { unrest = 5 } # Rebellion
-1759.1.1 = { unrest = 0 }
+ 
+ 

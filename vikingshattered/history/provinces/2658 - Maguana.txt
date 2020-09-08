@@ -14,7 +14,7 @@ native_hostileness = 2
 discovered_by = CAB
 discovered_by = ARW
 
-1492.12.5 = { discovered_by = CAS } # Christopher Columbus's arrival
+ 
 1504.1.1 = {
  	owner = CAS
 	controller = CAS
@@ -24,7 +24,7 @@ discovered_by = ARW
 	religion = catholic
 	is_city = yes
 } #First settlements on the island
-1510.1.1 = { trade_goods = sugar }
+ 
 1516.1.23 = {
 	discovered_by = SPA
 	owner = SPA

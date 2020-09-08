@@ -27,7 +27,7 @@ discovered_by = mesoamerican
 	controller = ITZ
 	add_core = ITZ 
 	} #Estimated: Itza trade empire. 
-1517.1.1 = { discovered_by = SPA }
+ 
 
 1529.1.1 = {
 	owner = SPA
@@ -36,4 +36,4 @@ discovered_by = mesoamerican
 	culture = castillian
 	religion = catholic 
 } #de Montejo form Salamanca de Xicalango
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence
+ 

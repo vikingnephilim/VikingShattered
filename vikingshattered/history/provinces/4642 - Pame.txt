@@ -19,7 +19,7 @@ native_hostileness = 5
 
 discovered_by = mesoamerican
 
-1530.1.1 = { discovered_by = SPA } # Pedro Alm’ndez Chirinos 
+ 
 
 1583.1.1 = {
 	owner = SPA
@@ -29,4 +29,4 @@ discovered_by = mesoamerican
 	religion = catholic	
 	trade_goods = gold 	
 } # First mining settlements
-1810.9.16 = { owner = MEX add_core = MEX controller = MEX } # Mexican War of Independence
+ 

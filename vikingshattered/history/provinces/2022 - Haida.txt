@@ -20,6 +20,6 @@ native_hostileness = 8
 
 discovered_by = north_american
 
-1741.1.1 = { discovered_by = RUS } # Vitus Bering
-1778.1.1 = { discovered_by = GBR } # James Cook
+ 
+ 
 

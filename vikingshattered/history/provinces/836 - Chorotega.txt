@@ -18,8 +18,8 @@ native_hostileness = 5
 discovered_by = mesoamerican
 discovered_by = south_american
 
-1502.1.1 = { discovered_by = CAS } # Christopher Columbus 
-1516.1.23 = { discovered_by = SPA }
+ 
+ 
 
 1563.1.1 = { 
 	capital = "Cartago"
@@ -30,5 +30,5 @@ discovered_by = south_american
 	religion = catholic
 	trade_goods = naval_supplies
 	is_city = yes
-} # Founded by Juan Vásquez de Coronado
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence
+} # Founded by Juan Vï¿½squez de Coronado
+ 

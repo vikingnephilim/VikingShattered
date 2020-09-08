@@ -39,4 +39,4 @@ native_hostileness = 4
 	religion = protestant
 	remove_core = SPA
 }
-1691.1.1 = { capital = "Charlotte Amalie" } # Primary settlement
+ 

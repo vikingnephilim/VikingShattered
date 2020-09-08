@@ -12,4 +12,4 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-1635.1.1 = { religion = sunni }
+ 

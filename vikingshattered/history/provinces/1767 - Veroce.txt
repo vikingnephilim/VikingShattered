@@ -27,11 +27,11 @@ discovered_by = ottoman
 	owner = TUR
 	controller = TUR
 	add_core = TUR
-} # Battle of Mohács
-1567.1.1 = { religion = reformed } # Synod of Debrecen
-1604.1.1 = { revolt = { type = noble_rebels size = 1.5 } controller = REB } # The nobility in Royal Hungary rebelled
-1606.1.1 = { revolt = {} controller = TUR }
-1687.9.29 = { controller = HAB } # Occupied by the Habsburg Empire
+} # Battle of Mohï¿½cs
+ 
+ 
+ 
+ 
 1699.1.26 = {
 	owner = HAB
 	add_core = HAB

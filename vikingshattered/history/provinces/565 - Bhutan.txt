@@ -23,4 +23,4 @@ discovered_by = chinese
 	owner = BHU
 	controller = BHU
 }
-1634.1.1 = { discovered_by = POR } 
+ 

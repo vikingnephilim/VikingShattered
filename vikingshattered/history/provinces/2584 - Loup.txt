@@ -16,8 +16,8 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1609.1.1 = { discovered_by = FRA } # Samuel de champlain
-1629.1.1 = { discovered_by = ENG }
+ 
+ 
 
 1664.1.1 = {
 	owner = FRA
@@ -29,7 +29,7 @@ discovered_by = north_american
 	trade_goods = fur
 	is_city = yes
 } # Network of forts established in the region
-1707.5.12 = { discovered_by = GBR }
+ 
 1763.2.10 = {
 	owner = GBR
 	controller = GBR

@@ -28,5 +28,5 @@ native_hostileness = 1
 	culture = castillian
 	trade_goods = grain
 }
-1571.8.2 = { capital = "Cochabamba" } # Viceroy Francisco de Toledo
-1809.7.16 = { revolt = { type = nationalist_rebels size = 0 } controller = REB } # Bolivian War of Independence
+ 
+ 

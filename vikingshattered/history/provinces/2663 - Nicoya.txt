@@ -18,8 +18,8 @@ native_hostileness = 2
 discovered_by = mesoamerican
 discovered_by = south_american
 
-1502.1.1 = { discovered_by = CAS } # Christopher Columbus 
-1516.1.23 = { discovered_by = SPA }
+ 
+ 
 
 1544.1.1 = {
 	capital = "San Blas de Nicoya"
@@ -31,4 +31,4 @@ discovered_by = south_american
 	trade_goods = naval_supplies
 	is_city = yes
 } # Founded 
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence
+ 

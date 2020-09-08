@@ -19,8 +19,8 @@ discovered_by = nomad_group
 discovered_by = east_african
 
 
-1480.1.1 = { discovered_by = TUR }
-1507.9.1 = { discovered_by = POR } # Alfonso d'Albuquerque
+ 
+ 
 1622.5.3 = {
 	owner = PER
 	controller = PER

@@ -17,9 +17,9 @@ add_core = ITZ
 
 discovered_by = mesoamerican
 
-1522.1.1 = { discovered_by = SPA }
+ 
 
-1697.3.14 = { unrest = 5 } # Spanish attack
+ 
 1700.1.1 = {
 	owner = SPA
 	controller = SPA
@@ -27,4 +27,4 @@ discovered_by = mesoamerican
 	culture = castillian
 	religion = catholic
 } # The remaining pop. was forced to resettle at Ciudad de Flores
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence
+ 

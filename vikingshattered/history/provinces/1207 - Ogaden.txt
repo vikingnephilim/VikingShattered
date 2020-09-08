@@ -15,4 +15,4 @@ base_manpower = 1
 discovered_by = east_african
 
 
-1550.1.1 = { discovered_by = TUR }
+ 

@@ -38,7 +38,7 @@ discovered_by = indian
 	controller = UTS
 	add_core = UTS
 }
-1721.1.1 = { discovered_by = SPA }
+ 
 1792.11.1 = {
 	owner = QNG
 	controller = QNG

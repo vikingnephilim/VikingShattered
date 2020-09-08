@@ -41,11 +41,11 @@ discovered_by = QTO
 	culture = castillian
 	religion = catholic
 } # Conquered by the Spanish
-1537.1.1 = { unrest = 8 } # Fighting breaks out when Almagro seizes Cuzco
-1538.1.1 = { unrest = 5 } # Almagro is defeated & executed
+ 
+ 
 1810.7.20 = {
 	owner = COL
 	controller = COL
 	add_core = COL
 } # Colombia declares independence
-1819.8.7 = { remove_core = SPA } # Colombia's independence is recongnized
+ 

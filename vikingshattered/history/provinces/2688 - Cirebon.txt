@@ -28,7 +28,7 @@ discovered_by = ottoman
 	remove_core = SUN
 	religion = sunni
 }
-1509.1.1 = { discovered_by = POR }
-1613.1.1 = { discovered_by = NED } # The Dutch arrived
-1631.1.1 = { unrest = 5 } # Rebellion against Mataram rule
-1636.1.1 = { unrest = 0 }
+ 
+ 
+ 
+ 

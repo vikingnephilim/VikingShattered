@@ -24,8 +24,8 @@ discovered_by = north_american
 	religion = catholic
 	culture = castillian
 } # First permanent Spanish settlers
-1751.1.1 = { unrest = 5 }
-1752.1.1 = { unrest = 0 }
+ 
+ 
 1810.9.16 = {
 	owner = MEX
 	add_core = MEX

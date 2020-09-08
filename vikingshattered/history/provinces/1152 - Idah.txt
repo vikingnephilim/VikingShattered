@@ -33,8 +33,8 @@ discovered_by = sub_saharan
 	controller = NUP
 	add_core = NUP
 } #Civil war in Benin ends Ode domination of Igala
-1700.1.1 = { trade_goods = slaves } #Source of Slaves for Trade In Calabar-Bonny region
-1804.1.1 = { discovered_by = SOK }
+ 
+ 
 1807.1.1 = {
 	owner = SOK
 	controller = SOK

@@ -21,7 +21,7 @@ discovered_by = chinese
 	religion = sunni
 	trade_goods = tropical_wood
 }
-1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
+ 
 1569.1.1 = {	
 	owner = SPA
 	controller = SPA

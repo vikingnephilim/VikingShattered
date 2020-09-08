@@ -29,6 +29,6 @@ discovered_by = KMC
 	is_city = yes
 	trade_goods = fish
 } # V. Atlasov
-1654.1.1 = { unrest = 3 } # Okhotsk fort burned
-1655.1.1 = { unrest = 0 }
-1668.1.1 = { add_core = RUS }
+ 
+ 
+ 

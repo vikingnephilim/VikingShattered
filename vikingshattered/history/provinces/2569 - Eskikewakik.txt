@@ -17,7 +17,7 @@ native_hostileness = 2
 discovered_by = north_american
 
 
-1534.1.1 = { discovered_by = FRA }# Jacques Cartier
+ 
 
 1659.1.1 = {
 	owner = FRA
@@ -28,11 +28,11 @@ discovered_by = north_american
 	religion = catholic
 	trade_goods = fish
 } # Shippagan
-1684.1.1 = { add_core = FRA }
-1710.10.1 = { controller = GBR } # Queen Anne's war
+ 
+ 
 1713.4.11 = {
 	owner = GBR
 	add_core = GBR
 	remove_core = FRA
 } # Treaty of Utrecht
-1750.1.1 = { culture = english religion = protestant } #British forcibly remove Acadians
+ 

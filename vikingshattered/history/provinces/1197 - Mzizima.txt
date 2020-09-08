@@ -18,7 +18,7 @@ discovered_by = ottoman
 discovered_by = central_african
 discovered_by = east_african
 
-1498.3.16 = { discovered_by = POR } #Vasco Da Gama
-1600.1.1 = { discovered_by = TUR }
-1730.1.1 = { owner = OMA controller = OMA add_core = OMA } #Omanis restore control
-1763.1.1 = { unrest = 7 } #Kamba migrations in wake of Maasai expansion disturb region
+ 
+ 
+ 
+ 

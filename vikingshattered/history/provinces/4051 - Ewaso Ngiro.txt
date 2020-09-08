@@ -14,4 +14,4 @@ base_manpower = 1
 discovered_by = east_african
 discovered_by = central_african
 
-1705.1.1 = { discovered_by = OMA }
+ 

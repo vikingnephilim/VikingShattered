@@ -20,8 +20,8 @@ native_hostileness = 7
 
 discovered_by = north_american
 
-1554.1.1 = { discovered_by = SPA }
-1673.1.1 = { discovered_by = FRA } # Louis Joliet & Jacques Marquette
+ 
+ 
 
 1808.11.10 = {
 	owner = USA

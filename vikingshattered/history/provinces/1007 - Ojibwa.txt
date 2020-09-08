@@ -16,8 +16,8 @@ native_hostileness = 7
 
 discovered_by = north_american
 
-1609.1.1 = { discovered_by = FRA }
-1611.1.1 = { discovered_by = ENG }
+ 
+ 
 
 1660.1.1 = {
  	owner = OJI
@@ -28,8 +28,8 @@ discovered_by = north_american
 
 
 
-1664.1.1 = { discovered_by = ENG }
-1707.5.12 = { discovered_by = GBR }
+ 
+ 
 
 1710.1.1 = { 
 	owner = ---

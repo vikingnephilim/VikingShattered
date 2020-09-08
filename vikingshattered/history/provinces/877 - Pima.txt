@@ -20,7 +20,7 @@ native_hostileness = 1
 
 discovered_by = north_american
 
-1541.1.1 = { discovered_by = SPA } # Francisco Vásquez de Coronado
+1541.1.1 = { discovered_by = SPA } # Francisco Vï¿½squez de Coronado
 
 1731.1.1 = {
 	owner = SPA
@@ -30,8 +30,8 @@ discovered_by = north_american
 	religion = catholic
 	culture = castillian
 } # First permanent Spanish settlers
-1751.1.1 = { unrest = 5 }
-1752.1.1 = { unrest = 0 }
+ 
+ 
 1810.9.16 = {
 	owner = MEX
 	add_core = MEX

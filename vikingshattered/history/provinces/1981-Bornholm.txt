@@ -18,6 +18,6 @@ discovered_by = muslim
 discovered_by = ottoman
 
 
-1536.3.15 = { religion = protestant} # Unknown date
-1658.2.26 = { owner = SWE controller = SWE } # The Peace of Roskilde
-1660.5.27 = { owner = DAN controller = DAN } # Treaty of Copenhagen
+ 
+ 
+ 

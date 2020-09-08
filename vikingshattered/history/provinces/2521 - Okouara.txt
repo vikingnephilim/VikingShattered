@@ -16,8 +16,8 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1609.1.1 = { discovered_by = FRA }
-1611.1.1 = { discovered_by = ENG }
+ 
+ 
 
 1650.1.1 = {
 	owner = OTT
@@ -38,7 +38,7 @@ discovered_by = north_american
 	is_city = yes
 	culture = anishinabe 
 } #Retaken by French/Allies in Beaver Wars
-1707.5.12 = { discovered_by = GBR }
+ 
 1813.10.5 = {
 	owner = USA
 	controller = USA

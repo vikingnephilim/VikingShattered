@@ -16,8 +16,8 @@ base_manpower = 1
 
 discovered_by = north_american
 
-1524.1.1 = { discovered_by = POR } # Diego Gomez
-1707.5.12 = { discovered_by = GBR }
+ 
+ 
 
 1735.1.1 = {
 	owner = GBR
@@ -27,10 +27,10 @@ discovered_by = north_american
 	religion = protestant
 	is_city = yes
 } # Settlement of Upcountry South Carolina
-1748.1.1 = { capital = "Charlotte" }
-1760.1.1 = { add_core = GBR }
-1760.1.19 = { unrest = 5 } # Cherokee war
-1761.1.1 = { unrest = 0 } # Peace attempt
+ 
+ 
+ 
+ 
 1764.7.1 = {
 	culture = american
 	unrest = 6

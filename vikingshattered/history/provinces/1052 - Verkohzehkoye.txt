@@ -20,7 +20,7 @@ discovered_by = CHV
 discovered_by = KMC
 discovered_by = BRT
 
-1643.1.1 = { discovered_by = RUS } # Vasily Poyarkov
+ 
 
 1653.1.1 = {
 	owner = RUS
@@ -29,5 +29,5 @@ discovered_by = BRT
 	culture = russian
 	is_city = yes
 } # Pyotr Beketov
-1678.1.1 = { add_core = RUS }
-1700.1.1 = { trade_goods = fur }
+ 
+ 

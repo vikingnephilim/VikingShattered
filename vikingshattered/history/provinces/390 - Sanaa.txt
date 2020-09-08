@@ -24,7 +24,7 @@ fort_15th = yes
 	owner = YEM
 	controller = YEM
 }
-1515.1.1 = { discovered_by = POR }
+ 
 1517.1.1 = {
 	owner = RAS
 	controller = RAS

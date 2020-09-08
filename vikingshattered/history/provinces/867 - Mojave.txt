@@ -23,5 +23,5 @@ discovered_by = north_american
 	is_city = yes 
 } #representing various desert tribes
 
-1774.1.1 = { discovered_by = SPA } # Colonists never really settled this far inland
+ 
 

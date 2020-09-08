@@ -18,19 +18,19 @@ discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = chinese
 
-1498.1.1 = { discovered_by = POR }
+ 
 
 1544.1.1 = {
 	owner = BNG
 	controller = BNG
 } # Sur Expansionism
-1545.1.1 = { owner = SND controller = SND } # Sher Shah dies
+ 
 1574.1.1 = {
 	owner = MUG
 	controller = MUG
 	add_core = MUG
 } # Integrated into Mughal Empire
-1600.1.1 = { discovered_by = TUR }
+ 
 1739.1.1 = {
 	owner = SND 
 	controller = SND

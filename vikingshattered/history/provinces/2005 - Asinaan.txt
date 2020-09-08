@@ -16,8 +16,8 @@ native_hostileness = 1
 
 discovered_by = north_american
 
-1692.1.1 = { discovered_by = ENG } #Henry Kelsey
-1707.5.12 = { discovered_by = GBR }
+ 
+ 
 
 1710.1.1 = {
 	owner = ASI
@@ -27,4 +27,4 @@ discovered_by = north_american
 	trade_goods = fur
 	culture = nakota
 } #Horses cause waves of migration on the Great Plains
-1732.1.1 = { discovered_by = FRA } # Pierre Gaultier de Varennes
+ 

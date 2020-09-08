@@ -16,8 +16,8 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1535.1.1 = { discovered_by = FRA } # Jacques Cartier
-1629.1.1 = { discovered_by = ENG }
+ 
+ 
 
 1672.1.1 = {
 	owner = FRA

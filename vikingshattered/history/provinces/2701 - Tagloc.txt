@@ -14,5 +14,5 @@ native_hostileness = 9
 discovered_by = chinese
 
 
-1450.1.1 = { religion = sunni }
-1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan
+ 
+ 

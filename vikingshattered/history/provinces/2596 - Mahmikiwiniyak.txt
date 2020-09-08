@@ -16,9 +16,9 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1692.1.1 = { discovered_by = ENG } #Henry Kelsey
-1707.5.12 = { discovered_by = GBR }
-1732.1.1 = { discovered_by = FRA } # Pierre Gaultier de Varennes
+ 
+ 
+ 
 
 1795.1.1 = {
 	owner = GBR
@@ -28,4 +28,4 @@ discovered_by = north_american
 	religion = protestant 
 	trade_goods = fur 
 } #Fort Alexandria
-1820.1.1 = { add_core = GBR }
+ 

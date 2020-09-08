@@ -17,7 +17,7 @@ native_hostileness = 5
 discovered_by = mesoamerican
 
 
-1540.1.1 = { discovered_by = SPA } # Francisco Vasquez de Coronado
+ 
 
 1598.1.1 = {
 	owner = SPA
@@ -28,4 +28,4 @@ discovered_by = mesoamerican
 	culture = castillian
 	trade_goods = wool 
 } # First Spanish colonists, early El Paso was on this side of the river.
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence
+ 

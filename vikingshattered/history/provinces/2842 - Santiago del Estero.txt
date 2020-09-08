@@ -21,7 +21,7 @@ native_hostileness = 1
 
 
 
-1543.1.1 = { discovered_by = SPA }
+ 
 
 1553.6.25 = {
 	owner = SPA
@@ -31,8 +31,8 @@ native_hostileness = 1
 	religion = catholic
 	trade_goods = cotton
 }
-1570.1.1 = { is_city = yes }
-1790.1.1 = { unrest = 6 } # The desire for independence grew
+ 
+ 
 1816.7.9 = {
 	owner = LAP
 	controller = LAP

@@ -31,4 +31,4 @@ add_province_triggered_modifier = changbai_mountain
 	add_core = QNG
 	remove_core = MCH
 } # The Qing Dynasty
-1709.1.1 = { discovered_by = SPA }
+ 

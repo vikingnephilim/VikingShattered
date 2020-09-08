@@ -26,4 +26,4 @@ discovered_by = nomad_group
 	add_core = QNG
 	remove_core = MCH
 } # The Qing Dynasty
-1709.1.1 = { discovered_by = SPA }
+ 

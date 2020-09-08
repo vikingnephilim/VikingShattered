@@ -32,4 +32,4 @@ discovered_by = mesoamerican
 	religion = catholic
 	culture = castillian
 } # The last Aztec emperor surrendered, Mexico city is founded on top of the ruins 
-1810.9.16 = { owner = MEX add_core = MEX controller = MEX } # Mexican War of Independence
+ 

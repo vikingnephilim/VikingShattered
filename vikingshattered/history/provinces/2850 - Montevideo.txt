@@ -16,8 +16,8 @@ native_hostileness = 5
 
 
 
-1516.1.23 = { discovered_by = SPA }
-1530.1.1 = { discovered_by = POR } # Estimate
+ 
+ 
 
 1724.1.1 = {
 	owner = SPA
@@ -27,4 +27,4 @@ native_hostileness = 5
 	religion = catholic
 	trade_goods = grain
 } # Portugese colony
-1726.1.1 = {	is_city = yes }
+ 

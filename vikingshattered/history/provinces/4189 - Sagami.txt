@@ -29,7 +29,7 @@ discovered_by = ANU
 	fort_15th = yes
 	capital = "Odawara"
 } # Odawara Castle
-1542.1.1 = { discovered_by = POR }
+ 
 1560.1.1 = {
 	fort_15th = no
 	fort_16th = yes

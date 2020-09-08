@@ -18,7 +18,7 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
 
-1584.1.1 = { religion = vajrayana } #Morang Kingdom
+ 
 1609.1.1 = {
 	owner = MKP
 	controller = MKP
@@ -34,6 +34,6 @@ discovered_by = chinese
 	add_core = NPL
 }
 #1774 #Gorkha
-1690.1.1 = { discovered_by = ENG }
-1707.5.12 = { discovered_by = GBR }
+ 
+ 
 

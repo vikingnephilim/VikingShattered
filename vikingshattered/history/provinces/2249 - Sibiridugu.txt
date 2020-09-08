@@ -34,5 +34,5 @@ discovered_by = sub_saharan
 	add_core = SOF
 	remove_core = ZAF
 } # rise of Bambara state 
-1685.1.1 = { revolt = { type = revolutionary_rebels size = 1 } controller = REB } #Bambara decline after death of Kaniadan Kulibali
-1720.1.1 = { revolt = {} controller = SOF } #Mamia Kulibali restores Bambara authority in region
+ 
+ 

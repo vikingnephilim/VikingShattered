@@ -24,12 +24,12 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-1498.2.15 = { discovered_by = POR } #Vasco Da Gama
+ 
 1531.1.1 = {
 	owner = POR
 	controller = POR
 	add_core = POR
 }
-1631.1.1 = { unrest = 7 } #Maravi invade region
-1632.1.1 = { unrest = 0 } #Maravi expelled from the region
-1750.1.1 = { trade_goods = grain } #becomes major center of cereal production to feed slaves
+ 
+ 
+ 

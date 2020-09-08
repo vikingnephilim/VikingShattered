@@ -13,8 +13,8 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 2
 
-1516.1.23 = { discovered_by = SPA } # Juan Diaz de Solis
-1530.1.1 = { discovered_by = POR } # Estimate
+ 
+ 
 1680.1.1 = {
 	owner = POR
 	controller = POR
@@ -31,4 +31,4 @@ native_hostileness = 2
 	culture = castillian
 	remove_core = POR
 } # The portugese are chased out
-1762.1.1 = { fort_17th = yes }
+ 

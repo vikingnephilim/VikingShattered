@@ -16,7 +16,7 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1566.1.1 = { discovered_by = SPA } #De Aviles
+ 
 
 1684.1.1 = {
 	owner = ENG
@@ -31,10 +31,10 @@ discovered_by = north_american
 	controller = GBR
 	discovered_by = GBR
 } 
-1709.1.1 = { add_core = GBR }
+ 
 1776.7.4 = {
 	owner = USA
 	controller = USA
 	add_core = USA
 } # Declaration of independence
-1782.11.1 = { remove_core = GBR unrest = 0  } # Preliminary articles of peace, the British recognized American independence
+ 

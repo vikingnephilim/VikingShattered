@@ -13,7 +13,7 @@ native_size = 10
 native_ferocity = 1
 native_hostileness = 5
 
-1530.1.1 = { discovered_by = POR } # Estimate
+ 
 1737.2.19 = {
 	owner = POR
 	controller = POR

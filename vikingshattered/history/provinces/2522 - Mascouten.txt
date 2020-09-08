@@ -25,8 +25,8 @@ discovered_by = north_american
 	add_core = POT
 	culture = anishinabe 
 } #Around the time of the Beaver Wars
-1659.1.1 = { discovered_by = FRA } # Médard Chouart Des Groseilliers
-1664.1.1 = { discovered_by = ENG }
+1659.1.1 = { discovered_by = FRA } # Mï¿½dard Chouart Des Groseilliers
+ 
 1680.1.1 = { 
 	owner = IRO
 	controller = IRO
@@ -38,7 +38,7 @@ discovered_by = north_american
 	is_city = yes
 	culture = anishinabe 
 } #Retaken by French/Allies in Beaver Wars
-1707.5.12 = { discovered_by = GBR }
+ 
 1813.10.5 = {
 	owner = USA
 	controller = USA

@@ -27,4 +27,4 @@ discovered_by = BRT
 	is_city = yes
 	trade_goods = fish
 }
-1637.1.1 = { add_core = RUS }
+ 

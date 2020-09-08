@@ -35,5 +35,5 @@ fort_15th = yes
 	religion = catholic
 	unrest = 5
 } #Tangaxuan II is deposed and murdered.
-1541.1.1 = { culture = castillian } # growing aculturation
-1810.9.16 = { owner = MEX add_core = MEX controller = MEX } # Mexican War of Independence
+ 
+ 

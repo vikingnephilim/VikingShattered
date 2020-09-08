@@ -11,7 +11,7 @@ discovered_by = chinese
 
 
 
-1413.1.1 = { discovered_by = MNG }
-1498.1.1 = { discovered_by = POR }
-1600.1.1 = { discovered_by = TUR }
+ 
+ 
+ 
 

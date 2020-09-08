@@ -20,8 +20,8 @@ native_hostileness = 2
 
 discovered_by = mesoamerican
 
-1502.1.1 = { discovered_by = CAS } # Christopher Columbus 
-1516.1.23 = { discovered_by = SPA }
+ 
+ 
 
 1524.1.1 = {
 	capital = "Triunfo de la Cruz"
@@ -31,6 +31,6 @@ discovered_by = mesoamerican
 	culture = castillian
 	religion = catholic
 } # Founded by de Olid
-1525.1.1 = { capital = "La Navidad" } #New settlement by Cortez
-1536.1.1 = { capital = "Puerto de Caballos" } #New name again
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence
+ 
+ 
+ 

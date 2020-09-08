@@ -16,7 +16,7 @@ native_hostileness = 8
 
 
 
-1545.1.1 = { discovered_by = SPA }
+ 
 
 1609.1.1 = {
 	owner = GUA
@@ -32,7 +32,7 @@ native_hostileness = 8
 	add_core = SPA
 	religion = catholic
 } # Outcome of the Guarani War
-1790.1.1 = { unrest = 6 } # Desire for independence
+ 
 1816.7.9 = {
 	owner = LAP
 	controller = LAP

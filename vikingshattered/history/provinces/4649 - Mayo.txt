@@ -15,7 +15,7 @@ native_hostileness = 5
 
 
 discovered_by = mesoamerican
-1531.3.1 = { discovered_by = SPA }
+ 
 
 1531.9.1 = {
 	owner = SPA
@@ -26,5 +26,5 @@ discovered_by = mesoamerican
 	religion = catholic
 	trade_goods = grain
 }
-1578.1.1 = { discovered_by = ENG } # Drake
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence
+ 
+ 

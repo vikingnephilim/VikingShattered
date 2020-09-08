@@ -25,8 +25,8 @@ discovered_by = east_african
 	owner = GUJ
 	controller = GUJ
 } #Conquered by Gujarat from Tribes
-1498.1.1 = { discovered_by = POR }
-1510.1.1 = { capital = Bhuj }
+ 
+ 
 1544.1.1 = {
 	owner = BNG
 	controller = BNG
@@ -40,7 +40,7 @@ discovered_by = east_african
 	controller = MUG
 	add_core = MUG
 } #Under some form of Mughal control, was raided from time to time by them since 1573
-1600.1.1 = { discovered_by = TUR }
+ 
 1724.1.1 = {
 	owner = KAT
 	controller = KAT
