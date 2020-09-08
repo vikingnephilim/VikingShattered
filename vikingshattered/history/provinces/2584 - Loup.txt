@@ -19,20 +19,4 @@ discovered_by = north_american
  
  
 
-1664.1.1 = {
-	owner = FRA
-	controller = FRA
-	add_core = FRA
-	culture = cosmopolitan_french
-	religion = catholic
-	capital = "Fort Chambly"
-	trade_goods = fur
-	is_city = yes
-} # Network of forts established in the region
- 
-1763.2.10 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = FRA
-} # Treaty of Paris - ceded to Britain, France gave up its claim
+

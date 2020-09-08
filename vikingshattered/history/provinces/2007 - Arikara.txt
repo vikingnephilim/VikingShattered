@@ -18,11 +18,4 @@ discovered_by = north_american
 
  
 
-1810.1.1 = {
-	owner = SIO
-	controller = SIO
-	add_core = SIO
-	culture = dakota
-	trade_goods = fur
-	is_city = yes 
-} #Lakota pushes west across the Missouri
+

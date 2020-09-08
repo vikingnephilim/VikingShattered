@@ -21,16 +21,4 @@ discovered_by = indian
 
 
  
-1534.1.1 = {
-	discovered_by = ADA
-	owner = ADA
-	controller = ADA
-	add_core = ADA
-	unrest = 0
-} # Ahmad Gran takes over region
-1544.1.1 = {
-	owner = ETH
-	controller = ETH
-	add_core = ETH
-	remove_core = ADA
-} # Adal collapse in highlands in wake of Ahmad Gran's death
+

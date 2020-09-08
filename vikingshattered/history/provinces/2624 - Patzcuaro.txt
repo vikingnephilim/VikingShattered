@@ -21,12 +21,6 @@ native_hostileness = 2
 discovered_by = mesoamerican
 
 
-1530.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	religion = catholic
-	unrest = 5
-} #Tangaxuan II is deposed and murdered.
+
  
  

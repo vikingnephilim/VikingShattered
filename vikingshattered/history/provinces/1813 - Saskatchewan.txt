@@ -20,22 +20,5 @@ discovered_by = north_american
  
  
 
-1753.1.1 = {
- 	owner = FRA 
-	controller = FRA
-	add_core = FRA
-	is_city = yes
-	culture = cosmopolitan_french
-	religion = catholic
-	trade_goods = fur 
-} #Fort a la Corne
-1763.2.10 = {
-	discovered_by = GBR
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = FRA
-	culture = english
-	religion = protestant
-} # Treaty of Paris
+
  #Northwest company and other traders become more frequent.

@@ -17,14 +17,5 @@ native_hostileness = 2
 discovered_by = mesoamerican
  
  
-1523.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	capital = "Managua"
-	culture = castillian
-	religion = catholic
-	is_city = yes
-	trade_goods = coffee
-} # First permanent Spanish settlement 
+
  

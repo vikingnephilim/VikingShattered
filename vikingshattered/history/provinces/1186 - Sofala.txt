@@ -21,17 +21,7 @@ center_of_trade = 1
 
 
  
-1505.1.1 = { 
-	owner = POR 
-	controller = POR 
-	add_core = POR 
-	unrest = 3
-	add_to_trade_company = POR
-	add_trade_company_investment = {
-		investment = company_warehouse
-		investor = POR
-	}
-} #Portuguese establish first East African base at Sofala
+
  
  
  

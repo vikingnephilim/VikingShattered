@@ -16,16 +16,4 @@ native_hostileness = 3
 
 discovered_by = north_american
 
-1754.1.1 = {
-	discovered_by = FRA 
-	discovered_by = GBR 
-} #French explorers and Henday
 
-1795.1.1 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	is_city = yes
-	capital = "Fort Edmonton"
-	trade_goods = fur
-}

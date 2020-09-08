@@ -25,13 +25,4 @@ discovered_by = sub_saharan
  
  
  
-1791.1.1 = {
-	unrest = 0
-	owner = NUP
-	controller = NUP
-} # Nupe ejects Oyo overlords
-1806.1.1 = {
-	owner = SOK
-	controller = SOK
-	add_core = SOK
-} # The Fulani Empire
+

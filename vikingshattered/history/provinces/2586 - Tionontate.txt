@@ -22,18 +22,7 @@ discovered_by = north_american
 
  
 
-1649.1.1 = {
-	owner = IRO
-	controller = IRO
-	add_core = IRO
-	culture = iroquois
-} #Taken by Iroquois in Beaver Wars.
-1650.1.1 = {
-	owner = OJI
-	controller = OJI
-	add_core = OJI
-	culture = anishinabe
-} #Iroquois focus on Lake Ontario, Ojibwe moves in
+
 
 
 

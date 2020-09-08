@@ -19,26 +19,5 @@ discovered_by = north_american
  
  
 
-1638.1.1 = {
-	owner = ENG
-	controller = ENG
-	add_core = ENG
-	is_city = yes
-	capital = "New Haven"
-	trade_goods = fish
-	culture = english
-	religion = reformed
-} # British settlers from Massachusetts
-1707.5.12 = {
-	discovered_by = GBR
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = ENG
-}
-1776.7.4 = {
-	owner = USA
-	controller = USA
-	add_core = USA
-} # Declaration of independence
+
  

@@ -23,25 +23,4 @@ discovered_by = north_american
  
  
 
-1650.1.1 = { 
-	owner = ---
-	controller = ---
-	remove_core = OJI
-	is_city = no 
-} #Fleeing westward
-1684.1.1 = {
-	owner = FRA
-	controller = FRA
-	add_core = FRA
-	is_city = yes
-	capital = "Fort N�pigon"
-} #French settlement. Ojibwe should have migrated west by then. 
- 
-1763.2.10 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = FRA
-	culture = english
-	religion = protestant
-} # Treaty of Paris 
+

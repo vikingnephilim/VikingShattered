@@ -18,11 +18,5 @@ discovered_by = north_american
 
  
 
-1650.1.1 = {
-	owner = WCR
-	controller = WCR
-	add_core = WCR 
-	trade_goods = fur
-	is_city = yes 
-} #Before the Beaver Wars
+
  

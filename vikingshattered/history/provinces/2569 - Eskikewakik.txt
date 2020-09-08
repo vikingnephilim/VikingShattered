@@ -19,20 +19,5 @@ discovered_by = north_american
 
  
 
-1659.1.1 = {
-	owner = FRA
-	controller = FRA
-	add_core = FRA
-	is_city = yes
-	culture = cosmopolitan_french
-	religion = catholic
-	trade_goods = fish
-} # Shippagan
- 
- 
-1713.4.11 = {
-	owner = GBR
-	add_core = GBR
-	remove_core = FRA
-} # Treaty of Utrecht
+
  

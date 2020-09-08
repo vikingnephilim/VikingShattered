@@ -12,9 +12,4 @@ center_of_trade = 1
 add_core = TGA
 owner = TGA
 controller = TGA
-1616.4.21 = {
-	discovered_by = NED	# Explorers Willem Schouten and Jacob Le Maire
-}
-1773.1.1 = {
-	discovered_by = GBR	# James Cook
-}
+

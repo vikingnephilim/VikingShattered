@@ -21,27 +21,3 @@ discovered_by = chinese
 
 
  
-1732.1.1 = {
-	unrest = 5
-	religion = hinduism
-} # King Pamheiba expelled everyone who opposed vaisnavism
- 
-1758.1.1 = {
-	owner = TAU
-	controller = TAU
-	add_core = TAU
-}
- 
- 
- 
-1782.1.1 = {
-	owner = MLB
-	controller = MLB
-	add_core = MLB
-	remove_core = TAU
-}
-1819.1.1 = {
-	owner = TAU
-	controller = TAU
-	add_core = TAU
-}

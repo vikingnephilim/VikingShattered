@@ -22,20 +22,5 @@ discovered_by = central_african
 
 
  
-1589.6.1 = {
-	owner = ZAN
-	controller = ZAN
-	add_core = ZAN
-} #Mombasa collapses
- 
-1730.1.1 = {
-	owner = OMA
-	controller = OMA
-	add_core = OMA
-} #Omanis establish direct control of Swahili coast
-1746.1.1 = {
-	owner = MBA
-	controller = MBA
-	remove_core = OMA
-} #Mazrui sultans establish dominance in region
+
  

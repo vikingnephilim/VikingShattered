@@ -21,8 +21,4 @@ discovered_by = chinese
 
  
  
-1750.1.1 = {
-	owner = NAG
-	controller = NAG
-	add_core = NAG
-} # Marathas annex the lands of the Haihayas of Raipur
+

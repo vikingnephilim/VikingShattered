@@ -20,16 +20,5 @@ native_hostileness = 2
 
 discovered_by = mesoamerican
 
-1474.1.1 = {
-	owner = AZT
-	controller = AZT
-	add_core = AZT
-} #Axayacatl subjugate the Toluca valley
-1521.8.13 = {
-	owner = SPA 
-	controller = SPA
-	add_core = SPA
-	religion = catholic
-	culture = castillian
-} # The last Aztec emperor surrendered, Mexico city is founded on top of the ruins 
+
  

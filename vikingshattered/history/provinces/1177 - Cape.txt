@@ -16,22 +16,4 @@ center_of_trade = 1
 
  
  
-1652.4.6 = {
-	owner = NED
-	controller = NED
-	religion = reformed
-	culture = dutch	
-	is_city = yes
-	capital = "Cape Town"
-} # Dutch settlement
- 
- 
- 
- 
- 
- 
-1807.7.9 = {
-	owner = GBR
-	add_core = GBR
-	remove_core = NED
-} # Treaty of Tilsit
+

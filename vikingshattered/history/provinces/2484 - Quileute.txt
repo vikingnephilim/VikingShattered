@@ -19,10 +19,4 @@ discovered_by = north_american
  
  
 
-1800.1.1 = {
-	owner = SAL
-	controller = SAL
-	add_core = SAL
-	trade_goods = fish
-	is_city = yes 
-} #Salish grouping occupy large areas at contact
+

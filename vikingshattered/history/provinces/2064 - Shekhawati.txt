@@ -20,22 +20,7 @@ discovered_by = ottoman
 discovered_by = chinese
 
 
-1530.1.1 = {
-	owner = MUG
-	controller = MUG
-} # Mughal Conquest
-1540.1.1 = {
-	owner = DHU
-	controller = DHU
-} # Independent again after Mughals lose Delhi
-1544.1.1 = {
-	owner = BNG
-	controller = BNG
-} # Sur expansion
-1545.5.22 = {
-	owner = DHU
-	controller = DHU
-} # Independent again after death of Shere Shah Sur
+
 
 
 

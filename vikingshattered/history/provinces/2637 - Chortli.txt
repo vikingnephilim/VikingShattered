@@ -23,14 +23,7 @@ discovered_by = mesoamerican
  
  
 
-1524.1.1 = {
-	capital = "Triunfo de la Cruz"
-	owner = SPA 
-	controller = SPA
-	add_core = SPA
-	culture = castillian
-	religion = catholic
-} # Founded by de Olid
+
  
  
  

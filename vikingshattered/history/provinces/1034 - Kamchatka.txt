@@ -25,11 +25,6 @@ discovered_by = KMC
 
  
 
-1732.1.1 = {
-	owner = RUS
-	controller = RUS
-	culture = russian
-	religion = orthodox
-} # Conquered by Russia
+
  
  

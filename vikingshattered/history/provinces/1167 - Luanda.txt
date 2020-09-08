@@ -16,24 +16,5 @@ discovered_by = sub_saharan
 
 
  
-1575.1.1 = {
-	owner = POR
-	controller = POR
-	add_core = POR
-	is_city = yes
-	trade_goods = slaves
-} # Portuguese capture Luanda, aided by mercenaries from Ndongo and Kongo
- 
- 
-1640.1.1 = {
-	owner = NED
-	controller = NED
-	add_core = NED
-	capital = "Aardenburgh"
-} # Dutch control
-1648.1.1 = {
-	owner = POR
-	controller = POR
-	capital = "S�o Paulo de Luanda"
-} # A Brazilian-Portuguese expedition expelled the Dutch
+
  

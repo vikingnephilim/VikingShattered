@@ -17,19 +17,5 @@ native_hostileness = 2
 discovered_by = north_american
 
 
-1650.1.1 = {
-	owner = ILL
-	controller = ILL
-	add_core = ILL
-	is_city = yes 
-}
- 
-1808.1.1 = {
-	owner = USA
-	controller = USA
-	add_core = USA
-	trade_goods = grain
-	religion = protestant
-	culture = american 
-} #Fort Madison
+
 

@@ -21,12 +21,3 @@ base_manpower = 1
 discovered_by = sub_saharan
 
 
-1500.1.1 = {
-	owner = SON 
-	controller = SON 
-	add_core = SON 
-} #Askiya Muhammad of Songhai seizes control 
-1591.3.15 = {
-	owner = AIR
-	controller = AIR
-} # Songahi defeat at Tondibi leaves Tuareg free

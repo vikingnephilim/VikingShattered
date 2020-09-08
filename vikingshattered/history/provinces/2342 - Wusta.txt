@@ -21,25 +21,4 @@ discovered_by = east_african
 
  
  
-1507.6.1 = {
-	owner = POR
-	controller = POR
-	add_core = POR
-} # Captured by the Portuguese
-1624.1.1 = {
-	owner = OMA
-	controller = OMA
-	remove_core = POR
-} # Rule restored
- 
-1741.1.1 = {
-	owner = PER
-	controller = PER	
-	add_core = PER
-} # Invaded by Persia
- 
-1749.6.10 = {
-	owner = OMA
-	controller = OMA
-	remove_core = PER
-}
+

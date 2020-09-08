@@ -17,15 +17,6 @@ native_hostileness = 2
 discovered_by = north_american
 
 
-1662.1.1 = {
-	owner = FRA
-	controller = FRA
-	add_core = FRA
-	is_city = yes
-	trade_goods = fish
-	capital = "Sept-�les"
-	culture = cosmopolitan_french
-	religion = catholic
-}
+
  
  

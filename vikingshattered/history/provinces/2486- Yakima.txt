@@ -15,19 +15,4 @@ native_hostileness = 2
 discovered_by = north_american
 
 
-1811.1.1 = {
-	owner = USA
-	controller = USA
-	add_core = USA
-	is_city = yes
-	trade_goods = fur
-	religion = protestant
-	culture = american } #Fort Okanogan
-1814.12.24 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = USA
-	culture = english
-	religion = protestant
-} # British control after the War of 1812
+

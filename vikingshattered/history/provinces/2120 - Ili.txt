@@ -21,18 +21,4 @@ discovered_by = muslim
 discovered_by = ottoman
 
 
-1518.1.1 = {
-	owner = OIR
-	controller = OIR
-}
- 
-1635.1.1 = {
-	owner = ZUN
-	controller = ZUN
-	add_core = ZUN
-}
-1755.1.1 = {
-	owner = QNG
-	controller = QNG
-	add_core = QNG
-}
+

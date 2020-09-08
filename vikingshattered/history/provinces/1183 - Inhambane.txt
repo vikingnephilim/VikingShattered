@@ -29,14 +29,7 @@ center_of_trade = 1
 
  
 #1560.1.1 - Portuguese tradepost established
-1727.1.1 = {
-	owner = POR
-	controller = POR
-	add_core = POR
-	is_city = yes
-	base_manpower = 1
-	trade_goods = ivory
-} #Permanent Portuguese outpost established
+
  
  
  

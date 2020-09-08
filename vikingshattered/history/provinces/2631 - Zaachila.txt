@@ -23,11 +23,5 @@ discovered_by = mesoamerican
 
  
 
-1529.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	culture = castillian
-	religion = catholic 
-} #de Montejo form Salamanca de Xicalango
+
  

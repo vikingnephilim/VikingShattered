@@ -21,13 +21,5 @@ discovered_by = KMC
 
 
 
-1643.1.1 = {
-	discovered_by = RUS
-	owner = RUS
-	controller = RUS
-	religion = orthodox
-	culture = russian
-	is_city = yes
-	trade_goods = gold
-}
+
  

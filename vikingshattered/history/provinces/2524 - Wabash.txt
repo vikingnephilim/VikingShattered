@@ -23,28 +23,3 @@ discovered_by = north_american
  
  
 
-1680.1.1 = {
- 	owner = IRO
-	controller = IRO
-	culture = iroquois 
-} #Taken by Iroquois in Beaver Wars.
-1701.8.14 = {
-	owner = ---
-	controller = ---
-	is_city = no
-	culture = shawnee 
-} #Vast areas left deserted after the Beaver Wars and the Iroquois withdrawal
- 
-1750.1.1 = {
-	owner = SHA
-	controller = SHA
-	add_core = SHA
-	is_city = yes 
-} #return of the Shawnee
-1805.1.1 = {
-	owner = USA
-	controller = USA
-	add_core = USA
-	culture = american
-	religion = protestant
-} # Treaty of Grouseland

@@ -19,13 +19,4 @@ discovered_by = indian
 
  
  
-1573.1.1 = { 
-	owner = DGL
-	controller = DGL
-	remove_core = POR
-}	# Independence is restored under Muhammad Thakurufaanu Al-Azam
- 
-1798.1.1 = {
-	owner = DGL
-	controller = DGL 
-} # The Dutch are driven out by the British
+

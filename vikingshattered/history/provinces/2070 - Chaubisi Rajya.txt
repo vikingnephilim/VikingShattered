@@ -20,8 +20,4 @@ discovered_by = chinese
 
  
  
-1774.7.17 = {
-	owner = NPL
-	controller = NPL
-	add_core = NPL
-}
+

@@ -23,23 +23,6 @@ native_hostileness = 2
 discovered_by = mesoamerican
 
 
-1490.1.1 = {
- 	owner = AZT
-	controller = AZT
-	add_core = AZT
-} #Estimated; occured during Ahuizotl's reign
-1521.8.13 = {
-	owner = KIC
-	controller = KIC 
-}
-1524.1.1 = {
-	discovered_by = SPA 
-	owner = SPA 
-	controller = SPA 
-}
-1529.1.1 = {
-	culture = castillian
-	religion = catholic
-} # First settlers
+
  
  

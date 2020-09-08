@@ -19,18 +19,4 @@ discovered_by = north_american
  
  
 
-1631.1.1 = {
-	owner = FRA
-	controller = FRA
-	add_core = FRA
-	is_city = yes
-	culture = cosmopolitan_french
-	religion = catholic
-	trade_goods = fish
-}
-1763.2.10 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = FRA
-}
+

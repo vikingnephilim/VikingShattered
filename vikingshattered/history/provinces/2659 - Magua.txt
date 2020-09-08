@@ -15,19 +15,4 @@ discovered_by = CAB
 discovered_by = ARW
 
  
-1502.1.1 = {
- 	owner = CAS
-	controller = CAS
-	culture = castillian
-	add_core = CAS
-	religion = catholic
-	is_city = yes
-} #First settlements of Puerto Plata
- 
-1516.1.23 = {
-	discovered_by = SPA
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	remove_core = CAS
-}
+

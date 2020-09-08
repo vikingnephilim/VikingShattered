@@ -18,17 +18,4 @@ discovered_by = north_american
 
  
 
-1650.1.1 = {
-	owner = CHI
-	controller = CHI
-	add_core = CHI
-	trade_goods = cotton
-	is_city = yes 
-} #Natives disruptiosn of the Beaver wars
-1786.1.10= {
-	owner = USA
-	controller = USA
-	add_core = USA
-	culture = american
-	religion = protestant 
-} #Treaty of Hopewell (with the Chickasaw), come under US authority
+

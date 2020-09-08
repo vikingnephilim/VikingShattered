@@ -17,11 +17,5 @@ native_hostileness = 2
 discovered_by = north_american
 
 
-1650.1.1 = {
- 	owner = SIO
-	controller = SIO
-	add_core = SIO
-	trade_goods = fur
-	is_city = yes 
-} #Position of the natives circal the Beaver Wars
+
  

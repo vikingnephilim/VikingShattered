@@ -22,12 +22,6 @@ discovered_by = BRT
 
  
 
-1653.1.1 = {
-	owner = RUS
-	controller = RUS
-	religion = orthodox
-	culture = russian
-	is_city = yes
-} # Pyotr Beketov
+
  
  

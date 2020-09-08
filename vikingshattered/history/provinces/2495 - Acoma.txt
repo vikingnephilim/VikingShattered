@@ -22,26 +22,4 @@ discovered_by = north_american
 
  
 
-1598.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	trade_goods = wool
- } # conquered by Spain
- 
-1680.8.21 = {
-	owner = PUE
-	controller = PUE 
-} #Spanish abandon their Pueblo settlements
-1692.9.13 = {
- 	owner = SPA 
-	controller = SPA 
-	remove_core = PUE 
-	culture = castillian 
-	religion = catholic 
-} # The Spanish reestablished control 
-1810.9.16 = {
-	owner = MEX
-	add_core = MEX 
-	controller = SPA 
-} # Mexican War of Independence
+

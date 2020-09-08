@@ -17,31 +17,5 @@ native_hostileness = 2
 discovered_by = north_american
 
 
-1650.1.1 = {
-	owner = SUS
-	controller = SUS
-	add_core = SUS
-	is_city = yes
-	trade_goods = fur
-} #Full extent of the Susquehannock at start of the Beaver Wars
- 
-1677.1.1 = {
- 	owner = LEN
-	controller = LEN
-	add_core = LEN
-	culture = delaware 
-} #Lenape vassals of Iroquois resettle
- 
-1756.1.1 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	culture = english
-	religion = protestant 
-} #Shamokin Fort
-1776.7.4 = {
-	owner = USA
-	controller = USA
-	add_core = USA
-} # Declaration of independence
+
  

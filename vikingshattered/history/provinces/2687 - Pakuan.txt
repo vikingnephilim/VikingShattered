@@ -22,13 +22,7 @@ discovered_by = ottoman
 
  
 
-1527.1.1 = {
-	owner = BAN
-	controller = BAN
-	add_core = BAN
-	is_city = yes
-	remove_core = SUN
-} # Conquered by the Cirebonese Army and Banten Sultanate was established
+
  
  
  

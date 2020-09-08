@@ -14,12 +14,4 @@ native_hostileness = 9
 
  
  
-1783.1.1 = {
-	owner = POR
-	controller = POR
-	add_core = POR
-	base_manpower = 1
-	capital = "Lourenco Marques"
-	trade_goods = ivory
-	is_city = yes 
-} #Permanent Portuguese outpost established
+

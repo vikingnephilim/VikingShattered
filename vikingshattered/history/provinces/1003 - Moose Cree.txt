@@ -19,19 +19,4 @@ discovered_by = north_american
  
  
 
-1679.1.1 = {
-	owner = ENG
-	controller = ENG
-	add_core = ENG
-	trade_goods = fur
-	culture = english
-	religion = protestant
-	is_city = yes
-} # Construction of Fort Albany
-1707.5.12 = {
-	discovered_by = GBR
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = ENG
-}
+

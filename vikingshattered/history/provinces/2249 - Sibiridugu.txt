@@ -21,18 +21,6 @@ base_manpower = 1
 discovered_by = sub_saharan
 
 
-1600.1.1 = {
-	owner = ZAF
-	controller = ZAF
-	add_core = ZAF
-	remove_core = MAL
-	discovered_by = MOR 
-} # Collapse of Mali State, minor statelets independent in the region
-1620.1.1 = {
-	owner = SOF
-	controller = SOF
-	add_core = SOF
-	remove_core = ZAF
-} # rise of Bambara state 
+
  
  

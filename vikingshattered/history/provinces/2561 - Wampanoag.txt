@@ -17,26 +17,5 @@ native_hostileness = 2
 discovered_by = north_american
 
 
-1620.11.21 = {
-	owner = ENG
-	controller = ENG
-	add_core = ENG
-	culture = english
-	religion = reformed
-	capital = "Plymouth"
-	is_city = yes
-	trade_goods = fish
-} # Plymouth is established by British settlers
-1707.5.12 = {
-	discovered_by = GBR
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = ENG
-}
-1776.7.4 = {
-	owner = USA
-	controller = USA
-	add_core = USA
-} # Declaration of independence
+
  

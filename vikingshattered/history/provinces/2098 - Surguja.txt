@@ -20,18 +20,4 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
 
-1562.1.1 = {
-	owner = SRG
-	controller = SRG
-}
- 
- 
-1750.1.1 = {
-	owner = NAG
-	controller = NAG
-	add_core = NAG
-} # The Maratha Empire
-1818.6.3 = {
-	owner = SRG
-	controller = SRG
-}
+

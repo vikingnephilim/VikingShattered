@@ -23,16 +23,7 @@ discovered_by = chinese
 
 
  
-1450.1.1 = {
-	owner = KSH
-	controller = KSH
-	add_core = KSH
-} #Shah Mirs
-1570.1.1 = {
-	owner = LDK
-	controller = LDK
-	remove_core = KSH
-}
+
 
 
 

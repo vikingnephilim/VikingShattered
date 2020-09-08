@@ -36,13 +36,5 @@ discovered_by = TID
 
  
 
-1658.1.1 = {
-	discovered_by = NED
-	owner = NED
-	controller = NED
-	culture = dutch
-	religion = reformed
-	is_city = yes
-	trade_goods = coffee
-} # Dutch control
+
  

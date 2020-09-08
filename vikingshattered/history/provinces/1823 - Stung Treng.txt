@@ -20,23 +20,6 @@ discovered_by = indian
 
  
 
-1594.1.1 = {
-	owner = LXA
-	controller = LXA
-	add_core = LXA
-}
- 
-1707.1.1 = {
-	owner = VIE
-	controller = VIE
-	add_core = VIE
-	remove_core = LXA
-} # Lan Xangs declared itself independent, partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
-1713.1.1 = {
-	owner = CHK
-	controller = CHK
-	add_core = CHK
-	remove_core = VIE
-}
+
  
  

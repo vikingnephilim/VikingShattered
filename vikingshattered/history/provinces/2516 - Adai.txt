@@ -18,19 +18,4 @@ discovered_by = north_american
 
  
 
-1721.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	is_city = yes
-	religion = catholic
-	trade_goods = cotton
-	culture = castillian 
-} #Los Adaes Mission
- 
-1819.1.1 = {
-	owner = USA
-	controller = USA
-	remove_core = MEX
-	remove_core = SPA 
-} #ceded by treaty
+

@@ -20,12 +20,4 @@ discovered_by = north_american
 
  
 
-1786.1.3 = {
-	owner = USA
-	controller = USA
-	add_core = USA
-	culture = american
-	trade_goods = cotton
-	is_city = yes
-	religion = protestant 
-} #Treaty of Hopewell (with the Choctaw), come under US authority
+

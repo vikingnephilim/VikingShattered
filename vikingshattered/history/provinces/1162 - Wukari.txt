@@ -20,10 +20,4 @@ discovered_by = sub_saharan
  
  
  
-1807.1.1 = {
-	owner = SOK
-	controller = SOK
-	add_core = SOK
-	is_city = yes
-	trade_goods = grain
-} # The Fulani Empire
+

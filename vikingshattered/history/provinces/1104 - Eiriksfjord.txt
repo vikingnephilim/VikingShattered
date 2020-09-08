@@ -17,12 +17,4 @@ native_hostileness = 9
  
  
 
-1721.1.1 = {
-	owner = DAN
-	controller = DAN
-	add_core = DAN
-	culture = danish
-	religion = protestant
-	trade_goods = fish
-	is_city = yes
-}
+

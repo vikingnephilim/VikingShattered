@@ -17,6 +17,4 @@ native_hostileness = 1
 
  
 
-1775.1.1 = {
-	discovered_by = GBR	# James Cook, unknown date
-}
+

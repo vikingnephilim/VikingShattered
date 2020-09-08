@@ -19,27 +19,4 @@ discovered_by = north_american
  
  
 
-1587.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	culture = castillian
-	trade_goods = cotton
-	religion = catholic 
-} #San Pedro de Mocama mission
-1702.1.1 = {
-	owner = CRE
-	controller = CRE
-	add_core = CRE
-	remove_core = SPA
-	is_city = yes
-	culture = creek
-	religion = totemism 
-} #Last Georgia missions abandoned. 
-1814.8.9 = {
-	owner = USA
-	controller = USA
-	add_core = USA
-	culture = american
-	religion = protestant 
-} #Treaty of Fort Jackson ending the Creek War
+

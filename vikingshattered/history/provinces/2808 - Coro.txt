@@ -18,26 +18,4 @@ native_hostileness = 5
 
  
 
-1568.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	is_city = yes
-	trade_goods = wool
-	culture = castillian
-	religion = catholic
-} # Estimated
-1811.7.5 = {
-	owner = VNZ
-	controller = VNZ
-	add_core = VNZ
-} # Venezuela declared its independence
- 
- 
- 
-1819.12.17 = {
-	owner = COL
-	controller = COL
-	add_core = COL
-	remove_core = SPA
-} # The establishment of Gran Colombia
+

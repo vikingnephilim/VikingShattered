@@ -19,20 +19,3 @@ discovered_by = ottoman
 discovered_by = chinese
 discovered_by = NPL
 
-1609.1.1 = {
-	owner = SKK
-	controller = SKK
-	add_core = SKK
-}
- 
-1771.1.1 = {
-	owner = GRK
-	controller = GRK
-	add_core = GRK
-}
- 
-1774.7.17 = {
-	owner = NPL
-	controller = NPL
-	add_core = NPL
-}

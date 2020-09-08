@@ -22,22 +22,4 @@ discovered_by = ottoman
  
  
  
-1700.1.1 = {
-	owner = ANN
-	controller = ANN
-	add_core = ANN
-	remove_core = CHA
-} # annexed by Annam
- 
- 
-1776.1.1 = {
-	owner = DAI
-	controller = DAI
-	add_core = DAI
-} # Tay Son Dynasty conquered the Nguyen Lords
- 
- 
-1802.7.22 = {	owner = ANN
-	controller = ANN
-	remove_core = DAI
-} # Nguyen Phuc Anh conquered the Tay Son Dynasty
+

@@ -29,8 +29,4 @@ discovered_by = nomad_group
  
  
  
-1810.2.20 = {
-	owner = RUS
-	controller = RUS
-	add_core = RUS
-} # Annexed by Russia
+

@@ -19,24 +19,3 @@ discovered_by = north_american
  
  
 
-1674.1.1 = {
-	owner = FRA
-	controller = FRA
-	add_core = FRA
-	is_city = yes
-	trade_goods = fur
-	culture = cosmopolitan_french
-	religion = catholic
-} #Seigneurie of L'Orignal granted
- 
-1763.2.10 = {
-	discovered_by = GBR
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = FRA
-} # Treaty of Paris - ceded to Britain, France gave up its claim
-1783.1.1 = { 
-	culture = english
-	religion = protestant 
-} #Loyalist migration after the revolution

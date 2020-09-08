@@ -19,19 +19,5 @@ discovered_by = north_american
  
  
 
-1636.1.1 = {
-	owner = FRA
-	controller = FRA
-	add_core = FRA
-	culture = cosmopolitan_french
-	religion = catholic
-	trade_goods = fish
-	is_city = yes
-} # Founding of St-Joseph de la Pointe de L�vy, first south hore parish
-1763.2.10 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = FRA
-} # Treaty of Paris - ceded to Britain, France gave up its claim
+
 

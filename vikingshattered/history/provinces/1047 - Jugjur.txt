@@ -22,12 +22,5 @@ discovered_by = nomad_group
 
  
 
-1647.1.1 = {
-	owner = RUS
-	controller = RUS
-	is_city = yes
-	religion = orthodox
-	culture = russian
-	trade_goods = naval_supplies
-}
+
  

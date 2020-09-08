@@ -21,12 +21,5 @@ native_hostileness = 2
 
 discovered_by = mesoamerican
 
-1521.8.13 = {
-	discovered_by = SPA
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	religion = catholic
-	culture = castillian
-} # Fall of the Aztec empire
+
  

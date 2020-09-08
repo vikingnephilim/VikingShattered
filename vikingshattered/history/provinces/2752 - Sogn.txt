@@ -20,10 +20,5 @@ discovered_by = eastern
  
  
  
-1814.1.14 = {
-	owner = SWE
-	revolt = { type = nationalist_rebels size = 0 }
-	controller = REB
-	remove_core = DAN
-} # Norway is ceded to Sweden following the Treaty of Kiel
+
  

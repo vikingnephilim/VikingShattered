@@ -18,10 +18,6 @@ discovered_by = muslim
 discovered_by = ottoman
 
  
-1785.1.2 = {
-	owner = TAU
-	controller = TAU
-	add_core = TAU
-} # Annexed by Burma
+
  
  

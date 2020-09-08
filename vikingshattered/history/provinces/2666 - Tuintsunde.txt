@@ -20,21 +20,5 @@ discovered_by = north_american
  
  
 
-1702.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	is_city = yes
-	religion = catholic
-	trade_goods = wool
-	culture = castillian 
-} #Mission across the Rio Grande
-1760.1.1 = {
-	owner = LIP
-	controller = LIP
-	add_core = LIP
-	religion = totemism
-	culture = lipan
-	remove_core = SPA
-} #Apachean expansion destroys missions. 
+
  

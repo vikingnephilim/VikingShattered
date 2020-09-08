@@ -19,11 +19,4 @@ discovered_by = north_american
  
  
 
-1760.1.1 = {
-	owner = ASI
-	controller = ASI
-	add_core = ASI
-	culture = nakota
-	trade_goods = fur
-	is_city = yes 
-} #Great Plain tribes spread over vast territories
+

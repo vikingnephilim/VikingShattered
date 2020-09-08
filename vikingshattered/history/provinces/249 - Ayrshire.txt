@@ -29,7 +29,4 @@ center_of_trade = 1
  
  
  
-1707.5.12 = {	owner = GBR
-	controller = GBR
-	add_core = GBR
-}
+

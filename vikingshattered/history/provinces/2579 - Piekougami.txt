@@ -17,21 +17,5 @@ native_hostileness = 2
 discovered_by = north_american
 
 
-1652.1.1 = {
-	discovered_by = FRA
-	owner = FRA
-	controller = FRA
-	add_core = FRA
-	is_city = yes
-	trade_goods = fur
-	culture = cosmopolitan_french
-	religion = catholic 
-} #Fort M�tab�chouane
- 
- 
-1763.2.10 = {
-	owner = GBR
-	add_core = GBR
-	remove_core = FRA
-} # Treaty of Paris
+
 

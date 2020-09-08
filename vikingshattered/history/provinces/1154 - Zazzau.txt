@@ -24,8 +24,4 @@ discovered_by = sub_saharan
  
  
  
-1805.1.1 = {
-	owner = SOK
-	controller = SOK
-	add_core = SOK
-} # The Fulani Empire
+

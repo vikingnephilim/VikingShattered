@@ -20,13 +20,4 @@ discovered_by = CHV
 discovered_by = KMC
 
 
-1643.1.1 = {
-	discovered_by = RUS
-	owner = RUS
-	controller = RUS
-	add_core = RUS 
-	culture = russian
-	religion = orthodox
-	trade_goods = fur
-	is_city = yes 
-}
+

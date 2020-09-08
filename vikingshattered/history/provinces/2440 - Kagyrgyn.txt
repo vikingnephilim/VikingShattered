@@ -25,11 +25,5 @@ discovered_by = CHV
 discovered_by = KMC
 
 
-1778.1.1 = {
-	discovered_by = RUS
-	owner = RUS
-	controller = RUS
-	religion = orthodox
-	culture = russian
-}
+
  

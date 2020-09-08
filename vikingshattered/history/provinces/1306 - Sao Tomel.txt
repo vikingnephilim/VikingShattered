@@ -1,8 +1,8 @@
-# - São Tomé
+# - Sï¿½o Tomï¿½
 
 culture = yorumba
 religion = orisanism
-capital = "São Tomé"
+capital = "Sï¿½o Tomï¿½"
 trade_goods = unknown
 hre = no
 base_tax = 1 
@@ -12,13 +12,5 @@ native_size = 0
 native_ferocity = 1
 native_hostileness = 1
 
-1472.1.1 = { discovered_by = POR } # Fernão do Pó
-1493.1.1 = {
-	owner = POR
-	controller = POR
-	add_core = POR
-	culture = portugese
-	religion = catholic
-	is_city = yes
-	trade_goods = sugar
-}
+1472.1.1 = { discovered_by = POR } # Fernï¿½o do Pï¿½
+

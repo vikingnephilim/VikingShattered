@@ -19,14 +19,5 @@ discovered_by = mesoamerican
 
  
 
-1577.1.1 = {
-	capital = "Saltillo"
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	is_city = yes
-	culture = castillian
-	religion = catholic
-	trade_goods = wool
-}
+
  

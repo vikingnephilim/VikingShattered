@@ -43,11 +43,4 @@ discovered_by = ottoman
 
  
 
-1580.1.1 = {
-	owner = TER
-	controller = TER
-	add_core = TER
-	religion = sunni
-	is_city = yes
-	trade_goods = tropical_wood
-} # Ternate Sultanate expanded
+

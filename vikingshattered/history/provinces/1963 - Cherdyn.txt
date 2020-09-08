@@ -20,10 +20,4 @@ center_of_trade = 1
 
 
  
-1505.4.1 = {
-	owner = RUS
-	controller = RUS
-	add_core = RUS 
-	remove_core = PRM
-	culture = russian 
-}
+

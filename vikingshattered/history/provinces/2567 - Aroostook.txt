@@ -19,12 +19,6 @@ discovered_by = north_american
  
  
 
-1650.1.1 = {
-	owner = ABE
-	controller = ABE
-	add_core = ABE
-	is_city = yes
-	trade_goods = naval_supplies 
-} #Extent of the Abenaki circa the Beaver Wars
+
 ##Still disputed between USA and Britain at game end. In reality was held by Brayons, Acadian settlers, but here represented by Abenaki tag)
  

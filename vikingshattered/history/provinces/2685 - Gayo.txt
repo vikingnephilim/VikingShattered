@@ -20,24 +20,4 @@ discovered_by = ottoman
  
  
  
-1521.1.1 = {
-	owner = ATJ
-	controller = ATJ
-	remove_core = PSA
-}
-1658.1.1 = { 
-	owner = NED
-	controller = NED
-} # The Dutch gradually gained control
-1683.1.1 = { 
-	add_core = NED 
-	add_to_trade_company = NED
-	add_trade_company_investment = {
-		investment = local_quarter
-		investor = NED
-	}
-	add_trade_company_investment = {
-		investment = company_depot
-		investor = NED
-	}
-}
+

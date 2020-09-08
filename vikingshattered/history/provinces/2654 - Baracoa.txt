@@ -14,20 +14,6 @@ native_hostileness = 2
 discovered_by = CAB
 discovered_by = ARW
 
-1511.8.15 = {
-	owner = CAS
-	controller = CAS
-	add_core = CAS
-	culture = castillian
-	religion = catholic
-	is_city = yes
-	trade_goods = sugar
-} # Founded by Diego Velázquez
-1516.1.23 = {
-	discovered_by = SPA
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	remove_core = CAS
-}
-#1517.1.1 = { } # The Taíno ( Arawak ) culture was nearly destroyed
+ï¿½zquez
+
+#1517.1.1 = { } # The Taï¿½no ( Arawak ) culture was nearly destroyed

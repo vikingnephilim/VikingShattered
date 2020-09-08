@@ -19,12 +19,7 @@ extra_cost = 8
 center_of_trade = 1
 
  
-1617.1.1 = {	
-	owner = POR
-	controller = POR
-	add_core = POR
-	is_city = yes
-} # At Sao Felipe de Benguela
+
  
  
  

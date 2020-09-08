@@ -27,7 +27,4 @@ discovered_by = chinese
  
  
  
-1724.1.1 = {
-	owner = DEC
-	controller = DEC
-} # Asif Jah declared himself Nizam-al-Mulk
+

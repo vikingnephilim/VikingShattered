@@ -22,11 +22,5 @@ native_hostileness = 2
 discovered_by = mesoamerican
 
 
-1521.8.13 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	culture = castillian
-	religion = catholic
-} # Fall of Tenochtitlan
+
  

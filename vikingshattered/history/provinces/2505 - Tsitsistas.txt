@@ -18,11 +18,4 @@ discovered_by = north_american
 
  
 
-1760.1.1 = {
-	owner = CHY
-	controller = CHY
-	add_core = CHY
-	is_city = yes 
-	trade_goods = fur
-	culture = cheyenne 
-} #Great Plain tribes spread over vast territories
+

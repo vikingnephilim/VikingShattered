@@ -1,4 +1,4 @@
-#2002 - Galápagos Islands
+#2002 - Galï¿½pagos Islands
 
 capital = "Puerto Baquerizo Moreno"
 trade_goods = unknown
@@ -15,19 +15,4 @@ native_hostileness = 0
 discovered_by = INC
 
 
-1535.3.10 = {
-	discovered_by = SPA
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	trade_goods = grain
-	is_city = yes
-	culture = castillian
-	religion = catholic
-} # Fray Tomás de Berlanga
-1819.12.17 = {
-	owner = COL
-	controller = COL
-	add_core = COL
-	remove_core = SPA
-} # The establishment of Gran Colombia
+ï¿½s de Berlanga

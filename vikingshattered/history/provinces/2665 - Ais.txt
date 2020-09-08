@@ -18,14 +18,6 @@ discovered_by = north_american
 
  
 
-1690.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	is_city = yes
-	religion = catholic
-	trade_goods = cotton
-	culture = castillian 
-} #San Franciso de los Tejas mission
+
  #Dolores de los Ais, expansion of Spanish missions
  

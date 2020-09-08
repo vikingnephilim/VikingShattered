@@ -17,15 +17,6 @@ extra_cost = 8
 center_of_trade = 1
 
  
-1569.1.1 = {
-	owner = SPA
-	controller = SPA
-	religion = catholic
-	add_core = SPA
-}
-1762.10.6 = {
-	controller = GBR
-	unrest = 6
-} # Captured by the British East India Company. Diego Silang rebellion
+
  
  

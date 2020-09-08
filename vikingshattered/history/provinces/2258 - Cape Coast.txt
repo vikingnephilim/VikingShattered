@@ -19,21 +19,3 @@ center_of_trade = 1
 
  
 
-1482.1.19 = {
-	owner = POR
-	controller = POR
-	add_core = POR
-	culture = portugese
-	religion = catholic
-	capital = "Sao Jorge da Mina"
-	trade_goods = gold
-	is_city = yes
-} #Portuguese trading post
- 
-1637.8.29 = {
-	owner = NED
-	controller = NED
-	add_core = NED
-	remove_core = POR
-	capital = "Fort Coenraadsburg" 
-} 

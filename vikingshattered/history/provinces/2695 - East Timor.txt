@@ -40,11 +40,4 @@ discovered_by = TID
 
  
 
-1556.1.1 = {
-	owner = POR
-	controller = POR
-	add_core = POR
-	culture = portugese
-	is_city = yes
-	trade_goods = spices
-}
+

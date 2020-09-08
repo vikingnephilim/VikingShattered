@@ -19,22 +19,4 @@ discovered_by = north_american
  
  
 
-1741.1.1 = {
-	owner = FRA
-	controller = FRA
-	add_core = FRA
-	culture = cosmopolitan_french
-	religion = catholic
-	capital = "Fort Dauphin"
-	is_city = yes
-}
-1763.2.10 = {
-	discovered_by = GBR
-	owner = GBR
-	controller = GBR
-	remove_core = FRA
-	add_core = GBR
-	culture = english
-	religion = protestant
-	trade_goods = fur
-} # Treaty of Paris
+

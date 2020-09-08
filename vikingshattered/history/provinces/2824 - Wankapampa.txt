@@ -20,19 +20,7 @@ discovered_by = andean
 discovered_by = CHM
 
 
-1467.1.1 = {
-	owner = INC
-	controller = INC
-	add_core = INC
-}
- 
-1532.11.16 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	culture = castillian
-	religion = catholic
-} # Battle of Cajamarca
+
  
  
  

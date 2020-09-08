@@ -26,12 +26,7 @@ center_of_trade = 1
 
  
  
-1510.1.13 = {
-	owner = RUS
-	controller = RUS
-	add_core = RUS
-	remove_core = PSK
-} # Vasili III put an end to the Pskov republic, still remained a strategic fortress
+
  
  
  

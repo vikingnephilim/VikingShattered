@@ -21,10 +21,7 @@ add_local_autonomy = 75
 
  
  
-1666.1.1 = {
-	owner = BAL
-	controller = BAL
-}
+
 
 
 

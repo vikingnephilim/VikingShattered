@@ -19,24 +19,7 @@ discovered_by = south_american
 discovered_by = andean
 
 
-1487.1.1 = {
-	owner = INC
-	controller = INC
-	add_core = INC
-	religion = inti
-}
-1533.1.1 = { discovered_by = SPA } # Sebastián de Benalcázar
-1535.1.1 = {
-	owner = SPA
-	controller = SPA
-	culture = castillian
-	religion = catholic
-	add_core = SPA
-	trade_goods = grain
-} # Founded by Sebastián de Benalcázar
-1819.12.17 = {
-	owner = COL
-	controller = COL
-	add_core = COL
-	remove_core = SPA
-} # The establishment of Gran Colombia
+
+1533.1.1 = { discovered_by = SPA } # Sebastiï¿½n de Benalcï¿½zar
+ï¿½n de Benalcï¿½zar
+

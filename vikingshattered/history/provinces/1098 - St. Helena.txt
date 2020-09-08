@@ -10,29 +10,4 @@ base_manpower = 1
 
  
 
-1645.1.1 = {
-	owner = NED
-	controller = NED
-	add_core = NED
-	is_city = yes
-	culture = dutch
-	religion = reformed
-	trade_goods = fish
-} # Small Dutch presence from 1645
-1651.1.1 = {
-	owner = ENG
-	controller = ENG
-	add_core = ENG
-	remove_core = NED
-	culture = english
-	religion = protestant
-} # The English take over St. Helena
- 
- 
- 
-1707.5.12 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = ENG
-} 
+

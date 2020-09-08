@@ -18,14 +18,7 @@ discovered_by = nomad_group
 discovered_by = BRT
 
 
-1632.1.1 = {
-	discovered_by = RUS owner = RUS
-	controller = RUS
-	culture = russian
-	religion = orthodox
-	is_city = yes
-	trade_goods = fur
-}
+
  
  
  

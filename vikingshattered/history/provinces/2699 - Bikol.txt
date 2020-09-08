@@ -15,18 +15,6 @@ discovered_by = chinese
 
  
 
-1570.1.1 = {
-	owner = SPA
-	controller = SPA
-	culture = castillian
-	religion = catholic
-	add_core = SPA 
-	is_city = yes 
-	trade_goods = tropical_wood 
-}
-1762.10.6 = {
-	controller = GBR
-	unrest = 6
-} # Captured by the British East India Company. Diego Silang rebellion
+
  
  

@@ -22,14 +22,4 @@ center_of_trade = 2
  
  
  
-1521.1.1 = {
-	owner = POR
-	controller = POR
-	add_core = POR
-	remove_core = PSA
-} # Portugal conquered Pasai
-1531.1.1 = {
-	owner = ATJ
-	controller = ATJ
-	remove_core = POR
-}
+

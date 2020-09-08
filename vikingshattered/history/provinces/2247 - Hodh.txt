@@ -22,26 +22,3 @@ discovered_by = sub_saharan
 discovered_by = MOR
 
 
-1517.1.1 = {
-	owner = SON
-	controller = SON
-	add_core = SON 
-}
-1593.1.1 = {
-	owner = MOR
-	controller = MOR
-	add_core = MOR
-	remove_core = SON 
-} #Moroccan conquest
-1618.1.1 = {
-	owner = TMB
-	controller = TMB
-	add_core = TMB
-	remove_core = MOR 
-} #Moroccans no longer appoint governors, local Moroccans, the Arma, rule on their own (recycle TMB tag)
-1670.1.1 = {
-	owner = SOF
-	controller = SOF
-	add_core = SOF
-	remove_core = TMB 
-} #Massa establish the Massassi dynasty and Kaarta kingdom as Bambara expansion

@@ -19,12 +19,5 @@ discovered_by = north_american
  
  
 
-1650.1.1 = {
-	owner = OJI
-	controller = OJI
-	add_core = OJI
-	is_city = yes
-	trade_goods = fur
-	culture = anishinabe
-} #Iroquois focus on Lake Ontario, Ojibwe moves in
+
  

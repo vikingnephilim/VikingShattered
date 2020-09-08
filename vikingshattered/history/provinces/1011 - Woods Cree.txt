@@ -20,12 +20,4 @@ discovered_by = north_american
  
  
 
-1763.2.10 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	is_city = yes
-	culture = english
-	religion = protestant
-	trade_goods = fur
-} # Treaty of Paris
+

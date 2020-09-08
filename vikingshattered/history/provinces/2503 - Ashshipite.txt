@@ -17,11 +17,4 @@ native_hostileness = 2
 discovered_by = north_american
 
 
-1810.1.1 = {
-	owner = ASI
-	controller = ASI
-	add_core = ASI
-	culture = nakota
-	trade_goods = fur
-	is_city = yes 
-} #19th century native expansion
+

@@ -22,14 +22,5 @@ native_hostileness = 2
 discovered_by = mesoamerican
 
 
-1528.1.1 = {
-	discovered_by = SPA 
-	owner = SPA 
-	controller = SPA
-	add_core = SPA
-}
-1535.1.1 = {
-	culture = castillian
-	religion = catholic
-} # First settlers
+
  

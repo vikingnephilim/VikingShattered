@@ -21,14 +21,5 @@ discovered_by = south_american
  
  
 
-1544.1.1 = {
-	capital = "San Blas de Nicoya"
-	owner = SPA 
-	controller = SPA
-	add_core = SPA
-	culture = castillian
-	religion = catholic
-	trade_goods = naval_supplies
-	is_city = yes
-} # Founded 
+
  

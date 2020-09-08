@@ -18,10 +18,3 @@ discovered_by = north_american
 
  
 
-1760.1.1 = {
-	owner = MSC
-	controller = MSC
-	add_core = MSC
-	trade_goods = grain
-	is_city = yes 
-} #Great Plain tribes spread over vast territories

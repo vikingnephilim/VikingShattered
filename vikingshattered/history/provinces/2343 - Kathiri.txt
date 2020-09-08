@@ -20,13 +20,3 @@ discovered_by = east_african
 
 
  
-1488.1.1 = { discovered_by = POR } # P�ro da Covilh�
-1654.1.1 = {
-	owner = RAS
-	controller = RAS
-	add_core = RAS
-}
-1681.1.1 = {
-	owner = HDR
-	controller = HDR
-}

@@ -21,8 +21,4 @@ discovered_by = nomad_group
 
  
 
-1776.1.1 = {
-	owner = QNG
-	controller = QNG
-	add_core = QNG
-}
+

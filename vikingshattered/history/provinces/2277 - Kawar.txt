@@ -22,8 +22,4 @@ discovered_by = sub_saharan
 
 
  
-1590.1.1 = {
-	owner = KBO 
-	controller = KBO 
-	add_core = KBO 
-} #Idris Katakarmabe retakes Kanem
+

@@ -23,13 +23,4 @@ discovered_by = east_african
  
  
  
-1779.1.1 = {
-	owner = NAJ
-	controller = NAJ
-	add_core = NAJ
-} # The First Saudi State
-1818.9.9 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-} # The end of the Saudi State
+

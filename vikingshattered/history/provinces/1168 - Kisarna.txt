@@ -17,15 +17,5 @@ discovered_by = sub_saharan
 
 
  
-1665.10.29 = {
-	owner = POR
-	controller = POR
-	add_core = POR
-} # Battle of Mbwila - Portuguese victory 
-1667.1.1 = {
-	owner = KON
-	controller = KON
-	remove_core = POR
-	unrest = 8 #Post Mbwila infighting.
-} #Once Portuguese forces leave de facto free of Portuguese influence
+
  

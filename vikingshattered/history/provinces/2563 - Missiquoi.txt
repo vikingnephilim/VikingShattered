@@ -19,20 +19,5 @@ discovered_by = north_american
  
  
 
-1650.1.1 = {
-	owner = ABE
-	controller = ABE
-	add_core = ABE
-	trade_goods = fur
-	is_city = yes 
-} #Extent of the Abenaki/Wabanaki at start of the Beaver Wars
- 
-1783.1.1 = {	
-	owner = USA
-	add_core = USA
-	controller = REB
-	culture = american
-	religion = protestant
-	revolt = { type = particularist_rebels size = 1 } 
-} ##Founding of Burlington, Vermont still in rebellion
+
  

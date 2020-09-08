@@ -18,15 +18,4 @@ discovered_by = nomad_group
 
  
 
-1618.1.1 = {
-	discovered_by = RUS
-	owner = RUS
-	controller = RUS
-	religion = orthodox
-	culture = russian
-	is_city = yes
-}
-1643.1.1 = {
-	add_core = RUS
-	trade_goods = fur
-}
+

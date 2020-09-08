@@ -20,13 +20,5 @@ discovered_by = north_american
  
  
 
-1700.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	is_city = yes
-	religion = catholic
-	trade_goods = wool
-	culture = castillian 
-} #Mission San Francisco Solano
+
  

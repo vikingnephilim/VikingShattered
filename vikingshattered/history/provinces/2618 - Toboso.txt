@@ -19,14 +19,5 @@ discovered_by = mesoamerican
 
  
 
-1567.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	is_city = yes
-	religion = catholic 
-	culture = castillian
-	capital = "Santa Barbara"
-	trade_goods = wool 
-} # Francisco de Ibarra 
+
  

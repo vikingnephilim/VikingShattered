@@ -17,11 +17,4 @@ native_hostileness = 2
 discovered_by = north_american
 
 
-1818.1.1 = {
-	discovered_by = GBR
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	is_city = yes
-	trade_goods = fur
-} #Fort Nez Percés
+ï¿½s

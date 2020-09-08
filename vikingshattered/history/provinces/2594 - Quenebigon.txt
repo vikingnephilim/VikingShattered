@@ -19,12 +19,4 @@ discovered_by = north_american
  
  
 
-1790.1.1 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	culture = english
-	religion = protestant
-	is_city = yes
-	trade_goods = fur 
-} #Split Lake House, later Norway House
+

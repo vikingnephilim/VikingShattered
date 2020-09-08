@@ -24,17 +24,4 @@ discovered_by = chinese
  
  
  
-1597.1.1 = {
-	controller = BGL
-	capital = "Rewa"
-}
- 
- 
-1751.1.1 = {
-	owner = NAG
-	controller = NAG
-} # The Marathan Empire
-1809.1.1 = {
-	owner = BGL
-	controller = BGL
-} # British dependency
+

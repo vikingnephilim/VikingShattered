@@ -19,13 +19,3 @@ discovered_by = nomad_group
 discovered_by = east_african
 
  
-1785.1.1 = { #The Dawasir join the Saudis
-	owner = NAJ
-	controller = NAJ
-	add_core = NAJ
-}
-1818.9.9 = {
-	owner = DAW
-	controller = DAW
-	remove_core = NAJ 
-} # The end of the Saudi State

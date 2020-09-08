@@ -17,12 +17,4 @@ native_hostileness = 3
 
  
 
-1595.1.1 = {
-	owner = RUS
-	controller = RUS
-	add_core = RUS
-	religion = orthodox
-	culture = russian
-	trade_goods = fish
-	is_city = yes
-}
+

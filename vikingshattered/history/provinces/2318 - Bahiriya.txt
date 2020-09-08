@@ -23,7 +23,4 @@ discovered_by = east_african
 
 
  
-1542.1.1 = {
-	owner = TUR
-	controller = TUR
-} # Ottomans occupy oasis
+

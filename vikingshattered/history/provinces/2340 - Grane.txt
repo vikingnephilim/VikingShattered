@@ -20,15 +20,4 @@ discovered_by = nomad_group
 discovered_by = east_african
 
  
-1549.1.1 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-}
- 
- 
-1818.9.9 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-} # The end of the Saudi State
+

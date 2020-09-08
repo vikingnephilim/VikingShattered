@@ -22,12 +22,5 @@ discovered_by = KMC
 
  
 
-1732.1.1 = {
-	owner = RUS
-	controller = RUS
-	is_city = yes
-	culture = russian
-	religion = orthodox
-	trade_goods = fish
-} # Conquered by Russia
+
  

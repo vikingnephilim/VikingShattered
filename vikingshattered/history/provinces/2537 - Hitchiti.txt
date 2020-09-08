@@ -18,17 +18,4 @@ discovered_by = north_american
 
  
 
-1650.1.1 = {
-	owner = CRE
-	controller = CRE
-	is_city = yes
-	add_core = CRE
-	trade_goods = cotton 
-} #Formation of the Creek confederacy
-1814.8.9 = {
-	owner = USA
-	controller = USA
-	add_core = USA
-	culture = american
-	religion = protestant 
-} #Treaty of Fort Jackson ending the Creek War
+

@@ -19,13 +19,7 @@ discovered_by = north_american
  
  
 
-1650.1.1 = {
-	owner = ABE
-	controller = ABE
-	add_core = ABE
-	is_city = yes
-	trade_goods = fur
-} #Stage set for the Beaver Wars
+
  
  
  

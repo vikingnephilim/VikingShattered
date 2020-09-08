@@ -18,18 +18,4 @@ discovered_by = north_american
 
  
 
-1760.1.1 = {
-	owner = OSA
-	controller = OSA
-	add_core = OSA
-	trade_goods = grain
-	is_city = yes 
-} #Arkansas Osage migrate southward
-1808.11.10 = {
-	owner = USA
-	controller = USA
-	add_core = USA
-	remove_core = OSA
-	culture = american
-	religion = protestant 
-} #Treaty of Fort Clark
+

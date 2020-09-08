@@ -19,19 +19,5 @@ discovered_by = mesoamerican
 extra_cost = 16
 center_of_trade = 2
 
-1450.1.1 = {
- 	owner = AZT
-	controller = AZT
-	add_core = AZT
-} #Moctezuma I expand the empire along the coast	
- 
- 
-1519.4.22 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	capital = "Veracruz"
-	culture = castillian
-	religion = catholic
-}# Founded by Hern�n Cort�s
+
  

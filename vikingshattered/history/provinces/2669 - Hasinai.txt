@@ -18,10 +18,4 @@ discovered_by = north_american
 
  
 
-1760.1.1 = {
-	owner = CAD
-	controller = CAD
-	add_core = CAD
-	trade_goods = cotton
-	is_city = yes 
-} #Great Plain tribes spread over vast territories
+

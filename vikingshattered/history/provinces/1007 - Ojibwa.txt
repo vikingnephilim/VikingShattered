@@ -19,41 +19,4 @@ discovered_by = north_american
  
  
 
-1660.1.1 = {
- 	owner = OJI
-	controller = OJI
-	add_core = OJI
-	is_city = yes	
-} #Fleeing from the Beaver Wars
 
-
-
- 
- 
-
-1710.1.1 = { 
-	owner = ---
-	controller = ---
-	remove_core = OJI
-	is_city = no
-} #Fleeing westward
-1717.1.1 = {
-	owner = FRA
-	controller = FRA
-	add_core = FRA
-	culture = cosmopolitan_french
-	religion = catholic
-	capital = "Fort Kaministiquia"
-	is_city = yes
-}
-1763.2.10 = {
-	discovered_by = GBR
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = FRA
-	is_city = yes
-	culture = english
-	religion = protestant
-	trade_goods = fur
-} # Treaty of Paris

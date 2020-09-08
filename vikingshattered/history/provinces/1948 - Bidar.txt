@@ -27,14 +27,4 @@ center_of_trade = 2
  
  
  
-1686.1.1 = {
-	owner = MUG
-	add_core = MUG
-	remove_core = BAH
-}
- 
-1724.1.1 = {
-	owner = DEC
-	controller = DEC
-	remove_core = MUG
-} # Asif Jah declared himself Nizam-al-Mulk
+

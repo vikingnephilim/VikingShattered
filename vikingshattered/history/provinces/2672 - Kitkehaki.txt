@@ -16,12 +16,6 @@ native_hostileness = 2
 
 discovered_by = north_american
 
-1541.1.1 = { discovered_by = SPA } # Francisco Vásquez de Coronado
+1541.1.1 = { discovered_by = SPA } # Francisco Vï¿½squez de Coronado
 
-1760.1.1 = {
-	owner = PAW
-	controller = PAW
-	add_core = PAW
-	trade_goods = grain
-	is_city = yes 
-} #Great Plain tribes spread over vast territories
+

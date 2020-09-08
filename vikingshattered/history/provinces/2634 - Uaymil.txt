@@ -22,15 +22,5 @@ native_hostileness = 2
 discovered_by = mesoamerican
 
 
-1547.1.1 = {
-	owner = SPA 
-	controller = SPA
-	add_core = SPA
-	unrest = 5
-} # final defeat of eastern Yucatan alliance
-1572.1.1 = {
- 	unrest = 0
-	culture = castillian
-	religion = catholic 
-}
+
  

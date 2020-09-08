@@ -20,12 +20,5 @@ discovered_by = north_american
  
  
 
-1795.1.1 = {
-	owner = GBR
-	controller = GBR
-	is_city = yes
-	culture = english
-	religion = protestant 
-	trade_goods = fur 
-} #Fort Alexandria
+
  

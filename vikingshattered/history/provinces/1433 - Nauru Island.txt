@@ -1,6 +1,3 @@
 1558.1.16 = {
-	discovered_by = SPA		# Álvaro de Mendaña de Neira
-}
-1764.1.1 = {
-	discovered_by = GBR		# John Byron, unknown date
+	discovered_by = SPA		# ï¿½lvaro de Mendaï¿½a de Neira
 }

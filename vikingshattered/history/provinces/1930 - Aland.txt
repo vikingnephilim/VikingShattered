@@ -28,8 +28,4 @@ discovered_by = ottoman
  
  
  
-1809.9.17 = {
-	owner = RUS
-	add_core = RUS
-	remove_core = SWE
-} # Treaty of Fredrikshamn
+

@@ -21,17 +21,6 @@ native_hostileness = 2
 discovered_by = mesoamerican
 
 
-1460.1.1 = { 
-	owner = TAR
-	controller = TAR
-	add_core = TAR
-	} #Estimated: Tarascan expansion 
-1530.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	religion = catholic
-	unrest = 5
-} #Tangaxuan II is deposed and murdered.
+
  
  

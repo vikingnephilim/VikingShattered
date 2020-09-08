@@ -18,11 +18,3 @@ discovered_by = north_american
 
  
 
-1760.1.1 = {
-	owner = CHY
-	controller = CHY
-	add_core = CHY
-	trade_goods = grain
-	culture = cheyenne
-	is_city = yes 
-} #Horses allow plain tribes to expand

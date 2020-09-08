@@ -19,15 +19,6 @@ native_ferocity = 1
 native_hostileness = 2
 discovered_by = mesoamerican
 
-1524.1.1 = {
-	discovered_by = SPA 
-	owner = SPA 
-	controller = SPA 
-	add_core = SPA
-}
-1529.1.1 = {
-	culture = castillian
-	religion = catholic
-} # First settlers
+
  
 

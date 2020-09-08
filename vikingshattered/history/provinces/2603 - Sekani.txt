@@ -17,13 +17,4 @@ native_hostileness = 2
 discovered_by = north_american
 
 
-1793.1.1 = { 
-	discovered_by = GBR
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	is_city = yes
-	culture = english
-	religion = protestant 
-	trade_goods = fur 
-} #Fort St John, first western settlement in modern British Columbia
+

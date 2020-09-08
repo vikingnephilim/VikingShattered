@@ -17,12 +17,4 @@ native_hostileness = 2
 discovered_by = north_american
 
 
-1821.1.1 = {
- 	discovered_by = GBR
-	owner = GBR
-	controller = GBR
-	is_city = yes
-	culture = english
-	religion = protestant 
-	trade_goods = grain 
-} #Fort Alexandria
+

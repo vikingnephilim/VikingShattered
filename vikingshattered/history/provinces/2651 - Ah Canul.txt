@@ -22,12 +22,6 @@ native_hostileness = 2
 discovered_by = mesoamerican
 
 
-1542.1.23 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	culture = castillian
-	religion = catholic
-} # the lord of Mani submits peacefully to the Spanish and converts
+
  
 
