@@ -1693,7 +1693,7 @@ nadjat_scholar_modifier = {
 	religion = yes
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	global_naval_barrage_cost = -0.2
+	naval_morale = 0.1
 }
 
 nizari_scholar_modifier = {

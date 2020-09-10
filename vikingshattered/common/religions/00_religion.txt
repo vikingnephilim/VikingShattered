@@ -503,7 +503,7 @@ muslim = {
 			# If you don't set this it will expand on_invite_scholar effect which might be super big
 			invite_scholar_modifier_display = nadjat_scholar_modifier
 			picture = "GFX_icon_muslim_school_nadjat"
-			global_naval_barrage_cost = -0.2
+			naval_morale = 0.1
 		}
 		nizari_school = {
 			potential_invite_scholar = {
@@ -1049,6 +1049,21 @@ eastern = {
 		harmonized_modifier = harmonized_confucianism
 		uses_harmony = yes
 	}
+	taoism = {
+		color = { 193 209 167 }
+		icon = 75
+		country = {
+			tolerance_heretic = 3
+			adm_tech_cost_modifier = -0.2
+		}
+		country_as_secondary = {
+			adm_tech_cost_modifier = -0.2
+			stability_cost_modifier = -0.2
+		}
+		heretic = { MAHAYANA SHINTO THERAVADA VAJRAYANA }
+		harmonized_modifier = harmonized_taoism
+		uses_harmony = yes
+	}
 	shinto = {
 		color = { 200 48 0 }
 		icon = 10
@@ -1492,7 +1507,7 @@ pagan = {
 	}
 	polynesian = {
 		color = { 237 181 121 }
-		icon = 29
+		icon = 30
 		country = {
 			may_explore = yes
 			global_colonial_growth = 20
