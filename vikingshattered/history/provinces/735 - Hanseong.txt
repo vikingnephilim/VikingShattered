@@ -3,7 +3,7 @@
 owner = BKJ
 controller = BKJ
 culture = baekje
-religion = confucianism
+religion = zen
 capital = "Hanseong"
 trade_goods = paper
 hre = no

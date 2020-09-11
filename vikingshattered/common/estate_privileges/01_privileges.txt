@@ -1,0 +1,220 @@
+estate_church_clerical_ministers = {
+	icon = privilege_recruit_minister
+	max_absolutism = -5
+	influence = 0.10
+	conditional_modifier = {
+		trigger = {
+			if = {
+				limit = {
+					has_dlc = "Common Sense"
+				}
+				NOT = { religion = protestant }
+				NOT = { religion = buddhism }
+				NOT = { religion = vajrayana }
+				NOT = { religion = mahayana }
+			}
+			if = {
+				limit = {
+					has_dlc = "Wealth of Nations"
+				}
+				NOT = { religion = reformed }
+			}
+			if = {
+				limit = {
+					has_dlc = "Cradle of Civilization"
+				}
+				NOT = { religion_group = muslim }
+			}
+			if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+				}
+				NOT = { religion = confucianism }
+			}
+			if = {
+				limit = {
+					has_dlc = "Third Rome"
+				}
+				NOT = { religion = orthodox }
+			}
+			NOT = { religion = anglican }
+		}
+		modifier = {
+			missionary_maintenance_cost = -0.2
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Common Sense"
+			religion = protestant
+		}
+		modifier = {
+			church_power_modifier = 0.1
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Wealth of Nations"
+			religion = reformed
+		}
+		modifier = {
+			monthly_fervor_increase = 0.5
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Mandate of Heaven"
+			religion = confucianism
+		}
+		modifier = {
+			yearly_harmony = 0.25
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Third Rome"
+			religion = orthodox
+		}
+		modifier = {
+			yearly_patriarch_authority = 0.005
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			religion = anglican
+		}
+		modifier = {
+			church_power_modifier = 0.1
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				religion = protestant
+				religion = anglican
+			}
+			religion = protestant
+			num_of_aspects = 3
+		}
+	}
+}
+
+estate_church_strengthen_qadis = {
+	icon = privilege_build_jain_temple
+	max_absolutism = -5
+	influence = 0.05
+  is_valid = { religion_group = muslim }
+  can_select = {
+		piety = -0.50
+		NOT = { has_estate_privilege = estate_church_sufi_advisors }
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		modifier = {
+			monthly_piety = +0.001
+		}
+	}
+	penalties = {
+  global_tax_modifier = -0.10
+	}
+	benefits = {
+	}
+
+  on_granted = {
+		if = {
+			limit = { piety = -0.50 }
+			add_piety = 0.25
+		}
+		else_if = {
+			limit = { piety = 0.00 }
+			add_piety = 0.20
+		}
+		else_if = {
+			limit = { piety = 0.25 }
+			add_piety = 0.15
+		}
+		else_if = {
+			limit = { piety = 0.50 }
+			add_piety = 0.10
+		}
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_church_sufi_advisors = {
+	icon = privilege_build_jain_temple
+	max_absolutism = -5
+	influence = 0.05
+  is_valid = { religion_group = muslim }
+  can_select = {
+		NOT = { piety = 0.51 }
+		NOT = { has_estate_privilege = estate_church_strengthen_qadis }
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		modifier = {
+			monthly_piety = -0.001
+		}
+	}
+	penalties = {
+  global_autonomy = 0.025
+	}
+	benefits = {
+	}
+
+  on_granted = {
+		if = {
+			limit = { piety = 0.50 }
+			add_piety = -0.25
+		}
+		else_if = {
+			limit = { piety = 0.00 }
+			add_piety = -0.20
+		}
+		else_if = {
+			limit = { piety = -0.25 }
+			add_piety = -0.15
+		}
+		else_if = {
+			limit = { piety = -0.50 }
+			add_piety = -0.10
+		}
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+# conditional_modifier = {
+# 	trigger = {
+# 		has_dlc = "Common Sense"
+# 		OR = {
+# 			religion = buddhism
+# 			religion = vajrayana
+# 			religion = mahayana
+# 		}
+# 	}
+# 	modifier = {
+# 		yearly_karma_decay = 0.005
+# 	}
+# }

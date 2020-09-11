@@ -3,7 +3,7 @@
 owner = SKR
 controller = SKR
 culture = silla
-religion = confucianism
+religion = taoism
 capital = "Sangju"
 trade_goods = cotton
 hre = no

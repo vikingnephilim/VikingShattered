@@ -976,7 +976,7 @@ eastern = {
 				duration = 3650
 			}
 		}
-		heretic = { CONFUCIANISM MAHAYANA SHINTO VAJRAYANA }
+		heretic = { CONFUCIANISM TAOISM TANTRA MAHAYANA SHINTO VAJRAYANA }
 		harmonized_modifier = harmonized_buddhism
 		uses_karma = yes
 	}
@@ -1003,7 +1003,7 @@ eastern = {
 				duration = 3650
 			}
 		}
-		heretic = { CONFUCIANISM MAHAYANA SHINTO THERAVADA }
+		heretic = { CONFUCIANISM TAOISM TANTRA MAHAYANA SHINTO THERAVADA }
 		harmonized_modifier = harmonized_vajrayana
 		uses_karma = yes
 	}
@@ -1030,7 +1030,7 @@ eastern = {
 				duration = 3650
 			}
 		}
-		heretic = { CONFUCIANISM SHINTO THERAVADA VAJRAYANA }
+		heretic = { CONFUCIANISM TAOISM TANTRA SHINTO THERAVADA VAJRAYANA }
 		harmonized_modifier = harmonized_mahayana
 		uses_karma = yes
 	}
@@ -1045,23 +1045,53 @@ eastern = {
 			adm_tech_cost_modifier = -0.1
 			stability_cost_modifier = -0.1
 		}
-		heretic = { MAHAYANA SHINTO THERAVADA VAJRAYANA }
+		heretic = { TAOISM TANTRA MAHAYANA SHINTO THERAVADA VAJRAYANA }
 		harmonized_modifier = harmonized_confucianism
 		uses_harmony = yes
 	}
 	taoism = {
-		color = { 193 209 167 }
+		color = { 13 229 167 }
 		icon = 75
 		country = {
-			tolerance_heretic = 3
-			adm_tech_cost_modifier = -0.2
+			tolerance_heretic = 2
+			global_unrest = -1
 		}
 		country_as_secondary = {
-			adm_tech_cost_modifier = -0.2
-			stability_cost_modifier = -0.2
+			tolerance_heretic = 2
+			stability_cost_modifier = -0.1
 		}
-		heretic = { MAHAYANA SHINTO THERAVADA VAJRAYANA }
+		heretic = { CONFUCIANISM TANTRA MAHAYANA SHINTO THERAVADA VAJRAYANA }
 		harmonized_modifier = harmonized_taoism
+		uses_harmony = yes
+	}
+	tantra = {
+		color = { 163 239 17 }
+		icon = 76
+		country = {
+			years_of_nationalism = -5
+			religious_unity = 0.5
+		}
+		country_as_secondary = {
+			tolerance_heretic = 1
+			years_of_nationalism = -3
+		}
+		heretic = { CONFUCIANISM TAOISM MAHAYANA SHINTO THERAVADA VAJRAYANA }
+		harmonized_modifier = harmonized_tantra
+		uses_harmony = yes
+	}
+	zen = {
+		color = { 113 29 197 }
+		icon = 7
+		country = {
+			monthly_splendor = 1
+			power_projection_from_insults = 0.1
+		}
+		country_as_secondary = {
+			tolerance_heathen = 1
+			religious_unity = 0.25
+		}
+		heretic = { CONFUCIANISM TAOISM MAHAYANA SHINTO THERAVADA VAJRAYANA }
+		harmonized_modifier = harmonized_zen
 		uses_harmony = yes
 	}
 	shinto = {

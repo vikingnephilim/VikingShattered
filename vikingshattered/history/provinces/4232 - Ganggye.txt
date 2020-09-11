@@ -3,7 +3,7 @@
 owner = NKR
 controller = NKR
 culture = goguryeo
-religion = confucianism
+religion = taoism
 capital = "Ganggye"
 trade_goods = fur
 hre = no

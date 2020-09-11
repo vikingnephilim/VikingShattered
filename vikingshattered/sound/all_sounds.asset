@@ -745,6 +745,15 @@ sound = {
 }
 
 sound = {
+	name = religion_tantra
+	file = "tab_religion_eastern.wav"
+}
+
+sound = {
+	name = religion_zen
+	file = "tab_religion_eastern.wav"
+}
+sound = {
 	name = religion_hinduism
 	file = "tab_religion_india.wav"
 }

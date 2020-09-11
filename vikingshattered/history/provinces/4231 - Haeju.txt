@@ -3,7 +3,7 @@
 owner = NKR
 controller = NKR
 culture = goguryeo
-religion = confucianism
+religion = taoism
 capital = "Haeju"
 trade_goods = naval_supplies
 hre = no

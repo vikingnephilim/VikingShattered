@@ -876,9 +876,9 @@ guiTypes = {
 			listboxType = 
 			{
 				name ="harmonized_listbox"
-				position = { x = 35 y = 300 }
+				position = { x = 7 y = 300 }
 				backGround=""
-				size = { x=340 y = 300 }
+				size = { x= 416 y = 300 }
 				Orientation = "UPPER_LEFT"
 				horizontal = 1
 				spacing = 0

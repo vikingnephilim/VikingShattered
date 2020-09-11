@@ -8875,12 +8875,22 @@ harmonized_shinto = {
 }
 
 harmonized_confucianism = {
-	tolerance_heretic = 1
+	manpower_in_true_faith_provinces= 0.25
 	religion = yes
 }
 
 harmonized_taoism = {
-	tolerance_heathen = 1
+	discipline = 0.025
+	religion = yes
+}
+
+harmonized_zen = {
+	diplomatic_reputation = 1
+	religion = yes
+}
+
+harmonized_tantra = {
+	stability_cost_to_declare_war = -1
 	religion = yes
 }
 
