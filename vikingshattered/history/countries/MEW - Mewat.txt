@@ -3,6 +3,7 @@ add_government_reform = rajput_kingdom
 government_rank = 1
 primary_culture = rajput
 religion = sunni
+religious_school = maliki_school
 technology_group = indian
 capital = 520	# Mewat
 fixed_capital = 520 # Cannot move capital away from this province & no power cost to move to it

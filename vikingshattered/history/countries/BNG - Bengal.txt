@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = indian_sultanate_reform
 primary_culture = bengali
 religion = sunni
+religious_school = maliki_school
 technology_group = indian
 capital = 563	# Pandua
 

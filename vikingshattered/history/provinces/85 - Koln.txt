@@ -3,7 +3,7 @@
 owner = KOL
 controller = KOL
 add_core = KOL
-culture = hessian
+culture = alemannic
 religion = waldensian
 trade_goods = paper
 capital = "Köln"

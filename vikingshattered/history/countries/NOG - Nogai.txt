@@ -2,6 +2,7 @@ government = tribal
 add_government_reform = steppe_horde
 primary_culture = nogaybak
 religion = sunni
+religious_school = shafii_school
 technology_group = nomad_group
 capital = 465	# Saraycik
 

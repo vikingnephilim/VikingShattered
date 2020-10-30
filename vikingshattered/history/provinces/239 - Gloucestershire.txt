@@ -2,7 +2,7 @@
 #ENG ENGLAND
 owner = MRC
 controller = MRC
-culture = mercian
+culture = anglosaxon
 religion = catholic
 hre = no
 base_tax = 2

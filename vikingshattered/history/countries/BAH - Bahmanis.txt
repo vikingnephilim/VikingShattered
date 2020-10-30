@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = indian_sultanate_reform
 technology_group = indian
 religion = shiite
+religious_school = maturidi_school
 primary_culture = kannada
 capital = 1948	# Gulbarga
 add_accepted_culture = marathi

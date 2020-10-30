@@ -2,7 +2,7 @@
 
 owner = MAM
 controller = MAM
-culture = coptic_greek
+culture = al_misr_arabic
 religion = sunni
 capital = "Damanhur"
 trade_goods = salt #Wadi Natrun

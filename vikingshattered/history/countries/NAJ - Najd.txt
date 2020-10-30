@@ -3,6 +3,7 @@ add_government_reform = tribal_federation
 technology_group = muslim
 primary_culture = najdi_arabic
 religion = sunni
+religious_school = shafii_school
 capital = 392 # Deraiyah
 
 1444.1.1 = {

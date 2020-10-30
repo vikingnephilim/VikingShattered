@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = iqta
 technology_group = muslim
 religion = sunni
+religious_school = alawite_school
 primary_culture = uzbehk
 capital = 458	# Kokkand
 fixed_capital = 458 # Cannot move capital away from this province & no power cost to move to it

@@ -1,6 +1,6 @@
 owner = ANH
 controller = ANH 
-culture = saxon
+culture = eastphalian
 religion = catholic
 capital = "Dessau"
 trade_goods = wool

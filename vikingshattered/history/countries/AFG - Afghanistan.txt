@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = iqta
 technology_group = muslim
 religion = sunni
+religious_school = alawite_school
 primary_culture = afghani
 capital = 451	# Kabul
 

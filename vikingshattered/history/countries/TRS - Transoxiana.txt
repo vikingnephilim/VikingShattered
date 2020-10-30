@@ -4,6 +4,7 @@
 technology_group = muslim
 primary_culture = uzbehk
 religion = sunni
+religious_school = hanafi_school
 government = monarchy
 add_government_reform = iqta
 capital = 454 # Samarkand

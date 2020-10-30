@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = iqta
 primary_culture = uyghur
 religion = sunni
+religious_school = hanbali_school
 technology_group = chinese
 capital = 739	# kashgar
 

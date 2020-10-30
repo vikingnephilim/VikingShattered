@@ -3,6 +3,7 @@ add_government_reform = iqta
 primary_culture = moroccan
 religion = sunni
 technology_group = muslim
+religious_school = muhakkima_school
 capital = 344 # Marrakech
 add_accepted_culture = berber
 

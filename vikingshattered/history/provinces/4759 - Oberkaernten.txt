@@ -3,7 +3,7 @@
 owner = STY
 controller = STY
 add_core = STY
-culture	= austrian
+culture	= styrian
 religion = catholic
 base_tax = 3
 base_production = 3

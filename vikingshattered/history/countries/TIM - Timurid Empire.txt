@@ -3,6 +3,7 @@ primary_culture = uzbehk
 add_accepted_culture = khorasani
 add_accepted_culture = persian
 religion = sunni
+religious_school = hanbali_school
 government = monarchy
 add_government_reform = iqta
 government_rank = 3

@@ -3,6 +3,7 @@ add_government_reform = iqta
 government_rank = 1
 primary_culture = luri
 religion = shiite
+religious_school = shafii_school
 technology_group = muslim
 #capital = 4342 # Malamir
 capital = 413 #Khorramabad

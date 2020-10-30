@@ -1,7 +1,7 @@
 owner = KLE
 controller = KLE
 add_core = KLE
-culture = hessian
+culture = alemannic
 religion = waldensian
 trade_goods = cloth
 capital = "Kleves"

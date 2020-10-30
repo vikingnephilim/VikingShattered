@@ -8,35 +8,6 @@ muslim = {
 	flag_emblem_index_range = { 97 106 } #Including Star of David / Seal of Suleyman
 	ai_will_propagate_through_trade = yes
 	religious_schools = {
-		akbari_school = {
-			potential_invite_scholar = {
-				knows_of_scholar_country_capital_trigger = yes
-			}
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
-			can_invite_scholar = {
-				adm_power_cost = 50
-					NOT = { piety = -0.5 }
-				reverse_has_opinion = { who = FROM value = 150 }
-				OR = {
-					alliance_with = FROM
-					is_subject_of = FROM
-					overlord_of = FROM
-				}
-				hidden_progressive_opinion_for_scholar_trigger = yes
-				NOT = { has_country_modifier = akbari_scholar_modifier }
-			}
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
-			on_invite_scholar = {
-				adm_power_cost = 50
-				clear_religious_scholar_modifiers_effect = yes
-				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
-				add_country_modifier = { name = akbari_scholar_modifier duration = 7300 }
-			}
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
-			invite_scholar_modifier_display = akbari_scholar_modifier
-			picture = "GFX_icon_muslim_school_akbari"
-			fire_damage = 0.1
-		}			
 		alawite_school = {
 			potential_invite_scholar = {
 				knows_of_scholar_country_capital_trigger = yes
@@ -65,123 +36,8 @@ muslim = {
 			invite_scholar_modifier_display = alawite_scholar_modifier
 			picture = "GFX_icon_muslim_school_alawite"
 			reform_progress_growth = 0.1
-		}	
-		ashari_school = {
-			potential_invite_scholar = {
-				knows_of_scholar_country_capital_trigger = yes
-			}
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
-			can_invite_scholar = {
-				adm_power_cost = 50
-					NOT = { piety = -0.5 }
-				reverse_has_opinion = { who = FROM value = 150 }
-				OR = {
-					alliance_with = FROM
-					is_subject_of = FROM
-					overlord_of = FROM
-				}
-				hidden_progressive_opinion_for_scholar_trigger = yes
-				NOT = { has_country_modifier = ashari_scholar_modifier }
-			}
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
-			on_invite_scholar = {
-				adm_power_cost = 50
-				clear_religious_scholar_modifiers_effect = yes
-				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
-				add_country_modifier = { name = ashari_scholar_modifier duration = 7300 }
-			}
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
-			invite_scholar_modifier_display = ashari_scholar_modifier
-			picture = "GFX_icon_muslim_school_ashari"
-			monthly_splendor = 1
-		}		
-		azariqa_school = {
-			potential_invite_scholar = {
-				knows_of_scholar_country_capital_trigger = yes
-			}
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
-			can_invite_scholar = {
-				adm_power_cost = 50
-					NOT = { piety = -0.5 }
-				reverse_has_opinion = { who = FROM value = 150 }
-				OR = {
-					alliance_with = FROM
-					is_subject_of = FROM
-					overlord_of = FROM
-				}
-				hidden_progressive_opinion_for_scholar_trigger = yes
-				NOT = { has_country_modifier = azariqa_scholar_modifier }
-			}
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
-			on_invite_scholar = {
-				adm_power_cost = 50
-				clear_religious_scholar_modifiers_effect = yes
-				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
-				add_country_modifier = { name = azariqa_scholar_modifier duration = 7300 }
-			}
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
-			invite_scholar_modifier_display = azariqa_scholar_modifier
-			picture = "GFX_icon_muslim_school_azariqa"
 			expand_administration_cost = -0.1
-		}
-		barelvi_school = {
-			potential_invite_scholar = {
-				knows_of_scholar_country_capital_trigger = yes
-			}
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
-			can_invite_scholar = {
-				adm_power_cost = 50
-					NOT = { piety = -0.5 }
-				reverse_has_opinion = { who = FROM value = 150 }
-				OR = {
-					alliance_with = FROM
-					is_subject_of = FROM
-					overlord_of = FROM
-				}
-				hidden_progressive_opinion_for_scholar_trigger = yes
-				NOT = { has_country_modifier = barelvi_scholar_modifier }
-			}
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
-			on_invite_scholar = {
-				adm_power_cost = 50
-				clear_religious_scholar_modifiers_effect = yes
-				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
-				add_country_modifier = { name = barelvi_scholar_modifier duration = 7300 }
-			}
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
-			invite_scholar_modifier_display = barelvi_scholar_modifier
-			picture = "GFX_icon_muslim_school_barelvi"
-			fire_damage_received = -0.1
-		}
-		ghulat_school = {
-			potential_invite_scholar = {
-				knows_of_scholar_country_capital_trigger = yes
-			}
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
-			can_invite_scholar = {
-				adm_power_cost = 50
-					NOT = { piety = -0.5 }
-				reverse_has_opinion = { who = FROM value = 150 }
-				OR = {
-					alliance_with = FROM
-					is_subject_of = FROM
-					overlord_of = FROM
-				}
-				hidden_progressive_opinion_for_scholar_trigger = yes
-				NOT = { has_country_modifier = ghulat_scholar_modifier }
-			}
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
-			on_invite_scholar = {
-				adm_power_cost = 50
-				clear_religious_scholar_modifiers_effect = yes
-				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
-				add_country_modifier = { name = ghulat_scholar_modifier duration = 7300 }
-			}
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
-			invite_scholar_modifier_display = ghulat_scholar_modifier
-			picture = "GFX_icon_muslim_school_ghulat"
-			stability_cost_modifier = -0.1
-		}
+		}	
 		hanafi_school = {
 			potential_invite_scholar = {
 				knows_of_scholar_country_capital_trigger = yes
@@ -211,6 +67,7 @@ muslim = {
 			picture = "GFX_icon_muslim_school_hanafi"
 			# religion_sub_modifier = no is possible, will hide icon in religious screen
 			adm_tech_cost_modifier = -0.05
+			monthly_splendor = 1
 		}
 		hanbali_school = {
 			potential_invite_scholar = {
@@ -240,35 +97,7 @@ muslim = {
 			invite_scholar_modifier_display = hanbali_scholar_modifier
 			picture = "GFX_icon_muslim_school_hanbali"
 			ae_impact = -0.1
-		}
-		imami_school = {
-			potential_invite_scholar = {
-				knows_of_scholar_country_capital_trigger = yes
-			}
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
-			can_invite_scholar = {
-				adm_power_cost = 50
-					NOT = { piety = -0.5 }
-				reverse_has_opinion = { who = FROM value = 150 }
-				OR = {
-					alliance_with = FROM
-					is_subject_of = FROM
-					overlord_of = FROM
-				}
-				hidden_progressive_opinion_for_scholar_trigger = yes
-				NOT = { has_country_modifier = imami_scholar_modifier }
-			}
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
-			on_invite_scholar = {
-				adm_power_cost = 50
-				clear_religious_scholar_modifiers_effect = yes
-				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
-				add_country_modifier = { name = imami_scholar_modifier duration = 7300 }
-			}
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
-			invite_scholar_modifier_display = imami_scholar_modifier
-			picture = "GFX_icon_muslim_school_imami"
-			global_spy_defence = 0.1
+			stability_cost_modifier = -0.1
 		}
 		ismaili_school = {
 			potential_invite_scholar = {
@@ -301,6 +130,7 @@ muslim = {
 			legitimacy = 1
 			republican_tradition = 0.2
 			devotion = 1
+			global_spy_defence = 0.1
 		}
 		jafari_school = {
 			potential_invite_scholar = {
@@ -330,6 +160,7 @@ muslim = {
 			invite_scholar_modifier_display = jafari_scholar_modifier
 			picture = "GFX_icon_muslim_school_jafari"
 			shock_damage = 0.1
+			fire_damage_received = -0.1
 		}
 		maliki_school = {
 			potential_invite_scholar = {
@@ -359,35 +190,7 @@ muslim = {
 			invite_scholar_modifier_display = maliki_scholar_modifier
 			picture = "GFX_icon_muslim_school_maliki"
 			development_cost = -0.1
-		}
-		masmudi_school = {
-			potential_invite_scholar = {
-				knows_of_scholar_country_capital_trigger = yes
-			}
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
-			can_invite_scholar = {
-				adm_power_cost = 50
-					NOT = { piety = -0.5 }
-				reverse_has_opinion = { who = FROM value = 150 }
-				OR = {
-					alliance_with = FROM
-					is_subject_of = FROM
-					overlord_of = FROM
-				}
-				hidden_progressive_opinion_for_scholar_trigger = yes
-				NOT = { has_country_modifier = masmudi_scholar_modifier }
-			}
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
-			on_invite_scholar = {
-				adm_power_cost = 50
-				clear_religious_scholar_modifiers_effect = yes
-				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
-				add_country_modifier = { name = masmudi_scholar_modifier duration = 7300 }
-			}
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
-			invite_scholar_modifier_display = masmudi_scholar_modifier
-			picture = "GFX_icon_muslim_school_masmudi"
-			army_tradition_from_battle = 0.25
+			core_creation = -0.1
 		}
 		maturidi_school = {
 			potential_invite_scholar = {
@@ -417,6 +220,7 @@ muslim = {
 			invite_scholar_modifier_display = maturidi_scholar_modifier
 			picture = "GFX_icon_muslim_school_maturidi"
 			infantry_power = 0.1
+			army_tradition_from_battle = 0.25
 		}
 		muhakkima_school = {
 			potential_invite_scholar = {
@@ -446,6 +250,7 @@ muslim = {
 			invite_scholar_modifier_display = muhakkima_scholar_modifier
 			picture = "GFX_icon_muslim_school_muhakkima"
 			artillery_bonus_vs_fort = 1
+			mil_tech_cost_modifier = -0.05
 		}
 		mutazilla_school = {
 			potential_invite_scholar = {
@@ -475,93 +280,7 @@ muslim = {
 			invite_scholar_modifier_display = mutazilla_scholar_modifier
 			picture = "GFX_icon_muslim_school_mutazilla"
 			naval_tradition_from_battle = 0.25
-		}
-		nadjat_school = {
-			potential_invite_scholar = {
-				knows_of_scholar_country_capital_trigger = yes
-			}
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
-			can_invite_scholar = {
-				adm_power_cost = 50
-					NOT = { piety = -0.5 }
-				reverse_has_opinion = { who = FROM value = 150 }
-				OR = {
-					alliance_with = FROM
-					is_subject_of = FROM
-					overlord_of = FROM
-				}
-				hidden_progressive_opinion_for_scholar_trigger = yes
-				NOT = { has_country_modifier = nadjat_scholar_modifier }
-			}
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
-			on_invite_scholar = {
-				adm_power_cost = 50
-				clear_religious_scholar_modifiers_effect = yes
-				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
-				add_country_modifier = { name = nadjat_scholar_modifier duration = 7300 }
-			}
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
-			invite_scholar_modifier_display = nadjat_scholar_modifier
-			picture = "GFX_icon_muslim_school_nadjat"
 			naval_morale = 0.1
-		}
-		nizari_school = {
-			potential_invite_scholar = {
-				knows_of_scholar_country_capital_trigger = yes
-			}
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
-			can_invite_scholar = {
-				adm_power_cost = 50
-					NOT = { piety = -0.5 }
-				reverse_has_opinion = { who = FROM value = 150 }
-				OR = {
-					alliance_with = FROM
-					is_subject_of = FROM
-					overlord_of = FROM
-				}
-				hidden_progressive_opinion_for_scholar_trigger = yes
-				NOT = { has_country_modifier = nizari_scholar_modifier }
-			}
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
-			on_invite_scholar = {
-				adm_power_cost = 50
-				clear_religious_scholar_modifiers_effect = yes
-				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
-				add_country_modifier = { name = nizari_scholar_modifier duration = 7300 }
-			}
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
-			invite_scholar_modifier_display = nizari_scholar_modifier
-			picture = "GFX_icon_muslim_school_nizari"
-			dip_tech_cost_modifier = -0.05
-		}
-		quran_school = {
-			potential_invite_scholar = {
-				knows_of_scholar_country_capital_trigger = yes
-			}
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
-			can_invite_scholar = {
-				adm_power_cost = 50
-					NOT = { piety = -0.5 }
-				reverse_has_opinion = { who = FROM value = 150 }
-				OR = {
-					alliance_with = FROM
-					is_subject_of = FROM
-					overlord_of = FROM
-				}
-				hidden_progressive_opinion_for_scholar_trigger = yes
-				NOT = { has_country_modifier = quran_scholar_modifier }
-			}
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
-			on_invite_scholar = {
-				adm_power_cost = 50
-				clear_religious_scholar_modifiers_effect = yes
-				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
-				add_country_modifier = { name = quran_scholar_modifier duration = 7300 }
-			}
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
-			invite_scholar_modifier_display = quran_scholar_modifier
-			picture = "GFX_icon_muslim_school_quranism"
-			core_creation = -0.1
 		}
 		shafii_school = {
 			potential_invite_scholar = {
@@ -591,35 +310,7 @@ muslim = {
 			invite_scholar_modifier_display = shafii_scholar_modifier
 			picture = "GFX_icon_muslim_school_shafii"
 			merchants = 1
-		}
-		usuli_school = {
-			potential_invite_scholar = {
-				knows_of_scholar_country_capital_trigger = yes
-			}
-			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
-			can_invite_scholar = {
-				adm_power_cost = 50
-					NOT = { piety = -0.5 }
-				reverse_has_opinion = { who = FROM value = 150 }
-				OR = {
-					alliance_with = FROM
-					is_subject_of = FROM
-					overlord_of = FROM
-				}
-				hidden_progressive_opinion_for_scholar_trigger = yes
-				NOT = { has_country_modifier = usuli_scholar_modifier }
-			}
-			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
-			on_invite_scholar = {
-				adm_power_cost = 50
-				clear_religious_scholar_modifiers_effect = yes
-				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
-				add_country_modifier = { name = usuli_scholar_modifier duration = 7300 }
-			}
-			# If you don't set this it will expand on_invite_scholar effect which might be super big
-			invite_scholar_modifier_display = usuli_scholar_modifier
-			picture = "GFX_icon_muslim_school_usuli"
-			mil_tech_cost_modifier = -0.05
+			dip_tech_cost_modifier = -0.05
 		}
 		zaidi_school = {
 			potential_invite_scholar = {
@@ -649,23 +340,13 @@ muslim = {
 			invite_scholar_modifier_display = zaidi_scholar_modifier
 			picture = "GFX_icon_muslim_school_zaidi"
 			shock_damage_received = -0.1
+			fire_damage = 0.1
 		}
 
 	}
 	druze = {
 		color = { 78 242 76 }
 		icon = 55
-		allowed_conversion = {
-			hurufi
-			ibadi
-			kharijite
-			qarmatian
-			shiite
-			sufri
-			sunni
-			yazidi
-			zikri
-			}
 		country = {
 			heir_chance = 1.0
 			dip_tech_cost_modifier = -0.1 # Promoted intellectualism
@@ -684,17 +365,6 @@ muslim = {
 	hurufi = {
 		color = { 0 220 131 }
 		icon = 61
-		allowed_conversion = {
-			druze
-			ibadi
-			kharijite
-			qarmatian
-			shiite
-			sufri
-			sunni
-			yazidi
-			zikri
-			}
 		country = {
 			heir_chance = 1.0
 			diplomatic_upkeep = 2
@@ -713,17 +383,7 @@ muslim = {
 	ibadi = {
 		color = { 0 102 0 }
 		icon = 16
-		allowed_conversion = {
-			druze
-			hurufi
-			kharijite
-			qarmatian
-			shiite
-			sufri
-			sunni
-			yazidi
-			zikri
-			}
+
 		country = {
 			heir_chance = 1.0
 			global_trade_goods_size_modifier = 0.1
@@ -742,17 +402,6 @@ muslim = {
 	kharijite = {
 		color = { 166 203 69 }
 		icon = 60
-		allowed_conversion = {
-			druze
-			hurufi
-			ibadi
-			qarmatian
-			shiite
-			sufri
-			sunni
-			yazidi
-			zikri
-			}
 		country = {
 			heir_chance = 1.0
 			improve_relation_modifier = 0.2
@@ -771,17 +420,6 @@ muslim = {
 	qarmatian = {
 		color = { 114 148 109 }
 		icon = 59
-		allowed_conversion = {
-			druze
-			hurufi
-			ibadi
-			kharijite
-			shiite
-			sufri
-			sunni
-			yazidi
-			zikri
-			}
 		country = {
 			heir_chance = 1.0
 			global_ship_cost = -0.1
@@ -799,17 +437,6 @@ muslim = {
 	shiite = {
 		color = { 0 204 0 }
 		icon = 6
-		allowed_conversion = {
-			druze
-			hurufi
-			ibadi
-			kharijite
-			qarmatian
-			sufri
-			sunni
-			yazidi
-			zikri
-			}
 		country = {
 			heir_chance = 1.0
 			land_morale = 0.05
@@ -828,17 +455,6 @@ muslim = {
 	sunni = {
 		color = { 0 153 0 }
 		icon = 5
-		allowed_conversion = {
-			druze
-			hurufi
-			ibadi
-			kharijite
-			qarmatian
-			shiite
-			sufri
-			yazidi
-			zikri
-			}
 		country = {
 			heir_chance = 1.0
 			expel_minorities_cost = -0.1
@@ -857,17 +473,6 @@ muslim = {
 	sufri = {
 		color = { 77 107 88 }
 		icon = 58
-		allowed_conversion = {
-			druze
-			hurufi
-			ibadi
-			kharijite
-			qarmatian
-			shiite
-			sunni
-			yazidi
-			zikri
-			}
 		country = {
 			heir_chance = 1.0
 			defensiveness = 0.1
@@ -885,17 +490,6 @@ muslim = {
 	yazidi = {
 		color = { 41 179 90 }
 		icon = 56
-		allowed_conversion = {
-			druze
-			hurufi
-			ibadi
-			kharijite
-			qarmatian
-			shiite
-			sufri
-			sunni
-			zikri
-			}
 		country = {
 			tolerance_own = 3 # Preoccupation with religious purity
 			tolerance_heretic = -1 # Too much contact with non-Yazidis is considered polluting
@@ -917,17 +511,6 @@ muslim = {
 	zikri = {
 		color = { 53 147 53 }
 		icon = 57
-		allowed_conversion = {
-			druze
-			hurufi
-			ibadi
-			kharijite
-			qarmatian
-			shiite
-			sufri
-			sunni
-			yazidi
-			}
 		country = {
 			global_institution_spread = 0.15
 			center_of_trade_upgrade_cost = -0.1
@@ -1333,8 +916,8 @@ pagan = {
             discipline = 0.05
             female_advisor_chance = 0.5
         }
-		fetishist_cult = yes
 		heretic = { ANIMISM SHAMANISM FINNISH_PAGAN_REFORMED HELLENIC_PAGAN INTI POLYNESIAN MESOAMERICAN_RELIGION NAHUATL NORSE_PAGAN_REFORMED SLAVIC_PAGAN_REFORMED TENGRI_PAGAN_REFORMED TOTEMISM ZUN_PAGAN_REFORMED }
+		can_have_secondary_religion = yes
     }
 	shamanism = { #Fetishism, tag kept to avoid breaking saves.
 		color = { 127 76 76 }

@@ -3,6 +3,7 @@ add_government_reform = tribal_despotism
 government_rank = 1
 primary_culture = moroccan
 religion = sunni
+religious_school = alawite_school
 technology_group = muslim
 capital = 346	# Tafilalt
 fixed_capital = 346 # Cannot move capital away from this province & no power cost to move to it

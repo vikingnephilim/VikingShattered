@@ -3,6 +3,7 @@ add_government_reform = iqta
 technology_group = east_african
 unit_type = sub_saharan
 religion = sunni
+religious_school = maliki_school
 primary_culture = somali
 capital = 2788 #Hafun
 

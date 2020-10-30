@@ -1,6 +1,7 @@
 government = monarchy
 add_government_reform = sharifate_reform
 technology_group = muslim
+religious_school = maturidi_school
 primary_culture = hejazi_culture
 religion = shiite
 capital = 2346 #Asir

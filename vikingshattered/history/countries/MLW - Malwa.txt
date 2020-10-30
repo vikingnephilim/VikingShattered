@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = indian_sultanate_reform
 primary_culture = malvi
 religion = sunni
+religious_school = maliki_school
 technology_group = indian
 capital = 526	# Mandu
 add_accepted_culture = rajput

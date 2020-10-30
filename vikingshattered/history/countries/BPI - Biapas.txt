@@ -4,6 +4,7 @@ government_rank = 1
 mercantilism = 25
 primary_culture = mazandarani
 religion = sunni
+religious_school = maliki_school
 technology_group = muslim
 capital = 4339 # Rasht
 

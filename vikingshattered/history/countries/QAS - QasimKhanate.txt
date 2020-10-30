@@ -4,6 +4,7 @@ government_rank = 1
 technology_group = nomad_group
 primary_culture = mishary
 religion = sunni
+religious_school = shafii_school
 capital = 1778	# Kasimov
 
 1444.1.1 = {

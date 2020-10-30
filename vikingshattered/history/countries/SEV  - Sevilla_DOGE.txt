@@ -5,6 +5,7 @@ add_government_reform = granadan_iqta_reform
 government_rank = 1
 technology_group = muslim
 religion = sunni
+religious_school = zaidi_school
 primary_culture = andalucian
 capital = 224 # Sevilla
 

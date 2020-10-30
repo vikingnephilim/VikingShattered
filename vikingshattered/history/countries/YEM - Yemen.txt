@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = iqta
 primary_culture = yemeni_culture
 religion = kharijite
+religious_school = muhakkima_school
 technology_group = muslim
 capital = 4280	# Taiz
 

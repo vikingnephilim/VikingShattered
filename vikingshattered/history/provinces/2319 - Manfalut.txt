@@ -2,7 +2,7 @@
 
 owner = SAI
 controller = SAI
-culture = coptic_greek
+culture = al_misr_arabic
 religion = sunni
 capital = "Manfalut"
 trade_goods = cotton

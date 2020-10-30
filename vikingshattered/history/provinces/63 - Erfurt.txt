@@ -2,7 +2,7 @@
 
 owner = THU
 controller = THU
-culture = saxon
+culture = thuringian
 religion = catholic
 capital = "Erfurt"
 trade_goods = dyes #Woad, also a center for glassmaking

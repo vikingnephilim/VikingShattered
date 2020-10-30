@@ -1,6 +1,6 @@
 owner = BRU
 controller = BRU
-culture = lower_saxon
+culture = eastphalian
 religion = catholic
 capital = "Braunschweig"
 trade_goods = iron

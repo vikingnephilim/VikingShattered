@@ -3,6 +3,7 @@ add_government_reform = iqta
 government_rank = 1
 primary_culture = kurdish
 religion = sunni
+religious_school = hanbali_school
 technology_group = muslim
 capital = 4295 #Hisn Kayfa
 add_accepted_culture = al_suryah_arabic

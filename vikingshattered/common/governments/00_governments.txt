@@ -158,6 +158,7 @@ monarchy = {
 				angevin_nobles_reform
 				parliament_of_sicily_reform
 				nationalized_cetas_reform
+				rome_government
 			}
 		}
 		bureaucracy = {

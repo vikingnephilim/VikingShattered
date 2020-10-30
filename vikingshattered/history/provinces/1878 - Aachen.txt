@@ -6,7 +6,7 @@ latent_trade_goods = {
 
 owner = AAC
 controller = AAC
-culture = hessian
+culture = alemannic
 religion = waldensian
 trade_goods = grain
 capital = "Aachen"

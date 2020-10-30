@@ -1,7 +1,7 @@
 owner = NEU
 controller = NEU
 add_core = NEU
-culture = saxon
+culture = margravian
 religion = catholic
 hre = yes
 base_tax = 2 

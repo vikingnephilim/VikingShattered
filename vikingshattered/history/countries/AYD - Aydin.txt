@@ -3,6 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = turkish
 religion = sunni
+religious_school = maliki_school
 technology_group = ottoman
 capital = 4309	# Aydin
 

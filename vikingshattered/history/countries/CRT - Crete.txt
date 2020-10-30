@@ -4,6 +4,7 @@ government_rank = 1
 technology_group = eastern
 primary_culture = greek
 religion = sunni
+religious_school = zaidi_school
 capital = 163	# Heraklion
 fixed_capital = 163 # Cannot move capital away from this province & no power cost to move to it
 

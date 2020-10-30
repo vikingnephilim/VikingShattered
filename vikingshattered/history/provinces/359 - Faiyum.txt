@@ -2,7 +2,7 @@
 
 owner = BNS
 controller = BNS
-culture = coptic_greek
+culture = al_misr_arabic
 religion = sunni
 capital = "Al Fayyum"
 trade_goods = cotton

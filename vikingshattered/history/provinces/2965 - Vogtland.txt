@@ -2,7 +2,7 @@
 
 owner = THU
 controller = THU
-culture = saxon
+culture = thuringian
 religion = catholic
 capital = "Plauen"
 trade_goods = wool

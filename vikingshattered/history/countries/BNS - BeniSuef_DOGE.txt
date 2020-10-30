@@ -2,6 +2,7 @@ government = monarchy
 primary_culture = al_misr_arabic
 religion = sunni
 technology_group = muslim
+religious_school = hanbali_school
 capital = 359 # Fayyum
 
 1444.1.1 = {

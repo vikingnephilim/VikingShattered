@@ -2,6 +2,7 @@ government = tribal
 add_government_reform = tribal_federation
 technology_group = muslim
 religion = sunni
+religious_school = alawite_school
 primary_culture = gulf_arabic
 capital = 404 # Liwa Oasis
 

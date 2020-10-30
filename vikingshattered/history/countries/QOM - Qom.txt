@@ -4,6 +4,7 @@ government_rank = 1
 primary_culture = persian
 add_accepted_culture = azerbaijani
 religion = shiite
+religious_school = shafii_school
 technology_group = muslim
 capital = 2213 # Qom
 

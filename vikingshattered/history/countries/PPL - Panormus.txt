@@ -2,6 +2,7 @@ government = republic
 government_rank = 2
 primary_culture = punic
 religion = druze
+religious_school = muhakimma_school
 technology_group = eastern
 capital = 125
 fixed_capital = 125

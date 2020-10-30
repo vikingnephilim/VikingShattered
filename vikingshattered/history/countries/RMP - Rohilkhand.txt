@@ -3,6 +3,7 @@ add_government_reform = indian_sultanate_reform
 technology_group = indian
 primary_culture = kanauji
 religion = shiite
+religious_school = maturidi_school
 capital = 2061 # Rohilkhand / Katehar
 
 1419.1.1 = {

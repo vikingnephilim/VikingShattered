@@ -2,6 +2,7 @@ technology_group = indian
 government_rank = 1
 primary_culture = amhara
 religion = sunni
+religious_school = hanafi_school
 capital = 2089	# Janjira
 government = monarchy
 add_government_reform = indian_sultanate_reform

@@ -3,7 +3,7 @@
 owner = GOS
 controller = GOS
 add_core = GOS
-culture = saxon
+culture = eastphalian
 religion = catholic
 hre = yes
 base_tax = 5

@@ -3,7 +3,7 @@
 owner = MAG
 controller = MAG
 add_core = MAG
-culture = saxon
+culture = eastphalian
 religion = catholic
 hre = yes
 base_tax = 3

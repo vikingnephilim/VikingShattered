@@ -7,7 +7,7 @@ latent_trade_goods = {
 
 owner = EAL
 controller = EAL
-culture = mercian
+culture = anglosaxon
 religion = catholic
 hre = no
 base_tax = 2

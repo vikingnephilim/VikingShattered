@@ -3,6 +3,7 @@ add_government_reform = indian_sultanate_reform
 government_rank = 1
 technology_group = indian
 religion = sunni
+religious_school = mutazilla_school
 primary_culture = tamil
 add_accepted_culture = telegu
 capital = 4420

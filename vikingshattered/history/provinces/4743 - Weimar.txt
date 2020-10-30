@@ -3,7 +3,7 @@
 owner = THU
 controller = THU
 add_core = THU
-culture = saxon
+culture = thuringian
 religion = catholic
 hre = yes
 base_tax = 3

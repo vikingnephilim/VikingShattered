@@ -2,6 +2,7 @@ government = tribal
 add_government_reform = tribal_federation
 primary_culture = yemeni_culture
 religion = shiite
+religious_school = ismaeli_school
 technology_group = muslim
 capital = 391	# Najran
 government_rank = 1

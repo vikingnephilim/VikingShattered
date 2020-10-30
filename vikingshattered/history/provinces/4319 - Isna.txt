@@ -2,7 +2,7 @@
 
 owner = SAI
 controller = SAI
-culture = coptic_greek
+culture = saiidi
 religion = sunni
 capital = "Isna"
 trade_goods = livestock

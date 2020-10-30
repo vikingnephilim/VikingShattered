@@ -2,7 +2,7 @@
 
 owner = ALX
 controller = ALX
-culture = coptic_greek
+culture = al_misr_arabic
 religion = monophysite
 capital = "Al Iskandirya"
 trade_goods = spices

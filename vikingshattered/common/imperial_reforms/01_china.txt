@@ -2,38 +2,123 @@ establish_gaituguiliu_decision = {
 	empire = celestial_empire
 	emperor = {
 		meritocracy = 0.5
+		stability_cost_modifier = -0.1
+		possible_mil_policy = 1
 	}
 }
-
 seaban_decision = {
 	empire = celestial_empire
 	emperor = {
-		diplomats = 1
 		trade_efficiency = 0.05
+		global_trade_goods_size_modifier = 0.1
 	}
-	required_reform = establish_gaituguiliu_decision
 }
-
 reform_land_tax_decision = {
 	empire = celestial_empire
 	emperor = {
 		global_autonomy = -0.05
+		global_tax_modifier = 0.05
+		production_efficiency = 0.05
 	}
-	required_reform = seaban_decision
 }
-
 military_governors_decision = {
 	empire = celestial_empire
 	emperor = {
 		core_creation = -0.1
+		army_tradition_from_battle = 0.05
+		vassal_forcelimit_bonus = 0.25
 	}
-	required_reform = reform_land_tax_decision
 }
-
 centralizing_top_government_decision = {
 	empire = celestial_empire
 	emperor = {
 		monarch_admin_power = 1
+		governing_capacity = 150
+		state_governing_cost = -0.15
 	}
-	required_reform = military_governors_decision
+}
+Establish_Colonial_Institution_decision = {
+	empire = celestial_empire
+	emperor = {
+		colonists = 1
+		global_tariffs = 0.15
+	}
+}
+Introduce_Shoushi_decision = {
+	empire = celestial_empire
+	emperor = {
+	reform_progress_growth = 0.5
+	global_unrest = -2
+	}
+}
+Reform_Diplomacy_decision = {
+    empire = celestial_empire
+    emperor = {
+		diplomats = 1
+     	diplomatic_upkeep = 2
+	}
+}
+Establish_Wei-suo_decision = {
+    empire = celestial_empire
+    emperor = {
+		discipline = 0.05
+		defensiveness = 0.35
+	}
+}
+Reorganize_Army_decision = {
+    empire = celestial_empire
+    emperor = {
+		movement_speed = 0.1
+		siege_ability = 0.1
+	}
+}
+Reorganize_Navy_decision = {
+    empire = celestial_empire
+    emperor = {
+		naval_forcelimit_modifier = 0.5
+		sailor_maintenance_modifer = -0.25
+	}
+}
+Establish_Colonial_Offices_decision = {
+    empire = celestial_empire
+    emperor = {
+		global_tariffs = 0.25
+		range = 0.2
+	}
+}
+Reform_Foreign_Trade_decision = {
+    empire = celestial_empire
+    emperor = {
+		merchants = 3
+		global_trade_power = 0.05
+	}
+}
+Build_Trade_Cities_decision = {
+	empire = celestial_empire
+	emperor = {
+		placed_merchant_power = 3
+	}
+}
+Centralize_Government_decision = {
+	empire = celestial_empire
+	emperor = {
+		global_tax_modifier = 0.075
+		prestige_decay = -0.02
+		governing_capacity = 100
+	}
+}
+Reform_Administration_decision = {
+	empire = celestial_empire
+	emperor = {
+		free_adm_policy = 1
+		free_dip_policy = 1
+		free_mil_policy = 1
+	}
+}
+Revolutionize_Technology_decision = {
+	empire = celestial_empire
+	emperor = {
+		global_institution_spread = 0.25
+		monarch_diplomatic_power = 1
+	}
 }

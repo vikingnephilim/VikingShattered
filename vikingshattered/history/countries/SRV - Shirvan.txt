@@ -3,6 +3,7 @@ add_government_reform = iqta
 primary_culture = azerbaijani
 technology_group = muslim
 religion = shiite
+religious_school = maturidi_school
 capital = 421
 
 

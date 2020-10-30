@@ -4,6 +4,7 @@ add_government_reform = peasants_republic
 government_rank = 1
 technology_group = muslim
 religion = sunni
+religious_school = jafari_school
 primary_culture = portoccan
 add_accepted_culture = moroccan
 add_accepted_culture = portugese

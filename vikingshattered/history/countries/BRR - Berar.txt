@@ -1,6 +1,7 @@
 government = monarchy
 add_government_reform = indian_sultanate_reform
 technology_group = indian
+religious_school = maturidi_school
 religion = shiite
 primary_culture = marathi
 capital = 548	# Berar/Vidharba

@@ -3,6 +3,7 @@ add_government_reform = autocracy_reform
 technology_group = chinese
 primary_culture = javanese
 religion = sunni
+religious_school = maliki_school
 capital = 624	# Banten
 
 1435.1.1 = {

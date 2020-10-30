@@ -1,7 +1,7 @@
 # 4767 - Zweibrocken
 
 capital = "Zweibrocken"
-culture = hessian
+culture = alsatian
 religion = catholic
 trade_goods = cloth
 owner = PAL

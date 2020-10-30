@@ -3,6 +3,7 @@ add_government_reform = steppe_horde
 government_rank = 1
 technology_group = nomad_group
 religion = sunni
+religious_school = zaidi_school
 primary_culture = mishary
 capital = 303 # Saratov
 add_accepted_culture = kazani

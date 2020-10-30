@@ -3,6 +3,7 @@ add_government_reform = iqta
 primary_culture = moroccan
 religion = sufri
 technology_group = muslim
+religious_school = alawite_school
 capital = 343	# Fez
 fixed_capital = 343 # Cannot move capital away from this province & no power cost to move to it
 

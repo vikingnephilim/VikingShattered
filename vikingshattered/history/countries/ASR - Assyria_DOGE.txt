@@ -1,6 +1,7 @@
 government = monarchy
 primary_culture = kurdish
 religion = yazidi
+religious_school = zaidi_school
 technology_group = muslim
 capital = 411	# Mosul
 government_rank = 1

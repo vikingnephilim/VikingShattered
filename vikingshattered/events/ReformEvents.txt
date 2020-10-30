@@ -11667,10 +11667,16 @@ country_event = {
 			AND = {
 				OR = {
 					any_ally = {
-						culture_group = scandinavian 
+						OR = {
+							culture_group = scandinavian
+							culture_group = old_norse_culture
+							} 
 					}
 					any_subject_country = {
-						culture_group = scandinavian
+						OR = {
+							culture_group = scandinavian
+							culture_group = old_norse_culture
+							}
 					}
 				}
 				NOT = { has_country_modifier = GE_Varangian_Guard }
@@ -11679,10 +11685,16 @@ country_event = {
 				NOT = { 
 					OR = {
 						any_ally = {
-							culture_group = scandinavian
+							OR = {
+								culture_group = scandinavian
+								culture_group = old_norse_culture
+								}
 						}
 						any_subject_country = {
-							culture_group = scandinavian
+							OR = {
+								culture_group = scandinavian
+								culture_group = old_norse_culture
+								}
 						}
 					} 
 				}
@@ -11700,10 +11712,16 @@ country_event = {
 			limit = {
 				OR = {
 					any_ally = {
-						culture_group = scandinavian
+						OR = {
+							culture_group = scandinavian
+							culture_group = old_norse_culture
+							}
 					}
 					any_subject_country = {
-						culture_group = scandinavian
+						OR = {
+							culture_group = scandinavian
+							culture_group = old_norse_culture
+							}
 					}
 				}
 				NOT = { has_country_modifier = GE_Varangian_Guard }
@@ -11718,10 +11736,16 @@ country_event = {
 				NOT = { 
 					OR = {
 						any_ally = {
-							culture_group = scandinavian
+							OR = {
+								culture_group = scandinavian
+								culture_group = old_norse_culture
+								}
 						}
 						any_subject_country = {
-							culture_group = scandinavian
+							OR = {
+								culture_group = scandinavian
+								culture_group = old_norse_culture
+								}
 						}
 					} 
 				}

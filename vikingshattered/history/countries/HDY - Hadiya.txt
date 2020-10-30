@@ -3,6 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = sidamo
 religion = sunni
+religious_school = hanafi_school
 technology_group = east_african
 unit_type = sub_saharan
 capital = 2760		# Hadiya

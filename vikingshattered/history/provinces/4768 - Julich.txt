@@ -2,7 +2,7 @@
 
 owner = BRG
 controller = BRG
-culture = hessian
+culture = alemannic
 religion = waldensian
 trade_goods = grain
 capital = "Jülich"

@@ -2,6 +2,7 @@ government = tribal
 add_government_reform = tribal_kingdom
 primary_culture = swahili
 religion = ibadi #Dominated by ibadi factions since 1408, province religion remains Sunni.
+religious_school = muhakkima_school
 technology_group = east_african
 unit_type = sub_saharan
 capital = 2796	# Pate

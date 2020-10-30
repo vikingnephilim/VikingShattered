@@ -13,7 +13,11 @@ country_decisions = {
 			NOT = { exists = ITA }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
+			OR = {
 			culture_group = latin
+			culture_group = alpine_latin
+			culture_group = south_latin
+			}
 			OR = {
 				ai = no
 				AND = {

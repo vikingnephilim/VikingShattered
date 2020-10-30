@@ -3,7 +3,7 @@
 owner = MKL
 controller = MKL
 add_core = MKL
-culture = saxon
+culture = margravian
 religion = catholic
 hre = yes
 base_tax = 2 

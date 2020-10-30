@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = mandala_reform
 primary_culture = bornean
 religion = sunni
+religious_school = alawite_school
 technology_group = chinese
 capital = 636	# Brunei Town
 

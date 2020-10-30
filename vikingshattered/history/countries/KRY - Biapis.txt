@@ -3,6 +3,7 @@ add_government_reform = iqta
 mercantilism = 25
 primary_culture = mazandarani
 religion = shiite #Zaidiyyah
+religious_school = maturidi_school
 technology_group = muslim
 capital = 417 # Lahijan
 

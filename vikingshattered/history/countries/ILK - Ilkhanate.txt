@@ -2,5 +2,6 @@ government = monarchy
 add_government_reform = iqta
 primary_culture = mongol
 religion = sunni
+religious_school = hanbali_school
 technology_group = muslim
 capital = 4338 # soltaniyeh

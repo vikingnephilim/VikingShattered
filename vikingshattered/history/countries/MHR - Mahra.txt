@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = iqta
 primary_culture = mahri_culture
 religion = sunni
+religious_school = maliki_school
 technology_group = muslim
 capital = 402	# Qishn
 

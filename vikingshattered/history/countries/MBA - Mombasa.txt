@@ -2,6 +2,7 @@ government = tribal
 add_government_reform = tribal_kingdom
 primary_culture = swahili
 religion = sunni
+religious_school = jafari_school
 technology_group = east_african
 unit_type = sub_saharan
 capital = 1202	# Mombasa

@@ -3,6 +3,7 @@ add_government_reform = tribal_federation
 technology_group = muslim
 primary_culture = najdi_arabic
 religion = sunni
+religious_school = zaidi_school
 capital = 2335 # Wadi al Dawasir
 
 1440.1.1 = { #Fictional

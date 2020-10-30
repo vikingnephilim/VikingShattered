@@ -2,7 +2,7 @@
 
 owner = BRU
 controller = BRU
-culture = lower_saxon
+culture = thuringian
 religion = catholic
 capital = "Göttingen"
 trade_goods = cloth

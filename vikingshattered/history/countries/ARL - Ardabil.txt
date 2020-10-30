@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = feudal_theocracy
 primary_culture = azeri
 religion = shiite
+religious_school = hanafi_school
 technology_group = muslim
 capital = 424 #Ardabil
 government_rank = 1

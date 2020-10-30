@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = indian_sultanate_reform
 primary_culture = kashmiri
 religion = zikri
+religious_school = habali_school
 technology_group = indian
 capital = 508	# Srinagar
 

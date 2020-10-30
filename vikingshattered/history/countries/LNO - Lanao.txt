@@ -2,6 +2,7 @@ government = republic
 add_government_reform = noble_elite_reform
 technology_group = chinese
 religion = sunni
+religious_school = ismaeli_school
 primary_culture = filipino
 capital = 653	# Lanao
 

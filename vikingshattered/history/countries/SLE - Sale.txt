@@ -2,6 +2,7 @@ government = monarchy
 add_government_reform = iqta
 primary_culture = moroccan
 religion = sunni
+religious_school = zaidi_school
 technology_group = muslim
 capital = 4363
 fixed_capital = 4363 # Cannot move capital away from this province & no power cost to move to it
