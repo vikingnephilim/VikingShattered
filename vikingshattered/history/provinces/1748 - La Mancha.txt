@@ -3,7 +3,7 @@
 owner = GRA		#Enrique III of Castille
 controller = GRA
 add_core = GRA
-culture = andalucian
+culture = qurtuban
 religion = sunni
 hre = no
 base_tax = 3

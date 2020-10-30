@@ -3,7 +3,7 @@
 owner = GAL
 controller = GAL
 add_core = GAL
-culture = galician
+culture = portugese
 religion = catholic
 capital = "Bragança"
 trade_goods = wine

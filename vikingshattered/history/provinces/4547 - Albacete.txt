@@ -3,7 +3,7 @@
 owner = TOL		# Juan II of Castille
 controller = TOL
 add_core = TOL
-culture = castillian
+culture = qurtuban
 religion = catholic 
 hre = no
 base_tax = 2

@@ -3,7 +3,7 @@
 owner = ASU		#Juan II de Castilla
 controller = ASU
 add_core = ASU
-culture = asturian
+culture = vasconian
 religion = catholic
 hre = no
 base_tax = 2 

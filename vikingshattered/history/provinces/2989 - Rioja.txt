@@ -3,7 +3,7 @@
 owner = NAV		#Juan II of Castille
 controller = NAV
 add_core = NAV
-culture = castillian
+culture = vasconian
 religion = catholic
 hre = no
 base_tax = 2

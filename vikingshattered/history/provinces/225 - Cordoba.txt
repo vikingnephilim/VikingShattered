@@ -3,7 +3,7 @@
 owner = SEV		#Juan II of Castille
 controller = SEV
 add_core = SEV
-culture = andalucian
+culture = qurtuban
 religion = sunni
 hre = no
 base_tax = 4 
