@@ -2,7 +2,7 @@
 
 owner = SVJ
 controller = SVJ
-culture = swedish
+culture = elfdalian
 religion = catholic
 hre = no
 base_tax = 1 
