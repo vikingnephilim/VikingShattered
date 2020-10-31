@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = basque
+add_accepted_culture = vasconian
+add_accepted_culture = illergetian
+add_accepted_culture = aquitani
+religion = catholic
+technology_group = western
+capital = 210	# Pamplona
+
+
+1444.1.1 = {
+    monarch = {
+    name = "Leonel"
+    dynasty = "Escors"
+    adm = 4
+    dip = 4
+    mil = 4
+}

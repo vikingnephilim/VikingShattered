@@ -10361,7 +10361,6 @@ sapmi = {
 }
 
 basque_g = {
-	graphical_culture = westerngfx
 	basque = {
 		primary = NAV
 		dynasty_names = {
@@ -10469,6 +10468,7 @@ basque_g = {
 			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
 		}
 	}
+}
 #New
 madagascan_g = {
 	sakalavan = {

@@ -1,0 +1,85 @@
+country_decision = {
+	euskadi_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			was_never_german_regional_tag_trigger = yes
+			NOT = { has_country_flag = formed_esk_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			culture_group = basque_g
+			NOT = { tag = ESK }
+			OR = {
+				NOT = { exists = ESK }
+				ai = no
+			}
+		}
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 209
+				province_id = 2989
+				province_id = 210
+				province_id = 173
+				province_id = 214
+				province_id = 207
+				
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		
+		allow = {
+			is_free_or_tributary_trigger = yes
+			culture_group = basque_g
+			is_at_war = no
+			
+			owns_core_province = 209
+			owns_core_province = 2989
+			owns_core_province = 210
+			owns_core_province = 173
+			owns_core_province = 214
+			owns_core_province = 207
+			
+			NOT = { exists = ARA }
+			
+		}
+		
+		effect = {
+			remove_non_electors_emperors_from_empire_effect = yes
+			change_tag = ESK
+			catalonia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = HIN
+			}
+			aragon_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = HIN
+			}
+			add_prestige = 15
+			set_country_flag = formed_esk_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+}
+			
+			
+			
+			
+			
