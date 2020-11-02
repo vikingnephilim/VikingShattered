@@ -6,7 +6,7 @@ government_rank = 1
 technology_group = muslim
 religion = sunni
 religious_school = hanbali_school
-primary_culture = andalucian
+primary_culture = algarve
 capital = 230 # Algarve
 
 

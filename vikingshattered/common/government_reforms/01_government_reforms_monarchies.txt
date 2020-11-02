@@ -742,141 +742,102 @@ mughal_government = {
 	}
 
 	assimilation_cultures = {
-		altaic = {
-			artillery_cost = -0.1
-		}
-		baltic = {
-			naval_forcelimit_modifier = 0.05
-		}
-		british = {
-			ship_durability = 0.05
-		}
-		burman = {
-			free_leader_pool = 1
-		}
-		byzantine = {
-			legitimacy = 0.25
-		}
-		carpathian = {
-			mercenary_cost = -0.1
-		}
-		caucasian = {
-			mercenary_discipline = 0.05
-		}
-		gaelic = {
-			shock_damage = 0.05
-		}
-		central_indic = {
-			land_attrition = -0.1
-		}
-		east_asian = {
-			state_maintenance_modifier = -0.2
-		}
-		kongo_group = {
-			heir_chance = 0.5
-		}
-		cushitic = {
-			missionaries = 1
-		}
-		dravidian = {
-			global_trade_goods_size_modifier = 0.05
-		}
-		african = {
-			global_tax_income = 10
-		}
-		east_slavic = {
-			land_forcelimit_modifier = 0.1
-		}
-		eastern_aryan = {
-			production_efficiency = 0.05
-		}
-		evenks = {
-			cavalry_flanking = 0.2
-		}
-		french = {
-			diplomats = 1
-		}
-		germanic = {
-			global_institution_spread = 0.15
-		}
-		great_lakes_group = {
-			loot_amount = 0.5
-		}
-		hindusthani = {
-			core_creation = -0.1
-		}
-		iberian = {
-			global_colonial_growth = 10
-		}
-		iranian = {
-			advisor_cost = -0.1
-		}
-		japanese_g = {
-			land_morale = 0.1
-		}
-		korean_g = {
-			idea_cost = -0.05
-		}
-		latin = {
-			embracement_cost = -0.1
-		}
-		lost_cultures_group = {
-			discipline = 0.05
-		}
-		turko_semitic = {
-			cavalry_power = 0.1
-		}
-		maghrebi = {
-			privateer_efficiency = 0.25
-		}
-		malay = {
-			merchants = 1
-		}
-		mande = {
-			tolerance_heretic = 1
-		}
-#		mon_khmer = {
-#			build_cost = -0.05
-#		}
-		pacific = {
-			global_sailors_modifier = 0.1
-		}
-		sahelian = {
-			movement_speed = 0.1
-		}
-		scandinavian = {
-			mil_advisor_cost = -0.1
-		}
-		south_slavic = {
-			warscore_cost_vs_other_religion = -0.1
-		}
-		southern_african = {
-			inflation_reduction = 0.05
-		}
-		sudanese = {
-			caravan_power = 0.1
-		}
-		tartar = {
-			cavalry_cost = -0.15
-		}
-		southeastasian_group = {
-			development_cost = -0.05
-		}
-		tibetan_group = {
-			prestige_per_development_from_conversion = 0.5
-		}
-		finno_ugric = {
-			prestige_decay = -0.01
-		}
-		west_african = {
-			global_autonomy = -0.01
-		}
-		west_slavic = {
-			leader_land_fire = 1
-		}
-		western_aryan = {
-			trade_efficiency = 0.05
-		}
+		african = { global_tax_income = 10 }
+		alpine_latin = { hostile_attrition = 1 }
+		altaic = { artillery_cost = -0.1 }
+		andean = { monthly_splendor = 1 }
+		apachean = { rebel_support_efficiency = 0.75 }
+		araucanian = { placed_merchant_power = 3 }
+		aridoamerican = { enemy_core_creation = 0.2 }
+		baltic = { naval_forcelimit_modifier = 0.05 }
+		basque_g = { accept_vassalization_reasons = 5 }
+		british = { ship_durability = 0.05 }
+		burman = { free_leader_pool = 1 }
+		byzantine = { legitimacy = 0.25 }
+		caddoan = { rival_change_cost = -0.2 }
+		carpathian = { mercenary_cost = -0.1 }
+		carribean = { general_cost = -0.10 }
+		caucasian = { mercenary_discipline = 0.05 }
+		celtic_iberian = { naval_forcelimit_modifier = 0.15 }
+		central_algonquin = { war_exhaustion_cost = -0.10 }
+		central_american = { inflation_reduction = 0.1 }
+		central_indic = { land_attrition = -0.1 }
+		chibchan = { manpower_in_true_faith_provinces= 0.10 }
+		coastal_east_asian = { exploration_mission_range_in_fleet_modifier = 100 }
+		cushitic = { missionaries = 1 }
+		dravidian = { global_trade_goods_size_modifier = 0.05 }
+		eastern_algonquian = { prestige_from_land = 0.10 }
+		eastern_aryan = { production_efficiency = 0.05 }
+		east_iranian = { free_leader_pool = 2 }
+		east_malay = { state_maintenance_modifier = -0.2 }
+		east_slavic = { land_forcelimit_modifier = 0.1 }
+		east_turkic_g = { mercenary_cost = -0.10 }
+		egyptian_g = { build_cost = -0.1 }
+		eskaleut = { build_time = -0.25 }
+		evenks = { cavalry_flanking = 0.2 }
+		finnic = { promote_culture_cost = -0.25 }
+		finno_ugric = { prestige_decay = -0.01 }
+		french = { diplomats = 1 }
+		gaelic = { shock_damage = 0.05 }
+		germanic = { global_institution_spread = 0.15 }
+		great_lakes_group = { loot_amount = 0.5 }
+		hindusthani = { core_creation = -0.1 }
+		iberian = { global_colonial_growth = 10 }
+		illyrian = { years_of_nationalism = -2.5 }
+		iranian = { advisor_cost = -0.1 }
+		iroquoian = { liberty_desire_from_subject_development = -0.25 }
+		japanese_g = { land_morale = 0.1 }
+		je = { reform_progress_growth = 0.1 }
+		je_tupi = { expand_administration_cost = -0.1 }
+		kongo_group = { heir_chance = 0.5 }
+		korean_g = { idea_cost = -0.05 }
+		latin = { embracement_cost = -0.1 }
+		lost_cultures_group = { discipline = 0.05 }
+		madagascan_g = { discovered_relations_impact = -0.25 }
+		maghrebi = { privateer_efficiency = 0.25 }
+		malay = { merchants = 1 }
+		mande = { tolerance_heretic = 1 }
+		maranon = { tolerance_heathen = 1 }
+		mataco = { tolerance_own = 1 }
+		maya = { enforce_religion_cost = -0.25 }
+		mountain_east_asian = { fort_maintenance_modifier = -0.10 }
+		muskogean = { global_supply_limit_modifier = 0.10 }
+		na_dene = { vassal_income = 0.2 }
+		north_french = { vassal_forcelimit_bonus = 0.25 }
+		north_germanic = { diplomatic_annexation_cost = -0.2 }
+		north_malay = { justify_trade_conflict_cost = -0.2 }
+		novgorod_group = { envoy_travel_time = -0.2 }
+		old_norse_culture = { may_perform_slave_raid = yes }
+		otomanguean = { province_warscore_cost = -0.2 }
+		pacific = { global_sailors_modifier = 0.1 }
+		penutian = { improve_relation_modifier = 0.2 }
+		phoenician_g = { trade_steering = 0.1 }
+		plains_algonquian = { local_friendly_movement_speed = 0.1 }
+		plains_east_asian = { local_hostile_movement_speed = 0.1 }
+		polynesian_g = { hostile_disembark_speed = 0.5 }
+		sahelian = { movement_speed = 0.1 }
+		sapmi = { trade_company_investment_cost = -0.1 }
+		scandinavian = { mil_advisor_cost = -0.1 }
+		siouan = { native_assimilation = 0.25 }
+		sonoran = { reduced_liberty_desire_on_same_continent = 10 }
+		southeastasian_group = { development_cost = -0.05 }
+		southern_african = { inflation_reduction = 0.05 }
+		south_arab = { prestige_per_development_from_conversion = 0.5 }
+		south_germanic = { global_spy_defence = 0.1 }
+		south_french = { global_unrest = -0.05 }
+		south_kongo_group = { power_projection_from_insults = 0.1 }
+		south_latin = { adm_advisor_cost = -0.1 }
+		south_slavic = { warscore_cost_vs_other_religion = -0.1 }
+		sudanese = { caravan_power = 0.1 }
+		tartar = { cavalry_cost = -0.15 }
+		tibetan_group = { prestige_per_development_from_conversion = 0.5 }
+		turkish_g = { special_unit_forcelimit= 0.10 }
+		turko_semitic = { cavalry_power = 0.1 }
+		west_african = { global_autonomy = -0.01 }
+		western_aryan = { trade_efficiency = 0.05 }
+		western_germanic = { global_regiment_cost = -0.10 }
+		western_persian = { available_province_loot = 0.10 }
+		west_slavic = { leader_land_fire = 1 }
 	}
 }
 

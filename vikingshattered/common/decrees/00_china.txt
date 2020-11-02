@@ -148,26 +148,3 @@ boost_officer_corps_decree = {
 		}
 	}
 }
-
-promote_colonial_expansion_decree = {
-	cost = 35
-	duration = 3650
-	modifier = {
-		global_colonial_growth = 10
-		native_assimilation = 0.25
-	}
-	ai_will_do = {
-		factor = 75
-	}
-}
-
-expand_diplomacy_decree = {
-	cost = 35
-	duration = 3650
-	modifier = {
-		diplomatic_reputation = 1
-		diplomatic_upkeep = 1
-		fabricate_claims_cost = -0.1
-		province_warscore_cost = -0.2
-	}
-}

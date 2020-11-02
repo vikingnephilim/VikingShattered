@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = mandala_reform
-primary_culture = bornean
+primary_culture = south_bornean
 technology_group = chinese
 religion = hinduism
 capital = 638	# Kutai

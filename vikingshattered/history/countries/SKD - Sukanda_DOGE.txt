@@ -1,5 +1,5 @@
 government = monarchy
-primary_culture = bornean
+primary_culture = south_bornean
 religion = sunni
 religious_school = shafii_school
 technology_group = chinese

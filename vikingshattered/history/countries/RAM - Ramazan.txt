@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = beylik
 government_rank = 1
-primary_culture = turkish
+primary_culture = cillician
 religion = sunni
 religious_school = shafii_school
 technology_group = ottoman
