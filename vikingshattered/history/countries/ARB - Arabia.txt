@@ -2,6 +2,6 @@ government = monarchy
 add_government_reform = iqta
 primary_culture = bedouin_arabic
 religion = sunni
-religious_school = habali_school
+religious_school = hanbali_school
 technology_group = muslim
 capital = 385 # Mecca

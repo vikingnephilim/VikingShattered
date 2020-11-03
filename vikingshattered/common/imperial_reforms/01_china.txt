@@ -13,30 +13,6 @@ seaban_decision = {
 		global_trade_goods_size_modifier = 0.1
 	}
 }
-reform_land_tax_decision = {
-	empire = celestial_empire
-	emperor = {
-		global_autonomy = -0.05
-		global_tax_modifier = 0.05
-		production_efficiency = 0.05
-	}
-}
-military_governors_decision = {
-	empire = celestial_empire
-	emperor = {
-		core_creation = -0.1
-		army_tradition_from_battle = 0.05
-		vassal_forcelimit_bonus = 0.25
-	}
-}
-centralizing_top_government_decision = {
-	empire = celestial_empire
-	emperor = {
-		monarch_admin_power = 1
-		governing_capacity = 150
-		state_governing_cost = -0.15
-	}
-}
 Establish_Colonial_Institution_decision = {
 	empire = celestial_empire
 	emperor = {
@@ -56,27 +32,6 @@ Reform_Diplomacy_decision = {
     emperor = {
 		diplomats = 1
      	diplomatic_upkeep = 2
-	}
-}
-Establish_Wei-suo_decision = {
-    empire = celestial_empire
-    emperor = {
-		discipline = 0.05
-		defensiveness = 0.35
-	}
-}
-Reorganize_Army_decision = {
-    empire = celestial_empire
-    emperor = {
-		movement_speed = 0.1
-		siege_ability = 0.1
-	}
-}
-Reorganize_Navy_decision = {
-    empire = celestial_empire
-    emperor = {
-		naval_forcelimit_modifier = 0.5
-		sailor_maintenance_modifer = -0.25
 	}
 }
 Establish_Colonial_Offices_decision = {

@@ -4,8 +4,6 @@ french_feudalism = {
 	potential = {
 		OR = {
 			culture_group = french
-			culture_group = north_french
-			culture_group = south_french
 			has_reform = french_absolutism
 			has_reform = ancien_regime_reform
 		}
@@ -13,8 +11,6 @@ french_feudalism = {
 	trigger = {
 		OR = {
 			culture_group = french
-			culture_group = north_french
-			culture_group = south_french
 			has_reform = french_absolutism
 			has_reform = ancien_regime_reform
 		}
@@ -36,16 +32,12 @@ ancien_regime_reform = {
 	potential = { 
 		OR = {
 			culture_group = french
-			culture_group = north_french
-			culture_group = south_french
 			has_reform = french_absolutism
 		}
 	}
 	trigger = {
 		OR = {
 			culture_group = french
-			culture_group = north_french
-			culture_group = south_french
 			has_reform = french_absolutism
 		}
 	}
@@ -69,16 +61,12 @@ french_absolutism = {
 	potential = {
 		OR = {
 			culture_group = french
-			culture_group = north_french
-			culture_group = south_french
 			has_reform = ancien_regime_reform
 		}
 	}
 	trigger = {
 		OR = {
 			culture_group = french
-			culture_group = north_french
-			culture_group = south_french
 			has_reform = ancien_regime_reform
 		}
 	}
@@ -116,8 +104,6 @@ blood_tax_reform = {
 	potential = {
 		OR = {
 			culture_group = french
-			culture_group = north_french
-			culture_group = south_french
 			has_reform = blood_tax_reform
 		}
 		NOT = { has_reform = ancien_regime_reform }
@@ -155,8 +141,6 @@ noblesse_d_epee_reform = {
 	potential = {
 		OR = {
 			culture_group = french
-			culture_group = north_french
-			culture_group = south_french
 			has_reform = noblesse_d_epee_reform
 		}
 		has_reform = ancien_regime_reform
@@ -193,8 +177,6 @@ noble_court_attendance_reform = {
 	potential = {
 		OR = {
 			culture_group = french
-			culture_group = north_french
-			culture_group = south_french
 			has_reform = noble_court_attendance_reform
 		}
 		has_reform = french_absolutism
@@ -556,8 +538,6 @@ conseil_souverain_reform = {
 	potential = {
 		OR = {
 			culture_group = french
-			culture_group = north_french
-			culture_group = south_french
 			has_reform = conseil_souverain_reform
 		}
 	}
@@ -580,8 +560,6 @@ continental_system_reform = {
 	potential = {
 		OR = {
 			culture_group = french
-			culture_group = north_french
-			culture_group = south_french
 			has_reform = continental_system_reform
 		}
 	}

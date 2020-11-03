@@ -1485,9 +1485,14 @@ christian = {
 			waldensian
 		}
 		allowed_center_conversion = {
-			catholic
-			coptic
-			orthodox
+			anglican
+			cathar
+			fraticelli
+			hussite
+			lollard
+			protestant
+			reformed
+			waldensian
 		}
 		country = {
 			tolerance_own = 1
@@ -2939,11 +2944,10 @@ bogomilist = {
 			persian_bishops
 			footsteps_of_thomas_the_apostles
 			coonan_cross_oath
+			council_of_chalcedon
 			hindu_advisors
 			friends_of_the_heretics
-			council_of_chalcedon
 		}
-		
 	}
 	messalian = {
 		color = { 176 144 64 }

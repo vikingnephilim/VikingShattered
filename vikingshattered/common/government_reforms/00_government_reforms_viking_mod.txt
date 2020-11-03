@@ -815,7 +815,6 @@ rome_government = {
 		north_germanic = { diplomatic_annexation_cost = -0.2 }
 		north_malay = { justify_trade_conflict_cost = -0.2 }
 		novgorod_group = { envoy_travel_time = -0.2 }
-		old_norse_culture = { may_perform_slave_raid = yes }
 		otomanguean = { province_warscore_cost = -0.2 }
 		pacific = { global_sailors_modifier = 0.1 }
 		penutian = { improve_relation_modifier = 0.2 }
@@ -831,8 +830,6 @@ rome_government = {
 		southeastasian_group = { development_cost = -0.05 }
 		southern_african = { inflation_reduction = 0.05 }
 		south_arab = { prestige_per_development_from_conversion = 0.5 }
-		south_germanic = { global_spy_defence = 0.1 }
-		south_french = { global_unrest = -0.05 }
 		south_kongo_group = { power_projection_from_insults = 0.1 }
 		south_latin = { adm_advisor_cost = -0.1 }
 		south_slavic = { warscore_cost_vs_other_religion = -0.1 }

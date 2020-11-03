@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = iqta
 primary_culture = al_iraqiya_arabic
 religion = yazidi
-religious_school = muhakimma_school
+religious_school = hanbali_school
 technology_group = muslim
 capital = 410	# Bagdad
 
