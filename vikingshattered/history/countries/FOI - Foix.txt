@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = cathar_reform
 technology_group = western
 religion = cathar
-primary_culture = gascon
+primary_culture = pyrenees
 capital = 176	# Pau
 fixed_capital = 176 # Cannot move capital away from this province & no power cost to move to it
 

@@ -21,7 +21,7 @@ country_event = {
 		NOT = { has_country_flag = hail_popeman }
 		}
 	mean_time_to_happen = { 
-		days = 10
+		months = 60
 	}
 	immediate = {
 	}
@@ -53,7 +53,7 @@ country_event = {
 		NOT = { has_country_flag = hail_popeman }
 	}
 	mean_time_to_happen = { 
-		days = 10
+		months = 60
 	}
 	immediate = {
 	}

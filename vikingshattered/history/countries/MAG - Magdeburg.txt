@@ -1,7 +1,7 @@
 government = theocracy
 add_government_reform = leading_clergy_reform
 government_rank = 1
-primary_culture = saxon
+primary_culture = eastphalian
 religion = catholic
 technology_group = western
 capital = 52	# Magdeburg

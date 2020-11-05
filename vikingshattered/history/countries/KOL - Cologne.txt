@@ -1,6 +1,6 @@
 government = theocracy
 add_government_reform = leading_clergy_reform
-primary_culture = hessian
+primary_culture = alemannic
 add_accepted_culture = hannoverian
 religion = catholic
 elector = yes

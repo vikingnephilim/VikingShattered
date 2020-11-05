@@ -1,6 +1,6 @@
 government = monarchy
 government_rank = 1
-primary_culture = al_misr_arabic
+primary_culture = libyan
 religion = sunni
 religious_school = shafii_school
 technology_group = muslim

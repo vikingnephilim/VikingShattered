@@ -16,7 +16,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}
 	
 	option = {
@@ -42,7 +42,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}	
 	option = {
 		name = lollard_events.2.a # Focus on Catholics
@@ -78,7 +78,7 @@ country_event = {
 		religion = lollard
 	}
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}
 	
 	option = { # ban
@@ -122,7 +122,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}	
 	option = { # Pass the reforms exactly as the monarch says
 		name = lollard_events.4.a
@@ -193,7 +193,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}
 	option = {
 		name = lollard_events.5.a # ignore it
@@ -248,7 +248,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}
 	immediate = {
 		hidden_effect = {
@@ -331,7 +331,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}
 	
 	option = {
@@ -415,7 +415,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}
 	immediate = {
 		hidden_effect = {
@@ -501,7 +501,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}
 	
 	option = {
@@ -550,7 +550,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}
 	
 	option = { # Let them establish their own settlement
@@ -625,7 +625,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}
 	option = { # fancy vestments
 		name = lollard_events.11.a
@@ -689,7 +689,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}
 	option = {
 		name = lollard_events.12.a # smash altars, imprison/execute papist resistors
@@ -771,7 +771,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}
 	option = { # national effort of priest-hunters to find them all
 		name = lollard_events.13.a
@@ -832,7 +832,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		days = 1
+		months = 60
 	}
 	option = {
 		name = lollard_events.15.a

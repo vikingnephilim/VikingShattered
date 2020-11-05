@@ -4,7 +4,7 @@ government_rank = 1
 mercantilism = 25
 technology_group = western
 religion = waldensian
-primary_culture = hessian
+primary_culture = alemannic
 capital = 1878	# Aachen
 fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
 

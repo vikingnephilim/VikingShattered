@@ -1388,8 +1388,6 @@ christian = {
 		country = {
 			tolerance_own = 2
 			stability_cost_modifier = -0.1
-			may_recruit_female_generals = yes
-			female_advisor_chance = 0.2
 		}
 		country_as_secondary = {
 			yearly_corruption = -0.1
@@ -1398,17 +1396,16 @@ christian = {
 		heretic = { ANGLICAN CATHOLIC FRATICELLI HUSSITE LOLLARD PROTESTANT REFORMED WALDENSIAN }
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
-			organised_through_bishops_aspect
-			adult_baptism_aspect
-			saints_accept_prayers_aspect
-			legalised_divorces_aspect
-			parish_registers_aspect
-			allow_usury_aspect
-			clerical_poverty_aspect
-			sola_scriptura_aspect
-			pacifism_aspect
-			regular_defenestrations_aspect
-			orphan_hetmans_aspect
+			good_christians
+			duality_of_god
+			veneration_of_christ
+			enochian_narrative
+			rejection_of_sacrament
+			the_perfecti
+			bonhommes_and_credentis
+			equality_for_all
+			treaty_and_persecution
+			historical_scholarship
 		}
 		will_get_center = { #Refered to even for initial CoR Spawn
 			any_owned_province = {
@@ -1488,9 +1485,14 @@ christian = {
 			waldensian
 		}
 		allowed_center_conversion = {
-			catholic
-			coptic
-			orthodox
+			anglican
+			cathar
+			fraticelli
+			hussite
+			lollard
+			protestant
+			reformed
+			waldensian
 		}
 		country = {
 			tolerance_own = 1
@@ -1907,26 +1909,26 @@ christian = {
 		}
 		country = {
 			tolerance_own = 2
-			stability_cost_modifier = -0.2
+			enforce_religion_cost = -0.5
 		}
 		province = {
 			local_tax_modifier = -0.1
 		}
 		country_as_secondary = {
-			stability_cost_modifier = -0.2
+			enforce_religion_cost = -0.5
 		}
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
-			holy_sacraments_aspect
-			saints_accept_prayers_aspect
-			parish_registers_aspect
-			allow_usury_aspect
-			translated_bibles_aspect
-			clerical_poverty_aspect
-			bread_and_wine_aspect
-			sola_scriptura_aspect
-			punishment_of_sins_aspect
-			freedom_to_preach_aspect
+			poor_preachers
+			supplication_for_beggars
+			rejection_of_papal_pardons
+			opposition_of_pilgramage
+			charity_of_faith
+			sale_of_temple_trappings
+			blessing_the_army
+			lollard_knights
+			denounce_the_pope
+			educate_the_masses
 		}
 		heretic = { ANGLICAN CATHAR CATHOLIC FRATICELLI HUSSITE PROTESTANT REFORMED WALDENSIAN }
 		will_get_center = { #Refered to even for initial CoR Spawn
@@ -2933,8 +2935,19 @@ bogomilist = {
 			local_missionary_strength = -0.02
 		}
 		heretic = { messalian monophysite nestorian }
-		fervor = yes
-		
+		uses_church_power = yes				# Uses church power/aspect mechanics
+		aspects = {
+			hindu_syncretism
+			support_tamil_guilds
+			port_churches
+			assyrian_roots
+			persian_bishops
+			footsteps_of_thomas_the_apostles
+			coonan_cross_oath
+			council_of_chalcedon
+			hindu_advisors
+			friends_of_the_heretics
+		}
 	}
 	messalian = {
 		color = { 176 144 64 }
