@@ -4,7 +4,6 @@ country_decision = {
 		potential = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
-			was_never_german_regional_tag_trigger = yes
 			NOT = { has_country_flag = formed_esk_flag }
 			OR = {
 				ai = no
@@ -57,13 +56,13 @@ country_decision = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = HIN
+				add_permanent_claim = ESK
 			}
 			aragon_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = HIN
+				add_permanent_claim = ESK
 			}
 			add_prestige = 15
 			set_country_flag = formed_esk_flag
