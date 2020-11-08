@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = western
 religion = bogomilist
-primary_culture = istrian
+primary_culture = zetan
 #add_accepted_culture = ?
 capital = 4738 # Trieste
 

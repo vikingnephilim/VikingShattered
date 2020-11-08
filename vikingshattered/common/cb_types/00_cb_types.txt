@@ -1135,8 +1135,10 @@ cb_chinese_unification = {
 			}
 			AND = {
 				NOT = { has_dlc = "Mandate of Heaven" }
-				culture_group = east_asian #Chinese
 				OR = {	#Manchus won't get this unless they unify
+					culture_group = east_asian #Chinese
+					culture_group = mountain_east_asian #Chinese
+					culture_group = plains_east_asian #Chinese
 					tag = MCH
 					tag = QNG
 					NOT = { primary_culture = manchu }
@@ -1149,6 +1151,8 @@ cb_chinese_unification = {
 			OR = {
 				has_dlc = "Mandate of Heaven"
 				culture_group = east_asian #Chinese
+				culture_group = mountain_east_asian #Chinese
+				culture_group = plains_east_asian #Chinese
 			}
 			any_owned_province = {
 				OR = {

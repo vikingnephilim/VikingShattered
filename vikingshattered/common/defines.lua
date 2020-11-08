@@ -88,7 +88,7 @@ NDiplomacy = {
 	AUTONOMY_WARSCORE_COST_MODIFIER = 0.33,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
 
 
-	NUM_POSSIBLE_RIVALS = 3,
+	NUM_POSSIBLE_RIVALS = 5,
 	RIVAL_PRESTIGE_BONUS = 0.25,
 	RIVAL_SPY_OFFENCE = 0.25,
 	SPY_NETWORK_DISTANCE_EFFECT = 0.1,			-- Mutiplied by distance between capitals to get penalty
@@ -97,33 +97,33 @@ NDiplomacy = {
 	OVEREXTENSTION_POLL_CHANGE = 0.05,				-- each % reduces with this.
 	RIVAL_PEACE_COST_REDUCTION = -0.33,
 	MAX_PEACE_TREATY_COST = 200,					-- in diplo power
-	DESIRED_NUM_OF_ELECTORS = 7,
+	DESIRED_NUM_OF_ELECTORS = 8,
 	MAX_NUM_OF_ELECTORS = 8,						-- Maximum number of electors in the interface
 	MAX_FREE_CITIES = 12,
 	MIN_NUM_ELECTORS_FOR_REMOVE_ELECTORATE = 2,		-- Limit is inclusive.
-	HRE_PRINCE_AUTHORITY_THRESHOLD = 25,			-- Threshold below which you lose IA, and above which you gain it
+	HRE_PRINCE_AUTHORITY_THRESHOLD = 15,			-- Threshold below which you lose IA, and above which you gain it
 	IMPERIAL_AUTHORITY_FROM_PRINCES = 0.075,			-- Scales to threshold
 	HRE_FOREIGN_CONTROL_PENALTY = -0.005,			-- Each foreign-controlled province in the empire (owned or vassalised) lowers IA by this amount
 	HRE_HERETIC_PENALTY = -0.01,					-- Per heretic prince (halved by Peace of Westphalia)
 	LACK_OF_ELECTORS_HIT = -0.1,					-- Also applied to vassalized electors
 	JOIN_HRE_DEVELOPMENT_CAP_VASSAL = 200,			-- Max cap of development of vassals to join the empire
-	IMPERIAL_REFORM_COST = 50,						-- Minium Cost of enacting a new reform.
-	CELESTIAL_EMPIRE_REFORM_COST = 70,				-- Mandate cost of enacting a new reform for the Emperor of China.
+	IMPERIAL_REFORM_COST = 50,						-- Minimum Cost of enacting a new reform.
+	CELESTIAL_EMPIRE_REFORM_COST = 60,				-- Mandate cost of enacting a new reform for the Emperor of China.
 	CELESTIAL_EMPIRE_REFORM_STABILITY_COST = 1,		-- Stability cost of enacting a new reform for the Emperor of China
 	CELESTIAL_EMPIRE_REFORM_MIN_VALUE = 60,			-- Minimum value of Mandate above which new reforms can be enacted.
-	DEFENDER_OF_FAITH_COST = 500, 					-- _DDEF_DEFENDER_OF_FAITH_COST_
-	DEFENDER_OF_FAITH_MONTHS = 24, 					-- _DDEF_DEFENDER_OF_FAITH_MONTHS_ (Minimum months before it can be taken from another country with less prestige)
+	DEFENDER_OF_FAITH_COST = 1000, 					-- _DDEF_DEFENDER_OF_FAITH_COST_
+	DEFENDER_OF_FAITH_MONTHS = 36, 					-- _DDEF_DEFENDER_OF_FAITH_MONTHS_ (Minimum months before it can be taken from another country with less prestige)
 	AMOUNT_OF_ACTIVE_CARDINALS = 7, 				-- Number of active Cardinals
 	AMOUNT_OF_FUTURE_CARDINALS = 5, 				-- Number of future Cardinals
-	EXCOMMUNICATE_ACTION_MONTHS = 36, 				-- Excommunication "cooldown" (months)
-	CRUSADE_TIMEOUT_YEARS = 30, 					-- Crusade timeout (years)
+	EXCOMMUNICATE_ACTION_MONTHS = 24, 				-- Excommunication "cooldown" (months)
+	CRUSADE_TIMEOUT_YEARS = 25, 					-- Crusade timeout (years)
 	WE_IMPACT_ON_ANNEX_INTEGRATE = -0.05,			-- multiplied with current WE
-	EMPEROR_VOTE_DAYS = 60,	 						-- _DDEF_EMPEROR_VOTE_DAYS_; "Cooldown" until Electors can change their vote again.
-	EMPEROR_REVOKE_AUTHORITY_COST = 50.0,			-- Cost for the emperor to revoke a reform
+	EMPEROR_VOTE_DAYS = 30,	 						-- _DDEF_EMPEROR_VOTE_DAYS_; "Cooldown" until Electors can change their vote again.
+	EMPEROR_REVOKE_AUTHORITY_COST = 75.0,			-- Cost for the emperor to revoke a reform
 	EMPEROR_REVOKE_MODIFIER_DAYS = 1800,			-- How long the temporary modifier applied after revoking will last
 	TRUCE_YEARS = 5, 								-- _DDEF_TRUCE_YEARS_; Years of Truce
-	SCALED_TRUCE_YEARS = 10,						-- Additional years of truce based on % of warscore taken in war (100% warscore = full scaled truce years)
-	WARNING_YEARS = 20,								-- Years before warning expire
+	SCALED_TRUCE_YEARS = 5,						-- Additional years of truce based on % of warscore taken in war (100% warscore = full scaled truce years)
+	WARNING_YEARS = 10,								-- Years before warning expire
 	ANNUL_TREATIES_YEARS = 10,						-- Years before annul treaties expire
 	COALITION_YEARS = 20,							-- Years before coalition expire
 	GUARANTEE_YEARS = 20,							-- Years before guarantee expire
@@ -193,7 +193,7 @@ NDiplomacy = {
 	AE_SAME_CULTURE_GROUP = 0.25,
 	AE_INFIDEL_CONQUEST = 0.25, 		-- different religion group conquered same religion province
 	AE_SAME_RELIGION = 0.5,
-	AE_SAME_RELIGION_GROUP = 0.25,
+	AE_SAME_RELIGION_GROUP = 0.5,
 	AE_DIFFERENT_RELIGION = 0,
 	AE_HRE_INTERNAL = 0.5,
 	AE_ATTACKER_DEVELOPMENT = 0.01,	-- +50% cap (at 1000 development)
@@ -334,13 +334,13 @@ NDiplomacy = {
 	SPY_DISCOVERY_COOLDOWN_MONTHS = 12,				-- Can't make another spy action against a certain country within this many months of failing with another one.
 	DIPLOANNEX_LIBERTY_THRESHOLD = 50,				-- If a vassal has >= this much liberty desire, there will be zero diploannexation progress.
 
-	CELESTIAL_EMPIRE_DEFAULT_INFLUENCE = 60,		-- Starting value for Mandate value of a new Chinese Emperor
+	CELESTIAL_EMPIRE_DEFAULT_INFLUENCE = 80,		-- Starting value for Mandate value of a new Chinese Emperor
 	CELESTIAL_EMPIRE_MODIFIER_THRESHOLD = 50,		-- Value of Mandate above which the positive Mandate Modifier is used instead of the negative one
 	CELESTIAL_EMPIRE_MANDATE_PER_STABILITY = 0.24,	-- Yearly change of Mandate for each point of positive stability
 	CELESTIAL_EMPIRE_MANDATE_PER_STATE_WITH_PROSPERITY = 0.03,	-- Yearly change of Mandate for each State with prosperity.
 	CELESTIAL_EMPIRE_MANDATE_PER_HUNDRED_DEVASTATION = -10.0,	-- Yearly change of Mandate for each hundred devastated development (scaled to devastation).
 	CELESTIAL_EMPIRE_MANDATE_PER_HUNDRED_TRIBUTARY_DEV = 0.15,	-- Yearly change of Mandate for each hundred development tributary state.
-	CELESTIAL_EMPIRE_MANDATE_PER_HUNDRED_NONTRIBUTARY_DEV = 0.0,	-- Yearly change of Mandate for each hundred development of neighbouring states that are not the Emperor's tributaries
+	CELESTIAL_EMPIRE_MANDATE_PER_HUNDRED_NONTRIBUTARY_DEV = -0.15,	-- Yearly change of Mandate for each hundred development of neighbouring states that are not the Emperor's tributaries
 	CELESTIAL_EMPIRE_MANDATE_FROM_DEFENDING = 5,	-- How much Mandate is gained when successfully defending the Emperor title.
 	CELESTIAL_EMPIRE_MANDATE_PER_5_LOANS = -0.36,	-- Yearly change of Mandate for every 5 loans.
 
@@ -1308,14 +1308,14 @@ NMilitary = {
 },
 
 NAI = {
-	ACCEPTABLE_BALANCE_DEFAULT = 1.7, --AI wants this advantage to enter battles typically. (There are some exceptions, e.g. offensives.)
+	ACCEPTABLE_BALANCE_DEFAULT = 1.2, --AI wants this advantage to enter battles typically. (There are some exceptions, e.g. offensives.)
 	ACCEPTABLE_BALANCE_FRIEND_IN_COMBAT = 0.75,
 	EDICT_VALUE_THRESHOLD = 120, -- The higher this value, the less the AI will use Edicts
 	EDICT_VALUE_THRESHOLD_MULTIPLY_DEFICIT = 10, -- Change to above threshold in case of running deficit
 	EDICT_VALUE_THRESHOLD_MULTIPLY_LOW_INCOME = 3, -- Change to above threshold in case of low income
 	PRESS_THEM_FURTHER = 0, -- This makes AI that has been promised land require that the enemy is pressed further if they think it is possible. Set to 1 to activate
 	CALL_ACCEPTANCE_COALITION_VS_SUBJECT = -60, -- Acceptance penalty when an AI's Tributary (or currently non-existing Subject type with similar mechanic) calls to war against someone who is in a coalition against them
-	WANT_TRIBUTARY_LOST_MANDATE = 10, -- How important it is for Celestial Emperor to make tributaries out of neighbors.
+	WANT_TRIBUTARY_LOST_MANDATE = 30, -- How important it is for Celestial Emperor to make tributaries out of neighbors.
 	MIN_CAV_PERCENTAGE = 5, --AI will always try to have at least this many % of their army as cav, regardless of time in the game.
 	MAX_CAV_PERCENTAGE = 50, -- For modding, actual ratio is dynamically computed but will be no higher than this.
 	FOG_OF_WAR_FORGET_CHANCE = 1, --Daily percentage chance of AI forgetting a unit that's hidden in Fog of War.

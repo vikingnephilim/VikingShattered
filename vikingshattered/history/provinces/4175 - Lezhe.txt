@@ -22,9 +22,6 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 
-
-1399.1.1 = { add_core = VEN }
-1431.1.1 = { add_core = TUR }
 1478.6.16 = { owner = TUR controller = TUR }
 1520.1.1 = { religion = sunni } # Predominant religion under Turkish rule
 1555.1.1 = { unrest = 5 } # General discontent against the Janissaries' dominance

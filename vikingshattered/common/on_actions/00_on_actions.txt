@@ -11,10 +11,6 @@ on_startup = {
 		}
 		save_global_event_target_as = EmperorOfChina
 	}
-	events = {
-		muslim_school_events.20 #Pick School
-#		flavor_fra.15000 #Make the French Revolution happen if starting in 1789
-	}
 	if = {
 		limit = {
 			has_dlc = "Cradle of Civilization"
@@ -161,7 +157,6 @@ on_religion_change = {
 		}
 	}
 	events = {
-		muslim_school_events.20 #Pick School
 		propagate_religion_events.7 #Propagated Country is now Muslim
 	}
 }
@@ -727,7 +722,6 @@ on_new_monarch = {
 		flavor_boh.2			#Heretic Kings
 		flavor_hun.17			#Maintaining the Black Army
 		flavor_tim.1			#Death of Shah Rukh
-		muslim_school_events.20 #No Religious School
 		flavor_daimyo.4			#Shiba Yoshikado
 		flavor_fra.9000			# François Villon
 	}
@@ -1971,10 +1965,6 @@ on_bi_yearly_pulse_3 = {
 	#Fire estate agenda if you have that privilege
 	# NOTE DOING THIS THROUGH RANDOM EVENT NOW WITH estate_privileges_and_agendas_events.4 INSTEAD!
 	#on_bi_yearly_pulse_estate_privileges_effect = yes
-
-	events = {
-		muslim_school_events.20 #Pick School
-	}
 	random_events = {
 		100 = new_court_flavour_events.21 #religious resignation
 		100 = new_court_flavour_events.25 #blood is thicker than water

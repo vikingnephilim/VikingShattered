@@ -1,5 +1,0 @@
-entity = {
-	name = "hellenic_missionary"
-	pdxmesh = "pagan_missionary_mesh"
-	state = { name = "idle" 		animation = "idle" }
-}

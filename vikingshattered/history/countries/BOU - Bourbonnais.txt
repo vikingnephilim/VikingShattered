@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = cathar_reform
 government_rank = 1
-primary_culture = cosmopolitan_french
+primary_culture = limousin
 religion = cathar
 technology_group = western
 capital = 190	# Bourges

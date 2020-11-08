@@ -33,17 +33,16 @@ has_religious_scholars_trigger = {
 	custom_trigger_tooltip = {
 		tooltip = has_religious_scholars_trigger_tooltip
 		OR = {
-			has_country_modifier = akbari_scholar_modifier
-			has_country_modifier = barelvi_scholar_modifier
+			has_country_modifier = alawite_scholar_modifier
 			has_country_modifier = hanafi_scholar_modifier
 			has_country_modifier = hanbali_scholar_modifier
-			has_country_modifier = maliki_scholar_modifier
-			has_country_modifier = shafii_scholar_modifier
 			has_country_modifier = ismaili_scholar_modifier
 			has_country_modifier = jafari_scholar_modifier
-			has_country_modifier = nizari_scholar_modifier
-			has_country_modifier = quran_scholar_modifier
-			has_country_modifier = usuli_scholar_modifier
+			has_country_modifier = maliki_scholar_modifier
+			has_country_modifier = maturidi_scholar_modifier
+			has_country_modifier = muhakkima_scholar_modifier
+			has_country_modifier = mutazilla_scholar_modifier
+			has_country_modifier = shafii_scholar_modifier
 			has_country_modifier = zaidi_scholar_modifier
 		}
 	}
@@ -74,7 +73,7 @@ has_shia_school_trigger = {
 	OR = {
 		religious_school = {
 			group = muslim
-			school = akbari_school
+			school = alawite_school
 		}
 		religious_school = {
 			group = muslim
@@ -86,11 +85,11 @@ has_shia_school_trigger = {
 		}
 		religious_school = {
 			group = muslim
-			school = quran_school
+			school = muhakkima_school
 		}
 		religious_school = {
 			group = muslim
-			school = usuli_school
+			school = mutazilla_school
 		}
 		religious_school = {
 			group = muslim
@@ -102,10 +101,6 @@ has_shia_school_trigger = {
 #Country
 has_sunni_school_trigger = {
 	OR = {
-		religious_school = {
-			group = muslim
-			school = barelvi_school
-		}
 		religious_school = {
 			group = muslim
 			school = hanbali_school
@@ -120,7 +115,7 @@ has_sunni_school_trigger = {
 		}
 		religious_school = {
 			group = muslim
-			school = nizari_school
+			school = maturidi_school
 		}
 		religious_school = {
 			group = muslim

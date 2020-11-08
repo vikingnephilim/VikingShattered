@@ -2,7 +2,7 @@
 
 owner = CAP
 controller = CAP
-culture = neapolitan 
+culture = calibrese 
 religion = catholic 
 hre = no 
 base_tax = 2 

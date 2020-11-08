@@ -138,6 +138,10 @@ french_minor_missions = {
 		trigger = {
 			is_subject = no
 			owns_core_province = 183
+			owns_core_province = 168
+			owns_core_province = 174
+			owns_core_province = 192
+			owns_core_province = 200
 			NOT = {
 				exists = FRA
 			}

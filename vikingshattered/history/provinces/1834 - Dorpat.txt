@@ -3,7 +3,6 @@
 owner = LVA
 controller = LVA
 add_core = LVA
-add_core = EST
 culture = estonian
 religion = baltic_pagan_reformed
 hre = no

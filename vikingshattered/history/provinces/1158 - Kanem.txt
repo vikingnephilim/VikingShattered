@@ -3,7 +3,6 @@
 owner = YAO
 controller = YAO
 add_core = YAO
-add_core = KBO
 culture = kanuri
 religion = bornoism
 capital = "Ngala"

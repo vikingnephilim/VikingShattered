@@ -2,7 +2,7 @@
 
 owner = NAP
 controller = NAP
-culture = neapolitan 
+culture = calibrese
 religion = catholic 
 hre = no 
 base_tax = 2
