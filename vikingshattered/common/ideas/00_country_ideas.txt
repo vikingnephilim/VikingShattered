@@ -1350,46 +1350,6 @@ GEN_Ideas = {
 	}
 }
 
-
-SCO_Ideas = {
-	start = {
-		leader_land_shock = 1
-		land_forcelimit_modifier = 0.33
-	}
-	
-	bonus = {
-		land_maintenance_modifier = -0.05
-	}
-	
-	trigger = {
-		tag = SCO
-	}
-	free = yes
-	
-	break_the_black_douglas = {
-		global_unrest = -1
-	}
-	modernised_royal_scots_navy = {
-		global_ship_cost = -0.1
-	}
-	reign_in_the_clans = {
-		global_manpower_modifier = 0.2
-	}
-	comets = {
-		stability_cost_modifier = -0.10
-	}
-	royal_revenue = {
-		global_tax_modifier = 0.1
-	}
-	basilikon_doron = {
-		legitimacy = 1
-	}
-	act_of_revocation = {
-		ae_impact = -0.15
-	}
-}
-
-
 HUN_ideas = {
 	start = {
 		cavalry_power = 0.20
@@ -1404,7 +1364,7 @@ HUN_ideas = {
 		tag = HUN
 	}
 	free = yes
-	
+
 	hun_renaissanse_knowledge = {
 		global_unrest = -1
 	}
@@ -4219,44 +4179,6 @@ CRO_ideas = {
 	}
 	pandurs = {
 		infantry_power = 0.1
-	}
-}
-
-CYP_ideas = {
-	start = {
-		galley_cost = -0.2
-		tolerance_heretic = 4
-	}
-	bonus = {
-		naval_forcelimit_modifier = 0.33
-	}
-	trigger = {
-		tag = CYP
-	}
-	free = yes
-
-	king_of_jerusalem = {
-		legitimacy = 0.5
-		fabricate_claims_cost = -0.25
-	}
-	frankish_crusaders = {
-		army_tradition = 0.5
-	}
-	commandaria_wine = {
-		production_efficiency = 0.1
-	}
-	lusignan_diplomacy = {
-		diplomatic_reputation = 1
-	}
-	cypriot_fortifications = {
-		defensiveness = 0.25
-	}
-	repel_the_corsairs = {
-		galley_power = 0.2
-	}
-	raid_turkish_commerce = {
-		embargo_efficiency = 0.1
-		privateer_efficiency = 0.15
 	}
 }
 
@@ -7215,86 +7137,6 @@ THU_ideas = {
 	}
 }
 
-BTI_ideas = {
-	start = {
-		tolerance_heathen = 3
-		enemy_core_creation = 0.25
-	}
-	bonus = {
-		global_manpower_modifier = 0.2
-	}
-	trigger = {
-		tag = BTI
-	}
-	
-	free = yes
-	
-	bti_legacy_of_queen_judith = {
-		land_morale = 0.1
-	}
-	bti_mountain_kingdom = {
-		fort_maintenance_modifier = -0.1
-	}
-	bti_kebra_nagast = {
-		ae_impact = -0.10
-	}
-	bti_builders_and_artists = {
-		development_cost = -0.1
-	}
-	bti_gideon_dynasty = {
-		legitimacy = 1
-	}
-	bti_lost_tribe = {
-		advisor_cost = -0.15
-	}
-	bti_haskalah = {
-		global_institution_spread = 0.1
-	}
-}
-
-
-CAT_ideas = {
-    start = {
-        merchants = 1
-        light_ship_cost = -0.15
-    }
- 
-    bonus = {
-        sunk_ship_morale_hit_recieved = -0.2
-    }
- 
-    trigger = {
-		OR = {
-			tag = CAT
-			tag = VAL
-			tag = MJO
-		}
-    }
-    free = yes
- 
-	cat_consulate_of_the_sea = {
-		navy_tradition = 1
-    }
-	cat_consell_de_cent = {
-        advisor_cost = -0.1
-    }
-	cat_catalan_constitutions = {
-		global_unrest = -1
-    }
-	cat_fortifying_catalonia = {
-		fort_maintenance_modifier = -0.1
-	}
-	cat_miquelets = {
-        manpower_recovery_speed = 0.15
-    }
-	cat_lliures_morts = {
-        land_morale = 0.10
-    }
-	cat_catalan_forges = {
-        production_efficiency = 0.1
-    }
-}
-
 LNA_ideas = {
 	start = {
 		global_prov_trade_power_modifier = 0.10
@@ -7948,44 +7790,6 @@ KAS_ideas = {
 	}
 }
 
-LUX_ideas = {
-	start = {
-		production_efficiency = 0.1
-		global_garrison_growth = 0.25
-	}
-
-	bonus = {
-		siege_ability = 0.10
-	}
-	
-	trigger = {
-		tag = LUX
-	}
-	free = yes
-	
-	lux_imperial_legacy = {
-		diplomatic_reputation = 1
-	}
-	lux_ardennes = {
-		defensiveness = 0.2
-	}
-	lux_moselle_trade = {
-		trade_steering = 0.15
-	}
-	lux_fortress = {
-		fort_maintenance_modifier = -0.15
-	}
-	lux_spanish_road = {
-		manpower_recovery_speed = 0.1
-	}
-	lux_grand_duchy_of_luxembourg = {
-		diplomatic_upkeep = 1
-	}
-	lux_rivals_rivals_everywhere = {
-		diplomats = 1
-	}
-}
-
 LON_ideas = {
 	start = {
 		tolerance_own = 2
@@ -8616,7 +8420,6 @@ BTS_ideas = {
 		tag = BTS
 	}
 	free = yes
-  
 	bts_people_of_the_coast = {
 		garrison_size = 0.2
 	}
@@ -12867,44 +12670,6 @@ FLY_ideas = {
 	}
 	fly_buannacht = {
 		global_manpower_modifier = 0.15
-	}
-}
-CRN_ideas = {
-	start = {
-		global_regiment_recruit_speed = -0.10
-		production_efficiency = 0.1
-	}
-	
-	bonus = {
-		land_morale = 0.10
-	}
-	
-	trigger = {
-		tag = CRN
-	}
-	free = yes
-	
-	crn_stannary_parliaments = {
-		global_unrest = -2
-	}
-	crn_cornish_rebels = {
-		hostile_attrition = 1
-	}
-	crn_prayer_book_traditionaliism = {
-		tolerance_own = 2
-	}
-	crn_pirates_of_penzance = {
-		capture_ship_chance = 0.1
-		privateer_efficiency = 0.2
-	}
-	crn_royalist_army = {
-		land_forcelimit_modifier = 0.2
-	}
-	crn_gear_rout = {
-		movement_speed = 0.15
-	}
-	crn_arthurian_romanticism = {
-		prestige_decay = -0.01
 	}
 }
 # Manx ideas

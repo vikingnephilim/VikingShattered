@@ -1,0 +1,232 @@
+LUX_ideas = {
+	start = {
+		culture_conversion_cost = -0.15
+		garrison_size = 0.25
+	}
+
+	bonus = {
+		siege_ability = 0.10
+	}
+	
+	trigger = {
+		tag = LUX
+	}
+	free = yes
+	
+	lux_imperial_legacy = {
+		diplomatic_reputation = 1
+	}
+	lux_ardennes = {
+		defensiveness = 0.25
+	}
+	lux_moselle_trade = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	lux_fortress = {
+		fort_maintenance_modifier = -0.15
+	}
+	lux_spanish_road = {
+		merchants = 1
+	}
+	lux_grand_duchy_of_luxembourg = {
+		legitimacy = 1
+		republican_tradition = 0.5
+		devotion = 1
+	}
+	lux_rivals_rivals_everywhere = {
+		diplomats = 1
+	}
+}
+
+CRN_ideas = {
+	start = {
+		discipline = 0.05
+		production_efficiency = 0.1
+	}
+	
+	bonus = {
+		land_morale = 0.10
+	}
+	
+	trigger = {
+		tag = CRN
+	}
+	free = yes
+	
+	crn_stannary_parliaments = {
+		culture_conversion_cost = -0.15
+	}
+	crn_cornish_rebels = {
+		hostile_attrition = 1
+	}
+	crn_prayer_book_traditionaliism = {
+		global_missionary_strength = 0.02
+	}
+	crn_pirates_of_penzance = {
+		capture_ship_chance = 0.1
+		privateer_efficiency = 0.2
+	}
+	crn_royalist_army = {
+		land_forcelimit_modifier = 0.3
+	}
+	crn_gear_rout = {
+		global_manpower_modifier = 0.2
+	}
+	crn_arthurian_romanticism = {
+		advisor_cost = -0.2
+	}
+}
+
+CYP_ideas = {
+	start = {
+		navy_tradition = 0.5
+		global_missionary_strength = 0.03
+	}
+	bonus = {
+		naval_forcelimit_modifier = 0.33
+	}
+	trigger = {
+		tag = CYP
+	}
+	free = yes
+
+	king_of_jerusalem = {
+		warscore_cost_vs_other_religion = -0.1
+		ae_impact = -0.1
+	}
+	frankish_crusaders = {
+		army_tradition = 0.5
+	}
+	commandaria_wine = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	lusignan_diplomacy = {
+		diplomatic_reputation = 1
+	}
+	cypriot_fortifications = {
+		defensiveness = 0.25
+	}
+	repel_the_corsairs = {
+		naval_morale = 0.15
+	}
+	raid_turkish_commerce = {
+		privateer_efficiency = 0.25
+	}
+}
+
+SCO_Ideas = {
+	start = {
+		discipline = 0.05
+		land_forcelimit_modifier = 0.33
+	}
+	
+	bonus = {
+		land_maintenance_modifier = -0.05
+	}
+	
+	trigger = {
+		tag = SCO
+	}
+	free = yes
+	
+	break_the_black_douglas = {
+		global_unrest = -2
+	}
+	modernised_royal_scots_navy = {
+		allowed_marine_fraction = 0.15
+	}
+	reign_in_the_clans = {
+		global_manpower_modifier = 0.25
+	}
+	highland_warriors = { #To localise
+		infantry_power = 0.1
+	}
+	royal_revenue = {
+		production_efficiency = 0.15
+	}
+	legacy_of_James6 = { #To localise
+		core_creation = -0.1
+	}
+	act_of_revocation = {
+		ae_impact = -0.15
+	}
+}
+
+BTI_ideas = {
+	start = {
+		global_missionary_strength = 0.03
+		land_morale = 0.1
+	}
+	bonus = {
+		global_manpower_modifier = 0.25
+	}
+	trigger = {
+		tag = BTI
+	}
+	
+	free = yes
+	
+	bti_legacy_of_queen_judith = {
+		years_of_nationalism = -10
+	}
+	bti_mountain_kingdom = {
+		defensiveness = 0.3
+	}
+	bti_kebra_nagast = {
+		ae_impact = -0.1
+	}
+	bti_builders_and_artists = {
+		development_cost = -0.15
+	}
+	bti_gideon_dynasty = {
+		legitimacy = 1
+	}
+	bti_lost_tribe = {
+		advisor_cost = -0.15
+	}
+	bti_haskalah = {
+		global_autonomy = -0.05
+	}
+}
+
+CAT_ideas = {
+    start = {
+        discipline = 0.05
+        naval_morale = 0.1
+    }
+ 
+    bonus = {
+        allowed_marine_fraction = 0.15
+    }
+ 
+    trigger = {
+		OR = {
+			tag = CAT
+			tag = VAL
+			tag = MJO
+		}
+    }
+    free = yes
+ 
+	cat_consulate_of_the_sea = {
+		naval_forcelimit_modifier = 0.33
+    }
+	cat_consell_de_cent = {
+        advisor_cost = -0.15
+    }
+	cat_catalan_constitutions = {
+		global_unrest = -2
+    }
+	cat_fortifying_catalonia = {
+		defensiveness = 0.25
+	}
+	cat_miquelets = {
+        manpower_recovery_speed = 0.15
+    }
+	cat_lliures_morts = {
+        land_morale = 0.10
+    }
+	cat_catalan_forges = {
+        production_efficiency = 0.2
+    }
+}

@@ -37,6 +37,7 @@ SEV = "countries/DOGE_IB_Sevilla.txt"
 ALC = "countries/DOGE_IB_Algeciras.txt"
 ALN = "countries/DOGE_IB_Alentejo.txt"
 TOL = "countries/DOGE_IB_Toledo.txt"
+ESK = "countries/Euskadi.txt"
 
 #Existing countries+releaseables that are used 
 #ARA = "countries/Aragon.txt"
