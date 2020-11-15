@@ -1,8 +1,8 @@
-#Vinland 
+#Markland 
 
 graphical_culture = westerngfx
 
-color = { 200 200 200 }
+color = { 20 100 200 }
 
 historical_idea_groups = {
 

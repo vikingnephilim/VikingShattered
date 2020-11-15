@@ -5,7 +5,7 @@ add_core = NPH
 controller = NPH
 
 culture = phoenician
-religion = samaritan_faith
+religion = canaanite
 capital = "Guantanamo"
 trade_goods = tobacco
 hre = no

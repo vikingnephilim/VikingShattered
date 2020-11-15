@@ -3,6 +3,7 @@ add_government_reform = tribal_despotism
 primary_culture = aka
 religion = akoism
 technology_group = sub_saharan
+government_rank = 1
 unlock_cult = yemoja_cult
 unlock_cult = roog_cult
 unlock_cult = nyame_cult

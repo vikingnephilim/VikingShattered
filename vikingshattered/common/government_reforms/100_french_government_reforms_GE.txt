@@ -8,6 +8,11 @@ french_feudalism = {
 			culture_group = north_french
 			has_reform = french_absolutism
 			has_reform = ancien_regime_reform
+			OR = {
+				vassal = 1
+				personal_union = 1
+				march = 1
+			}
 		}
 	}
 	trigger = {
@@ -17,6 +22,11 @@ french_feudalism = {
 			culture_group = north_french
 			has_reform = french_absolutism
 			has_reform = ancien_regime_reform
+			OR = {
+				vassal = 1
+				personal_union = 1
+				march = 1
+			}
 		}
 	}
 	lock_level_when_selected = no

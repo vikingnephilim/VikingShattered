@@ -1,6 +1,7 @@
 government = monarchy
-government_rank = 2
+government_rank = 6
 primary_culture = samogetian
+add_government_reform = balt_trib_fed
 religion = baltic_pagan_reformed
 technology_group = eastern
 capital = 41

@@ -108,9 +108,9 @@ NDiplomacy = {
 	LACK_OF_ELECTORS_HIT = -0.1,					-- Also applied to vassalized electors
 	JOIN_HRE_DEVELOPMENT_CAP_VASSAL = 200,			-- Max cap of development of vassals to join the empire
 	IMPERIAL_REFORM_COST = 50,						-- Minimum Cost of enacting a new reform.
-	CELESTIAL_EMPIRE_REFORM_COST = 60,				-- Mandate cost of enacting a new reform for the Emperor of China.
+	CELESTIAL_EMPIRE_REFORM_COST = 55,				-- Mandate cost of enacting a new reform for the Emperor of China.
 	CELESTIAL_EMPIRE_REFORM_STABILITY_COST = 1,		-- Stability cost of enacting a new reform for the Emperor of China
-	CELESTIAL_EMPIRE_REFORM_MIN_VALUE = 60,			-- Minimum value of Mandate above which new reforms can be enacted.
+	CELESTIAL_EMPIRE_REFORM_MIN_VALUE = 55,			-- Minimum value of Mandate above which new reforms can be enacted.
 	DEFENDER_OF_FAITH_COST = 1000, 					-- _DDEF_DEFENDER_OF_FAITH_COST_
 	DEFENDER_OF_FAITH_MONTHS = 36, 					-- _DDEF_DEFENDER_OF_FAITH_MONTHS_ (Minimum months before it can be taken from another country with less prestige)
 	AMOUNT_OF_ACTIVE_CARDINALS = 7, 				-- Number of active Cardinals
@@ -193,14 +193,14 @@ NDiplomacy = {
 	AE_SAME_CULTURE_GROUP = 0.25,
 	AE_INFIDEL_CONQUEST = 0.25, 		-- different religion group conquered same religion province
 	AE_SAME_RELIGION = 0.5,
-	AE_SAME_RELIGION_GROUP = 0.5,
-	AE_DIFFERENT_RELIGION = 0,
+	AE_SAME_RELIGION_GROUP = 0.25,
+	AE_DIFFERENT_RELIGION = 0.25,
 	AE_HRE_INTERNAL = 0.5,
 	AE_ATTACKER_DEVELOPMENT = 0.01,	-- +50% cap (at 1000 development)
 	AE_DEFENDER_DEVELOPMENT = 0.01,	-- -50% cap (at 1000 development)
 	AE_DISTANCE_BASE = 0.75,
 	AE_SAME_OVERLORD = 0.5,
-	AE_PROVINCE_CAP = 30,				-- Province development above this will not count for AE (also used for warscore cost cap)
+	AE_PROVINCE_CAP = 25,				-- Province development above this will not count for AE (also used for warscore cost cap)
 	AE_THREATEN_WAR = 1.0,
 
 	-- Peace Option Effects, base values for the winner. The loser gets the inverse.
@@ -429,21 +429,21 @@ NDiplomacy = {
 },
 
 NCountry = {
-	EXPLOIT_ADM_INCOME = 60,	-- months of income
-	EXPLOIT_DIP_SAILORS = 6,
-	EXPLOIT_MIL_MANPOWER = 6,
-	EXPLOIT_COOLDOWN_MONTHS = 240,
+	EXPLOIT_ADM_INCOME = 120,	-- months of income
+	EXPLOIT_DIP_SAILORS = 12,
+	EXPLOIT_MIL_MANPOWER = 12,
+	EXPLOIT_COOLDOWN_MONTHS = 360,
 
 	MONTHS_FOR_MAX_MP_ALERT = 3,
 
-	SIBERIAN_FRONTIER_DAILY_BASE = 5,		-- monthly..
+	SIBERIAN_FRONTIER_DAILY_BASE = 10,		-- monthly..
 	SIBERIAN_FRONTIER_DAILY_RANGE = 11,
 	CONTRIBUTE_TO_CAPITAL_MIN_DEV_RATIO = 0.5,		-- Overlord's development times this value must be smaller than Subject's development.
 	FORCE_SEPPUKU_POWER_MULTIPLIER = 5,				-- Times victim's stats
 	SHOGUN_INTERACTIONS_DURATION = 10,				-- Years
 	SHOGUN_INTERACTIONS_LEGITIMACY = -20,
-	GOLDEN_ERA_YEARS = 50,
-	SPLENDOR_ABILITY_COST = 800,
+	GOLDEN_ERA_YEARS = 100,
+	SPLENDOR_ABILITY_COST = 600,
 	PROSPERITY_MONTHLY_DECLINE = -2,				-- monthly tick
 	PROSPERITY_INCREASE_SIZE= 1,				-- if diceroll of d20< monarch stat, while possible ot increase
 	CORRUPTION_FROM_BANNERS = 5,
@@ -506,7 +506,7 @@ NCountry = {
 	ESTATE_MIN_DISTRIBUTED_CROWNLAND = 30.0, 	-- Minimum of crownland when distributing land at start
 	ESTATE_CROWNLAND_INFLUENCE = 60.0,			-- Crownland has n% influence, this is modified by absolutism.
 	ESTATE_START_CROWNLAND_INFLUENCE = 10.0,	-- Crownland has n% influence at start of a new game.
-	ESTATE_CROWNLAND_FROM_DEV = 0.2,			-- How much crownland you gain from developing a province.
+	ESTATE_CROWNLAND_FROM_DEV = 0.25,			-- How much crownland you gain from developing a province.
 
 	ESTATE_PRIVILEGE_ADMIN_COST = 0,			-- Cost of granting a privilege
 	ESTATE_PRIVILEGES_MAX_CONCURRENT = 4,		-- Max. number of privileges active at the same time
@@ -517,16 +517,16 @@ NCountry = {
 
 	ESTATE_LOYALTY_INFLUENCE_ON_LIBERTY_DESIRE = -0.3, -- Estate loyalty influence on libarty desire of vassals (if it has vassal_liberty_affected_by_loyalty)
 
-	CULTURAL_UNION_MIN_DEV = 1000,				-- Minimum development to get cultural union effect without Common Sense, or if CULTURAL_UNION_MIN_RANK is set to negative value.
-	CULTURAL_UNION_MIN_RANK = 3,				-- Minimum rank to get cultural union effect with Common Sense.
+	CULTURAL_UNION_MIN_DEV = 750,				-- Minimum development to get cultural union effect without Common Sense, or if CULTURAL_UNION_MIN_RANK is set to negative value.
+	CULTURAL_UNION_MIN_RANK = 6,				-- Minimum rank to get cultural union effect with Common Sense.
 	PRIMARY_NATION_BLOCK_CONVERT_CULTURE = 0,	-- Does primary nation of a tag existing block converting culture?
 
-	MIN_DEV_FOR_FREE_CITY = 10,					-- Capital must have at least this much development to be a free city
+	MIN_DEV_FOR_FREE_CITY = 3,					-- Capital must have at least this much development to be a free city
 	MAX_PROVINCES_FOR_FREE_CITY = 1,			-- A free city cannot have more provinces than this
 
-	HRE_RANK = 3,								-- Emperor of the HRE is displayed as this rank (for ruler title only)
-	HRE_MAX_RANK = 1,							-- for members
-	HRE_MAX_RANK_ELECTOR = 2,					-- for electors
+	HRE_RANK = 8,								-- Emperor of the HRE is displayed as this rank (for ruler title only)
+	HRE_MAX_RANK = 5,							-- for members
+	HRE_MAX_RANK_ELECTOR = 7,					-- for electors
 	HRE_INCIDENT_DAYS_ACTIVE = 365,				-- Number of days HRE incidents will be active
 	HRE_INCIDENT_ELECTOR_SUPPORT_IA = 1,	-- How much worth an elector support is in an incident
 	HRE_INCIDENT_MEMBER_SUPPORT_IA = 0.2,	-- How much worth an elector support is in an incident
@@ -534,19 +534,19 @@ NCountry = {
 	HRE_INCIDENT_AI_RANDOM_FACTOR = 10,		-- A little random spice to AI for deciding what option to pick as a member, will be -10 to 10
 
 	PRESTIGE_GAIN_FOR_GOV_RANK_2 = 10,			-- Prestige gained on upgrading to government rank 2
-	PRESTIGE_GAIN_FOR_GOV_RANK_3 = 25,			-- Prestige gained on upgrading to government rank 3
-	MIN_PRESTIGE_FOR_GOV_RANK_2 = 50,			-- Required prestige to to upgrade to government rank 2
-	MIN_PRESTIGE_FOR_GOV_RANK_3 = 75,			-- Required prestige to to upgrade to government rank 3
-	MIN_DEVELOPMENT_FOR_GOV_RANK_2 = 300,		-- Need at least this much development to upgrade to government rank 2
-	MIN_DEVELOPMENT_FOR_GOV_RANK_3 = 1000,		-- Need at least this much development to upgrade to government rank 3
+	PRESTIGE_GAIN_FOR_GOV_RANK_3 = 20,			-- Prestige gained on upgrading to government rank 3
+	MIN_PRESTIGE_FOR_GOV_RANK_2 = 25,			-- Required prestige to to upgrade to government rank 2
+	MIN_PRESTIGE_FOR_GOV_RANK_3 = 50,			-- Required prestige to to upgrade to government rank 3
+	MIN_DEVELOPMENT_FOR_GOV_RANK_2 = 250,		-- Need at least this much development to upgrade to government rank 2
+	MIN_DEVELOPMENT_FOR_GOV_RANK_3 = 500,		-- Need at least this much development to upgrade to government rank 3
 
 	PRESTIGE_GAIN_FOR_GOV_RANK_X = 25,					-- Prestige gained on upgrading to government rank above 3
 	MIN_PRESTIGE_FOR_GOV_RANK_X = 75,					-- Required prestige to to upgrade to government above 3
-	ADDITIONAL_MIN_DEVELOPMENT_FOR_GOV_RANK_X = 500,	-- ADDITIONAL development needed to upgrade to government rank above 3
-	MAX_GOV_RANK = 3,									-- Max possible is 10
+	ADDITIONAL_MIN_DEVELOPMENT_FOR_GOV_RANK_X = 250,	-- ADDITIONAL development needed to upgrade to government rank above 3
+	MAX_GOV_RANK = 8,									-- Max possible is 10
 
 
-	PARLIAMENT_BACKING_PERCENTAGE = 25,			-- average percent of seats backing an issue (0-100)
+	PARLIAMENT_BACKING_PERCENTAGE = 33,			-- average percent of seats backing an issue (0-100)
 	PARLIAMENT_ISSUE_DURATION = 10,				-- in years
 	PARLIAMENT_DEBATE_DURATION = 5,				-- in years
 	NUM_PARLIAMENT_ISSUES = 5,
@@ -758,10 +758,10 @@ NCountry = {
 	BASE_HEIR_BIRTH = 120, 							-- _CDEF_BASE_HEIR_BIRTH_
 	AGE_OF_ADULTHOOD = 15, 							-- _CDEF_AGE_OF_ADULTHOOD_
 	MAX_QUEEN_AGE = 35,								-- You can't get a queen/prince older than this
-	MAX_EXTRA_PERSONALITIES = 2,					-- Number of personalities that can be gained except the one you get when turning 15.
+	MAX_EXTRA_PERSONALITIES = 4,					-- Number of personalities that can be gained except the one you get when turning 15.
 	FIRST_EXTRA_PERSONALITY = 10,					-- Number of years after inauguration that first extra personality is gained.
-	YEARS_PER_EXTRA_PERSONALITY = 15,				-- Number of years between new personalities after first one.
-	INITIAL_REGULAR_COLONY = 10,
+	YEARS_PER_EXTRA_PERSONALITY = 10,				-- Number of years between new personalities after first one.
+	INITIAL_REGULAR_COLONY = 25,
 	REGULAR_COLONY_GROWTH = 25,
 	COLONIAL_CLAIM_BONUS = 10,
 	COLONIAL_CLAIM_VIOLATION = -20,
@@ -828,7 +828,7 @@ NCountry = {
 	MIN_LIBERTY_DESIRE_INFLUENCE = -100,			-- Min influence of a single modifier (e.g. paid of debt)
 	MAX_LIBERTY_DESIRE_INFLUENCE = 100000,			-- Max influence of a single modifier (e.g. seized province)
 
-	MAX_CROWN_COLONIES = 4,							-- How many province a country can hold in a colonial region before creating a colonial nation
+	MAX_CROWN_COLONIES = 5,							-- How many province a country can hold in a colonial region before creating a colonial nation
 	RIVAL_TECH_THRESHOLD = 0.5,						-- Difference in tech group cost modifiers
 	OVERSEAS_DISTANCE = 150,						-- Provinces beyond this distance to capital are distant overseas
 	TRADE_LEAGUE_TECH_LIMIT = 2,					-- Tech limit for joining a trade league
@@ -2009,12 +2009,12 @@ NReligion = {
 	PIETY_ACTION_COOLDOWN = 5,
 
 	CONSECRATE_PATRIACH_AUTHORITY_BOOST = 0.05, --5% or so
-	CONSECRATE_PATRIARCH_THRESHOLD = 30, --in development
-	ORTHODOX_ICON_DURATION_MONTHS = 240,
-	ORTHODOX_ICON_AUTHORITY_COST = 0.1,
+	CONSECRATE_PATRIARCH_THRESHOLD = 15, --in development
+	ORTHODOX_ICON_DURATION_MONTHS = 120,
+	ORTHODOX_ICON_AUTHORITY_COST = 0.05,
 
-	MAYA_COLLAPSE_PROVINCES = 10,	-- Maya collapses to this size on reform
-	MAYA_COLLAPSE_PROVINCES_PER_REFORM = 2,					-- Maya keeps this many extra provinces per reform
+	MAYA_COLLAPSE_PROVINCES = 20,	-- Maya collapses to this size on reform
+	MAYA_COLLAPSE_PROVINCES_PER_REFORM = 4,					-- Maya keeps this many extra provinces per reform
 	YEARLY_DOOM_INCREASE = 1,								-- Multiplied by number of provinces
 	DOOM_REDUCTION_FROM_REFORMS = 0.2,						-- This much less monthly doom (as a fraction of whole) for each reform passed
 	DOOM_REDUCTION_FROM_OCCUPATION = 0.05,					-- Multiplied by development
@@ -2027,11 +2027,11 @@ NReligion = {
 	AUTHORITY_FROM_DEVELOPMENT = 0.02,							-- Multiplied by development (affected by autonomy)
 	AUTHORITY_FROM_AUTONOMY = 0.2,							-- Authority loss from granting autonomy
 
-	RELIGIOUS_LEAGUE_COOLDOWN = 5,								-- Minimum years between joining/leaving religious league
+	RELIGIOUS_LEAGUE_COOLDOWN = 2,								-- Minimum years between joining/leaving religious league
 	RELIGIOUS_LEAGUE_WAR_BONUS_DURATION = 100,					-- How many years the 'Joined League War' bonus lasts
-	MAX_CHRISTIAN_RELIGIOUS_CENTERS = 3,						-- The number of spawned centers of reformation wont exceed this number
-	MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE = 150.0,				-- When spreading the religion to other provinces the distance wont exceed this number
-	CONVERSION_ZEAL_DURATION = 10950,							-- Amount of days in which you cannot convert the province back.
+	MAX_CHRISTIAN_RELIGIOUS_CENTERS = 5,						-- The number of spawned centers of reformation wont exceed this number
+	MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE = 250.0,				-- When spreading the religion to other provinces the distance wont exceed this number
+	CONVERSION_ZEAL_DURATION = 5475,							-- Amount of days in which you cannot convert the province back.
 	KARMA_FOR_CONVERSION = 0.1,
 	MIN_CARDINALS = 7,											-- Least amount of cardinals/ Starting cardinals
 	MAX_CARDINALS = 49,											-- Max amount of cardinals
@@ -2047,7 +2047,7 @@ NReligion = {
 	INVEST_PAPAL_INFLUENCE = 10.0,								-- The amount of papal influence you invest in becoming controller of the curia.
 	NUMBER_OF_POSSIBLE_CARDINALS = 10,							-- Number of cardinals from said number of most successful provinces to be randomly picked from.
 
-	MAX_CHURCH_POWER = 200,
+	MAX_CHURCH_POWER = 300,
 	ASPECT_REMOVE_COST = 0,										-- Stabhit for removing an Aspect of Faith.
 	MAX_UNLOCKED_ASPECTS = 3,									-- Maximum number of Aspects of Faith the player can have unlocked at once.
 	CHURCH_POWER_RATE_SCALE = 0.1,								-- Scaling value for rate at which church power is gained.
@@ -2151,10 +2151,15 @@ NNationDesigner = {
 	DEFAULT_MALE_CHANCE = 75,				-- Default chance for males if ruler and heir start genders aren't the same.
 	ALL_FEMALE_MALE_CHANCE = 0,				-- Chance for males if starting ruler and heir were both female.
 	ALL_MALE_MALE_CHANCE = 100,				-- Chance for females if starting ruler and heir were both male.
-	MAX_GOVERNMENT_RANK = 3,
+	MAX_GOVERNMENT_RANK = 8,
 	GOVERNMENT_RANK_COST_1 = -10,
 	GOVERNMENT_RANK_COST_2 = 0,
-	GOVERNMENT_RANK_COST_3 = 30,
+	GOVERNMENT_RANK_COST_3 = 10,
+	GOVERNMENT_RANK_COST_4 = 20,
+	GOVERNMENT_RANK_COST_5 = 30,
+	GOVERNMENT_RANK_COST_6 = 40,
+	GOVERNMENT_RANK_COST_7 = 50,
+	GOVERNMENT_RANK_COST_8 = 60,
 
 	MANDATE_SUBCONTINENT_NAME = "china_superregion", -- Name of the subcontinent where the Mandate will be given to the biggest nation by development when using random generated nations
 },

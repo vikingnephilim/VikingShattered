@@ -2,6 +2,8 @@ government = monarchy
 primary_culture = bihari
 religion = hinduism
 technology_group = indian
+government_rank = 1
+add_government_reform = autocracy_reform
 capital = 558 # Patna
 
 1444.1.1 = {

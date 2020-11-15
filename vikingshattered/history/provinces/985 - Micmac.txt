@@ -15,6 +15,8 @@ native_hostileness = 9
 
 
 discovered_by = north_american
+discovered_by = VIN
+discovered_by = MRL
 
 1534.1.1 = { discovered_by = FRA } # Jacques Cartier
 1629.1.1 = { discovered_by = ENG }

@@ -1,10 +1,9 @@
 #Tag representing the various and hard to map muslim tribal states from Al-Abwab to the southern border of Daw.
 government_rank = 3
 government = monarchy
+add_government_reform = autocracy_reform
 primary_culture = amhara
 religion = coptic
 technology_group = east_african
 unit_type = sub_saharan
 capital = 1227
-
-

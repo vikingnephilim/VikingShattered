@@ -5,6 +5,8 @@ religion = coptic
 technology_group = east_african
 unit_type = sub_saharan
 capital = 2798	# Soba
+government_rank = 1
+
 
 1440.1.1 = {
 	monarch = {

@@ -458,7 +458,7 @@ revolutionary_republic_reform = {
 		global_autonomy = -0.2
 		max_revolutionary_zeal = 50
 	}
-	fixed_rank = 3
+	fixed_rank = 7
 
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
@@ -535,7 +535,7 @@ junior_revolutionary_republic_reform = {
 		global_autonomy = -0.2
 		max_revolutionary_zeal = 25
 	}
-	fixed_rank = 2
+	fixed_rank = 4
 
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
@@ -1056,7 +1056,6 @@ cossacks_reform = {
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 60
-
 	modifiers = {
 		cavalry_power = 0.2
 		cavalry_cost = -0.2

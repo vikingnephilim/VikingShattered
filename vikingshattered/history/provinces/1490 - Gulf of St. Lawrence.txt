@@ -1,3 +1,4 @@
 discovered_by = north_american
-1444.1.1 = { discovered_by = VIN }
+discovered_by = VIN
+discovered_by = MRL
 1534.1.1 = { discovered_by = FRA } # Jacques Cartier

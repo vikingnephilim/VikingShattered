@@ -1,5 +1,5 @@
 government = monarchy
-government_rank = 3
+government_rank = 8
 technology_group = eastern
 primary_culture = greek
 religion = orthodox

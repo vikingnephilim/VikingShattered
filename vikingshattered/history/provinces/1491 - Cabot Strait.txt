@@ -1,4 +1,5 @@
 discovered_by = north_american
-1444.1.1 = { discovered_by = VIN }
+discovered_by = VIN
+discovered_by = MRL
 1497.6.24 = { discovered_by = ENG } # John Cabbot
 1534.1.1 = { discovered_by = FRA } # Jacques Cartier

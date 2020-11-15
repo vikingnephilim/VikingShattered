@@ -19,6 +19,7 @@ discovered_by = VIN
 owner = VIN
 add_core = VIN
 controller = VIN
+discovered_by = MRL
 
 1620.11.21 = {
 	owner = ENG

@@ -2,6 +2,9 @@ government = monarchy
 primary_culture = bornean
 technology_group = chinese
 religion = hinduism
+government_rank = 1
+
+add_government_reform = feudalism_reform
 capital = 2710 #Bernau
 
 1444.1.1 = {

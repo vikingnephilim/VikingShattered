@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = tribal_kingdom
-government_rank = 1
+government_rank = 6
 primary_culture = baluchi
 religion = sunni
 religious_school = maliki_school

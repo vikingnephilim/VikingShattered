@@ -121,7 +121,7 @@ grand_duchy_reform = {
 		}
 	}
 	legacy_equivalent = despotic_monarchy
-	fixed_rank = 1
+	fixed_rank = 5
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
 	modifiers = {
@@ -191,7 +191,7 @@ shogunate = {
 		owns = 1020
 	}
 	legacy_equivalent = shogunate_legacy
-	fixed_rank = 2
+	fixed_rank = 8
 	maintain_dynasty = yes
 	allow_vassal_war = yes
 	allow_vassal_alliance = yes
@@ -216,7 +216,7 @@ daimyo = {
 		overlord = { has_reform = shogunate }
 	}
 	legacy_equivalent = daimyo_legacy
-	fixed_rank = 1
+	fixed_rank = 4
 	maintain_dynasty = yes
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -263,6 +263,7 @@ indep_daimyo = {
 		capital_scope = { region = japan_region }
 	}
 	legacy_equivalent = indep_daimyo_legacy
+	fixed_rank = 4
 	maintain_dynasty = yes
 
 	modifiers = {
@@ -319,7 +320,7 @@ celestial_empire = {
 		bureaucrats
 	}
 
-	fixed_rank = 3
+	fixed_rank = 8
 	start_territory_to_estates = 0.9
 
 	modifiers = {
@@ -573,7 +574,7 @@ principality = {
 			}
 		}
 	}
-	fixed_rank = 1
+	fixed_rank = 4
 	legacy_equivalent = principality_legacy
 	valid_for_nation_designer = yes
 	nation_designer_cost = 5
@@ -615,7 +616,7 @@ tsardom = {
 			}
 		}
 	}
-	fixed_rank = 3
+	fixed_rank = 8
 	legacy_equivalent = tsardom_legacy
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
@@ -849,7 +850,7 @@ revolutionary_empire_reform = {
 	valid_for_new_country = no
 	uses_revolutionary_zeal = yes
 	revolutionary = yes
-	fixed_rank = 3
+	fixed_rank = 8
 	modifiers = {
 		global_manpower_modifier = 0.25
 		land_morale = 0.10

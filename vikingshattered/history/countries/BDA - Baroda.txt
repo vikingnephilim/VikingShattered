@@ -1,6 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 technology_group = indian
+government_rank = 1
 religion = hinduism
 primary_culture = gujarati
 add_accepted_culture = marathi

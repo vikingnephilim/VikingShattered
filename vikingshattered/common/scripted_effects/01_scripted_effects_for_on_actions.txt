@@ -745,7 +745,7 @@ sheik_ul_islam_effect = {
 			NOT = { has_country_flag = had_sheikh_ul_islam_event } #Cleared by the event itself. Avoids event spam if multiple quick successions
 			uses_piety = yes
 			num_of_cities = 20
-			government_rank = 2
+			government_rank = 6
 			has_religious_school = yes
 			government = monarchy
 			NOT = { has_reform = steppe_horde }

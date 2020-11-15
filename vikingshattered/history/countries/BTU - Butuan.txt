@@ -3,6 +3,8 @@ add_government_reform = plutocratic_reform
 technology_group = chinese
 primary_culture = filipino
 capital = 2702	# Butuan
+government_rank = 1
+
 religion = hinduism
 
 1444.1.1 = {

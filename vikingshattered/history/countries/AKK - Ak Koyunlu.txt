@@ -1,5 +1,7 @@
 government = tribal
 add_government_reform = tribal_federation
+government_rank = 1
+
 primary_culture = turkish
 add_accepted_culture = kurdish
 add_accepted_culture = armenian

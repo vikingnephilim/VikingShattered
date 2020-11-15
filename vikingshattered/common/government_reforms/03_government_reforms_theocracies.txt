@@ -68,7 +68,7 @@ papacy_reform = {
 	papacy = yes
 	allow_convert = no
 	lock_level_when_selected = yes
-	fixed_rank = 2
+	fixed_rank = 6
 
 	custom_attributes = {
 		locked_government_type = yes
@@ -173,7 +173,7 @@ kingdom_of_god_reform = {
 	}
 	allow_normal_conversion = yes
 	lock_level_when_selected = yes
-	fixed_rank = 3
+	fixed_rank = 7
 }
 
 #Clergy in Administration

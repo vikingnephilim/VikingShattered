@@ -6,6 +6,7 @@ add_accepted_culture = occitain
 religion = cathar
 capital = 175	# Armagnac
 fixed_capital = 175 # Cannot move capital away from this province & no power cost to move to it
+government_rank = 1
 
 1444.1.1 = {
 	monarch = {

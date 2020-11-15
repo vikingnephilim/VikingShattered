@@ -3,8 +3,6 @@ spriteTypes = {
 		name = "government_reform_norman_duchy"
 		texturefile = "gfx/interface/government_reform_icons/norman_duchy.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "government_reform_feudalism"
 		texturefile = "gfx//interface//government_reform_icons//feudalism.dds"
@@ -791,4 +789,3 @@ spriteTypes = {
 		texturefile = "gfx//interface//government_reform_icons//HRE.dds"
 	}
 }
-

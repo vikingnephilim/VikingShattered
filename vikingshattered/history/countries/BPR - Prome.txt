@@ -2,6 +2,8 @@ government = monarchy
 add_government_reform = mandala_reform
 primary_culture = burmese
 religion = buddhism
+government_rank = 1
+
 technology_group = chinese
 capital = 4396
 

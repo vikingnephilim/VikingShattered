@@ -1,6 +1,6 @@
 government = republic
 government_rank = 2
 primary_culture = phoenician
-religion = samaritan_faith
-technology_group = high_american
+religion = canaanite
+technology_group = western
 capital = 486

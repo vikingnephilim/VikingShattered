@@ -3,6 +3,8 @@ add_government_reform = mandala_reform
 primary_culture = central_thai
 religion = buddhism
 technology_group = chinese
+government_rank = 1
+
 capital = 600 # Ayutthaya
 
 1424.1.1 = {

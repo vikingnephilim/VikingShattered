@@ -3,6 +3,8 @@ add_government_reform = plutocratic_reform
 primary_culture = sulawesi
 religion = animism
 technology_group = chinese
+government_rank = 1
+
 capital = 2716	# Buton
 
 

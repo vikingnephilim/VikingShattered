@@ -1,4 +1,4 @@
-country_decision = {
+country_decisions = {
 	euskadi_nation = {
 		major = yes
 		potential = {
@@ -52,13 +52,13 @@ country_decision = {
 		effect = {
 			remove_non_electors_emperors_from_empire_effect = yes
 			change_tag = ESK
-			catalonia_region = {
+			catalonia_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_permanent_claim = ESK
 			}
-			aragon_region = {
+			aragon_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}

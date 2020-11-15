@@ -1,6 +1,8 @@
 government = monarchy
 add_government_reform = indian_sultanate_reform
 primary_culture = bengali
+government_rank = 1
+
 religion = sunni
 religious_school = hanbali_school
 technology_group = indian

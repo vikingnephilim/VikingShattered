@@ -3,6 +3,8 @@ add_government_reform = indian_sultanate_reform
 technology_group = indian
 religion = shiite
 religious_school = shafii_school
+government_rank = 1
+
 primary_culture = kannada
 add_accepted_culture = marathi
 capital = 569	# Bijapur

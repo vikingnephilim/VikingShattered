@@ -1,0 +1,54 @@
+
+2 = {
+	diplomats = 1
+	governing_capacity = 200
+	global_autonomy = -0.025
+}
+3 = {
+	governing_capacity = 250
+	global_autonomy = -0.05
+	max_absolutism = 5
+	free_leader_pool = 1
+	diplomats = 1
+}
+4 = {
+	governing_capacity = 300
+	global_autonomy = -0.075
+	max_absolutism = 10
+	free_leader_pool = 1
+	diplomats = 1
+}
+5 = {
+	governing_capacity = 350
+	global_autonomy = -0.075
+	max_absolutism = 10
+	free_leader_pool = 1
+	diplomats = 1
+}
+6 = {
+	governing_capacity = 400
+	global_autonomy = -0.075
+	max_absolutism = 10
+	free_leader_pool = 2
+	diplomats = 1
+	merchants = 1
+}
+7 = {
+	governing_capacity = 450
+	global_autonomy = -0.075
+	max_absolutism = 10
+	free_leader_pool = 2
+	diplomats = 1
+	merchants = 1
+	colonists = 1
+}
+8 = {
+	governing_capacity = 450
+	global_autonomy = -0.075
+	max_absolutism = 10
+	free_leader_pool = 3
+	diplomats = 1
+	merchants = 1
+	colonists = 1
+	missionaries = 1
+}

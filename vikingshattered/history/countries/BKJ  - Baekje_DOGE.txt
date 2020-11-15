@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = hermit_kingdom_reform
 primary_culture = baekje
 religion = zen
-government_rank = 1
+government_rank = 6
 technology_group = chinese
 capital = 735 #Hanseong
 

@@ -5,6 +5,8 @@ technology_group = muslim
 religion = qarmatian
 religious_school = maturidi_school
 primary_culture = gulf_arabic
+government_rank = 1
+
 capital = 394	# Al Hasa
 
 #Rulers of Qatif

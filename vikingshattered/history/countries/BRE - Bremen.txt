@@ -9,8 +9,7 @@ capital = 1874	# Bremen
 
 1444.11.11 = {
 	monarch = {
-		name = "Karl"
-		dynasty = "von Erffa"
+		name = "Patriziat"
 		adm = 4
 		dip = 4
 		mil = 4

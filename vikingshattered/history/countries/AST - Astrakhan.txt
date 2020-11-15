@@ -1,5 +1,6 @@
 government = tribal
 add_government_reform = steppe_horde
+government_rank = 1
 primary_culture = astrakhani
 religion = sunni
 religious_school = alawite_school

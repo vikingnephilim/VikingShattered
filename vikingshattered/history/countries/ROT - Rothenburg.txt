@@ -10,7 +10,7 @@ fixed_capital = 4715 # Cannot move capital away from this province & no power co
 
 1399.1.1 = {
 	monarch = {
-		name = "Stadtrat"
+		name = "Patriziat"
 		adm = 3
 		dip = 3
 		mil = 3

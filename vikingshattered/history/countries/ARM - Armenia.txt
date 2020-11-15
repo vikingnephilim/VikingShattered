@@ -1,5 +1,6 @@
 government = monarchy
 add_government_reform = k_of_arm
+government_rank = 1
 primary_culture = armenian
 religion = coptic
 technology_group = eastern

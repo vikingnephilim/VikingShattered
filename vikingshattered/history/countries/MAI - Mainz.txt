@@ -1,16 +1,15 @@
 government = theocracy
 add_government_reform = leading_clergy_reform
-primary_culture = hessian
-religion = catholic
-elector = yes
 technology_group = western
+elector = yes
+religion = catholic
+primary_culture = hessian
 capital = 78	# Mainz
 fixed_capital = 78 # Cannot move capital away from this province & no power cost to move to it
 
-
 1434.6.11 = {
 	monarch = {
-		name = "Dietrich I"
+		name = "Dietrich von Ingolstadt"
 		birth_date = 1390.1.1
 		adm = 2
 		dip = 3

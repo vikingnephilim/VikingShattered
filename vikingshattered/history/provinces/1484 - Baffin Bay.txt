@@ -1,2 +1,5 @@
+
+discovered_by = VIN
+discovered_by = MRL
 1610.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }

@@ -71,11 +71,11 @@ margrave_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		is_part_of_hre = yes
-		NOT = { total_development = 200 }
+		NOT = { total_development = 300 }
 	}
 	trigger = {
 		is_part_of_hre = yes
-		NOT = { total_development = 100 }
+		NOT = { total_development = 200 }
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
@@ -381,6 +381,7 @@ portuguese_empire_reform = {
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 60
+	fixed_rank = 8
 	modifiers = {
 		trade_efficiency = 0.10
 		num_accepted_cultures = 2
@@ -621,6 +622,7 @@ austrian_empire_reform = {
 			has_reform = austrian_empire_reform
 		}
 	}
+	fixed_rank = 8
 	modifiers = {
 		harsh_treatment_cost = -0.15
 		monarch_diplomatic_power = 1
@@ -803,6 +805,7 @@ achaemenid_empire_reform = {
 				}
 			}
 		}
+		fixed_rank = 8
 	modifiers = {
 		prestige = 1
 		governing_capacity = 250
@@ -824,6 +827,7 @@ edo_empire_reform = {
 			tag = BEN
 		}
 	}
+	fixed_rank = 8
 	modifiers = {
 		global_unrest = -2
 		max_absolutism = 5
@@ -897,6 +901,7 @@ empire_of_japan_reform = {
 			has_reform = empire_of_japan_reform
 		}
 	}
+	fixed_rank = 8
 	modifiers = {
 		prestige_decay = -0.01
 	}
@@ -1234,6 +1239,7 @@ serbian_empire_reform = {
 			has_reform = serbian_empire_reform
 		}
     }
+	fixed_rank = 8		
     modifiers = {
 		max_absolutism = 5
 		unjustified_demands = -0.25
@@ -1322,11 +1328,11 @@ united_holy_roman_empire_reform = {
 			has_reform = united_holy_roman_empire_reform
 		}
     }
+	fixed_rank = 8		
     modifiers = {
 		governing_capacity = 500
 		accept_vassalization_reasons = 50
 		max_absolutism = 15
-		
     }
 	custom_attributes = {
 		enables_royal_council = yes

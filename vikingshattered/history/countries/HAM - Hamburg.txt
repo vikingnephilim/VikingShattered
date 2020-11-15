@@ -10,8 +10,7 @@ fixed_capital = 44 # Cannot move capital away from this province & no power cost
 
 1439.1.1 = {
 	monarch = {
-		name = "Alfred"
-		dynasty = "von Cham"
+		name = "Patriziat"
 		adm = 2
 		dip = 2
 		mil = 4

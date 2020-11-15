@@ -2,6 +2,8 @@ government = tribal
 add_government_reform = tribal_kingdom
 primary_culture = ganda
 religion = kalenjinism
+government_rank = 1
+
 technology_group = central_african
 unlock_cult = mwari_cult
 unlock_cult = central_african_ancestor_cult

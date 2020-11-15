@@ -1,6 +1,7 @@
 government = republic
 add_government_reform = cossacks_reform
-technology_group = nomad_group
+government_rank = 4
+technology_group = eastern
 religion = orthodox
 primary_culture = kozak
 capital = 283	# Zaporozhia

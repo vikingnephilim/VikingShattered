@@ -58,7 +58,7 @@ great_mongol_state_reform = {
 		}
 	}
 	legacy_equivalent = great_mongol_state_legacy
-	fixed_rank = 3
+	fixed_rank = 8
 	valid_for_nation_designer = no
 	nomad = yes
 	modifiers = {

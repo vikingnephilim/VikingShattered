@@ -1,6 +1,6 @@
 government = republic
 add_government_reform = grk_demo
-government_rank = 1
+government_rank = 2
 primary_culture = greek
 add_accepted_culture = peloponnesian
 religion = iconoclast

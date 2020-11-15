@@ -3,6 +3,8 @@ primary_culture = al_misr_arabic
 religion = monophysite
 technology_group = muslim
 capital = 358 # Alexandria
+government_rank = 1
+add_government_reform = iqta
 
 1444.1.1 = {
 
