@@ -1,9 +1,13 @@
 # No previous file for Bayamo
 
-culture = arawak
-religion = animism
+owner = NPH
+add_core = NPH
+controller = NPH
+
+culture = phoenician
+religion = samaritan_faith
 capital = "Bayamo"
-trade_goods = unknown
+trade_goods = cocoa
 hre = no
 base_tax = 2
 base_production = 3

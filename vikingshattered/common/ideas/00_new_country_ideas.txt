@@ -293,7 +293,10 @@ VIN_ideas = {
         navy_tradition = 0.5
     }
     trigger = {
-        tag = VIN
+		OR = {
+			tag = VIN
+			tag = MRL
+		}
     }
     free = yes        #wibe added at load.
     the_old_gods = {
@@ -1551,3 +1554,48 @@ GHA_ideas = {
 		core_creation = -0.1
 	}
 }
+
+NPH_ideas = {
+	start = {
+		colonists = 1
+		global_colonial_growth = 20
+	}
+	
+	bonus = {
+		allowed_marine_fraction = 0.15
+	}
+	trigger = {
+		tag = NPH
+	}
+	free = yes
+	
+	NPH_phon_alphabet = {		
+		technology_cost = -0.1
+	}
+	
+	NPH_trading_cities = {	
+		trade_steering = 0.15
+	}
+	
+	NPH_alliance_networks = {
+		diplomatic_upkeep = 1
+	}
+	
+	NPH_trans_atlantic = {
+		merchants = 1
+		trade_range_modifier = 0.5
+	}
+	
+	NPH_phoenician_ships = {
+		own_coast_naval_combat_bonus = 1
+	}
+	
+	NPH_new_world_ties = {
+		improve_relation_modifier = 0.2
+	}
+	
+	NPH_fertile_lands = {
+		global_manpower_modifier = 0.33
+	}
+}
+	
