@@ -82,7 +82,6 @@ country_event = {
 	trigger = {
 		religion = catholic
 		is_religion_enabled = protestant
-		is_religion_enabled = reformed
 		NOT = { culture_group = latin }
 		NOT = { culture_group = alpine_latin }
 		NOT = { culture_group = south_latin }
