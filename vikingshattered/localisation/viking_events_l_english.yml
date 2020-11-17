@@ -145,7 +145,7 @@
  bendtheknee.3.t: "The Fraticelli Question"
  bendtheknee.3.d: "His Holiness the Fraticelli Pope of Urbino has asked us if we would consider changing our ways and agreeing to look at Fraticelli, and see if we would come into the fold of the new Pope. They believe in similar aspects of Catholicism, but instead of the Catholic greed, they believe in being chaste and temperate. We can either stick to our Catholic roots, or we can sway on the side of the Fraticelli and the Fraticelli Pope."
  bendtheknee.3.a: "In the name of the son, the father and the Holy ghost, We are Fraticelli!"
- bendtheknee.3b: "In the name of the son, the father and the Holy ghost, We shall remain Catholic!"
+ bendtheknee.3.b: "In the name of the son, the father and the Holy ghost, We shall remain Catholic!"
  lollard_events.1.t:0 "The Display of Royal Arms"
  lollard_events.1.d:0 "Following the destruction and removal of Papist symbols, Lollard churches were left somewhat bare of decoration. It has been decreed that in place of these blasphemous icons, the Royal Arms of [Root.Monarch.GetName] is to be displayed. The presence of the Royal Arms cements in the public consciousness the reality of the new order; that [Root.Monarch.GetName] is appointed by God not only as [Root.Monarch.GetTitle] of $COUNTRY$, but also as Supreme Governor of the Church."
  lollard_events.1.a:0 "Display the Royal Arms proudly in every church."
