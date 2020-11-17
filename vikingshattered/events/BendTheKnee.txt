@@ -74,3 +74,32 @@ country_event = {
 		set_country_flag = hail_popeman	
 	}
 }
+country_event = {
+	id = bendtheknee.3
+	title = "bendtheknee.3.t"
+	desc = "bendtheknee.3.d"
+	picture = POPE_PREACHING_eventPicture
+	trigger = {
+		religion = catholic
+		}
+		NOT = {	has_country_flag = screw_pope }
+		NOT = { has_country_flag = hail_popeman }
+		}
+	mean_time_to_happen = { 
+		months = 36
+	}
+	immediate = {
+	}
+	option = {
+		name = "bendtheknee.3.a"
+		add_prestige = 50
+		change_religion = fraticelli
+		set_country_flag = screw_pope
+		}
+	option = {
+		name = "bendtheknee.3.b"
+		add_stability = 1
+		add_treasury = 100
+		set_country_flag = hail_popeman	
+	}
+}
