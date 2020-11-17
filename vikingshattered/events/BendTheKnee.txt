@@ -81,7 +81,6 @@ country_event = {
 	picture = POPE_PREACHING_eventPicture
 	trigger = {
 		religion = catholic
-		}
 		NOT = {	has_country_flag = screw_pope }
 		NOT = { has_country_flag = hail_popeman }
 		}
