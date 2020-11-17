@@ -715,3 +715,26 @@ druid_soc = {
 		locked_government_type = yes
 	}
 }
+fraticelli_papacy_reform = {
+	potential = {
+		tag = URB
+	}
+
+	modifiers = {
+		prestige_per_development_from_conversion = 0.33
+		tolerance_own = 1
+		church_influence_modifier = 0.2
+	}
+	valid_for_nation_designer = no
+	icon = "papacy"
+	allow_normal_conversion = yes
+	legacy_equivalent = papal_government
+	papacy = yes
+	allow_convert = no
+	lock_level_when_selected = yes
+	fixed_rank = 6
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}

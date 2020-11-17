@@ -7,18 +7,18 @@ random_nation_chance = 0
 
 historical_score = 200
 
-color = { 69  157  208 }
+color = { 20  133  237 }
 revolutionary_colors = { 8 1 8 }
 
 historical_idea_groups = {
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
+	plutocracy_ideas
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	maritime_ideas
+	administrative_ideas
+	offensive_ideas
+	quantity_ideas
 }
 
 historical_units = {

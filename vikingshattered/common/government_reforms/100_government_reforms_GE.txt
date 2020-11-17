@@ -901,29 +901,21 @@ empire_of_japan_reform = {
 			has_reform = empire_of_japan_reform
 		}
 	}
+	legacy_equivalent = shogunate_legacy
 	fixed_rank = 8
+	maintain_dynasty = yes
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
+	lock_level_when_selected = yes
+
 	modifiers = {
-		prestige_decay = -0.01
+		diplomats = 1
+		envoy_travel_time = -0.25
+		max_absolutism = 5
 	}
-	conditional = {
-		allow = { has_dlc = "Res Publica" }
-		queen = no
-		heir = no
-		duration = 100
-		has_term_election = yes
-		states_general_mechanic = {
-			GE_shogun = {
-				free_leader_pool = 1
-				army_tradition_decay = -0.005
-				legitimacy = -1
-			}
-			
-			GE_imperials = {
-				yearly_absolutism = 0.1
-				global_autonomy = -0.05
-				legitimacy = 1
-			}
-		}
+
+	custom_attributes = {
+		locked_government_type = yes
 	}
 	ai = {
 		factor = 100

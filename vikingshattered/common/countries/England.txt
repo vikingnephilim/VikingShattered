@@ -2,21 +2,21 @@
 
 graphical_culture = westerngfx
 
-color = { 193  26  14 }
+color = { 255  17  0 }
 
 revolutionary_colors = { 2  0  10 }
 
 preferred_religion = protestant
 
 historical_idea_groups = {
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
+	administrative_ideas
+	exploration_ideas
+	quality_ideas
+	maritime_ideas
+	economic_ideas
+	expansion_ideas
+	trade_ideas
+	naval_ideas
 }
 
 historical_units = {

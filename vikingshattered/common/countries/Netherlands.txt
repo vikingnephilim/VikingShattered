@@ -1,7 +1,7 @@
 #Country Name: Please see filename.
 
 graphical_culture = westerngfx
-color = { 220  138  57 }
+color = { 255  69  0 }
 
 historical_score = 3500
 revolutionary_colors = { 6  0  14 }
@@ -9,14 +9,14 @@ revolutionary_colors = { 6  0  14 }
 preferred_religion = reformed
 
 historical_idea_groups = {
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
+	administrative_ideas
+	exploration_ideas
+	defensive_ideas
+	maritime_ideas
+	innovativeness_ideas
+	quality_ideas
+	trade_ideas
+	economic_ideas
 }
 
 historical_units = {

@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 20  50  210 }
+color = { 0  0  139 }
 
 historical_council = concilatory
 
@@ -11,14 +11,14 @@ revolutionary_colors = { 15  0  16 }
 historical_score = 6700
 
 historical_idea_groups = {
-	 
-	 
-	 
-	 	
-	 	
-	 
-	 
-	 
+	economic_ideas
+	offensive_ideas
+	exploration_ideas
+	defensive_ideas	
+	administrative_ideas	
+	maritime_ideas
+	quality_ideas
+	innovativeness_ideas
 }
 
 historical_units = {

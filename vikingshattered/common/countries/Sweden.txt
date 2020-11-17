@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx	 
 
-color = { 8  82  165 }
+color = { 30  144  255 }
 
 revolutionary_colors = { 13  8  13 } #Fictional
 
@@ -10,14 +10,14 @@ historical_score = 2100
 preferred_religion = protestant
 
 historical_idea_groups = {
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
+	administrative_ideas
+	offensive_ideas
+	maritime_ideas
+	quality_ideas
+	innovativeness_ideas
+	defensive_ideas
+	expansion_ideas
+	trade_ideas
 }
 
 historical_units = {

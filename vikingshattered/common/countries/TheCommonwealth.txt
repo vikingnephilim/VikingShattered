@@ -2,20 +2,20 @@
 
 graphical_culture = easterngfx
 
-color = { 176  81  111 }
+color = { 229 18 60 }
 revolutionary_colors = { 5  0  5 }
 
 historical_score = 1500
 
 historical_idea_groups = {
-	 
-	 	
-	 
-	 
-	 
-	 
-	 	
-	 
+	diplomatic_ideas
+	humanist_ideas	
+	trade_ideas
+	offensive_ideas
+	administrative_ideas
+	defensive_ideas
+	aristocracy_ideas	
+	quality_ideas
 }
 
 historical_units = {
@@ -130,9 +130,9 @@ monarch_names = {
 	"Vincentas #0" = 0
 	"Vilhelmas #0" = 0
 	"Vytenis #1" = 0
-	"Agné #0" = -1
+	"Agnï¿½ #0" = -1
 	"Morta #0" = -1
-	"Viltauté #0" = -1
+	"Viltautï¿½ #0" = -1
 }
 
 leader_names = {
@@ -141,7 +141,7 @@ leader_names = {
 	Czarniecki Chometowski Cetner Chlewicki Chodecki Czapski Czarnkowski Czartoryski Czetwertynski Chodkiewicz
 	Denhoff Drzewicki Dambski Dzialynski Dzieduszycki Danilowicz
 	Fredro Flemming
-	Grodzicki Górka Grabowski Gembicki Gosiewski Grudzinski Grzymultowski Gurowski Giedroyc Gielgud
+	Grodzicki Gï¿½rka Grabowski Gembicki Gosiewski Grudzinski Grzymultowski Gurowski Giedroyc Gielgud
 	Houwaldt Herburt Hylzen Hlebowicz
 	Jablonowski Jazlowiecki Jaroslawski Jordan Judycki
 	Kurozwecki Koniecpolski Krasinski Kalinowski Korycki Kazanowski Kmita Komorowski Kamieniecki Karnkowski Krasicki Kwilecki Kurbski Kiszka Kossakowski Kiezgajlo Kosciuszko
@@ -161,12 +161,12 @@ leader_names = {
 ship_names = {
 	"Arka Noego" "Bialy Orzel" Burza "Bialy Lew" "Brzesko-Kujawskie" Belzkie Braclawskie
 	Charitas "Czarny Orzel" "Czarny Kruk" Chelminskie Czernichowskie
-	Fortuna Gryf Gwiazda Gnieznienskie Inoworclawskie "Król Dawid" Kaliskie Krakowskie Kijowskie Kraków
-	Lublin "Latajacy Jelen" Lwów Leczyckie Lubelskie "Maly Bialy Orzel" Malborskie Mazowieckie
+	Fortuna Gryf Gwiazda Gnieznienskie Inoworclawskie "Krï¿½l Dawid" Kaliskie Krakowskie Kijowskie Krakï¿½w
+	Lublin "Latajacy Jelen" Lwï¿½w Leczyckie Lubelskie "Maly Bialy Orzel" Malborskie Mazowieckie
 	Niewrazliwy "Nowy Czarny Orzel" "Prorok Samuel" "Panna Wodna" Plomien Poznanskie Plockie Podlaskie
 	Podolskie "Rycerz Swiety Jerzy" Rawskie Ruskie Strzelec Suwerenny "Swiety Piotr" Sieradzkie
 	Sandomierskie "Swiety Kazimierz" "Wielkie Slonce" Wodnik Warminskie Wolynskie Warszawa
-	Zwyciestwo "Zólty Lew" Alytus Birzai Druskininkai Gardinas Jonava Kaunas Kretinga Kreva
+	Zwyciestwo "Zï¿½lty Lew" Alytus Birzai Druskininkai Gardinas Jonava Kaunas Kretinga Kreva
 	Lazdijai Naugardukas Palanga Raseiniai Siauliai Sventoji Taurage Telsiai Trakai
 	Utena Vilkmerge
 }

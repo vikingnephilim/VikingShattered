@@ -1,6 +1,6 @@
-government = monarchy
-add_government_reform = feudalism_reform
-government_rank = 1
+government = theocracy
+add_government_reform = fraticelli_papacy_reform
+government_rank = 6
 technology_group = western
 primary_culture = umbrian
 religion = fraticelli

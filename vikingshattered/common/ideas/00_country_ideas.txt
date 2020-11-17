@@ -551,7 +551,7 @@ FER_ideas = {
 	free = yes		#will be added at load.
 	
 	FER_papal = {
-		papal_influence = 1
+		missionary_maintenance_cost = -0.15
 		religious_unity = 0.25
 	}
 	FER_culture = {
@@ -3093,7 +3093,7 @@ ASS_ideas = {
 
 TUS_ideas = {
 	start = {
-		papal_influence = 2
+		missionary_maintenance_cost = -0.25
 		development_cost = -0.1
 	}
 	

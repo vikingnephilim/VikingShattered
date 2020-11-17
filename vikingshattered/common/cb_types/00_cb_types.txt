@@ -745,9 +745,15 @@ cb_excommunication = {
 	prerequisites = {
 		FROM = {
 			is_excommunicated = yes
+			OR = {
 			religion = catholic
+			religion = fraticelli
+			}
 		}
-		religion = catholic
+		OR = {
+			religion = catholic
+			religion = fraticelli
+			}
 		is_excommunicated = no
 		FROM = {
 			is_neighbor_of = ROOT

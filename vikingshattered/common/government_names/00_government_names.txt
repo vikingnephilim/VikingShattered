@@ -876,6 +876,119 @@ icelandic_theocracy = {
 		}
 	}
 }
+byzantine_kingdom = {
+	rank = {
+        1 = EARLDOM_GRE
+        2 = DUKEDOM_GRE
+        3 = MARGRAVATE_GRE
+        4 = PRINCIPALITY_GRE
+        5 = ARCHDUCHY_GRE
+        6 = KINGDOM_GRE
+        7 = HIGH_KINGDOM_GRE
+        8 = EMPIRE_GRE
+	}
+	ruler_male = {
+        1 = EARL_GRE
+        2 = DUKE_GRE
+        3 = MARQUIS_GRE
+        4 = PRINCE_GRE
+        5 = ARCHDUCH_GRE
+        6 = KING_GRE
+        7 = HIGH_KING_GRE
+        8 = EMPEROR_GRE
+	}
+	ruler_female = {
+        1 = EARL_GRE_FEM
+        2 = DUCHESS_GRE
+        3 = MARQUESS_GRE
+        4 = PRINCESS_GRE
+        5 = ARCHDUCHESS_GRE
+        6 = QUEEN_GRE
+        7 = HIGH_QUEEN_GRE
+        8 = EMPRESS_GRE
+	}
+	trigger = {
+		government = monarchy
+		NOT = { has_reform = revolutionary_empire_reform }
+			culture_group = byzantine
+	}
+}
+byzantine_republic = {
+	rank = {
+		1 = CITY_GRE
+		2 = DISTRICT_GRE
+		3 = PREFECTURE_GRE
+		4 = REPUBLIC_GRE
+		5 = GREAT_REPUBLIC_GRE
+		6 = GREAT_REPUBLIC_GRE
+		7 = FEDERAL_REPUBLIC_GRE
+		8 = GRAND_FEDERAL_REPUBLIC_GRE
+	}
+	ruler_male = {
+		1 = MAYOR_GRE
+		2 = GRAND_MAYOR_GRE
+		3 = GOVERNOR_GRE
+		4 = CONSUL_GRE
+		5 = GRAND_CONSUL_GRE
+		6 = FIRST_MINISTER_GRE
+		7 = PRESIDENT_GRE
+		8 = CHANCELLOR_GRE
+	}
+	ruler_female = {
+		1 = MAYOR_GRE_fem
+		2 = GRAND_MAYOR_GRE_fem
+		3 = GOVERNOR_GRE_fem
+		4 = CONSUL_GRE_fem
+		5 = GRAND_CONSUL_GRE_fem
+		6 = FIRST_MINISTER_GRE_fem
+		7 = PRESIDENT_GRE_fem
+		8 = CHANCELLOR_GRE_fem
+	}
+	trigger = {
+			AND = {
+				government = republic
+				culture_group = byzantine
+		}
+	}
+}
+byzantine_theocracy = {
+	rank = {
+		1 = MONASTARY_GRE
+		2 = PARISH_GRE
+		3 = DIOCESE_GRE
+		4 = BISHOPRIC_GRE
+		5 = ARCHDIOCESE_GRE
+		6 = METROPOLITAN_BISHOPRIC_GRE
+		7 = ARCHBISHOPRIC_GRE
+		8 = PATRIARCHATE_GRE
+	}
+	ruler_male = {
+        1 = MONK_GRE
+        2 = DEACON_GRE
+        3 = ARCHDEACON_GRE
+        4 = PRIEST_GRE
+        5 = ARCHPRIEST_GRE
+        6 = BISHOP_GRE
+        7 = ARCHBISHOP_GRE
+        8 = PATRIARCH_GRE
+	}
+	ruler_female = {
+        1 = MONK_GRE_FEM
+        2 = DEACON_GRE_FEM
+        3 = ARCHDEACON_GRE_FEM
+        4 = PRIEST_GRE_FEM
+        5 = ARCHPRIEST_GRE_FEM
+        6 = BISHOP_GRE_FEM
+        7 = ARCHBISHOP_GRE_FEM
+        8 = MATRIARCH_GRE
+	}
+	trigger = {
+			AND = {
+				government = theocracy
+				culture_group = byzantine
+		}
+	}
+}
 russian_monarchy = {
 	rank = {
     1 = EARLDOM_RUS
@@ -2093,6 +2206,38 @@ celestial_parliament = {
 		has_reform = parliamentary_reform
 	}
 }
+celestial_japanese_empire = {
+	rank = {
+		8 = PARLIAMENTARY_SHOGUNATE
+	}
+	ruler_male = {
+		8 = SHOGUN
+	}
+	ruler_female = {
+		8 = SHOGUNESS
+	}
+	consort_male = {
+		8 = LORD_CONSORT
+	}
+	consort_female = {
+		8 = LADY_CONSORT
+	}
+	heir_male = {
+		8 = HEIR
+	}
+	heir_female = {
+		8 = HEIR_fem
+	}
+	trigger = {
+		AND = {
+			OR = {
+				has_reform = empire_of_japan_reform
+				has_reform = shogunate
+			}
+				has_reform = parliamentary_reform
+		}
+	}
+}
 japanese_empire_rank = {
 	rank = {
 		1 = DAIMYO
@@ -2406,6 +2551,112 @@ march_eastern_christian_monarchy = {
 		is_march = yes
 	}
 }
+gov_fraticelli_papal_government = {
+	rank = {
+		1 = PAPACY
+		2 = PAPACY
+		3 = PAPACY
+		4 = PAPACY
+		5 = PAPACY
+		6 = PAPACY
+		7 = PAPACY
+		8 = PAPACY
+	}
+	ruler_male = {
+		1 = POPE
+		2 = POPE
+		3 = POPE
+		4 = POPE
+		5 = POPE
+		6 = POPE
+		7 = POPE
+		8 = POPE
+	}
+	ruler_female = {
+		1 = POPETTE
+		2 = POPETTE
+		3 = POPETTE
+		4 = POPETTE
+		5 = POPETTE
+		6 = POPETTE
+		7 = POPETTE
+		8 = POPETTE
+	}
+	trigger = {
+		has_reform = fraticelli_papacy_reform
+	}
+}
+gov_fraticelli_papal_government_elector = {
+	rank = {
+		1 = PAPACY
+		2 = PAPACY
+		3 = PAPACY
+		4 = PAPACY
+		5 = PAPACY
+		6 = PAPACY
+		7 = PAPACY
+		8 = PAPACY
+	}
+	ruler_male = {
+		1 = POPE_ELECTOR
+		2 = POPE_ELECTOR
+		3 = POPE_ELECTOR
+		4 = POPE_ELECTOR
+		5 = POPE_ELECTOR
+		6 = POPE_ELECTOR
+		7 = POPE_ELECTOR
+		8 = POPE_ELECTOR
+	}
+	ruler_female = {
+		1 = POPETTE_ELECTOR
+		2 = POPETTE_ELECTOR
+		3 = POPETTE_ELECTOR
+		4 = POPETTE_ELECTOR
+		5 = POPETTE_ELECTOR
+		6 = POPETTE_ELECTOR
+		7 = POPETTE_ELECTOR
+		8 = POPETTE_ELECTOR
+	}
+	trigger = {
+		has_reform = fraticelli_papacy_reform
+			is_elector = yes
+	}
+}
+gov_papal_government = {
+	rank = {
+		1 = PAPACY
+		2 = PAPACY
+		3 = PAPACY
+		4 = PAPACY
+		5 = PAPACY
+		6 = PAPACY
+		7 = PAPACY
+		8 = PAPACY
+	}
+	ruler_male = {
+		1 = POPE
+		2 = POPE
+		3 = POPE
+		4 = POPE
+		5 = POPE
+		6 = POPE
+		7 = POPE
+		8 = POPE
+	}
+	ruler_female = {
+		1 = POPETTE
+		2 = POPETTE
+		3 = POPETTE
+		4 = POPETTE
+		5 = POPETTE
+		6 = POPETTE
+		7 = POPETTE
+		8 = POPETTE
+	}
+	trigger = {
+		has_reform = papacy_reform
+	}
+}
 gov_papal_government_elector = {
 	rank = {
 		1 = PAPACY
@@ -2427,7 +2678,7 @@ gov_papal_government_elector = {
 		7 = POPE_ELECTOR
 		8 = POPE_ELECTOR
 	}
-	ruler_female  ={
+	ruler_female = {
 		1 = POPETTE_ELECTOR
 		2 = POPETTE_ELECTOR
 		3 = POPETTE_ELECTOR
