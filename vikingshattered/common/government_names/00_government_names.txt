@@ -601,6 +601,77 @@ italian_republic = {
 		}
 	}
 }
+norman_duchy = {
+	rank = {
+		2 = NORMAN_DUCHY
+	}
+	ruler_male = {
+		2 = DUKE_FRENCH
+	}
+	ruler_female = {
+		2 = DUCHESS_FRENCH
+	}	
+	trigger = {
+		government = monarchy
+		has_reform = norman_duchy_reform
+	}
+}
+cathar_reform = {
+	rank = {
+		1 = CATHAR_REFORMED
+		2 = CATHAR_REFORMED
+		3 = CATHAR_REFORMED
+		4 = CATHAR_REFORMED
+		5 = CATHAR_REFORMED
+		6 = CATHAR_REFORMED
+		7 = CATHAR_REFORMED
+		8 = CATHAR_REFORMED
+		}
+		ruler_male = {
+			1 = EARL_FRENCH
+			2 = DUKE_FRENCH
+			3 = MARQUIS_FRENCH
+			4 = PRINCE_FRENCH
+			5 = ARCHDUCH_FRENCH
+			6 = KING_FRENCH
+			7 = HIGH_KING_FRENCH
+			8 = EMPEROR_FRENCH
+		}
+		ruler_female = {
+			1 = EARL_FRENCH_FEM
+			2 = DUCHESS_FRENCH
+			3 = MARQUESS_FRENCH
+			4 = PRINCESS_FRENCH
+			5 = ARCHDUCHESS_FRENCH
+			6 = QUEEN_FRENCH
+			7 = HIGH_QUEEN_FRENCH
+			8 = EMPRESS_FRENCH
+		}
+		heir_male = {
+			1 = DAUPHIN
+			2 = DAUPHIN
+			3 = DAUPHIN
+			4 = DAUPHIN
+			5 = DAUPHIN
+			6 = DAUPHIN
+			7 = DAUPHIN
+			8 = DAUPHIN
+		}
+		heir_female = {
+			1 = DAUPHINE
+			2 = DAUPHINE
+			3 = DAUPHINE
+			4 = DAUPHINE
+			5 = DAUPHINE
+			6 = DAUPHINE
+			7 = DAUPHINE
+			8 = DAUPHINE
+		}
+	trigger = {
+		government = monarchy
+		has_reform = cathar_reform
+	}
+}
 french_kingdom = {
 	rank = {
         1 = EARLDOM_FRENCH
@@ -759,8 +830,51 @@ norse_kingdom = {
 	trigger = {
 		government = monarchy
 		has_reform = norse_reform
-		NOT = { has_reform = revolutionary_empire_reform }
-			culture_group = old_norse_culture
+	}
+}
+united_holy_roman_empire = {
+	rank = {
+        8 = EMPIRE_GERMAN
+	}
+	ruler_male = {
+        8 = EMPEROR_GERMAN
+	}
+	ruler_female = {
+        8 = EMPRESS_GERMAN
+	}
+	trigger = {
+		government = monarchy
+		has_reform = united_holy_roman_empire_reform
+	}
+}
+austrian_empire = {
+	rank = {
+        8 = EMPIRE_GERMAN
+	}
+	ruler_male = {
+        8 = EMPEROR_GERMAN
+	}
+	ruler_female = {
+        8 = EMPRESS_GERMAN
+	}
+	trigger = {
+		government = monarchy
+		has_reform = austrian_empire_reform
+	}
+}
+achaemenid_empire = {
+	rank = {
+        8 = ACHAEMENID_EMPIRE
+	}
+	ruler_male = {
+        8 = EMPEROR
+	}
+	ruler_female = {
+        8 = EMPRESS
+	}
+	trigger = {
+		government = monarchy
+		has_reform = achaemenid_empire_reform
 	}
 }
 icelandic_kingdom = {
