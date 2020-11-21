@@ -1887,7 +1887,7 @@ christian = {
 				local_missionary_strength = -0.02
 			}
 			heretic = { CATHOLIC MESSALIAN MONOPHYSITE ORTHODOX NESTORIAN }
-			holy_sites = { 358 1227 2313 1234 419 }
+			holy_sites = { 358 1227 2313 1234 379 }
 			blessings = {
 				legitimize_government
 				encourage_warriors_of_the_faith

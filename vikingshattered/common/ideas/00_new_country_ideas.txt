@@ -1595,7 +1595,8 @@ NPH_ideas = {
 	}
 	
 	NPH_fertile_lands = {
-		global_manpower_modifier = 0.33
+		global_manpower_modifier = 0.2
+		development_cost = -0.1
 	}
 }
 	

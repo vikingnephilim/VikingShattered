@@ -169,6 +169,7 @@ k_of_arm = {
     modifiers = {
 		missionaries = 1
 		missionary_maintenance_cost = -0.25
+		defensiveness = 0.1
 	}
 }
 byz_rumpstate = {

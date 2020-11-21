@@ -3,13 +3,13 @@
 owner = ARM
 controller = ARM
 culture = armenian
-religion = coptic
+religion = monothelite
 capital = "Yerevan"
 trade_goods = wine
 hre = no
-base_tax = 4
-base_production = 4
-base_manpower = 3
+base_tax = 6
+base_production = 6
+base_manpower = 5
 is_city = yes
 add_core = ARM 
 
