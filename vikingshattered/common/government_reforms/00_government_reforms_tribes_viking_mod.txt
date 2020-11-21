@@ -1,0 +1,1395 @@
+### MAKE SURE YOU PUT YOUR GOVERNMENT TYPE ###
+###### IN THE RIGHT SECTIONS AND IN THE ######
+## GOVERNMENTS FILE SO THAT IT WILL SHOW UP ##
+##############################################
+################## TRIBES ####################
+##############################################
+tribe_mechanic = {
+	tribal = yes
+	monarchy = yes
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+	heir = yes
+	queen = yes
+}
+eghaevbo_administration_reform = {
+	icon = generic_people
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		OR = {
+			has_reform = eghaevbo_administration_reform
+			tag = BEN
+		}
+	}
+	modifiers = {
+		core_creation = -0.10
+		governing_capacity = 150
+	}
+	ai = {
+		factor = 100
+	}
+	#-10 Noble Influence
+}
+steppe_horde = {
+	icon = "horde_riding"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+			has_reform = steppe_horde
+			culture_group = altaic
+			culture_group = tartar
+		}
+		has_reform = steppe_horde
+		NOT = { has_reform = great_mongol_state_reform }
+	}
+	legacy_equivalent = steppe_horde_legacy
+	nomad = yes
+	FIXED_RANK = 3
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+		technology_group = nomad_group
+	}
+	lock_level_when_selected = yes
+	start_territory_to_estates = 0.5
+	modifiers = {
+		global_manpower_modifier = 0.2
+		land_forcelimit_modifier = 0.2
+		loot_amount = 0.50
+		global_institution_spread = -0.15
+		reinforce_cost_modifier = -0.5
+		cav_to_inf_ratio = 0.25
+		movement_speed = 0.2
+		years_of_nationalism = -5
+	}
+	ai = {
+		factor = 1000
+	}
+}
+great_mongol_state_reform = {
+	icon = "horde_riding"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		OR = {
+			has_reform = great_mongol_state_reform
+			have_had_reform = great_mongol_state_reform
+			tag = MGE
+		}
+	}
+	legacy_equivalent = great_mongol_state_legacy
+	fixed_rank = 8
+	valid_for_nation_designer = no
+	nomad = yes
+	modifiers = {
+		horde_unity = 1
+		global_manpower_modifier = 0.2
+		land_forcelimit_modifier = 0.2
+		loot_amount = 0.50
+		reinforce_cost_modifier = -0.5
+		cav_to_inf_ratio = 0.25
+		movement_speed = 0.2
+		years_of_nationalism = -5
+	}
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		allow_banners = yes
+	}
+}
+tribal_federation = {
+	icon = "chieftain"
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = tribal_federation
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 20
+	fixed_rank = 5
+	legacy_equivalent = tribal_federation_legacy
+	lock_level_when_selected = yes
+	modifiers = {
+		years_of_nationalism = -5
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			tribal_federation_mechanic
+		}
+	}
+}
+tribal_despotism = {
+	icon = "tribal_council"
+	fixed_rank = 5
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		core_creation = -0.1
+	}
+	legacy_equivalent = tribal_despotism_legacy
+}
+tribal_kingdom = {
+	icon = "indian_crown"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	fixed_rank = 6
+	legacy_equivalent = tribal_kingdom_legacy
+	modifiers = {
+		vassal_income = 0.2
+	}
+}
+siberian_tribe = {
+	icon = "shaman"
+	allow_normal_conversion = no
+	potential = {
+		has_reform = siberian_tribe
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = -10
+	legacy_equivalent = siberian_native_council
+	native_mechanic = no
+	allow_migration = yes
+	fixed_rank = 1
+	lock_level_when_selected = yes
+	modifiers = {
+		stability_cost_modifier = -0.33
+		global_institution_spread = -0.2
+	}
+}
+#tribal_cultural_values
+martial_society_reform = {
+	allow_normal_conversion = yes
+	icon = "tribal_martial_society"
+	modifiers = {
+		global_manpower_modifier = 0.2
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 2
+			any_enemy_country = {
+				army_size = root
+			}
+		}
+	}
+}
+civil_society_reform = {
+	allow_normal_conversion = yes
+	icon = "tribal_civil_society"
+	modifiers = {
+		global_tax_modifier = 0.05
+		yearly_corruption = -0.05
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				is_in_deficit = yes
+				num_of_loans = 5
+				corruption = 5
+			}
+		}
+	}
+}
+royal_society_reform = {
+	icon = kongolese_king
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			has_reform = royal_society_reform
+			culture_group = kongo_group
+			tag = BEN
+		}
+	}
+	modifiers = {
+		global_autonomy = -0.05
+		state_maintenance_modifier = -0.25
+	}
+	ai = {
+		factor = 10
+	}
+}
+slave_raids_reform = {
+	icon = tatar_slave_raid
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = tartar
+	}
+	trigger = {
+		culture_group = tartar
+	}
+	modifiers = {
+		production_efficiency = 0.05
+		global_trade_goods_size_modifier = 0.10
+	}
+	ai = {
+		factor = 10
+	}
+}
+herders_of_the_steppe = {
+	icon = steppe_shepherds
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			has_reform = steppe_horde
+			has_reform = tribal_federation
+		}
+	}
+	modifiers = {
+		manpower_recovery_speed = 0.1
+		min_autonomy_in_territories = -0.1
+	}
+	ai = {
+		factor = 10
+	}
+}
+legacy_of_pax_mongolia = {
+	icon = steppe_shepherds
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			culture_group = altaic
+		}
+	}
+	trigger = {
+		OR = {
+			culture_group = altaic
+		}
+	}
+	modifiers = {
+		global_unrest = -1
+		num_accepted_cultures = 2
+	}
+	#custom_attributes = {
+	#	enables_pax_mongolia = yes
+	#}
+	ai = {
+		factor = 10
+	}
+}
+three_jurchen_tribes_reform = {
+	icon = generic_people
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			culture_group = evenks
+			primary_culture = manchu_new
+		} 
+	}
+	trigger = {
+		OR = {
+			culture_group = evenks
+			primary_culture = manchu_new
+		}
+	}
+	modifiers = {
+		global_trade_goods_size_modifier = 0.05
+		global_tax_modifier = 0.05
+		land_attrition = -0.10
+	}
+	ai = {
+		factor = 10
+	}
+}
+#Religion vs Secularization
+religious_societies_reform = {
+	icon = "tribal_religious_society"
+	allow_normal_conversion = yes
+	modifiers = {
+		stability_cost_modifier = -0.1
+		religious_unity = 0.15
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			religious_unity = 1
+		}
+		modifier = {
+			factor = 0.5
+			religious_unity = 0.9
+		}
+	}
+}
+lip_service_reform = {
+	icon = "tribal_lip_service"
+	allow_normal_conversion = yes
+	modifiers = {
+		land_maintenance_modifier = -0.1
+	}
+}
+sheikhdom_reform = {
+	icon = noble_muslim
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = turko_semitic
+		NOT = { primary_culture = turkish }
+	}
+	modifiers = {
+		tolerance_own = 1
+		warscore_cost_vs_other_religion = -0.10
+	}
+	ai = {
+		factor = 10
+	}
+}
+great_code_of_nomads = {
+	icon = steppe_buddhists
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = steppe_horde
+		religion_group = eastern
+	}
+	modifiers = {
+		global_trade_power = 0.2
+		tolerance_own = 1
+	}
+	ai = {
+		factor = 100
+	}
+}
+world_under_tengri = {
+	icon = strength_of_the_khalsa
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			culture_group = altaic
+		}
+	}
+	trigger = {
+		OR = {
+			culture_group = altaic
+		}
+	}
+	modifiers = {
+		tolerance_own = 1
+		tolerance_heathen = 1
+		tolerance_heretic = 1
+	}
+	ai = {
+		factor = 10
+	}
+}
+maintain_charade_reform = {
+	icon = arabic_scripture
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			culture_group = evenks
+			primary_culture = manchu_new
+		}
+	}
+	trigger = {
+		OR = {
+			culture_group = evenks
+			primary_culture = manchu_new
+		}
+	}
+	modifiers = {
+		diplomatic_reputation = 1
+		global_unrest = -1
+	}
+	ai = {
+		factor = 10
+	}
+}
+tolerance_of_the_church_reform = {
+	icon = church
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = tartar
+	}
+	trigger = {
+		culture_group = tartar
+	}
+	modifiers = {
+		tolerance_heathen = 1
+		state_maintenance_modifier = -0.10
+	}
+	ai = {
+		factor = 10
+	}
+}
+children_of_osanobua_reform = {
+	icon = generic_people
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			has_reform = children_of_osanobua_reform
+			tag = BEN
+		}
+	}
+	modifiers = {
+		global_unrest = -1
+		development_cost = -0.10
+	}
+	ai = {
+		factor = 100
+	}
+}
+#Militarisation
+traditionalist_reform = {
+	icon = soldiers_4
+	allow_normal_conversion = yes
+	potential = {
+	}
+	modifiers = {
+		shock_damage = 0.05
+		cavalry_cost = -0.10
+		cav_to_inf_ratio = 0.10
+	}
+	#+10% Tribe Loyalty
+	ai = {
+		factor = 1
+	}
+}
+gunpowder_weapons_reform = {
+	icon = national_guard
+	allow_normal_conversion = yes
+	potential = {
+		NOT = {
+			OR = {
+				technology_group = south_african
+				technology_group = west_african
+				technology_group = east_african
+			}
+		}
+	}
+	modifiers = {
+		fire_damage = 0.05
+		infantry_cost = -0.10
+	}
+	#-10% Tribe Loyalty
+	ai = {
+		factor = 1
+	}
+}
+traditionalist_african_reform = {
+	icon = soldiers_4
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			technology_group = south_african
+			technology_group = west_african
+			technology_group = east_african
+		}
+	}
+	modifiers = {
+		infantry_power = 0.10
+	}
+	#+10% Noble Loyalty
+	ai = {
+		factor = 1
+	}
+}
+gunpowder_weapons_african_reform = {
+	icon = national_guard
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			technology_group = south_african
+			technology_group = west_african
+			technology_group = east_african
+		}
+	}
+	modifiers = {
+		fire_damage = 0.05
+		mil_tech_cost_modifier = -0.1
+	}
+	#-10% Noble Loyalty
+	ai = {
+		factor = 1
+	}
+}
+african_jungle_warrior_reform = {
+	icon = tribal_martial_society
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			technology_group = south_african
+			technology_group = west_african
+			technology_group = east_african
+		}
+	}
+	trigger = {
+		OR = {
+			technology_group = south_african
+			technology_group = west_african
+			technology_group = east_african
+		}
+	}
+	modifiers = {
+		shock_damage = 0.05
+		movement_speed = 0.10
+		hostile_attrition = 1
+	}
+	ai = {
+		factor = 1
+	}
+}
+elephant_riders_reform = { 
+	icon = noble_indian
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			technology_group = indian
+		}
+	}
+	trigger = {
+		OR = {
+			technology_group = indian
+		}
+	}
+	modifiers = {
+		cavalry_power = 0.10
+		shock_damage_received = -0.10
+		cavalry_cost = 0.10
+	}
+	ai = {
+		factor = 1
+	}
+}
+turkoman_gunners_reform = {
+	icon = soldiers_2
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			culture_group = iranian
+			primary_culture = turkish
+			primary_culture = turkmeni
+			primary_culture = uzbehk
+		}
+		NOT = { tag = TUR }
+	}
+	trigger = {
+		OR = {
+			culture_group = iranian
+			primary_culture = turkish
+			primary_culture = turkmeni
+			primary_culture = uzbehk
+		}
+	}
+	modifiers = {
+		artillery_power = 0.05
+		artillery_cost = -0.10
+		artillery_bonus_vs_fort = 1
+	}
+	ai = {
+		factor = 10
+	}
+}
+tatar_raiders_reform = {
+	icon = tatar_slave_raid
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = tartar
+	}
+	trigger = {
+		culture_group = tartar
+	}
+	modifiers = {
+		shock_damage = 0.10
+		recover_army_morale_speed = -0.05
+		loot_amount = 0.50
+	}
+	ai = {
+		factor = 10
+	}
+}
+#Modernizantion
+retain_tribal_hierarchy_reform = {
+	icon = "retain_tribal_hierarchy"
+	allow_normal_conversion = yes
+	modifiers = {
+		governing_capacity = 150
+		max_absolutism = 10
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_owned_province = {
+					is_territorial_core = root
+				}
+			}
+		}
+	}
+}
+centralize_tribal_power_reform = {
+	icon = "tribal_centralize_power"
+	allow_normal_conversion = yes
+	modifiers = {
+		core_creation = -0.05
+		stability_cost_modifier = -0.05
+	}
+}
+horde_barbaric_despoilers_reform = {
+	icon = "rioting_burning_2"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			has_reform = steppe_horde
+			has_reform = great_mongol_state_reform
+		}
+		has_dlc = "The Cossacks"
+	}
+	modifiers = {
+		raze_power_gain = 0.33
+	}
+	ai = {
+		factor = 2
+	}
+}
+horde_tribal_unity_reform = {
+	icon = "fist_in_air"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			has_reform = steppe_horde
+			has_reform = great_mongol_state_reform
+		}
+		has_dlc = "The Cossacks"
+	}
+	modifiers = {
+		horde_unity = 2
+	}
+	ai = {
+		factor = 2
+	}
+}
+tribe_becomes_monarchy_reform = {
+	icon = "king_highlighted"
+	allow_normal_conversion = yes
+	effect = {
+		set_country_flag = populists_in_government
+		lose_reforms = 4
+		if = {
+			limit = {
+				technology_group = nomad_group
+				OR = {
+					religion_group = muslim
+					secondary_religion = sunni
+					secondary_religion = shiite
+					secondary_religion = ibadi
+				}
+			}
+			change_technology_group = muslim
+			change_unit_type = muslim
+		}
+		if = {
+			limit = {
+				technology_group = nomad_group
+				religion_group = christian
+			}
+			change_technology_group = eastern
+			change_unit_type = eastern
+		}
+		if = {
+			limit = {
+				technology_group = nomad_group
+				NOT = { religion_group = muslim }
+				NOT = { religion_group = christian }
+				NOT = { secondary_religion = sunni }
+				NOT = { secondary_religion = shiite }
+				NOT = { secondary_religion = ibadi }
+			}
+			change_technology_group = chinese
+			change_unit_type = chinese
+		}
+		change_government = monarchy
+	}
+	ai = {
+		factor = 1
+	}
+}
+tribe_becomes_republic_reform = {
+	icon = "parliament_highlighted"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = { is_lesser_in_union = yes }
+	}
+	effect = {
+		set_country_flag = populists_in_government
+		lose_reforms = 4
+		if = {
+			limit = {
+				technology_group = nomad_group
+				OR = {
+					religion_group = muslim
+					secondary_religion = sunni
+					secondary_religion = shiite
+					secondary_religion = ibadi
+				}
+			}
+			change_technology_group = muslim
+			change_unit_type = muslim
+		}
+		if = {
+			limit = {
+				technology_group = nomad_group
+				religion_group = christian
+			}
+			change_technology_group = eastern
+			change_unit_type = eastern
+		}
+		if = {
+			limit = {
+				technology_group = nomad_group
+				NOT = { religion_group = muslim }
+				NOT = { religion_group = christian }
+				NOT = { secondary_religion = sunni }
+				NOT = { secondary_religion = shiite }
+				NOT = { secondary_religion = ibadi }
+			}
+			change_technology_group = chinese
+			change_unit_type = chinese
+		}
+		change_government = republic
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				has_reform = steppe_horde
+				has_reform = great_mongol_state_reform
+				NOT = { trade_income_percentage = 0.3 }
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				num_of_centers_of_trade = 5
+				trade_income_percentage = 0.4
+			}
+		}
+	}
+}
+tribe_becomes_theocracy_reform = {
+	icon = "pope_highlighted"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = { is_lesser_in_union = yes }
+	}
+	effect = {
+		set_country_flag = populists_in_government
+		lose_reforms = 4
+		if = {
+			limit = {
+				technology_group = nomad_group
+				OR = {
+					religion_group = muslim
+					secondary_religion = sunni
+					secondary_religion = shiite
+					secondary_religion = ibadi
+				}
+			}
+			change_technology_group = muslim
+			change_unit_type = muslim
+		}
+		else_if = {
+			limit = {
+				technology_group = nomad_group
+				religion_group = christian
+			}
+			change_technology_group = eastern
+			change_unit_type = eastern
+		}
+		else_if = {
+			limit = {
+				technology_group = nomad_group
+				NOT = { religion_group = muslim }
+				NOT = { religion_group = christian }
+				NOT = { secondary_religion = sunni }
+				NOT = { secondary_religion = shiite }
+				NOT = { secondary_religion = ibadi }
+			}
+			change_technology_group = chinese
+			change_unit_type = chinese
+		}
+		change_government = theocracy
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				has_reform = steppe_horde
+				has_reform = great_mongol_state_reform
+				NOT = { religion_group = muslim }
+			}
+		}
+	}
+}
+tribe_becomes_horde_reform = {
+	icon = "horde_riding_highlighted"
+	allow_normal_conversion = yes
+	effect = {
+		set_country_flag = populists_in_government
+		add_government_reform = steppe_horde
+		change_unit_type = nomad_group
+		change_technology_group = nomad_group
+		custom_tooltip = STEPPE_HORDE_BENEFITS
+	}
+	trigger = {
+		OR = {
+			NOT = {	has_reform = steppe_horde }
+			has_reform = tribe_becomes_horde_reform
+		}
+		NOT = { has_reform = great_mongol_state_reform }
+	}
+	ai = {
+		factor = 0
+	}
+}
+iranian_bureacracy_reform = {
+	icon = iranian_bureaucracy
+	allow_normal_conversion = yes
+	potential = {
+		num_of_owned_provinces_with = {
+			value = 5
+			culture_group = iranian
+		}
+	}
+	modifiers = {
+		governing_capacity = 250
+		global_autonomy = -0.025
+	}
+	ai = {
+		factor = 10
+	}
+}
+reintroduce_the_dirham = {
+	icon = paper_money_map
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			culture_group = altaic
+		}
+	}
+	trigger = {
+		OR = {
+			culture_group = altaic
+		}
+	}
+	modifiers = {
+		trade_efficiency = 0.10
+		diplomatic_annexation_cost = -0.15
+	}
+	ai = {
+		factor = 10
+	}
+}
+birth_of_the_manchu_reform = {
+	icon = asian_scripture
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			culture_group = evenks
+			primary_culture = manchu_new
+		}
+	}
+	trigger = {
+		OR = {
+			culture_group = evenks
+			primary_culture = manchu_new
+		}
+	}
+	modifiers = {
+		culture_conversion_cost = -0.20
+		idea_cost = -0.10
+	}
+	ai = {
+		factor = 10
+	}
+}
+bashqaq_administration_reform = {
+	icon = judge
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = tartar
+	}
+	trigger = {
+		culture_group = tartar
+	}
+	modifiers = {
+		global_unrest = -2
+		governing_capacity = 250
+	}
+	ai = {
+		factor = 10
+	}
+}
+#Reformation
+recruit_cossacks_reform = {
+	icon = soldiers_2
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = tartar
+	}
+	trigger = {
+		culture_group = tartar
+	}
+	modifiers = {
+		reinforce_cost_modifier = 0.20
+		reinforce_speed = -0.15
+	}
+	custom_attributes = {
+		enables_cossack_estate = yes
+	}
+	ai = {
+		factor = 1
+	}
+}
+feudal_vassals_reform = {
+	icon = castle
+	allow_normal_conversion = yes
+	potential = {
+	}
+	modifiers = {
+		vassal_income = 0.25
+		vassal_forcelimit_bonus = 1.00
+	}
+	custom_attributes = {
+		enables_noble_estate = yes
+	}
+	ai = {
+		factor = 1
+	}
+}
+strenghten_industry_reform = {
+	icon = economy_industry
+   allow_normal_conversion = yes
+   potential = {
+   }
+   modifiers = {
+	   global_tax_modifier = -0.10
+	   build_cost = -0.1
+   }
+   custom_attributes = {
+	   enables_industrialism = yes #+0.2 Goods produced in workshops
+   }
+   ai = {
+	   factor = 1
+   }
+}
+mercantilism_reform = {
+	icon = economy_trade
+   allow_normal_conversion = yes
+   effect = {
+	   add_mercantilism = 5
+   }
+   modifiers = {
+	   global_prov_trade_power_modifier = 0.10
+	   trade_steering = 0.20
+	   merchants = 1
+   }
+   custom_attributes = {
+	   enables_home_market = yes #1.5% Trade Efficiency per 10% Mercantilism
+   }
+   ai = {
+	   factor = 1
+   }
+}
+empowered_free_trade_reform = {
+	icon = empowered_free_trade
+   allow_normal_conversion = yes
+   effect = {
+	   add_mercantilism = -10
+   }
+   potential = { 
+	   check_variable = {
+		   which = Burgher_Influence			
+		   value = 3
+	   }
+   }
+   trigger = {
+	   check_variable = {
+		   which = Burgher_Influence			
+		   value = 3
+	   }
+	   NOT = { mercantilism = 25 }
+   }
+   modifiers = {
+	   global_trade_power = -0.10
+	   global_trade_goods_size_modifier = 0.15
+	   merchants = 1
+   }
+   can_use_trade_post = yes
+   ai = {
+	   factor = 1
+   }
+}
+noble_taxes_reform = {
+	icon = economy_tax
+   allow_normal_conversion = yes
+   potential = {
+   }
+   modifiers = {
+	   vassal_income = 0.25
+	   global_tax_modifier = 0.15
+	   min_autonomy_in_territories = -0.10
+	   diplomatic_upkeep = 1
+   }
+   ai = {
+	   factor = 1
+   }
+}
+empowered_aristocratic_estates_reform = {
+   icon = empowered_aristocrat_estate
+   allow_normal_conversion = yes
+   potential = { 
+	   check_variable = {
+		   which = Burgher_Influence			
+		   value = 1
+	   }
+	   check_variable = {
+		   which = Noble_Influence			
+		   value = 2
+	   }
+   }
+   trigger = {
+	   check_variable = {
+		   which = Burgher_Influence			
+		   value = 1
+	   }
+	   check_variable = {
+		   which = Noble_Influence			
+		   value = 2
+	   }
+   }
+   modifiers = {
+	   production_efficiency = 0.10
+	   global_manpower_modifier = 0.10
+   }
+   # custom_attributes = {
+	   # enables_rural_development = yes
+   # }#fixdis
+   ai = {
+	   factor = 10
+   }
+}
+empowered_monastic_centres_reform = {
+   icon = empowered_monastery
+   allow_normal_conversion = yes
+   potential = { 
+	   check_variable = {
+		   which = Burgher_Influence			
+		   value = 1
+	   }
+	   check_variable = {
+		   which = Clergy_Influence		
+		   value = 2
+	   }
+   }
+   trigger = {
+	   check_variable = {
+		   which = Burgher_Influence			
+		   value = 1
+	   }
+	   check_variable = {
+		   which = Clergy_Influence			
+		   value = 2
+	   }
+   }
+   modifiers = {
+	   global_tax_modifier = 0.10
+	   global_trade_power = 0.10
+   }
+   # custom_attributes = {
+	   # enables_monastic_trade = yes
+   # }#fixdis
+   ai = {
+	   factor = 10
+   }
+}
+empowered_expand_corvee_reform = {
+   icon = empowered_corvee
+   allow_normal_conversion = yes
+   potential = { 
+	   check_variable = {
+		   which = Noble_Influence			
+		   value = 2
+	   }
+	   check_variable = {
+		   which = Clergy_Influence		
+		   value = 1
+	   }
+   }
+   trigger = {
+	   check_variable = {
+		   which = Noble_Influence			
+		   value = 2
+	   }
+	   check_variable = {
+		   which = Clergy_Influence		
+		   value = 1
+	   }
+   }
+   modifiers = {
+	   defensiveness = 0.10
+	   global_trade_goods_size_modifier = 0.05
+	   global_manpower_modifier = 0.10
+   }
+   # custom_attributes = {
+	   # enables_corvee = yes #10% Manpower and Production Efficiency in Noble and Clergy Provinces
+   # }#fixdis
+   ai = {
+	   factor = 10
+   }
+   #-10% Burgher Loyalty, +10% Noble and Clergy Loyalty
+}
+empowered_enlarge_royal_estate_reform = {
+   icon = empowered_royal_estate
+   allow_normal_conversion = yes
+   potential = { 
+	   check_variable = {
+		   which = Royal_Influence			
+		   value = 2
+	   }
+   }
+   trigger = {
+	   check_variable = {
+		   which = Royal_Influence			
+		   value = 2
+	   }
+   }
+   modifiers = {
+	   governing_capacity = 250
+   }
+   # custom_attributes = {
+	   # enables_royal_domain = yes #10% Tax and Manpower in royal estate provinces
+   # }#fixdis
+   ai = {
+	   factor = 10
+   }
+}
+empowered_royal_trading_company_reform = {
+   icon = "GE_trader"
+   allow_normal_conversion = yes
+   potential = {
+	   check_variable = {
+		   which = Royal_Influence
+		   value = 2
+	   }
+	   check_variable = {
+		   which = Burgher_Influence
+		   value = 2
+	   }
+	   NOT = { has_reform = elective_monarchy_reform }
+   }
+   trigger = {
+	   check_variable = {
+		   which = Royal_Influence
+		   value = 2
+	   }
+	   check_variable = {
+		   which = Burgher_Influence
+		   value = 2
+	   }
+   }
+   modifiers = {
+	   trade_efficiency = 0.10
+	   trade_company_investment_cost = -0.25
+   }
+   ai = {
+	   factor = 10
+   }
+}
+armenian_silk_traders_reform = {
+   icon = "GE_trader"
+   allow_normal_conversion = yes
+   potential = {
+	   OR = {
+		   primary_culture = azerbaijani
+		   tag = PER
+	   }
+   }
+   trigger = {
+	   OR = {
+		   primary_culture = azerbaijani
+		   tag = PER
+	   }
+   }
+   modifiers = {
+	   build_cost = -0.15
+	   caravan_power = 0.25
+   }
+   custom_attributes = {
+	   enables_silk_traders = yes #15% trade efficiency if trading in silk
+   }
+   ai = {
+	   factor = 100
+   }
+}
+caravanserai_reform = {
+   icon = paper_money_map
+   allow_normal_conversion = yes
+   potential = {
+	   OR = {
+		   primary_culture = turkish
+		   has_reform = caravanserai_reform
+	   }
+   }
+   trigger = {
+	   OR = {
+		   primary_culture = turkish
+		   has_reform = caravanserai_reform
+	   }
+   }
+   modifiers = {
+	   caravan_power = 0.25
+	   merchants = 1
+   }
+   custom_attributes = {
+	   enables_caravanserai = yes #+5 Trade Power in provinces with centers of trade and a fort
+   }
+   ai = {
+	   factor = 100
+   }
+}
+nobi_jongbubub_reform= {
+   icon = "people_walking"
+   allow_normal_conversion = yes
+   potential = {
+	   OR = {
+		   culture_group = korean_g
+		   has_reform = nobi_jongbubub_reform
+	   }
+   }
+   trigger = {
+	   OR = {
+		   culture_group = korean_g
+		   has_reform = nobi_jongbubub_reform
+	   }
+   }
+   effect = {
+	   change_variable = {
+		   which = Noble_Influence
+		   value = 1
+	   }
+   }
+   modifiers = {
+	   stability_cost_modifier = -0.15
+	   global_trade_goods_size_modifier = 0.05
+   }
+   removed_effect = {
+	   change_variable = {
+		   which = Noble_Influence
+		   value = -1
+	   }
+   }
+   ai = {
+	   factor = 1
+   }
+}
+nobi_jongmobub_reform = {
+   icon = "king_2"
+   allow_normal_conversion = yes
+   potential = {
+	   OR = {
+		   culture_group = korean_g
+		   has_reform = nobi_jongmobub_reform
+	   }
+   }
+   trigger = {
+	   OR = {
+		   has_reform = nobi_jongmobub_reform
+		   culture_group = korean_g
+	   }
+   }
+   effect = {
+	   change_variable = {
+		   which = Royal_Influence
+		   value = 1
+	   }
+   }
+   modifiers = {
+	   global_tax_modifier = 0.1
+   }
+   custom_attributes = {
+	   #enables_abolish_noble_customs = yes # +15% Local Trade Power and Production Efficiency in noble estate provinces
+   }
+   removed_effect = {
+	   change_variable = {
+		   which = Royal_Influence
+		   value = -1
+	   }
+   }
+   ai = {
+	   factor = 1
+   }
+}
+bureaucratic_economy_reform = {
+   icon = "asian_scripture"
+   allow_normal_conversion = yes
+   modifiers = {
+	   trade_efficiency = -0.05
+	   production_efficiency = 0.1
+	   global_tax_modifier = 0.1
+   }
+   potential = {
+	   OR = {
+		   has_reform = bureaucratic_economy_reform
+		   culture_group = korean_g
+	   }
+   }
+   trigger = {
+	   OR = {
+		   has_reform = bureaucratic_economy_reform
+		   culture_group = korean_g
+	   }
+   }
+   custom_attributes = {
+	   enables_bureaucracy_autonomy = yes
+   }
+}
+conseil_souverain_reform = {
+ 	icon = france_colonial
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			culture_group = french
+			culture_group = south_french
+			culture_group = north_french
+			has_reform = conseil_souverain_reform
+		}
+	}
+	modifiers = {
+		global_tariffs = 0.20
+		global_foreign_trade_power = 0.15
+		trade_steering = 0.20	
+	}
+	custom_attributes = {
+		enables_french_ordonannce = yes #10% Goods Produced in Colonies
+	}
+	ai = {
+		factor = 100
+	}
+}
+continental_system_reform = {
+ 	icon = france_continental_system
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			culture_group = french
+			culture_group = south_french
+			culture_group = north_french
+			has_reform = continental_system_reform
+		}
+	}
+	modifiers = {
+		prestige = 0.5
+		embargo_efficiency = 0.25
+		global_prov_trade_power_modifier = 0.15
+	}
+	custom_attributes = {
+		enables_economic_block = yes #2.5% Trade efficiency per ally
+	}
+	ai = {
+		factor = 100
+	}
+}
