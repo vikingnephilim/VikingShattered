@@ -2,7 +2,7 @@
 guiTypes = {
 	windowType = {
 		name = "fraticelli_papacy_window"
-		backGround="papacy_bg"
+		backGround="fraticelli_papacy_bg"
 		position = { x=-274 y= -346 }
 		size = { x=548 y=691 }
 		moveable = 1
@@ -19,7 +19,7 @@ guiTypes = {
 
 		guiButtonType =
 		{
-			name ="papacy_bg"
+			name ="fraticelli_papacy_bg"
 			spriteType = "GFX_papacy_bg"
 			position = { x= 0 y = 0 }
 			alwaystransparent = no

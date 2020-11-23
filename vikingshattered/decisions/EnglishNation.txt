@@ -152,6 +152,8 @@ country_decisions = {
 			}
 
 		}
-	}
 	
+	
+		}
+	}
 }

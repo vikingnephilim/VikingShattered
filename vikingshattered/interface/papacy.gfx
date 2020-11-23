@@ -32,7 +32,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/the_holy_see/golden_bull_empty.dds"
 		loadType = "INGAME"
 	}
-	
 	spriteType = {
 		name = "GFX_apostolicae_servitutis"
 		texturefile = "gfx/interface/the_holy_see/golden_bull_apostolicae_servitutis.dds"
@@ -107,17 +106,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_papacy_bg"
 		texturefile = "gfx/interface/the_holy_see/the_holy_see_bg.dds"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_fraticelli_papacy_top_bg"
-		texturefile = "gfx/interface/the_holy_see/fraticelli_the_holy_see_top.dds"
-		loadType = "INGAME"
-	}
-
-	spriteType = {
-		name = "GFX_fraticelli_papacy_top_emperor_bg"
-		texturefile = "gfx/interface/the_holy_see/fraticelli_the_holy_see_top_emperor.dds"
 		loadType = "INGAME"
 	}
 	spriteType = {

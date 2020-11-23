@@ -91,6 +91,5 @@ on_monarch_death = {
 		flavor_tus.22 # Medici Pope
 		flavor_tus.24 # death of the Medici Pope		
 	}
-		set_country_flag = ME_FFS_STAP
-	}
+	set_country_flag = ME_FFS_STAP
 }

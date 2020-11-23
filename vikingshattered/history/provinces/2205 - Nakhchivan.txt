@@ -3,7 +3,7 @@
 owner = ARM
 controller = ARM
 culture = armenian
-religion = coptic
+religion = monothelite
 capital = "Nakhchevani"
 trade_goods = wine
 hre = no

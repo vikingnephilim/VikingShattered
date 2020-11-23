@@ -3,7 +3,7 @@
 owner = RAM
 controller = RAM
 culture = cillician
-religion = sunni
+religion = monothelite
 capital = "Adana"
 trade_goods = cotton
 hre = no

@@ -1210,99 +1210,7 @@ guiTypes = {
 			}
 		}
 		
-###Religion specific datafield
-windowType = {
-	name = "fraticelli_specific_window"
-	backGround =""
-	position = { x=32 y=300 }	
-	size = { x=280 y=50 }
-	moveable = 0
-	dontRender = ""
-	horizontalBorder = ""
-	Orientation = "UPPER_LEFT"
-	iconType = {
-		name = "fraticelli_papacy_bg"
-		spriteType = "GFX_country_religion_view_fraticelli_bg"
-		position = { x = 6 y = -63 }
-		Orientation = "UPPER_LEFT"
-	}
-	guiButtonType = {
-		name ="fraticelli_papacy_controller"
-		quadTextureSprite = "GFX_shield_small"
-		position = { x= 231 y = -56 }
-		tooltip = ""
-		tooltipText =""
-		delayedTooltipText = ""
-		buttonFont = "Main_14_black"
-		Orientation = "LEFT"
-		clicksound = click
-	}
-	guiButtonType = {
-		name ="fraticelli_papacy_icon"
-		quadTextureSprite = "GFX_menubar_floating_strip"
-		position = { x= -2227 y = -20 }
-		tooltip = ""
-		tooltipText =""
-		delayedTooltipText = ""
-		buttonFont = "Main_14_black"
-		Orientation = "LEFT"
-	}
-	instantTextBoxType = {
-		name = "no_active_fraticelli_cardinals"
-		position = { x = 11 y = -50 }
-		font = "vic_22"
-		borderSize = {x = 0 y = 0}
-		text = "NO_ACTVIVE_CARDINALS"
-		maxWidth = 200
-		maxHeight = 32
-		Orientation = "UPPER_LEFT"
-		format = centre
-	}			
-	OverlappingElementsBoxType = {
-			name = "active_fraticelli_cardinals"
-			position = { x= 15 y = -32 }
-			size = { x = 180 y = 32 }
-			Orientation = "UPPER_LEFT"
-			format = left
-			spacing = 1
-	}			
-	iconType = {
-		name = "fraticelli_papal_influence_icon"
-		spriteType = "GFX_papal_influence"
-		position = { x = 9 y = -14 }
-		Orientation = "UPPER_LEFT"
-		hint_tag = "hint_papalinfluence"
-	}
-	instantTextBoxType = {
-		name = "fraticelli_papal_influence_value"
-		position = { x = 45 y = -5 }
-		font = "vic_18"
-		borderSize = {x = 0 y = 0}
-		text = "3,1"
-		maxWidth = 40
-		maxHeight = 45
-		Orientation = "UPPER_LEFT"
-		format = centre
-	}		
-}
-	################################################################################################
-	### --- Cardinal item
-	windowType = {
-		name = "countryreligionview_cardinalitem"
-		backGround =""
-		position = { x=0 y=0 }	
-		size = { x=32 y=32 }
-		moveable = 0
-		dontRender = ""
-		horizontalBorder = ""
-		iconType = {
-			name ="cardinal"
-			spriteType = "GFX_cardinal_icon"
-			position = { x= -6 y = -27 }
-			Orientation = "UPPER_LEFT"
-			hint_tag = "hint_cardinal"
-		}
-	}
+
 	###Religion specific datafield
 		windowType = {
 			name = "catholic_specific_window"
@@ -1385,13 +1293,13 @@ windowType = {
 			{
 				name = "reform_resistance_icon"
 				spriteType = "GFX_icon_catholic_religious_resistance"
-				position = { x = 198 y = -23 }
+				position = { x = 103 y = -24 }
 				scale = 0.75
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "reform_resistance_value"
-				position = { x = 245 y = -5 }
+				position = { x = 135 y = -5 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
@@ -1404,13 +1312,13 @@ windowType = {
 			{
 				name = "reform_desire_icon"
 				spriteType = "GFX_icon_catholic_reform_desire"
-				position = { x = 110 y = -12 }
+				position = { x = -1110 y = -12 }
 				Orientation = "UPPER_LEFT"
 				hint_tag = "hint_reformdesire"
 			}
 			instantTextBoxType = {
 				name = "reform_desire_value"
-				position = { x = 135 y = -5 }
+				position = { x = -1135 y = -5 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
@@ -1420,6 +1328,24 @@ windowType = {
 				format = centre
 			}			
 		}	
+	################################################################################################
+	### --- Cardinal item
+	windowType = {
+		name = "countryreligionview_cardinalitem"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=32 y=32 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		iconType = {
+			name ="cardinal"
+			spriteType = "GFX_cardinal_icon"
+			position = { x= -6 y = -27 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_cardinal"
+		}
+	}		
 		###Religion specific datafield
 		windowType = {
 			name = "protestant_specific_window"

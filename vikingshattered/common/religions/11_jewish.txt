@@ -22,7 +22,7 @@ jewish_group = {
 			karaite_faith
 			samaritan_faith
 		}
-		heretic = { SAMARITAN_FAITH KARAITE_FAITH HASIDIC_FAITH HAYMANOT_FAITH }
+		heretic = { samaritan_faith karaite_faith hasidic_faith haymanot_faith }
 	}
 	karaite_faith = {
 		icon = 51
@@ -46,7 +46,7 @@ jewish_group = {
 			haymanot_faith
 			samaritan_faith
 		}
-		heretic = { SAMARITAN_FAITH HASIDIC_FAITH HAYMANOT_FAITH JEWISH }
+		heretic = { samaritan_faith hasidic_faith haymanot_faith jewish }
 	}
 	haymanot_faith = {
 		icon = 52
@@ -69,7 +69,7 @@ jewish_group = {
 			karaite_faith
 			samaritan_faith
 		}
-			heretic = { SAMARITAN_FAITH KARAITE_FAITH HASIDIC_FAITH JEWISH }
+			heretic = { samaritan_faith karaite_faith hasidic_faith jewish }
 	}
 	hasidic_faith = {
 		icon = 53
@@ -92,7 +92,7 @@ jewish_group = {
 			karaite_faith
 			samaritan_faith
 		}
-			heretic = { SAMARITAN_FAITH KARAITE_FAITH HAYMANOT_FAITH JEWISH }
+			heretic = { samaritan_faith karaite_faith haymanot_faith jewish }
 	}
 	samaritan_faith = {
 		icon = 54
@@ -115,7 +115,7 @@ jewish_group = {
 			haymanot_faith
 			karaite_faith
 		}
-			heretic = { KARAITE_FAITH HASIDIC_FAITH HAYMANOT_FAITH JEWISH }
+			heretic = { karaite_faith hasidic_faith haymanot_faith jewish }
 	}
 	harmonized_modifier = harmonized_jewish_group
 	crusade_name = HOLY_WAR

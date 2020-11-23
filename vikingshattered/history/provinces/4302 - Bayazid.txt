@@ -3,7 +3,7 @@
 owner = HSN #BTL #Zahids
 controller = HSN
 culture = armenian
-religion = coptic
+religion = monothelite
 capital = "Bayazid"
 trade_goods = wool
 hre = no

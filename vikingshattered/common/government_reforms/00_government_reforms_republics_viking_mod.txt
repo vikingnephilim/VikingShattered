@@ -965,7 +965,7 @@ cam_rep = {
 	fixed_rank = 4
 	modifiers = {
 		core_creation = -0.1
-		development_cost -0.1
+		development_cost = -0.1
 		max_absolutism = -70
 	}
 	states_general_mechanic = {

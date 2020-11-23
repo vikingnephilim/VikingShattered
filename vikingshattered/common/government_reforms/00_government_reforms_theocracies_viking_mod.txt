@@ -49,7 +49,6 @@ druid_soc = {
 	rulers_can_be_generals = yes
 	icon = "monks"
 	allow_normal_conversion = no
-	papacy = yes
 	custom_attributes = {
 		locked_government_type = yes
 	}

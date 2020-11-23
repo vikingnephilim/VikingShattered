@@ -1,0 +1,52 @@
+ancient_pagan = {
+        defender_of_faith = yes
+	flags_with_emblem_percentage = 10
+	flag_emblem_index_range = { 83 96 }
+	druidic_pagan = {
+        icon = 66
+        color = { 7 134 7 }
+        country = {
+            discipline = 0.05
+            female_advisor_chance = 0.5
+        }
+        country_as_secondary = {
+            discipline = 0.05
+            female_advisor_chance = 0.5
+        }
+		heretic = { canaanite hellenic_pagan }
+		can_have_secondary_religion = yes
+    }
+	hellenic_pagan = {
+		icon = 47
+		color = { 156 194 188 }
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = 1
+		}
+		country_as_secondary = {
+			tolerance_heathen = 2
+			advisor_pool = 1
+		}
+		heretic = { canaanite druidic_pagan }
+		personal_deity = yes	
+	}
+	canaanite = {
+		icon = 77
+		color = { 102 2 60 }
+		country = {
+			legitimacy = 1
+			war_exhaustion = -0.02
+		}
+		country_as_secondary = {
+			horde_unity = 1
+			manpower_recovery_speed = 0.05
+		}
+		province = {
+			local_missionary_strength = 0.01
+		}
+		personal_deity = yes
+		heretic = { druidic_pagan hellenic_pagan }
+	}
+	crusade_name = HOLY_WAR
+	harmonized_modifier = harmonized_pagan
+}

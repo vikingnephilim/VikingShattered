@@ -12,7 +12,7 @@ zoroastrian_group = {
 			stability_cost_modifier = -0.1
 			global_tax_modifier = 0.1
 		}
-		heretic = { MANICHEAN MAZDAKI ZOROASTRIAN }
+		heretic = { manichean mazdaki zoroastrian }
 		#433
 	}
 	manichean = {
@@ -26,7 +26,7 @@ zoroastrian_group = {
 			tolerance_heathen = 2
 			global_missionary_strength = 0.01
 		}
-		heretic = { KHURMAZTA MAZDAKI ZOROASTRIAN }
+		heretic = { khurmazta mazdaki zoroastrian }
 		#433
 	}
 	mazdaki = {
@@ -40,7 +40,7 @@ zoroastrian_group = {
 			global_unrest = -1
 			tolerance_heretic = 1
 		}
-			heretic = { KHURMAZTA MANICHEAN ZOROASTRIAN }
+			heretic = { khurmazta manichean zoroastrian }
 		#433
 	}
 	zoroastrian = {
@@ -57,7 +57,7 @@ zoroastrian_group = {
 			merchants = 1
 			tolerance_own = 1
 		}
-			heretic = { KHURMAZTA MANICHEAN MAZDAKI }	
+			heretic = { khurmazta manichean mazdaki }	
 		#433
 	}
 	harmonized_modifier = harmonized_zoroastrian_group

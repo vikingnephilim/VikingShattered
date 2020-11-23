@@ -167,13 +167,6 @@ P08 = "countries/Kir_Moab.txt"
 P09 = "countries/Jericho.txt"
 P10 = "countries/Hamat.txt"
 P11 = "countries/Carchemish.txt"
-#PHOENICIAN CITY STATE COLONIES FOR MISSIONS (Abandoned Ideas)
-PCR = "countries/Herakleion.txt"
-PCT = "countries/Carthage.txt"
-PPL = "countries/Panormus.txt"
-PGD = "countries/Gades.txt"
-PBZ = "countries/Ebisu.txt"
-PLM = "countries/LeptisMagna.txt"
 
 #ARABIA
 TBU = "countries/DOGE_ARA_Tabruk.txt"

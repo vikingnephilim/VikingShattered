@@ -98,14 +98,14 @@ guiTypes = {
 		iconType = {
 			name = "reform_desire_icon"
 			spriteType = "GFX_icon_catholic_reform_desire"
-			position = { x=39 y=88 }
+			position = { x=-1139 y=88 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_reformdesire"
 		}
 
 		instantTextBoxType = {
 			name = "reform_desire_value"
-			position = { x=67 y=95 }
+			position = { x=-1167 y=95 }
 			font = "vic_18"
 			borderSize = { x=0 y=0}
 			text = "0.0%"

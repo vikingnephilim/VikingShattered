@@ -356,7 +356,7 @@ muslim = {
 			diplomats = 1
 			dip_tech_cost_modifier = -0.05
 		}
-		heretic = { HURUFI IBADI KHARIJITE QARMATIAN SUFRI SUNNI SHIITE YAZIDI ZIKRI }
+		heretic = { hurufi ibadi kharijite qarmatian sufri sunni shiite yazidi zikri }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	hurufi = {
@@ -374,7 +374,7 @@ muslim = {
 			diplomatic_upkeep = 1
 			stability_cost_modifier = -0.1
 		}
-		heretic = { DRUZE IBADI KHARIJITE QARMATIAN SUFRI SUNNI SHIITE YAZIDI ZIKRI }
+		heretic = { druze ibadi kharijite qarmatian sufri sunni shiite yazidi zikri }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	ibadi = {
@@ -393,7 +393,7 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		heretic = { DRUZE HURUFI KHARIJITE SUNNI SHIITE YAZIDI ZIKRI }
+		heretic = { druze hurufi kharijite sufri sunni shiite yazidi zikri }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	kharijite = {
@@ -411,7 +411,7 @@ muslim = {
 			advisor_cost = -0.1
 			improve_relation_modifier = 0.1
 		}
-		heretic = { DRUZE HURUFI IBADI SUNNI SHIITE YAZIDI ZIKRI }
+		heretic = { druze hurufi ibadi sunni shiite yazidi zikri }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	qarmatian = {
@@ -428,7 +428,7 @@ muslim = {
 		country_as_secondary = {
 			naval_morale = 0.1
 		}
-		heretic = { DRUZE HURUFI IBADI KHARIJITE QARMATIAN SUFRI SUNNI SHIITE YAZIDI ZIKRI }
+		heretic = { druze hurufi ibadi kharijite qarmatian sufri sunni shiite yazidi zikri }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	shiite = {
@@ -446,7 +446,7 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		heretic = { DRUZE HURUFI IBADI KHARIJITE QARMATIAN SUFRI SUNNI YAZIDI ZIKRI }
+		heretic = { druze hurufi ibadi kharijite qarmatian sufri sunni yazidi zikri }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	sunni = {
@@ -464,7 +464,7 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		heretic = { DRUZE HURUFI IBADI KHARIJITE SHIITE SUFRI YAZIDI ZIKRI }
+		heretic = { druze hurufi ibadi kharijite shiite sufri yazidi zikri }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	sufri = {
@@ -481,7 +481,7 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		heretic = { DRUZE HURUFI IBADI KHARIJITE QARMATIAN SHIITE SUFRI YAZIDI ZIKRI }
+		heretic = { druze hurufi ibadi kharijite qarmatian shiite sunni sufri yazidi zikri }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	yazidi = {
@@ -502,7 +502,7 @@ muslim = {
 			tolerance_own = 2
 			advisor_pool = 1
 		}
-		heretic = { DRUZE HURUFI IBADI KHARIJITE QARMATIAN SHIITE SUFRI SUNNI ZIKRI }
+		heretic = { druze hurufi ibadi kharijite qarmatian shiite sufri sunni zikri }
 		uses_piety = yes
 	}
 	zikri = {
@@ -520,7 +520,7 @@ muslim = {
 			global_institution_spread = 0.15
 			heir_chance = 1.0
 		}
-		heretic = { DRUZE HURUFI IBADI KHARIJITE QARMATIAN SUFRI SUNNI SHIITE YAZIDI }
+		heretic = { druze hurufi ibadi kharijite qarmatian sufri sunni shiite yazidi }
 		uses_piety = yes				# Uses piety mechanics
 	}
 	harmonized_modifier = harmonized_muslim
