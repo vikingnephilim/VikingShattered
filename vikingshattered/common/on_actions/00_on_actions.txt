@@ -3793,6 +3793,10 @@ on_russian_streltsy = {
 
 }
 
+# country
+on_papal_guard = {
+}
+
 # province
 on_consecrate_patriarch = {
 }

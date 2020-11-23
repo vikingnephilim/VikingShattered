@@ -21,7 +21,7 @@ dharmic = {
 		province = {
 			local_defensiveness = 0.1
 		}
-		heretic = { HINDUISM JAIN SHAKTI SIKHISM VISHNUISM }
+		heretic = { hinduism jain shakti sikhism vishnuism }
 		uses_karma = yes
 	}
 	hinduism = {
@@ -50,7 +50,7 @@ dharmic = {
 				duration = 3650
 			}
 		}
-		heretic = { BON JAIN SHAKTI SIKHISM VISHNUISM }
+		heretic = { BON jain shakti sikhism vishnuism }
 	}
 	shakti = {
 		color = { 20 36 107 }
@@ -76,7 +76,7 @@ dharmic = {
 				duration = 3650
 			}
 		}
-		heretic = { BON JAIN HINDUISM SIKHISM VISHNUISM }
+		heretic = { BON jain hinduism sikhism vishnuism }
 	}
 	vishnuism = {
 		color = { 17 209 142 }
@@ -102,7 +102,7 @@ dharmic = {
 				duration = 3650
 			}
 		}
-		heretic = { BON JAIN HINDUISM SHAKTI SIKHISM }
+		heretic = { BON jain hinduism shakti sikhism }
 	}
 	jain = {
 		icon = 63
@@ -124,7 +124,7 @@ dharmic = {
 			religious_unity = 0.75
 		}
 		uses_karma = yes
-		heretic = { BON HINDUISM SHAKTI SIKHISM VISHNUISM }
+		heretic = { BON hinduism shakti sikhism vishnuism }
 	}
 	sikhism = {
 		color = { 0 150 143 }
@@ -156,7 +156,7 @@ dharmic = {
 				duration = 3650
 			}
 		}
-		heretic = { BON HINDUISM JAIN SHAKTI VISHNUISM }
+		heretic = { BON hinduism jain shakti vishnuism }
 		date = 1499.01.01
 	}
 	harmonized_modifier = harmonized_dharmic

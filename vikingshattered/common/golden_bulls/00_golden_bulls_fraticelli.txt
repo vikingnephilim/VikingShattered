@@ -1,0 +1,121 @@
+illius_qui_se_pro_divini_fraticelli = {
+    mechanics = {
+		crusades_after_age_limit
+		}
+	modifier = {
+		ae_impact = -0.1
+		accept_vassalization_reasons = 5
+	}
+    trigger = {
+        religion = fraticelli
+        is_papal_controller = yes
+		NOT = { 
+			OR = {
+				current_age = age_of_discovery
+				current_age = age_of_reformation
+			}
+		}
+    }
+    ai_will_do = {
+        factor = 1
+    }
+}
+
+apostolicae_servitutis_fraticelli = {
+    modifier = {
+        all_power_cost = -0.1
+    }
+    trigger = {
+        religion = fraticelli
+        is_papal_controller = yes
+    }
+    ai_will_do = {
+        factor = 1
+    }
+}
+
+praeclara_carissimi_fraticelli = {
+    modifier = {
+		tolerance_heathen = 2
+		tolerance_heretic = 2
+        development_cost = -0.05
+    }    
+    trigger = {
+        religion = fraticelli
+        is_papal_controller = yes
+    }
+    ai_will_do = {
+        factor = 2
+    }
+}
+
+immensa_aeterni_dei_fraticelli = {
+    modifier = {
+        embracement_cost = -0.1
+		global_institution_spread = 0.25
+		institution_spread_from_true_faith = 0.1
+    }
+    mechanics = {
+        cardinals_spread_institution
+    }
+    trigger = {
+        religion = fraticelli
+        is_papal_controller = yes
+    }
+    ai_will_do = {
+        factor = 0
+        modifier = {
+            factor = 5
+            is_lacking_institutions = yes
+        }
+    }
+}
+
+libertas_ecclesiae_fraticelli = {
+    modifier = {
+        imperial_authority = 0.2
+		imperial_reform_catholic_approval = 15
+    }
+    trigger = {
+        religion = fraticelli
+        is_papal_controller = yes
+        is_emperor = yes
+    	hre_religion_treaty = yes
+    }
+    ai_will_do = {
+        factor = 0
+        modifier = {
+            factor = 6
+            is_emperor = yes
+            religion = fraticelli
+            hre_religion_treaty = yes
+        }
+    }
+}
+
+dei_gratia_rex_fraticelli = {
+    modifier = {
+        yearly_absolutism = 0.5
+        tolerance_own = 2
+        prestige_per_development_from_conversion = 0.5
+    }    
+    trigger = {
+        religion = fraticelli
+        is_papal_controller = yes
+    }
+    ai_will_do = {
+        factor = 1
+        modifier = {
+            factor = 1
+            average_unrest = 2
+        }
+        modifier = {
+            factor = 1
+            average_unrest = 4
+        }
+        modifier = {
+            factor = 1
+            average_unrest = 6
+        }
+    }
+}

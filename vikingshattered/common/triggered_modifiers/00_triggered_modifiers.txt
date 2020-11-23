@@ -332,7 +332,6 @@ papal_subjugation = {
 	#icon = 9
 }
 
-
 rapid_collapse_of_society = {
 	potential = {
 		normal_or_historical_nations = yes
@@ -488,7 +487,10 @@ crusader = {
 ######################################
 excommunication = {
 	potential = {
-		religion = catholic	
+		or = {
+			religion = catholic	
+			religion = fraticelli
+		}
 	}
 
 	trigger = {

@@ -32,7 +32,7 @@ mana_haka = {
 
 mana_people = {
 	global_unrest = -2
-	tolerance_own 1
+	tolerance_own = 1
 }
 
 mana_dedication_to_ku = {

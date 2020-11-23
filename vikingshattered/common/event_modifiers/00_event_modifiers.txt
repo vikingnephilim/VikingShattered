@@ -1493,9 +1493,28 @@ papal_indulgence = {
 	religion = yes
 }
 
+fraticelli_papal_indulgence = {
+	warscore_cost_vs_other_religion = -0.25
+	enforce_religion_cost = -0.5
+	religion = yes
+}
+
 usury_forgiven = {
 	interest = -0.25
 	inflation_reduction = 0.1
+	religion = yes
+}
+
+fraticelli_sanction_commercial_monopoly = {
+	global_trade_goods_size_modifier = 0.1
+	center_of_trade_upgrade_cost = -0.1
+	religion = yes
+}
+
+fraticelli_usury_forgiven = {
+	interest = -0.10
+	inflation_reduction = 0.05
+	inflation_action_cost = -0.25
 	religion = yes
 }
 
@@ -1508,13 +1527,37 @@ papal_blessing = {
 	religion = yes
 }
 
+fraticelli_papal_blessing = {
+	missionary_maintenance_cost = -0.25
+	missionaries = 1
+	religion = yes
+}
+
+fraticelli_saint = {
+	global_unrest = -2
+	years_of_nationalism = -5
+	religion = yes
+}
+
 papal_sanction_for_holy_war = {
 	manpower_recovery_speed = 0.15
 	religion = yes
 }
 
+fraticelli_papal_sanction_for_holy_war = {
+	cb_on_religious_enemies = yes
+	manpower_in_true_faith_provinces = 0.20
+	religion = yes
+}
+
 papal_legate = {
 	diplomatic_reputation = 1
+	religion = yes
+}
+
+fraticelli_papal_legate = {
+	envoy_travel_time = -0.25
+	diplomatic_upkeep = 1
 	religion = yes
 }
 

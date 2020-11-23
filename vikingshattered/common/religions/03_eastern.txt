@@ -25,7 +25,7 @@ eastern = {
 				duration = 3650
 			}
 		}
-		heretic = { CONFUCIANISM TAOISM TANTRA MAHAYANA SHINTO VAJRAYANA }
+		heretic = { confucianism taoism tantra mahayana SHINTO vajrayana }
 		harmonized_modifier = harmonized_buddhism
 		uses_karma = yes
 	}
@@ -52,7 +52,7 @@ eastern = {
 				duration = 3650
 			}
 		}
-		heretic = { CONFUCIANISM TAOISM TANTRA MAHAYANA SHINTO THERAVADA }
+		heretic = { confucianism taoism tantra mahayana SHINTO theravada }
 		harmonized_modifier = harmonized_vajrayana
 		uses_karma = yes
 	}
@@ -79,7 +79,7 @@ eastern = {
 				duration = 3650
 			}
 		}
-		heretic = { CONFUCIANISM TAOISM TANTRA SHINTO THERAVADA VAJRAYANA }
+		heretic = { confucianism taoism tantra SHINTO theravada vajrayana }
 		harmonized_modifier = harmonized_mahayana
 		uses_karma = yes
 	}
@@ -94,7 +94,7 @@ eastern = {
 			adm_tech_cost_modifier = -0.1
 			stability_cost_modifier = -0.1
 		}
-		heretic = { TAOISM TANTRA MAHAYANA SHINTO THERAVADA VAJRAYANA }
+		heretic = { taoism tantra mahayana SHINTO theravada vajrayana }
 		harmonized_modifier = harmonized_confucianism
 		uses_harmony = yes
 	}
@@ -109,7 +109,7 @@ eastern = {
 			tolerance_heretic = 2
 			stability_cost_modifier = -0.1
 		}
-		heretic = { CONFUCIANISM TANTRA MAHAYANA SHINTO THERAVADA VAJRAYANA }
+		heretic = { confucianism tantra mahayana SHINTO theravada vajrayana }
 		harmonized_modifier = harmonized_taoism
 		uses_harmony = yes
 	}
@@ -124,7 +124,7 @@ eastern = {
 			tolerance_heretic = 1
 			years_of_nationalism = -3
 		}
-		heretic = { CONFUCIANISM TAOISM MAHAYANA SHINTO THERAVADA VAJRAYANA }
+		heretic = { confucianism taoism mahayana SHINTO theravada vajrayana }
 		harmonized_modifier = harmonized_tantra
 		uses_harmony = yes
 	}
@@ -139,7 +139,7 @@ eastern = {
 			tolerance_heathen = 1
 			religious_unity = 0.25
 		}
-		heretic = { CONFUCIANISM TAOISM MAHAYANA SHINTO THERAVADA VAJRAYANA }
+		heretic = { confucianism taoism tantra mahayana SHINTO theravada vajrayana }
 		harmonized_modifier = harmonized_zen
 		uses_harmony = yes
 	}
@@ -157,7 +157,7 @@ eastern = {
 			discipline = 0.05
 			global_unrest = -1
 		}
-		heretic = { CONFUCIANISM MAHAYANA THERAVADA VAJRAYANA }
+		heretic = { confucianism taoism tantra mahayana theravada vajrayana }
 		harmonized_modifier = harmonized_shinto
 		uses_isolationism = yes
 	}

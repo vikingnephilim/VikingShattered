@@ -1,8 +1,0 @@
-government = republic
-government_rank = 2
-primary_culture = punic
-religion = druze
-religious_school = muhakkima_school
-technology_group = eastern
-capital = 4560
-fixed_capital = 4560

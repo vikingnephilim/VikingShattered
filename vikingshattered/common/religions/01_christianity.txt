@@ -4,7 +4,7 @@ christian = {
 	center_of_religion = 118 # Rome
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
-	############################################CATHOLIC BASED FAITHS###################################################
+	############################################catholic BASED FAITHS###################################################
 		anglican = {
 			color = { 181 119 119 }
 			icon = 28
@@ -45,7 +45,7 @@ christian = {
 				stability_aspect
 			}
 			aspects_name = ANGLICAN_ASPECTS
-			heretic = { CATHAR CATHOLIC FRATICELLI HUSSITE LOLLARD PROTESTANT REFORMED WALDENSIAN }
+			heretic = { cathar catholic fraticelli hussite lollard protestant reformed waldensian }
 			date = 1534.11.3 # act of supremacy
 			will_get_center = { #Refered to even for initial CoR Spawn
 				any_owned_province = {
@@ -140,7 +140,7 @@ christian = {
 				yearly_corruption = -0.1
 				advisor_pool = 1
 			}
-			heretic = { ANGLICAN CATHOLIC FRATICELLI HUSSITE LOLLARD PROTESTANT REFORMED WALDENSIAN }
+			heretic = { anglican catholic fraticelli hussite lollard protestant reformed waldensian }
 			uses_church_power = yes				# Uses church power/aspect mechanics
 			aspects = {
 				good_christians
@@ -268,7 +268,7 @@ christian = {
 					duration = 3650
 				}			
 			}
-			heretic = { ANGLICAN CATHAR COPTIC FRATICELLI HUSSITE LOLLARD ORTHODOX PROTESTANT REFORMED WALDENSIAN }
+			heretic = { anglican cathar coptic fraticelli hussite lollard orthodox protestant reformed waldensian }
 			papacy = {
 				papal_tag = PAP
 				election_cost = 5
@@ -280,7 +280,7 @@ christian = {
 					global_institution_spread = -0.25
 					global_missionary_strength = 0.02
 				}
-				neutral = {
+				neutral = { 
 					global_religious_conversion_resistance = -0.33
 				}
 				concilatory = {
@@ -294,7 +294,7 @@ christian = {
 					first_concession = {
 						harsh = {
 							relation_with_heretics = -20
-							global_heretic_missionary_strength  = 0.02
+							global_heretic_missionary_strength = 0.02
 						}	
 						concilatory = {
 							relation_with_heretics = 10
@@ -314,7 +314,7 @@ christian = {
 					third_concession = {
 						harsh = {
 							relation_with_heretics = -20
-							manpower_in_true_faith_provinces  = 0.1
+							manpower_in_true_faith_provinces = 0.1
 						}	
 						concilatory = {
 							relation_with_heretics = 10
@@ -324,7 +324,7 @@ christian = {
 					fourth_concession = {
 						harsh = {
 							relation_with_heretics = -20
-							warscore_cost_vs_other_religion  = -0.10
+							warscore_cost_vs_other_religion = -0.10
 						}	
 						concilatory = {
 							relation_with_heretics = 10
@@ -503,17 +503,35 @@ christian = {
 				investigate_heresy = {
 					curia_treasury_cost = 500
 					potential = {
-						has_dlc = "Emperor"
+						OR = {
 						is_papal_controller = yes
-						tag = PAP
+						TAG = PAP
+						}
 					}
 					allow = {
+						OR = {
 						is_papal_controller = yes
-						reform_desire = 0.05
+						TAG = PAP
+						}
 					}
 					effect = {
-						add_reform_desire = -0.05
-						add_reform_desire_scale = 0.5
+						capital_scope = {
+							ROOT = {
+								create_general = { tradition = 80 }
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								cavalry = PREV
+								cavalry = PREV
+							}
+						}
 					}
 					ai_will_do = {
 						factor = 0
@@ -522,7 +540,7 @@ christian = {
 			}
 		}
 		fraticelli = {
-			color = { 245 161 115 }
+			color = { 245 16 115 }
 			icon = 34
 			allowed_conversion = {
 				anglican
@@ -616,7 +634,7 @@ christian = {
 					}
 				}
 			}
-			heretic = { ANGLICAN CATHAR COPTIC FRATICELLI HUSSITE LOLLARD ORTHODOX PROTESTANT REFORMED WALDENSIAN }
+			heretic = { anglican cathar coptic fraticelli hussite lollard orthodox protestant reformed waldensian }
 			papacy = {
 				papal_tag = URB
 				election_cost = 5
@@ -642,7 +660,7 @@ christian = {
 					first_concession = {
 						harsh = {
 							relation_with_heretics = -20
-							global_heretic_missionary_strength  = 0.02
+							global_heretic_missionary_strength = 0.02
 						}	
 						concilatory = {
 							relation_with_heretics = 10
@@ -662,7 +680,7 @@ christian = {
 					third_concession = {
 						harsh = {
 							relation_with_heretics = -20
-							manpower_in_true_faith_provinces  = 0.1
+							manpower_in_true_faith_provinces = 0.1
 						}	
 						concilatory = {
 							relation_with_heretics = 10
@@ -672,7 +690,7 @@ christian = {
 					fourth_concession = {
 						harsh = {
 							relation_with_heretics = -20
-							warscore_cost_vs_other_religion  = -0.10
+							warscore_cost_vs_other_religion = -0.10
 						}	
 						concilatory = {
 							relation_with_heretics = 10
@@ -682,7 +700,7 @@ christian = {
 				}
 				# Papal Actions below!
 				levy_church_tax = {
-					cost = 50
+					cost = 25
 					potential = {
 						NOT = { tag = URB }
 					}
@@ -693,48 +711,47 @@ christian = {
 					effect = {
 						add_country_modifier = {
 							name = "papal_sanction_for_church_taxes"
-							duration = 7300
+							duration = 3650
 						}
 					}
 					ai_will_do = {
 						factor = 1
 					}				
 				}			
-				bless_monarch = {
-					cost = 50
+				blessed_missionary = {
+					cost = 25
 					potential = {
 						NOT = { tag = URB }
 					}
 					allow = {
 						NOT = { war_with = URB }
-						NOT = { prestige = 100 }
-						NOT = { has_country_modifier = papal_blessing }
+						NOT = { religious_unity = 0.75 }
+						NOT = { has_country_modifier = fraticelli_papal_blessing }
 					}
 					effect = {
 						add_country_modifier = {
-							name = "papal_blessing"
-							duration = 7300
+							name = "fraticelli_papal_blessing"
+							duration = 3650
 						}
 					}
 					ai_will_do = {
 						factor = 1
 					}
 				}
-				indulgence_for_sins = {
-					cost = 50
+				help_the_heretics = {
+					cost = 25
 					potential = {
 						government = monarchy
 						NOT = { tag = URB }
 					}
 					allow = {
 						NOT = { war_with = URB }
-						NOT = { legitimacy = 100 }
-						NOT = { has_country_modifier = papal_indulgence }
+						NOT = { has_country_modifier = fraticelli_papal_indulgence }
 					}
 					effect = {
 						add_country_modifier = {
-							name = "papal_indulgence"
-							duration = 7300
+							name = "fraticelli_papal_indulgence"
+							duration = 3650
 						}
 					}
 					ai_will_do = {
@@ -742,38 +759,37 @@ christian = {
 					}
 				}	
 				local_saint = {
-					cost = 100
+					cost = 25
 					potential = {
 						NOT = { tag = URB }
 					}
 					allow = {
 						NOT = { war_with = URB }
-						NOT = { stability = 3 }
-					}
-					effect = {
-						add_stability = 1
-					}
-					ai_will_do = {
-						factor = 1
-						modifier = {
-							factor = 2
-							NOT = { stability = 0 }
-						}
-					}
-				}
-				forgiveness_for_usury = {
-					cost = 50
-					potential = {
-						NOT = { tag = URB }
-					}
-					allow = {
-						NOT = { war_with = URB }
-						NOT = { has_country_modifier = usury_forgiven }
+						NOT = { has_country_modifier = fraticelli_saint }
 					}
 					effect = {
 						add_country_modifier = {
-							name = "usury_forgiven"
-							duration = 7300
+							name = "fraticelli_saint"
+							duration = 3650
+						}
+					}
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				forgiveness_for_usury = {
+					cost = 25
+					potential = {
+						NOT = { tag = URB }
+					}
+					allow = {
+						NOT = { war_with = URB }
+						NOT = { has_country_modifier = fraticelli_usury_forgiven }
+					}
+					effect = {
+						add_country_modifier = {
+							name = "fraticelli_usury_forgiven"
+							duration = 3650
 						}
 					}
 					ai_will_do = {
@@ -785,19 +801,18 @@ christian = {
 					}
 				}			
 				proclaim_holy_war = {
-					cost = 50
+					cost = 25
 					potential = {
 						NOT = { tag = URB }
 					}
 					allow = {
-						is_at_war = yes
 						NOT = { war_with = URB }
-						NOT = { has_country_modifier = papal_sanction_for_holy_war }
+						NOT = { has_country_modifier = fraticelli_papal_sanction_for_holy_war }
 					}
 					effect = {
 						add_country_modifier = {
-							name = "papal_sanction_for_holy_war"
-							duration = 7300
+							name = "fraticelli_papal_sanction_for_holy_war"
+							duration = 3650
 						}
 					}
 					ai_will_do = {
@@ -809,19 +824,19 @@ christian = {
 					}
 				}
 				send_papal_legate = {
-					cost = 50
+					cost = 25
 					potential = {
 						NOT = { tag = URB }
 						is_papal_controller = no
 					}
 					allow = {
 						NOT = { war_with = URB }
-						NOT = { has_country_modifier = papal_legate }
+						NOT = { has_country_modifier = fraticelli_papal_legate }
 					}
 					effect = {
 						add_country_modifier = {
-							name = "papal_legate"
-							duration = 7300
+							name = "fraticelli_papal_legate"
+							duration = 3650
 						}
 					}
 					ai_will_do = {
@@ -829,17 +844,20 @@ christian = {
 					}
 				}	
 				sanction_commercial_monopoly = {
-					cost = 50
+					cost = 25
 					potential = {
 						NOT = { tag = URB }
 					}
 					allow = {
 						NOT = { war_with = URB }
-						NOT = { mercantilism = 100 }
-					}
+						NOT = { has_country_modifier = fraticelli_sanction_commercial_monopoly }
+					}	
 					effect = {
-						add_mercantilism = 1
-					}
+						add_country_modifier = {
+							name = "fraticelli_sanction_commercial_monopoly"
+							duration = 3650
+							}
+						}
 					ai_will_do = {
 						factor = 1
 						modifier = {
@@ -848,23 +866,42 @@ christian = {
 						}
 					}
 				}
-				instigate_heresy = {
+				raise_papal_guard = {
 					curia_treasury_cost = 500
 					potential = {
 						has_dlc = "Emperor"
+						OR = {
 						is_papal_controller = yes
-						tag = URB
+						TAG = URB
+						}
 					}
 					allow = {
+						OR = {
 						is_papal_controller = yes
-						reform_desire = 0.00
+						TAG = URB
+						}
 					}
 					effect = {
-						add_reform_desire = 0.05
-						add_reform_desire_scale = 0.5
+						capital_scope = {
+							ROOT = {
+								create_general = { tradition = 80 }
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								infantry = PREV
+								cavalry = PREV
+								cavalry = PREV
+							}
+						}
 					}
 					ai_will_do = {
-						factor = 0
+						factor = 1
 					}
 				}
 			}
@@ -915,7 +952,7 @@ christian = {
 				denounce_the_pope
 				educate_the_masses
 			}
-			heretic = { ANGLICAN CATHAR CATHOLIC FRATICELLI HUSSITE PROTESTANT REFORMED WALDENSIAN }
+			heretic = { anglican cathar catholic fraticelli hussite protestant reformed waldensian }
 			will_get_center = { #Refered to even for initial CoR Spawn
 				any_owned_province = {
 					can_have_center_of_reformation_trigger = {
@@ -1022,7 +1059,7 @@ christian = {
 				freedom_to_preach_aspect
 			}
 			aspects_name = PROTESTANT_ASPECTS
-			heretic = { ANGLICAN CATHAR CATHOLIC FRATICELLI LOLLARD PROTESTANT REFORMED WALDENSIAN }
+			heretic = { anglican cathar catholic fraticelli lollard protestant reformed waldensian }
 			will_get_center = { #Refered to even for initial CoR Spawn
 				any_owned_province = {
 					can_have_center_of_reformation_trigger = {
@@ -1072,7 +1109,7 @@ christian = {
 				}
 			}
 		}
-		protestant = {
+		protestant= {
 			color = { 114 72 248 }
 			icon = 2
 			allowed_conversion = {
@@ -1209,7 +1246,7 @@ christian = {
 					}
 				}
 			}
-			heretic = { ANGLICAN CATHAR CATHOLIC FRATICELLI HUSSITE LOLLARD REFORMED WALDENSIAN }
+			heretic = { anglican cathar catholic fraticelli hussite lollard reformed waldensian }
 			date = 1517.10.31
 		}
 		reformed = {
@@ -1332,7 +1369,7 @@ christian = {
 					}
 				}
 			}
-			heretic = { ANGLICAN CATHAR CATHOLIC FRATICELLI HUSSITE LOLLARD PROTESTANT WALDENSIAN }
+			heretic = { anglican cathar catholic fraticelli hussite lollard protestant waldensian }
 			date = 1536.5.1
 			fervor = yes
 			hre_heretic_religion = yes
@@ -1369,7 +1406,7 @@ christian = {
 				technology_cost = -0.1
 			}
 			fervor = yes
-			heretic = { ANGLICAN CATHAR CATHOLIC FRATICELLI HUSSITE LOLLARD PROTESTANT REFORMED }
+			heretic = { anglican cathar catholic fraticelli hussite lollard protestant reformed }
 			will_get_center = { #Refered to even for initial CoR Spawn
 			any_owned_province = {
 				can_have_center_of_reformation_trigger = {
@@ -1454,7 +1491,7 @@ christian = {
 				stability_cost_modifier = -0.10
 				tolerance_own = 1
 			}
-			heretic = { ICONOCLAST MONOTHELITE ORTHODOX PAULICIAN }
+			heretic = { iconoclast monothelite orthodox paulician }
 			has_patriarchs = yes
 			orthodox_icons = {
 				# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
@@ -1581,7 +1618,7 @@ christian = {
 				raze_power_gain = 0.2
 				global_missionary_strength = 0.01
 			}
-			heretic = { BOGOMILIST MONOTHELITE ORTHODOX PAULICIAN }
+			heretic = { bogomilist monothelite orthodox paulician }
 			fervor = yes
 					# Other christians hate them less
 		}
@@ -1607,7 +1644,7 @@ christian = {
 			province = {
 				local_missionary_strength = -0.01
 			}
-			heretic = { BOGOMILIST CATHOLIC COPTIC ICONOCLAST MONOTHELITE PAULICIAN }
+			heretic = { bogomilist catholic coptic iconoclast monothelite paulician }
 			has_patriarchs = yes		# Uses patriarch authority
 			orthodox_icons = {
 				# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
@@ -1733,7 +1770,7 @@ christian = {
 				tolerance_own = 1
 				global_autonomy = -0.05
 			}
-			heretic = { BOGOMILIST ICONOCLAST ORTHODOX PAULICIAN }
+			heretic = { bogomilist iconoclast orthodox paulician }
 			has_patriarchs = yes	# Uses patriarch authority
 			orthodox_icons = {
 				icon_michael = {
@@ -1808,7 +1845,7 @@ christian = {
 				merc_maintenance_modifier = -0.1
 				global_regiment_cost = -0.1
 			}
-			heretic = { BOGOMILIST ICONOCLAST MONOTHELITE ORTHODOX }
+			heretic = { bogomilist iconoclast monothelite orthodox }
 			has_patriarchs = yes		# Uses patriarch authority
 			orthodox_icons = {
 				icon_michael = {
@@ -1886,7 +1923,7 @@ christian = {
 			province = {
 				local_missionary_strength = -0.02
 			}
-			heretic = { CATHOLIC MESSALIAN MONOPHYSITE ORTHODOX NESTORIAN }
+			heretic = { catholic malankara messalian monophysite orthodox nestorian }
 			holy_sites = { 358 1227 2313 1234 379 }
 			blessings = {
 				legitimize_government
@@ -1955,7 +1992,7 @@ christian = {
 				global_missionary_strength = 0.01
 				advisor_cost = -0.1
 			}
-			heretic = { COPTIC MONOPHYSITE NESTORIAN }
+			heretic = { coptic malankara monophysite nestorian }
 			fervor = yes
 		}
 		monophysite = {
@@ -1976,7 +2013,7 @@ christian = {
 			country_as_secondary = {
 				global_tax_modifier = 0.25
 			}
-			heretic = { COPTIC MESSALIAN NESTORIAN }
+			heretic = { coptic malankara messalian nestorian }
 			holy_sites = { 358 1227 2313 1234 419 }
 			blessings = {
 				legitimize_government
@@ -2005,7 +2042,7 @@ christian = {
 				adm_tech_cost_modifier = -0.1
 				tolerance_own = 1
 			}
-			heretic = { COPTIC MESSALIAN MONOPHYSITE }
+			heretic = { coptic malankara messalian monophysite }
 			holy_sites = { 358 1227 2313 1234 419 }
 			blessings = {
 				legitimize_government
