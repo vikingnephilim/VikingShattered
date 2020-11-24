@@ -1,7 +1,7 @@
 #738 - Taiwan
 
 culture = taiwanese
-religion = animism
+religion = dayawism
 capital = "Sakam"
 trade_goods = unknown
 hre = no

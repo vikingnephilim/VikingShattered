@@ -1,7 +1,7 @@
 #1032 - Kurils
 
 culture = ainu
-religion = animism
+religion = tengri_pagan_reformed
 capital = "Kuril"
 trade_goods = fish
 hre = no

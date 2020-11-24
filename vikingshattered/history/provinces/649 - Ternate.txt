@@ -3,7 +3,7 @@
 owner = TER
 controller = TER
 culture = moluccan
-religion = animism
+religion = dayawism
 capital = "Ternate"
 trade_goods = spices
 hre = no

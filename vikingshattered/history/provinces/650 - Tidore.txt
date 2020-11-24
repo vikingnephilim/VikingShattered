@@ -3,7 +3,7 @@
 owner = TID
 controller = TID
 culture = moluccan
-religion = animism
+religion = dayawism
 capital = "Tidore"
 trade_goods = spices
 hre = no

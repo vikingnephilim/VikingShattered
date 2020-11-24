@@ -1,7 +1,7 @@
 # 2154 - Kelang
 
 culture = taiwanese
-religion = animism
+religion = dayawism
 capital = "Kelang"
 trade_goods = unknown
 hre = no

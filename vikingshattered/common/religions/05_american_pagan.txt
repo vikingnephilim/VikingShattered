@@ -16,6 +16,8 @@ american_pagan = {
 		province = {
 			local_missionary_strength = 0.02
 		}
+		authority = yes
+		religious_reforms = yes
 		heretic = { inti mesoamerican_religion nahuatl totemism }
 	}
 	inti = {

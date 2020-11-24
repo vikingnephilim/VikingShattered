@@ -1,7 +1,7 @@
 #648 - Halmahera
 
 culture = moluccan
-religion = animism
+religion = dayawism
 capital = "Halmahera"
 trade_goods = unknown
 hre = no

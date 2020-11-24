@@ -1,7 +1,7 @@
 # 2155 - Middag
 
 culture = taiwanese
-religion = animism
+religion = dayawism
 capital = "Middag"
 trade_goods = unknown
 hre = no
