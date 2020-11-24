@@ -752,7 +752,11 @@ country_event = {
 			NOT = { religion_group = muslim }
 			NOT = { religion_group = eastern }
 			NOT = { religion_group = dharmic }
-			NOT = { religion_group = pagan }
+			NOT = { religion_group = american_pagan }
+			NOT = { religion_group = european_pagan }
+			NOT = { religion_group = african_pagan }
+			NOT = { religion_group = asian_pagan }
+			NOT = { religion_group = ancient_pagan }
 			NOT = { religion_group = jewish_group }
 			NOT = { religion_group = zoroastrian_group }
 		}
@@ -770,7 +774,11 @@ country_event = {
 			NOT = { religion_group = christian }
 			NOT = { religion_group = eastern }
 			NOT = { religion_group = dharmic }
-			NOT = { religion_group = pagan }
+			NOT = { religion_group = american_pagan }
+			NOT = { religion_group = european_pagan }
+			NOT = { religion_group = african_pagan }
+			NOT = { religion_group = asian_pagan }
+			NOT = { religion_group = ancient_pagan }
 			NOT = { religion_group = jewish_group }
 			NOT = { religion_group = zoroastrian_group }
 		}
@@ -788,7 +796,11 @@ country_event = {
 			NOT = { religion_group = christian }
 			NOT = { religion_group = eastern }
 			NOT = { religion_group = muslim }
-			NOT = { religion_group = pagan }
+			NOT = { religion_group = american_pagan }
+			NOT = { religion_group = european_pagan }
+			NOT = { religion_group = african_pagan }
+			NOT = { religion_group = asian_pagan }
+			NOT = { religion_group = ancient_pagan }
 			NOT = { religion_group = jewish_group }
 			NOT = { religion_group = zoroastrian_group }
 		}
@@ -900,7 +912,11 @@ country_event = {
 			NOT = { religion_group = christian }
 			NOT = { religion_group = dharmic }
 			NOT = { religion_group = muslim }
-			NOT = { religion_group = pagan }
+			NOT = { religion_group = american_pagan }
+			NOT = { religion_group = european_pagan }
+			NOT = { religion_group = african_pagan }
+			NOT = { religion_group = asian_pagan }
+			NOT = { religion_group = ancient_pagan }
 			NOT = { religion_group = jewish_group }
 			NOT = { religion_group = zoroastrian_group }
 		}
@@ -918,7 +934,11 @@ country_event = {
 			NOT = { religion_group = christian }
 			NOT = { religion_group = dharmic }
 			NOT = { religion_group = muslim }
-			NOT = { religion_group = pagan }
+			NOT = { religion_group = american_pagan }
+			NOT = { religion_group = european_pagan }
+			NOT = { religion_group = african_pagan }
+			NOT = { religion_group = asian_pagan }
+			NOT = { religion_group = ancient_pagan }
 			NOT = { religion_group = jewish_group }
 			NOT = { religion_group = eastern }
 		}
@@ -936,7 +956,11 @@ country_event = {
 			NOT = { religion_group = christian }
 			NOT = { religion_group = dharmic }
 			NOT = { religion_group = muslim }
-			NOT = { religion_group = pagan }
+			NOT = { religion_group = american_pagan }
+			NOT = { religion_group = european_pagan }
+			NOT = { religion_group = african_pagan }
+			NOT = { religion_group = asian_pagan }
+			NOT = { religion_group = ancient_pagan }
 			NOT = { religion_group = zoroastrian_group }
 			NOT = { religion_group = eastern }
 		}
@@ -955,7 +979,11 @@ country_event = {
 			NOT = { religion_group = muslim }
 			NOT = { religion_group = eastern }
 			NOT = { religion_group = dharmic }
-			NOT = { religion_group = pagan }
+			NOT = { religion_group = american_pagan }
+			NOT = { religion_group = european_pagan }
+			NOT = { religion_group = african_pagan }
+			NOT = { religion_group = asian_pagan }
+			NOT = { religion_group = ancient_pagan }
 			NOT = { religion_group = jewish_group }
 			NOT = { religion_group = zoroastrian_group }
 		}
@@ -973,7 +1001,11 @@ country_event = {
 			NOT = { religion_group = christian }
 			NOT = { religion_group = eastern }
 			NOT = { religion_group = dharmic }
-			NOT = { religion_group = pagan }
+			NOT = { religion_group = american_pagan }
+			NOT = { religion_group = european_pagan }
+			NOT = { religion_group = african_pagan }
+			NOT = { religion_group = asian_pagan }
+			NOT = { religion_group = ancient_pagan }
 			NOT = { religion_group = jewish_group }
 			NOT = { religion_group = zoroastrian_group }
 		}
@@ -991,7 +1023,11 @@ country_event = {
 			NOT = { religion_group = christian }
 			NOT = { religion_group = eastern }
 			NOT = { religion_group = muslim }
-			NOT = { religion_group = pagan }
+			NOT = { religion_group = american_pagan }
+			NOT = { religion_group = european_pagan }
+			NOT = { religion_group = african_pagan }
+			NOT = { religion_group = asian_pagan }
+			NOT = { religion_group = ancient_pagan }
 			NOT = { religion_group = jewish_group }
 			NOT = { religion_group = zoroastrian_group }
 		}
@@ -1103,7 +1139,11 @@ country_event = {
 			NOT = { religion_group = christian }
 			NOT = { religion_group = dharmic }
 			NOT = { religion_group = muslim }
-			NOT = { religion_group = pagan }
+			NOT = { religion_group = american_pagan }
+			NOT = { religion_group = european_pagan }
+			NOT = { religion_group = african_pagan }
+			NOT = { religion_group = asian_pagan }
+			NOT = { religion_group = ancient_pagan }
 			NOT = { religion_group = jewish_group }
 			NOT = { religion_group = zoroastrian_group }
 		}
@@ -1121,7 +1161,11 @@ country_event = {
 			NOT = { religion_group = christian }
 			NOT = { religion_group = dharmic }
 			NOT = { religion_group = muslim }
-			NOT = { religion_group = pagan }
+			NOT = { religion_group = american_pagan }
+			NOT = { religion_group = european_pagan }
+			NOT = { religion_group = african_pagan }
+			NOT = { religion_group = asian_pagan }
+			NOT = { religion_group = ancient_pagan }
 			NOT = { religion_group = jewish_group }
 			NOT = { religion_group = eastern }
 		}
@@ -1139,7 +1183,11 @@ country_event = {
 			NOT = { religion_group = christian }
 			NOT = { religion_group = dharmic }
 			NOT = { religion_group = muslim }
-			NOT = { religion_group = pagan }
+			NOT = { religion_group = american_pagan }
+			NOT = { religion_group = european_pagan }
+			NOT = { religion_group = african_pagan }
+			NOT = { religion_group = asian_pagan }
+			NOT = { religion_group = ancient_pagan }
 			NOT = { religion_group = zoroastrian_group }
 			NOT = { religion_group = eastern }
 		}

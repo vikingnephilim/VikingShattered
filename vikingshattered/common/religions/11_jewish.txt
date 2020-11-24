@@ -2,7 +2,7 @@ jewish_group = {
 	defender_of_faith = yes
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 106 107 }
-	jewish = {
+	sephardic = {
 		icon = 20
 		color = { 0 48 200 }
 		country = {
@@ -41,12 +41,12 @@ jewish_group = {
 			global_unrest = -1
 		}
 		allowed_conversion = {
-			jewish
+			sephardic
 			hasidic_faith
 			haymanot_faith
 			samaritan_faith
 		}
-		heretic = { samaritan_faith hasidic_faith haymanot_faith jewish }
+		heretic = { samaritan_faith hasidic_faith haymanot_faith sephardic }
 	}
 	haymanot_faith = {
 		icon = 52
@@ -64,12 +64,12 @@ jewish_group = {
 			advisor_cost = -0.3
 		}
 		allowed_conversion = {
-			jewish
+			sephardic
 			hasidic_faith
 			karaite_faith
 			samaritan_faith
 		}
-			heretic = { samaritan_faith karaite_faith hasidic_faith jewish }
+			heretic = { samaritan_faith karaite_faith hasidic_faith sephardic }
 	}
 	hasidic_faith = {
 		icon = 53
@@ -87,12 +87,12 @@ jewish_group = {
 			advisor_cost = -0.3
 		}
 		allowed_conversion = {
-			jewish
+			sephardic
 			haymanot_faith
 			karaite_faith
 			samaritan_faith
 		}
-			heretic = { samaritan_faith karaite_faith haymanot_faith jewish }
+			heretic = { samaritan_faith karaite_faith haymanot_faith sephardic }
 	}
 	samaritan_faith = {
 		icon = 54
@@ -110,12 +110,12 @@ jewish_group = {
 			advisor_cost = -0.3
 		}
 		allowed_conversion = {
-			jewish
+			sephardic
 			hasidic_faith
 			haymanot_faith
 			karaite_faith
 		}
-			heretic = { karaite_faith hasidic_faith haymanot_faith jewish }
+			heretic = { karaite_faith hasidic_faith haymanot_faith sephardic }
 	}
 	harmonized_modifier = harmonized_jewish_group
 	crusade_name = HOLY_WAR

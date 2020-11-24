@@ -246,7 +246,7 @@ country_event = {
 			mil = 1
 			claim = 100
 			male = yes
-			religion = jewish
+			religion = sephardic
 			culture = hebrew
 		}
 	}
