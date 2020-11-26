@@ -171,7 +171,7 @@ polynesian_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = eastern
+			religion_group = asian_pagan
 			dominant_religion = polynesian
 		}
 	}
@@ -195,7 +195,7 @@ polynesian_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = eastern }
+				NOT = { religion_group = asian_pagan }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +232,7 @@ polynesian_rebels = {
 			limit = {
 				NOT = { religion = polynesian }
 				NOT = { dominant_religion = polynesian }
-				religion_group = eastern
+				religion_group = asian_pagan
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			

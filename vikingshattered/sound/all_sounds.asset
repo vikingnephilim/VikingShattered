@@ -190,6 +190,10 @@ sound = {
 	file = "start_conversion_muslim_sunni.wav"
 }
 sound = {
+	name = start_convert_dayawism
+	file = "start_conversion_pagan_animism.wav"
+}
+sound = {
 	name = start_convert_animism
 	file = "start_conversion_pagan_animism.wav"
 }

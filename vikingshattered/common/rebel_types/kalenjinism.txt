@@ -171,7 +171,7 @@ kalenjinism_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = eastern
+			religion_group = african_pagan
 			dominant_religion = kalenjinism
 		}
 	}
@@ -195,7 +195,7 @@ kalenjinism_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = eastern }
+				NOT = { religion_group = african_pagan }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +232,7 @@ kalenjinism_rebels = {
 			limit = {
 				NOT = { religion = kalenjinism }
 				NOT = { dominant_religion = kalenjinism }
-				religion_group = eastern
+				religion_group = african_pagan
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			

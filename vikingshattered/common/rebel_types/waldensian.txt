@@ -171,7 +171,7 @@ waldensian_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = eastern
+			religion_group = christian
 			dominant_religion = waldensian
 		}
 	}
@@ -195,7 +195,7 @@ waldensian_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = eastern }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +232,7 @@ waldensian_rebels = {
 			limit = {
 				NOT = { religion = waldensian }
 				NOT = { dominant_religion = waldensian }
-				religion_group = eastern
+				religion_group = christian
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			

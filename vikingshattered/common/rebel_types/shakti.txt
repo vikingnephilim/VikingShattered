@@ -171,7 +171,7 @@ shakti_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = eastern
+			religion_group = dharmic
 			dominant_religion = shakti
 		}
 	}
@@ -195,7 +195,7 @@ shakti_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = eastern }
+				NOT = { religion_group = dharmic }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +232,7 @@ shakti_rebels = {
 			limit = {
 				NOT = { religion = shakti }
 				NOT = { dominant_religion = shakti }
-				religion_group = eastern
+				religion_group = dharmic
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			

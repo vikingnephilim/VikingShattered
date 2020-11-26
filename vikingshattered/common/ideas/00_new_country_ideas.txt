@@ -1248,7 +1248,6 @@ phonician_ideas = {
 		AND = {
 			culture_group = phoenician_g
 			AND = { 
-				NOT = { tag = PCT }
 				NOT = { tag = P01 }
 			}
 		}

@@ -171,7 +171,7 @@ lollard_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = eastern
+			religion_group = christian
 			dominant_religion = lollard
 		}
 	}
@@ -195,7 +195,7 @@ lollard_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = eastern }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +232,7 @@ lollard_rebels = {
 			limit = {
 				NOT = { religion = lollard }
 				NOT = { dominant_religion = lollard }
-				religion_group = eastern
+				religion_group = christian
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			

@@ -171,7 +171,7 @@ bon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = eastern
+			religion_group = dharmic
 			dominant_religion = bon
 		}
 	}
@@ -195,7 +195,7 @@ bon_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = eastern }
+				NOT = { religion_group = dharmic }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +232,7 @@ bon_rebels = {
 			limit = {
 				NOT = { religion = bon }
 				NOT = { dominant_religion = bon }
-				religion_group = eastern
+				religion_group = dharmic
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			

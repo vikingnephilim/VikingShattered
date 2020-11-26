@@ -171,7 +171,7 @@ bornoism_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = eastern
+			religion_group = african_pagan
 			dominant_religion = bornoism
 		}
 	}
@@ -195,7 +195,7 @@ bornoism_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = eastern }
+				NOT = { religion_group = african_pagan }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +232,7 @@ bornoism_rebels = {
 			limit = {
 				NOT = { religion = bornoism }
 				NOT = { dominant_religion = bornoism }
-				religion_group = eastern
+				religion_group = african_pagan
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			

@@ -171,7 +171,7 @@ baltic_pagan_reformed_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = eastern
+			religion_group = european_pagan
 			dominant_religion = baltic_pagan_reformed
 		}
 	}
@@ -195,7 +195,7 @@ baltic_pagan_reformed_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = eastern }
+				NOT = { religion_group = european_pagan }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +232,7 @@ baltic_pagan_reformed_rebels = {
 			limit = {
 				NOT = { religion = baltic_pagan_reformed }
 				NOT = { dominant_religion = baltic_pagan_reformed }
-				religion_group = eastern
+				religion_group = european_pagan
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			

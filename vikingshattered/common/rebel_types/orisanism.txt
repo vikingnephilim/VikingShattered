@@ -171,7 +171,7 @@ orisanism_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = eastern
+			religion_group = african_pagan
 			dominant_religion = orisanism
 		}
 	}
@@ -195,7 +195,7 @@ orisanism_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = eastern }
+				NOT = { religion_group = african_pagan }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +232,7 @@ orisanism_rebels = {
 			limit = {
 				NOT = { religion = orisanism }
 				NOT = { dominant_religion = orisanism }
-				religion_group = eastern
+				religion_group = african_pagan
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			

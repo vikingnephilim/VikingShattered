@@ -171,7 +171,7 @@ siguism_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = eastern
+			religion_group = african_pagan
 			dominant_religion = siguism
 		}
 	}
@@ -195,7 +195,7 @@ siguism_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = eastern }
+				NOT = { religion_group = african_pagan }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +232,7 @@ siguism_rebels = {
 			limit = {
 				NOT = { religion = siguism }
 				NOT = { dominant_religion = siguism }
-				religion_group = eastern
+				religion_group = african_pagan
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			

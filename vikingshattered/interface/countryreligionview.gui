@@ -329,8 +329,7 @@ guiTypes = {
 				format = right
 				fixedsize = yes
 			}
-			guiButtonType = 
-			{
+			guiButtonType = {
 				name ="invite_scholar_button"
 				quadTextureSprite = "GFX_muslim_school_button"
 				position = { x= 180 y = 148 }
@@ -482,38 +481,32 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name ="religion_overlay_orthodox_bg"
 				spriteType = "GFX_religion_overlay_big_bg"
 				position = { x= 50 y = 231 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="current_patriarch_authority_progress_bg"
 				spriteType = "GFX_piety_bar_bg"
 				position = { x= 91 y = 290 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="current_patriarch_authority_progress_frame"
 				spriteType = "GFX_ideaView_progress_frame_long"
 				position = { x= 84 y = 286 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="low_patriarch_authority"
 				spriteType = "GFX_icon_low_patriarch_authority"
 				position = { x= 54 y = 273 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="high_patriarch_authority"
 				spriteType = "GFX_icon_high_patriarch_authority"
 				position = { x= 272 y = 273 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="current_patriarch_authority"
 				spriteType = "GFX_war_overview_indicator"
 				position = { x= 155 y = 285 }
@@ -540,15 +533,13 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}	
-			iconType =
-			{
+			iconType = {
 				name ="no_current_icon"
 				spriteType = "GFX_icon_none"
 				position = { x = 314 y = 240 }
 				Orientation = "UPPER_LEFT"
 			}
-			iconType =
-			{
+			iconType = {
 				name ="current_icon"
 				spriteType = "GFX_russian_icons_strip"
 				position = { x = 314 y = 240 }
@@ -572,14 +563,12 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name ="religion_overlay_shinto_bg"
 				spriteType = "GFX_religion_overlay_shinto_bg"
 				position = { x= 5 y = 228 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="isolationism_icon"
 				spriteType = "GFX_isolationism_icons"
 				position = { x= 173 y = 236 }
@@ -674,8 +663,7 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name ="religion_overlay_confucianism_bg"
 				spriteType = "GFX_religion_overlay_big_bg"
 				position = { x= 26 y = 231 }
@@ -691,32 +679,27 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
-			iconType =
-			{
+			iconType = {
 				name ="current_harmony_progress_bg"
 				spriteType = "GFX_piety_bar_bg"
 				position = { x= 62 y = 276 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="current_harmony_progress_frame"
 				spriteType = "GFX_ideaView_progress_frame_long"
 				position = { x= 55 y = 273 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="low_harmony"
 				spriteType = "GFX_low_harmony"
 				position = { x= 38 y = 265 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="high_harmony"
 				spriteType = "GFX_high_harmony"
 				position = { x= 238 y = 265 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="current_harmony"
 				spriteType = "GFX_war_overview_indicator"
 				position = { x= 130 y = 273 }
@@ -818,8 +801,7 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name ="religion_overlay_orthodox_bg"
 				spriteType = "GFX_religion_blank_overlay_big_bg"
 				position = { x= 26 y = 231 }
@@ -832,8 +814,7 @@ guiTypes = {
 					format = center
 					spacing = 7
 			}
-			iconType =
-			{
+			iconType = {
 				name ="holy_site_icon_1"
 				spriteType = "GFX_icon_religion_small"
 				position = { x = 35 y = 266 }
@@ -851,8 +832,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
-			iconType =
-			{
+			iconType = {
 				name ="holy_site_icon_2"
 				spriteType = "GFX_icon_religion_small"
 				position = { x = 35 y = 296 }
@@ -870,8 +850,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
-			iconType =
-			{
+			iconType = {
 				name ="holy_site_icon_3"
 				spriteType = "GFX_icon_religion_small"
 				position = { x = 195 y = 236 }
@@ -889,8 +868,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
-			iconType =
-			{
+			iconType = {
 				name ="holy_site_icon_4"
 				spriteType = "GFX_icon_religion_small"
 				position = { x = 195 y = 266 }
@@ -908,8 +886,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
-			iconType =
-			{
+			iconType = {
 				name ="holy_site_icon_5"
 				spriteType = "GFX_icon_religion_small"
 				position = { x = 195 y = 296 }
@@ -938,8 +915,7 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name ="religion_overlay_muslim_bg"
 				spriteType = "GFX_religion_overlay_big_bg"
 				position = { x= 0 y = -70 }
@@ -954,22 +930,19 @@ guiTypes = {
 				spriteType = "GFX_piety_bar_frame"
 				position = { x= 52 y = -68 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="low_piety"
 				spriteType = "GFX_piety_icon_low"
 				position = { x= -8 y = -66 }
 				Orientation = "CENTER_LEFT"
 			}
-			iconType =
-			{
+			iconType = {
 				name ="high_piety"
 				spriteType = "GFX_piety_icon_high"
 				position = { x= 242 y = -66 }
 				Orientation = "CENTER_LEFT"
 			}
-			iconType =
-			{
+			iconType = {
 				name ="current_piety"
 				spriteType = "GFX_war_overview_indicator"
 				position = { x= 135 y = -5 }
@@ -1019,38 +992,32 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name ="religion_overlay_muslim_bg"
 				spriteType = "GFX_religion_overlay_big_bg"
 				position = { x= 0 y = -70 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="current_karma_progress_bg"
 				spriteType = "GFX_piety_bar_bg"
 				position = { x= 66 y = -25 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="current_karma_progress_frame"
 				spriteType = "GFX_ideaView_progress_frame_long"
 				position = { x= 63 y = -29 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="low_karma"
 				spriteType = "GFX_low_karma"
 				position = { x= 43 y = -36 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="high_karma"
 				spriteType = "GFX_high_karma"
 				position = { x= 243 y = -36 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="current_karma"
 				spriteType = "GFX_war_overview_indicator"
 				position = { x= 133 y = -30 }
@@ -1099,21 +1066,18 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name ="religion_overlay_hindu_bg"
 				spriteType = "GFX_religion_overlay_big_bg"
 				position = { x= 0 y = -70 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="no_deity_icon"
 				spriteType = "GFX_icon_religion"
 				position = { x = 13 y = -51 }
 				Orientation = "UPPER_LEFT"
 			}
-			iconType =
-			{
+			iconType = {
 				name ="deity_icon"
 				spriteType = "GFX_hindu_deities_strip"
 				position = { x= 25 y = -41 }
@@ -1159,21 +1123,18 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name ="religion_overlay_fetishist_bg"
 				spriteType = "GFX_religion_overlay_big_bg"
 				position = { x= 0 y = -70 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="no_cult_icon"
 				spriteType = "GFX_icon_religion"
 				position = { x = 13 y = -51 }
 				Orientation = "UPPER_LEFT"
 			}
-			iconType =
-			{
+			iconType = {
 				name ="cult_icon"
 				spriteType = "GFX_fetishists_strip"
 				position = { x= 25 y = -41 }
@@ -1221,15 +1182,13 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name = "catholic_bg"
 				spriteType = "GFX_country_religion_view_catholic_bg"
 				position = { x = 6 y = -63 }
 				Orientation = "UPPER_LEFT"
 			}
-			guiButtonType = 
-			{
+			guiButtonType = {
 				name ="papacy_controller"
 				quadTextureSprite = "GFX_shield_small"
 				position = { x= 231 y = -56 }
@@ -1240,8 +1199,7 @@ guiTypes = {
 				Orientation = "LEFT"
 				clicksound = click
 			}
-			guiButtonType = 
-			{
+			guiButtonType = {
 				name ="papacy_icon"
 				quadTextureSprite = "GFX_menubar_floating_strip"
 				position = { x= -2227 y = -20 }
@@ -1270,8 +1228,7 @@ guiTypes = {
 					format = left
 					spacing = 1
 			}			
-			iconType =
-			{
+			iconType = {
 				name = "papal_influence_icon"
 				spriteType = "GFX_papal_influence"
 				position = { x = 9 y = -14 }
@@ -1289,8 +1246,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
-			iconType =
-			{
+			iconType = {
 				name = "reform_resistance_icon"
 				spriteType = "GFX_icon_catholic_religious_resistance"
 				position = { x = 103 y = -24 }
@@ -1308,8 +1264,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
-			iconType =
-			{
+			iconType = {
 				name = "reform_desire_icon"
 				spriteType = "GFX_icon_catholic_reform_desire"
 				position = { x = -1110 y = -12 }
@@ -1328,6 +1283,7 @@ guiTypes = {
 				format = centre
 			}			
 		}	
+		###Religion specific datafield
 	################################################################################################
 	### --- Cardinal item
 	windowType = {
@@ -1367,8 +1323,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
-			iconType =
-			{
+			iconType = {
 				name ="protestant_aspects_frame_bg"
 				spriteType = "GFX_country_religion_view_protestant_bg"
 				position = { x= 3 y = -44 }
@@ -1450,8 +1405,7 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name = "fervor_bg"
 				spriteType = "GFX_country_religion_view_fervor_bg"
 				position = { x = 6 y = -63 }
@@ -1792,8 +1746,7 @@ guiTypes = {
 			horizontalBorder = ""
 			verticalBorder= ""
 			fullScreen = yes				
-			iconType =
-			{
+			iconType = {
 				name ="domesticpanel_overlay"
 				spriteType = "GFX_court_view_select_advisor_bg"
 				position = { x= -7 y = -10 }
@@ -1853,8 +1806,7 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name ="religion_overlay_hindu_bg"
 				spriteType = "GFX_hindu_deities_overlay_bg"
 				position = { x= -27 y = -72 }
@@ -1890,8 +1842,7 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name ="religion_overlay_bg"
 				spriteType = "GFX_icon_selection_overlay_bg"
 				position = { x= -27 y = -72 }
@@ -1927,8 +1878,7 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name ="religion_overlay_bg"
 				spriteType = "GFX_icon_selection_overlay_bg"
 				position = { x= -27 y = -72 }
@@ -1964,8 +1914,7 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name ="religion_overlay_fetishist_bg"
 				spriteType = "GFX_hindu_deities_overlay_bg"
 				position = { x= -27 y = -72 }
@@ -2000,44 +1949,37 @@ guiTypes = {
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
-			iconType =
-			{
+			iconType = {
 				name ="aspects_bg"
 				spriteType = "GFX_hindu_deities_overlay_bg"
 				position = { x= -27 y = -72 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="protestant_aspects_bg"
 				spriteType = "GFX_hindu_deities_overlay_bg"
 				position = { x= -27 y = -72 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="anglican_aspects_bg"
 				spriteType = "GFX_anglican_overlay_bg"
 				position = { x= -27 y = -72 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="bogomilist_aspects_bg"
 				spriteType = "GFX_anglican_overlay_bg"
 				position = { x= -27 y = -72 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="cathar_aspects_bg"
 				spriteType = "GFX_anglican_overlay_bg"
 				position = { x= -27 y = -72 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="malankara_aspects_bg"
 				spriteType = "GFX_anglican_overlay_bg"
 				position = { x= -27 y = -72 }
 			}
-			iconType =
-			{
+			iconType = {
 				name ="lollard_aspects_bg"
 				spriteType = "GFX_anglican_overlay_bg"
 				position = { x= -27 y = -72 }
@@ -2852,4 +2794,134 @@ guiTypes = {
 			#scale = 0.5
 		}
 	}	
+	
+	############## CONFUCIANISM HARMONIZED RELIGIONS ##############
+	windowType = {
+		name = "fraticelli_specific_window"
+		backGround =""
+		position = { x=32 y=300 }	
+		size = { x=280 y=50 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		Orientation = "UPPER_LEFT"
+		iconType = {
+			name = "fraticelli_bg"
+			spriteType = "GFX_country_religion_view_catholic_bg"
+			position = { x = 6 y = -63 }
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType = {
+			name ="papacy_controller"
+			quadTextureSprite = "GFX_shield_small"
+			position = { x= 231 y = -56 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+			Orientation = "LEFT"
+			clicksound = click
+		}
+		guiButtonType = {
+			name ="papacy_icon"
+			quadTextureSprite = "GFX_menubar_floating_strip"
+			position = { x= -2227 y = -20 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+			Orientation = "LEFT"
+		}
+		instantTextBoxType = {
+			name = "no_active_cardinals"
+			position = { x = 11 y = -50 }
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			text = "NO_ACTVIVE_CARDINALS"
+			maxWidth = 200
+			maxHeight = 32
+			Orientation = "UPPER_LEFT"
+			format = centre
+		}			
+		OverlappingElementsBoxType = {
+				name = "active_cardinals"
+				position = { x= 15 y = -32 }
+				size = { x = 180 y = 32 }
+				Orientation = "UPPER_LEFT"
+				format = left
+				spacing = 1
+		}			
+		iconType = {
+			name = "papal_influence_icon"
+			spriteType = "GFX_papal_influence"
+			position = { x = 9 y = -14 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_papalinfluence"
+		}
+		instantTextBoxType = {
+			name = "papal_influence_value"
+			position = { x = 45 y = -5 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "3,1"
+			maxWidth = 40
+			maxHeight = 45
+			Orientation = "UPPER_LEFT"
+			format = centre
+		}
+		iconType = {
+			name = "reform_resistance_icon"
+			spriteType = "GFX_icon_catholic_religious_resistance"
+			position = { x = 103 y = -24 }
+			scale = 0.75
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "reform_resistance_value"
+			position = { x = 135 y = -5 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "3,1"
+			maxWidth = 55
+			maxHeight = 25
+			Orientation = "UPPER_LEFT"
+			format = centre
+		}
+		iconType = {
+			name = "reform_desire_icon"
+			spriteType = "GFX_icon_catholic_reform_desire"
+			position = { x = -1110 y = -12 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_reformdesire"
+		}
+		instantTextBoxType = {
+			name = "reform_desire_value"
+			position = { x = -1135 y = -5 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "3,1"
+			maxWidth = 55
+			maxHeight = 25
+			Orientation = "UPPER_LEFT"
+			format = centre
+		}			
+	}	
+		################################################################################################
+	### --- Cardinal item
+	windowType = {
+		name = "countryreligionview_cardinalitem"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=32 y=32 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		iconType = {
+			name ="cardinal"
+			spriteType = "GFX_cardinal_icon"
+			position = { x= -6 y = -27 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_cardinal"
+		}
+	}		
 }

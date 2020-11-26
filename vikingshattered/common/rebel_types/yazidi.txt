@@ -170,7 +170,7 @@ yazidi_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = christian
+			religion_group = muslim
 			dominant_religion = yazidi
 		}
 	}
@@ -194,7 +194,7 @@ yazidi_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = christian }
+				NOT = { religion_group = muslim }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +232,7 @@ yazidi_rebels = {
 			limit = {
 				NOT = { religion = yazidi }
 				NOT = { dominant_religion = yazidi }
-				religion_group = christian
+				religion_group = muslim
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			add_country_modifier = {

@@ -170,7 +170,7 @@ romuva_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = christian
+			religion_group = european_pagan
 			dominant_religion = romuva
 		}
 	}
@@ -194,7 +194,7 @@ romuva_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = christian }
+				NOT = { religion_group = european_pagan }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +232,7 @@ romuva_rebels = {
 			limit = {
 				NOT = { religion = romuva }
 				NOT = { dominant_religion = romuva }
-				religion_group = christian
+				religion_group = european_pagan
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			add_country_modifier = {

@@ -1,6 +1,6 @@
 
 ######################################################################
-# Theravada rebels. Disgruntled fanatics.
+# Norse rebels. Disgruntled fanatics.
 ######################################################################
 norse_pagan_reformed_rebels = {
 
@@ -8,7 +8,7 @@ norse_pagan_reformed_rebels = {
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = norse_pagan_reformed #Theravada
+	religion = norse_pagan_reformed # Norse
 	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
@@ -171,7 +171,7 @@ norse_pagan_reformed_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = eastern
+			religion_group = european_pagan
 			dominant_religion = norse_pagan_reformed
 		}
 	}
@@ -195,7 +195,7 @@ norse_pagan_reformed_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = eastern }
+				NOT = { religion_group = european_pagan }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +232,7 @@ norse_pagan_reformed_rebels = {
 			limit = {
 				NOT = { religion = norse_pagan_reformed }
 				NOT = { dominant_religion = norse_pagan_reformed }
-				religion_group = eastern
+				religion_group = european_pagan
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			

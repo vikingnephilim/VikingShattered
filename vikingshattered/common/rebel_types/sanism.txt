@@ -1,6 +1,6 @@
 
 ######################################################################
-# Theravada rebels. Disgruntled fanatics.
+# Sanism rebels. Disgruntled fanatics.
 ######################################################################
 sanism_rebels = {
 
@@ -8,7 +8,7 @@ sanism_rebels = {
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = sanism #Theravada
+	religion = sanism #Sanism
 	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
@@ -171,7 +171,6 @@ sanism_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = eastern
 			dominant_religion = sanism
 		}
 	}
@@ -195,7 +194,7 @@ sanism_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = eastern }
+				NOT = { religion_group = african_pagan }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +231,7 @@ sanism_rebels = {
 			limit = {
 				NOT = { religion = sanism }
 				NOT = { dominant_religion = sanism }
-				religion_group = eastern
+				religion_group = african_pagan
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			

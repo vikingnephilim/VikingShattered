@@ -170,7 +170,7 @@ karaite_faith_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = christian
+			religion_group = jewish
 			dominant_religion = karaite_faith
 		}
 	}
@@ -194,7 +194,7 @@ karaite_faith_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = christian }
+				NOT = { religion_group = jewish }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -232,7 +232,7 @@ karaite_faith_rebels = {
 			limit = {
 				NOT = { religion = karaite_faith }
 				NOT = { dominant_religion = karaite_faith }
-				religion_group = christian
+				religion_group = jewish
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
 			add_country_modifier = {
